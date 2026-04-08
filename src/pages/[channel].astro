@@ -1,0 +1,276 @@
+---
+import Base from "../layouts/Base.astro";
+import SongTable from "../components/SongTable.astro";
+import VideoCard from "../components/VideoCard.astro";
+import CoverCard from "../components/CoverCard.astro";
+import StatsBar from "../components/StatsBar.astro";
+import { getChannels, getChannelData, getStats, getVideosByType, getMissingSetlists } from "../lib/data";
+import { slugify } from "../lib/slugify";
+
+export function getStaticPaths() {
+  const channels = getChannels();
+  return channels.map((ch) => ({
+    params: { channel: ch.channelId },
+    props: { channelId: ch.channelId },
+  }));
+}
+
+const { channelId } = Astro.props;
+const data = getChannelData(channelId)!;
+const allStats = getStats();
+const stats = allStats[channelId];
+const channels = getChannels();
+const config = channels.find((c) => c.channelId === channelId);
+
+const { streams, shorts, covers } = getVideosByType(data);
+const missing = getMissingSetlists(channelId);
+
+// 歌曲統計 (用於曲目 tab)
+const songMap = new Map<string, {
+  title: string;
+  artist: string;
+  count: number;
+  appearances: { videoId: string; date: string; videoTitle: string; url: string }[];
+}>();
+
+for (const video of data.videos) {
+  for (const song of video.songs) {
+    const key = `${song.title}||${song.artist}`;
+    const existing = songMap.get(key);
+    const app = {
+      videoId: video.videoId,
+      date: video.publishedAt,
+      videoTitle: video.title,
+      url: song.url,
+    };
+    if (existing) {
+      existing.count++;
+      existing.appearances.push(app);
+    } else {
+      songMap.set(key, { title: song.title, artist: song.artist, count: 1, appearances: [app] });
+    }
+  }
+}
+
+const songStats = Array.from(songMap.values()).sort((a, b) => b.count - a.count);
+
+// 排序: 新→舊
+const sortedStreams = [...streams].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+const sortedShorts = [...shorts].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+const sortedCovers = [...covers].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+---
+
+<Base title={data.channelName} description={`${data.channelName} の歌枠セトリ`}>
+  <!-- Header -->
+  <div class="flex items-center gap-4 mb-8">
+    {config?.avatar && (
+      <img src={config.avatar} alt={data.channelName} class="w-16 h-16 rounded-full" />
+    )}
+    <div class="flex-1">
+      <h1 class="text-2xl font-bold">{data.channelName}</h1>
+      <div class="flex gap-4 mt-1 text-sm text-text-muted">
+        <span>{stats?.uniqueSongs ?? 0} <span data-i18n="label.unique_songs">曲目</span></span>
+        <span>{streams.length} <span data-i18n="label.streams">直播</span></span>
+        <span>{covers.length} <span data-i18n="label.covers">投稿</span></span>
+        <span>{shorts.length} <span data-i18n="label.shorts">Short</span></span>
+      </div>
+    </div>
+    <button
+      id="btn-shuffle"
+      class="shrink-0 flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium text-white transition-colors"
+      style="background: linear-gradient(135deg, #5e2a89, #e40079);"
+      title="Shuffle Play"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" />
+      </svg>
+      <span data-i18n="btn.shuffle">隨機播放</span>
+    </button>
+  </div>
+
+  <!-- Shuffle data -->
+  <script is:inline define:vars={{ allSongs: data.videos.flatMap(v => v.songs.filter(s => s.seconds > 0).map(s => ({ videoId: v.videoId, start: s.seconds, title: s.title, artist: s.artist, date: v.publishedAt.slice(0, 10) }))) }}>
+    document.getElementById('btn-shuffle')?.addEventListener('click', () => {
+      if (!allSongs.length) return;
+      const shuffled = [...allSongs].sort(() => Math.random() - 0.5);
+      const pick = shuffled[0];
+      const link = document.createElement('a');
+      link.dataset.play = '';
+      link.dataset.videoId = pick.videoId;
+      link.dataset.start = String(pick.start);
+      link.dataset.title = pick.title;
+      link.dataset.artist = pick.artist;
+      link.dataset.date = pick.date;
+      link.style.display = 'none';
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+    });
+  </script>
+
+  <!-- Tabs -->
+  <div class="border-b border-border mb-6">
+    <nav class="flex gap-0 -mb-px" id="channel-tabs">
+      <button
+        data-tab="streams"
+        class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-primary text-primary"
+      >
+        <span data-i18n="tab.streams">直播</span> ({streams.length})
+      </button>
+      <button
+        data-tab="covers"
+        class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-text-muted hover:text-primary"
+      >
+        <span data-i18n="tab.covers">投稿動畫</span> ({covers.length})
+      </button>
+      <button
+        data-tab="shorts"
+        class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-text-muted hover:text-primary"
+      >
+        <span data-i18n="tab.shorts">Short</span> ({shorts.length})
+      </button>
+      <button
+        data-tab="songs"
+        class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-text-muted hover:text-primary"
+      >
+        <span data-i18n="tab.songs">全曲目</span> ({songStats.length})
+      </button>
+      {missing.length > 0 && (
+        <button
+          data-tab="missing"
+          class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-text-muted hover:text-primary"
+        >
+          <span data-i18n="tab.missing">待補</span> ({missing.length})
+        </button>
+      )}
+      <button
+        data-tab="stats"
+        class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-text-muted hover:text-primary"
+      >
+        <span data-i18n="tab.stats">統計</span>
+      </button>
+    </nav>
+  </div>
+
+  <!-- Tab: 直播 -->
+  <section id="tab-streams" class="tab-content">
+    <div class="space-y-3">
+      {sortedStreams.map((video) => (
+        <VideoCard video={video} />
+      ))}
+    </div>
+  </section>
+
+  <!-- Tab: 投稿動畫 -->
+  <section id="tab-covers" class="tab-content hidden">
+    <div class="space-y-2">
+      {sortedCovers.map((video) => (
+        <CoverCard video={video} />
+      ))}
+    </div>
+  </section>
+
+  <!-- Tab: Short -->
+  <section id="tab-shorts" class="tab-content hidden">
+    <div class="grid gap-2 sm:grid-cols-2">
+      {sortedShorts.map((video) => (
+        <CoverCard video={video} />
+      ))}
+    </div>
+  </section>
+
+  <!-- Tab: 全曲目 -->
+  <section id="tab-songs" class="tab-content hidden">
+    <SongTable songs={songStats} />
+  </section>
+
+  <!-- Tab: 待補 -->
+  {missing.length > 0 && (
+    <section id="tab-missing" class="tab-content hidden">
+      <p class="text-sm text-text-muted mb-4" data-i18n="missing.desc">
+        以下歌枠尚未有 timestamp 歌單，需要手動補充。
+      </p>
+      <div class="space-y-2">
+        {missing
+          .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+          .map((vid) => {
+            const date = vid.publishedAt.slice(0, 10);
+            return (
+              <a
+                href={vid.url}
+                target="_blank"
+                rel="noopener"
+                class="flex items-center gap-3 p-3 border border-border rounded-lg hover:border-gold/50 hover:shadow-sm transition-all group"
+              >
+                <span class="shrink-0 px-1.5 py-0.5 text-[10px] font-bold rounded bg-gold/20 text-[#eab010]" data-i18n="missing.label">
+                  待補
+                </span>
+                <span class="text-xs text-text-muted shrink-0">{date}</span>
+                <span class="text-sm truncate group-hover:text-primary transition-colors">
+                  {vid.title.slice(0, 60)}
+                </span>
+              </a>
+            );
+          })}
+      </div>
+    </section>
+  )}
+
+  <!-- Tab: 統計 -->
+  <section id="tab-stats" class="tab-content hidden">
+    {stats && (
+      <div class="space-y-8">
+        <div>
+          <h3 class="font-bold mb-3" data-i18n="stats.top_songs">Top 歌曲</h3>
+          <StatsBar
+            items={stats.topSongs.slice(0, 20).map((s) => ({
+              label: s.title,
+              value: s.count,
+            }))}
+            color="primary"
+          />
+        </div>
+        <div>
+          <h3 class="font-bold mb-3" data-i18n="stats.top_artists">Top 歌手</h3>
+          <StatsBar
+            items={stats.topArtists.slice(0, 15).map((a) => ({
+              label: a.artist,
+              value: a.count,
+            }))}
+            color="accent"
+          />
+        </div>
+      </div>
+    )}
+  </section>
+
+  <!-- Tab 切換 JS -->
+  <script>
+    const buttons = document.querySelectorAll<HTMLButtonElement>(".tab-btn");
+    const contents = document.querySelectorAll<HTMLElement>(".tab-content");
+
+    function switchTab(tabId: string) {
+      buttons.forEach((btn) => {
+        const active = btn.dataset.tab === tabId;
+        btn.classList.toggle("border-primary", active);
+        btn.classList.toggle("text-primary", active);
+        btn.classList.toggle("border-transparent", !active);
+        btn.classList.toggle("text-text-muted", !active);
+      });
+      contents.forEach((el) => {
+        el.classList.toggle("hidden", el.id !== `tab-${tabId}`);
+      });
+      history.replaceState(null, "", `#${tabId}`);
+    }
+
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => switchTab(btn.dataset.tab!));
+    });
+
+    // URL hash 初始化
+    const hash = location.hash.slice(1);
+    if (hash && document.getElementById(`tab-${hash}`)) {
+      switchTab(hash);
+    }
+  </script>
+</Base>

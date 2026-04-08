@@ -1,0 +1,44 @@
+---
+/**
+ * CSS-only 橫條圖。
+ */
+interface BarItem {
+  label: string;
+  value: number;
+}
+
+interface Props {
+  items: BarItem[];
+  maxItems?: number;
+  color?: string;
+}
+
+const { items, maxItems = 15, color = "primary" } = Astro.props;
+const display = items.slice(0, maxItems);
+const max = Math.max(...display.map((i) => i.value), 1);
+
+const colorMap: Record<string, string> = {
+  primary: "#e40079",
+  accent: "#e9507a",
+  purple: "#5e2a89",
+};
+const barColor = colorMap[color] || colorMap.primary;
+---
+
+<div class="space-y-1.5">
+  {display.map((item) => {
+    const pct = (item.value / max) * 100;
+    return (
+      <div class="flex items-center gap-2 text-sm">
+        <span class="w-32 truncate text-right text-xs text-text-muted shrink-0">{item.label}</span>
+        <div class="flex-1 h-5 bg-border/50 rounded-full overflow-hidden">
+          <div
+            class="h-full rounded-full"
+            style={`width: ${pct}%; background-color: ${barColor}`}
+          />
+        </div>
+        <span class="w-8 text-xs text-right font-medium shrink-0">{item.value}</span>
+      </div>
+    );
+  })}
+</div>

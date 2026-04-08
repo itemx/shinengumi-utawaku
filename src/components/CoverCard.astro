@@ -1,0 +1,59 @@
+---
+/**
+ * Cover カード — 投稿動畫 or Short の單曲 cover。
+ */
+import type { VideoEntry } from "../lib/data";
+
+interface Props {
+  video: VideoEntry;
+}
+
+const { video } = Astro.props;
+const song = video.songs[0];
+const date = video.publishedAt.slice(0, 10);
+const isShort = video.type === "short";
+const isOriginal = video.type === "original";
+const ytUrl = `https://www.youtube.com/watch?v=${video.videoId}`;
+---
+
+<a
+  href={ytUrl}
+  target="_blank"
+  rel="noopener"
+  data-play
+  data-video-id={video.videoId}
+  data-start="0"
+  data-title={song?.title || ""}
+  data-artist={song?.artist || ""}
+  data-date={date}
+  class="block border border-border rounded-lg p-4 hover:shadow-sm hover:border-primary/30 transition-all group"
+>
+  <div class="flex items-center justify-between gap-2">
+    <div class="flex-1 min-w-0">
+      <div class="flex items-center gap-2">
+        <span class="font-medium text-sm group-hover:text-primary transition-colors truncate">
+          {song?.title || video.title}
+        </span>
+        {isShort && (
+          <span class="shrink-0 px-1.5 py-0.5 text-[10px] font-bold rounded bg-accent/10 text-accent">
+            Short
+          </span>
+        )}
+        {isOriginal && (
+          <span class="shrink-0 px-1.5 py-0.5 text-[10px] font-bold rounded bg-gold/20 text-gold">
+            Original
+          </span>
+        )}
+      </div>
+      <div class="flex items-center gap-2 mt-0.5">
+        {song?.artist && (
+          <span class="text-xs text-text-muted">{song.artist}</span>
+        )}
+        <span class="text-xs text-text-muted">{date}</span>
+      </div>
+    </div>
+    <span class="text-primary text-lg shrink-0 opacity-0 group-hover:opacity-100 transition-opacity">
+      &#9654;
+    </span>
+  </div>
+</a>

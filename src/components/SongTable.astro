@@ -1,0 +1,130 @@
+---
+/**
+ * 歌曲表格 — 顯示不重複歌曲列表，可搜尋、展開演唱紀錄。
+ */
+import { formatTimestamp, extractSeconds } from "../lib/format";
+interface SongStat {
+  title: string;
+  artist: string;
+  count: number;
+  appearances: {
+    videoId: string;
+    date: string;
+    videoTitle: string;
+    url: string;
+  }[];
+}
+
+interface Props {
+  songs: SongStat[];
+  showSearch?: boolean;
+}
+
+const { songs, showSearch = true } = Astro.props;
+---
+
+{showSearch && (
+  <div class="mb-4">
+    <input
+      type="search"
+      id="song-search"
+      placeholder="以曲名或歌手搜尋..."
+      data-i18n-placeholder="search.placeholder"
+      class="w-full px-4 py-2 border border-border rounded-full text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+    />
+    <p id="search-count" class="text-xs text-text-muted mt-1 hidden"></p>
+  </div>
+)}
+
+<div class="overflow-x-auto">
+  <table class="w-full text-sm">
+    <thead>
+      <tr class="border-b-2 border-primary/20 text-left">
+        <th class="py-2 px-2 font-medium" data-i18n="table.song">曲名</th>
+        <th class="py-2 px-2 font-medium" data-i18n="table.artist">歌手</th>
+        <th class="py-2 px-2 font-medium text-center w-16" data-i18n="table.count">次數</th>
+      </tr>
+    </thead>
+    <tbody>
+      {songs.map((song) => (
+        <tr
+          class="border-b border-border hover:bg-primary/5 song-row"
+          data-title={song.title.toLowerCase()}
+          data-artist={song.artist.toLowerCase()}
+        >
+          <td class="py-2 px-2" colspan="3">
+            <details>
+              <summary class="cursor-pointer flex items-center gap-2">
+                <div class="flex-1 grid grid-cols-[1fr_auto_auto] gap-2 items-center">
+                  <span class="font-medium truncate">{song.title}</span>
+                  <span class="text-text-muted truncate text-xs">{song.artist}</span>
+                  <span class="inline-flex items-center justify-center w-8 h-6 rounded-full bg-primary/10 text-primary text-xs font-bold">
+                    {song.count}
+                  </span>
+                </div>
+              </summary>
+              <div class="mt-2 ml-4 mb-2 space-y-1">
+                {song.appearances
+                  .sort((a, b) => b.date.localeCompare(a.date))
+                  .map((app) => (
+                    <div class="flex items-center gap-2 text-xs text-text-muted">
+                      <span class="w-20 shrink-0">{app.date.slice(0, 10)}</span>
+                      <a
+                        href={app.url}
+                        target="_blank"
+                        rel="noopener"
+                        data-play
+                        data-video-id={app.videoId}
+                        data-start={new URL(app.url).searchParams.get("t") || "0"}
+                        data-title={song.title}
+                        data-artist={song.artist}
+                        data-date={app.date.slice(0, 10)}
+                        class="text-primary hover:text-primary-dark truncate"
+                      >
+                        {app.videoTitle.slice(0, 40)}
+                      </a>
+                      {(() => {
+                        const secs = extractSeconds(app.url);
+                        const ts = formatTimestamp(secs);
+                        return ts ? <span class="shrink-0 font-mono text-text-muted/60">{ts}</span> : null;
+                      })()}
+                    </div>
+                  ))}
+              </div>
+            </details>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+{showSearch && (
+  <script>
+    const input = document.getElementById("song-search") as HTMLInputElement;
+    const count = document.getElementById("search-count")!;
+    const rows = document.querySelectorAll<HTMLElement>(".song-row");
+    let timer: number;
+
+    input?.addEventListener("input", () => {
+      clearTimeout(timer);
+      timer = window.setTimeout(() => {
+        const q = input.value.toLowerCase().trim();
+        let visible = 0;
+        rows.forEach((row) => {
+          const title = row.dataset.title || "";
+          const artist = row.dataset.artist || "";
+          const match = !q || title.includes(q) || artist.includes(q);
+          row.style.display = match ? "" : "none";
+          if (match) visible++;
+        });
+        if (q) {
+          count.textContent = `${visible} / ${rows.length} 曲`;
+          count.classList.remove("hidden");
+        } else {
+          count.classList.add("hidden");
+        }
+      }, 150);
+    });
+  </script>
+)}

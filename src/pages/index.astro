@@ -1,0 +1,70 @@
+---
+import Base from "../layouts/Base.astro";
+import { getChannels, getStats } from "../lib/data";
+
+const channels = getChannels();
+const stats = getStats();
+---
+
+<Base title="SEG-V UtaList" description="深淵組 VTuber 歌回曲目索引">
+  <section class="text-center mb-12">
+    <img src="/seg_nof_logo.png" alt="深淵組非公式" class="h-20 mx-auto mb-4" />
+    <h1 class="text-4xl font-bold mb-3 bg-gradient-to-r from-purple to-primary bg-clip-text text-transparent">
+      SEG-V UtaList
+    </h1>
+    <p class="text-text-muted text-lg" data-i18n="index.subtitle">深淵組成員歌回曲目索引</p>
+  </section>
+
+  {channels.length === 0 ? (
+    <p class="text-center text-text-muted" data-i18n="index.no_channels">尚未登錄任何頻道</p>
+  ) : (
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {channels.map((ch) => {
+        const s = stats[ch.channelId];
+        return (
+          <a
+            href={`/${ch.channelId}`}
+            class="block rounded-lg border border-border bg-white p-6 shadow-sm hover:shadow-md transition-shadow group"
+          >
+            <div class="flex items-center gap-4 mb-4">
+              {ch.avatar && (
+                <img
+                  src={ch.avatar}
+                  alt={ch.name}
+                  class="w-14 h-14 rounded-full"
+                  loading="lazy"
+                />
+              )}
+              <div>
+                <h2 class="font-bold text-lg group-hover:text-primary transition-colors">
+                  {ch.name}
+                </h2>
+              </div>
+            </div>
+            {s && (
+              <div class="grid grid-cols-3 gap-2 text-center text-sm">
+                <div>
+                  <div class="text-2xl font-bold text-primary">{s.streamCount}</div>
+                  <div class="text-text-muted" data-i18n="label.streams">直播</div>
+                </div>
+                <div>
+                  <div class="text-2xl font-bold text-accent">{s.coverCount}</div>
+                  <div class="text-text-muted" data-i18n="label.covers">投稿</div>
+                </div>
+                <div>
+                  <div class="text-2xl font-bold text-purple">{s.shortCount}</div>
+                  <div class="text-text-muted" data-i18n="label.shorts">Short</div>
+                </div>
+                <div class="col-span-3 mt-2 pt-2 border-t border-border">
+                  <span class="text-text-muted">
+                    {s.uniqueSongs} <span data-i18n="label.unique_songs">曲目</span> · {s.totalSongs} <span data-i18n="label.performances">次演唱</span>
+                  </span>
+                </div>
+              </div>
+            )}
+          </a>
+        );
+      })}
+    </div>
+  )}
+</Base>

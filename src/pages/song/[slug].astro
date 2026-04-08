@@ -1,0 +1,67 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getAllSongs } from "../../lib/data";
+import { slugify } from "../../lib/slugify";
+import { formatTimestamp, extractSeconds } from "../../lib/format";
+
+export function getStaticPaths() {
+  const songs = getAllSongs();
+  return songs.map((song) => ({
+    params: { slug: slugify(song.title, song.artist) },
+    props: { song },
+  }));
+}
+
+const { song } = Astro.props;
+const sorted = [...song.appearances].sort((a, b) => b.date.localeCompare(a.date));
+---
+
+<Base title={`${song.title} / ${song.artist}`} description={`${song.title} の演唱紀錄`}>
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold">{song.title}</h1>
+    {song.artist && <p class="text-text-muted text-lg mt-1">{song.artist}</p>}
+    <p class="mt-2 text-sm text-text-muted">{song.count} <span data-i18n="song.performances">次演唱</span></p>
+  </div>
+
+  <div class="space-y-2">
+    {sorted.map((app) => {
+      const date = app.date.slice(0, 10);
+      const typeLabel =
+        app.type === "original" ? "Original" :
+        app.type === "short" ? "Short" :
+        app.type === "cover" ? "投稿" : "直播";
+      const typeBg =
+        app.type === "original" ? "bg-[#eab010]/20 text-[#eab010]" :
+        app.type === "short" ? "bg-accent/10 text-accent" :
+        app.type === "cover" ? "bg-purple/10 text-purple" :
+        "bg-primary/10 text-primary";
+
+      const secs = extractSeconds(app.url);
+      const ts = formatTimestamp(secs);
+
+      return (
+        <div class="flex items-center gap-3 py-2 border-b border-border text-sm">
+          <span class="w-20 text-text-muted shrink-0">{date}</span>
+          <span class={`shrink-0 px-1.5 py-0.5 text-[10px] font-bold rounded ${typeBg}`}>
+            {typeLabel}
+          </span>
+          <a
+            href={app.url}
+            target="_blank"
+            rel="noopener"
+            data-play
+            data-video-id={app.videoId}
+            data-start={new URL(app.url).searchParams.get("t") || "0"}
+            data-title={song.title}
+            data-artist={song.artist}
+            data-date={date}
+            class="text-primary hover:text-primary-dark truncate"
+          >
+            {app.channelName} &mdash; {app.videoTitle.slice(0, 50)}
+          </a>
+          {ts && <span class="shrink-0 font-mono text-xs text-text-muted/60">{ts}</span>}
+        </div>
+      );
+    })}
+  </div>
+</Base>

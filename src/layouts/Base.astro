@@ -1,0 +1,67 @@
+---
+import LangSwitch from "../components/LangSwitch.astro";
+import PlayerBar from "../components/PlayerBar.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = "SEG-V UtaList", description = "深淵組成員歌回曲目索引" } = Astro.props;
+const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`;
+---
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>{siteTitle}</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <header class="bg-gradient-to-r from-purple to-primary text-white">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2 text-white hover:text-white/90 text-xl font-bold tracking-wide">
+          <img src="/seg_nof_logo.png" alt="深淵組非公式" class="h-8 bg-white rounded-full p-0.5" />
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1" />
+          </svg>
+          SEG-V UtaList
+        </a>
+        <div class="flex items-center gap-3">
+          <a href="/submit" class="flex items-center gap-1 text-sm text-white/80 hover:text-white">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+            </svg>
+            <span data-i18n="submit.title">投稿</span>
+          </a>
+          <LangSwitch />
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1 max-w-6xl mx-auto px-4 py-8 w-full">
+      <slot />
+    </main>
+
+    <footer class="bg-purple text-white/70 text-sm">
+      <div class="max-w-6xl mx-auto px-4 py-6 text-center">
+        <p data-i18n="footer.desc">SEG-V UtaList — 深淵組成員歌回曲目索引</p>
+      </div>
+    </footer>
+
+    <PlayerBar />
+
+    <style is:global>
+      @import "../styles/global.css";
+    </style>
+  </body>
+</html>

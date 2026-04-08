@@ -1,0 +1,49 @@
+name: Ingest Setlist Submission
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  ingest:
+    # 只處理帶 setlist-submission label 的 Issue
+    if: contains(github.event.issue.labels.*.name, 'setlist-submission')
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Parse and ingest
+        run: python scripts/ingest_issue.py ${{ github.event.issue.number }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          # 允許自動處理的使用者 (逗號分隔)
+          # 不在清單中的使用者需要手動加 approved label
+          ALLOWED_USERS: ${{ vars.ALLOWED_USERS }}
+
+      - name: Rebuild stats
+        run: python scripts/build_stats.py
+
+      - name: Rebuild known songs
+        run: python scripts/build_known_songs.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "ingest: #${{ github.event.issue.number }}"
+          git push
+
+      - name: Close issue
+        run: gh issue close ${{ github.event.issue.number }} --comment "✓ 已入庫"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

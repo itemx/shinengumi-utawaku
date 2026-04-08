@@ -1,0 +1,429 @@
+---
+import Base from "../layouts/Base.astro";
+import { getChannels } from "../lib/data";
+
+const channels = getChannels();
+const channelNames = channels.map(ch => ch.name);
+const GITHUB_REPO = "itemx/shinengumi-utawaku";
+---
+
+<Base title="提交曲目清單" description="手動提交歌枠曲目清單">
+  <div class="max-w-2xl mx-auto">
+    <h1 class="text-2xl font-bold mb-2" data-i18n="submit.title">提交曲目清單</h1>
+    <p class="text-text-muted text-sm mb-6" data-i18n="submit.desc">
+      貼上 YouTube 影片網址和曲目清單，預覽確認後提交。
+    </p>
+
+    <!-- YouTube URL -->
+    <div class="mb-4">
+      <label class="block text-sm font-medium mb-1" data-i18n="submit.url_label">YouTube URL</label>
+      <input
+        type="url"
+        id="input-url"
+        placeholder="https://www.youtube.com/watch?v=..."
+        class="w-full px-4 py-2 border border-border rounded-lg text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+      />
+      <!-- Video preview -->
+      <div id="video-preview" class="mt-2 hidden">
+        <div class="flex items-center gap-3 p-3 bg-border/30 rounded-lg">
+          <img id="preview-thumb" class="w-20 h-15 rounded object-cover shrink-0" src="" alt="" />
+          <div class="flex-1 min-w-0">
+            <div id="preview-title" class="font-medium text-sm truncate"></div>
+            <div id="preview-author" class="text-xs text-text-muted"></div>
+            <!-- Video type badge -->
+            <div id="video-type-badge" class="mt-1"></div>
+          </div>
+          <div id="channel-status" class="shrink-0"></div>
+        </div>
+      </div>
+      <div id="url-error" class="text-xs text-red-500 mt-1 hidden"></div>
+    </div>
+
+    <!-- Video type selector -->
+    <div id="type-selector" class="mb-4 hidden">
+      <label class="block text-sm font-medium mb-2" data-i18n="submit.type_label">類型</label>
+      <div class="flex gap-2 flex-wrap">
+        <button data-type-btn="stream" class="type-btn px-3 py-1.5 text-xs rounded-full border border-border hover:border-primary transition-colors" data-i18n="submit.type_stream">
+          直播歌回
+        </button>
+        <button data-type-btn="cover" class="type-btn px-3 py-1.5 text-xs rounded-full border border-border hover:border-primary transition-colors" data-i18n="submit.type_cover">
+          投稿動畫
+        </button>
+        <button data-type-btn="original" class="type-btn px-3 py-1.5 text-xs rounded-full border border-border hover:border-primary transition-colors" data-i18n="submit.type_original">
+          原創曲
+        </button>
+        <button data-type-btn="short" class="type-btn px-3 py-1.5 text-xs rounded-full border border-border hover:border-primary transition-colors">
+          Short
+        </button>
+      </div>
+    </div>
+
+    <!-- Single song auto-detect (for cover/original/short) -->
+    <div id="single-song-section" class="mb-4 hidden">
+      <div class="p-4 border border-border rounded-lg bg-border/10">
+        <p class="text-sm text-text-muted mb-2" data-i18n="submit.auto_detected">自動偵測為單曲投稿：</p>
+        <div class="flex items-center gap-3">
+          <span id="auto-song" class="font-medium"></span>
+          <span id="auto-artist" class="text-text-muted">/</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Setlist text (for streams only) -->
+    <div id="setlist-section" class="mb-4">
+      <label class="block text-sm font-medium mb-1" data-i18n="submit.setlist_label">曲目清單（每行一曲）</label>
+      <textarea
+        id="input-setlist"
+        rows="10"
+        placeholder="00:03:25 曲名A / 歌手A&#10;00:08:12 曲名B / 歌手B&#10;00:15:40 曲名C / 歌手C"
+        class="w-full px-4 py-2 border border-border rounded-lg text-sm font-mono focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+      ></textarea>
+      <button
+        id="btn-preview"
+        class="mt-2 px-6 py-2 rounded-full text-sm font-medium text-white transition-colors"
+        style="background: linear-gradient(135deg, #5e2a89, #e40079);"
+        data-i18n="submit.preview_btn"
+      >
+        預覽解析
+      </button>
+    </div>
+
+    <!-- Preview table -->
+    <div id="preview-section" class="hidden mb-6">
+      <h3 class="font-bold mb-2" data-i18n="submit.preview_title">解析結果</h3>
+      <p id="preview-count" class="text-sm text-text-muted mb-2"></p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b-2 border-primary/20 text-left">
+              <th class="py-1 px-2 w-20" data-i18n="submit.col_time">時間</th>
+              <th class="py-1 px-2" data-i18n="submit.col_song">曲名</th>
+              <th class="py-1 px-2" data-i18n="submit.col_artist">歌手</th>
+            </tr>
+          </thead>
+          <tbody id="preview-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Submit button -->
+    <button
+      id="btn-submit"
+      class="hidden px-6 py-2 rounded-full text-sm font-medium text-white transition-colors"
+      style="background: linear-gradient(135deg, #5e2a89, #e40079);"
+      data-i18n="submit.submit_btn"
+    >
+      提交（建立 Issue）
+    </button>
+  </div>
+
+  <script is:inline define:vars={{ GITHUB_REPO, channelNames }}>
+    // --- URL parser ---
+    function parseYouTubeUrl(input) {
+      var text = input.trim();
+      if (!text) return null;
+      var m = text.match(/youtu\.be\/([a-zA-Z0-9_-]{11})/);
+      if (m) return { videoId: m[1] };
+      m = text.match(/[?&]v=([a-zA-Z0-9_-]{11})/);
+      if (m) return { videoId: m[1] };
+      m = text.match(/\/live\/([a-zA-Z0-9_-]{11})/);
+      if (m) return { videoId: m[1] };
+      m = text.match(/\/shorts\/([a-zA-Z0-9_-]{11})/);
+      if (m) return { videoId: m[1], isShort: true };
+      if (/^[a-zA-Z0-9_-]{11}$/.test(text)) return { videoId: text };
+      return null;
+    }
+
+    // --- Video type detection from title ---
+    function detectVideoType(title, urlIsShort) {
+      if (urlIsShort) return "short";
+      if (/歌枠|karaoke|[Ss]inging\s*[Ss]tream|歌回/.test(title)) return "stream";
+      if (/[Oo]riginal\s*[Ss]ong|オリジナル/.test(title)) return "original";
+      if (/歌ってみた|[Cc]over/.test(title)) return "cover";
+      // 含【】且像直播標題
+      if (/【.*(?:歌|sing|#).*】/.test(title)) return "stream";
+      return "unknown";
+    }
+
+    // --- Title parser for single songs ---
+    function parseSingleSongTitle(title) {
+      // 「曲名 / 歌手 Covered by VTuber」
+      var m = title.match(/^(?:【[^】]*】\s*)?(.+?)\s*\/\s*(.+?)\s+[Cc]overed/);
+      if (m) return { title: m[1].trim(), artist: m[2].replace(/\s*[Cc]overed.*$/,"").trim() };
+      // 「【歌ってみた】曲名【VTuber】」
+      m = title.match(/【\s*#?歌ってみた\s*】\s*(.+?)\s*【/);
+      if (m) { var s = m[1].trim(); return { title: s.split(/\s*\/\s*/)[0], artist: "" }; }
+      // 「【Original Song】曲名 / VTuber」
+      m = title.match(/【[^】]*[Oo]riginal[^】]*】\s*(.+?)(?:\s*\/\s*.+)?$/);
+      if (m) return { title: m[1].replace(/\s*(?:Official\s*MV|MV).*$/i,"").trim(), artist: "" };
+      // 「曲名 / 歌手」
+      m = title.match(/^(.+?)\s*\/\s*(.+?)(?:\s*【|$)/);
+      if (m) return { title: m[1].trim(), artist: m[2].trim() };
+      return { title: title.replace(/\s*【.*】\s*/g,"").trim(), artist: "" };
+    }
+
+    // --- Setlist parser ---
+    var TIMESTAMP_RE = /^\s*(\d{1,2}:\d{2}(?::\d{2})?)\s+(.+)$/;
+    var RANGE_TS_RE = /^\s*(\d{1,2}:\d{2}(?::\d{2})?)\s*-\s*\d{1,2}:\d{2}(?::\d{2})?\s+(.+)$/;
+    var NUMBERING_RE = /^\d{1,3}[\.\)]\s*/;
+    var PREFIX_RE = /^(?:アンコール|encore|EN)[：:\s]+\s*/i;
+    var SEPARATORS = [" / ", " ／ ", " - ", " − ", " ー "];
+    var SKIP_TITLES = ["スタート","start","START","エンディング","ending","ENDING","雑談","トーク","休憩","配信開始","配信終了","開始","はじまり","始まり","オープニングトーク","エンディングトーク","MC"];
+
+    function tsToSec(ts) {
+      var p = ts.split(":").map(Number);
+      if (p.length === 3) return p[0]*3600+p[1]*60+p[2];
+      return p[0]*60+p[1];
+    }
+    function splitTA(text) {
+      text = text.trim().replace(PREFIX_RE, "").trim();
+      var bm = text.match(/[「『](.+?)[」』]\s*[/／\-]?\s*(.+)?/);
+      if (bm) return [bm[1].trim(), (bm[2]||"").trim()];
+      for (var i=0;i<SEPARATORS.length;i++) {
+        if (text.indexOf(SEPARATORS[i]) >= 0) {
+          var parts = text.split(SEPARATORS[i], 2);
+          return [parts[0].trim(), parts[1].trim()];
+        }
+      }
+      var lm = text.match(/(.+?)\s*[/／]\s+(.+)/);
+      if (lm) return [lm[1].trim(), lm[2].trim()];
+      return [text, ""];
+    }
+    function parseSetlist(text) {
+      var lines = text.split("\n"), songs = [];
+      var rangeCount = 0, plainCount = 0;
+      for (var i=0;i<lines.length;i++) {
+        if (RANGE_TS_RE.test(lines[i])) rangeCount++;
+        else if (TIMESTAMP_RE.test(lines[i])) plainCount++;
+      }
+      var useRange = rangeCount >= 3 && rangeCount >= plainCount * 0.5;
+      for (var i=0;i<lines.length;i++) {
+        var m = useRange ? lines[i].match(RANGE_TS_RE) : null;
+        if (!m) m = lines[i].match(TIMESTAMP_RE);
+        if (!m) continue;
+        var ts = m[1], sec = tsToSec(ts);
+        if (sec === 0) continue;
+        var rest = m[2].replace(/[🎵🎶🎤🎸🎹🎼🎧♪♫★☆▶►]+/g, "").trim();
+        rest = rest.replace(NUMBERING_RE, "").trim();
+        var ta = splitTA(rest);
+        if (!ta[0] || SKIP_TITLES.indexOf(ta[0]) >= 0) continue;
+        songs.push({ timestamp: ts, seconds: sec, title: ta[0], artist: ta[1] });
+      }
+      return songs;
+    }
+
+    // --- DOM ---
+    var inputUrl = document.getElementById("input-url");
+    var inputSetlist = document.getElementById("input-setlist");
+    var btnPreview = document.getElementById("btn-preview");
+    var btnSubmit = document.getElementById("btn-submit");
+    var videoPreview = document.getElementById("video-preview");
+    var previewThumb = document.getElementById("preview-thumb");
+    var previewTitle = document.getElementById("preview-title");
+    var previewAuthor = document.getElementById("preview-author");
+    var videoTypeBadge = document.getElementById("video-type-badge");
+    var channelStatus = document.getElementById("channel-status");
+    var urlError = document.getElementById("url-error");
+    var typeSelector = document.getElementById("type-selector");
+    var singleSongSection = document.getElementById("single-song-section");
+    var setlistSection = document.getElementById("setlist-section");
+    var autoSong = document.getElementById("auto-song");
+    var autoArtist = document.getElementById("auto-artist");
+    var previewSection = document.getElementById("preview-section");
+    var previewCount = document.getElementById("preview-count");
+    var previewTbody = document.getElementById("preview-tbody");
+
+    var currentVideoId = "";
+    var currentVideoTitle = "";
+    var channelAllowed = false;
+    var detectedType = "unknown";
+    var autoDetected = null; // { title, artist }
+    var parsedSongs = [];
+
+    var typeLabels = {
+      stream: { zh: "直播歌回", ja: "配信", color: "bg-primary/10 text-primary" },
+      cover: { zh: "投稿動畫", ja: "投稿動画", color: "bg-purple/10 text-purple" },
+      original: { zh: "原創曲", ja: "オリジナル曲", color: "bg-[#eab010]/20 text-[#eab010]" },
+      short: { zh: "Short", ja: "Short", color: "bg-accent/10 text-accent" },
+      unknown: { zh: "未知類型", ja: "不明", color: "bg-border text-text-muted" },
+    };
+
+    // --- Switch type (auto or manual) ---
+    function switchToType(type) {
+      detectedType = type;
+
+      // Update badge with i18n key
+      var label = typeLabels[type] || typeLabels.unknown;
+      var i18nKey = "submit.type_" + type;
+      videoTypeBadge.innerHTML =
+        '<span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold ' + label.color + '" data-i18n="' + i18nKey + '">' +
+        label.zh + '</span>';
+
+      // Highlight active type button
+      document.querySelectorAll(".type-btn").forEach(function(btn) {
+        var active = btn.getAttribute("data-type-btn") === type;
+        btn.classList.toggle("border-primary", active);
+        btn.classList.toggle("text-primary", active);
+        btn.classList.toggle("font-bold", active);
+        btn.classList.toggle("border-border", !active);
+      });
+
+      // Show/hide sections
+      if (type === "stream" || type === "unknown") {
+        setlistSection.classList.remove("hidden");
+        singleSongSection.classList.add("hidden");
+        autoDetected = null;
+        btnSubmit.classList.add("hidden");
+      } else {
+        setlistSection.classList.add("hidden");
+        previewSection.classList.add("hidden");
+        autoDetected = parseSingleSongTitle(currentVideoTitle);
+        autoSong.textContent = autoDetected.title;
+        autoArtist.textContent = autoDetected.artist ? "/ " + autoDetected.artist : "";
+        singleSongSection.classList.remove("hidden");
+        if (channelAllowed) btnSubmit.classList.remove("hidden");
+      }
+
+      // 重新套用 i18n（動態產生的 DOM 需要更新）
+      if (window.__applyI18n) window.__applyI18n();
+    }
+
+    // --- Type button clicks ---
+    document.querySelectorAll(".type-btn").forEach(function(btn) {
+      btn.addEventListener("click", function() {
+        switchToType(btn.getAttribute("data-type-btn"));
+      });
+    });
+
+    // --- URL input ---
+    var urlTimer;
+    inputUrl.addEventListener("input", function() {
+      clearTimeout(urlTimer);
+      channelAllowed = false;
+      btnSubmit.classList.add("hidden");
+      channelStatus.innerHTML = "";
+      typeSelector.classList.add("hidden");
+      singleSongSection.classList.add("hidden");
+      setlistSection.classList.add("hidden");
+      previewSection.classList.add("hidden");
+      videoTypeBadge.innerHTML = "";
+
+      urlTimer = setTimeout(function() {
+        var result = parseYouTubeUrl(inputUrl.value);
+        if (!result) {
+          videoPreview.classList.add("hidden");
+          urlError.textContent = inputUrl.value.trim() ? "無法辨識的 YouTube URL" : "";
+          urlError.classList.toggle("hidden", !inputUrl.value.trim());
+          currentVideoId = "";
+          return;
+        }
+        currentVideoId = result.videoId;
+        urlError.classList.add("hidden");
+
+        fetch("https://www.youtube.com/oembed?url=https://youtu.be/" + result.videoId + "&format=json")
+          .then(function(r) { return r.json(); })
+          .then(function(data) {
+            previewThumb.src = data.thumbnail_url || "";
+            previewTitle.textContent = data.title || "";
+            previewAuthor.textContent = data.author_name || "";
+            currentVideoTitle = data.title || "";
+            videoPreview.classList.remove("hidden");
+
+            // 頻道驗證
+            var authorName = data.author_name || "";
+            channelAllowed = channelNames.indexOf(authorName) >= 0;
+            if (channelAllowed) {
+              channelStatus.innerHTML =
+                '<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-700">' +
+                '<svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>' +
+                '<span data-i18n="submit.channel_ok">頻道已認證</span></span>';
+            } else {
+              channelStatus.innerHTML =
+                '<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-700">' +
+                '<svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>' +
+                '<span data-i18n="submit.channel_rejected">此頻道未開放提交</span></span>';
+            }
+
+            // 顯示類型選擇器 + 自動偵測預選
+            typeSelector.classList.remove("hidden");
+            var autoType = detectVideoType(currentVideoTitle, result.isShort);
+            switchToType(autoType);
+
+            if (window.__applyI18n) window.__applyI18n();
+          })
+          .catch(function() {
+            previewThumb.src = "https://img.youtube.com/vi/" + result.videoId + "/default.jpg";
+            previewTitle.textContent = result.videoId;
+            currentVideoTitle = "";
+            videoPreview.classList.remove("hidden");
+            setlistSection.classList.remove("hidden");
+          });
+      }, 500);
+    });
+
+    // --- Preview (stream mode) ---
+    btnPreview.addEventListener("click", function() {
+      parsedSongs = parseSetlist(inputSetlist.value);
+      previewTbody.innerHTML = "";
+      for (var i=0;i<parsedSongs.length;i++) {
+        var s = parsedSongs[i];
+        var tr = document.createElement("tr");
+        tr.className = "border-b border-border";
+        tr.innerHTML =
+          '<td class="py-1 px-2 font-mono text-text-muted">' + s.timestamp + '</td>' +
+          '<td class="py-1 px-2 font-medium">' + s.title + '</td>' +
+          '<td class="py-1 px-2 text-text-muted">' + (s.artist || '<span class="text-[#eab010]">未指定</span>') + '</td>';
+        previewTbody.appendChild(tr);
+      }
+      previewCount.textContent = parsedSongs.length + " 曲";
+      previewSection.classList.remove("hidden");
+      if (parsedSongs.length > 0 && currentVideoId && channelAllowed) {
+        btnSubmit.classList.remove("hidden");
+      } else {
+        btnSubmit.classList.add("hidden");
+      }
+    });
+
+    // --- Submit ---
+    btnSubmit.addEventListener("click", function() {
+      if (!currentVideoId || !channelAllowed) return;
+
+      var issueBody, issueTitle;
+
+      if (autoDetected && (detectedType === "cover" || detectedType === "original" || detectedType === "short")) {
+        // 單曲模式
+        issueBody =
+          "---\n" +
+          "video_id: " + currentVideoId + "\n" +
+          "video_title: " + currentVideoTitle + "\n" +
+          "type: " + detectedType + "\n" +
+          "source: manual\n" +
+          "---\n\n" +
+          "0:00 " + autoDetected.title + (autoDetected.artist ? " / " + autoDetected.artist : "");
+        issueTitle = "[" + detectedType + "] " + autoDetected.title;
+      } else {
+        // セトリ模式
+        if (parsedSongs.length === 0) return;
+        var setlistBody = parsedSongs.map(function(s) {
+          return s.timestamp + " " + s.title + (s.artist ? " / " + s.artist : "");
+        }).join("\n");
+        issueBody =
+          "---\n" +
+          "video_id: " + currentVideoId + "\n" +
+          "video_title: " + currentVideoTitle + "\n" +
+          "type: stream\n" +
+          "source: manual\n" +
+          "---\n\n" +
+          setlistBody;
+        issueTitle = "[セトリ] " + (currentVideoTitle || currentVideoId);
+      }
+
+      var url = "https://github.com/" + GITHUB_REPO + "/issues/new?" +
+        "labels=setlist-submission" +
+        "&title=" + encodeURIComponent(issueTitle) +
+        "&body=" + encodeURIComponent(issueBody);
+
+      window.open(url, "_blank");
+    });
+  </script>
+</Base>

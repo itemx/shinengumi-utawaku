@@ -1,0 +1,159 @@
+"""曲名正規化模組。
+
+NFKC 正規化、裝飾清理、aliases.json 查表。
+"""
+
+from __future__ import annotations
+
+import json
+import re
+import unicodedata
+from dataclasses import dataclass
+from pathlib import Path
+
+
+@dataclass
+class NormalizeResult:
+    title: str
+    artist: str
+    matched: bool  # 至少 title 或 artist 在 alias 中命中
+
+
+# 尾部標註正則: 括號形式 (cover), (short ver.), (弾き語りver)
+_TAIL_ANNOTATION_RE = re.compile(
+    r"\s*[\(（]"
+    r"(?:cover|カバー|short\s*ver\.?|short|acoustic|弾き語り\s*ver\.?|piano\s*ver\.?|ピアノ|full|フル|original\s*ver\.?)"
+    r"[\)）]\s*$",
+    re.IGNORECASE,
+)
+
+# Dash 形式的 ver 標記: " - Piano Ver. -", " -Piano Ver.-"
+_DASH_VER_RE = re.compile(
+    r"\s*-\s*(?:Piano|Acoustic|弾き語り|ピアノ)\s*Ver\.?\s*-?\s*$",
+    re.IGNORECASE,
+)
+
+# 空白形式: "曲名 Piano Ver."
+_SPACE_VER_RE = re.compile(
+    r"\s+(?:Piano|Acoustic|弾き語り|ピアノ)\s+Ver\.?\s*$",
+    re.IGNORECASE,
+)
+
+# 前後引號/裝飾括號
+_QUOTE_CHARS = "「」『』""''\u300c\u300d\u300e\u300f"
+
+
+def load_aliases(path: Path | str) -> dict[str, dict[str, str]]:
+    """從 aliases.json 載入並建立反向查找字典。
+
+    Returns:
+        {"songs": {alias_lower: canonical, ...}, "artists": {alias_lower: canonical, ...}}
+    """
+    with open(path, encoding="utf-8") as f:
+        raw = json.load(f)
+
+    result: dict[str, dict[str, str]] = {"songs": {}, "artists": {}}
+    for category in ("songs", "artists"):
+        for canonical, aliases in raw.get(category, {}).items():
+            for alias in aliases:
+                result[category][alias.lower()] = canonical
+    return result
+
+
+def _clean_text(text: str) -> str:
+    """基礎清理。"""
+    # NFKC 正規化 (全形英數自動轉半形)
+    text = unicodedata.normalize("NFKC", text)
+    # strip
+    text = text.strip()
+    # 連續空白合一
+    text = re.sub(r"\s+", " ", text)
+    # 移除前後引號裝飾
+    text = text.strip(_QUOTE_CHARS)
+    # 移除尾部標註 (各種 ver 格式)
+    text = _TAIL_ANNOTATION_RE.sub("", text)
+    text = _DASH_VER_RE.sub("", text)
+    text = _SPACE_VER_RE.sub("", text)
+    return text.strip()
+
+
+def normalize(
+    title_raw: str, artist_raw: str, aliases: dict[str, dict[str, str]]
+) -> NormalizeResult:
+    """正規化曲名與歌手名。
+
+    Args:
+        title_raw: 原始曲名。
+        artist_raw: 原始歌手名。
+        aliases: load_aliases() 回傳的反向查找字典。
+
+    Returns:
+        NormalizeResult
+    """
+    title = _clean_text(title_raw)
+    artist = _clean_text(artist_raw)
+
+    title_matched = False
+    artist_matched = False
+
+    # 查表: title
+    songs_lookup = aliases.get("songs", {})
+    canonical_title = songs_lookup.get(title.lower())
+    if canonical_title:
+        title = canonical_title
+        title_matched = True
+
+    # 查表: artist
+    artists_lookup = aliases.get("artists", {})
+    canonical_artist = artists_lookup.get(artist.lower())
+    if canonical_artist:
+        artist = canonical_artist
+        artist_matched = True
+
+    return NormalizeResult(
+        title=title,
+        artist=artist,
+        matched=title_matched or artist_matched,
+    )
+
+
+def load_known_songs(path: Path | str) -> dict[str, str]:
+    """從 known_songs.json 建立曲名→歌手的查找表。
+
+    只收錄「該曲名只對應一位歌手」的項目，避免歧義。
+
+    Returns:
+        {title_lower: artist}
+    """
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+    # 同一曲名對應幾位不同歌手？
+    title_artists: dict[str, set[str]] = {}
+    for entry in data.get("songs", []):
+        title = entry.get("title", "").strip()
+        artist = entry.get("artist", "").strip()
+        if title and artist:
+            key = title.lower()
+            if key not in title_artists:
+                title_artists[key] = set()
+            title_artists[key].add(artist)
+
+    # 只保留唯一歌手的
+    return {
+        k: next(iter(v))
+        for k, v in title_artists.items()
+        if len(v) == 1
+    }
+
+
+def fill_missing_artist(
+    title: str, artist: str, known: dict[str, str]
+) -> str:
+    """若歌手為空，嘗試從 known_songs 補全。"""
+    if artist:
+        return artist
+    return known.get(title.lower(), "")
