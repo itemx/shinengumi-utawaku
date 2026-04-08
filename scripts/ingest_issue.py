@@ -140,6 +140,21 @@ def main():
     if not channel_id and len(channels) == 1:
         channel_id = channels[0]["channelId"]
 
+    # Fallback: 從影片標題比對頻道名稱
+    if not channel_id:
+        title_lower = video_title.lower()
+        for ch in channels:
+            ch_name = ch.get("name", "")
+            # 嘗試匹配頻道名稱中的日文部分 (例: "渉海よひら" from "Yohira ch. 渉海よひら")
+            parts = ch_name.split()
+            for part in parts:
+                if len(part) >= 3 and part.lower() in title_lower:
+                    channel_id = ch["channelId"]
+                    print(f"  ℹ 從影片標題比對到頻道: {ch_name}")
+                    break
+            if channel_id:
+                break
+
     if not channel_id:
         print("  ❌ 無法判斷頻道")
         sys.exit(1)
@@ -151,14 +166,26 @@ def main():
         name = ch_info["name"] if ch_info else channel_id
         ch_data = new_channel_data(channel_id, name)
 
+    # 重複偵測
+    existing_ids = {v["videoId"] for v in ch_data.get("videos", [])}
+    if video_id in existing_ids:
+        existing_video = next(v for v in ch_data["videos"] if v["videoId"] == video_id)
+        existing_songs = len(existing_video.get("songs", []))
+        print(f"  ⚠ 此影片已收錄 ({existing_songs} 曲)")
+        # 設定環境變數讓 workflow 知道是重複
+        with open(os.environ.get("GITHUB_OUTPUT", "/dev/null"), "a") as f:
+            f.write(f"duplicate=true\n")
+            f.write(f"existing_songs={existing_songs}\n")
+
     # 建立 video entry
+    vid_type = metadata.get("type", "stream")
     video_entry = {
         "videoId": video_id,
         "title": video_title,
         "publishedAt": "",  # Issue 不一定有日期
         "songs": song_entries,
         "sourceCommentId": f"issue#{issue_number}",
-        "type": "stream",
+        "type": vid_type,
     }
 
     merge_video(ch_data, video_entry)

@@ -4,6 +4,7 @@ import { getChannels } from "../lib/data";
 
 const channels = getChannels();
 const channelNames = channels.map(ch => ch.name);
+const channelMap = Object.fromEntries(channels.map(ch => [ch.name, ch.channelId]));
 const GITHUB_REPO = "itemx/shinengumi-utawaku";
 ---
 
@@ -117,7 +118,7 @@ const GITHUB_REPO = "itemx/shinengumi-utawaku";
     </button>
   </div>
 
-  <script is:inline define:vars={{ GITHUB_REPO, channelNames }}>
+  <script is:inline define:vars={{ GITHUB_REPO, channelNames, channelMap }}>
     // --- URL parser ---
     function parseYouTubeUrl(input) {
       var text = input.trim();
@@ -239,6 +240,7 @@ const GITHUB_REPO = "itemx/shinengumi-utawaku";
 
     var currentVideoId = "";
     var currentVideoTitle = "";
+    var currentChannelId = "";
     var channelAllowed = false;
     var detectedType = "unknown";
     var autoDetected = null; // { title, artist }
@@ -336,6 +338,7 @@ const GITHUB_REPO = "itemx/shinengumi-utawaku";
             // 頻道驗證
             var authorName = data.author_name || "";
             channelAllowed = channelNames.indexOf(authorName) >= 0;
+            currentChannelId = channelMap[authorName] || "";
             if (channelAllowed) {
               channelStatus.innerHTML =
                 '<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-700">' +
@@ -400,6 +403,7 @@ const GITHUB_REPO = "itemx/shinengumi-utawaku";
           "---\n" +
           "video_id: " + currentVideoId + "\n" +
           "video_title: " + currentVideoTitle + "\n" +
+          "channel_id: " + currentChannelId + "\n" +
           "type: " + detectedType + "\n" +
           "source: manual\n" +
           "---\n\n" +
@@ -415,6 +419,7 @@ const GITHUB_REPO = "itemx/shinengumi-utawaku";
           "---\n" +
           "video_id: " + currentVideoId + "\n" +
           "video_title: " + currentVideoTitle + "\n" +
+          "channel_id: " + currentChannelId + "\n" +
           "type: stream\n" +
           "source: manual\n" +
           "---\n\n" +
