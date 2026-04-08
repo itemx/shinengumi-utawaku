@@ -24,6 +24,9 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Logs
+logs/
+
 # Planning files (local only)
 task_plan.md
 findings.md
