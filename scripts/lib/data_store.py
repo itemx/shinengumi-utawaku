@@ -67,6 +67,10 @@ def merge_video(channel_data: dict, video: dict) -> dict:
     # 查找已存在的影片
     for i, existing in enumerate(existing_videos):
         if existing["videoId"] == video_id:
+            # 補填空白欄位 (如 publishedAt)
+            for key in ("publishedAt", "type"):
+                if not existing.get(key) and video.get(key):
+                    existing[key] = video[key]
             # 合併歌曲: 以 seconds 去重
             existing_seconds = {s["seconds"] for s in existing.get("songs", [])}
             for song in video.get("songs", []):
