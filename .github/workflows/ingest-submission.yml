@@ -58,6 +58,12 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Trigger deploy
+        if: steps.commit.outputs.changed == 'true'
+        run: gh workflow run deploy.yml
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Close issue (duplicate)
         if: steps.commit.outputs.changed == 'false'
         run: gh issue close ${{ github.event.issue.number }} --comment "ℹ️ 此影片已收錄，無新資料需要更新。"
