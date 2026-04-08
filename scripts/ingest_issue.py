@@ -177,12 +177,25 @@ def main():
             f.write(f"duplicate=true\n")
             f.write(f"existing_songs={existing_songs}\n")
 
+    # 取得影片發布日期
+    published_at = ""
+    yt_api_key = os.environ.get("YOUTUBE_API_KEY", "")
+    if yt_api_key:
+        try:
+            from scripts.lib.youtube_api import YouTubeClient
+            yt = YouTubeClient(yt_api_key)
+            info = yt.get_video_info(video_id)
+            published_at = info.get("publishedAt", "")
+            print(f"  📅 發布日期: {published_at}")
+        except Exception as e:
+            print(f"  ⚠ 無法取得發布日期: {e}")
+
     # 建立 video entry
     vid_type = metadata.get("type", "stream")
     video_entry = {
         "videoId": video_id,
         "title": video_title,
-        "publishedAt": "",  # Issue 不一定有日期
+        "publishedAt": published_at,
         "songs": song_entries,
         "sourceCommentId": f"issue#{issue_number}",
         "type": vid_type,
