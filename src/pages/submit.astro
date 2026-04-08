@@ -180,13 +180,17 @@ const GITHUB_REPO = "itemx/shinengumi-utawaku";
       var bm = text.match(/[「『](.+?)[」』]\s*[/／\-]?\s*(.+)?/);
       if (bm) return [bm[1].trim(), (bm[2]||"").trim()];
       for (var i=0;i<SEPARATORS.length;i++) {
-        if (text.indexOf(SEPARATORS[i]) >= 0) {
-          var parts = text.split(SEPARATORS[i], 2);
-          return [parts[0].trim(), parts[1].trim()];
+        var lastIdx = text.lastIndexOf(SEPARATORS[i]);
+        if (lastIdx >= 0) {
+          return [text.slice(0, lastIdx).trim(), text.slice(lastIdx + SEPARATORS[i].length).trim()];
         }
       }
-      var lm = text.match(/(.+?)\s*[/／]\s+(.+)/);
-      if (lm) return [lm[1].trim(), lm[2].trim()];
+      // 寬鬆 / : 最後一個 / 分割
+      var slashIdx = text.lastIndexOf(" / ");
+      if (slashIdx < 0) slashIdx = text.lastIndexOf(" ／ ");
+      if (slashIdx >= 0) {
+        return [text.slice(0, slashIdx).trim(), text.slice(slashIdx + 3).trim()];
+      }
       return [text, ""];
     }
     function parseSetlist(text) {

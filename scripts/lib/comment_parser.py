@@ -128,15 +128,14 @@ def _split_title_artist(text: str) -> tuple[str, str]:
         artist = (bracket_match.group(2) or "").strip()
         return title, artist
 
-    # 嘗試各種分隔符 (精確匹配, 空白包圍)
+    # 嘗試各種分隔符 — 用最後一個分割 (曲名可能含 "/")
     for sep in _SEPARATORS:
-        if sep in text:
-            parts = text.split(sep, 1)
-            return parts[0].strip(), parts[1].strip()
+        idx = text.rfind(sep)
+        if idx >= 0:
+            return text[:idx].strip(), text[idx + len(sep):].strip()
 
-    # 寬鬆 "/" 匹配: 處理 "曲名。/ 歌手" "曲名]/ 歌手" 等變體
-    # 允許 "/" 前面緊接標點或括號（無空白）
-    loose_match = re.search(r"(.+?)\s*[/／]\s+(.+)", text)
+    # 寬鬆 "/" 匹配 — 最後一個 / 分割
+    loose_match = re.search(r"(.+)\s*[/／]\s+(.+)", text)
     if loose_match:
         return loose_match.group(1).strip(), loose_match.group(2).strip()
 
