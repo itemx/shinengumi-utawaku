@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1616,
-  "uniqueTitles": 1452,
-  "uniqueArtists": 781,
+  "totalEntries": 1621,
+  "uniqueTitles": 1456,
+  "uniqueArtists": 783,
   "songs": [
     {
       "title": "残響散歌",
@@ -42,6 +42,11 @@
       "title": "花に亡霊",
       "artist": "ヨルシカ",
       "count": 10
+    },
+    {
+      "title": "Stellar Stellar",
+      "artist": "星街すいせい",
+      "count": 9
     },
     {
       "title": "眠れぬ月夜のランデブー",
@@ -91,11 +96,6 @@
     {
       "title": "勇者",
       "artist": "YOASOBI",
-      "count": 8
-    },
-    {
-      "title": "Stellar Stellar",
-      "artist": "星街すいせい",
       "count": 8
     },
     {
@@ -184,6 +184,11 @@
       "count": 8
     },
     {
+      "title": "コネクト",
+      "artist": "ClariS",
+      "count": 8
+    },
+    {
       "title": "藍二乗",
       "artist": "ヨルシカ",
       "count": 8
@@ -229,6 +234,11 @@
       "count": 7
     },
     {
+      "title": "晴る",
+      "artist": "ヨルシカ",
+      "count": 7
+    },
+    {
       "title": "ぶっ飛びな!しとら流炒飯",
       "artist": "涼風しとら",
       "count": 7
@@ -236,11 +246,6 @@
     {
       "title": "Snow halation",
       "artist": "μ's",
-      "count": 7
-    },
-    {
-      "title": "コネクト",
-      "artist": "ClariS",
       "count": 7
     },
     {
@@ -296,11 +301,6 @@
     {
       "title": "HARUKAZE",
       "artist": "SCANDAL",
-      "count": 6
-    },
-    {
-      "title": "晴る",
-      "artist": "ヨルシカ",
       "count": 6
     },
     {
@@ -516,6 +516,11 @@
     {
       "title": "吉原ラメント",
       "artist": "亜沙 feat. 重音テト",
+      "count": 5
+    },
+    {
+      "title": "I beg you",
+      "artist": "Aimer",
       "count": 5
     },
     {
@@ -784,11 +789,6 @@
       "count": 4
     },
     {
-      "title": "I beg you",
-      "artist": "Aimer",
-      "count": 4
-    },
-    {
       "title": "渡月橋 ~君 想ふ~",
       "artist": "倉木麻衣",
       "count": 4
@@ -1036,6 +1036,11 @@
     {
       "title": "SOS",
       "artist": "黛冬優子",
+      "count": 4
+    },
+    {
+      "title": "星が瞬くこんな夜に",
+      "artist": "ryo (supercell)",
       "count": 4
     },
     {
@@ -1699,6 +1704,11 @@
       "count": 3
     },
     {
+      "title": "月が綺麗ねと言われたい!",
+      "artist": "柿崎ユウタ",
+      "count": 3
+    },
+    {
       "title": "Endless Story",
       "artist": "田村ゆかり",
       "count": 3
@@ -1714,13 +1724,18 @@
       "count": 3
     },
     {
-      "title": "星が瞬くこんな夜に",
-      "artist": "ryo (supercell)",
+      "title": "桜日和",
+      "artist": "星村麻衣",
       "count": 3
     },
     {
       "title": "Departures 〜あなたにおくるアイの歌〜",
       "artist": "EGOIST",
+      "count": 3
+    },
+    {
+      "title": "あなたの夜が明けるまで",
+      "artist": "傘村トータ",
       "count": 3
     },
     {
@@ -2909,8 +2924,8 @@
       "count": 2
     },
     {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "柿崎ユウタ",
+      "title": "Remember",
+      "artist": "月見ヤチヨ",
       "count": 2
     },
     {
@@ -2939,6 +2954,11 @@
       "count": 2
     },
     {
+      "title": "さようなら、花泥棒さん",
+      "artist": "メル",
+      "count": 2
+    },
+    {
       "title": "クイーンオブハート",
       "artist": "奏音69",
       "count": 2
@@ -2954,8 +2974,8 @@
       "count": 2
     },
     {
-      "title": "桜日和",
-      "artist": "星村麻衣",
+      "title": "Rolling Star",
+      "artist": "YUI",
       "count": 2
     },
     {
@@ -3046,11 +3066,6 @@
     {
       "title": "メランコリック",
       "artist": "Junky feat.鏡音リン",
-      "count": 2
-    },
-    {
-      "title": "あなたの夜が明けるまで",
-      "artist": "傘村トータ",
       "count": 2
     },
     {
@@ -7394,11 +7409,6 @@
       "count": 1
     },
     {
-      "title": "Remember",
-      "artist": "月見ヤチヨ",
-      "count": 1
-    },
-    {
       "title": "1/6 ー out of the gravity ー",
       "artist": "ぼーかりおどP",
       "count": 1
@@ -7479,11 +7489,6 @@
       "count": 1
     },
     {
-      "title": "さようなら、花泥棒さん",
-      "artist": "メル",
-      "count": 1
-    },
-    {
       "title": "Remember",
       "artist": "月見ヤチヨ(cv.早見沙織)",
       "count": 1
@@ -7521,11 +7526,6 @@
     {
       "title": "メルト CPK!remix",
       "artist": "ryo (supercell)",
-      "count": 1
-    },
-    {
-      "title": "Rolling Star",
-      "artist": "YUI",
       "count": 1
     },
     {
@@ -8082,6 +8082,31 @@
       "title": "Preserved Roses",
       "artist": "T.M.Revolution×水樹奈々",
       "count": 1
+    },
+    {
+      "title": "晴天を穿つ",
+      "artist": "傘村トータ",
+      "count": 1
+    },
+    {
+      "title": "heavenly blue",
+      "artist": "Kalafina",
+      "count": 1
+    },
+    {
+      "title": "Weight of the World / 壊レタ世界ノ歌",
+      "artist": "河野万里奈",
+      "count": 1
+    },
+    {
+      "title": "少年よ我に歸れ",
+      "artist": "やくしまるえつこ",
+      "count": 1
+    },
+    {
+      "title": "Reply",
+      "artist": "kz",
+      "count": 1
     }
   ],
   "artists": [
@@ -8214,6 +8239,7 @@
     "KELUN",
     "KOKIA",
     "KOTOKO",
+    "Kalafina",
     "Kanaria",
     "Kanaria feat. GUMI",
     "Kanaria feat. Hatsune Miku,GUMI",
@@ -8356,6 +8382,7 @@
     "koyori(電ポルP) feat. v flower",
     "koyori(電ポルP) feat. 初音ミク",
     "koyori(電ポルP) feat. 初音ミクAppend Dark",
+    "kz",
     "kz & かぐや",
     "kz (livetune)",
     "livetune feat. 初音ミク",

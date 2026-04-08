@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-04-08T04:57:00.347785+00:00",
+  "lastFetched": "2026-04-08T10:48:38.545833+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -4024,6 +4024,159 @@
         }
       ],
       "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "uhyx_lVEIyk",
+      "title": "【 #歌枠 】新しい出会いの予感がします🌸４月最初の歌枠 🫧1曲聴いていってください 🌟 SINGING STREAM！#初見歓迎【 #karaoke / #渉海よひら / 深淵組】",
+      "publishedAt": "",
+      "songs": [
+        {
+          "timestamp": "14:58",
+          "seconds": 898,
+          "title": "晴る",
+          "titleRaw": "晴る",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=898"
+        },
+        {
+          "timestamp": "24:17",
+          "seconds": 1457,
+          "title": "Stellar Stellar",
+          "titleRaw": "Stellar Stellar",
+          "artist": "星街すいせい",
+          "artistRaw": "星街すいせい",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=1457"
+        },
+        {
+          "timestamp": "38:36",
+          "seconds": 2316,
+          "title": "コネクト",
+          "titleRaw": "コネクト",
+          "artist": "ClariS",
+          "artistRaw": "ClariS",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=2316"
+        },
+        {
+          "timestamp": "52:57",
+          "seconds": 3177,
+          "title": "晴天を穿つ",
+          "titleRaw": "晴天を穿つ",
+          "artist": "傘村トータ",
+          "artistRaw": "傘村トータ",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=3177"
+        },
+        {
+          "timestamp": "1:03:19",
+          "seconds": 3799,
+          "title": "さようなら、花泥棒さん",
+          "titleRaw": "さようなら、花泥棒さん",
+          "artist": "メル",
+          "artistRaw": "メル",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=3799"
+        },
+        {
+          "timestamp": "1:15:10",
+          "seconds": 4510,
+          "title": "月が綺麗ねと言われたい!",
+          "titleRaw": "月が綺麗ねと言われたい!",
+          "artist": "柿崎ユウタ",
+          "artistRaw": "柿崎ユウタ",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=4510"
+        },
+        {
+          "timestamp": "1:24:48",
+          "seconds": 5088,
+          "title": "I beg you",
+          "titleRaw": "I beg you",
+          "artist": "Aimer",
+          "artistRaw": "Aimer",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=5088"
+        },
+        {
+          "timestamp": "1:37:18",
+          "seconds": 5838,
+          "title": "Remember",
+          "titleRaw": "Remember",
+          "artist": "月見ヤチヨ",
+          "artistRaw": "月見ヤチヨ",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=5838"
+        },
+        {
+          "timestamp": "1:47:34",
+          "seconds": 6454,
+          "title": "Rolling Star",
+          "titleRaw": "Rolling Star",
+          "artist": "YUI",
+          "artistRaw": "YUI",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=6454"
+        },
+        {
+          "timestamp": "1:59:24",
+          "seconds": 7164,
+          "title": "桜日和",
+          "titleRaw": "桜日和",
+          "artist": "星村麻衣",
+          "artistRaw": "星村麻衣",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=7164"
+        },
+        {
+          "timestamp": "2:10:41",
+          "seconds": 7841,
+          "title": "heavenly blue",
+          "titleRaw": "heavenly blue",
+          "artist": "Kalafina",
+          "artistRaw": "Kalafina",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=7841"
+        },
+        {
+          "timestamp": "2:26:29",
+          "seconds": 8789,
+          "title": "星が瞬くこんな夜に",
+          "titleRaw": "星が瞬くこんな夜に",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=8789"
+        },
+        {
+          "timestamp": "2:33:54",
+          "seconds": 9234,
+          "title": "あなたの夜が明けるまで",
+          "titleRaw": "あなたの夜が明けるまで",
+          "artist": "傘村トータ",
+          "artistRaw": "傘村トータ",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=9234"
+        },
+        {
+          "timestamp": "2:41:23",
+          "seconds": 9683,
+          "title": "Weight of the World / 壊レタ世界ノ歌",
+          "titleRaw": "Weight of the World / 壊レタ世界ノ歌",
+          "artist": "河野万里奈",
+          "artistRaw": "河野万里奈",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=9683"
+        },
+        {
+          "timestamp": "3:00:07",
+          "seconds": 10807,
+          "title": "少年よ我に歸れ",
+          "titleRaw": "少年よ我に歸れ",
+          "artist": "やくしまるえつこ",
+          "artistRaw": "やくしまるえつこ",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=10807"
+        },
+        {
+          "timestamp": "3:12:25",
+          "seconds": 11545,
+          "title": "Reply",
+          "titleRaw": "Reply",
+          "artist": "kz",
+          "artistRaw": "kz",
+          "url": "https://youtu.be/uhyx_lVEIyk?t=11545"
+        }
+      ],
+      "sourceCommentId": "issue#1",
       "type": "stream"
     }
   ]
