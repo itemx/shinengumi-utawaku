@@ -19,10 +19,13 @@ class NormalizeResult:
     matched: bool  # 至少 title 或 artist 在 alias 中命中
 
 
-# 尾部標註正則: 括號形式 (cover), (short ver.), (弾き語りver)
+# 尾部標註正則: 括號形式 (cover), (short ver.), (THE FIRST TAKE), (JPN Ver.) 等
 _TAIL_ANNOTATION_RE = re.compile(
     r"\s*[\(（]"
-    r"(?:cover|カバー|short\s*ver\.?|short|acoustic|弾き語り\s*ver\.?|piano\s*ver\.?|ピアノ|full|フル|original\s*ver\.?)"
+    r"(?:cover|カバー|short\s*ver\.?|short|acoustic|弾き語り\s*ver\.?|piano\s*ver\.?|ピアノ|"
+    r"full|フル|original\s*ver\.?|THE FIRST TAKE|[A-Z]+ [Vv]er\.?|"
+    r"M@STER\s*VERSION|long\s*ver[:\.]?|[A-Z]{2,}\s+ver\.?|"
+    r".+\s+[Cc]over)"
     r"[\)）]\s*$",
     re.IGNORECASE,
 )
@@ -39,16 +42,21 @@ _SPACE_VER_RE = re.compile(
     re.IGNORECASE,
 )
 
-# TVアニメ / 映画 等出處標註: (TVアニメ「xxx」OP) 等
+# TVアニメ / 映画 等出處標註: (TVアニメ「xxx」OP), (ギルティクラウン OP), (ウタ from ONE PIECE...) 等
 _MEDIA_SOURCE_RE = re.compile(
-    r"\s*[\(（](?:TVアニメ|TV|アニメ|映画|劇場版|ゲーム).+?[\)）]\s*$",
+    r"\s*[\(（](?:"
+    r"(?:TVアニメ|TV|アニメ|映画|劇場版|ゲーム).+?"  # TVアニメ「xxx」OP
+    r"|.+?\s+(?:OP|ED|挿入歌|主題歌)"               # xxx OP/ED
+    r"|ウタ\s+from\s+.+?"                            # ウタ from ONE PIECE
+    r")[\)）]\s*$",
 )
 
-# 羅馬拼音/英文翻譯括號: 日文標題後接 (ASCII text)
-# 只在前面有日文字時才移除，避免誤刪英文曲名的括號
-_ROMANIZATION_RE = re.compile(
-    r"(?<=[\u3000-\u9FFF\u30A0-\u30FF\u3040-\u309F])\s*[\(（]([A-Za-z][A-Za-z\s,.\-'!?&]+)[\)）]\s*$",
+# 羅馬拼音/英文翻譯括號: 尾部 (Latin text)
+# 括號內容為純 Latin，且標題中含有日文字時才移除
+_ROMANIZATION_PAREN_RE = re.compile(
+    r"\s*[\(（]([A-Za-z][A-Za-z\s,.\-'!?&]+)[\)）]\s*$",
 )
+_HAS_JAPANESE_RE = re.compile(r"[\u3000-\u9FFF\u30A0-\u30FF\u3040-\u309F]")
 
 # feat. 在曲名中的標記 (移到歌手欄或直接移除)
 _FEAT_IN_TITLE_RE = re.compile(
@@ -98,13 +106,15 @@ def _clean_text(text: str, is_title: bool = False) -> str:
     if is_title:
         # 移除 TVアニメ 等出處標註
         text = _MEDIA_SOURCE_RE.sub("", text)
-        # 移除羅馬拼音/英文翻譯括號
-        text = _ROMANIZATION_RE.sub("", text)
+        # 移除羅馬拼音/英文翻譯括號 (標題含日文字 + 尾部純 Latin 括號)
+        if _HAS_JAPANESE_RE.search(text):
+            text = _ROMANIZATION_PAREN_RE.sub("", text)
         # 移除 feat. (保留原始歌手欄的 feat.)
         text = _FEAT_IN_TITLE_RE.sub("", text)
     # 移除歌手欄的羅馬拼音括號
     if not is_title:
-        text = _ROMANIZATION_RE.sub("", text)
+        if _HAS_JAPANESE_RE.search(text):
+            text = _ROMANIZATION_PAREN_RE.sub("", text)
     return text.strip()
 
 
