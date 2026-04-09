@@ -9,6 +9,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     // Header
     "nav.home": "首頁",
     // Index
+    "index.page_title": "SEG-V UtaList — 深淵組成員歌回曲目索引",
     "index.subtitle": "深淵組成員歌回曲目索引",
     "index.no_channels": "尚未登錄任何頻道",
     "label.streams": "直播",
@@ -37,6 +38,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "missing.desc": "以下歌枠尚未有 timestamp 歌單，需要手動補充。",
     "missing.label": "待補",
     // Submit page
+    "submit.page_title": "投稿 | SEG-V UtaList",
     "submit.title": "投稿",
 
     "submit.desc": "貼上 YouTube 影片網址和曲目清單，預覽確認後提交。",
@@ -75,6 +77,7 @@ export const translations: Record<Locale, Record<string, string>> = {
   ja: {
     "nav.home": "ホーム",
     "index.subtitle": "深淵組メンバー セトリデータベース",
+    "index.page_title": "SEG-V UtaList — 深淵組メンバー セトリデータベース",
     "index.no_channels": "まだチャンネルが登録されていません",
     "label.streams": "配信",
     "label.covers": "投稿",
@@ -97,6 +100,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "stats.top_artists": "Top アーティスト",
     "missing.desc": "以下の歌枠にはまだタイムスタンプセトリがありません。手動で追加が必要です。",
     "missing.label": "未登録",
+    "submit.page_title": "投稿 | SEG-V UtaList",
     "submit.title": "投稿",
     "submit.desc": "YouTube URLとセトリテキストを貼り付けて、プレビュー確認後に投稿してください。",
     "submit.url_label": "YouTube URL",

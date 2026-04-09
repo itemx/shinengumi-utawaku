@@ -59,6 +59,11 @@
       const key = el.dataset.i18nPlaceholder!;
       if (dict[key]) el.placeholder = dict[key];
     });
+    // 頁面標題 i18n
+    const titleKey = document.documentElement.dataset.i18nTitle;
+    if (titleKey && dict[titleKey]) {
+      document.title = dict[titleKey];
+    }
   }
 
   function highlightActive(locale: Locale) {

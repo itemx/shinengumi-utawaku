@@ -8,7 +8,7 @@ const channelMap = Object.fromEntries(channels.map(ch => [ch.name, ch.channelId]
 const GITHUB_REPO = "itemx/shinengumi-utawaku";
 ---
 
-<Base title="提交曲目清單" description="手動提交歌枠曲目清單">
+<Base title="投稿 | SEG-V UtaList" description="手動提交歌枠曲目清單" i18nTitleKey="submit.page_title">
   <div class="max-w-2xl mx-auto">
     <h1 class="text-2xl font-bold mb-2" data-i18n="submit.title">提交曲目清單</h1>
     <p class="text-text-muted text-sm mb-6" data-i18n="submit.desc">
@@ -71,7 +71,7 @@ const GITHUB_REPO = "itemx/shinengumi-utawaku";
     </div>
 
     <!-- Setlist text (for streams only) -->
-    <div id="setlist-section" class="mb-4">
+    <div id="setlist-section" class="mb-4 hidden">
       <label class="block text-sm font-medium mb-1" data-i18n="submit.setlist_label">曲目清單（每行一曲）</label>
       <textarea
         id="input-setlist"

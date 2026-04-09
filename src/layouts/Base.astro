@@ -5,14 +5,15 @@ import PlayerBar from "../components/PlayerBar.astro";
 interface Props {
   title?: string;
   description?: string;
+  i18nTitleKey?: string;
 }
 
-const { title = "SEG-V UtaList", description = "深淵組成員歌回曲目索引" } = Astro.props;
+const { title = "SEG-V UtaList", description = "深淵組成員歌回曲目索引", i18nTitleKey = "" } = Astro.props;
 const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`;
 ---
 
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-Hant" data-i18n-title={i18nTitleKey || undefined}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
