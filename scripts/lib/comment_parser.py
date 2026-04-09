@@ -23,8 +23,9 @@ _TIMESTAMP_LINE_RE = re.compile(
 )
 
 # 帶結束時間的格式: "00:02:30 - 00:06:47 01. sweet timer - iLiFE!"
+# 也支援 ~ 或 ～ 分隔: "00:02:30 ~ 00:06:47 01. title"
 _RANGE_TIMESTAMP_RE = re.compile(
-    r"^\s*(\d{1,2}:\d{2}(?::\d{2})?)\s*-\s*\d{1,2}:\d{2}(?::\d{2})?\s+(.+)$",
+    r"^\s*(\d{1,2}:\d{2}(?::\d{2})?)\s*[-~～]\s*\d{1,2}:\d{2}(?::\d{2})?\s+(.+)$",
     re.MULTILINE,
 )
 

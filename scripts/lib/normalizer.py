@@ -39,6 +39,22 @@ _SPACE_VER_RE = re.compile(
     re.IGNORECASE,
 )
 
+# TVアニメ / 映画 等出處標註: (TVアニメ「xxx」OP) 等
+_MEDIA_SOURCE_RE = re.compile(
+    r"\s*[\(（](?:TVアニメ|TV|アニメ|映画|劇場版|ゲーム).+?[\)）]\s*$",
+)
+
+# 羅馬拼音/英文翻譯括號: 日文標題後接 (ASCII text)
+# 只在前面有日文字時才移除，避免誤刪英文曲名的括號
+_ROMANIZATION_RE = re.compile(
+    r"(?<=[\u3000-\u9FFF\u30A0-\u30FF\u3040-\u309F])\s*[\(（]([A-Za-z][A-Za-z\s,.\-'!?&]+)[\)）]\s*$",
+)
+
+# feat. 在曲名中的標記 (移到歌手欄或直接移除)
+_FEAT_IN_TITLE_RE = re.compile(
+    r"\s+feat\.?\s+.+$", re.IGNORECASE,
+)
+
 # 前後引號/裝飾括號
 _QUOTE_CHARS = "「」『』""''\u300c\u300d\u300e\u300f"
 
@@ -60,8 +76,13 @@ def load_aliases(path: Path | str) -> dict[str, dict[str, str]]:
     return result
 
 
-def _clean_text(text: str) -> str:
-    """基礎清理。"""
+def _clean_text(text: str, is_title: bool = False) -> str:
+    """基礎清理。
+
+    Args:
+        text: 原始文字。
+        is_title: 若為 True，額外清理曲名特有的標註 (出處、拼音等)。
+    """
     # NFKC 正規化 (全形英數自動轉半形)
     text = unicodedata.normalize("NFKC", text)
     # strip
@@ -74,6 +95,16 @@ def _clean_text(text: str) -> str:
     text = _TAIL_ANNOTATION_RE.sub("", text)
     text = _DASH_VER_RE.sub("", text)
     text = _SPACE_VER_RE.sub("", text)
+    if is_title:
+        # 移除 TVアニメ 等出處標註
+        text = _MEDIA_SOURCE_RE.sub("", text)
+        # 移除羅馬拼音/英文翻譯括號
+        text = _ROMANIZATION_RE.sub("", text)
+        # 移除 feat. (保留原始歌手欄的 feat.)
+        text = _FEAT_IN_TITLE_RE.sub("", text)
+    # 移除歌手欄的羅馬拼音括號
+    if not is_title:
+        text = _ROMANIZATION_RE.sub("", text)
     return text.strip()
 
 
@@ -90,8 +121,8 @@ def normalize(
     Returns:
         NormalizeResult
     """
-    title = _clean_text(title_raw)
-    artist = _clean_text(artist_raw)
+    title = _clean_text(title_raw, is_title=True)
+    artist = _clean_text(artist_raw, is_title=False)
 
     title_matched = False
     artist_matched = False
