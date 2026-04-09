@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1376,
-  "uniqueTitles": 1195,
+  "totalEntries": 1373,
+  "uniqueTitles": 1189,
   "uniqueArtists": 757,
   "songs": [
     {
@@ -114,6 +114,11 @@
       "count": 9
     },
     {
+      "title": "Calc.",
+      "artist": "ジミーサムP feat. 初音ミク",
+      "count": 9
+    },
+    {
       "title": "雨とカプチーノ",
       "artist": "ヨルシカ",
       "count": 9
@@ -176,11 +181,6 @@
     {
       "title": "星間飛行",
       "artist": "ランカ・リー=中島愛",
-      "count": 8
-    },
-    {
-      "title": "Calc.",
-      "artist": "ジミーサムP feat. 初音ミク",
       "count": 8
     },
     {
@@ -739,7 +739,7 @@
       "count": 5
     },
     {
-      "title": "一番の宝物 ~Yui final ver.~",
+      "title": "一番の宝物",
       "artist": "Girls Dead Monster STARRING LiSA",
       "count": 5
     },
@@ -791,6 +791,11 @@
     {
       "title": "シンデレラ",
       "artist": "DECO*27,Rockwell feat. 初音ミク",
+      "count": 5
+    },
+    {
+      "title": "スパークル",
+      "artist": "RADWIMPS",
       "count": 5
     },
     {
@@ -1206,11 +1211,6 @@
     {
       "title": "resonance",
       "artist": "T.M.Revolution",
-      "count": 4
-    },
-    {
-      "title": "スパークル",
-      "artist": "RADWIMPS",
       "count": 4
     },
     {
@@ -2376,6 +2376,11 @@
     {
       "title": "はなまるぴっぴはよいこだけ",
       "artist": "A応P",
+      "count": 2
+    },
+    {
+      "title": "Realize",
+      "artist": "鈴木このみ",
       "count": 2
     },
     {
@@ -3874,11 +3879,6 @@
       "count": 1
     },
     {
-      "title": "Realize",
-      "artist": "鈴木このみ",
-      "count": 1
-    },
-    {
       "title": "ハッピーシンセサイザ",
       "artist": "EasyPop feat. 巡音ルカ,GUMI",
       "count": 1
@@ -4104,11 +4104,6 @@
       "count": 1
     },
     {
-      "title": "アニメ『Re:ゼロから始める異世界生活』2nd season OP Realize",
-      "artist": "鈴木このみ",
-      "count": 1
-    },
-    {
       "title": "ガンバッテンダー",
       "artist": "iLiFE!",
       "count": 1
@@ -4139,7 +4134,7 @@
       "count": 1
     },
     {
-      "title": "アニメ『家庭教師ヒットマンREBORN!』OP Drawing days",
+      "title": "Drawing days",
       "artist": "SPLAY",
       "count": 1
     },
@@ -4279,11 +4274,6 @@
       "count": 1
     },
     {
-      "title": "Calc. –Piano ver.–",
-      "artist": "ジミーサムP feat. 初音ミク",
-      "count": 1
-    },
-    {
       "title": "名もなき何もかも",
       "artist": "トゲナシトゲアリ",
       "count": 1
@@ -4394,7 +4384,7 @@
       "count": 1
     },
     {
-      "title": "アニメ『戦姫絶唱シンフォギアG』挿入歌 不死鳥のフランメ",
+      "title": "不死鳥のフランメ",
       "artist": "マリア×風鳴翼(日笠陽子×水樹奈々)",
       "count": 1
     },
@@ -5719,11 +5709,6 @@
       "count": 1
     },
     {
-      "title": "スパークル [original ver.]",
-      "artist": "RADWIMPS",
-      "count": 1
-    },
-    {
       "title": "secret base~君がくれたもの~",
       "artist": "ZONE, 本間芽衣子(茅野愛衣)/安城鳴子(戸松遥)/鶴見知利子(早見沙織)",
       "count": 1
@@ -6779,7 +6764,7 @@
       "count": 1
     },
     {
-      "title": "一番の宝物~Yui final ver.~",
+      "title": "一番の宝物",
       "artist": "LiSA",
       "count": 1
     },

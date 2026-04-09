@@ -30,9 +30,16 @@ _TAIL_ANNOTATION_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Dash 形式的 ver 標記: " - Piano Ver. -", " -Piano Ver.-"
+# Dash 形式的 ver 標記: " - Piano Ver. -", " –Piano ver.–", " ~Yui final ver.~"
+# 支援 hyphen(-), en-dash(–), em-dash(—), tilde(~,〜)
 _DASH_VER_RE = re.compile(
-    r"\s*-\s*(?:Piano|Acoustic|弾き語り|ピアノ)\s*Ver\.?\s*-?\s*$",
+    r"\s*[-–—~〜]\s*(?:[\w\s]*?\s+)?(?:Piano|Acoustic|弾き語り|ピアノ|original|final)\s*Ver\.?\s*[-–—~〜]?\s*$",
+    re.IGNORECASE,
+)
+
+# 方括號形式: "[original ver.]", "[Piano Ver.]"
+_BRACKET_VER_RE = re.compile(
+    r"\s*\[(?:[\w\s]*?\s+)?(?:Piano|Acoustic|弾き語り|ピアノ|original)\s*Ver\.?\]\s*$",
     re.IGNORECASE,
 )
 
@@ -57,6 +64,11 @@ _ROMANIZATION_PAREN_RE = re.compile(
     r"\s*[\(（]([A-Za-z][A-Za-z\s,.\-'!?&]+)[\)）]\s*$",
 )
 _HAS_JAPANESE_RE = re.compile(r"[\u3000-\u9FFF\u30A0-\u30FF\u3040-\u309F]")
+
+# 曲名前綴: アニメ『xxx』OP/ED/挿入歌 + 曲名
+_MEDIA_PREFIX_RE = re.compile(
+    r"^(?:アニメ|TVアニメ|映画|劇場版|ゲーム)[『「].+?[』」].*?(?:OP|ED|挿入歌|主題歌)[　\s]+",
+)
 
 # feat. 在曲名中的標記 (移到歌手欄或直接移除)
 _FEAT_IN_TITLE_RE = re.compile(
@@ -102,10 +114,13 @@ def _clean_text(text: str, is_title: bool = False) -> str:
     # 移除尾部標註 (各種 ver 格式)
     text = _TAIL_ANNOTATION_RE.sub("", text)
     text = _DASH_VER_RE.sub("", text)
+    text = _BRACKET_VER_RE.sub("", text)
     text = _SPACE_VER_RE.sub("", text)
     if is_title:
-        # 移除 TVアニメ 等出處標註
+        # 移除 TVアニメ 等出處標註 (尾部)
         text = _MEDIA_SOURCE_RE.sub("", text)
+        # 移除 アニメ『xxx』挿入歌 等前綴
+        text = _MEDIA_PREFIX_RE.sub("", text)
         # 移除羅馬拼音/英文翻譯括號 (標題含日文字 + 尾部純 Latin 括號)
         if _HAS_JAPANESE_RE.search(text):
             text = _ROMANIZATION_PAREN_RE.sub("", text)
