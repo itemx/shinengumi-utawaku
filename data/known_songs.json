@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1191,
+  "totalEntries": 1189,
   "uniqueTitles": 1185,
-  "uniqueArtists": 539,
+  "uniqueArtists": 538,
   "songs": [
     {
       "title": "残響散歌",
@@ -2179,6 +2179,11 @@
       "count": 2
     },
     {
+      "title": "LUVORATORRRRRY!",
+      "artist": "ギガP・れをる",
+      "count": 2
+    },
+    {
       "title": "ハングリーモンスター",
       "artist": "TOKOTOKO (西沢さんP)",
       "count": 2
@@ -3279,6 +3284,11 @@
       "count": 2
     },
     {
+      "title": "マーメイドシアター",
+      "artist": "奏音69",
+      "count": 2
+    },
+    {
       "title": "初恋サイダー",
       "artist": "Buono!",
       "count": 2
@@ -3466,11 +3476,6 @@
     {
       "title": "イガク",
       "artist": "原口沙輔",
-      "count": 1
-    },
-    {
-      "title": "LUVORATORRRRRY!",
-      "artist": "ギガP・れをる",
       "count": 1
     },
     {
@@ -4729,11 +4734,6 @@
       "count": 1
     },
     {
-      "title": "LUVORATORRRRRY!",
-      "artist": "ギガ,れをる",
-      "count": 1
-    },
-    {
       "title": "チャンス!",
       "artist": "月島きらり starring 久住小春",
       "count": 1
@@ -5549,11 +5549,6 @@
       "count": 1
     },
     {
-      "title": "マーメイドシアター",
-      "artist": "Royal Scandal",
-      "count": 1
-    },
-    {
       "title": "革命道中 On The Way",
       "artist": "AiNA THE END",
       "count": 1
@@ -5611,11 +5606,6 @@
     {
       "title": "ジェヘナ",
       "artist": "wotaku",
-      "count": 1
-    },
-    {
-      "title": "マーメイドシアター",
-      "artist": "奏音69",
       "count": 1
     },
     {
@@ -6254,7 +6244,6 @@
     "キズナアイ",
     "キタニタツヤ",
     "キノシタ",
-    "ギガ,れをる",
     "ギガP・れをる",
     "クトゥルフ神話",
     "クマムシ",
