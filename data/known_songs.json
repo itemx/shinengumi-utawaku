@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1373,
-  "uniqueTitles": 1189,
+  "totalEntries": 1372,
+  "uniqueTitles": 1186,
   "uniqueArtists": 757,
   "songs": [
     {
@@ -634,6 +634,11 @@
       "count": 5
     },
     {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 5
+    },
+    {
       "title": "吉原ラメント",
       "artist": "亜沙 feat. 重音テト",
       "count": 5
@@ -961,11 +966,6 @@
     {
       "title": "ハルジオン",
       "artist": "YOASOBI",
-      "count": 4
-    },
-    {
-      "title": "Across the world !!",
-      "artist": "深淵組",
       "count": 4
     },
     {
@@ -4424,7 +4424,7 @@
       "count": 1
     },
     {
-      "title": "深淵組 - Original Song『Across the world",
+      "title": "Across the world !!",
       "artist": "涼風しとら",
       "count": 1
     },
@@ -6804,13 +6804,8 @@
       "count": 1
     },
     {
-      "title": "Across the world",
+      "title": "Across the world !!",
       "artist": "Yohira ch. 渉海よひら",
-      "count": 1
-    },
-    {
-      "title": "Across the world!!",
-      "artist": "深淵組",
       "count": 1
     },
     {
