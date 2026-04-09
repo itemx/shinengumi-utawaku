@@ -105,6 +105,8 @@ def _clean_text(text: str, is_title: bool = False) -> str:
     """
     # NFKC 正規化 (全形英數自動轉半形)
     text = unicodedata.normalize("NFKC", text)
+    # Wave dash (U+301C) / fullwidth tilde (U+FF5E) → ASCII tilde
+    text = text.replace("\u301C", "~").replace("\uFF5E", "~")
     # strip
     text = text.strip()
     # 連續空白合一

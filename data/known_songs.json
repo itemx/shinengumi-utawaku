@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1189,
-  "uniqueTitles": 1185,
+  "totalEntries": 1188,
+  "uniqueTitles": 1184,
   "uniqueArtists": 538,
   "songs": [
     {
@@ -456,6 +456,11 @@
     {
       "title": "青のすみか",
       "artist": "キタニタツヤ",
+      "count": 6
+    },
+    {
+      "title": "Departures ~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
       "count": 6
     },
     {
@@ -1544,11 +1549,6 @@
       "count": 3
     },
     {
-      "title": "Departures ~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
-      "count": 3
-    },
-    {
       "title": "V",
       "artist": "HIMEHINA",
       "count": 3
@@ -2096,11 +2096,6 @@
     {
       "title": "桜日和",
       "artist": "星村麻衣",
-      "count": 3
-    },
-    {
-      "title": "Departures 〜あなたにおくるアイの歌〜",
-      "artist": "EGOIST",
       "count": 3
     },
     {
@@ -5424,7 +5419,7 @@
       "count": 1
     },
     {
-      "title": "かくしん的めたまるふぉ〜ぜっ!!",
+      "title": "かくしん的めたまるふぉ~ぜっ!!",
       "artist": "土間うまる(CV:田中あいみ)",
       "count": 1
     },
@@ -5624,7 +5619,7 @@
       "count": 1
     },
     {
-      "title": "フクロウ 〜フクロウが知らせる客が来たと〜",
+      "title": "フクロウ ~フクロウが知らせる客が来たと~",
       "artist": "KOKIA",
       "count": 1
     },
