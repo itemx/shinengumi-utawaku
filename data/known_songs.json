@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1372,
-  "uniqueTitles": 1186,
+  "totalEntries": 1371,
+  "uniqueTitles": 1185,
   "uniqueArtists": 757,
   "songs": [
     {
@@ -444,6 +444,11 @@
       "count": 6
     },
     {
+      "title": "ギターと孤独と蒼い惑星",
+      "artist": "結束バンド",
+      "count": 6
+    },
+    {
       "title": "阿修羅ちゃん",
       "artist": "Ado",
       "count": 6
@@ -646,11 +651,6 @@
     {
       "title": "八月の夜",
       "artist": "SILENT SIREN",
-      "count": 5
-    },
-    {
-      "title": "ギターと孤独と蒼い惑星",
-      "artist": "結束バンド",
       "count": 5
     },
     {
@@ -4589,11 +4589,6 @@
       "count": 1
     },
     {
-      "title": "ギターと孤独と蒼い惑星(Gitā to Kodoku to Aoi Wakusei)",
-      "artist": "結束バンド",
-      "count": 1
-    },
-    {
       "title": "Love so sweet",
       "artist": "嵐",
       "count": 1
@@ -4604,7 +4599,7 @@
       "count": 1
     },
     {
-      "title": "Poison(日本語版)(Poison(Japanese ver.))",
+      "title": "Poison (日本語版)",
       "artist": "Angel Dust(Blake Roman)",
       "count": 1
     },

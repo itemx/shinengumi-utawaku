@@ -59,9 +59,9 @@ _MEDIA_SOURCE_RE = re.compile(
 )
 
 # 羅馬拼音/英文翻譯括號: 尾部 (Latin text)
-# 括號內容為純 Latin，且標題中含有日文字時才移除
+# 括號內容為純 Latin (含帶變音符的拉丁字母如 ā ō ū)，且標題中含有日文字時才移除
 _ROMANIZATION_PAREN_RE = re.compile(
-    r"\s*[\(（]([A-Za-z][A-Za-z\s,.\-'!?&]+)[\)）]\s*$",
+    r"\s*[\(（]([A-Za-z\u00C0-\u024F][A-Za-z\u00C0-\u024F\s,.\-'!?&]+)[\)）]\s*$",
 )
 _HAS_JAPANESE_RE = re.compile(r"[\u3000-\u9FFF\u30A0-\u30FF\u3040-\u309F]")
 
