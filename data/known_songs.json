@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1369,
+  "totalEntries": 1258,
   "uniqueTitles": 1185,
-  "uniqueArtists": 755,
+  "uniqueArtists": 597,
   "songs": [
     {
       "title": "残響散歌",
@@ -16,6 +16,11 @@
     {
       "title": "少女S",
       "artist": "SCANDAL",
+      "count": 12
+    },
+    {
+      "title": "Calc.",
+      "artist": "ジミーサムP",
       "count": 12
     },
     {
@@ -34,6 +39,16 @@
       "count": 12
     },
     {
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "count": 12
+    },
+    {
+      "title": "少女レイ",
+      "artist": "みきとP",
+      "count": 12
+    },
+    {
       "title": "怪物",
       "artist": "YOASOBI",
       "count": 11
@@ -49,9 +64,14 @@
       "count": 11
     },
     {
-      "title": "フォニイ",
-      "artist": "ツミキ feat. 可不",
+      "title": "初めての恋が終わる時",
+      "artist": "ryo (supercell)",
       "count": 11
+    },
+    {
+      "title": "モニタリング",
+      "artist": "DECO*27",
+      "count": 10
     },
     {
       "title": "眠れぬ月夜のランデブー",
@@ -71,6 +91,11 @@
     {
       "title": "悪魔の子",
       "artist": "ヒグチアイ",
+      "count": 10
+    },
+    {
+      "title": "The Everlasting Guilty Crown",
+      "artist": "EGOIST",
       "count": 10
     },
     {
@@ -114,13 +139,18 @@
       "count": 9
     },
     {
-      "title": "Calc.",
-      "artist": "ジミーサムP feat. 初音ミク",
+      "title": "雨とカプチーノ",
+      "artist": "ヨルシカ",
       "count": 9
     },
     {
-      "title": "雨とカプチーノ",
-      "artist": "ヨルシカ",
+      "title": "ロウワー",
+      "artist": "ぬゆり",
+      "count": 9
+    },
+    {
+      "title": "IRIS OUT",
+      "artist": "米津玄師",
       "count": 9
     },
     {
@@ -129,13 +159,13 @@
       "count": 9
     },
     {
-      "title": "The Everlasting Guilty Crown",
-      "artist": "EGOIST",
+      "title": "桃源恋歌",
+      "artist": "GARNiDELiA",
       "count": 9
     },
     {
-      "title": "桃源恋歌",
-      "artist": "GARNiDELiA",
+      "title": "SOS",
+      "artist": "黛冬優子",
       "count": 9
     },
     {
@@ -184,6 +214,11 @@
       "count": 8
     },
     {
+      "title": "again",
+      "artist": "YUI",
+      "count": 8
+    },
+    {
       "title": "Song of journey",
       "artist": "涼風しとら",
       "count": 8
@@ -191,16 +226,6 @@
     {
       "title": "祝福",
       "artist": "YOASOBI",
-      "count": 8
-    },
-    {
-      "title": "ロウワー",
-      "artist": "ぬゆり feat. v flower",
-      "count": 8
-    },
-    {
-      "title": "IRIS OUT",
-      "artist": "米津玄師",
       "count": 8
     },
     {
@@ -274,8 +299,8 @@
       "count": 8
     },
     {
-      "title": "少女レイ",
-      "artist": "みきとP feat. 初音ミク",
+      "title": "トウキョウ・シャンディ・ランデヴ",
+      "artist": "MAISONdes",
       "count": 8
     },
     {
@@ -286,11 +311,6 @@
     {
       "title": "ピースサイン",
       "artist": "米津玄師",
-      "count": 7
-    },
-    {
-      "title": "again",
-      "artist": "YUI",
       "count": 7
     },
     {
@@ -325,12 +345,17 @@
     },
     {
       "title": "ヴァンパイア",
-      "artist": "DECO*27,Rockwell feat. 初音ミク",
+      "artist": "DECO*27, Rockwell",
       "count": 7
     },
     {
       "title": "KICK BACK",
       "artist": "米津玄師",
+      "count": 7
+    },
+    {
+      "title": "愛言葉IV",
+      "artist": "DECO*27",
       "count": 7
     },
     {
@@ -381,6 +406,21 @@
     {
       "title": "Ahoy!! 我ら宝鐘海賊団",
       "artist": "宝鐘マリン",
+      "count": 7
+    },
+    {
+      "title": "神っぽいな",
+      "artist": "ピノキオピー",
+      "count": 7
+    },
+    {
+      "title": "夜明けと蛍",
+      "artist": "n-buna",
+      "count": 7
+    },
+    {
+      "title": "パメラ",
+      "artist": "バルーン",
       "count": 7
     },
     {
@@ -454,6 +494,11 @@
       "count": 6
     },
     {
+      "title": "独りんぼエンヴィー",
+      "artist": "koyori (電ポルP)",
+      "count": 6
+    },
+    {
       "title": "ソワレ",
       "artist": "星街すいせい",
       "count": 6
@@ -484,8 +529,13 @@
       "count": 6
     },
     {
-      "title": "愛言葉IV",
-      "artist": "DECO*27 feat. 初音ミク",
+      "title": "千本桜",
+      "artist": "黒うさP",
+      "count": 6
+    },
+    {
+      "title": "妄想感傷代償連盟",
+      "artist": "DECO*27",
       "count": 6
     },
     {
@@ -514,23 +564,18 @@
       "count": 6
     },
     {
-      "title": "トウキョウ・シャンディ・ランデヴ",
-      "artist": "MAISONdes",
+      "title": "热爱105°C的你",
+      "artist": "阿肆",
       "count": 6
     },
     {
-      "title": "パメラ",
-      "artist": "バルーン feat. v flower",
+      "title": "ハロ/ハワユ",
+      "artist": "ナノウ",
       "count": 6
     },
     {
       "title": "UNDEAD",
       "artist": "YOASOBI",
-      "count": 5
-    },
-    {
-      "title": "モニタリング",
-      "artist": "DECO*27 feat. 初音ミク",
       "count": 5
     },
     {
@@ -554,8 +599,18 @@
       "count": 5
     },
     {
+      "title": "回る空うさぎ",
+      "artist": "Orangestar",
+      "count": 5
+    },
+    {
+      "title": "白い雪のプリンセスは",
+      "artist": "のぼる↑",
+      "count": 5
+    },
+    {
       "title": "パラサイト",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 5
     },
     {
@@ -600,12 +655,17 @@
     },
     {
       "title": "とても素敵な六月でした",
-      "artist": "Eight feat. 初音ミク",
+      "artist": "Eight",
+      "count": 5
+    },
+    {
+      "title": "ヨンジュウナナ",
+      "artist": "みきとP",
       "count": 5
     },
     {
       "title": "サリシノハラ",
-      "artist": "みきとP feat. 初音ミク",
+      "artist": "みきとP",
       "count": 5
     },
     {
@@ -645,12 +705,17 @@
     },
     {
       "title": "吉原ラメント",
-      "artist": "亜沙 feat. 重音テト",
+      "artist": "亜沙",
       "count": 5
     },
     {
       "title": "八月の夜",
       "artist": "SILENT SIREN",
+      "count": 5
+    },
+    {
+      "title": "メルト",
+      "artist": "ryo (supercell)",
       "count": 5
     },
     {
@@ -679,18 +744,13 @@
       "count": 5
     },
     {
-      "title": "千本桜",
-      "artist": "黒うさP feat. 初音ミク",
-      "count": 5
-    },
-    {
-      "title": "妄想感傷代償連盟",
-      "artist": "DECO*27 feat. 初音ミク",
-      "count": 5
-    },
-    {
       "title": "紅蓮の弓矢",
       "artist": "Linked Horizon",
+      "count": 5
+    },
+    {
+      "title": "Booo!",
+      "artist": "TOKOTOKO (西沢さんP)",
       "count": 5
     },
     {
@@ -700,7 +760,7 @@
     },
     {
       "title": "ダーリンダンス",
-      "artist": "かいりきベア feat. 初音ミク",
+      "artist": "かいりきベア",
       "count": 5
     },
     {
@@ -720,17 +780,12 @@
     },
     {
       "title": "からくりピエロ",
-      "artist": "40mP feat. 初音ミク",
-      "count": 5
-    },
-    {
-      "title": "初めての恋が終わる時",
-      "artist": "ryo(supercell) feat. 初音ミク",
+      "artist": "40mP",
       "count": 5
     },
     {
       "title": "ロミオとシンデレラ",
-      "artist": "doriko feat. 初音ミク",
+      "artist": "doriko",
       "count": 5
     },
     {
@@ -741,6 +796,11 @@
     {
       "title": "秒針を噛む",
       "artist": "ずっと真夜中でいいのに。",
+      "count": 5
+    },
+    {
+      "title": "シニカルナイトプラン",
+      "artist": "Ayase",
       "count": 5
     },
     {
@@ -770,7 +830,7 @@
     },
     {
       "title": "ハレ晴レユカイ",
-      "artist": "涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)",
+      "artist": "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
       "count": 5
     },
     {
@@ -784,13 +844,8 @@
       "count": 5
     },
     {
-      "title": "神っぽいな",
-      "artist": "ピノキオピー feat. 初音ミク",
-      "count": 5
-    },
-    {
       "title": "アイデンティティ",
-      "artist": "Kanaria feat. 初音ミク,GUMI",
+      "artist": "Kanaria",
       "count": 5
     },
     {
@@ -800,7 +855,7 @@
     },
     {
       "title": "シンデレラ",
-      "artist": "DECO*27,Rockwell feat. 初音ミク",
+      "artist": "DECO*27, Rockwell",
       "count": 5
     },
     {
@@ -809,8 +864,23 @@
       "count": 5
     },
     {
+      "title": "アスノヨゾラ哨戒班",
+      "artist": "Orangestar",
+      "count": 5
+    },
+    {
+      "title": "ファンサ",
+      "artist": "mona (夏川椎菜)",
+      "count": 5
+    },
+    {
+      "title": "ルマ",
+      "artist": "かいりきベア",
+      "count": 5
+    },
+    {
       "title": "モザイクロール",
-      "artist": "DECO*27 feat. GUMI",
+      "artist": "DECO*27",
       "count": 5
     },
     {
@@ -820,7 +890,12 @@
     },
     {
       "title": "Tell Your World",
-      "artist": "livetune feat. 初音ミク",
+      "artist": "livetune",
+      "count": 5
+    },
+    {
+      "title": "さようなら、花泥棒さん",
+      "artist": "メル",
       "count": 5
     },
     {
@@ -874,23 +949,33 @@
       "count": 4
     },
     {
+      "title": "メーベル",
+      "artist": "バルーン",
+      "count": 4
+    },
+    {
+      "title": "それがあなたの幸せとしても",
+      "artist": "Heavenz",
+      "count": 4
+    },
+    {
       "title": "マーシャル・マキシマイザー",
-      "artist": "柊マグネタイト feat. 可不",
+      "artist": "柊マグネタイト",
       "count": 4
     },
     {
       "title": "失敗作少女",
-      "artist": "かいりきベア feat. 初音ミク",
+      "artist": "かいりきベア",
       "count": 4
     },
     {
       "title": "バニー",
-      "artist": "すりぃ feat. 鏡音レン",
+      "artist": "すりぃ",
       "count": 4
     },
     {
       "title": "ベノム",
-      "artist": "かいりきベア feat. v flower",
+      "artist": "かいりきベア",
       "count": 4
     },
     {
@@ -924,13 +1009,13 @@
       "count": 4
     },
     {
-      "title": "ヤミタイガール",
-      "artist": "れるりり feat. GUMI",
+      "title": "ワールド・ランプシェード",
+      "artist": "buzzG",
       "count": 4
     },
     {
-      "title": "SOS",
-      "artist": "黛冬優子(幸村恵理)",
+      "title": "ヤミタイガール",
+      "artist": "れるりり",
       "count": 4
     },
     {
@@ -939,8 +1024,13 @@
       "count": 4
     },
     {
+      "title": "トンデモワンダーズ",
+      "artist": "sasakure.UK",
+      "count": 4
+    },
+    {
       "title": "ニア",
-      "artist": "夏代孝明 feat. 初音ミク",
+      "artist": "夏代孝明",
       "count": 4
     },
     {
@@ -949,8 +1039,38 @@
       "count": 4
     },
     {
+      "title": "ハイドアンド・シーク",
+      "artist": "19's Sound Factory",
+      "count": 4
+    },
+    {
+      "title": "レクイエム",
+      "artist": "Kanaria",
+      "count": 4
+    },
+    {
+      "title": "アカイト",
+      "artist": "みきとP",
+      "count": 4
+    },
+    {
       "title": "ミカヅキ",
       "artist": "さユり",
+      "count": 4
+    },
+    {
+      "title": "アイのシナリオ",
+      "artist": "CHiCO with HoneyWorks",
+      "count": 4
+    },
+    {
+      "title": "アイディスマイル",
+      "artist": "とあ",
+      "count": 4
+    },
+    {
+      "title": "化けの花",
+      "artist": "なきそ",
       "count": 4
     },
     {
@@ -980,7 +1100,7 @@
     },
     {
       "title": "God knows...",
-      "artist": "涼宮ハルヒ(平野綾)",
+      "artist": "涼宮ハルヒ (平野綾)",
       "count": 4
     },
     {
@@ -995,12 +1115,7 @@
     },
     {
       "title": "キャットフード",
-      "artist": "doriko feat. 初音ミク",
-      "count": 4
-    },
-    {
-      "title": "メルト",
-      "artist": "ryo(supercell) feat. 初音ミク",
+      "artist": "doriko",
       "count": 4
     },
     {
@@ -1035,7 +1150,7 @@
     },
     {
       "title": "flos",
-      "artist": "R Sound Design feat. 初音ミク",
+      "artist": "R Sound Design",
       "count": 4
     },
     {
@@ -1045,7 +1160,7 @@
     },
     {
       "title": "from Y to Y",
-      "artist": "ジミーサムP feat. 初音ミク",
+      "artist": "ジミーサムP",
       "count": 4
     },
     {
@@ -1075,7 +1190,7 @@
     },
     {
       "title": "愛言葉III",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 4
     },
     {
@@ -1085,17 +1200,22 @@
     },
     {
       "title": "インタビュア",
-      "artist": "クワガタP feat. 巡音ルカ",
+      "artist": "クワガタP",
+      "count": 4
+    },
+    {
+      "title": "乙女解剖",
+      "artist": "DECO*27",
       "count": 4
     },
     {
       "title": "バグ",
-      "artist": "かいりきベア feat. 初音ミク",
+      "artist": "かいりきベア",
       "count": 4
     },
     {
       "title": "ラヴィ",
-      "artist": "すりぃ feat. 鏡音レン",
+      "artist": "すりぃ",
       "count": 4
     },
     {
@@ -1115,7 +1235,7 @@
     },
     {
       "title": "可愛くてごめん",
-      "artist": "HoneyWorks",
+      "artist": "CHiCO with HoneyWorks",
       "count": 4
     },
     {
@@ -1160,12 +1280,22 @@
     },
     {
       "title": "アニマル",
-      "artist": "DECO*27,Rockwell feat. 初音ミク",
+      "artist": "DECO*27, Rockwell",
+      "count": 4
+    },
+    {
+      "title": "第六感",
+      "artist": "Reol",
+      "count": 4
+    },
+    {
+      "title": "シネマ",
+      "artist": "Ayase",
       "count": 4
     },
     {
       "title": "ヒバナ",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 4
     },
     {
@@ -1174,13 +1304,23 @@
       "count": 4
     },
     {
-      "title": "モニタリング",
-      "artist": "DECO*27",
+      "title": "超跑情人夢",
+      "artist": "卜學亮",
       "count": 4
     },
     {
       "title": "曇天",
       "artist": "DOES",
+      "count": 4
+    },
+    {
+      "title": "ルージュの伝言",
+      "artist": "松任谷由実",
+      "count": 4
+    },
+    {
+      "title": "心做し",
+      "artist": "蝶々P",
       "count": 4
     },
     {
@@ -1199,13 +1339,18 @@
       "count": 4
     },
     {
-      "title": "シニカルナイトプラン",
-      "artist": "Ayase feat. 初音ミク",
+      "title": "恋愛裁判",
+      "artist": "40mP",
       "count": 4
     },
     {
       "title": "うっせぇわ",
       "artist": "Ado",
+      "count": 4
+    },
+    {
+      "title": "キャットラビング",
+      "artist": "香椎モイミ",
       "count": 4
     },
     {
@@ -1220,7 +1365,7 @@
     },
     {
       "title": "恋愛サーキュレーション",
-      "artist": "千石撫子(花澤香菜)",
+      "artist": "千石撫子 (花澤香菜)",
       "count": 4
     },
     {
@@ -1229,18 +1374,23 @@
       "count": 4
     },
     {
-      "title": "ルマ",
-      "artist": "かいりきベア feat. 初音ミク",
+      "title": "おじゃま虫",
+      "artist": "DECO*27",
       "count": 4
     },
     {
-      "title": "ファンサ",
-      "artist": "mona(夏川椎菜)",
+      "title": "スペシャルガール",
+      "artist": "れるりり feat. 鳴花ヒメ・ミコト",
       "count": 4
     },
     {
       "title": "キュートなカノジョ",
-      "artist": "syudou feat. 可不",
+      "artist": "syudou",
+      "count": 4
+    },
+    {
+      "title": "ワールドイズマイン",
+      "artist": "ryo (supercell)",
       "count": 4
     },
     {
@@ -1249,23 +1399,13 @@
       "count": 4
     },
     {
-      "title": "少女レイ",
-      "artist": "みきとP",
-      "count": 4
-    },
-    {
-      "title": "ハロ/ハワユ",
-      "artist": "ナノウ",
+      "title": "メランコリック",
+      "artist": "Junky",
       "count": 4
     },
     {
       "title": "垂直落下",
       "artist": "傘村トータ",
-      "count": 4
-    },
-    {
-      "title": "SOS",
-      "artist": "黛冬優子",
       "count": 4
     },
     {
@@ -1289,8 +1429,13 @@
       "count": 3
     },
     {
+      "title": "メリュー",
+      "artist": "n-buna",
+      "count": 3
+    },
+    {
       "title": "限りなく灰色へ",
-      "artist": "すりぃ feat. 鏡音レン",
+      "artist": "すりぃ",
       "count": 3
     },
     {
@@ -1319,13 +1464,23 @@
       "count": 3
     },
     {
-      "title": "回る空うさぎ",
-      "artist": "Orangestar feat. 初音ミク",
+      "title": "No title",
+      "artist": "Reol",
       "count": 3
     },
     {
-      "title": "白い雪のプリンセスは",
-      "artist": "のぼる↑ feat. 初音ミク",
+      "title": "曖昧劣情Lover",
+      "artist": "koyori (電ポルP)",
+      "count": 3
+    },
+    {
+      "title": "テレパシ",
+      "artist": "DECO*27",
+      "count": 3
+    },
+    {
+      "title": "チェリーポップ",
+      "artist": "DECO*27",
       "count": 3
     },
     {
@@ -1335,7 +1490,7 @@
     },
     {
       "title": "みむかゥわナイストライ",
-      "artist": "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ feat. 初音ミク",
+      "artist": "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
       "count": 3
     },
     {
@@ -1370,17 +1525,17 @@
     },
     {
       "title": "ボルテッカー",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 3
     },
     {
       "title": "メロメロイド",
-      "artist": "かいりきベア feat. 初音ミク",
+      "artist": "かいりきベア",
       "count": 3
     },
     {
       "title": "Ready Steady",
-      "artist": "Giga feat. 初音ミク,鏡音リン,鏡音レン",
+      "artist": "Giga",
       "count": 3
     },
     {
@@ -1399,16 +1554,6 @@
       "count": 3
     },
     {
-      "title": "ヨンジュウナナ",
-      "artist": "みきとP feat. 初音ミク",
-      "count": 3
-    },
-    {
-      "title": "アカイト",
-      "artist": "みきとP feat. 初音ミク",
-      "count": 3
-    },
-    {
       "title": "Beautiful World",
       "artist": "宇多田ヒカル",
       "count": 3
@@ -1419,13 +1564,8 @@
       "count": 3
     },
     {
-      "title": "アイのシナリオ",
-      "artist": "CHiCO with HoneyWorks",
-      "count": 3
-    },
-    {
-      "title": "アイディスマイル",
-      "artist": "とあ feat. 初音ミク・鏡音リン",
+      "title": "ネオネオン",
+      "artist": "DECO*27",
       "count": 3
     },
     {
@@ -1439,6 +1579,11 @@
       "count": 3
     },
     {
+      "title": "金曜日のおはよう",
+      "artist": "CHiCO with HoneyWorks",
+      "count": 3
+    },
+    {
       "title": "say my nameの片想い",
       "artist": "LiSA",
       "count": 3
@@ -1449,13 +1594,23 @@
       "count": 3
     },
     {
+      "title": "トリノコシティ",
+      "artist": "40mP",
+      "count": 3
+    },
+    {
       "title": "お勉強しといてよ",
       "artist": "ずっと真夜中でいいのに。",
       "count": 3
     },
     {
       "title": "ルーマー",
-      "artist": "ポリスピカデリー feat. GUMI",
+      "artist": "ポリスピカデリー",
+      "count": 3
+    },
+    {
+      "title": "CHO-DARI-",
+      "artist": "23.exe",
       "count": 3
     },
     {
@@ -1470,7 +1625,7 @@
     },
     {
       "title": "夕立のりぼん",
-      "artist": "みきとP feat. MAYU",
+      "artist": "みきとP",
       "count": 3
     },
     {
@@ -1489,8 +1644,8 @@
       "count": 3
     },
     {
-      "title": "レクイエム",
-      "artist": "Kanaria",
+      "title": "Luna say maybe",
+      "artist": "月村手毬",
       "count": 3
     },
     {
@@ -1525,17 +1680,17 @@
     },
     {
       "title": "いーあるふぁんくらぶ",
-      "artist": "みきとP feat. GUMI,鏡音リン",
+      "artist": "みきとP",
       "count": 3
     },
     {
-      "title": "乙女解剖",
-      "artist": "DECO*27 feat. 初音ミク",
+      "title": "神のまにまに",
+      "artist": "れるりり",
       "count": 3
     },
     {
       "title": "夢花火",
-      "artist": "まふまふ feat. IA",
+      "artist": "まふまふ",
       "count": 3
     },
     {
@@ -1545,7 +1700,7 @@
     },
     {
       "title": "Los! Los! Los!",
-      "artist": "ターニャ・デグレチャフ(悠木碧)",
+      "artist": "ターニャ・デグレチャフ (悠木碧)",
       "count": 3
     },
     {
@@ -1561,11 +1716,6 @@
     {
       "title": "MAD HEAD LOVE",
       "artist": "米津玄師",
-      "count": 3
-    },
-    {
-      "title": "Booo!",
-      "artist": "TOKOTOKO(西沢さんP) feat. 音街ウナ",
       "count": 3
     },
     {
@@ -1600,7 +1750,12 @@
     },
     {
       "title": "わたしのアール",
-      "artist": "和田たけあき(くらげP) feat. 初音ミク",
+      "artist": "和田たけあき (くらげP)",
+      "count": 3
+    },
+    {
+      "title": "女子校戦争",
+      "artist": "SILENT SIREN",
       "count": 3
     },
     {
@@ -1616,11 +1771,6 @@
     {
       "title": "くらべられっ子",
       "artist": "ツユ",
-      "count": 3
-    },
-    {
-      "title": "第六感",
-      "artist": "Reol",
       "count": 3
     },
     {
@@ -1644,6 +1794,11 @@
       "count": 3
     },
     {
+      "title": "サマータイムレコード",
+      "artist": "じん",
+      "count": 3
+    },
+    {
       "title": "サプライズ",
       "artist": "LiSA",
       "count": 3
@@ -1654,8 +1809,13 @@
       "count": 3
     },
     {
-      "title": "热爱105°C的你",
-      "artist": "阿肆",
+      "title": "no face",
+      "artist": "Embellir Gift",
+      "count": 3
+    },
+    {
+      "title": "ワンダーランド",
+      "artist": "FLiP",
       "count": 3
     },
     {
@@ -1670,12 +1830,7 @@
     },
     {
       "title": "白金ディスコ",
-      "artist": "阿良々木月火(井口裕香)",
-      "count": 3
-    },
-    {
-      "title": "ルージュの伝言",
-      "artist": "松任谷由実",
+      "artist": "阿良々木月火 (井口裕香)",
       "count": 3
     },
     {
@@ -1685,12 +1840,12 @@
     },
     {
       "title": "初音ミクの消失",
-      "artist": "cosMo@暴走P feat. 初音ミク",
+      "artist": "cosMo@暴走P",
       "count": 3
     },
     {
       "title": "シンデレラ",
-      "artist": "DECO*27,Giga feat. 初音ミク",
+      "artist": "DECO*27, Giga",
       "count": 3
     },
     {
@@ -1709,13 +1864,8 @@
       "count": 3
     },
     {
-      "title": "キャットラビング",
-      "artist": "香椎モイミ feat. 可不",
-      "count": 3
-    },
-    {
       "title": "魔法少女とチョコレゐト",
-      "artist": "ピノキオピー feat. 初音ミク",
+      "artist": "ピノキオピー",
       "count": 3
     },
     {
@@ -1749,23 +1899,18 @@
       "count": 3
     },
     {
-      "title": "超跑情人夢",
-      "artist": "卜學亮",
-      "count": 3
-    },
-    {
       "title": "熱愛105°C的你",
-      "artist": "阿肆 A Si",
+      "artist": "阿肆",
       "count": 3
     },
     {
       "title": "サラマンダー",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 3
     },
     {
       "title": "妄想税",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 3
     },
     {
@@ -1780,22 +1925,17 @@
     },
     {
       "title": "テレキャスタービーボーイ",
-      "artist": "すりぃ feat. 鏡音レン",
+      "artist": "すりぃ",
       "count": 3
     },
     {
       "title": "エンヴィーベイビー",
-      "artist": "Kanaria feat. GUMI",
-      "count": 3
-    },
-    {
-      "title": "アスノヨゾラ哨戒班",
-      "artist": "Orangestar feat. IA",
+      "artist": "Kanaria",
       "count": 3
     },
     {
       "title": "エゴロック",
-      "artist": "すりぃ feat. 鏡音レン",
+      "artist": "すりぃ",
       "count": 3
     },
     {
@@ -1804,8 +1944,13 @@
       "count": 3
     },
     {
-      "title": "おじゃま虫",
-      "artist": "DECO*27 feat. 初音ミク",
+      "title": "ワーワーワールド",
+      "artist": "Giga, Mitchie M",
+      "count": 3
+    },
+    {
+      "title": "オツキミリサイタル",
+      "artist": "じん",
       "count": 3
     },
     {
@@ -1820,22 +1965,22 @@
     },
     {
       "title": "メンタルチェンソー",
-      "artist": "かいりきベア feat. 初音ミク",
+      "artist": "かいりきベア",
       "count": 3
     },
     {
       "title": "花瓶に触れた",
-      "artist": "バルーン feat. v flower",
+      "artist": "バルーン",
       "count": 3
     },
     {
       "title": "レディーレ",
-      "artist": "バルーン feat. v flower",
+      "artist": "バルーン",
       "count": 3
     },
     {
       "title": "シャルル",
-      "artist": "バルーン feat. v flower",
+      "artist": "バルーン",
       "count": 3
     },
     {
@@ -1845,12 +1990,7 @@
     },
     {
       "title": "砂の惑星",
-      "artist": "ハチ feat. 初音ミク",
-      "count": 3
-    },
-    {
-      "title": "热爱105°C的你",
-      "artist": "阿肆 A Si",
+      "artist": "ハチ",
       "count": 3
     },
     {
@@ -1860,12 +2000,7 @@
     },
     {
       "title": "命に嫌われている",
-      "artist": "カンザキイオリ feat. 初音ミク",
-      "count": 3
-    },
-    {
-      "title": "スペシャルガール",
-      "artist": "れるりり feat. 鳴花ヒメ・ミコト",
+      "artist": "カンザキイオリ",
       "count": 3
     },
     {
@@ -1874,13 +2009,13 @@
       "count": 3
     },
     {
-      "title": "初めての恋が終わる時",
-      "artist": "ryo (supercell)",
+      "title": "シンデレラ",
+      "artist": "DECO*27",
       "count": 3
     },
     {
-      "title": "シンデレラ",
-      "artist": "DECO*27",
+      "title": "Remember",
+      "artist": "月見ヤチヨ",
       "count": 3
     },
     {
@@ -1926,6 +2061,11 @@
     {
       "title": "ルンがピカッと光ったら",
       "artist": "ワルキューレ",
+      "count": 2
+    },
+    {
+      "title": "あの娘シークレット",
+      "artist": "Eve",
       "count": 2
     },
     {
@@ -1984,43 +2124,28 @@
       "count": 2
     },
     {
-      "title": "メーベル",
-      "artist": "バルーン feat. flower",
+      "title": "人マニア",
+      "artist": "原口沙輔",
       "count": 2
     },
     {
       "title": "ハングリーモンスター",
-      "artist": "TOKOTOKO(西沢さんP) feat. 初音ミク",
+      "artist": "TOKOTOKO (西沢さんP)",
       "count": 2
     },
     {
       "title": "スキスキ絶頂症",
-      "artist": "koyori(電ポルP) feat. GUMI",
-      "count": 2
-    },
-    {
-      "title": "曖昧劣情Lover",
-      "artist": "koyori(電ポルP) feat. v flower",
+      "artist": "koyori (電ポルP)",
       "count": 2
     },
     {
       "title": "三日月ステップ",
-      "artist": "r-906 feat. 初音ミク",
+      "artist": "r-906",
       "count": 2
     },
     {
       "title": "ラビットホール",
-      "artist": "DECO*27 feat. 初音ミク",
-      "count": 2
-    },
-    {
-      "title": "テレパシ",
-      "artist": "DECO*27 feat. 初音ミク",
-      "count": 2
-    },
-    {
-      "title": "チェリーポップ",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 2
     },
     {
@@ -2031,6 +2156,11 @@
     {
       "title": "絶頂讃歌",
       "artist": "和ぬか",
+      "count": 2
+    },
+    {
+      "title": "絶え間なく藍色",
+      "artist": "Choisauce (獅子志司)",
       "count": 2
     },
     {
@@ -2055,17 +2185,7 @@
     },
     {
       "title": "ガチ百合の女王",
-      "artist": "それっぽいP feat. 初音ミクAppend",
-      "count": 2
-    },
-    {
-      "title": "ワールド・ランプシェード",
-      "artist": "buzzG feat. GUMI",
-      "count": 2
-    },
-    {
-      "title": "トンデモワンダーズ",
-      "artist": "sasakure.UK feat. 初音ミク",
+      "artist": "それっぽいP",
       "count": 2
     },
     {
@@ -2095,32 +2215,27 @@
     },
     {
       "title": "ビターチョコデコレーション",
-      "artist": "syudou feat. 初音ミク",
+      "artist": "syudou",
       "count": 2
     },
     {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory feat. 初音ミク",
+      "title": "ウキヨバナレディー",
+      "artist": "buzzG",
       "count": 2
     },
     {
       "title": "悪魔の踊り方",
-      "artist": "こんにちは谷田さん feat. 鏡音リン",
+      "artist": "こんにちは谷田さん",
       "count": 2
     },
     {
       "title": "敗北の少年",
-      "artist": "kemu feat. GUMI",
+      "artist": "kemu",
       "count": 2
     },
     {
-      "title": "ネオネオン",
-      "artist": "DECO*27 feat. 初音ミク",
-      "count": 2
-    },
-    {
-      "title": "化けの花",
-      "artist": "なきそ feat. 初音ミク",
+      "title": "浴槽とネオンテトラ",
+      "artist": "REISAI",
       "count": 2
     },
     {
@@ -2131,11 +2246,6 @@
     {
       "title": "太陽と君が描くSTORY",
       "artist": "SCANDAL",
-      "count": 2
-    },
-    {
-      "title": "金曜日のおはよう",
-      "artist": "HoneyWorks feat. GUMI",
       "count": 2
     },
     {
@@ -2165,7 +2275,7 @@
     },
     {
       "title": "金木犀",
-      "artist": "くじら feat. v flower",
+      "artist": "くじら",
       "count": 2
     },
     {
@@ -2175,22 +2285,22 @@
     },
     {
       "title": "ドーナツホール 2024",
-      "artist": "ハチ feat. GUMI",
+      "artist": "ハチ",
+      "count": 2
+    },
+    {
+      "title": "打上花火",
+      "artist": "DAOKO × 米津玄師",
       "count": 2
     },
     {
       "title": "Deep in Abyss",
-      "artist": "リコ(富田美憂),レグ(伊瀬茉莉也)",
+      "artist": "リコ (富田美憂),レグ (伊瀬茉莉也)",
       "count": 2
     },
     {
       "title": "世界は恋に落ちている",
       "artist": "CHiCO with HoneyWorks",
-      "count": 2
-    },
-    {
-      "title": "トリノコシティ",
-      "artist": "40mP feat. 初音ミク",
       "count": 2
     },
     {
@@ -2206,11 +2316,6 @@
     {
       "title": "喧嘩上等",
       "artist": "氣志團",
-      "count": 2
-    },
-    {
-      "title": "CHO-DARI-",
-      "artist": "23.exe feat. 初音ミク",
       "count": 2
     },
     {
@@ -2235,22 +2340,17 @@
     },
     {
       "title": "プロポーズ",
-      "artist": "内緒のピアス feat. 可不",
-      "count": 2
-    },
-    {
-      "title": "独りんぼエンヴィー",
-      "artist": "koyori(電ポルP) feat. 初音ミク",
+      "artist": "内緒のピアス",
       "count": 2
     },
     {
       "title": "夢遊病者は此岸にて",
-      "artist": "こんにちは谷田さん feat. 鏡音リン",
+      "artist": "こんにちは谷田さん",
       "count": 2
     },
     {
       "title": "芥の部屋は錆色に沈む",
-      "artist": "こんにちは谷田さん feat. 鏡音リン",
+      "artist": "こんにちは谷田さん",
       "count": 2
     },
     {
@@ -2275,7 +2375,7 @@
     },
     {
       "title": "深海少女",
-      "artist": "ゆうゆ feat. 初音ミク",
+      "artist": "ゆうゆ",
       "count": 2
     },
     {
@@ -2320,37 +2420,42 @@
     },
     {
       "title": "気まぐれメルシィ",
-      "artist": "八王子P feat. 初音ミク",
+      "artist": "八王子P",
       "count": 2
     },
     {
       "title": "ケッペキショウ",
-      "artist": "すこっぷ feat. GUMI",
+      "artist": "すこっぷ",
       "count": 2
     },
     {
       "title": "翡翠のまち",
-      "artist": "メル feat. 初音ミク",
+      "artist": "メル",
       "count": 2
     },
     {
       "title": "エンゼルフィッシュ",
-      "artist": "パトリチェフ feat. 鏡音リン",
+      "artist": "パトリチェフ",
       "count": 2
     },
     {
       "title": "セツナトリップ",
-      "artist": "Last Note. feat. GUMI",
+      "artist": "Last Note.",
+      "count": 2
+    },
+    {
+      "title": "朝を呑む",
+      "artist": "バルーン",
       "count": 2
     },
     {
       "title": "紗痲",
-      "artist": "煮ル果実 feat. v flower",
+      "artist": "煮ル果実",
       "count": 2
     },
     {
       "title": "好き!雪!本気マジック",
-      "artist": "Mitchie M feat. 初音ミク",
+      "artist": "Mitchie M",
       "count": 2
     },
     {
@@ -2365,7 +2470,7 @@
     },
     {
       "title": "もってけ!セーラーふく",
-      "artist": "泉こなた(平野綾)・柊かがみ(加藤英美里)・柊つかさ(福原香織)・高良みゆき(遠藤綾)",
+      "artist": "泉こなた (平野綾)・柊かがみ (加藤英美里)・柊つかさ (福原香織)・高良みゆき (遠藤綾)",
       "count": 2
     },
     {
@@ -2389,28 +2494,33 @@
       "count": 2
     },
     {
+      "title": "繰り返し一粒",
+      "artist": "猫虫P",
+      "count": 2
+    },
+    {
       "title": "命ばっかり",
       "artist": "ぬゆり feat. v flower, 結月ゆかり",
       "count": 2
     },
     {
       "title": "妄想スケッチ",
-      "artist": "40mP feat. 初音ミク",
+      "artist": "40mP",
       "count": 2
     },
     {
       "title": "アンヘル",
-      "artist": "かいりきベア feat. 鳴花ミコト",
+      "artist": "かいりきベア",
       "count": 2
     },
     {
       "title": "メニメニマニマニ",
-      "artist": "高宮なすの(鳴海杏子)",
+      "artist": "高宮なすの (鳴海杏子)",
       "count": 2
     },
     {
       "title": "威風堂々",
-      "artist": "梅とら feat. 初音ミク,鏡音リン,巡音ルカ,GUMI,IA",
+      "artist": "梅とら",
       "count": 2
     },
     {
@@ -2490,7 +2600,7 @@
     },
     {
       "title": "マシュマロ",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 2
     },
     {
@@ -2501,11 +2611,6 @@
     {
       "title": "鬼ノ宴",
       "artist": "友成空",
-      "count": 2
-    },
-    {
-      "title": "女子校戦争",
-      "artist": "SILENT SIREN",
       "count": 2
     },
     {
@@ -2559,23 +2664,33 @@
       "count": 2
     },
     {
-      "title": "シネマ",
+      "title": "幽霊東京",
       "artist": "Ayase",
       "count": 2
     },
     {
+      "title": "乱躁滅裂ガール",
+      "artist": "れるりり",
+      "count": 2
+    },
+    {
+      "title": "月光潤色ガール",
+      "artist": "れるりり",
+      "count": 2
+    },
+    {
       "title": "ゾンビ",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 2
     },
     {
       "title": "Happy Halloween",
-      "artist": "Junky feat. 鏡音リン",
+      "artist": "Junky",
       "count": 2
     },
     {
       "title": "Mrs.Pumpkinの滑稽な夢",
-      "artist": "ハチ feat. 初音ミク",
+      "artist": "ハチ",
       "count": 2
     },
     {
@@ -2605,27 +2720,22 @@
     },
     {
       "title": "アンチビート",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 2
     },
     {
       "title": "タイムマシン",
-      "artist": "1640mP(164x40mP) feat. 初音ミク",
-      "count": 2
-    },
-    {
-      "title": "サマータイムレコード",
-      "artist": "じん feat. IA",
+      "artist": "1640mP (164x40mP)",
       "count": 2
     },
     {
       "title": "アヤノの幸福理論",
-      "artist": "じん feat. IA",
+      "artist": "じん",
       "count": 2
     },
     {
       "title": "ラプンツェル",
-      "artist": "n-buna feat. 初音ミク",
+      "artist": "n-buna",
       "count": 2
     },
     {
@@ -2674,16 +2784,6 @@
       "count": 2
     },
     {
-      "title": "化けの花",
-      "artist": "なきそ",
-      "count": 2
-    },
-    {
-      "title": "Calc.",
-      "artist": "ジミーサムP",
-      "count": 2
-    },
-    {
       "title": "AXIA ~ダイスキでダイキライ~",
       "artist": "ワルキューレ",
       "count": 2
@@ -2695,17 +2795,17 @@
     },
     {
       "title": "アルカリレットウセイ",
-      "artist": "かいりきベア feat. 初音ミク",
+      "artist": "かいりきベア",
       "count": 2
     },
     {
       "title": "マトリョシカ",
-      "artist": "ハチ feat. 初音ミク,GUMI",
+      "artist": "ハチ",
       "count": 2
     },
     {
       "title": "天ノ弱",
-      "artist": "164 feat. GUMI",
+      "artist": "164",
       "count": 2
     },
     {
@@ -2730,7 +2830,7 @@
     },
     {
       "title": "Wishing",
-      "artist": "レム(水瀬いのり)",
+      "artist": "レム (水瀬いのり)",
       "count": 2
     },
     {
@@ -2740,12 +2840,7 @@
     },
     {
       "title": "一番の宝物",
-      "artist": "Girls Dead Monster(LiSA)",
-      "count": 2
-    },
-    {
-      "title": "心做し",
-      "artist": "蝶々P feat. GUMI",
+      "artist": "Girls Dead Monster (LiSA)",
       "count": 2
     },
     {
@@ -2770,7 +2865,7 @@
     },
     {
       "title": "お願いマッスル",
-      "artist": "紗倉ひびき(ファイルーズあい)&街雄鳴造(石川界人)",
+      "artist": "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)",
       "count": 2
     },
     {
@@ -2784,13 +2879,18 @@
       "count": 2
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP feat. 初音ミク",
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
       "count": 2
     },
     {
       "title": "弱虫モンブラン",
       "artist": "DECO*27 feat. marina,GUMI",
+      "count": 2
+    },
+    {
+      "title": "小夜子",
+      "artist": "みきとP",
       "count": 2
     },
     {
@@ -2800,7 +2900,7 @@
     },
     {
       "title": "Beat Eater",
-      "artist": "ポリスピカデリー feat. 初音ミク",
+      "artist": "ポリスピカデリー",
       "count": 2
     },
     {
@@ -2810,12 +2910,12 @@
     },
     {
       "title": "Cutie Panther",
-      "artist": "BiBi(μ's)",
+      "artist": "BiBi (μ's)",
       "count": 2
     },
     {
       "title": "冬がくれた予感",
-      "artist": "BiBi(μ's)",
+      "artist": "BiBi (μ's)",
       "count": 2
     },
     {
@@ -2835,17 +2935,12 @@
     },
     {
       "title": "ロキ",
-      "artist": "みきとP feat. 鏡音リン",
+      "artist": "みきとP",
       "count": 2
     },
     {
       "title": "I’m Your Treasure Box *あなたは マリンせんちょうを たからばこからみつけた。",
       "artist": "宝鐘マリン",
-      "count": 2
-    },
-    {
-      "title": "夜明けと蛍",
-      "artist": "ナブナ feat. 初音ミク",
       "count": 2
     },
     {
@@ -2856,6 +2951,11 @@
     {
       "title": "フロントメモリー",
       "artist": "鈴木瑛美子×亀田誠治",
+      "count": 2
+    },
+    {
+      "title": "AIAIAI",
+      "artist": "キズナアイ",
       "count": 2
     },
     {
@@ -2870,7 +2970,12 @@
     },
     {
       "title": "KING",
-      "artist": "Kanaria feat. GUMI",
+      "artist": "Kanaria",
+      "count": 2
+    },
+    {
+      "title": "酔いどれ知らず",
+      "artist": "Kanaria",
       "count": 2
     },
     {
@@ -2900,7 +3005,7 @@
     },
     {
       "title": "シル・ヴ・プレジデント",
-      "artist": "ナナホシ管弦楽団 feat. 初音ミク",
+      "artist": "ナナホシ管弦楽団",
       "count": 2
     },
     {
@@ -2910,12 +3015,12 @@
     },
     {
       "title": "可愛くなりたい",
-      "artist": "HoneyWorks",
+      "artist": "CHiCO with HoneyWorks",
       "count": 2
     },
     {
       "title": "可愛くてごめん (feat. かぴ)",
-      "artist": "HoneyWorks",
+      "artist": "CHiCO with HoneyWorks",
       "count": 2
     },
     {
@@ -2934,33 +3039,23 @@
       "count": 2
     },
     {
-      "title": "メリュー",
-      "artist": "n-buna feat. 初音ミク",
-      "count": 2
-    },
-    {
-      "title": "夜明けと蛍",
-      "artist": "n-buna feat. 初音ミク",
+      "title": "帝国少女",
+      "artist": "R Sound Design",
       "count": 2
     },
     {
       "title": "S(mile)ING!",
-      "artist": "島村卯月(大橋彩香)",
+      "artist": "島村卯月 (大橋彩香)",
       "count": 2
     },
     {
       "title": "メルヘンデビュー!",
-      "artist": "安部菜々(三宅麻理恵)",
-      "count": 2
-    },
-    {
-      "title": "オツキミリサイタル",
-      "artist": "じん(自然の敵P) feat. IA",
+      "artist": "安部菜々 (三宅麻理恵)",
       "count": 2
     },
     {
       "title": "腐れ外道とチョコレゐト",
-      "artist": "ピノキオピー feat. 初音ミク",
+      "artist": "ピノキオピー",
       "count": 2
     },
     {
@@ -2970,12 +3065,12 @@
     },
     {
       "title": "うまぴょい伝説",
-      "artist": "スペシャルウィーク(和氣あず未),サイレンススズカ(高野麻里佳),トウカイテイオー",
+      "artist": "スペシャルウィーク (和氣あず未),サイレンススズカ (高野麻里佳),トウカイテイオー",
       "count": 2
     },
     {
       "title": "お後がよろしくって...よ!",
-      "artist": "極・落女会:防波亭手寅(山本希望),蕪羅亭魔梨威(佐倉綾音),空琉美遊亭丸京(南條愛乃),波浪浮亭木胡桃(小岩井ことり),暗落亭苦来(後藤沙緒里)",
+      "artist": "極・落女会:防波亭手寅 (山本希望),蕪羅亭魔梨威 (佐倉綾音),空琉美遊亭丸京 (南條愛乃),波浪浮亭木胡桃 (小岩井ことり),暗落亭苦来 (後藤沙緒里)",
       "count": 2
     },
     {
@@ -2989,18 +3084,13 @@
       "count": 2
     },
     {
-      "title": "トウキョウ・シャンディ・ランデヴ",
-      "artist": "MAISONdes feat. 花譜,ツミキ",
-      "count": 2
-    },
-    {
       "title": "花",
       "artist": "ORANGE RANGE",
       "count": 2
     },
     {
       "title": "Ubiquitous dB",
-      "artist": "ユナ(神田沙也加)",
+      "artist": "ユナ (神田沙也加)",
       "count": 2
     },
     {
@@ -3014,23 +3104,23 @@
       "count": 2
     },
     {
-      "title": "メーベル",
-      "artist": "バルーン feat. v flower",
+      "title": "マオ",
+      "artist": "かいりきベア, まふまふ",
       "count": 2
     },
     {
       "title": "アルコーブ",
-      "artist": "バルーン feat. 初音ミク",
+      "artist": "バルーン",
       "count": 2
     },
     {
       "title": "雨とペトラ",
-      "artist": "バルーン feat. v flower",
+      "artist": "バルーン",
       "count": 2
     },
     {
       "title": "ジャンキーナイトタウンオーケストラ",
-      "artist": "すりぃ feat. 鏡音レン",
+      "artist": "すりぃ",
       "count": 2
     },
     {
@@ -3039,18 +3129,13 @@
       "count": 2
     },
     {
+      "title": "想像フォレスト",
+      "artist": "じん",
+      "count": 2
+    },
+    {
       "title": "LOSER",
       "artist": "米津玄師",
-      "count": 2
-    },
-    {
-      "title": "no face",
-      "artist": "EmbellirGift(苓吃エムリィ/間取かける/涼風しとら)",
-      "count": 2
-    },
-    {
-      "title": "白い雪のプリンセスは",
-      "artist": "のぼる↑",
       "count": 2
     },
     {
@@ -3064,23 +3149,8 @@
       "count": 2
     },
     {
-      "title": "アスノヨゾラ哨戒班",
-      "artist": "Orangestar",
-      "count": 2
-    },
-    {
-      "title": "ワーワーワールド",
-      "artist": "Giga, Mitchie M feat. 初音ミク, 鏡音リン",
-      "count": 2
-    },
-    {
-      "title": "ワンダーランド",
-      "artist": "FLiP",
-      "count": 2
-    },
-    {
       "title": "Q",
-      "artist": "森カリオペ(Mori Calliope) x がうる・ぐら",
+      "artist": "森カリオペ (Mori Calliope) x がうる・ぐら",
       "count": 2
     },
     {
@@ -3090,22 +3160,12 @@
     },
     {
       "title": "悪ノ娘",
-      "artist": "mothy(悪ノP) feat. 鏡音リン",
+      "artist": "mothy (悪ノP)",
       "count": 2
     },
     {
       "title": "おねがいダーリン",
       "artist": "ナナホシ管弦楽団 feat. ONE",
-      "count": 2
-    },
-    {
-      "title": "ハロ/ハワユ",
-      "artist": "ナノウ(ほえほえP) feat. 初音ミク",
-      "count": 2
-    },
-    {
-      "title": "独りんぼエンヴィー",
-      "artist": "koyori(電ポルP) feat. 初音ミクAppend Dark",
       "count": 2
     },
     {
@@ -3116,16 +3176,6 @@
     {
       "title": "ハナミズキ",
       "artist": "一青窈",
-      "count": 2
-    },
-    {
-      "title": "シネマ",
-      "artist": "Ayase feat. 初音ミク",
-      "count": 2
-    },
-    {
-      "title": "回る空うさぎ",
-      "artist": "Orangestar",
       "count": 2
     },
     {
@@ -3150,22 +3200,22 @@
     },
     {
       "title": "エイリアンエイリアン",
-      "artist": "ナユタン星人 feat. 初音ミク",
+      "artist": "ナユタン星人",
+      "count": 2
+    },
+    {
+      "title": "太陽系デスコ",
+      "artist": "ナユタン星人",
+      "count": 2
+    },
+    {
+      "title": "邪魔",
+      "artist": "syudou",
       "count": 2
     },
     {
       "title": "イヤガール",
-      "artist": "かいりきベア feat. 初音ミク",
-      "count": 2
-    },
-    {
-      "title": "それがあなたの幸せとしても",
-      "artist": "Heavenz feat. 巡音ルカ",
-      "count": 2
-    },
-    {
-      "title": "心做し",
-      "artist": "蝶々P feat.GUMI",
+      "artist": "かいりきベア",
       "count": 2
     },
     {
@@ -3174,33 +3224,13 @@
       "count": 2
     },
     {
-      "title": "神のまにまに",
-      "artist": "れるりり feat. 初音ミク",
+      "title": "竹取オーバーナイトセンセーション",
+      "artist": "CHiCO with HoneyWorks",
       "count": 2
     },
     {
       "title": "三原色",
       "artist": "YOASOBI",
-      "count": 2
-    },
-    {
-      "title": "神っぽいな",
-      "artist": "ピノキオピー",
-      "count": 2
-    },
-    {
-      "title": "トンデモワンダーズ",
-      "artist": "sasakure. UK feat. 初音ミク",
-      "count": 2
-    },
-    {
-      "title": "メランコリック",
-      "artist": "Junky feat. 鏡音リン",
-      "count": 2
-    },
-    {
-      "title": "さようなら、花泥棒さん",
-      "artist": "メル feat.初音ミク",
       "count": 2
     },
     {
@@ -3219,8 +3249,8 @@
       "count": 2
     },
     {
-      "title": "Remember",
-      "artist": "月見ヤチヨ",
+      "title": "青空のラプソディ",
+      "artist": "fhána",
       "count": 2
     },
     {
@@ -3239,6 +3269,11 @@
       "count": 2
     },
     {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
+      "count": 2
+    },
+    {
       "title": "抜錨",
       "artist": "ナナホシ管弦楽団",
       "count": 2
@@ -3246,11 +3281,6 @@
     {
       "title": "さよならメモリーズ",
       "artist": "ryo (supercell)",
-      "count": 2
-    },
-    {
-      "title": "さようなら、花泥棒さん",
-      "artist": "メル",
       "count": 2
     },
     {
@@ -3279,18 +3309,8 @@
       "count": 2
     },
     {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory",
-      "count": 2
-    },
-    {
       "title": "アディショナルメモリー",
       "artist": "じん",
-      "count": 2
-    },
-    {
-      "title": "ワールドイズマイン",
-      "artist": "ryo (supercell)",
       "count": 2
     },
     {
@@ -3304,18 +3324,8 @@
       "count": 2
     },
     {
-      "title": "Luna say maybe",
-      "artist": "月村手毬",
-      "count": 2
-    },
-    {
       "title": "忘れじの言の葉",
       "artist": "未来古代楽団",
-      "count": 2
-    },
-    {
-      "title": "ワールド・ランプシェード",
-      "artist": "buzzG",
       "count": 2
     },
     {
@@ -3324,8 +3334,8 @@
       "count": 2
     },
     {
-      "title": "夜明けと蛍",
-      "artist": "n-buna",
+      "title": "地球最後の告白を",
+      "artist": "kemu",
       "count": 2
     },
     {
@@ -3344,18 +3354,13 @@
       "count": 2
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP",
+      "title": "夜顔の告白",
+      "artist": "samayuzame",
       "count": 2
     },
     {
       "title": "ブラックロックシューター",
-      "artist": "supercell feat.初音ミク",
-      "count": 2
-    },
-    {
-      "title": "メランコリック",
-      "artist": "Junky feat.鏡音リン",
+      "artist": "ryo (supercell)",
       "count": 2
     },
     {
@@ -3385,22 +3390,12 @@
     },
     {
       "title": "アンノウン・マザーグース",
-      "artist": "wowaka feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "あの娘シークレット",
-      "artist": "Eve feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "メリュー",
-      "artist": "ナブナ feat. 初音ミク",
+      "artist": "wowaka",
       "count": 1
     },
     {
       "title": "ワールドイズマイン CPK! Remix",
-      "artist": "かぐや(夏吉ゆうこ)、月見ヤチヨ(早見沙織)",
+      "artist": "かぐや (夏吉ゆうこ)、月見ヤチヨ (早見沙織)",
       "count": 1
     },
     {
@@ -3465,47 +3460,37 @@
     },
     {
       "title": "メズマライザー",
-      "artist": "サツキ feat. 初音ミク,重音テト",
+      "artist": "サツキ",
       "count": 1
     },
     {
       "title": "テトリス",
-      "artist": "柊マグネタイト feat. 重音テト",
+      "artist": "柊マグネタイト",
       "count": 1
     },
     {
       "title": "イガク",
-      "artist": "原口沙輔 feat. 重音テト",
-      "count": 1
-    },
-    {
-      "title": "人マニア",
-      "artist": "原口沙輔 feat. 重音テト",
-      "count": 1
-    },
-    {
-      "title": "No title",
-      "artist": "れをる",
+      "artist": "原口沙輔",
       "count": 1
     },
     {
       "title": "LUVORATORRRRRY!",
-      "artist": "ギガP・れをる (Reol) feat. GUMI・鏡音リン",
+      "artist": "ギガP・れをる",
       "count": 1
     },
     {
       "title": "ラブ&デストロイ",
-      "artist": "MI8k(ナポリP) feat. GUMI",
+      "artist": "MI8k (ナポリP)",
       "count": 1
     },
     {
       "title": "ラブレター・フロム・メランコリー",
-      "artist": "カラスヤサボウ feat. 初音ミク",
+      "artist": "カラスヤサボウ",
       "count": 1
     },
     {
       "title": "ギガンティックO.T.N",
-      "artist": "ギガP・れをる (Reol) feat. 鏡音レン",
+      "artist": "ギガP・れをる",
       "count": 1
     },
     {
@@ -3515,32 +3500,27 @@
     },
     {
       "title": "バッド・ダンス・ホール",
-      "artist": "カラスヤサボウ feat. 鏡音リン",
+      "artist": "カラスヤサボウ",
       "count": 1
     },
     {
       "title": "ヲズワルド",
-      "artist": "煮ル果実 feat. v flower",
-      "count": 1
-    },
-    {
-      "title": "それがあなたの幸せとしても",
-      "artist": "ヘブンズP feat. 巡音ルカ",
+      "artist": "煮ル果実",
       "count": 1
     },
     {
       "title": "あなたクランケン",
-      "artist": "tamon feat. 初音ミク・flower",
+      "artist": "tamon",
       "count": 1
     },
     {
       "title": "Q",
-      "artist": "椎名もた(ぽわぽわP)feat. 鏡音リン",
+      "artist": "椎名もた (ぽわぽわP)",
       "count": 1
     },
     {
       "title": "Corruption",
-      "artist": "大沼パセリ feat. 初音ミク",
+      "artist": "大沼パセリ",
       "count": 1
     },
     {
@@ -3550,17 +3530,12 @@
     },
     {
       "title": "ガランド",
-      "artist": "ピコン feat. 初音ミク",
+      "artist": "ピコン",
       "count": 1
     },
     {
       "title": "モエチャッカファイア",
       "artist": "弌誠",
-      "count": 1
-    },
-    {
-      "title": "絶え間なく藍色",
-      "artist": "Choisauce(獅子志司) feat. 初音ミク",
       "count": 1
     },
     {
@@ -3570,42 +3545,27 @@
     },
     {
       "title": "p.h.",
-      "artist": "SEVENTHLINKS feat. v flower",
+      "artist": "SEVENTHLINKS",
       "count": 1
     },
     {
       "title": "ネトゲ廃人シュプレヒコール",
-      "artist": "さつき が てんこもり feat. 初音ミク",
+      "artist": "さつき が てんこもり",
       "count": 1
     },
     {
       "title": "妄想疾患■ガール",
-      "artist": "もじゃ feat. GUMI",
+      "artist": "もじゃ",
       "count": 1
     },
     {
       "title": "にっこり^^調査隊のテーマ",
-      "artist": "じーざすP feat. 鏡音リン,鏡音レン",
+      "artist": "じーざすP",
       "count": 1
     },
     {
       "title": "だれかの心臓になれたなら",
-      "artist": "ユリイ・カノン feat. GUMI",
-      "count": 1
-    },
-    {
-      "title": "レクイエム",
-      "artist": "Kanaria feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "No title",
-      "artist": "Reol(れをる)・Reol feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "ウキヨバナレディー",
-      "artist": "buzzG feat. GUMI SV",
+      "artist": "ユリイ・カノン",
       "count": 1
     },
     {
@@ -3615,7 +3575,7 @@
     },
     {
       "title": "ゴーストルール",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 1
     },
     {
@@ -3625,7 +3585,7 @@
     },
     {
       "title": "ビースト・ダンス",
-      "artist": "和田たけあき(くらげP) feat. 音街ウナ",
+      "artist": "和田たけあき (くらげP)",
       "count": 1
     },
     {
@@ -3640,17 +3600,12 @@
     },
     {
       "title": "グラーヴェ",
-      "artist": "niki feat. 初音ミク",
+      "artist": "niki",
       "count": 1
     },
     {
       "title": "バイオレンストリガー",
-      "artist": "八王子P feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "浴槽とネオンテトラ",
-      "artist": "REISAI feat. flower",
+      "artist": "八王子P",
       "count": 1
     },
     {
@@ -3675,7 +3630,7 @@
     },
     {
       "title": "檄!帝国華撃団",
-      "artist": "横山智佐(真宮寺さくら)+帝国歌劇団",
+      "artist": "横山智佐 (真宮寺さくら)+帝国歌劇団",
       "count": 1
     },
     {
@@ -3686,11 +3641,6 @@
     {
       "title": "ROCK Mode'18",
       "artist": "LiSA",
-      "count": 1
-    },
-    {
-      "title": "打上花火",
-      "artist": "DAOKO × 米津玄師",
       "count": 1
     },
     {
@@ -3705,27 +3655,17 @@
     },
     {
       "title": "kiss",
-      "artist": "みきーの(みきとP×keeno) feat. 初音ミク",
+      "artist": "みきーの (みきとP×keeno)",
       "count": 1
     },
     {
       "title": "心象カスケード",
-      "artist": "koyori(電ポルP) feat. flower",
+      "artist": "koyori (電ポルP)",
       "count": 1
     },
     {
       "title": "初夏、殺意は街を浸す病のように",
-      "artist": "こんにちは谷田さん feat. 鏡音リン",
-      "count": 1
-    },
-    {
-      "title": "Luna say maybe",
-      "artist": "月村手毬 (小鹿なお)",
-      "count": 1
-    },
-    {
-      "title": "SOS",
-      "artist": "黛冬優子 (幸村恵理)",
+      "artist": "こんにちは谷田さん",
       "count": 1
     },
     {
@@ -3770,7 +3710,7 @@
     },
     {
       "title": "愛言葉V",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 1
     },
     {
@@ -3795,72 +3735,57 @@
     },
     {
       "title": "ツギハギスタッカート",
-      "artist": "とあ feat. 初音ミク",
+      "artist": "とあ",
       "count": 1
     },
     {
       "title": "有頂天ビバーチェ",
-      "artist": "Last Note. feat. GUMI",
+      "artist": "Last Note.",
       "count": 1
     },
     {
       "title": "嗚呼、素晴らしきニャン生",
-      "artist": "Nem feat. GUMI,鏡音レン",
+      "artist": "Nem",
       "count": 1
     },
     {
       "title": "再教育",
-      "artist": "Neru feat. 鏡音リン,鏡音レン",
+      "artist": "Neru",
       "count": 1
     },
     {
       "title": "思春期少年少女",
-      "artist": "砂粒 feat. GUMI V3",
-      "count": 1
-    },
-    {
-      "title": "神のまにまに",
-      "artist": "れるりり feat. 初音ミク・鏡音リン・GUMI",
+      "artist": "砂粒",
       "count": 1
     },
     {
       "title": "ハウトゥー世界征服",
-      "artist": "Neru feat. 鏡音リン,鏡音レン",
-      "count": 1
-    },
-    {
-      "title": "朝を呑む",
-      "artist": "バルーンfeat. 初音ミク",
+      "artist": "Neru",
       "count": 1
     },
     {
       "title": "トウキョウト・ロック・シティ",
-      "artist": "はいのことん,えこ。 feat. 初音ミク",
+      "artist": "はいのことん,えこ。",
       "count": 1
     },
     {
       "title": "純情スカート",
-      "artist": "40mP feat.初音ミク",
+      "artist": "40mP",
       "count": 1
     },
     {
       "title": "えれくとりっく・えんじぇぅ",
-      "artist": "ヤスオ feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "モニタリング",
-      "artist": "DECO*27 feat. Hatsune Miku",
+      "artist": "ヤスオ",
       "count": 1
     },
     {
       "title": "弱虫モンブラン",
-      "artist": "DECO*27 feat. GUMI",
+      "artist": "DECO*27",
       "count": 1
     },
     {
       "title": "被害妄想携帯女子(笑)",
-      "artist": "スズム feat. GUMI",
+      "artist": "スズム",
       "count": 1
     },
     {
@@ -3875,32 +3800,22 @@
     },
     {
       "title": "RADIANT FORCE",
-      "artist": "立花響(悠木碧)・風鳴翼(水樹奈々)・雪音クリス(高垣彩陽)",
+      "artist": "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
       "count": 1
     },
     {
       "title": "ハッピーシンセサイザ",
-      "artist": "EasyPop feat. 巡音ルカ,GUMI",
+      "artist": "EasyPop",
       "count": 1
     },
     {
       "title": "月陽–ツキアカリ–",
-      "artist": "みきとP feat. GUMI",
+      "artist": "みきとP",
       "count": 1
     },
     {
       "title": "ミュージックミュージック",
-      "artist": "とあ feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "繰り返し一粒",
-      "artist": "猫虫P feat. 初音ミク、鏡音リン",
-      "count": 1
-    },
-    {
-      "title": "初めての恋が終わる時",
-      "artist": "ryo (supercell) feat. 初音ミク",
+      "artist": "とあ",
       "count": 1
     },
     {
@@ -3910,22 +3825,22 @@
     },
     {
       "title": "心拍数♯0822",
-      "artist": "蝶々P feat. 初音ミク",
+      "artist": "蝶々P",
       "count": 1
     },
     {
       "title": "7150日",
-      "artist": "瀬名航 feat. 初音ミク",
+      "artist": "瀬名航",
       "count": 1
     },
     {
       "title": "ドナーソング",
-      "artist": "もじゃ,れるりり feat. GUMI",
+      "artist": "もじゃ,れるりり",
       "count": 1
     },
     {
       "title": "小悪魔だってかまわない!",
-      "artist": "めいちゃん, HoneyWorks feat. 初音ミク",
+      "artist": "めいちゃん, HoneyWorks",
       "count": 1
     },
     {
@@ -3945,22 +3860,22 @@
     },
     {
       "title": "少年ブレイヴ",
-      "artist": "じん feat. IA",
+      "artist": "じん",
       "count": 1
     },
     {
       "title": "ファッとして桃源郷",
-      "artist": "新庄かなえ(三森すずこ)",
+      "artist": "新庄かなえ (三森すずこ)",
       "count": 1
     },
     {
       "title": "虎視眈々",
-      "artist": "梅とら feat. 初音ミク,鏡音リン,巡音ルカ,GUMI,IA",
+      "artist": "梅とら",
       "count": 1
     },
     {
       "title": "一騎当千",
-      "artist": "梅とら feat. 初音ミク,鏡音リン,巡音ルカ,GUMI,IA",
+      "artist": "梅とら",
       "count": 1
     },
     {
@@ -3985,7 +3900,7 @@
     },
     {
       "title": "うまぴょい伝説",
-      "artist": "ウマ娘 プリティーダービー」キャスト",
+      "artist": "ウマ娘 プリティーダービー",
       "count": 1
     },
     {
@@ -4005,7 +3920,7 @@
     },
     {
       "title": "Stay Alive",
-      "artist": "エミリア(高橋李依)",
+      "artist": "エミリア (高橋李依)",
       "count": 1
     },
     {
@@ -4015,7 +3930,7 @@
     },
     {
       "title": "ライカ",
-      "artist": "yamada feat. 初音ミク",
+      "artist": "yamada",
       "count": 1
     },
     {
@@ -4035,7 +3950,7 @@
     },
     {
       "title": "すろぉもぉしょん",
-      "artist": "ピノキオピー feat. 初音ミク",
+      "artist": "ピノキオピー",
       "count": 1
     },
     {
@@ -4085,7 +4000,7 @@
     },
     {
       "title": "夜もすがら君想ふ",
-      "artist": "TOKOTOKO(西沢さんP) feat. GUMI",
+      "artist": "TOKOTOKO (西沢さんP)",
       "count": 1
     },
     {
@@ -4130,7 +4045,7 @@
     },
     {
       "title": "ストリーミングハート",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 1
     },
     {
@@ -4140,11 +4055,6 @@
     },
     {
       "title": "サイサキ",
-      "artist": "Reol",
-      "count": 1
-    },
-    {
-      "title": "No title",
       "artist": "Reol",
       "count": 1
     },
@@ -4174,18 +4084,8 @@
       "count": 1
     },
     {
-      "title": "金曜日のおはよう",
-      "artist": "HoneyWorks",
-      "count": 1
-    },
-    {
       "title": "病名恋ワズライ",
-      "artist": "Honeyworks",
-      "count": 1
-    },
-    {
-      "title": "アイのシナリオ",
-      "artist": "Honeyworks",
+      "artist": "CHiCO with HoneyWorks",
       "count": 1
     },
     {
@@ -4199,27 +4099,7 @@
       "count": 1
     },
     {
-      "title": "シニカルナイトプラン",
-      "artist": "Ayase",
-      "count": 1
-    },
-    {
-      "title": "幽霊東京",
-      "artist": "Ayase",
-      "count": 1
-    },
-    {
-      "title": "乱躁滅裂ガール",
-      "artist": "れるりり",
-      "count": 1
-    },
-    {
       "title": "妄想疾患■ガール",
-      "artist": "れるりり",
-      "count": 1
-    },
-    {
-      "title": "月光潤色ガール",
       "artist": "れるりり",
       "count": 1
     },
@@ -4255,7 +4135,7 @@
     },
     {
       "title": "ラズベリー*モンスター",
-      "artist": "HoneyWorks feat. 初音ミク",
+      "artist": "CHiCO with HoneyWorks",
       "count": 1
     },
     {
@@ -4265,22 +4145,17 @@
     },
     {
       "title": "エンヴィキャットウォーク",
-      "artist": "トーマ feat. 初音ミク",
+      "artist": "トーマ",
       "count": 1
     },
     {
       "title": "Identity",
-      "artist": "Kanaria feat. Hatsune Miku,GUMI",
+      "artist": "Kanaria",
       "count": 1
     },
     {
       "title": "名もなき何もかも",
       "artist": "トゲナシトゲアリ",
-      "count": 1
-    },
-    {
-      "title": "IRIS OUT",
-      "artist": "米津玄師 Kenshi Yonezu",
       "count": 1
     },
     {
@@ -4300,12 +4175,12 @@
     },
     {
       "title": "スクランブル交際",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 1
     },
     {
       "title": "アイディスマイル",
-      "artist": "25時、ナイトコードで。, とあ feat. 初音ミク・鏡音リン",
+      "artist": "25時、ナイトコードで。, とあ",
       "count": 1
     },
     {
@@ -4315,12 +4190,12 @@
     },
     {
       "title": "快晴",
-      "artist": "Orangestar feat. IA",
+      "artist": "Orangestar",
       "count": 1
     },
     {
       "title": "空奏列車",
-      "artist": "Orangestar feat. IA",
+      "artist": "Orangestar",
       "count": 1
     },
     {
@@ -4385,7 +4260,7 @@
     },
     {
       "title": "不死鳥のフランメ",
-      "artist": "マリア×風鳴翼(日笠陽子×水樹奈々)",
+      "artist": "マリア×風鳴翼 (日笠陽子×水樹奈々)",
       "count": 1
     },
     {
@@ -4419,11 +4294,6 @@
       "count": 1
     },
     {
-      "title": "no face",
-      "artist": "Embellir Gift",
-      "count": 1
-    },
-    {
       "title": "Across the world !!",
       "artist": "涼風しとら",
       "count": 1
@@ -4431,16 +4301,6 @@
     {
       "title": "命のユースティティア",
       "artist": "Neru",
-      "count": 1
-    },
-    {
-      "title": "ウキヨバナレディー",
-      "artist": "buzzG",
-      "count": 1
-    },
-    {
-      "title": "超跑情人夢",
-      "artist": "卜學亮(阿亮)",
       "count": 1
     },
     {
@@ -4470,7 +4330,7 @@
     },
     {
       "title": "EYES,NOSE,LIPS",
-      "artist": "SOL(from BIGBANG)",
+      "artist": "SOL (from BIGBANG)",
       "count": 1
     },
     {
@@ -4495,67 +4355,62 @@
     },
     {
       "title": "ホワイトハッピー",
-      "artist": "MARETU feat. 初音ミク",
+      "artist": "MARETU",
       "count": 1
     },
     {
       "title": "ダーリン",
-      "artist": "MARETU feat. 初音ミク(MARETU feat. 初音ミク",
+      "artist": "MARETU",
       "count": 1
     },
     {
       "title": "バイビーベイビーサヨウナラ",
-      "artist": "saiB feat. 初音ミク",
+      "artist": "saiB",
       "count": 1
     },
     {
       "title": "恋愛フィロソフィア",
-      "artist": "黒うさP feat. 初音ミク",
+      "artist": "黒うさP",
       "count": 1
     },
     {
       "title": "イドラのサーカス",
-      "artist": "Neru feat. 鏡音リン",
+      "artist": "Neru",
       "count": 1
     },
     {
       "title": "オレンジ",
-      "artist": "トーマ feat. 初音ミク(Tohma feat. 初音ミク)",
-      "count": 1
-    },
-    {
-      "title": "ワンダーランド",
-      "artist": "FLip",
+      "artist": "トーマ feat. 初音ミク (Tohma feat. 初音ミク)",
       "count": 1
     },
     {
       "title": "君の神様になりたい。",
-      "artist": "カンザキイオリ feat. 初音ミク",
+      "artist": "カンザキイオリ",
       "count": 1
     },
     {
       "title": "ターミナル",
-      "artist": "ぬゆり feat. GUMI",
+      "artist": "ぬゆり",
       "count": 1
     },
     {
       "title": "メルティランドナイトメア",
-      "artist": "はるまきごはん feat. 初音ミク",
+      "artist": "はるまきごはん",
       "count": 1
     },
     {
       "title": "オノマトペテン師",
-      "artist": "てにをは feat. 初音ミク",
+      "artist": "てにをは",
       "count": 1
     },
     {
       "title": "スロウダウナー",
-      "artist": "ろくろ feat. 初音ミク,GUMI",
+      "artist": "ろくろ",
       "count": 1
     },
     {
       "title": "ONE OFF MIND",
-      "artist": "VAN DE SHOP feat. 初音ミク,GUMI",
+      "artist": "VAN DE SHOP",
       "count": 1
     },
     {
@@ -4600,7 +4455,7 @@
     },
     {
       "title": "Poison (日本語版)",
-      "artist": "Angel Dust(Blake Roman)",
+      "artist": "Angel Dust (Blake Roman)",
       "count": 1
     },
     {
@@ -4615,7 +4470,7 @@
     },
     {
       "title": "お願いマッスル",
-      "artist": "紗倉ひびき(ファイルーズあい)&街雄鳴造(石川界人)(Hibiki Sakura (Fairouz Ai) and Naruzo Machio (Kaito Ishikawa))",
+      "artist": "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)(Hibiki Sakura (Fairouz Ai) and Naruzo Machio (Kaito Ishikawa))",
       "count": 1
     },
     {
@@ -4650,7 +4505,7 @@
     },
     {
       "title": "恋は渾沌の隷也",
-      "artist": "後ろから這いより隊G(ニャル子,クー子,珠緒)",
+      "artist": "後ろから這いより隊G (ニャル子,クー子,珠緒)",
       "count": 1
     },
     {
@@ -4684,11 +4539,6 @@
       "count": 1
     },
     {
-      "title": "ルージュの伝言",
-      "artist": "荒井由実",
-      "count": 1
-    },
-    {
       "title": "君をのせて",
       "artist": "井上あずみ",
       "count": 1
@@ -4716,16 +4566,6 @@
     {
       "title": "Hey baby!",
       "artist": "倖田來未",
-      "count": 1
-    },
-    {
-      "title": "きゅうくらりん",
-      "artist": "いよわ feat. 可不",
-      "count": 1
-    },
-    {
-      "title": "小夜子",
-      "artist": "みきとP feat. 初音ミク",
       "count": 1
     },
     {
@@ -4775,7 +4615,7 @@
     },
     {
       "title": "キルマー",
-      "artist": "煮ル果実 feat. v flower",
+      "artist": "煮ル果実",
       "count": 1
     },
     {
@@ -4785,12 +4625,12 @@
     },
     {
       "title": "Guilty Night, Guilty Kiss!",
-      "artist": "Guilty Kiss(Aqours)",
+      "artist": "Guilty Kiss (Aqours)",
       "count": 1
     },
     {
       "title": "コットンキャンディえいえいおー!",
-      "artist": "黒澤ルビィ(降幡愛) from Aqours",
+      "artist": "黒澤ルビィ (降幡愛) from Aqours",
       "count": 1
     },
     {
@@ -4800,12 +4640,12 @@
     },
     {
       "title": "東京サマーセッション feat.CHICO",
-      "artist": "HoneyWorks",
+      "artist": "CHiCO with HoneyWorks",
       "count": 1
     },
     {
       "title": "かくしん的めたまるふぉ~ぜっ!",
-      "artist": "土間うまる(田中あいみ)",
+      "artist": "土間うまる (田中あいみ)",
       "count": 1
     },
     {
@@ -4815,27 +4655,22 @@
     },
     {
       "title": "月亮代表我的心",
-      "artist": "鄧麗君(テレサ・テン)",
+      "artist": "鄧麗君 (テレサ・テン)",
       "count": 1
     },
     {
       "title": "days",
-      "artist": "じん ft.Lia",
+      "artist": "じん feat.Lia",
       "count": 1
     },
     {
       "title": "我只在乎你(時の流れに身をまかせ)",
-      "artist": "鄧麗君(テレサ・テン)",
+      "artist": "鄧麗君 (テレサ・テン)",
       "count": 1
     },
     {
       "title": "藍の華",
       "artist": "HIMEHINA",
-      "count": 1
-    },
-    {
-      "title": "AIAIAI",
-      "artist": "キズナアイ",
       "count": 1
     },
     {
@@ -4846,11 +4681,6 @@
     {
       "title": "ロックな君とはお別れだ",
       "artist": "ツユ",
-      "count": 1
-    },
-    {
-      "title": "浴槽とネオンテトラ",
-      "artist": "REISAI feat. v flower",
       "count": 1
     },
     {
@@ -4865,7 +4695,7 @@
     },
     {
       "title": "ビンクスの酒",
-      "artist": "麦わらの一味(田中真弓,中井和哉,岡村明美,山口勝平,平田広明,大谷育江,山口由里子,矢尾一樹,チョー)",
+      "artist": "麦わらの一味 (田中真弓,中井和哉,岡村明美,山口勝平,平田広明,大谷育江,山口由里子,矢尾一樹,チョー)",
       "count": 1
     },
     {
@@ -4879,18 +4709,13 @@
       "count": 1
     },
     {
-      "title": "酔いどれ知らず",
-      "artist": "Kanaria feat. GUMI",
-      "count": 1
-    },
-    {
       "title": "EYE",
-      "artist": "Kanaria feat. GUMI",
+      "artist": "Kanaria",
       "count": 1
     },
     {
       "title": "脳漿炸裂ガール",
-      "artist": "れるりり feat. 初音ミク,GUMI",
+      "artist": "れるりり",
       "count": 1
     },
     {
@@ -4954,16 +4779,6 @@
       "count": 1
     },
     {
-      "title": "ワーワーワールド",
-      "artist": "Giga,Mitchie M feat. 初音ミク,鏡音リン",
-      "count": 1
-    },
-    {
-      "title": "女子校戦争",
-      "artist": "Silent Siren",
-      "count": 1
-    },
-    {
       "title": "That Is How I Roll!",
       "artist": "Afterglow",
       "count": 1
@@ -5010,7 +4825,7 @@
     },
     {
       "title": "チカっとチカ千花っ♡",
-      "artist": "藤原千花(小原好美)",
+      "artist": "藤原千花 (小原好美)",
       "count": 1
     },
     {
@@ -5020,22 +4835,17 @@
     },
     {
       "title": "テオ",
-      "artist": "Omoi feat. 初音ミク",
+      "artist": "Omoi",
       "count": 1
     },
     {
       "title": "廃墟の国のアリス",
-      "artist": "まふまふ feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "帝国少女",
-      "artist": "R Sound Design feat. 初音ミク",
+      "artist": "まふまふ",
       "count": 1
     },
     {
       "title": "あんずのうた",
-      "artist": "双葉杏(五十嵐裕美)",
+      "artist": "双葉杏 (五十嵐裕美)",
       "count": 1
     },
     {
@@ -5049,13 +4859,8 @@
       "count": 1
     },
     {
-      "title": "繰り返し一粒",
-      "artist": "猫虫 feat. 初音ミク,鏡音リン",
-      "count": 1
-    },
-    {
       "title": "LUVORATORRRRRY!",
-      "artist": "ギガ,れをる feat. GUMI,鏡音リン",
+      "artist": "ギガ,れをる",
       "count": 1
     },
     {
@@ -5070,17 +4875,12 @@
     },
     {
       "title": "告白日和、です!",
-      "artist": "南ことり(内田彩)&小泉花陽(久保ユリカ)",
+      "artist": "南ことり (内田彩)&小泉花陽 (久保ユリカ)",
       "count": 1
     },
     {
       "title": "Love wing bell",
       "artist": "μ's",
-      "count": 1
-    },
-    {
-      "title": "ファンサ",
-      "artist": "歌詞 mona(夏川椎菜)",
       "count": 1
     },
     {
@@ -5090,12 +4890,12 @@
     },
     {
       "title": "ぽっぴっぽー",
-      "artist": "ラマーズP feat. 初音ミク",
+      "artist": "ラマーズP",
       "count": 1
     },
     {
       "title": "ポジティブダンスタイム",
-      "artist": "キノシタ feat. 音街ウナ,鏡音リン",
+      "artist": "キノシタ",
       "count": 1
     },
     {
@@ -5134,33 +4934,23 @@
       "count": 1
     },
     {
-      "title": "ヨンジュウナナ",
-      "artist": "みきとP feat. 初音ミクAppend",
-      "count": 1
-    },
-    {
       "title": "バレリーコ",
-      "artist": "みきとP feat. GUMI",
-      "count": 1
-    },
-    {
-      "title": "小夜子",
-      "artist": "みきとP feat. MAYU",
+      "artist": "みきとP",
       "count": 1
     },
     {
       "title": "月陽-ツキアカリ-",
-      "artist": "みきとP feat. GUMI",
+      "artist": "みきとP",
       "count": 1
     },
     {
       "title": "世田谷ナイトサファリ",
-      "artist": "みきとP feat. 初音ミク",
+      "artist": "みきとP",
       "count": 1
     },
     {
       "title": "クノイチでも恋がしたい",
-      "artist": "みきとP feat. 初音ミク,鏡音リン",
+      "artist": "みきとP",
       "count": 1
     },
     {
@@ -5169,78 +4959,53 @@
       "count": 1
     },
     {
-      "title": "マオ",
-      "artist": "かいりきベア,まふまふ feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "朝を呑む",
-      "artist": "バルーン feat. 初音ミク",
-      "count": 1
-    },
-    {
       "title": "毒占欲",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 1
     },
     {
       "title": "ライアーダンス",
-      "artist": "DECO*27,Naoki Itai feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "想像フォレスト",
-      "artist": "じん feat. IA",
+      "artist": "DECO*27,Naoki Itai",
       "count": 1
     },
     {
       "title": "ドーナツホール",
-      "artist": "ハチ feat. GUMI",
+      "artist": "ハチ",
       "count": 1
     },
     {
       "title": "パンダヒーロー",
-      "artist": "ハチ feat. GUMI",
-      "count": 1
-    },
-    {
-      "title": "スペシャルガール",
-      "artist": "れるりりfeat.鳴花ヒメ & ミコト",
+      "artist": "ハチ",
       "count": 1
     },
     {
       "title": "い~やい~やい~や",
-      "artist": "Neru feat. 鏡音リン,鏡音レン",
+      "artist": "Neru",
       "count": 1
     },
     {
       "title": "リバーシブル・キャンペーン",
-      "artist": "DECO*27 feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "あの娘シークレット",
-      "artist": "EVE feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 1
     },
     {
       "title": "お気に召すまま",
-      "artist": "EVE feat. 初音ミク",
+      "artist": "Eve",
       "count": 1
     },
     {
       "title": "ドラマツルギー",
-      "artist": "EVE feat. 初音ミク",
+      "artist": "Eve",
       "count": 1
     },
     {
       "title": "アウトサイダー",
-      "artist": "EVE feat. 初音ミク",
+      "artist": "Eve",
       "count": 1
     },
     {
       "title": "四季折々に揺蕩いて",
-      "artist": "After the Rain(そらる×まふまふ)",
+      "artist": "After the Rain (そらる×まふまふ)",
       "count": 1
     },
     {
@@ -5249,28 +5014,18 @@
       "count": 1
     },
     {
-      "title": "想像フォレスト",
-      "artist": "じん(自然の敵P) feat. IA",
-      "count": 1
-    },
-    {
-      "title": "サマータイムレコード",
-      "artist": "じん(自然の敵P) feat. IA",
-      "count": 1
-    },
-    {
       "title": "daze",
-      "artist": "じん(自然の敵P) feat. メイリア from GARNiDELiA",
+      "artist": "じん (自然の敵P) feat. メイリア from GARNiDELiA",
       "count": 1
     },
     {
       "title": "世界は恋に落ちている",
-      "artist": "CHiCO with HoneyWorks,HoneyWorks feat. GUMI",
+      "artist": "CHiCO with HoneyWorks,HoneyWorks",
       "count": 1
     },
     {
       "title": "東京ウインターセッション",
-      "artist": "HoneyWorks 瀬戸口優(神谷浩史)・榎本夏樹(戸松遥)・望月蒼太(梶裕貴)・早坂あかり(阿澄佳奈)・芹沢春輝(鈴村健一)・合田美桜(豊崎愛生)",
+      "artist": "HoneyWorks 瀬戸口優 (神谷浩史)・榎本夏樹 (戸松遥)・望月蒼太 (梶裕貴)・早坂あかり (阿澄佳奈)・芹沢春輝 (鈴村健一)・合田美桜 (豊崎愛生)",
       "count": 1
     },
     {
@@ -5290,17 +5045,17 @@
     },
     {
       "title": "ネコミミアーカイブ",
-      "artist": "糞田舎P feat. 初音ミク",
+      "artist": "糞田舎P",
       "count": 1
     },
     {
       "title": "天才ロック",
-      "artist": "カラスヤサボウ feat. 鏡音リン",
+      "artist": "カラスヤサボウ",
       "count": 1
     },
     {
       "title": "フェイキング・オブ・コメディ",
-      "artist": "jon feat. v flower",
+      "artist": "jon",
       "count": 1
     },
     {
@@ -5309,38 +5064,33 @@
       "count": 1
     },
     {
-      "title": "愛言葉IV",
-      "artist": "DECO*27",
-      "count": 1
-    },
-    {
       "title": "Tulip",
-      "artist": "速水奏(飯田友子)、塩見周子(ルゥティン)、城ヶ崎美嘉(佳村はるか)、宮本フレデリカ(高野麻美)、一ノ瀬志希(藍原ことみ)",
+      "artist": "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
       "count": 1
     },
     {
       "title": "咲いてJewel",
-      "artist": "鷺沢文香(M・A・O)、速水奏(飯田友子)、橘ありす(佐藤亜美菜)、塩見周子(ルゥティン)、二宮飛鳥(青木志貴)",
+      "artist": "鷺沢文香 (M・A・O)、速水奏 (飯田友子)、橘ありす (佐藤亜美菜)、塩見周子 (ルゥティン)、二宮飛鳥 (青木志貴)",
       "count": 1
     },
     {
       "title": "純情Midnight伝説",
-      "artist": "向井拓海(原優子)、藤本里奈(金子真由美)、松永涼(千菅春香)、大和亜季(村中知)、木村夏樹(安野希世乃)",
+      "artist": "向井拓海 (原優子)、藤本里奈 (金子真由美)、松永涼 (千菅春香)、大和亜季 (村中知)、木村夏樹 (安野希世乃)",
       "count": 1
     },
     {
       "title": "絶対特権主張しますっ!",
-      "artist": "十時愛梨(原田ひとみ)、日野茜(赤崎千夏)、高森藍子(金子有希)、星輝子(松田颯水)、堀裕子(鈴木絵理)",
+      "artist": "十時愛梨 (原田ひとみ)、日野茜 (赤崎千夏)、高森藍子 (金子有希)、星輝子 (松田颯水)、堀裕子 (鈴木絵理)",
       "count": 1
     },
     {
       "title": "アタシポンコツアンドロイド",
-      "artist": "小日向美穂(津田美波)、双葉杏(五十嵐裕美)、前川みく(高森奈津美)",
+      "artist": "小日向美穂 (津田美波)、双葉杏 (五十嵐裕美)、前川みく (高森奈津美)",
       "count": 1
     },
     {
       "title": "OTAHEN アンセム",
-      "artist": "夢見りあむ(星希成奏)",
+      "artist": "夢見りあむ (星希成奏)",
       "count": 1
     },
     {
@@ -5384,23 +5134,18 @@
       "count": 1
     },
     {
-      "title": "アイディスマイル",
-      "artist": "とあ feat. MEIKO",
-      "count": 1
-    },
-    {
       "title": "Singing!",
       "artist": "放課後ティータイム",
       "count": 1
     },
     {
       "title": "​サマータイムレコード",
-      "artist": "じん feat. IA",
+      "artist": "じん",
       "count": 1
     },
     {
       "title": "アサガオの散る頃に",
-      "artist": "じっぷす feat. 初音ミク",
+      "artist": "じっぷす",
       "count": 1
     },
     {
@@ -5424,13 +5169,8 @@
       "count": 1
     },
     {
-      "title": "酔いどれ知らず",
-      "artist": "Kanaria",
-      "count": 1
-    },
-    {
       "title": "うまぴょい伝説",
-      "artist": "スペシャルウィーク(和氣あず未),サイレンススズカ(高野麻里佳),トウカイテイオー(Machico)他",
+      "artist": "スペシャルウィーク (和氣あず未),サイレンススズカ (高野麻里佳),トウカイテイオー (Machico)他",
       "count": 1
     },
     {
@@ -5445,7 +5185,7 @@
     },
     {
       "title": "悪ノ召使",
-      "artist": "mothy(悪ノP) feat. 鏡音レン",
+      "artist": "mothy (悪ノP)",
       "count": 1
     },
     {
@@ -5454,18 +5194,8 @@
       "count": 1
     },
     {
-      "title": "独りんぼエンヴィー",
-      "artist": "電ポルP feat. 初音ミク",
-      "count": 1
-    },
-    {
       "title": "アイロニ",
-      "artist": "すこっぷ feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "夜明けと蛍",
-      "artist": "ナブナ feat. IA",
+      "artist": "すこっぷ",
       "count": 1
     },
     {
@@ -5474,28 +5204,18 @@
       "count": 1
     },
     {
-      "title": "絶え間なく藍色",
-      "artist": "Shishi Shishi feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "ワールドイズマイン",
-      "artist": "ryo(supercell) feat. 初音ミク",
-      "count": 1
-    },
-    {
       "title": "No Logic",
-      "artist": "ジミーサムP feat. 巡音ルカ",
+      "artist": "ジミーサムP",
       "count": 1
     },
     {
       "title": "君の体温",
-      "artist": "クワガタP feat. 初音ミク",
+      "artist": "クワガタP",
       "count": 1
     },
     {
       "title": "ルカルカナイトフィーバー",
-      "artist": "samfree feat. 巡音ルカ",
+      "artist": "samfree",
       "count": 1
     },
     {
@@ -5505,22 +5225,12 @@
     },
     {
       "title": "シュガーバイン",
-      "artist": "Dixie Flatline feat. 巡音ルカ",
-      "count": 1
-    },
-    {
-      "title": "さようなら、花泥棒さん",
-      "artist": "メル feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "オツキミリサイタル",
-      "artist": "じん",
+      "artist": "Dixie Flatline",
       "count": 1
     },
     {
       "title": "ゆるふわ樹海ガール",
-      "artist": "石風呂 feat.初音ミク",
+      "artist": "石風呂",
       "count": 1
     },
     {
@@ -5530,7 +5240,7 @@
     },
     {
       "title": "放課後ストライド",
-      "artist": "Last Note. feat. GUMI",
+      "artist": "Last Note.",
       "count": 1
     },
     {
@@ -5565,7 +5275,7 @@
     },
     {
       "title": "ECHO",
-      "artist": "CRUSHER-P feat. GUMI",
+      "artist": "CRUSHER-P",
       "count": 1
     },
     {
@@ -5575,22 +5285,17 @@
     },
     {
       "title": "六兆年と一夜物語",
-      "artist": "kemu feat. IA",
-      "count": 1
-    },
-    {
-      "title": "太陽系デスコ",
-      "artist": "ナユタン星人 feat. 初音ミク",
+      "artist": "kemu",
       "count": 1
     },
     {
       "title": "明星ギャラクティカ",
-      "artist": "ナユタン星人 feat. 初音ミク",
+      "artist": "ナユタン星人",
       "count": 1
     },
     {
       "title": "アカツキアライヴァル",
-      "artist": "Last Note. feat. 初音ミク,巡音ルカ",
+      "artist": "Last Note.",
       "count": 1
     },
     {
@@ -5600,7 +5305,7 @@
     },
     {
       "title": "コワレヤスキ",
-      "artist": "Guilty Kiss(Aqours)",
+      "artist": "Guilty Kiss (Aqours)",
       "count": 1
     },
     {
@@ -5620,12 +5325,7 @@
     },
     {
       "title": "フラジール",
-      "artist": "ぬゆり feat. GUMI",
-      "count": 1
-    },
-    {
-      "title": "邪魔",
-      "artist": "syudou feat. 初音ミク",
+      "artist": "ぬゆり",
       "count": 1
     },
     {
@@ -5640,27 +5340,22 @@
     },
     {
       "title": "もってけ!セーラーふく",
-      "artist": "泉こなた(平野綾)、柊かがみ(加藤英美里)、柊つかさ(福原香織)、高良みゆき(遠藤綾)",
-      "count": 1
-    },
-    {
-      "title": "マオ",
-      "artist": "かいりきベア・まふまふ feat. 初音ミク",
+      "artist": "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
       "count": 1
     },
     {
       "title": "ココロナンセンス",
-      "artist": "かいりきベア feat. 初音ミク",
+      "artist": "かいりきベア",
       "count": 1
     },
     {
       "title": "セイデンキニンゲン",
-      "artist": "かいりきベア feat. 初音ミク",
+      "artist": "かいりきベア",
       "count": 1
     },
     {
       "title": "ヒトサマアレルギー",
-      "artist": "かいりきベア feat. flower",
+      "artist": "かいりきベア",
       "count": 1
     },
     {
@@ -5680,47 +5375,37 @@
     },
     {
       "title": "プロトディスコ",
-      "artist": "ぬゆり feat. flower",
-      "count": 1
-    },
-    {
-      "title": "ネオネオン",
-      "artist": "DECO*27",
+      "artist": "ぬゆり",
       "count": 1
     },
     {
       "title": "Life",
-      "artist": "たまぁ~ずP feat. 初音ミク",
+      "artist": "たまぁ~ずP",
       "count": 1
     },
     {
       "title": "secret base~君がくれたもの~",
-      "artist": "ZONE, 本間芽衣子(茅野愛衣)/安城鳴子(戸松遥)/鶴見知利子(早見沙織)",
-      "count": 1
-    },
-    {
-      "title": "月光潤色ガール",
-      "artist": "れるりり feat. 初音ミク,GUMI",
+      "artist": "ZONE, 本間芽衣子 (茅野愛衣)/安城鳴子 (戸松遥)/鶴見知利子 (早見沙織)",
       "count": 1
     },
     {
       "title": "PLATONIC GIRL",
-      "artist": "みきとP feat. GUMI",
+      "artist": "みきとP",
       "count": 1
     },
     {
       "title": "ハレハレヤ",
-      "artist": "羽生まゐご feat. v flower",
+      "artist": "羽生まゐご",
       "count": 1
     },
     {
       "title": "ソバエ隠道中",
-      "artist": "めいちゃん, ナナホシ管弦楽団 feat. IA",
+      "artist": "めいちゃん, ナナホシ管弦楽団",
       "count": 1
     },
     {
       "title": "セカンド・キス",
-      "artist": "みきとP feat.巡音ルカ",
+      "artist": "みきとP",
       "count": 1
     },
     {
@@ -5730,32 +5415,27 @@
     },
     {
       "title": "空想フォレスト",
-      "artist": "じん feat. IA",
+      "artist": "じん",
       "count": 1
     },
     {
       "title": "恋空予報",
-      "artist": "電ポルP feat. GUMI",
+      "artist": "koyori (電ポルP)",
       "count": 1
     },
     {
       "title": "アディショナルメモリー",
-      "artist": "じん,ぐっしー,魚 feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "AIAIAI",
-      "artist": "Kizuna AI",
+      "artist": "じん,ぐっしー,魚",
       "count": 1
     },
     {
       "title": "どりーみんチュチュ",
-      "artist": "emon(Tes.) feat. 巡音ルカ",
+      "artist": "emon (Tes.)",
       "count": 1
     },
     {
       "title": "chocolate box",
-      "artist": "dezzy(一億円P) feat. 鏡音リン,鏡音レン",
+      "artist": "dezzy (一億円P)",
       "count": 1
     },
     {
@@ -5815,7 +5495,7 @@
     },
     {
       "title": "コールボーイ",
-      "artist": "syudou feat. 初音ミク",
+      "artist": "syudou",
       "count": 1
     },
     {
@@ -5834,13 +5514,8 @@
       "count": 1
     },
     {
-      "title": "竹取オーバーナイトセンセーション",
-      "artist": "HoneyWorks feat. 鏡音リン,鏡音レン",
-      "count": 1
-    },
-    {
       "title": "天樂",
-      "artist": "ゆうゆ feat. 鏡音リン",
+      "artist": "ゆうゆ",
       "count": 1
     },
     {
@@ -5864,28 +5539,18 @@
       "count": 1
     },
     {
-      "title": "おじゃま虫",
-      "artist": "DECO*27 feat.初音ミク",
-      "count": 1
-    },
-    {
       "title": "アニマル",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 1
     },
     {
       "title": "高音厨音域テスト",
-      "artist": "木村わいP feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "打上花火",
-      "artist": "DAOKO×米津玄師",
+      "artist": "木村わいP",
       "count": 1
     },
     {
       "title": "フタリボシ",
-      "artist": "40mP feat. 初音ミク&GUMI",
+      "artist": "40mP",
       "count": 1
     },
     {
@@ -5905,12 +5570,7 @@
     },
     {
       "title": "グッバイ宣言",
-      "artist": "Chinozo feat. v flower",
-      "count": 1
-    },
-    {
-      "title": "第六感",
-      "artist": "Reol(れをる)",
+      "artist": "Chinozo",
       "count": 1
     },
     {
@@ -5920,12 +5580,12 @@
     },
     {
       "title": "劣等上等",
-      "artist": "Giga feat. 鏡音リン,鏡音レン",
+      "artist": "Giga",
       "count": 1
     },
     {
       "title": "ハイタッチ!",
-      "artist": "サトシ(松本梨香)&ヒカリ(豊口めぐみ)",
+      "artist": "サトシ (松本梨香)&ヒカリ (豊口めぐみ)",
       "count": 1
     },
     {
@@ -5934,13 +5594,8 @@
       "count": 1
     },
     {
-      "title": "乱躁滅裂ガール",
-      "artist": "れるりり feat. 初音ミク,GUMI",
-      "count": 1
-    },
-    {
       "title": "イナイイナイ依存症",
-      "artist": "かいりきベア feat. GUMI,鏡音リン",
+      "artist": "かいりきベア",
       "count": 1
     },
     {
@@ -5950,7 +5605,7 @@
     },
     {
       "title": "メビウス",
-      "artist": "柊キライ feat. v flower",
+      "artist": "柊キライ",
       "count": 1
     },
     {
@@ -5965,27 +5620,7 @@
     },
     {
       "title": "About me",
-      "artist": "蝶々P feat. GUMI",
-      "count": 1
-    },
-    {
-      "title": "ヨンジュウナナ",
-      "artist": "みきとP feat.初音ミク",
-      "count": 1
-    },
-    {
-      "title": "アカイト",
-      "artist": "みきとP feat.初音ミク",
-      "count": 1
-    },
-    {
-      "title": "again",
-      "artist": "yui",
-      "count": 1
-    },
-    {
-      "title": "CHO-DARI-",
-      "artist": "23.exe feat.初音ミク",
+      "artist": "蝶々P",
       "count": 1
     },
     {
@@ -5994,23 +5629,18 @@
       "count": 1
     },
     {
-      "title": "初めての恋が終わる時",
-      "artist": "ryo(supercell)",
-      "count": 1
-    },
-    {
       "title": "太陽曰く燃えよカオス",
-      "artist": "後ろから這いより隊G(ニャル子,クー子,珠緒)",
+      "artist": "後ろから這いより隊G (ニャル子,クー子,珠緒)",
       "count": 1
     },
     {
       "title": "スイートマジック",
-      "artist": "Junky feat. 鏡音リン",
+      "artist": "Junky",
       "count": 1
     },
     {
       "title": "sweets parade",
-      "artist": "髏々宮カルタ(花澤香菜)",
+      "artist": "髏々宮カルタ (花澤香菜)",
       "count": 1
     },
     {
@@ -6025,22 +5655,17 @@
     },
     {
       "title": "コードレス照れPHONE",
-      "artist": "草壁ゆか(田村ゆかり)",
+      "artist": "草壁ゆか (田村ゆかり)",
       "count": 1
     },
     {
       "title": "メンヘラじゃないもん!",
-      "artist": "勇魚 feat. 初音ミク,音街ウナ",
+      "artist": "勇魚",
       "count": 1
     },
     {
       "title": "リンちゃんなう!",
       "artist": "オワタP",
-      "count": 1
-    },
-    {
-      "title": "幽霊東京",
-      "artist": "Ayase feat. 初音ミク",
       "count": 1
     },
     {
@@ -6055,12 +5680,12 @@
     },
     {
       "title": "一心不乱",
-      "artist": "梅とら feat. 初音ミク,巡音ルカ,GUMI",
+      "artist": "梅とら",
       "count": 1
     },
     {
       "title": "ゆめゆめ",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 1
     },
     {
@@ -6071,11 +5696,6 @@
     {
       "title": "恋愛サーキュレーション",
       "artist": "花澤香菜",
-      "count": 1
-    },
-    {
-      "title": "乙女解剖",
-      "artist": "DECO*27",
       "count": 1
     },
     {
@@ -6094,18 +5714,13 @@
       "count": 1
     },
     {
-      "title": "パメラ",
-      "artist": "バルーン",
-      "count": 1
-    },
-    {
       "title": "热爱105°c的你",
       "artist": "阿肆",
       "count": 1
     },
     {
       "title": "愛言葉",
-      "artist": "DECO*27 feat. 初音ミク",
+      "artist": "DECO*27",
       "count": 1
     },
     {
@@ -6114,13 +5729,8 @@
       "count": 1
     },
     {
-      "title": "The Everlasting Guilty Crown",
-      "artist": "EGOIST /",
-      "count": 1
-    },
-    {
       "title": "夜咄ディセイブ",
-      "artist": "じん feat. IA",
+      "artist": "じん",
       "count": 1
     },
     {
@@ -6134,28 +5744,13 @@
       "count": 1
     },
     {
-      "title": "トリノコシティ",
-      "artist": "40mP",
-      "count": 1
-    },
-    {
       "title": "かぐやの城で踊りたい",
       "artist": "μ's",
       "count": 1
     },
     {
-      "title": "竹取オーバーナイトセンセーション",
-      "artist": "HoneyWorks",
-      "count": 1
-    },
-    {
       "title": "CLEAR",
       "artist": "坂本真綾",
-      "count": 1
-    },
-    {
-      "title": "青空のラプソディ",
-      "artist": "fhána",
       "count": 1
     },
     {
@@ -6214,16 +5809,6 @@
       "count": 1
     },
     {
-      "title": "太陽系デスコ",
-      "artist": "ナユタン星人",
-      "count": 1
-    },
-    {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
-      "count": 1
-    },
-    {
       "title": "メルト CPK Remix",
       "artist": "ryo (supercell)",
       "count": 1
@@ -6235,12 +5820,7 @@
     },
     {
       "title": "春を待つ",
-      "artist": "Islet feat.倚水",
-      "count": 1
-    },
-    {
-      "title": "Remember",
-      "artist": "月見ヤチヨ(cv.早見沙織)",
+      "artist": "Islet feat. 倚水",
       "count": 1
     },
     {
@@ -6254,23 +5834,8 @@
       "count": 1
     },
     {
-      "title": "千本桜",
-      "artist": "黒うさP",
-      "count": 1
-    },
-    {
       "title": "少年よ我に帰れ",
       "artist": "やくしまるえつこ",
-      "count": 1
-    },
-    {
-      "title": "妄想感傷代償連盟",
-      "artist": "DECO*27",
-      "count": 1
-    },
-    {
-      "title": "星降る海",
-      "artist": "Aqu3ra 月見ヤチヨ (CV: 早見沙織)",
       "count": 1
     },
     {
@@ -6314,11 +5879,6 @@
       "count": 1
     },
     {
-      "title": "人マニア",
-      "artist": "原口沙輔",
-      "count": 1
-    },
-    {
       "title": "ノンブレスオブリージュ",
       "artist": "ピノキオピー",
       "count": 1
@@ -6331,16 +5891,6 @@
     {
       "title": "ハオ",
       "artist": "DECO*27",
-      "count": 1
-    },
-    {
-      "title": "ロウワー",
-      "artist": "ぬゆり",
-      "count": 1
-    },
-    {
-      "title": "メルト",
-      "artist": "ryo (supercell)",
       "count": 1
     },
     {
@@ -6384,11 +5934,6 @@
       "count": 1
     },
     {
-      "title": "青空のラプソディ",
-      "artist": "fhana",
-      "count": 1
-    },
-    {
       "title": "エルの楽園 [→ side:E →]",
       "artist": "Sound Horizon",
       "count": 1
@@ -6416,31 +5961,6 @@
     {
       "title": "Departures~あなたにおくるアイの歌~",
       "artist": "EGOIST",
-      "count": 1
-    },
-    {
-      "title": "チェリーポップ",
-      "artist": "DECO*27",
-      "count": 1
-    },
-    {
-      "title": "ルマ",
-      "artist": "かいりきベア",
-      "count": 1
-    },
-    {
-      "title": "邪魔",
-      "artist": "syudou",
-      "count": 1
-    },
-    {
-      "title": "Booo!",
-      "artist": "TOKOTOKO(西沢さんP)",
-      "count": 1
-    },
-    {
-      "title": "地球最後の告白を",
-      "artist": "kemu",
       "count": 1
     },
     {
@@ -6514,11 +6034,6 @@
       "count": 1
     },
     {
-      "title": "キャットラビング",
-      "artist": "香椎モイミ",
-      "count": 1
-    },
-    {
       "title": "BALALAIKA",
       "artist": "9Lana",
       "count": 1
@@ -6526,11 +6041,6 @@
     {
       "title": "渉り星",
       "artist": "Islet",
-      "count": 1
-    },
-    {
-      "title": "テレパシ",
-      "artist": "DECO*27",
       "count": 1
     },
     {
@@ -6544,28 +6054,8 @@
       "count": 1
     },
     {
-      "title": "曖昧劣情Lover",
-      "artist": "koyori (電ポルP)",
-      "count": 1
-    },
-    {
-      "title": "独りんぼエンヴィー",
-      "artist": "koyori (電ポルP) feat. 初音ミク",
-      "count": 1
-    },
-    {
-      "title": "夜顔の告白",
-      "artist": "samayuzame feat. 暗鳴ニュイ",
-      "count": 1
-    },
-    {
       "title": "ワールド・ランプシェード",
       "artist": "りょーくん",
-      "count": 1
-    },
-    {
-      "title": "初めての恋が終わる時",
-      "artist": "supercell feat. 初音ミク",
       "count": 1
     },
     {
@@ -6574,13 +6064,8 @@
       "count": 1
     },
     {
-      "title": "夜顔の告白",
-      "artist": "samayuzame ft.暗鳴ニュイ",
-      "count": 1
-    },
-    {
       "title": "paranoia",
-      "artist": "つなまる(めざめP) feat.初音ミク",
+      "artist": "つなまる (めざめP)",
       "count": 1
     },
     {
@@ -6605,32 +6090,12 @@
     },
     {
       "title": "シリョクケンサ",
-      "artist": "40mP feat.GUMI",
-      "count": 1
-    },
-    {
-      "title": "ワールドイズマイン",
-      "artist": "supercell feat.初音ミク",
-      "count": 1
-    },
-    {
-      "title": "Calc.",
-      "artist": "ジミーサムP feat.初音ミク",
-      "count": 1
-    },
-    {
-      "title": "地球最後の告白を",
-      "artist": "kemu feat.GUMI",
+      "artist": "40mP",
       "count": 1
     },
     {
       "title": "月光食堂",
-      "artist": "ぬー(古川本舗)",
-      "count": 1
-    },
-    {
-      "title": "フォニイ",
-      "artist": "ツミキ",
+      "artist": "ぬー (古川本舗)",
       "count": 1
     },
     {
@@ -6655,7 +6120,7 @@
     },
     {
       "title": "白い雪のプリンセスは -Re:incarnation-",
-      "artist": "のぼる↑ feat. 初音ミク",
+      "artist": "のぼる↑",
       "count": 1
     },
     {
@@ -6695,12 +6160,12 @@
     },
     {
       "title": "白い雪のプリンセスは-Re:incarnation-",
-      "artist": "のぼる↑ feat. 初音ミク",
+      "artist": "のぼる↑",
       "count": 1
     },
     {
       "title": "ブリキノダンス",
-      "artist": "日向電工 feat. 初音ミク",
+      "artist": "日向電工",
       "count": 1
     },
     {
@@ -6734,11 +6199,6 @@
       "count": 1
     },
     {
-      "title": "Booo!",
-      "artist": "TOKOTOKO (西沢さんP) feat.音街ウナ",
-      "count": 1
-    },
-    {
       "title": "もぐもぐYUMMY!",
       "artist": "猫又おかゆ",
       "count": 1
@@ -6760,22 +6220,12 @@
     },
     {
       "title": "檄! 帝国華撃団",
-      "artist": "真宮寺さくら(横山智佐)&帝国歌劇団",
-      "count": 1
-    },
-    {
-      "title": "きゅうくらりん",
-      "artist": "いよわ feat.可不",
+      "artist": "真宮寺さくら (横山智佐)&帝国歌劇団",
       "count": 1
     },
     {
       "title": "蜜月アン・ドゥ・トロワ",
-      "artist": "DATEKEN feat. 鏡音リン",
-      "count": 1
-    },
-    {
-      "title": "帝国少女",
-      "artist": "R Sound Design feat.初音ミク",
+      "artist": "DATEKEN",
       "count": 1
     },
     {
@@ -6801,11 +6251,6 @@
     {
       "title": "再会",
       "artist": "はるまきごはん",
-      "count": 1
-    },
-    {
-      "title": "それがあなたの幸せとしても",
-      "artist": "Heavenz",
       "count": 1
     },
     {
@@ -6851,18 +6296,12 @@
   ],
   "artists": [
     "10-FEET",
-    "164 feat. GUMI",
-    "1640mP(164x40mP) feat. 初音ミク",
+    "164",
+    "1640mP (164x40mP)",
     "19's Sound Factory",
-    "19's Sound Factory feat. 初音ミク",
-    "23.exe feat. 初音ミク",
-    "23.exe feat.初音ミク",
-    "25時、ナイトコードで。, とあ feat. 初音ミク・鏡音リン",
+    "23.exe",
+    "25時、ナイトコードで。, とあ",
     "40mP",
-    "40mP feat. 初音ミク",
-    "40mP feat. 初音ミク&GUMI",
-    "40mP feat.GUMI",
-    "40mP feat.初音ミク",
     "7!!",
     "9Lana",
     "A-RISE",
@@ -6875,7 +6314,7 @@
     "Ado",
     "Ado (ウタ)",
     "After the Rain",
-    "After the Rain(そらる×まふまふ)",
+    "After the Rain (そらる×まふまふ)",
     "Afterglow",
     "AiNA THE END",
     "AiScReam",
@@ -6885,95 +6324,72 @@
     "Aiobahn feat. KOTOKO",
     "Aiobahn × KOTOKO",
     "AliA",
-    "Angel Dust(Blake Roman)",
+    "Angel Dust (Blake Roman)",
     "Aqours",
-    "Aqu3ra 月見ヤチヨ (CV: 早見沙織)",
     "Ayase",
-    "Ayase feat. 初音ミク",
     "Azari",
     "A応P",
     "BIGBANG",
     "BUMP OF CHICKEN",
     "Base Ball Bear",
-    "BiBi(μ's)",
+    "BiBi (μ's)",
     "Buono!",
     "B小町",
     "B小町 ルビー(CV:伊駒ゆりえ)、有馬かな(CV:潘めぐみ)、MEMちょ(CV:大久保瑠美)",
     "CHiCO with HoneyWorks",
-    "CHiCO with HoneyWorks,HoneyWorks feat. GUMI",
+    "CHiCO with HoneyWorks,HoneyWorks",
     "CINDERELLA PROJECT",
-    "CRUSHER-P feat. GUMI",
-    "Chinozo feat. v flower",
-    "Choisauce(獅子志司) feat. 初音ミク",
+    "CRUSHER-P",
+    "Chinozo",
+    "Choisauce (獅子志司)",
     "ClariS",
     "Creepy Nuts",
     "Cö shu Nie",
     "DALI",
     "DAOKO × 米津玄師",
-    "DAOKO×米津玄師",
     "DATEKEN",
-    "DATEKEN feat. 鏡音リン",
     "DECO*27",
     "DECO*27 feat. Calliope Mori,Gawr Gura",
-    "DECO*27 feat. GUMI",
-    "DECO*27 feat. Hatsune Miku",
     "DECO*27 feat. marina,GUMI",
-    "DECO*27 feat. 初音ミク",
-    "DECO*27 feat.初音ミク",
-    "DECO*27,Giga feat. 初音ミク",
-    "DECO*27,Naoki Itai feat. 初音ミク",
-    "DECO*27,Rockwell feat. 初音ミク",
+    "DECO*27, Giga",
+    "DECO*27, Rockwell",
+    "DECO*27,Naoki Itai",
     "DOES",
-    "Dixie Flatline feat. 巡音ルカ",
+    "Dixie Flatline",
     "E-girls",
     "EGOIST",
-    "EGOIST /",
     "ELLEGARDEN",
-    "EVE feat. 初音ミク",
-    "EasyPop feat. 巡音ルカ,GUMI",
-    "Eight feat. 初音ミク",
+    "EasyPop",
+    "Eight",
     "Embellir Gift",
-    "EmbellirGift(苓吃エムリィ/間取かける/涼風しとら)",
     "Eve",
-    "Eve feat. 初音ミク",
     "FIELD OF VIEW",
     "FLOW",
     "FLiP",
-    "FLip",
     "FRUITS ZIPPER",
     "FUNKIST",
     "GARNiDELiA",
     "GEMN, 中島健人&キタニタツヤ",
     "GReeeeN",
     "Giga",
-    "Giga feat. 初音ミク,鏡音リン,鏡音レン",
-    "Giga feat. 鏡音リン,鏡音レン",
-    "Giga, Mitchie M feat. 初音ミク, 鏡音リン",
-    "Giga,Mitchie M feat. 初音ミク,鏡音リン",
+    "Giga, Mitchie M",
     "Girls Dead Monster",
+    "Girls Dead Monster (LiSA)",
     "Girls Dead Monster STARRING LiSA",
-    "Girls Dead Monster(LiSA)",
     "Goose house",
-    "Guilty Kiss(Aqours)",
+    "Guilty Kiss (Aqours)",
     "GuraMarine",
     "HIMEHINA",
     "Heavenz",
-    "Heavenz feat. 巡音ルカ",
-    "HoneyWorks",
-    "HoneyWorks feat. GUMI",
-    "HoneyWorks feat. 初音ミク",
-    "HoneyWorks feat. 鏡音リン,鏡音レン",
-    "HoneyWorks 瀬戸口優(神谷浩史)・榎本夏樹(戸松遥)・望月蒼太(梶裕貴)・早坂あかり(阿澄佳奈)・芹沢春輝(鈴村健一)・合田美桜(豊崎愛生)",
-    "Honeyworks",
+    "HoneyWorks 瀬戸口優 (神谷浩史)・榎本夏樹 (戸松遥)・望月蒼太 (梶裕貴)・早坂あかり (阿澄佳奈)・芹沢春輝 (鈴村健一)・合田美桜 (豊崎愛生)",
     "Islet",
     "Islet feat. Sando Aoi×Yoru.",
-    "Islet feat.倚水",
+    "Islet feat. 倚水",
     "JUDY AND MARY",
     "JUJU",
     "Janne Da Arc",
     "Juice=Juice",
-    "Junky feat. 鏡音リン",
-    "Junky feat.鏡音リン",
+    "Junky",
     "KANA-BOON",
     "KAT-TUN",
     "KELUN",
@@ -6981,17 +6397,11 @@
     "KOTOKO",
     "Kalafina",
     "Kanaria",
-    "Kanaria feat. GUMI",
-    "Kanaria feat. Hatsune Miku,GUMI",
-    "Kanaria feat. 初音ミク",
-    "Kanaria feat. 初音ミク,GUMI",
     "King Gnu",
     "Kiroro",
-    "Kizuna AI",
     "Kobo Kanaeru",
     "LUMi",
-    "Last Note. feat. GUMI",
-    "Last Note. feat. 初音ミク,巡音ルカ",
+    "Last Note.",
     "LiSA",
     "LiSA×Uru",
     "LiSAとUru",
@@ -7002,73 +6412,57 @@
     "M!LK",
     "MAHO堂",
     "MAISONdes",
-    "MAISONdes feat. 花譜,ツミキ",
-    "MARETU feat. 初音ミク",
-    "MARETU feat. 初音ミク(MARETU feat. 初音ミク",
+    "MARETU",
     "ME:I",
     "METAMUSE [ZOC]",
-    "MI8k(ナポリP) feat. GUMI",
+    "MI8k (ナポリP)",
     "MOSAIC.WAV",
     "MY FIRST STORY",
     "MYTH & ROID",
     "May'n & 中島愛",
     "May'n 中島愛",
     "MilkyWay",
-    "Mitchie M feat. 初音ミク",
+    "Mitchie M",
     "Mrs. GREEN APPLE",
     "My Hair is Bad",
     "NANA starring MIKA NAKASHIMA",
     "NEE",
-    "Nem feat. GUMI,鏡音レン",
+    "Nem",
     "Neru",
-    "Neru feat. 鏡音リン",
-    "Neru feat. 鏡音リン,鏡音レン",
     "ONE OK ROCK",
     "ORANGE RANGE",
     "Official髭男dism",
-    "Omoi feat. 初音ミク",
+    "Omoi",
     "Orangestar",
-    "Orangestar feat. IA",
-    "Orangestar feat. 初音ミク",
     "PSYQUI",
     "Perfume",
     "Petit Rabbit's",
     "P丸様。",
     "R",
-    "R Sound Design feat. 初音ミク",
-    "R Sound Design feat.初音ミク",
+    "R Sound Design",
     "RADWIMPS",
-    "REISAI feat. flower",
-    "REISAI feat. v flower",
+    "REISAI",
     "ReGLOSS",
     "ReoNa",
     "Reol",
-    "Reol(れをる)",
-    "Reol(れをる)・Reol feat. 初音ミク",
     "Royal Scandal",
     "SARM",
     "SCANDAL",
-    "SEVENTHLINKS feat. v flower",
+    "SEVENTHLINKS",
     "SHISHAMO",
     "SILENT SIREN",
-    "SOL(from BIGBANG)",
+    "SOL (from BIGBANG)",
     "SPEED",
     "SPLAY",
     "SPYAIR",
     "Saint Snow",
     "See-Saw",
     "Sena Kiryuin & Justen Kuwabatake",
-    "Shishi Shishi feat. 初音ミク",
-    "Silent Siren",
     "Sound Horizon",
     "Superfly",
     "T.M.Revolution",
     "T.M.Revolution×水樹奈々",
-    "TOKOTOKO (西沢さんP) feat.音街ウナ",
-    "TOKOTOKO(西沢さんP)",
-    "TOKOTOKO(西沢さんP) feat. GUMI",
-    "TOKOTOKO(西沢さんP) feat. 初音ミク",
-    "TOKOTOKO(西沢さんP) feat. 音街ウナ",
+    "TOKOTOKO (西沢さんP)",
     "TOOBOE",
     "TRUE",
     "Theatre Brook",
@@ -7078,7 +6472,7 @@
     "UNISON SQUARE GARDEN",
     "UVERworld",
     "Uru",
-    "VAN DE SHOP feat. 初音ミク,GUMI",
+    "VAN DE SHOP",
     "Vaundy",
     "XX:me",
     "XYZ",
@@ -7090,87 +6484,62 @@
     "Yunomi & nicamoq",
     "ZARD",
     "ZOC",
-    "ZONE, 本間芽衣子(茅野愛衣)/安城鳴子(戸松遥)/鶴見知利子(早見沙織)",
+    "ZONE, 本間芽衣子 (茅野愛衣)/安城鳴子 (戸松遥)/鶴見知利子 (早見沙織)",
     "aiko",
     "ano",
     "back number",
     "buzzG",
-    "buzzG feat. GUMI",
-    "buzzG feat. GUMI SV",
     "chomaiyo × TOKOTOKO (Nishizawasan-P)",
-    "cosMo@暴走P feat. 初音ミク",
-    "dezzy(一億円P) feat. 鏡音リン,鏡音レン",
-    "doriko feat. 初音ミク",
+    "cosMo@暴走P",
+    "dezzy (一億円P)",
+    "doriko",
     "ecosystem",
-    "emon(Tes.) feat. 巡音ルカ",
+    "emon (Tes.)",
     "femme fatale",
-    "fhana",
     "fhána",
     "flumpool",
     "fripSide",
     "iLiFE!",
     "iON!",
-    "jon feat. v flower",
+    "jon",
     "kemu",
-    "kemu feat. GUMI",
-    "kemu feat. IA",
-    "kemu feat.GUMI",
     "koyori (電ポルP)",
-    "koyori (電ポルP) feat. 初音ミク",
-    "koyori(電ポルP) feat. GUMI",
-    "koyori(電ポルP) feat. flower",
-    "koyori(電ポルP) feat. v flower",
-    "koyori(電ポルP) feat. 初音ミク",
-    "koyori(電ポルP) feat. 初音ミクAppend Dark",
     "kz",
     "kz & かぐや",
     "kz (livetune)",
-    "livetune feat. 初音ミク",
+    "livetune",
     "majiko",
     "mao",
     "meiyo",
     "mihimaru GT",
     "mint",
     "miwa",
-    "mona(夏川椎菜)",
+    "mona (夏川椎菜)",
     "moricalliope",
-    "mothy(悪ノP) feat. 鏡音リン",
-    "mothy(悪ノP) feat. 鏡音レン",
+    "mothy (悪ノP)",
     "n-buna",
-    "n-buna feat. 初音ミク",
+    "niki",
     "niki feat. Lily",
-    "niki feat. 初音ミク",
     "nyamura",
-    "r-906 feat. 初音ミク",
+    "r-906",
     "rionos",
     "ryo (supercell)",
-    "ryo (supercell) feat. 初音ミク",
     "ryo (supercell), かぐや (CV.夏吉ゆうこ) & 月見ヤチヨ (CV.早見沙織)",
-    "ryo(supercell)",
-    "ryo(supercell) feat. 初音ミク",
-    "saiB feat. 初音ミク",
-    "samayuzame feat. 暗鳴ニュイ",
-    "samayuzame ft.暗鳴ニュイ",
-    "samfree feat. 巡音ルカ",
-    "sasakure. UK feat. 初音ミク",
+    "saiB",
+    "samayuzame",
+    "samfree",
     "sasakure.UK",
     "sasakure.UK feat. Asako Toki",
-    "sasakure.UK feat. 初音ミク",
     "sasakure.‌UK",
     "serial TV drama",
     "shr feat. 鏡音リン/巡音ルカ",
-    "supercell feat. 初音ミク",
-    "supercell feat.初音ミク",
     "syudou",
-    "syudou feat. 初音ミク",
-    "syudou feat. 可不",
-    "tamon feat. 初音ミク・flower",
+    "tamon",
     "tuki.",
     "wotaku",
-    "wowaka feat. 初音ミク",
+    "wowaka",
     "yama",
-    "yamada feat. 初音ミク",
-    "yui",
+    "yamada",
     "μ's",
     "あいみょん",
     "あかせあかり",
@@ -7180,213 +6549,152 @@
     "いきものがかり",
     "いずれ菖蒲か杜若",
     "いとうかなこ",
-    "いよわ feat. 可不",
-    "いよわ feat.可不",
+    "いよわ",
     "かいりきベア",
-    "かいりきベア feat. GUMI,鏡音リン",
-    "かいりきベア feat. flower",
-    "かいりきベア feat. v flower",
-    "かいりきベア feat. 初音ミク",
     "かいりきベア feat. 初音ミク, 25時、ナイトコードで。",
-    "かいりきベア feat. 鳴花ミコト",
-    "かいりきベア,まふまふ feat. 初音ミク",
-    "かいりきベア・まふまふ feat. 初音ミク",
-    "かぐや(夏吉ゆうこ)、月見ヤチヨ(早見沙織)",
+    "かいりきベア, まふまふ",
+    "かぐや (夏吉ゆうこ)、月見ヤチヨ (早見沙織)",
     "きただにひろし",
     "きゃりーぱみゅぱみゅ",
     "くじら",
-    "くじら feat. v flower",
-    "こんにちは谷田さん feat. 鏡音リン",
+    "こんにちは谷田さん",
     "さつき が てんこもり",
-    "さつき が てんこもり feat. 初音ミク",
     "さユり",
     "さユり×MY FIRST STORY",
     "しぐれうい",
     "しも",
-    "じっぷす feat. 初音ミク",
+    "じっぷす",
     "じん",
-    "じん feat. IA",
+    "じん (自然の敵P) feat. メイリア from GARNiDELiA",
     "じん feat. メイリア from GARNiDELiA",
-    "じん ft.Lia",
-    "じん(自然の敵P) feat. IA",
-    "じん(自然の敵P) feat. メイリア from GARNiDELiA",
-    "じん,ぐっしー,魚 feat. 初音ミク",
-    "じーざすP feat. 鏡音リン,鏡音レン",
-    "すこっぷ feat. GUMI",
-    "すこっぷ feat. 初音ミク",
-    "すりぃ feat. 鏡音レン",
+    "じん feat.Lia",
+    "じん,ぐっしー,魚",
+    "じーざすP",
+    "すこっぷ",
+    "すりぃ",
     "すりぃ feat. 鏡音レン, 25時、ナイトコードで。",
     "ずっと真夜中でいいのに。",
-    "それっぽいP feat. 初音ミクAppend",
-    "たまぁ~ずP feat. 初音ミク",
+    "それっぽいP",
+    "たまぁ~ずP",
     "ちゃんみな",
     "つじあやの",
-    "つなまる(めざめP) feat.初音ミク",
-    "てにをは feat. 初音ミク",
-    "とあ feat. MEIKO",
+    "つなまる (めざめP)",
+    "てにをは",
+    "とあ",
     "とあ feat. MEIKO, 25時、ナイトコードで。",
-    "とあ feat. 初音ミク",
-    "とあ feat. 初音ミク・鏡音リン",
     "なきそ",
     "なきそ feat. 25時、ナイトコードで。, 初音ミク",
-    "なきそ feat. 初音ミク",
     "なきそ feat. 歌愛ユキ",
     "なとり",
     "なるみや",
     "におP",
-    "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ feat. 初音ミク",
+    "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
     "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
     "ぬゆり",
-    "ぬゆり feat. GUMI",
-    "ぬゆり feat. flower",
-    "ぬゆり feat. v flower",
     "ぬゆり feat. v flower, 結月ゆかり",
-    "ぬー(古川本舗)",
+    "ぬー (古川本舗)",
     "のぼる↑",
-    "のぼる↑ feat. 初音ミク",
-    "はいのことん,えこ。 feat. 初音ミク",
+    "はいのことん,えこ。",
     "はるまきごはん",
-    "はるまきごはん feat. 初音ミク",
     "ぼーかりおどP",
     "まふまふ",
-    "まふまふ feat. IA",
-    "まふまふ feat. 初音ミク",
     "みきとP",
-    "みきとP feat. GUMI",
-    "みきとP feat. GUMI,鏡音リン",
-    "みきとP feat. MAYU",
-    "みきとP feat. 初音ミク",
-    "みきとP feat. 初音ミク,鏡音リン",
-    "みきとP feat. 初音ミクAppend",
-    "みきとP feat. 鏡音リン",
-    "みきとP feat.初音ミク",
-    "みきとP feat.巡音ルカ",
-    "みきーの(みきとP×keeno) feat. 初音ミク",
+    "みきーの (みきとP×keeno)",
     "めいちゃん",
-    "めいちゃん, HoneyWorks feat. 初音ミク",
-    "めいちゃん, ナナホシ管弦楽団 feat. IA",
-    "もじゃ feat. GUMI",
-    "もじゃ,れるりり feat. GUMI",
+    "めいちゃん, HoneyWorks",
+    "めいちゃん, ナナホシ管弦楽団",
+    "もじゃ",
+    "もじゃ,れるりり",
     "ももいろクローバー",
     "ももいろクローバーZ",
     "やくしまるえつこ",
     "やなぎなぎ",
-    "ゆうゆ feat. 初音ミク",
-    "ゆうゆ feat. 鏡音リン",
+    "ゆうゆ",
     "ゆず",
     "りょーくん",
     "れるりり",
-    "れるりり feat. GUMI",
-    "れるりり feat. 初音ミク",
-    "れるりり feat. 初音ミク,GUMI",
-    "れるりり feat. 初音ミク・鏡音リン・GUMI",
     "れるりり feat. 鳴花ヒメ・ミコト",
-    "れるりりfeat.鳴花ヒメ & ミコト",
-    "れをる",
-    "ろくろ feat. 初音ミク,GUMI",
+    "ろくろ",
     "アイナ・ジ・エンド",
-    "ウマ娘 プリティーダービー」キャスト",
-    "エミリア(高橋李依)",
+    "ウマ娘 プリティーダービー",
+    "エミリア (高橋李依)",
     "オワタP",
     "オーイシマサヨシ",
-    "カラスヤサボウ feat. 初音ミク",
-    "カラスヤサボウ feat. 鏡音リン",
-    "カンザキイオリ feat. 初音ミク",
+    "カラスヤサボウ",
+    "カンザキイオリ",
     "キズナアイ",
     "キタニタツヤ",
-    "キノシタ feat. 音街ウナ,鏡音リン",
-    "ギガ,れをる feat. GUMI,鏡音リン",
-    "ギガP・れをる (Reol) feat. GUMI・鏡音リン",
-    "ギガP・れをる (Reol) feat. 鏡音レン",
+    "キノシタ",
+    "ギガ,れをる",
+    "ギガP・れをる",
     "クトゥルフ神話",
     "クマムシ",
     "クリスマスソング",
     "クリープハイプ",
     "クリープハイプ,ヨルシカ",
-    "クワガタP feat. 初音ミク",
-    "クワガタP feat. 巡音ルカ",
+    "クワガタP",
     "グリン",
     "コレサワ",
     "サスケ",
-    "サツキ feat. 初音ミク,重音テト",
-    "サトシ(松本梨香)&ヒカリ(豊口めぐみ)",
+    "サツキ",
+    "サトシ (松本梨香)&ヒカリ (豊口めぐみ)",
     "シェリル・ノーム starring May'n",
     "シェリル・ノーム starring May'n,ランカ・リー=中島愛",
     "シド",
     "シブがき隊",
     "ジミーサムP",
-    "ジミーサムP feat. 初音ミク",
-    "ジミーサムP feat. 巡音ルカ",
-    "ジミーサムP feat.初音ミク",
     "スキマスイッチ",
-    "スズム feat. GUMI",
+    "スズム",
     "ステレオポニー",
     "スペシャルウィーク (CV. 和氣あず未)、サイレンススズカ (CV. 高野麻里佳)、トウカイテイオー (CV. Machico)、ウオッカ (CV. 大橋彩香)、ダイワスカーレット (CV. 木村千咲)、ゴールドシップ (CV. 上田 瞳)、メジロマックイーン (CV. 大西沙織)",
-    "スペシャルウィーク(和氣あず未),サイレンススズカ(高野麻里佳),トウカイテイオー",
-    "スペシャルウィーク(和氣あず未),サイレンススズカ(高野麻里佳),トウカイテイオー(Machico)他",
+    "スペシャルウィーク (和氣あず未),サイレンススズカ (高野麻里佳),トウカイテイオー",
+    "スペシャルウィーク (和氣あず未),サイレンススズカ (高野麻里佳),トウカイテイオー (Machico)他",
     "スペシャルウィーク・サイレンススズカ・トウカイテイオー他",
     "タイナカサチ",
-    "ターニャ・デグレチャフ(悠木碧)",
+    "ターニャ・デグレチャフ (悠木碧)",
     "ダズビー",
     "ツミキ",
-    "ツミキ feat. 可不",
     "ツユ",
     "テレサ・テン",
     "トウキョウ・シャンディ・ランデヴパロディ",
     "トゲナシトゲアリ",
-    "トーマ feat. 初音ミク",
-    "トーマ feat. 初音ミク(Tohma feat. 初音ミク)",
+    "トーマ",
+    "トーマ feat. 初音ミク (Tohma feat. 初音ミク)",
     "ナナホシ管弦楽団",
     "ナナホシ管弦楽団 feat. ONE",
-    "ナナホシ管弦楽団 feat. 初音ミク",
     "ナナヲアカリ",
     "ナノウ",
-    "ナノウ(ほえほえP) feat. 初音ミク",
-    "ナブナ feat. IA",
-    "ナブナ feat. 初音ミク",
     "ナユタン星人",
-    "ナユタン星人 feat. 初音ミク",
-    "ハチ feat. GUMI",
-    "ハチ feat. 初音ミク",
-    "ハチ feat. 初音ミク,GUMI",
+    "ハチ",
     "ハムちゃんず",
     "バルーン",
-    "バルーン feat. flower",
-    "バルーン feat. v flower",
-    "バルーン feat. 初音ミク",
-    "バルーンfeat. 初音ミク",
-    "パトリチェフ feat. 鏡音リン",
+    "パトリチェフ",
     "ヒグチアイ",
     "ヒャダイン",
-    "ピコン feat. 初音ミク",
+    "ピコン",
     "ピノキオピー",
-    "ピノキオピー feat. 初音ミク",
     "ピーナッツくん",
     "ファントムシータ",
     "フィンガー5",
     "フランシュシュ",
-    "ヘブンズP feat. 巡音ルカ",
-    "ポリスピカデリー feat. GUMI",
-    "ポリスピカデリー feat. 初音ミク",
+    "ポリスピカデリー",
     "ポルノグラフィティ",
     "マキシマム ザ ホルモン",
     "マリア×風鳴翼",
-    "マリア×風鳴翼(日笠陽子×水樹奈々)",
+    "マリア×風鳴翼 (日笠陽子×水樹奈々)",
     "ミカヅキ",
     "メル",
-    "メル feat. 初音ミク",
-    "メル feat.初音ミク",
-    "ヤスオ feat. 初音ミク",
-    "ユナ(神田沙也加)",
-    "ユリイ・カノン feat. GUMI",
+    "ヤスオ",
+    "ユナ (神田沙也加)",
+    "ユリイ・カノン",
     "ヨルシカ",
-    "ラマーズP feat. 初音ミク",
+    "ラマーズP",
     "ランカ・リー",
     "ランカ・リー=中島愛",
-    "リコ(富田美憂),レグ(伊瀬茉莉也)",
+    "リコ (富田美憂),レグ (伊瀬茉莉也)",
     "リリぴ",
     "レミオロメン",
-    "レム(水瀬いのり)",
+    "レム (水瀬いのり)",
     "ワルキューレ",
     "ヰ世界情緒",
     "一青窈",
@@ -7398,59 +6706,56 @@
     "乃藍",
     "五條真由美",
     "井上あずみ",
-    "亜沙 feat. 重音テト",
+    "亜沙",
     "伊東歌詞太郎",
     "修二と彰",
     "倉木麻衣",
     "倖田來未",
     "傘村トータ",
     "優里",
-    "八王子P feat. 初音ミク",
+    "八王子P",
     "内田真礼",
-    "内緒のピアス feat. 可不",
-    "勇魚 feat. 初音ミク,音街ウナ",
-    "十時愛梨(原田ひとみ)、日野茜(赤崎千夏)、高森藍子(金子有希)、星輝子(松田颯水)、堀裕子(鈴木絵理)",
-    "千石撫子(花澤香菜)",
+    "内緒のピアス",
+    "勇魚",
+    "十時愛梨 (原田ひとみ)、日野茜 (赤崎千夏)、高森藍子 (金子有希)、星輝子 (松田颯水)、堀裕子 (鈴木絵理)",
+    "千石撫子 (花澤香菜)",
     "千綿ヒデノリ",
     "千綿偉功",
-    "南ことり(内田彩)&小泉花陽(久保ユリカ)",
+    "南ことり (内田彩)&小泉花陽 (久保ユリカ)",
     "卜學亮",
-    "卜學亮(阿亮)",
     "原口沙輔",
-    "原口沙輔 feat. 重音テト",
     "原田ひとみ",
     "友成空",
-    "双葉杏(五十嵐裕美)",
+    "双葉杏 (五十嵐裕美)",
     "可不",
     "吉幾三",
     "吉本おじさん feat. 雨衣",
-    "向井拓海(原優子)、藤本里奈(金子真由美)、松永涼(千菅春香)、大和亜季(村中知)、木村夏樹(安野希世乃)",
+    "向井拓海 (原優子)、藤本里奈 (金子真由美)、松永涼 (千菅春香)、大和亜季 (村中知)、木村夏樹 (安野希世乃)",
     "和ぬか",
-    "和田たけあき(くらげP) feat. 初音ミク",
-    "和田たけあき(くらげP) feat. 音街ウナ",
+    "和田たけあき (くらげP)",
     "和田光司",
+    "土間うまる (田中あいみ)",
     "土間うまる(CV:田中あいみ)",
-    "土間うまる(田中あいみ)",
     "坂本真綾",
-    "夏代孝明 feat. 初音ミク",
+    "夏代孝明",
     "夏川りみ",
-    "夢見りあむ(星希成奏)",
+    "夢見りあむ (星希成奏)",
     "大塚愛",
-    "大沼パセリ feat. 初音ミク",
+    "大沼パセリ",
     "奏音69",
     "奥華子",
     "女王蜂",
     "妖精帝國",
     "学園生活部",
     "宇多田ヒカル",
-    "安部菜々(三宅麻理恵)",
+    "安部菜々 (三宅麻理恵)",
     "宝鐘マリン",
     "宝鐘マリン&こぼ・かなえる",
     "家入レオ",
-    "小日向美穂(津田美波)、双葉杏(五十嵐裕美)、前川みく(高森奈津美)",
+    "小日向美穂 (津田美波)、双葉杏 (五十嵐裕美)、前川みく (高森奈津美)",
     "少女時代",
     "岩崎良美",
-    "島村卯月(大橋彩香)",
+    "島村卯月 (大橋彩香)",
     "島谷ひとみ",
     "嵐",
     "工藤真由",
@@ -7462,7 +6767,7 @@
     "広瀬香美",
     "弌誠",
     "後ろから這いより隊G",
-    "後ろから這いより隊G(ニャル子,クー子,珠緒)",
+    "後ろから這いより隊G (ニャル子,クー子,珠緒)",
     "志方あきこ",
     "想太 feat. 歌愛ユキ",
     "戦慄かなの",
@@ -7470,18 +6775,16 @@
     "手嶌葵",
     "放課後ティータイム",
     "新井正人",
-    "新庄かなえ(三森すずこ)",
-    "日向電工 feat. 初音ミク",
+    "新庄かなえ (三森すずこ)",
+    "日向電工",
     "星村麻衣",
     "星街すいせい",
     "星野源",
     "春奈るな",
     "月島きらり starring 久住小春",
     "月村手毬",
-    "月村手毬 (小鹿なお)",
     "月見ヤチヨ",
-    "月見ヤチヨ(cv.早見沙織)",
-    "木村わいP feat. 初音ミク",
+    "木村わいP",
     "木村弓",
     "未来古代楽団",
     "本名陽子",
@@ -7491,23 +6794,19 @@
     "松本梨香",
     "松谷祐子",
     "柊キライ",
-    "柊キライ feat. v flower",
-    "柊マグネタイト feat. 可不",
-    "柊マグネタイト feat. 重音テト",
+    "柊マグネタイト",
     "柿崎ユウタ",
     "桜高軽音部",
     "桜高軽音部 [平沢唯・秋山澪・田井中律・琴吹紬(CV:豊崎愛生、日笠陽子、佐藤聡美、寿美菜子)]",
-    "梅とら feat. 初音ミク,巡音ルカ,GUMI",
-    "梅とら feat. 初音ミク,鏡音リン,巡音ルカ,GUMI,IA",
-    "森カリオペ(Mori Calliope) x がうる・ぐら",
+    "梅とら",
+    "森カリオペ (Mori Calliope) x がうる・ぐら",
     "森口博子",
-    "椎名もた(ぽわぽわP)feat. 鏡音リン",
+    "椎名もた (ぽわぽわP)",
     "椎名林檎",
-    "極・落女会:防波亭手寅(山本希望),蕪羅亭魔梨威(佐倉綾音),空琉美遊亭丸京(南條愛乃),波浪浮亭木胡桃(小岩井ことり),暗落亭苦来(後藤沙緒里)",
-    "横山智佐(真宮寺さくら)+帝国歌劇団",
+    "極・落女会:防波亭手寅 (山本希望),蕪羅亭魔梨威 (佐倉綾音),空琉美遊亭丸京 (南條愛乃),波浪浮亭木胡桃 (小岩井ことり),暗落亭苦来 (後藤沙緒里)",
+    "横山智佐 (真宮寺さくら)+帝国歌劇団",
     "欅坂46",
     "歌組雪月花",
-    "歌詞 mona(夏川椎菜)",
     "氣志團",
     "水樹奈々",
     "水橋舞",
@@ -7517,93 +6816,81 @@
     "池田鴻",
     "沙花叉クロヱ",
     "河野万里奈",
+    "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
+    "泉こなた (平野綾)・柊かがみ (加藤英美里)・柊つかさ (福原香織)・高良みゆき (遠藤綾)",
     "泉こなた(CV.平野綾)、柊かがみ(CV.加藤英美里)、柊つかさ(CV.福原香織)、高良みゆき(CV.遠藤綾)",
-    "泉こなた(平野綾)、柊かがみ(加藤英美里)、柊つかさ(福原香織)、高良みゆき(遠藤綾)",
-    "泉こなた(平野綾)・柊かがみ(加藤英美里)・柊つかさ(福原香織)・高良みゆき(遠藤綾)",
     "涼宮ハルヒ",
-    "涼宮ハルヒ(平野綾)",
-    "涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)",
+    "涼宮ハルヒ (平野綾)",
+    "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
     "涼風しとら",
     "深淵組",
     "渉海よひら",
     "渡り廊下走り隊",
     "渡り廊下走り隊7",
-    "瀬名航 feat. 初音ミク",
-    "煮ル果実 feat. v flower",
+    "瀬名航",
+    "煮ル果実",
     "猫又おかゆ",
-    "猫虫 feat. 初音ミク,鏡音リン",
-    "猫虫P feat. 初音ミク、鏡音リン",
+    "猫虫P",
     "玉置成実",
     "理芽",
     "田村ゆかり",
     "癒月",
     "白上フブキ",
     "相対性理論",
-    "真宮寺さくら(横山智佐)&帝国歌劇団",
-    "石風呂 feat.初音ミク",
-    "砂粒 feat. GUMI V3",
+    "真宮寺さくら (横山智佐)&帝国歌劇団",
+    "石風呂",
+    "砂粒",
     "神宿",
-    "立花響(悠木碧)・風鳴翼(水樹奈々)・雪音クリス(高垣彩陽)",
+    "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
     "童謡",
     "米倉千尋",
     "米津玄師",
-    "米津玄師 Kenshi Yonezu",
-    "糞田舎P feat. 初音ミク",
+    "糞田舎P",
     "紅色リトマス",
-    "紗倉ひびき(ファイルーズあい)&街雄鳴造(石川界人)",
-    "紗倉ひびき(ファイルーズあい)&街雄鳴造(石川界人)(Hibiki Sakura (Fairouz Ai) and Naruzo Machio (Kaito Ishikawa))",
+    "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)",
+    "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)(Hibiki Sakura (Fairouz Ai) and Naruzo Machio (Kaito Ishikawa))",
     "紫咲シオン",
     "結束バンド",
     "緑黄色社会",
     "羊文学",
     "美波",
-    "羽生まゐご feat. v flower",
+    "羽生まゐご",
     "花澤香菜",
     "花譜",
     "茅原実里",
-    "草壁ゆか(田村ゆかり)",
-    "荒井由実",
+    "草壁ゆか (田村ゆかり)",
     "菅田将暉",
     "藍井エイル",
-    "藤原千花(小原好美)",
+    "藤原千花 (小原好美)",
     "藤岡藤巻と大橋のぞみ",
     "虹ヶ咲学園スクールアイドル同好会",
-    "蝶々P feat. GUMI",
-    "蝶々P feat. 初音ミク",
-    "蝶々P feat.GUMI",
+    "蝶々P",
     "西沢さんP",
     "西野カナ",
     "超ときめき宣伝部",
-    "速水奏(飯田友子)、塩見周子(ルゥティン)、城ヶ崎美嘉(佳村はるか)、宮本フレデリカ(高野麻美)、一ノ瀬志希(藍原ことみ)",
+    "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
     "逢坂大河・櫛枝実乃梨・川嶋亜美",
     "那珂",
-    "鄧麗君(テレサ・テン)",
+    "鄧麗君 (テレサ・テン)",
     "野本かりあ",
     "鈴木このみ",
     "鈴木瑛美子×亀田誠治",
     "鈴木雅之",
     "阿肆",
-    "阿肆 A Si",
-    "阿良々木月火(井口裕香)",
+    "阿良々木月火 (井口裕香)",
     "陰陽座",
-    "電ポルP feat. GUMI",
-    "電ポルP feat. 初音ミク",
     "音莉飴",
     "須田景凪",
     "香椎モイミ",
-    "香椎モイミ feat. 可不",
-    "髏々宮カルタ(花澤香菜)",
-    "高宮なすの(鳴海杏子)",
+    "髏々宮カルタ (花澤香菜)",
+    "高宮なすの (鳴海杏子)",
     "高橋洋子",
     "髙屋亜希那",
     "鮎川麻弥",
-    "鷺沢文香(M・A・O)、速水奏(飯田友子)、橘ありす(佐藤亜美菜)、塩見周子(ルゥティン)、二宮飛鳥(青木志貴)",
-    "麦わらの一味(田中真弓,中井和哉,岡村明美,山口勝平,平田広明,大谷育江,山口由里子,矢尾一樹,チョー)",
+    "鷺沢文香 (M・A・O)、速水奏 (飯田友子)、橘ありす (佐藤亜美菜)、塩見周子 (ルゥティン)、二宮飛鳥 (青木志貴)",
+    "麦わらの一味 (田中真弓,中井和哉,岡村明美,山口勝平,平田広明,大谷育江,山口由里子,矢尾一樹,チョー)",
     "黒うさP",
-    "黒うさP feat. 初音ミク",
-    "黒澤ルビィ(降幡愛) from Aqours",
-    "黛冬優子",
-    "黛冬優子 (幸村恵理)",
-    "黛冬優子(幸村恵理)"
+    "黒澤ルビィ (降幡愛) from Aqours",
+    "黛冬優子"
   ]
 }
