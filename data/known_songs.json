@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1371,
+  "totalEntries": 1369,
   "uniqueTitles": 1185,
-  "uniqueArtists": 757,
+  "uniqueArtists": 755,
   "songs": [
     {
       "title": "残響散歌",
@@ -714,6 +714,11 @@
       "count": 5
     },
     {
+      "title": "愛包ダンスホール",
+      "artist": "ヒメヒナ",
+      "count": 5
+    },
+    {
       "title": "からくりピエロ",
       "artist": "40mP feat. 初音ミク",
       "count": 5
@@ -825,7 +830,7 @@
     },
     {
       "title": "琥珀の身体",
-      "artist": "HIMEHINA",
+      "artist": "ヒメヒナ",
       "count": 4
     },
     {
@@ -910,7 +915,7 @@
     },
     {
       "title": "WWW",
-      "artist": "HIMEHINA",
+      "artist": "ヒメヒナ",
       "count": 4
     },
     {
@@ -1205,7 +1210,7 @@
     },
     {
       "title": "ヒトガタ",
-      "artist": "HIMEHINA",
+      "artist": "ヒメヒナ",
       "count": 4
     },
     {
@@ -1270,7 +1275,7 @@
     },
     {
       "title": "キスキツネ",
-      "artist": "HIMEHINA",
+      "artist": "ヒメヒナ",
       "count": 3
     },
     {
@@ -1345,7 +1350,7 @@
     },
     {
       "title": "V",
-      "artist": "HIMEHINA",
+      "artist": "ヒメヒナ",
       "count": 3
     },
     {
@@ -1591,11 +1596,6 @@
     {
       "title": "Stairway Generation",
       "artist": "Base Ball Bear",
-      "count": 3
-    },
-    {
-      "title": "愛包ダンスホール",
-      "artist": "HIMEHINA",
       "count": 3
     },
     {
@@ -2040,7 +2040,7 @@
     },
     {
       "title": "うたかたよいかないで",
-      "artist": "HIMEHINA",
+      "artist": "ヒメヒナ",
       "count": 2
     },
     {
@@ -2230,7 +2230,7 @@
     },
     {
       "title": "ヒバリ",
-      "artist": "HIMEHINA",
+      "artist": "ヒメヒナ",
       "count": 2
     },
     {
@@ -4629,16 +4629,6 @@
       "count": 1
     },
     {
-      "title": "愛包ダンスホール",
-      "artist": "幽世55番街",
-      "count": 1
-    },
-    {
-      "title": "愛包ダンスホール",
-      "artist": "ヒメヒナ",
-      "count": 1
-    },
-    {
       "title": "I'm a mess",
       "artist": "MY FIRST STORY",
       "count": 1
@@ -4840,7 +4830,7 @@
     },
     {
       "title": "藍の華",
-      "artist": "HIMEHINA",
+      "artist": "ヒメヒナ",
       "count": 1
     },
     {
@@ -6966,7 +6956,6 @@
     "Goose house",
     "Guilty Kiss(Aqours)",
     "GuraMarine",
-    "HIMEHINA",
     "Heavenz",
     "Heavenz feat. 巡音ルカ",
     "HoneyWorks",
@@ -7469,7 +7458,6 @@
     "平田志穂子",
     "平野綾",
     "平野綾, 涼宮ハルヒ",
-    "幽世55番街",
     "幾田りら",
     "広瀬香美",
     "弌誠",
