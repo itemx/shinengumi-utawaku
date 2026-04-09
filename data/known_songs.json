@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1377,
-  "uniqueTitles": 1196,
+  "totalEntries": 1376,
+  "uniqueTitles": 1195,
   "uniqueArtists": 757,
   "songs": [
     {
@@ -139,6 +139,11 @@
       "count": 9
     },
     {
+      "title": "ぶっ飛びな!しとら流炒飯☆",
+      "artist": "涼風しとら",
+      "count": 9
+    },
+    {
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 9
@@ -226,11 +231,6 @@
     {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
-      "count": 8
-    },
-    {
-      "title": "ぶっ飛びな!しとら流炒飯",
-      "artist": "涼風しとら",
       "count": 8
     },
     {
@@ -6146,11 +6146,6 @@
     {
       "title": "The Everlasting Guilty Crown",
       "artist": "EGOIST /",
-      "count": 1
-    },
-    {
-      "title": "ぶっ飛びな!しとら流炒飯☆",
-      "artist": "涼風しとら",
       "count": 1
     },
     {
