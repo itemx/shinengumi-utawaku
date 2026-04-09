@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1188,
-  "uniqueTitles": 1184,
-  "uniqueArtists": 538,
+  "totalEntries": 1190,
+  "uniqueTitles": 1186,
+  "uniqueArtists": 539,
   "songs": [
     {
       "title": "残響散歌",
@@ -339,6 +339,11 @@
       "count": 7
     },
     {
+      "title": "Departures ~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
+      "count": 7
+    },
+    {
       "title": "Mela!",
       "artist": "緑黄色社会",
       "count": 7
@@ -459,11 +464,6 @@
       "count": 6
     },
     {
-      "title": "Departures ~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
-      "count": 6
-    },
-    {
       "title": "靴の花火",
       "artist": "ヨルシカ",
       "count": 6
@@ -541,6 +541,11 @@
     {
       "title": "アイドル",
       "artist": "YOASOBI",
+      "count": 6
+    },
+    {
+      "title": "ADAMAS",
+      "artist": "LiSA",
       "count": 6
     },
     {
@@ -806,11 +811,6 @@
     {
       "title": "Overdose",
       "artist": "なとり",
-      "count": 5
-    },
-    {
-      "title": "ADAMAS",
-      "artist": "LiSA",
       "count": 5
     },
     {
@@ -1469,6 +1469,11 @@
       "count": 4
     },
     {
+      "title": "EX-otogibanashi",
+      "artist": "ryo (supercell)",
+      "count": 4
+    },
+    {
       "title": "星が瞬くこんな夜に",
       "artist": "ryo (supercell)",
       "count": 4
@@ -2064,6 +2069,11 @@
       "count": 3
     },
     {
+      "title": "青空のラプソディ",
+      "artist": "fhána",
+      "count": 3
+    },
+    {
       "title": "Remember",
       "artist": "月見ヤチヨ",
       "count": 3
@@ -2079,13 +2089,13 @@
       "count": 3
     },
     {
-      "title": "EX-otogibanashi",
-      "artist": "ryo (supercell)",
+      "title": "射手座午後九時Don't be late",
+      "artist": "シェリル・ノーム starring May'n",
       "count": 3
     },
     {
-      "title": "射手座午後九時Don't be late",
-      "artist": "シェリル・ノーム starring May'n",
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
       "count": 3
     },
     {
@@ -2096,6 +2106,11 @@
     {
       "title": "桜日和",
       "artist": "星村麻衣",
+      "count": 3
+    },
+    {
+      "title": "人間みたいね",
+      "artist": "キタニタツヤ",
       "count": 3
     },
     {
@@ -3259,8 +3274,13 @@
       "count": 2
     },
     {
-      "title": "青空のラプソディ",
-      "artist": "fhána",
+      "title": "Super Driver",
+      "artist": "平野綾",
+      "count": 2
+    },
+    {
+      "title": "Sincerely",
+      "artist": "TRUE",
       "count": 2
     },
     {
@@ -3286,11 +3306,6 @@
     {
       "title": "初恋サイダー",
       "artist": "Buono!",
-      "count": 2
-    },
-    {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
       "count": 2
     },
     {
@@ -3326,11 +3341,6 @@
     {
       "title": "旧支配者のキャロル",
       "artist": "クトゥルフ神話",
-      "count": 2
-    },
-    {
-      "title": "人間みたいね",
-      "artist": "キタニタツヤ",
       "count": 2
     },
     {
@@ -3379,8 +3389,18 @@
       "count": 2
     },
     {
+      "title": "白ゆき",
+      "artist": "n-buna",
+      "count": 2
+    },
+    {
       "title": "エウテルペ",
       "artist": "EGOIST",
+      "count": 2
+    },
+    {
+      "title": "heavenly blue",
+      "artist": "Kalafina",
       "count": 2
     },
     {
@@ -5509,11 +5529,6 @@
       "count": 1
     },
     {
-      "title": "Super Driver",
-      "artist": "平野綾",
-      "count": 1
-    },
-    {
       "title": "1/6 ー out of the gravity ー",
       "artist": "ぼーかりおどP",
       "count": 1
@@ -5521,11 +5536,6 @@
     {
       "title": "Dear",
       "artist": "19's Sound Factory",
-      "count": 1
-    },
-    {
-      "title": "Sincerely",
-      "artist": "TRUE",
       "count": 1
     },
     {
@@ -5799,11 +5809,6 @@
       "count": 1
     },
     {
-      "title": "白ゆき",
-      "artist": "n-buna",
-      "count": 1
-    },
-    {
       "title": "シリウスの心臓",
       "artist": "ヰ世界情緒",
       "count": 1
@@ -5929,11 +5934,6 @@
       "count": 1
     },
     {
-      "title": "heavenly blue",
-      "artist": "Kalafina",
-      "count": 1
-    },
-    {
       "title": "Weight of the World / 壊レタ世界ノ歌",
       "artist": "河野万里奈",
       "count": 1
@@ -5941,6 +5941,16 @@
     {
       "title": "少年よ我に歸れ",
       "artist": "やくしまるえつこ",
+      "count": 1
+    },
+    {
+      "title": "Baby Sweet Berry Love",
+      "artist": "小倉唯",
+      "count": 1
+    },
+    {
+      "title": "ヒトリゴト",
+      "artist": "ClariS",
       "count": 1
     }
   ],
@@ -6351,6 +6361,7 @@
     "安部菜々 (三宅麻理恵)",
     "宝鐘マリン",
     "家入レオ",
+    "小倉唯",
     "小日向美穂 (津田美波)、双葉杏 (五十嵐裕美)、前川みく (高森奈津美)",
     "少女時代",
     "岩崎良美",

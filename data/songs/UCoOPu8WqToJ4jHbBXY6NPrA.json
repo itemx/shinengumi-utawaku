@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-04-08T11:12:32.439846+00:00",
+  "lastFetched": "2026-04-09T11:29:53.139335+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -4177,6 +4177,123 @@
         }
       ],
       "sourceCommentId": "issue#1",
+      "type": "stream"
+    },
+    {
+      "videoId": "GTUql5di2Zg",
+      "title": "【 #歌枠 】お披露目配信ありがとう。思い出を振り返りながら３月最後の歌枠 🫧1曲聴いていってください 🌟 SINGING STREAM！#初見歓迎【 #karaoke / #渉海よひら / 深淵組】",
+      "publishedAt": "2026-03-31T12:30:55Z",
+      "songs": [
+        {
+          "timestamp": "9:45",
+          "seconds": 585,
+          "title": "heavenly blue",
+          "titleRaw": "heavenly blue",
+          "artist": "Kalafina",
+          "artistRaw": "Kalafina",
+          "url": "https://youtu.be/GTUql5di2Zg?t=585"
+        },
+        {
+          "timestamp": "32:09",
+          "seconds": 1929,
+          "title": "EX-otogibanashi",
+          "titleRaw": "EX-otogibanashi",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/GTUql5di2Zg?t=1929"
+        },
+        {
+          "timestamp": "49:44",
+          "seconds": 2984,
+          "title": "人間みたいね",
+          "titleRaw": "人間みたいね",
+          "artist": "キタニタツヤ",
+          "artistRaw": "キタニタツヤ",
+          "url": "https://youtu.be/GTUql5di2Zg?t=2984"
+        },
+        {
+          "timestamp": "1:03:36",
+          "seconds": 3816,
+          "title": "Baby Sweet Berry Love",
+          "titleRaw": "Baby Sweet Berry Love",
+          "artist": "小倉唯",
+          "artistRaw": "小倉唯",
+          "url": "https://youtu.be/GTUql5di2Zg?t=3816"
+        },
+        {
+          "timestamp": "1:13:06",
+          "seconds": 4386,
+          "title": "ADAMAS",
+          "titleRaw": "ADAMAS",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/GTUql5di2Zg?t=4386"
+        },
+        {
+          "timestamp": "1:31:18",
+          "seconds": 5478,
+          "title": "ヒトリゴト",
+          "titleRaw": "ヒトリゴト",
+          "artist": "ClariS",
+          "artistRaw": "ClariS",
+          "url": "https://youtu.be/GTUql5di2Zg?t=5478"
+        },
+        {
+          "timestamp": "1:41:50",
+          "seconds": 6110,
+          "title": "星降る海",
+          "titleRaw": "星降る海",
+          "artist": "月見ヤチヨ",
+          "artistRaw": "月見ヤチヨ",
+          "url": "https://youtu.be/GTUql5di2Zg?t=6110"
+        },
+        {
+          "timestamp": "1:57:55",
+          "seconds": 7075,
+          "title": "青空のラプソディ",
+          "titleRaw": "青空のラプソディ",
+          "artist": "fhána",
+          "artistRaw": "fhána",
+          "url": "https://youtu.be/GTUql5di2Zg?t=7075"
+        },
+        {
+          "timestamp": "2:12:23",
+          "seconds": 7943,
+          "title": "Super Driver",
+          "titleRaw": "Super Driver",
+          "artist": "平野綾",
+          "artistRaw": "平野綾",
+          "url": "https://youtu.be/GTUql5di2Zg?t=7943"
+        },
+        {
+          "timestamp": "2:25:35",
+          "seconds": 8735,
+          "title": "Sincerely",
+          "titleRaw": "Sincerely",
+          "artist": "TRUE",
+          "artistRaw": "TRUE",
+          "url": "https://youtu.be/GTUql5di2Zg?t=8735"
+        },
+        {
+          "timestamp": "2:44:49",
+          "seconds": 9889,
+          "title": "Departures ~あなたにおくるアイの歌~",
+          "titleRaw": "Departures 〜あなたにおくるアイの歌〜",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/GTUql5di2Zg?t=9889"
+        },
+        {
+          "timestamp": "3:04:19",
+          "seconds": 11059,
+          "title": "白ゆき",
+          "titleRaw": "白ゆき",
+          "artist": "n-buna",
+          "artistRaw": "n-buna",
+          "url": "https://youtu.be/GTUql5di2Zg?t=11059"
+        }
+      ],
+      "sourceCommentId": "issue#2",
       "type": "stream"
     }
   ]
