@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1191,
-  "uniqueTitles": 1184,
-  "uniqueArtists": 543,
+  "totalEntries": 1202,
+  "uniqueTitles": 1185,
+  "uniqueArtists": 553,
   "songs": [
     {
       "title": "残響散歌",
@@ -39,6 +39,11 @@
       "count": 12
     },
     {
+      "title": "怪物",
+      "artist": "YOASOBI",
+      "count": 12
+    },
+    {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
       "count": 12
@@ -49,8 +54,8 @@
       "count": 12
     },
     {
-      "title": "怪物",
-      "artist": "YOASOBI",
+      "title": "眠れぬ月夜のランデブー",
+      "artist": "涼風しとら",
       "count": 11
     },
     {
@@ -84,11 +89,6 @@
       "count": 10
     },
     {
-      "title": "眠れぬ月夜のランデブー",
-      "artist": "涼風しとら",
-      "count": 10
-    },
-    {
       "title": "往け",
       "artist": "LiSA",
       "count": 10
@@ -96,6 +96,11 @@
     {
       "title": "スカー",
       "artist": "キタニタツヤ",
+      "count": 10
+    },
+    {
+      "title": "IRIS OUT",
+      "artist": "米津玄師",
       "count": 10
     },
     {
@@ -110,6 +115,11 @@
     },
     {
       "title": "極楽浄土",
+      "artist": "GARNiDELiA",
+      "count": 10
+    },
+    {
+      "title": "桃源恋歌",
       "artist": "GARNiDELiA",
       "count": 10
     },
@@ -136,6 +146,11 @@
     {
       "title": "Snow halation",
       "artist": "μ's",
+      "count": 10
+    },
+    {
+      "title": "藍二乗",
+      "artist": "ヨルシカ",
       "count": 10
     },
     {
@@ -179,18 +194,8 @@
       "count": 9
     },
     {
-      "title": "IRIS OUT",
-      "artist": "米津玄師",
-      "count": 9
-    },
-    {
       "title": "CHAINSAW BLOOD",
       "artist": "Vaundy",
-      "count": 9
-    },
-    {
-      "title": "桃源恋歌",
-      "artist": "GARNiDELiA",
       "count": 9
     },
     {
@@ -204,6 +209,11 @@
       "count": 9
     },
     {
+      "title": "プロポーズ",
+      "artist": "なとり",
+      "count": 9
+    },
+    {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
       "count": 9
@@ -211,6 +221,11 @@
     {
       "title": "ぶっ飛びな!しとら流炒飯☆",
       "artist": "涼風しとら",
+      "count": 9
+    },
+    {
+      "title": "炎",
+      "artist": "LiSA",
       "count": 9
     },
     {
@@ -236,11 +251,6 @@
     {
       "title": "白銀",
       "artist": "LiSA",
-      "count": 9
-    },
-    {
-      "title": "藍二乗",
-      "artist": "ヨルシカ",
       "count": 9
     },
     {
@@ -284,11 +294,6 @@
       "count": 8
     },
     {
-      "title": "プロポーズ",
-      "artist": "なとり",
-      "count": 8
-    },
-    {
       "title": "明け星",
       "artist": "LiSA",
       "count": 8
@@ -301,11 +306,6 @@
     {
       "title": "ヴァンパイア",
       "artist": "DECO*27",
-      "count": 8
-    },
-    {
-      "title": "炎",
-      "artist": "LiSA",
       "count": 8
     },
     {
@@ -359,6 +359,11 @@
       "count": 7
     },
     {
+      "title": "革命道中",
+      "artist": "アイナ・ジ・エンド",
+      "count": 7
+    },
+    {
       "title": "Departures ~あなたにおくるアイの歌~",
       "artist": "EGOIST",
       "count": 7
@@ -391,6 +396,11 @@
     {
       "title": "INTERNET YAMERO",
       "artist": "Aiobahn",
+      "count": 7
+    },
+    {
+      "title": "ソワレ",
+      "artist": "星街すいせい",
       "count": 7
     },
     {
@@ -529,6 +539,11 @@
       "count": 6
     },
     {
+      "title": "メルト",
+      "artist": "ryo (supercell)",
+      "count": 6
+    },
+    {
       "title": "ギターと孤独と蒼い惑星",
       "artist": "結束バンド",
       "count": 6
@@ -541,11 +556,6 @@
     {
       "title": "独りんぼエンヴィー",
       "artist": "koyori (電ポルP)",
-      "count": 6
-    },
-    {
-      "title": "ソワレ",
-      "artist": "星街すいせい",
       "count": 6
     },
     {
@@ -591,6 +601,11 @@
     {
       "title": "可愛くてごめん",
       "artist": "CHiCO with HoneyWorks",
+      "count": 6
+    },
+    {
+      "title": "POP IN 2",
+      "artist": "B小町",
       "count": 6
     },
     {
@@ -681,11 +696,6 @@
     {
       "title": "残機",
       "artist": "ずっと真夜中でいいのに。",
-      "count": 5
-    },
-    {
-      "title": "革命道中",
-      "artist": "アイナ・ジ・エンド",
       "count": 5
     },
     {
@@ -794,13 +804,13 @@
       "count": 5
     },
     {
-      "title": "八月の夜",
-      "artist": "SILENT SIREN",
+      "title": "渡月橋 ~君 想ふ~",
+      "artist": "倉木麻衣",
       "count": 5
     },
     {
-      "title": "メルト",
-      "artist": "ryo (supercell)",
+      "title": "八月の夜",
+      "artist": "SILENT SIREN",
       "count": 5
     },
     {
@@ -861,11 +871,6 @@
     {
       "title": "ダーリンダンス",
       "artist": "かいりきベア",
-      "count": 5
-    },
-    {
-      "title": "POP IN 2",
-      "artist": "B小町",
       "count": 5
     },
     {
@@ -1204,6 +1209,11 @@
       "count": 4
     },
     {
+      "title": "Beautiful World",
+      "artist": "宇多田ヒカル",
+      "count": 4
+    },
+    {
       "title": "ミカヅキ",
       "artist": "さユり",
       "count": 4
@@ -1229,11 +1239,6 @@
       "count": 4
     },
     {
-      "title": "渡月橋 ~君 想ふ~",
-      "artist": "倉木麻衣",
-      "count": 4
-    },
-    {
       "title": "アメヲマツ、",
       "artist": "美波",
       "count": 4
@@ -1241,6 +1246,11 @@
     {
       "title": "キャットフード",
       "artist": "doriko",
+      "count": 4
+    },
+    {
+      "title": "トリノコシティ",
+      "artist": "40mP",
       "count": 4
     },
     {
@@ -1339,6 +1349,11 @@
       "count": 4
     },
     {
+      "title": "乱舞のメロディ",
+      "artist": "シド",
+      "count": 4
+    },
+    {
       "title": "シルエット",
       "artist": "KANA-BOON",
       "count": 4
@@ -1396,6 +1411,11 @@
     {
       "title": "輝夜の城で踊りたい",
       "artist": "μ's",
+      "count": 4
+    },
+    {
+      "title": "サマータイムレコード",
+      "artist": "じん",
       "count": 4
     },
     {
@@ -1519,6 +1539,11 @@
       "count": 3
     },
     {
+      "title": "盛れ!ミ・アモーレ",
+      "artist": "Juice=Juice",
+      "count": 3
+    },
+    {
       "title": "忘れてください",
       "artist": "ヨルシカ",
       "count": 3
@@ -1550,6 +1575,11 @@
     },
     {
       "title": "リードコントロール",
+      "artist": "なるみや",
+      "count": 3
+    },
+    {
+      "title": "可愛いあの子が気にゐらない",
       "artist": "なるみや",
       "count": 3
     },
@@ -1609,11 +1639,6 @@
       "count": 3
     },
     {
-      "title": "Beautiful World",
-      "artist": "宇多田ヒカル",
-      "count": 3
-    },
-    {
       "title": "灼熱にて純情",
       "artist": "星街すいせい",
       "count": 3
@@ -1659,11 +1684,6 @@
       "count": 3
     },
     {
-      "title": "トリノコシティ",
-      "artist": "40mP",
-      "count": 3
-    },
-    {
       "title": "お勉強しといてよ",
       "artist": "ずっと真夜中でいいのに。",
       "count": 3
@@ -1701,6 +1721,11 @@
     {
       "title": "Luna say maybe",
       "artist": "月村手毬",
+      "count": 3
+    },
+    {
+      "title": "セブンティーン",
+      "artist": "YOASOBI",
       "count": 3
     },
     {
@@ -1754,6 +1779,11 @@
       "count": 3
     },
     {
+      "title": "GLAMOROUS SKY",
+      "artist": "NANA starring MIKA NAKASHIMA",
+      "count": 3
+    },
+    {
       "title": "only my railgun",
       "artist": "fripSide",
       "count": 3
@@ -1771,11 +1801,6 @@
     {
       "title": "Realize",
       "artist": "鈴木このみ",
-      "count": 3
-    },
-    {
-      "title": "乱舞のメロディ",
-      "artist": "シド",
       "count": 3
     },
     {
@@ -1811,6 +1836,11 @@
     {
       "title": "Stairway Generation",
       "artist": "Base Ball Bear",
+      "count": 3
+    },
+    {
+      "title": "鬼ノ宴",
+      "artist": "友成空",
       "count": 3
     },
     {
@@ -1869,13 +1899,13 @@
       "count": 3
     },
     {
-      "title": "サマータイムレコード",
-      "artist": "じん",
+      "title": "フラレガイガール",
+      "artist": "さユり",
       "count": 3
     },
     {
-      "title": "フラレガイガール",
-      "artist": "さユり",
+      "title": "One Last Kiss",
+      "artist": "宇多田ヒカル",
       "count": 3
     },
     {
@@ -2154,11 +2184,6 @@
       "count": 2
     },
     {
-      "title": "盛れ!ミ・アモーレ",
-      "artist": "Juice=Juice",
-      "count": 2
-    },
-    {
       "title": "ノーダウト",
       "artist": "Official髭男dism",
       "count": 2
@@ -2226,11 +2251,6 @@
     {
       "title": "ラビットホール",
       "artist": "DECO*27",
-      "count": 2
-    },
-    {
-      "title": "可愛いあの子が気にゐらない",
-      "artist": "なるみや",
       "count": 2
     },
     {
@@ -2434,11 +2454,6 @@
       "count": 2
     },
     {
-      "title": "セブンティーン",
-      "artist": "YOASOBI",
-      "count": 2
-    },
-    {
       "title": "III",
       "artist": "Sena Kiryuin & Justen Kuwabatake",
       "count": 2
@@ -2531,11 +2546,6 @@
     {
       "title": "好き!雪!本気マジック",
       "artist": "Mitchie M",
-      "count": 2
-    },
-    {
-      "title": "GLAMOROUS SKY",
-      "artist": "NANA starring MIKA NAKASHIMA",
       "count": 2
     },
     {
@@ -2679,11 +2689,6 @@
       "count": 2
     },
     {
-      "title": "鬼ノ宴",
-      "artist": "友成空",
-      "count": 2
-    },
-    {
       "title": "英雄 運命の詩",
       "artist": "EGOIST",
       "count": 2
@@ -2819,11 +2824,6 @@
       "count": 2
     },
     {
-      "title": "One Last Kiss",
-      "artist": "宇多田ヒカル",
-      "count": 2
-    },
-    {
       "title": "お返事まだカナ💦❓おじさん構文😁❗",
       "artist": "吉本おじさん feat. 雨衣",
       "count": 2
@@ -2901,6 +2901,11 @@
     {
       "title": "Rising Hope",
       "artist": "LiSA",
+      "count": 2
+    },
+    {
+      "title": "アイワナムチュー",
+      "artist": "MAISONdes",
       "count": 2
     },
     {
@@ -4404,11 +4409,6 @@
       "count": 1
     },
     {
-      "title": "アイワナムチュー",
-      "artist": "MAISONdes",
-      "count": 1
-    },
-    {
       "title": "ファイトソング(一番のみ)",
       "artist": "Eve",
       "count": 1
@@ -4969,11 +4969,6 @@
       "count": 1
     },
     {
-      "title": "​サマータイムレコード",
-      "artist": "じん",
-      "count": 1
-    },
-    {
       "title": "アサガオの散る頃に",
       "artist": "じっぷす",
       "count": 1
@@ -4989,7 +4984,7 @@
       "count": 1
     },
     {
-      "title": "​喜劇",
+      "title": "喜劇",
       "artist": "星野源",
       "count": 1
     },
@@ -5514,11 +5509,6 @@
       "count": 1
     },
     {
-      "title": "メルト",
-      "artist": "ryo(supercell) feat. 初音ミク",
-      "count": 1
-    },
-    {
       "title": "WATER BLUE NEW WORLD",
       "artist": "Aqours",
       "count": 1
@@ -5526,6 +5516,86 @@
     {
       "title": "ボッカデラベリタ",
       "artist": "柊キライ feat. v flower",
+      "count": 1
+    },
+    {
+      "title": "い~やい~やい~や",
+      "artist": "Neru feat. 鏡音リン,鏡音レン",
+      "count": 1
+    },
+    {
+      "title": "ラヴィ",
+      "artist": "すりぃ feat. 鏡音レン",
+      "count": 1
+    },
+    {
+      "title": "あなたクランケン",
+      "artist": "tamon feat. 初音ミク,v flower",
+      "count": 1
+    },
+    {
+      "title": "アイ・アイ・ア",
+      "artist": "Ado",
+      "count": 1
+    },
+    {
+      "title": "恋愛裁判",
+      "artist": "40mP feat. 初音ミク",
+      "count": 1
+    },
+    {
+      "title": "コイスルオトメ",
+      "artist": "いきものがかり",
+      "count": 1
+    },
+    {
+      "title": "月光潤色ガール",
+      "artist": "れるりり feat. 初音ミク,GUMI",
+      "count": 1
+    },
+    {
+      "title": "StaRt",
+      "artist": "Mrs. GREEN APPLE",
+      "count": 1
+    },
+    {
+      "title": "ヤミタイガール",
+      "artist": "れるりり feat. GUMI",
+      "count": 1
+    },
+    {
+      "title": "恋愛勇者",
+      "artist": "Last Note. feat. GUMI",
+      "count": 1
+    },
+    {
+      "title": "イガク",
+      "artist": "原口沙輔 feat. 重音テト",
+      "count": 1
+    },
+    {
+      "title": "人マニア",
+      "artist": "原口沙輔 feat. 重音テト",
+      "count": 1
+    },
+    {
+      "title": "絶対零度",
+      "artist": "なとり",
+      "count": 1
+    },
+    {
+      "title": "ファタール",
+      "artist": "GEMN",
+      "count": 1
+    },
+    {
+      "title": "フラジール",
+      "artist": "ぬゆり feat. GUMI",
+      "count": 1
+    },
+    {
+      "title": "レクイエム",
+      "artist": "Kanaria feat. 初音ミク",
       "count": 1
     },
     {
@@ -5644,12 +5714,7 @@
       "count": 1
     },
     {
-      "title": "​​トリノコシティ",
-      "artist": "40mP",
-      "count": 1
-    },
-    {
-      "title": "​​蜜月アンドゥトロワ",
+      "title": "蜜月アンドゥトロワ",
       "artist": "DATEKEN",
       "count": 1
     },
@@ -5689,7 +5754,7 @@
       "count": 1
     },
     {
-      "title": "​​rain stops, good-bye",
+      "title": "rain stops, good-bye",
       "artist": "におP",
       "count": 1
     },
@@ -5731,16 +5796,6 @@
     {
       "title": "God Knows ...",
       "artist": "涼宮ハルヒ",
-      "count": 1
-    },
-    {
-      "title": "​​IRIS OUT",
-      "artist": "米津玄師",
-      "count": 1
-    },
-    {
-      "title": "​​革命道中",
-      "artist": "アイナ・ジ・エンド",
       "count": 1
     },
     {
@@ -5966,6 +6021,7 @@
     "19's Sound Factory",
     "23.exe",
     "40mP",
+    "40mP feat. 初音ミク",
     "7!!",
     "9Lana",
     "A-RISE",
@@ -6023,6 +6079,7 @@
     "FRUITS ZIPPER",
     "FUNKIST",
     "GARNiDELiA",
+    "GEMN",
     "GEMN, 中島健人&キタニタツヤ",
     "GReeeeN",
     "Giga",
@@ -6047,11 +6104,13 @@
     "KOKIA",
     "Kalafina",
     "Kanaria",
+    "Kanaria feat. 初音ミク",
     "King Gnu",
     "Kiroro",
     "Kobo Kanaeru",
     "LUMi",
     "Last Note.",
+    "Last Note. feat. GUMI",
     "LiSA",
     "LiSA×Uru",
     "Lia",
@@ -6076,6 +6135,7 @@
     "NEE",
     "Nem",
     "Neru",
+    "Neru feat. 鏡音リン,鏡音レン",
     "ONE OK ROCK",
     "ORANGE RANGE",
     "Official髭男dism",
@@ -6167,7 +6227,6 @@
     "rionos",
     "ryo (supercell)",
     "ryo (supercell), かぐや (CV.夏吉ゆうこ) & 月見ヤチヨ (CV.早見沙織)",
-    "ryo(supercell) feat. 初音ミク",
     "saiB",
     "samayuzame",
     "samfree",
@@ -6176,6 +6235,7 @@
     "shr feat. 鏡音リン/巡音ルカ",
     "syudou",
     "tamon",
+    "tamon feat. 初音ミク,v flower",
     "tuki.",
     "wotaku",
     "wowaka",
@@ -6210,6 +6270,7 @@
     "じーざすP",
     "すこっぷ",
     "すりぃ",
+    "すりぃ feat. 鏡音レン",
     "ずっと真夜中でいいのに。",
     "それっぽいP",
     "たまぁ~ずP",
@@ -6225,6 +6286,7 @@
     "におP",
     "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
     "ぬゆり",
+    "ぬゆり feat. GUMI",
     "ぬゆり feat. v flower, 結月ゆかり",
     "ぬー (古川本舗)",
     "のぼる↑",
@@ -6244,6 +6306,8 @@
     "ゆうゆ",
     "ゆず",
     "れるりり",
+    "れるりり feat. GUMI",
+    "れるりり feat. 初音ミク,GUMI",
     "れるりり feat. 鳴花ヒメ・ミコト",
     "ろくろ",
     "アイナ・ジ・エンド",
@@ -6343,6 +6407,7 @@
     "南ことり (内田彩)&小泉花陽 (久保ユリカ)",
     "卜學亮",
     "原口沙輔",
+    "原口沙輔 feat. 重音テト",
     "友成空",
     "双葉杏 (五十嵐裕美)",
     "吉幾三",
