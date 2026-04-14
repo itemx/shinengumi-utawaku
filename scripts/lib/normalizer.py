@@ -136,10 +136,13 @@ def _clean_text(text: str, is_title: bool = False) -> str:
         # 移除 feat. (保留原始歌手欄的 feat.)
         text = _FEAT_PAREN_RE.sub("", text)
         text = _FEAT_IN_TITLE_RE.sub("", text)
-    # 移除歌手欄的羅馬拼音括號
+    # 歌手欄清理
     if not is_title:
+        # 移除羅馬拼音括號
         if _HAS_JAPANESE_RE.search(text):
             text = _ROMANIZATION_PAREN_RE.sub("", text)
+        # 移除 feat. 及之後的內容 (Vocaloid 名等)
+        text = re.sub(r"\s+feat\.?\s+.+$", "", text, flags=re.IGNORECASE)
     return text.strip()
 
 

@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1202,
+  "totalEntries": 1189,
   "uniqueTitles": 1185,
-  "uniqueArtists": 553,
+  "uniqueArtists": 532,
   "songs": [
     {
       "title": "残響散歌",
@@ -729,6 +729,11 @@
       "count": 5
     },
     {
+      "title": "ヤミタイガール",
+      "artist": "れるりり",
+      "count": 5
+    },
+    {
       "title": "とても素敵な六月でした",
       "artist": "Eight",
       "count": 5
@@ -746,6 +751,11 @@
     {
       "title": "サリシノハラ",
       "artist": "みきとP",
+      "count": 5
+    },
+    {
+      "title": "レクイエム",
+      "artist": "Kanaria",
       "count": 5
     },
     {
@@ -846,6 +856,11 @@
     {
       "title": "バグ",
       "artist": "かいりきベア",
+      "count": 5
+    },
+    {
+      "title": "ラヴィ",
+      "artist": "すりぃ",
       "count": 5
     },
     {
@@ -971,6 +986,11 @@
     {
       "title": "いのちの名前",
       "artist": "木村弓",
+      "count": 5
+    },
+    {
+      "title": "恋愛裁判",
+      "artist": "40mP",
       "count": 5
     },
     {
@@ -1174,11 +1194,6 @@
       "count": 4
     },
     {
-      "title": "ヤミタイガール",
-      "artist": "れるりり",
-      "count": 4
-    },
-    {
       "title": "G4L",
       "artist": "Giga",
       "count": 4
@@ -1196,11 +1211,6 @@
     {
       "title": "ハイドアンド・シーク",
       "artist": "19's Sound Factory",
-      "count": 4
-    },
-    {
-      "title": "レクイエム",
-      "artist": "Kanaria",
       "count": 4
     },
     {
@@ -1329,11 +1339,6 @@
       "count": 4
     },
     {
-      "title": "ラヴィ",
-      "artist": "すりぃ",
-      "count": 4
-    },
-    {
       "title": "もってけ!セーラーふく",
       "artist": "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
       "count": 4
@@ -1449,11 +1454,6 @@
       "count": 4
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP",
-      "count": 4
-    },
-    {
       "title": "世界のつづき",
       "artist": "Ado",
       "count": 4
@@ -1480,7 +1480,7 @@
     },
     {
       "title": "スペシャルガール",
-      "artist": "れるりり feat. 鳴花ヒメ・ミコト",
+      "artist": "れるりり",
       "count": 4
     },
     {
@@ -1551,6 +1551,11 @@
     {
       "title": "左右盲",
       "artist": "ヨルシカ",
+      "count": 3
+    },
+    {
+      "title": "人マニア",
+      "artist": "原口沙輔",
       "count": 3
     },
     {
@@ -1839,6 +1844,11 @@
       "count": 3
     },
     {
+      "title": "ファタール",
+      "artist": "GEMN",
+      "count": 3
+    },
+    {
       "title": "鬼ノ宴",
       "artist": "友成空",
       "count": 3
@@ -1881,6 +1891,11 @@
     {
       "title": "INNOCENCE",
       "artist": "藍井エイル",
+      "count": 3
+    },
+    {
+      "title": "月光潤色ガール",
+      "artist": "れるりり",
       "count": 3
     },
     {
@@ -2224,7 +2239,7 @@
       "count": 2
     },
     {
-      "title": "人マニア",
+      "title": "イガク",
       "artist": "原口沙輔",
       "count": 2
     },
@@ -2246,6 +2261,11 @@
     {
       "title": "三日月ステップ",
       "artist": "r-906",
+      "count": 2
+    },
+    {
+      "title": "あなたクランケン",
+      "artist": "tamon",
       "count": 2
     },
     {
@@ -2570,7 +2590,7 @@
     },
     {
       "title": "命ばっかり",
-      "artist": "ぬゆり feat. v flower, 結月ゆかり",
+      "artist": "ぬゆり",
       "count": 2
     },
     {
@@ -2669,11 +2689,6 @@
       "count": 2
     },
     {
-      "title": "ファタール",
-      "artist": "GEMN, 中島健人&キタニタツヤ",
-      "count": 2
-    },
-    {
       "title": "月光花",
       "artist": "Janne Da Arc",
       "count": 2
@@ -2749,11 +2764,6 @@
       "count": 2
     },
     {
-      "title": "月光潤色ガール",
-      "artist": "れるりり",
-      "count": 2
-    },
-    {
       "title": "ゾンビ",
       "artist": "DECO*27",
       "count": 2
@@ -2825,7 +2835,7 @@
     },
     {
       "title": "お返事まだカナ💦❓おじさん構文😁❗",
-      "artist": "吉本おじさん feat. 雨衣",
+      "artist": "吉本おじさん",
       "count": 2
     },
     {
@@ -3030,7 +3040,7 @@
     },
     {
       "title": "ド屑",
-      "artist": "なきそ feat. 歌愛ユキ",
+      "artist": "なきそ",
       "count": 2
     },
     {
@@ -3169,6 +3179,11 @@
       "count": 2
     },
     {
+      "title": "い~やい~やい~や",
+      "artist": "Neru",
+      "count": 2
+    },
+    {
       "title": "プリズム",
       "artist": "池田綾子",
       "count": 2
@@ -3190,12 +3205,12 @@
     },
     {
       "title": "おねがいダーリン",
-      "artist": "ナナホシ管弦楽団 feat. ONE",
+      "artist": "ナナホシ管弦楽団",
       "count": 2
     },
     {
       "title": "いかないで",
-      "artist": "想太 feat. 歌愛ユキ",
+      "artist": "想太",
       "count": 2
     },
     {
@@ -3234,6 +3249,11 @@
       "count": 2
     },
     {
+      "title": "フラジール",
+      "artist": "ぬゆり",
+      "count": 2
+    },
+    {
       "title": "邪魔",
       "artist": "syudou",
       "count": 2
@@ -3259,6 +3279,11 @@
       "count": 2
     },
     {
+      "title": "About me",
+      "artist": "蝶々P",
+      "count": 2
+    },
+    {
       "title": "ウィーアー!",
       "artist": "きただにひろし",
       "count": 2
@@ -3266,6 +3291,11 @@
     {
       "title": "ダイアモンドクレバス",
       "artist": "シェリル・ノーム starring May'n",
+      "count": 2
+    },
+    {
+      "title": "夜咄ディセイブ",
+      "artist": "じん",
       "count": 2
     },
     {
@@ -3489,11 +3519,6 @@
       "count": 1
     },
     {
-      "title": "イガク",
-      "artist": "原口沙輔",
-      "count": 1
-    },
-    {
       "title": "ラブ&デストロイ",
       "artist": "MI8k (ナポリP)",
       "count": 1
@@ -3510,7 +3535,7 @@
     },
     {
       "title": "レコード・レド",
-      "artist": "shr feat. 鏡音リン/巡音ルカ",
+      "artist": "shr",
       "count": 1
     },
     {
@@ -3521,11 +3546,6 @@
     {
       "title": "ヲズワルド",
       "artist": "煮ル果実",
-      "count": 1
-    },
-    {
-      "title": "あなたクランケン",
-      "artist": "tamon",
       "count": 1
     },
     {
@@ -4290,7 +4310,7 @@
     },
     {
       "title": "オレンジ",
-      "artist": "トーマ feat. 初音ミク (Tohma feat. 初音ミク)",
+      "artist": "トーマ",
       "count": 1
     },
     {
@@ -4834,11 +4854,6 @@
       "count": 1
     },
     {
-      "title": "い~やい~やい~や",
-      "artist": "Neru",
-      "count": 1
-    },
-    {
       "title": "リバーシブル・キャンペーン",
       "artist": "DECO*27",
       "count": 1
@@ -5010,7 +5025,7 @@
     },
     {
       "title": "WAVE",
-      "artist": "niki feat. Lily",
+      "artist": "niki",
       "count": 1
     },
     {
@@ -5126,11 +5141,6 @@
     {
       "title": "恋のダイヤル6700",
       "artist": "フィンガー5",
-      "count": 1
-    },
-    {
-      "title": "フラジール",
-      "artist": "ぬゆり",
       "count": 1
     },
     {
@@ -5394,11 +5404,6 @@
       "count": 1
     },
     {
-      "title": "About me",
-      "artist": "蝶々P",
-      "count": 1
-    },
-    {
       "title": "HOT LIMIT",
       "artist": "T.M.Revolution",
       "count": 1
@@ -5479,11 +5484,6 @@
       "count": 1
     },
     {
-      "title": "夜咄ディセイブ",
-      "artist": "じん",
-      "count": 1
-    },
-    {
       "title": "月亮代表我的心 (月は何でも知っている)",
       "artist": "テレサ・テン",
       "count": 1
@@ -5491,16 +5491,6 @@
     {
       "title": "我只在乎你 (時の流れに身をまかせ)",
       "artist": "テレサ・テン",
-      "count": 1
-    },
-    {
-      "title": "夜咄ディセイブ",
-      "artist": "じん(自然の敵P) feat. IA",
-      "count": 1
-    },
-    {
-      "title": "About me",
-      "artist": "蝶々P feat. GUMI",
       "count": 1
     },
     {
@@ -5515,22 +5505,7 @@
     },
     {
       "title": "ボッカデラベリタ",
-      "artist": "柊キライ feat. v flower",
-      "count": 1
-    },
-    {
-      "title": "い~やい~やい~や",
-      "artist": "Neru feat. 鏡音リン,鏡音レン",
-      "count": 1
-    },
-    {
-      "title": "ラヴィ",
-      "artist": "すりぃ feat. 鏡音レン",
-      "count": 1
-    },
-    {
-      "title": "あなたクランケン",
-      "artist": "tamon feat. 初音ミク,v flower",
+      "artist": "柊キライ",
       "count": 1
     },
     {
@@ -5539,18 +5514,8 @@
       "count": 1
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP feat. 初音ミク",
-      "count": 1
-    },
-    {
       "title": "コイスルオトメ",
       "artist": "いきものがかり",
-      "count": 1
-    },
-    {
-      "title": "月光潤色ガール",
-      "artist": "れるりり feat. 初音ミク,GUMI",
       "count": 1
     },
     {
@@ -5559,43 +5524,13 @@
       "count": 1
     },
     {
-      "title": "ヤミタイガール",
-      "artist": "れるりり feat. GUMI",
-      "count": 1
-    },
-    {
       "title": "恋愛勇者",
-      "artist": "Last Note. feat. GUMI",
-      "count": 1
-    },
-    {
-      "title": "イガク",
-      "artist": "原口沙輔 feat. 重音テト",
-      "count": 1
-    },
-    {
-      "title": "人マニア",
-      "artist": "原口沙輔 feat. 重音テト",
+      "artist": "Last Note.",
       "count": 1
     },
     {
       "title": "絶対零度",
       "artist": "なとり",
-      "count": 1
-    },
-    {
-      "title": "ファタール",
-      "artist": "GEMN",
-      "count": 1
-    },
-    {
-      "title": "フラジール",
-      "artist": "ぬゆり feat. GUMI",
-      "count": 1
-    },
-    {
-      "title": "レクイエム",
-      "artist": "Kanaria feat. 初音ミク",
       "count": 1
     },
     {
@@ -5650,7 +5585,7 @@
     },
     {
       "title": "春を待つ",
-      "artist": "Islet feat. 倚水",
+      "artist": "Islet",
       "count": 1
     },
     {
@@ -6021,7 +5956,6 @@
     "19's Sound Factory",
     "23.exe",
     "40mP",
-    "40mP feat. 初音ミク",
     "7!!",
     "9Lana",
     "A-RISE",
@@ -6080,7 +6014,6 @@
     "FUNKIST",
     "GARNiDELiA",
     "GEMN",
-    "GEMN, 中島健人&キタニタツヤ",
     "GReeeeN",
     "Giga",
     "Giga, Mitchie M",
@@ -6092,7 +6025,6 @@
     "Heavenz",
     "HoneyWorks 瀬戸口優 (神谷浩史)・榎本夏樹 (戸松遥)・望月蒼太 (梶裕貴)・早坂あかり (阿澄佳奈)・芹沢春輝 (鈴村健一)・合田美桜 (豊崎愛生)",
     "Islet",
-    "Islet feat. 倚水",
     "JUDY AND MARY",
     "JUJU",
     "Janne Da Arc",
@@ -6104,13 +6036,11 @@
     "KOKIA",
     "Kalafina",
     "Kanaria",
-    "Kanaria feat. 初音ミク",
     "King Gnu",
     "Kiroro",
     "Kobo Kanaeru",
     "LUMi",
     "Last Note.",
-    "Last Note. feat. GUMI",
     "LiSA",
     "LiSA×Uru",
     "Lia",
@@ -6135,7 +6065,6 @@
     "NEE",
     "Nem",
     "Neru",
-    "Neru feat. 鏡音リン,鏡音レン",
     "ONE OK ROCK",
     "ORANGE RANGE",
     "Official髭男dism",
@@ -6221,7 +6150,6 @@
     "mothy (悪ノP)",
     "n-buna",
     "niki",
-    "niki feat. Lily",
     "nyamura",
     "r-906",
     "rionos",
@@ -6232,10 +6160,9 @@
     "samfree",
     "sasakure.UK",
     "serial TV drama",
-    "shr feat. 鏡音リン/巡音ルカ",
+    "shr",
     "syudou",
     "tamon",
-    "tamon feat. 初音ミク,v flower",
     "tuki.",
     "wotaku",
     "wowaka",
@@ -6266,11 +6193,9 @@
     "じっぷす",
     "じん",
     "じん feat.Lia",
-    "じん(自然の敵P) feat. IA",
     "じーざすP",
     "すこっぷ",
     "すりぃ",
-    "すりぃ feat. 鏡音レン",
     "ずっと真夜中でいいのに。",
     "それっぽいP",
     "たまぁ~ずP",
@@ -6280,14 +6205,11 @@
     "てにをは",
     "とあ",
     "なきそ",
-    "なきそ feat. 歌愛ユキ",
     "なとり",
     "なるみや",
     "におP",
     "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
     "ぬゆり",
-    "ぬゆり feat. GUMI",
-    "ぬゆり feat. v flower, 結月ゆかり",
     "ぬー (古川本舗)",
     "のぼる↑",
     "はいのことん,えこ。",
@@ -6306,9 +6228,6 @@
     "ゆうゆ",
     "ゆず",
     "れるりり",
-    "れるりり feat. GUMI",
-    "れるりり feat. 初音ミク,GUMI",
-    "れるりり feat. 鳴花ヒメ・ミコト",
     "ろくろ",
     "アイナ・ジ・エンド",
     "ウマ娘 プリティーダービー",
@@ -6349,9 +6268,7 @@
     "トウキョウ・シャンディ・ランデヴパロディ",
     "トゲナシトゲアリ",
     "トーマ",
-    "トーマ feat. 初音ミク (Tohma feat. 初音ミク)",
     "ナナホシ管弦楽団",
-    "ナナホシ管弦楽団 feat. ONE",
     "ナナヲアカリ",
     "ナノウ",
     "ナユタン星人",
@@ -6407,11 +6324,10 @@
     "南ことり (内田彩)&小泉花陽 (久保ユリカ)",
     "卜學亮",
     "原口沙輔",
-    "原口沙輔 feat. 重音テト",
     "友成空",
     "双葉杏 (五十嵐裕美)",
     "吉幾三",
-    "吉本おじさん feat. 雨衣",
+    "吉本おじさん",
     "向井拓海 (原優子)、藤本里奈 (金子真由美)、松永涼 (千菅春香)、大和亜季 (村中知)、木村夏樹 (安野希世乃)",
     "和ぬか",
     "和田たけあき (くらげP)",
@@ -6450,7 +6366,7 @@
     "弌誠",
     "後ろから這いより隊G",
     "志方あきこ",
-    "想太 feat. 歌愛ユキ",
+    "想太",
     "戦慄かなの",
     "戸松遥",
     "手嶌葵",
@@ -6475,7 +6391,6 @@
     "松本梨香",
     "松谷祐子",
     "柊キライ",
-    "柊キライ feat. v flower",
     "柊マグネタイト",
     "柿崎ユウタ",
     "桜高軽音部",
@@ -6540,7 +6455,6 @@
     "藤岡藤巻と大橋のぞみ",
     "虹ヶ咲学園スクールアイドル同好会",
     "蝶々P",
-    "蝶々P feat. GUMI",
     "西沢さんP",
     "西野カナ",
     "超ときめき宣伝部",

@@ -150,11 +150,9 @@ const artistAliases = buildReverseLookup(aliasRaw.artists || {});
       text = text.trim().replace(/\s+/g, " ");
       // Remove quotes
       text = text.replace(QUOTE_CHARS, "");
-      if (isTitle) {
-        // Remove (feat. xxx) and feat. xxx from titles
-        text = text.replace(FEAT_PAREN_RE, "");
-        text = text.replace(FEAT_RE, "");
-      }
+      // Remove (feat. xxx) and feat. xxx from both titles and artists
+      text = text.replace(FEAT_PAREN_RE, "");
+      text = text.replace(FEAT_RE, "");
       return text.trim();
     }
 
