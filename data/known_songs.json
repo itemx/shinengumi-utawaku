@@ -624,6 +624,11 @@
       "count": 6
     },
     {
+      "title": "ダーリンダンス",
+      "artist": "かいりきベア",
+      "count": 6
+    },
+    {
       "title": "POP IN 2",
       "artist": "B小町",
       "count": 6
@@ -646,6 +651,11 @@
     {
       "title": "風になる",
       "artist": "つじあやの",
+      "count": 6
+    },
+    {
+      "title": "ファンサ",
+      "artist": "mona (夏川椎菜)",
       "count": 6
     },
     {
@@ -909,11 +919,6 @@
       "count": 5
     },
     {
-      "title": "ダーリンダンス",
-      "artist": "かいりきベア",
-      "count": 5
-    },
-    {
       "title": "Rolling star",
       "artist": "YUI",
       "count": 5
@@ -1061,11 +1066,6 @@
     {
       "title": "シル・ヴ・プレジデント",
       "artist": "ナナホシ管弦楽団",
-      "count": 5
-    },
-    {
-      "title": "ファンサ",
-      "artist": "mona (夏川椎菜)",
       "count": 5
     },
     {
@@ -2246,6 +2246,11 @@
     {
       "title": "sweet timer",
       "artist": "iLiFE!",
+      "count": 2
+    },
+    {
+      "title": "テトリス",
+      "artist": "柊マグネタイト",
       "count": 2
     },
     {
@@ -3521,11 +3526,6 @@
     {
       "title": "メズマライザー",
       "artist": "サツキ",
-      "count": 1
-    },
-    {
-      "title": "テトリス",
-      "artist": "柊マグネタイト",
       "count": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-04-14T10:16:33.204491+00:00",
+  "lastFetched": "2026-04-14T10:31:27.139970+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -10240,7 +10240,35 @@
       "videoId": "UoN_xbLjwKQ",
       "title": "【#しとらの部屋】3D企画✨4部屋目 ゲスト兎彷魂あみゅ【涼風しとら/深淵組】",
       "publishedAt": "2025-03-01T00:30:47Z",
-      "songs": [],
+      "songs": [
+        {
+          "timestamp": "54:51",
+          "seconds": 3291,
+          "title": "ファンサ",
+          "titleRaw": "ファンサ",
+          "artist": "mona (夏川椎菜)",
+          "artistRaw": "mona (夏川椎菜)",
+          "url": "https://youtu.be/UoN_xbLjwKQ?t=3291"
+        },
+        {
+          "timestamp": "1:01:36",
+          "seconds": 3696,
+          "title": "ダーリンダンス",
+          "titleRaw": "ダーリンダンス",
+          "artist": "かいりきベア",
+          "artistRaw": "かいりきベア",
+          "url": "https://youtu.be/UoN_xbLjwKQ?t=3696"
+        },
+        {
+          "timestamp": "1:08:34",
+          "seconds": 4114,
+          "title": "テトリス",
+          "titleRaw": "テトリス",
+          "artist": "柊マグネタイト",
+          "artistRaw": "柊マグネタイト",
+          "url": "https://youtu.be/UoN_xbLjwKQ?t=4114"
+        }
+      ],
       "sourceCommentId": "",
       "type": "stream"
     },
