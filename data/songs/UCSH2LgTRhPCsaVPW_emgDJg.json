@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-04-14T10:31:27.139970+00:00",
+  "lastFetched": "2026-04-14T10:33:09.252540+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -14794,7 +14794,98 @@
       "videoId": "z1YG4E5MTm4",
       "title": "【歌枠】出会う歌枠第8回♡白玖ウタノちゃん【涼風しとら/深淵組】",
       "publishedAt": "2023-04-28T13:05:09Z",
-      "songs": [],
+      "songs": [
+        {
+          "timestamp": "00:01:48",
+          "seconds": 108,
+          "title": "Tulip",
+          "titleRaw": "Tulip",
+          "artist": "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
+          "artistRaw": "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
+          "url": "https://youtu.be/z1YG4E5MTm4?t=108"
+        },
+        {
+          "timestamp": "00:10:12",
+          "seconds": 612,
+          "title": "破滅の純情",
+          "titleRaw": "破滅の純情",
+          "artist": "ワルキューレ",
+          "artistRaw": "ワルキューレ",
+          "url": "https://youtu.be/z1YG4E5MTm4?t=612"
+        },
+        {
+          "timestamp": "00:21:52",
+          "seconds": 1312,
+          "title": "革命デュアリズム",
+          "titleRaw": "革命デュアリズム",
+          "artist": "水樹奈々×T.M.Revolution",
+          "artistRaw": "水樹奈々×T.M.Revolution",
+          "url": "https://youtu.be/z1YG4E5MTm4?t=1312"
+        },
+        {
+          "timestamp": "00:35:01",
+          "seconds": 2101,
+          "title": "プライド革命",
+          "titleRaw": "プライド革命",
+          "artist": "CHiCO with HoneyWorks",
+          "artistRaw": "CHiCO with HoneyWorks",
+          "url": "https://youtu.be/z1YG4E5MTm4?t=2101"
+        },
+        {
+          "timestamp": "00:46:07",
+          "seconds": 2767,
+          "title": "空色デイズ",
+          "titleRaw": "空色デイズ",
+          "artist": "中川翔子",
+          "artistRaw": "中川翔子",
+          "url": "https://youtu.be/z1YG4E5MTm4?t=2767"
+        },
+        {
+          "timestamp": "00:55:53",
+          "seconds": 3353,
+          "title": "LOVE SURVIVE",
+          "titleRaw": "LOVE SURVIVE",
+          "artist": "SCANDAL",
+          "artistRaw": "SCANDAL",
+          "url": "https://youtu.be/z1YG4E5MTm4?t=3353"
+        },
+        {
+          "timestamp": "01:04:07",
+          "seconds": 3847,
+          "title": "DOLL",
+          "titleRaw": "DOLL",
+          "artist": "SCANDAL",
+          "artistRaw": "SCANDAL",
+          "url": "https://youtu.be/z1YG4E5MTm4?t=3847"
+        },
+        {
+          "timestamp": "01:15:15",
+          "seconds": 4515,
+          "title": "極楽浄土",
+          "titleRaw": "極楽浄土",
+          "artist": "GARNiDELiA",
+          "artistRaw": "GARNiDELiA",
+          "url": "https://youtu.be/z1YG4E5MTm4?t=4515"
+        },
+        {
+          "timestamp": "01:32:18",
+          "seconds": 5538,
+          "title": "träumerei",
+          "titleRaw": "träumerei",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/z1YG4E5MTm4?t=5538"
+        },
+        {
+          "timestamp": "01:43:09",
+          "seconds": 6189,
+          "title": "1・2・3",
+          "titleRaw": "1・2・3",
+          "artist": "After the Rain",
+          "artistRaw": "After the Rain",
+          "url": "https://youtu.be/z1YG4E5MTm4?t=6189"
+        }
+      ],
       "sourceCommentId": "",
       "type": "stream"
     },

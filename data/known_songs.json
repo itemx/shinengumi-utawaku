@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1191,
-  "uniqueTitles": 1187,
-  "uniqueArtists": 533,
+  "totalEntries": 1192,
+  "uniqueTitles": 1188,
+  "uniqueArtists": 534,
   "songs": [
     {
       "title": "残響散歌",
@@ -64,6 +64,11 @@
       "count": 11
     },
     {
+      "title": "極楽浄土",
+      "artist": "GARNiDELiA",
+      "count": 11
+    },
+    {
       "title": "逆光",
       "artist": "Ado",
       "count": 11
@@ -119,11 +124,6 @@
       "count": 10
     },
     {
-      "title": "極楽浄土",
-      "artist": "GARNiDELiA",
-      "count": 10
-    },
-    {
       "title": "桃源恋歌",
       "artist": "GARNiDELiA",
       "count": 10
@@ -141,6 +141,11 @@
     {
       "title": "ギラギラ",
       "artist": "Ado",
+      "count": 10
+    },
+    {
+      "title": "空色デイズ",
+      "artist": "中川翔子",
       "count": 10
     },
     {
@@ -244,11 +249,6 @@
       "count": 9
     },
     {
-      "title": "空色デイズ",
-      "artist": "中川翔子",
-      "count": 9
-    },
-    {
       "title": "crossing field",
       "artist": "LiSA",
       "count": 9
@@ -294,6 +294,11 @@
       "count": 8
     },
     {
+      "title": "プライド革命",
+      "artist": "CHiCO with HoneyWorks",
+      "count": 8
+    },
+    {
       "title": "春泥棒",
       "artist": "ヨルシカ",
       "count": 8
@@ -316,6 +321,11 @@
     {
       "title": "私は最強",
       "artist": "Ado",
+      "count": 8
+    },
+    {
+      "title": "破滅の純情",
+      "artist": "ワルキューレ",
       "count": 8
     },
     {
@@ -394,8 +404,8 @@
       "count": 7
     },
     {
-      "title": "プライド革命",
-      "artist": "CHiCO with HoneyWorks",
+      "title": "träumerei",
+      "artist": "LiSA",
       "count": 7
     },
     {
@@ -441,11 +451,6 @@
     {
       "title": "会いたくて",
       "artist": "Ado",
-      "count": 7
-    },
-    {
-      "title": "破滅の純情",
-      "artist": "ワルキューレ",
       "count": 7
     },
     {
@@ -506,11 +511,6 @@
     {
       "title": "ウタカタララバイ",
       "artist": "Ado",
-      "count": 6
-    },
-    {
-      "title": "träumerei",
-      "artist": "LiSA",
       "count": 6
     },
     {
@@ -581,6 +581,11 @@
     {
       "title": "ADAMAS",
       "artist": "LiSA",
+      "count": 6
+    },
+    {
+      "title": "1・2・3",
+      "artist": "After the Rain",
       "count": 6
     },
     {
@@ -881,11 +886,6 @@
     {
       "title": "シリウス",
       "artist": "藍井エイル",
-      "count": 5
-    },
-    {
-      "title": "1・2・3",
-      "artist": "After the Rain",
       "count": 5
     },
     {
@@ -1729,6 +1729,11 @@
       "count": 3
     },
     {
+      "title": "DOLL",
+      "artist": "SCANDAL",
+      "count": 3
+    },
+    {
       "title": "HELP!!",
       "artist": "Kobo Kanaeru",
       "count": 3
@@ -2449,11 +2454,6 @@
       "count": 2
     },
     {
-      "title": "DOLL",
-      "artist": "SCANDAL",
-      "count": 2
-    },
-    {
       "title": "平行線",
       "artist": "さユり",
       "count": 2
@@ -2496,6 +2496,11 @@
     {
       "title": "一度だけの恋なら",
       "artist": "ワルキューレ",
+      "count": 2
+    },
+    {
+      "title": "LOVE SURVIVE",
+      "artist": "SCANDAL",
       "count": 2
     },
     {
@@ -3066,6 +3071,11 @@
     {
       "title": "バクチ・ダンサー",
       "artist": "DOES",
+      "count": 2
+    },
+    {
+      "title": "Tulip",
+      "artist": "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
       "count": 2
     },
     {
@@ -3701,11 +3711,6 @@
     {
       "title": "好きすぎて滅!",
       "artist": "M!LK",
-      "count": 1
-    },
-    {
-      "title": "LOVE SURVIVE",
-      "artist": "SCANDAL",
       "count": 1
     },
     {
@@ -4629,6 +4634,11 @@
       "count": 1
     },
     {
+      "title": "革命デュアリズム",
+      "artist": "水樹奈々×T.M.Revolution",
+      "count": 1
+    },
+    {
       "title": "さくらんぼ",
       "artist": "大塚愛",
       "count": 1
@@ -4921,11 +4931,6 @@
     {
       "title": "フェイキング・オブ・コメディ",
       "artist": "jon",
-      "count": 1
-    },
-    {
-      "title": "Tulip",
-      "artist": "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
       "count": 1
     },
     {
@@ -6414,6 +6419,7 @@
     "歌組雪月花",
     "氣志團",
     "水樹奈々",
+    "水樹奈々×T.M.Revolution",
     "水橋舞",
     "水瀬いのり",
     "池田彩",
