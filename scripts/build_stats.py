@@ -160,7 +160,7 @@ def main():
                 existing_ids = set()
                 if songs_path.exists():
                     ch_data = json.loads(songs_path.read_text(encoding="utf-8"))
-                    existing_ids = {v["videoId"] for v in ch_data.get("videos", [])}
+                    existing_ids = {v["videoId"] for v in ch_data.get("videos", []) if v.get("songs")}
 
                 before = len(mdata.get("missing", []))
                 mdata["missing"] = [
