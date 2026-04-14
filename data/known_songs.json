@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1189,
-  "uniqueTitles": 1185,
-  "uniqueArtists": 532,
+  "totalEntries": 1191,
+  "uniqueTitles": 1187,
+  "uniqueArtists": 533,
   "songs": [
     {
       "title": "残響散歌",
@@ -14,6 +14,16 @@
       "count": 14
     },
     {
+      "title": "フォニイ",
+      "artist": "ツミキ",
+      "count": 14
+    },
+    {
+      "title": "創聖のアクエリオン",
+      "artist": "AKINO",
+      "count": 13
+    },
+    {
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 13
@@ -21,11 +31,6 @@
     {
       "title": "残酷な天使のテーゼ",
       "artist": "高橋洋子",
-      "count": 13
-    },
-    {
-      "title": "フォニイ",
-      "artist": "ツミキ",
       "count": 13
     },
     {
@@ -44,8 +49,8 @@
       "count": 12
     },
     {
-      "title": "創聖のアクエリオン",
-      "artist": "AKINO",
+      "title": "紅蓮華",
+      "artist": "LiSA",
       "count": 12
     },
     {
@@ -56,11 +61,6 @@
     {
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
-      "count": 11
-    },
-    {
-      "title": "紅蓮華",
-      "artist": "LiSA",
       "count": 11
     },
     {
@@ -209,6 +209,11 @@
       "count": 9
     },
     {
+      "title": "Cry Baby",
+      "artist": "Official髭男dism",
+      "count": 9
+    },
+    {
       "title": "プロポーズ",
       "artist": "なとり",
       "count": 9
@@ -221,6 +226,11 @@
     {
       "title": "ぶっ飛びな!しとら流炒飯☆",
       "artist": "涼風しとら",
+      "count": 9
+    },
+    {
+      "title": "ヴァンパイア",
+      "artist": "DECO*27",
       "count": 9
     },
     {
@@ -284,13 +294,13 @@
       "count": 8
     },
     {
-      "title": "晴る",
-      "artist": "ヨルシカ",
+      "title": "Shout Baby",
+      "artist": "緑黄色社会",
       "count": 8
     },
     {
-      "title": "Cry Baby",
-      "artist": "Official髭男dism",
+      "title": "晴る",
+      "artist": "ヨルシカ",
       "count": 8
     },
     {
@@ -301,11 +311,6 @@
     {
       "title": "踊",
       "artist": "Ado",
-      "count": 8
-    },
-    {
-      "title": "ヴァンパイア",
-      "artist": "DECO*27",
       "count": 8
     },
     {
@@ -339,8 +344,18 @@
       "count": 8
     },
     {
+      "title": "神っぽいな",
+      "artist": "ピノキオピー",
+      "count": 8
+    },
+    {
       "title": "トウキョウ・シャンディ・ランデヴ",
       "artist": "MAISONdes",
+      "count": 8
+    },
+    {
+      "title": "パメラ",
+      "artist": "バルーン",
       "count": 8
     },
     {
@@ -376,11 +391,6 @@
     {
       "title": "靴の花火",
       "artist": "ヨルシカ",
-      "count": 7
-    },
-    {
-      "title": "Shout Baby",
-      "artist": "緑黄色社会",
       "count": 7
     },
     {
@@ -459,18 +469,8 @@
       "count": 7
     },
     {
-      "title": "神っぽいな",
-      "artist": "ピノキオピー",
-      "count": 7
-    },
-    {
       "title": "夜明けと蛍",
       "artist": "n-buna",
-      "count": 7
-    },
-    {
-      "title": "パメラ",
-      "artist": "バルーン",
       "count": 7
     },
     {
@@ -481,6 +481,11 @@
     {
       "title": "青のすみか",
       "artist": "キタニタツヤ",
+      "count": 6
+    },
+    {
+      "title": "トンデモワンダーズ",
+      "artist": "sasakure.UK",
       "count": 6
     },
     {
@@ -599,6 +604,11 @@
       "count": 6
     },
     {
+      "title": "This game",
+      "artist": "鈴木このみ",
+      "count": 6
+    },
+    {
       "title": "可愛くてごめん",
       "artist": "CHiCO with HoneyWorks",
       "count": 6
@@ -626,6 +636,16 @@
     {
       "title": "風になる",
       "artist": "つじあやの",
+      "count": 6
+    },
+    {
+      "title": "ルマ",
+      "artist": "かいりきベア",
+      "count": 6
+    },
+    {
+      "title": "甲賀忍法帖",
+      "artist": "陰陽座",
       "count": 6
     },
     {
@@ -666,6 +686,11 @@
     {
       "title": "カサブタ",
       "artist": "千綿偉功",
+      "count": 5
+    },
+    {
+      "title": "ツキアカリのミチシルベ",
+      "artist": "ステレオポニー",
       "count": 5
     },
     {
@@ -739,11 +764,6 @@
       "count": 5
     },
     {
-      "title": "トンデモワンダーズ",
-      "artist": "sasakure.UK",
-      "count": 5
-    },
-    {
       "title": "ヨンジュウナナ",
       "artist": "みきとP",
       "count": 5
@@ -791,6 +811,11 @@
     {
       "title": "春を告げる",
       "artist": "yama",
+      "count": 5
+    },
+    {
+      "title": "ハルジオン",
+      "artist": "YOASOBI",
       "count": 5
     },
     {
@@ -861,11 +886,6 @@
     {
       "title": "ラヴィ",
       "artist": "すりぃ",
-      "count": 5
-    },
-    {
-      "title": "This game",
-      "artist": "鈴木このみ",
       "count": 5
     },
     {
@@ -989,6 +1009,11 @@
       "count": 5
     },
     {
+      "title": "バラライカ",
+      "artist": "月島きらり starring 久住小春",
+      "count": 5
+    },
+    {
       "title": "恋愛裁判",
       "artist": "40mP",
       "count": 5
@@ -1044,18 +1069,8 @@
       "count": 5
     },
     {
-      "title": "ルマ",
-      "artist": "かいりきベア",
-      "count": 5
-    },
-    {
       "title": "モザイクロール",
       "artist": "DECO*27",
-      "count": 5
-    },
-    {
-      "title": "甲賀忍法帖",
-      "artist": "陰陽座",
       "count": 5
     },
     {
@@ -1106,11 +1121,6 @@
     {
       "title": "Brave Shine",
       "artist": "Aimer",
-      "count": 4
-    },
-    {
-      "title": "ツキアカリのミチシルベ",
-      "artist": "ステレオポニー",
       "count": 4
     },
     {
@@ -1236,11 +1246,6 @@
     {
       "title": "SAKURAグッバイ",
       "artist": "SCANDAL",
-      "count": 4
-    },
-    {
-      "title": "ハルジオン",
-      "artist": "YOASOBI",
       "count": 4
     },
     {
@@ -1399,6 +1404,11 @@
       "count": 4
     },
     {
+      "title": "くらべられっ子",
+      "artist": "ツユ",
+      "count": 4
+    },
+    {
       "title": "第六感",
       "artist": "Reol",
       "count": 4
@@ -1444,11 +1454,6 @@
       "count": 4
     },
     {
-      "title": "バラライカ",
-      "artist": "月島きらり starring 久住小春",
-      "count": 4
-    },
-    {
       "title": "雫",
       "artist": "スキマスイッチ",
       "count": 4
@@ -1469,6 +1474,11 @@
       "count": 4
     },
     {
+      "title": "エゴロック",
+      "artist": "すりぃ",
+      "count": 4
+    },
+    {
       "title": "佐賀事変",
       "artist": "フランシュシュ",
       "count": 4
@@ -1476,6 +1486,11 @@
     {
       "title": "おじゃま虫",
       "artist": "DECO*27",
+      "count": 4
+    },
+    {
+      "title": "メンタルチェンソー",
+      "artist": "かいりきベア",
       "count": 4
     },
     {
@@ -1879,11 +1894,6 @@
       "count": 3
     },
     {
-      "title": "くらべられっ子",
-      "artist": "ツユ",
-      "count": 3
-    },
-    {
       "title": "夜明けの流星群",
       "artist": "SCANDAL",
       "count": 3
@@ -2054,11 +2064,6 @@
       "count": 3
     },
     {
-      "title": "エゴロック",
-      "artist": "すりぃ",
-      "count": 3
-    },
-    {
       "title": "ワーワーワールド",
       "artist": "Giga, Mitchie M",
       "count": 3
@@ -2066,6 +2071,11 @@
     {
       "title": "オツキミリサイタル",
       "artist": "じん",
+      "count": 3
+    },
+    {
+      "title": "やさしさで溢れるように",
+      "artist": "JUJU",
       "count": 3
     },
     {
@@ -2081,11 +2091,6 @@
     {
       "title": "娘々スペシャルサービスメドレー(特盛り)",
       "artist": "シェリル・ノーム starring May'n,ランカ・リー=中島愛",
-      "count": 3
-    },
-    {
-      "title": "メンタルチェンソー",
-      "artist": "かいりきベア",
       "count": 3
     },
     {
@@ -2116,6 +2121,11 @@
     {
       "title": "丸の内サディスティック",
       "artist": "椎名林檎",
+      "count": 3
+    },
+    {
+      "title": "いかないで",
+      "artist": "想太",
       "count": 3
     },
     {
@@ -3129,11 +3139,6 @@
       "count": 2
     },
     {
-      "title": "やさしさで溢れるように",
-      "artist": "JUJU",
-      "count": 2
-    },
-    {
       "title": "花",
       "artist": "ORANGE RANGE",
       "count": 2
@@ -3206,11 +3211,6 @@
     {
       "title": "おねがいダーリン",
       "artist": "ナナホシ管弦楽団",
-      "count": 2
-    },
-    {
-      "title": "いかないで",
-      "artist": "想太",
       "count": 2
     },
     {
@@ -5534,6 +5534,16 @@
       "count": 1
     },
     {
+      "title": "pray",
+      "artist": "水樹奈々",
+      "count": 1
+    },
+    {
+      "title": "Shooting Star Warrior",
+      "artist": "Gulity Kiss",
+      "count": 1
+    },
+    {
       "title": "かぐやの城で踊りたい",
       "artist": "μ's",
       "count": 1
@@ -6020,6 +6030,7 @@
     "Girls Dead Monster",
     "Goose house",
     "Guilty Kiss (Aqours)",
+    "Gulity Kiss",
     "GuraMarine",
     "HIMEHINA",
     "Heavenz",
