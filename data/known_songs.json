@@ -89,6 +89,11 @@
       "count": 10
     },
     {
+      "title": "雨とカプチーノ",
+      "artist": "ヨルシカ",
+      "count": 10
+    },
+    {
       "title": "往け",
       "artist": "LiSA",
       "count": 10
@@ -179,11 +184,6 @@
       "count": 9
     },
     {
-      "title": "雨とカプチーノ",
-      "artist": "ヨルシカ",
-      "count": 9
-    },
-    {
       "title": "Song of journey",
       "artist": "涼風しとら",
       "count": 9
@@ -226,6 +226,11 @@
     {
       "title": "ぶっ飛びな!しとら流炒飯☆",
       "artist": "涼風しとら",
+      "count": 9
+    },
+    {
+      "title": "踊",
+      "artist": "Ado",
       "count": 9
     },
     {
@@ -309,11 +314,6 @@
       "count": 8
     },
     {
-      "title": "踊",
-      "artist": "Ado",
-      "count": 8
-    },
-    {
       "title": "私は最強",
       "artist": "Ado",
       "count": 8
@@ -394,6 +394,11 @@
       "count": 7
     },
     {
+      "title": "プライド革命",
+      "artist": "CHiCO with HoneyWorks",
+      "count": 7
+    },
+    {
       "title": "変わらないもの",
       "artist": "奥華子",
       "count": 7
@@ -459,6 +464,11 @@
       "count": 7
     },
     {
+      "title": "ブルーバード",
+      "artist": "いきものがかり",
+      "count": 7
+    },
+    {
       "title": "Tot Musica",
       "artist": "Ado",
       "count": 7
@@ -484,6 +494,11 @@
       "count": 6
     },
     {
+      "title": "名前のない怪物",
+      "artist": "EGOIST",
+      "count": 6
+    },
+    {
       "title": "トンデモワンダーズ",
       "artist": "sasakure.UK",
       "count": 6
@@ -496,11 +511,6 @@
     {
       "title": "träumerei",
       "artist": "LiSA",
-      "count": 6
-    },
-    {
-      "title": "プライド革命",
-      "artist": "CHiCO with HoneyWorks",
       "count": 6
     },
     {
@@ -619,6 +629,11 @@
       "count": 6
     },
     {
+      "title": "いけないボーダーライン",
+      "artist": "ワルキューレ",
+      "count": 6
+    },
+    {
       "title": "oath sign",
       "artist": "LiSA",
       "count": 6
@@ -626,11 +641,6 @@
     {
       "title": "レディメイド",
       "artist": "Ado",
-      "count": 6
-    },
-    {
-      "title": "ブルーバード",
-      "artist": "いきものがかり",
       "count": 6
     },
     {
@@ -726,11 +736,6 @@
     {
       "title": "ハッピーラッキーチャッピー",
       "artist": "ano",
-      "count": 5
-    },
-    {
-      "title": "名前のない怪物",
-      "artist": "EGOIST",
       "count": 5
     },
     {
@@ -906,11 +911,6 @@
     {
       "title": "ダーリンダンス",
       "artist": "かいりきベア",
-      "count": 5
-    },
-    {
-      "title": "いけないボーダーライン",
-      "artist": "ワルキューレ",
       "count": 5
     },
     {
@@ -3264,6 +3264,11 @@
       "count": 2
     },
     {
+      "title": "ASH",
+      "artist": "LiSA",
+      "count": 2
+    },
+    {
       "title": "ニコニコ動画流星群",
       "artist": "しも",
       "count": 2
@@ -3276,6 +3281,11 @@
     {
       "title": "三原色",
       "artist": "YOASOBI",
+      "count": 2
+    },
+    {
+      "title": "グッバイ宣言",
+      "artist": "Chinozo",
       "count": 2
     },
     {
@@ -5174,11 +5184,6 @@
       "count": 1
     },
     {
-      "title": "ASH",
-      "artist": "LiSA",
-      "count": 1
-    },
-    {
       "title": "プロトディスコ",
       "artist": "ぬゆり",
       "count": 1
@@ -5356,11 +5361,6 @@
     {
       "title": "God knows",
       "artist": "平野綾, 涼宮ハルヒ",
-      "count": 1
-    },
-    {
-      "title": "グッバイ宣言",
-      "artist": "Chinozo",
       "count": 1
     },
     {

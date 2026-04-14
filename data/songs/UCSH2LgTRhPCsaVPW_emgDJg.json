@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-04-14T10:05:55.692796+00:00",
+  "lastFetched": "2026-04-14T10:16:33.204491+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -25922,7 +25922,80 @@
       "videoId": "ZPFh27nELGE",
       "title": "【歌枠】大好きな歌を歌うよ～🐥【涼風しとら】",
       "publishedAt": "2021-09-15T01:10:01Z",
-      "songs": [],
+      "songs": [
+        {
+          "timestamp": "4:18",
+          "seconds": 258,
+          "title": "グッバイ宣言",
+          "titleRaw": "グッバイ宣言",
+          "artist": "Chinozo",
+          "artistRaw": "Chinozo",
+          "url": "https://youtu.be/ZPFh27nELGE?t=258"
+        },
+        {
+          "timestamp": "10:33",
+          "seconds": 633,
+          "title": "踊",
+          "titleRaw": "踊",
+          "artist": "Ado",
+          "artistRaw": "Ado",
+          "url": "https://youtu.be/ZPFh27nELGE?t=633"
+        },
+        {
+          "timestamp": "17:53",
+          "seconds": 1073,
+          "title": "雨とカプチーノ",
+          "titleRaw": "雨とカプチーノ",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/ZPFh27nELGE?t=1073"
+        },
+        {
+          "timestamp": "25:53",
+          "seconds": 1553,
+          "title": "ブルーバード",
+          "titleRaw": "ブルーバード",
+          "artist": "いきものがかり",
+          "artistRaw": "いきものがかり",
+          "url": "https://youtu.be/ZPFh27nELGE?t=1553"
+        },
+        {
+          "timestamp": "32:31",
+          "seconds": 1951,
+          "title": "プライド革命",
+          "titleRaw": "プライド革命",
+          "artist": "CHiCO with HoneyWorks",
+          "artistRaw": "CHiCO with HoneyWorks",
+          "url": "https://youtu.be/ZPFh27nELGE?t=1951"
+        },
+        {
+          "timestamp": "39:33",
+          "seconds": 2373,
+          "title": "いけないボーダーライン",
+          "titleRaw": "いけないボーダーライン",
+          "artist": "ワルキューレ",
+          "artistRaw": "ワルキューレ",
+          "url": "https://youtu.be/ZPFh27nELGE?t=2373"
+        },
+        {
+          "timestamp": "48:43",
+          "seconds": 2923,
+          "title": "ASH",
+          "titleRaw": "ASH",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/ZPFh27nELGE?t=2923"
+        },
+        {
+          "timestamp": "56:07",
+          "seconds": 3367,
+          "title": "名前のない怪物",
+          "titleRaw": "名前のない怪物",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/ZPFh27nELGE?t=3367"
+        }
+      ],
       "sourceCommentId": "",
       "type": "stream"
     },
