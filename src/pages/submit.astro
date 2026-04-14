@@ -1,11 +1,26 @@
 ---
 import Base from "../layouts/Base.astro";
 import { getChannels } from "../lib/data";
+import fs from "node:fs";
 
 const channels = getChannels();
 const channelNames = channels.map(ch => ch.name);
 const channelMap = Object.fromEntries(channels.map(ch => [ch.name, ch.channelId]));
 const GITHUB_REPO = "itemx/shinengumi-utawaku";
+
+// Build reverse alias lookup for client-side normalization
+const aliasRaw = JSON.parse(fs.readFileSync("data/aliases.json", "utf-8"));
+function buildReverseLookup(section: Record<string, string[]>): Record<string, string> {
+  const rev: Record<string, string> = {};
+  for (const [canonical, aliases] of Object.entries(section)) {
+    for (const alias of aliases) {
+      rev[alias.toLowerCase()] = canonical;
+    }
+  }
+  return rev;
+}
+const songAliases = buildReverseLookup(aliasRaw.songs || {});
+const artistAliases = buildReverseLookup(aliasRaw.artists || {});
 ---
 
 <Base title="投稿 | SEG-V UtaList" description="手動提交歌枠曲目清單" i18nTitleKey="submit.page_title">
@@ -118,7 +133,40 @@ const GITHUB_REPO = "itemx/shinengumi-utawaku";
     </button>
   </div>
 
-  <script is:inline define:vars={{ GITHUB_REPO, channelNames, channelMap }}>
+  <script is:inline define:vars={{ GITHUB_REPO, channelNames, channelMap, songAliases, artistAliases }}>
+    // --- Light normalizer (mirrors Python normalizer's most impactful rules) ---
+    var QUOTE_CHARS = /^[「」『』""'']+|[「」『』""'']+$/g;
+    var FEAT_PAREN_RE = /\s*[\(（]feat\.?\s+.+?[\)）]\s*$/i;
+    var FEAT_RE = /\s+feat\.?\s+.+$/i;
+
+    function normalizeText(text, isTitle) {
+      // NFKC (fullwidth → halfwidth etc.)
+      text = text.normalize("NFKC");
+      // Wave dash → ASCII tilde
+      text = text.replace(/\u301C/g, "~").replace(/\uFF5E/g, "~");
+      // Strip + collapse whitespace
+      text = text.trim().replace(/\s+/g, " ");
+      // Remove quotes
+      text = text.replace(QUOTE_CHARS, "");
+      if (isTitle) {
+        // Remove (feat. xxx) and feat. xxx from titles
+        text = text.replace(FEAT_PAREN_RE, "");
+        text = text.replace(FEAT_RE, "");
+      }
+      return text.trim();
+    }
+
+    function normalizeSong(title, artist) {
+      title = normalizeText(title, true);
+      artist = normalizeText(artist, false);
+      // Alias lookup
+      var ct = songAliases[title.toLowerCase()];
+      if (ct) title = ct;
+      var ca = artistAliases[artist.toLowerCase()];
+      if (ca) artist = ca;
+      return { title: title, artist: artist };
+    }
+
     // --- URL parser ---
     function parseYouTubeUrl(input) {
       var text = input.trim();
@@ -284,6 +332,9 @@ const GITHUB_REPO = "itemx/shinengumi-utawaku";
         setlistSection.classList.add("hidden");
         previewSection.classList.add("hidden");
         autoDetected = parseSingleSongTitle(currentVideoTitle);
+        var norm = normalizeSong(autoDetected.title, autoDetected.artist);
+        autoDetected.title = norm.title;
+        autoDetected.artist = norm.artist;
         autoSong.textContent = autoDetected.title;
         autoArtist.textContent = autoDetected.artist ? "/ " + autoDetected.artist : "";
         singleSongSection.classList.remove("hidden");
@@ -371,6 +422,12 @@ const GITHUB_REPO = "itemx/shinengumi-utawaku";
     // --- Preview (stream mode) ---
     btnPreview.addEventListener("click", function() {
       parsedSongs = parseSetlist(inputSetlist.value);
+      // Normalize all parsed songs
+      for (var i=0;i<parsedSongs.length;i++) {
+        var n = normalizeSong(parsedSongs[i].title, parsedSongs[i].artist);
+        parsedSongs[i].title = n.title;
+        parsedSongs[i].artist = n.artist;
+      }
       previewTbody.innerHTML = "";
       for (var i=0;i<parsedSongs.length;i++) {
         var s = parsedSongs[i];
