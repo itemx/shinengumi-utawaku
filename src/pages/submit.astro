@@ -21,6 +21,22 @@ function buildReverseLookup(section: Record<string, string[]>): Record<string, s
 }
 const songAliases = buildReverseLookup(aliasRaw.songs || {});
 const artistAliases = buildReverseLookup(aliasRaw.artists || {});
+
+// Build known_songs lookup (title_lower → artist) for auto-fill
+const knownSongsRaw = JSON.parse(fs.readFileSync("data/known_songs.json", "utf-8"));
+const knownSongs: Record<string, string> = {};
+const titleArtists: Record<string, Set<string>> = {};
+for (const entry of knownSongsRaw.songs || []) {
+  const t = (entry.title || "").trim().toLowerCase();
+  const a = (entry.artist || "").trim();
+  if (t && a) {
+    if (!titleArtists[t]) titleArtists[t] = new Set();
+    titleArtists[t].add(a);
+  }
+}
+for (const [k, v] of Object.entries(titleArtists)) {
+  if (v.size === 1) knownSongs[k] = [...v][0];
+}
 ---
 
 <Base title="投稿 | SEG-V UtaList" description="手動提交歌枠曲目清單" i18nTitleKey="submit.page_title">
@@ -133,7 +149,7 @@ const artistAliases = buildReverseLookup(aliasRaw.artists || {});
     </button>
   </div>
 
-  <script is:inline define:vars={{ GITHUB_REPO, channelNames, channelMap, songAliases, artistAliases }}>
+  <script is:inline define:vars={{ GITHUB_REPO, channelNames, channelMap, songAliases, artistAliases, knownSongs }}>
     // --- Light normalizer (mirrors Python normalizer's most impactful rules) ---
     var QUOTE_CHARS = /^[「」『』""'']+|[「」『』""'']+$/g;
     var FEAT_PAREN_RE = /\s*[\(（]feat\.?\s+.+?[\)）]\s*$/i;
@@ -164,7 +180,16 @@ const artistAliases = buildReverseLookup(aliasRaw.artists || {});
       if (ct) title = ct;
       var ca = artistAliases[artist.toLowerCase()];
       if (ca) artist = ca;
-      return { title: title, artist: artist };
+      // Auto-fill missing artist from known_songs
+      var autoFilled = false;
+      if (!artist) {
+        var ka = knownSongs[title.toLowerCase()];
+        if (ka) {
+          artist = ka;
+          autoFilled = true;
+        }
+      }
+      return { title: title, artist: artist, autoFilled: autoFilled };
     }
 
     // --- URL parser ---
@@ -427,16 +452,25 @@ const artistAliases = buildReverseLookup(aliasRaw.artists || {});
         var n = normalizeSong(parsedSongs[i].title, parsedSongs[i].artist);
         parsedSongs[i].title = n.title;
         parsedSongs[i].artist = n.artist;
+        parsedSongs[i].autoFilled = n.autoFilled;
       }
       previewTbody.innerHTML = "";
       for (var i=0;i<parsedSongs.length;i++) {
         var s = parsedSongs[i];
         var tr = document.createElement("tr");
         tr.className = "border-b border-border";
+        var artistHtml;
+        if (!s.artist) {
+          artistHtml = '<span class="text-[#eab010]" data-i18n="submit.artist_unknown">未指定</span>';
+        } else if (s.autoFilled) {
+          artistHtml = '<span class="text-blue-500" title="自動補完">' + s.artist + '</span>';
+        } else {
+          artistHtml = s.artist;
+        }
         tr.innerHTML =
           '<td class="py-1 px-2 font-mono text-text-muted">' + s.timestamp + '</td>' +
           '<td class="py-1 px-2 font-medium">' + s.title + '</td>' +
-          '<td class="py-1 px-2 text-text-muted">' + (s.artist || '<span class="text-[#eab010]">未指定</span>') + '</td>';
+          '<td class="py-1 px-2 text-text-muted">' + artistHtml + '</td>';
         previewTbody.appendChild(tr);
       }
       previewCount.textContent = parsedSongs.length + " 曲";
