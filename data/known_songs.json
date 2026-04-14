@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1197,
-  "uniqueTitles": 1190,
+  "totalEntries": 1191,
+  "uniqueTitles": 1184,
   "uniqueArtists": 543,
   "songs": [
     {
@@ -149,6 +149,11 @@
       "count": 10
     },
     {
+      "title": "熱愛105°C的你",
+      "artist": "阿肆",
+      "count": 10
+    },
+    {
       "title": "勇者",
       "artist": "YOASOBI",
       "count": 9
@@ -161,6 +166,11 @@
     {
       "title": "雨とカプチーノ",
       "artist": "ヨルシカ",
+      "count": 9
+    },
+    {
+      "title": "Song of journey",
+      "artist": "涼風しとら",
       "count": 9
     },
     {
@@ -236,11 +246,6 @@
     {
       "title": "again",
       "artist": "YUI",
-      "count": 8
-    },
-    {
-      "title": "Song of journey",
-      "artist": "涼風しとら",
       "count": 8
     },
     {
@@ -326,6 +331,11 @@
     {
       "title": "新時代",
       "artist": "Ado",
+      "count": 8
+    },
+    {
+      "title": "Ahoy!! 我ら宝鐘海賊団",
+      "artist": "宝鐘マリン",
       "count": 8
     },
     {
@@ -436,11 +446,6 @@
     {
       "title": "心という名の不可解",
       "artist": "Ado",
-      "count": 7
-    },
-    {
-      "title": "Ahoy!! 我ら宝鐘海賊団",
-      "artist": "宝鐘マリン",
       "count": 7
     },
     {
@@ -584,6 +589,11 @@
       "count": 6
     },
     {
+      "title": "可愛くてごめん",
+      "artist": "CHiCO with HoneyWorks",
+      "count": 6
+    },
+    {
       "title": "oath sign",
       "artist": "LiSA",
       "count": 6
@@ -601,11 +611,6 @@
     {
       "title": "風になる",
       "artist": "つじあやの",
-      "count": 6
-    },
-    {
-      "title": "热爱105°C的你",
-      "artist": "阿肆",
       "count": 6
     },
     {
@@ -1334,11 +1339,6 @@
       "count": 4
     },
     {
-      "title": "可愛くてごめん",
-      "artist": "CHiCO with HoneyWorks",
-      "count": 4
-    },
-    {
       "title": "シルエット",
       "artist": "KANA-BOON",
       "count": 4
@@ -1979,11 +1979,6 @@
       "count": 3
     },
     {
-      "title": "熱愛105°C的你",
-      "artist": "阿肆",
-      "count": 3
-    },
-    {
       "title": "サラマンダー",
       "artist": "DECO*27",
       "count": 3
@@ -2036,6 +2031,11 @@
     {
       "title": "風のメッセージ",
       "artist": "水橋舞",
+      "count": 3
+    },
+    {
+      "title": "娘々スペシャルサービスメドレー(特盛り)",
+      "artist": "シェリル・ノーム starring May'n,ランカ・リー=中島愛",
       "count": 3
     },
     {
@@ -3059,11 +3059,6 @@
       "count": 2
     },
     {
-      "title": "可愛くてごめん (feat. かぴ)",
-      "artist": "CHiCO with HoneyWorks",
-      "count": 2
-    },
-    {
       "title": "ポニーテールとシュシュ",
       "artist": "AKB48",
       "count": 2
@@ -3136,11 +3131,6 @@
     {
       "title": "Overfly",
       "artist": "春奈るな",
-      "count": 2
-    },
-    {
-      "title": "娘々スペシャルサービスメドレー(特盛)",
-      "artist": "シェリル・ノーム starring May'n,ランカ・リー=中島愛",
       "count": 2
     },
     {
@@ -3559,7 +3549,7 @@
       "count": 1
     },
     {
-      "title": "天天天国地獄国 (feat. ななひら & P丸様。)",
+      "title": "天天天国地獄国",
       "artist": "Aiobahn +81",
       "count": 1
     },
@@ -4049,18 +4039,8 @@
       "count": 1
     },
     {
-      "title": "Ahoy!!我ら宝鐘海賊団",
-      "artist": "宝鐘マリン",
-      "count": 1
-    },
-    {
       "title": "美少女無罪パイレーツ",
       "artist": "宝鐘マリン",
-      "count": 1
-    },
-    {
-      "title": "Song of Journey",
-      "artist": "涼風しとら",
       "count": 1
     },
     {
@@ -5494,11 +5474,6 @@
       "count": 1
     },
     {
-      "title": "热爱105°c的你",
-      "artist": "阿肆",
-      "count": 1
-    },
-    {
       "title": "愛言葉",
       "artist": "DECO*27",
       "count": 1
@@ -5551,11 +5526,6 @@
     {
       "title": "ボッカデラベリタ",
       "artist": "柊キライ feat. v flower",
-      "count": 1
-    },
-    {
-      "title": "娘々スペシャルサービスメドレー(特盛り)",
-      "artist": "シェリル・ノーム starring May'n,ランカ・リー=中島愛",
       "count": 1
     },
     {

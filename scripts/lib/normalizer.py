@@ -75,6 +75,11 @@ _FEAT_IN_TITLE_RE = re.compile(
     r"\s+feat\.?\s+.+$", re.IGNORECASE,
 )
 
+# feat. 括號形式: (feat. かぴ), (feat. xxx)
+_FEAT_PAREN_RE = re.compile(
+    r"\s*[\(（]feat\.?\s+.+?[\)）]\s*$", re.IGNORECASE,
+)
+
 # 前後引號/裝飾括號
 _QUOTE_CHARS = "「」『』""''\u300c\u300d\u300e\u300f"
 
@@ -127,6 +132,7 @@ def _clean_text(text: str, is_title: bool = False) -> str:
         if _HAS_JAPANESE_RE.search(text):
             text = _ROMANIZATION_PAREN_RE.sub("", text)
         # 移除 feat. (保留原始歌手欄的 feat.)
+        text = _FEAT_PAREN_RE.sub("", text)
         text = _FEAT_IN_TITLE_RE.sub("", text)
     # 移除歌手欄的羅馬拼音括號
     if not is_title:
