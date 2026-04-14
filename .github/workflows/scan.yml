@@ -1,0 +1,57 @@
+name: Scan New Videos
+
+on:
+  schedule:
+    - cron: '0 12 */3 * *'  # Every 3 days at UTC 12:00 (JST 21:00)
+  workflow_dispatch:          # Allow manual trigger
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Scan for new videos (last 7 days)
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/scan_new.py --days 7
+
+      - name: Build stats
+        run: |
+          python scripts/build_stats.py
+          python scripts/build_known_songs.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data/; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore: scan new videos $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Trigger deploy
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml

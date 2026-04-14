@@ -96,9 +96,16 @@ class YouTubeClient:
         }
 
     def search_singing_streams(
-        self, channel_id: str, keywords: list[str] | None = None
+        self, channel_id: str, keywords: list[str] | None = None,
+        published_after: str | None = None,
     ) -> list[str]:
         """搜尋頻道的歌枠影片 (100 units/page)。
+
+        Args:
+            channel_id: YouTube 頻道 ID。
+            keywords: 搜尋關鍵字。
+            published_after: ISO 8601 日期 (e.g. "2026-04-01T00:00:00Z")，
+                只搜此日期之後的影片。
 
         Returns:
             videoId 列表。
@@ -111,7 +118,7 @@ class YouTubeClient:
         page_token = None
 
         while True:
-            resp = self._service.search().list(
+            params = dict(
                 part="id",
                 channelId=channel_id,
                 q=query,
@@ -119,7 +126,10 @@ class YouTubeClient:
                 maxResults=50,
                 order="date",
                 pageToken=page_token,
-            ).execute()
+            )
+            if published_after:
+                params["publishedAfter"] = published_after
+            resp = self._service.search().list(**params).execute()
             self._units += 100
 
             for item in resp.get("items", []):
