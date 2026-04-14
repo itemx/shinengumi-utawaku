@@ -429,3 +429,10 @@ for ch in ['UCSH2LgTRhPCsaVPW_emgDJg', 'UCoOPu8WqToJ4jHbBXY6NPrA']:
 - **Known songs DB:** 1188 unique songs, 538 artists
 - **All workflows verified:** submit → ingest → deploy pipeline working end-to-end
 - **Data quality:** Multiple rounds of normalization completed. Remaining multi-artist entries are genuine same-name-different-song cases (Q, 再会, Across the world).
+- **Submit page:** Client-side normalization (NFKC, alias lookup, feat. stripping, quote removal, wave dash) applied in preview before submission.
+
+---
+
+## Original Spec
+
+See [`vtuber-setlist-plan.md`](vtuber-setlist-plan.md) for the original planning document (in Traditional Chinese) that this project was built from.
