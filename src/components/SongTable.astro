@@ -106,14 +106,17 @@ const { songs, showSearch = true } = Astro.props;
     const rows = document.querySelectorAll<HTMLElement>(".song-row");
     let timer: number;
 
+    // Strip zero-width characters (U+200B, U+200C, U+200D, U+FEFF, etc.)
+    const stripZW = (s: string) => s.replace(/[\u200B-\u200D\uFEFF\u00AD\u2060\u180E]/g, "");
+
     input?.addEventListener("input", () => {
       clearTimeout(timer);
       timer = window.setTimeout(() => {
-        const q = input.value.toLowerCase().trim();
+        const q = stripZW(input.value.toLowerCase().trim());
         let visible = 0;
         rows.forEach((row) => {
-          const title = row.dataset.title || "";
-          const artist = row.dataset.artist || "";
+          const title = stripZW(row.dataset.title || "");
+          const artist = stripZW(row.dataset.artist || "");
           const match = !q || title.includes(q) || artist.includes(q);
           row.style.display = match ? "" : "none";
           if (match) visible++;

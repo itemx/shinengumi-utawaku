@@ -142,6 +142,8 @@ const artistAliases = buildReverseLookup(aliasRaw.artists || {});
     function normalizeText(text, isTitle) {
       // NFKC (fullwidth → halfwidth etc.)
       text = text.normalize("NFKC");
+      // Remove zero-width characters
+      text = text.replace(/[\u200B-\u200D\uFEFF\u00AD\u2060\u180E]/g, "");
       // Wave dash → ASCII tilde
       text = text.replace(/\u301C/g, "~").replace(/\uFF5E/g, "~");
       // Strip + collapse whitespace

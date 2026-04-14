@@ -110,6 +110,8 @@ def _clean_text(text: str, is_title: bool = False) -> str:
     """
     # NFKC 正規化 (全形英數自動轉半形)
     text = unicodedata.normalize("NFKC", text)
+    # 移除 zero-width 字元 (U+200B~U+200D, U+FEFF, U+00AD, U+2060, U+180E)
+    text = re.sub(r"[\u200B-\u200D\uFEFF\u00AD\u2060\u180E]", "", text)
     # Wave dash (U+301C) / fullwidth tilde (U+FF5E) → ASCII tilde
     text = text.replace("\u301C", "~").replace("\uFF5E", "~")
     # strip
