@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SEG-V UtaList Admin</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: 'Noto Sans JP', -apple-system, sans-serif; margin: 0; background: #f5f5f5; color: #313131; }
+  header { background: linear-gradient(135deg, #5e2a89, #e40079); color: white; padding: 12px 20px; position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+  header h1 { font-size: 18px; margin: 0; }
+  header .spacer { flex: 1; }
+  .tabs { background: white; padding: 0 20px; border-bottom: 1px solid #eee; display: flex; gap: 8px; position: sticky; top: 56px; z-index: 9; }
+  .tabs button { background: none; border: none; padding: 12px 16px; cursor: pointer; border-bottom: 3px solid transparent; font-size: 14px; }
+  .tabs button.active { border-bottom-color: #e40079; color: #e40079; font-weight: bold; }
+  main { padding: 20px; max-width: 1400px; margin: 0 auto; }
+  input, button, textarea { font: inherit; }
+  .search { padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; width: 320px; }
+  .btn { background: #e40079; color: white; border: none; padding: 8px 16px; border-radius: 9999px; cursor: pointer; font-size: 14px; }
+  .btn:hover { background: #b60061; }
+  .btn.secondary { background: #666; }
+  .btn.secondary:hover { background: #444; }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+  table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-radius: 4px; overflow: hidden; }
+  th, td { padding: 8px 12px; border-bottom: 1px solid #eee; text-align: left; vertical-align: top; }
+  th { background: #fafafa; font-size: 11px; text-transform: uppercase; color: #666; letter-spacing: 0.05em; }
+  tr:hover { background: #fafaff; }
+  td input { width: 100%; padding: 4px 6px; border: 1px solid transparent; background: transparent; border-radius: 3px; }
+  td input:focus { border-color: #e40079; background: white; outline: none; }
+  td input.dirty { background: #fff7fb; border-color: #e9507a; }
+  td input.saved { background: #e8f5e9; border-color: #4caf50; }
+  .raw { color: #999; font-size: 11px; font-style: italic; margin-top: 2px; padding-left: 6px; }
+  .meta { color: #888; font-size: 12px; }
+  .changed-count { background: #eab010; color: white; padding: 4px 12px; border-radius: 9999px; font-size: 12px; font-weight: bold; }
+  .modal { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: none; align-items: center; justify-content: center; z-index: 100; }
+  .modal.open { display: flex; }
+  .modal-body { background: white; padding: 24px; border-radius: 8px; max-width: 640px; width: 90%; max-height: 80vh; overflow: auto; }
+  .modal-body h2 { margin-top: 0; }
+  .alias-list { list-style: none; padding: 0; margin: 0; }
+  .alias-item { background: white; padding: 12px 16px; margin-bottom: 8px; border-radius: 4px; border: 1px solid #eee; }
+  .alias-item .canonical { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .alias-item .aliases { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .tag { background: #f0f0f0; padding: 3px 10px; border-radius: 4px; font-size: 12px; display: inline-flex; align-items: center; gap: 6px; }
+  .tag a { color: #c00; text-decoration: none; font-weight: bold; }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+  textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; min-height: 80px; font-family: monospace; }
+  .delete-btn { color: #c00; background: none; border: 1px solid #c00; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+  .delete-btn:hover { background: #fff0f0; }
+  .alias-input { border: 1px solid #ddd; padding: 4px 8px; font-size: 12px; border-radius: 3px; }
+  .canonical-input { border: 1px solid #ddd; padding: 6px 10px; font-size: 14px; font-weight: bold; border-radius: 4px; flex: 1; max-width: 400px; }
+  h2 { color: #5e2a89; margin-top: 24px; }
+  pre.diff { background: #f5f5f5; padding: 12px; border-radius: 4px; font-size: 12px; max-height: 200px; overflow: auto; margin: 12px 0; }
+  .toast { position: fixed; bottom: 20px; right: 20px; background: #313131; color: white; padding: 12px 20px; border-radius: 4px; opacity: 0; transition: opacity 0.3s; z-index: 200; }
+  .toast.show { opacity: 1; }
+  .toast.error { background: #c00; }
+  .row-count { color: white; opacity: 0.8; font-size: 13px; margin-left: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🎤 SEG-V UtaList Admin</h1>
+  <div class="spacer"></div>
+  <span id="changes-badge" class="changed-count" style="display:none">0 changes</span>
+  <button class="btn secondary" id="btn-renorm">Re-normalize</button>
+  <button class="btn" id="btn-commit">Commit</button>
+</header>
+<div class="tabs">
+  <button class="active" data-tab="songs">Songs</button>
+  <button data-tab="aliases">Aliases</button>
+</div>
+<main>
+  <div id="tab-songs" class="tab-panel active">
+    <div style="margin-bottom: 16px; display: flex; align-items: center; gap: 12px;">
+      <input class="search" id="search" placeholder="Search title / artist / video id / channel...">
+      <span id="song-count" class="meta"></span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width:140px">Channel / Date</th>
+          <th>Title</th>
+          <th>Artist</th>
+          <th style="width:160px">Video</th>
+          <th style="width:80px"></th>
+        </tr>
+      </thead>
+      <tbody id="songs-body"></tbody>
+    </table>
+  </div>
+
+  <div id="tab-aliases" class="tab-panel">
+    <h2>Songs</h2>
+    <ul class="alias-list" id="alias-songs-list"></ul>
+    <button class="btn secondary" data-add="songs">+ Add song alias</button>
+
+    <h2>Artists</h2>
+    <ul class="alias-list" id="alias-artists-list"></ul>
+    <button class="btn secondary" data-add="artists">+ Add artist alias</button>
+  </div>
+</main>
+
+<div class="modal" id="commit-modal">
+  <div class="modal-body">
+    <h2>Commit Changes</h2>
+    <p class="meta">These files have pending changes:</p>
+    <pre class="diff" id="git-stat"></pre>
+    <p>Commit message:</p>
+    <textarea id="commit-msg" placeholder="fix: manual data corrections"></textarea>
+    <div style="display:flex;gap:8px;margin-top:16px;justify-content:flex-end;">
+      <button class="btn secondary" id="btn-cancel-commit">Cancel</button>
+      <button class="btn" id="btn-do-commit">Commit</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script>
+// ---------- Utilities ----------
+const $ = (sel) => document.querySelector(sel);
+const $$ = (sel) => document.querySelectorAll(sel);
+
+function toast(msg, isError) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.classList.toggle('error', !!isError);
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+async function api(url, opts = {}) {
+  if (opts.body && typeof opts.body !== 'string') {
+    opts.headers = { 'Content-Type': 'application/json', ...(opts.headers || {}) };
+    opts.body = JSON.stringify(opts.body);
+  }
+  const res = await fetch(url, opts);
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || 'Request failed');
+  return data;
+}
+
+function debounce(fn, ms) {
+  let t;
+  return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
+}
+
+// ---------- Tabs ----------
+$$('.tabs button').forEach(btn => {
+  btn.onclick = () => {
+    $$('.tabs button').forEach(b => b.classList.remove('active'));
+    $$('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    $('#tab-' + btn.dataset.tab).classList.add('active');
+    if (btn.dataset.tab === 'aliases') loadAliases();
+  };
+});
+
+// ---------- Songs ----------
+let songs = [];
+
+async function loadSongs() {
+  const q = $('#search').value;
+  const data = await api('/api/songs?q=' + encodeURIComponent(q));
+  songs = data.rows;
+  $('#song-count').textContent = data.total + ' total' +
+    (data.rows.length < data.total ? ` (showing first ${data.rows.length})` : '');
+  renderSongs();
+}
+
+function renderSongs() {
+  const tbody = $('#songs-body');
+  tbody.innerHTML = '';
+  songs.forEach((s, idx) => {
+    const tr = document.createElement('tr');
+
+    const cChan = document.createElement('td');
+    cChan.innerHTML = `<div class="meta">${escapeHtml(s.channelName)}</div><div class="meta">${s.publishedAt.slice(0,10)}</div>`;
+
+    const cTitle = document.createElement('td');
+    const titleInput = mkFieldInput(s, 'title');
+    cTitle.appendChild(titleInput);
+    if (s.titleRaw && s.titleRaw !== s.title) {
+      const raw = document.createElement('div');
+      raw.className = 'raw';
+      raw.textContent = 'raw: ' + s.titleRaw;
+      cTitle.appendChild(raw);
+    }
+
+    const cArtist = document.createElement('td');
+    const artistInput = mkFieldInput(s, 'artist');
+    cArtist.appendChild(artistInput);
+    if (s.artistRaw && s.artistRaw !== s.artist) {
+      const raw = document.createElement('div');
+      raw.className = 'raw';
+      raw.textContent = 'raw: ' + s.artistRaw;
+      cArtist.appendChild(raw);
+    }
+
+    const cVid = document.createElement('td');
+    cVid.innerHTML = `<a href="${s.url}" target="_blank" class="meta">${s.videoId}</a><div class="meta">${s.timestamp}</div>`;
+
+    const cAct = document.createElement('td');
+    const delBtn = document.createElement('button');
+    delBtn.className = 'delete-btn';
+    delBtn.textContent = 'Delete';
+    delBtn.onclick = () => deleteSong(idx);
+    cAct.appendChild(delBtn);
+
+    tr.append(cChan, cTitle, cArtist, cVid, cAct);
+    tbody.appendChild(tr);
+  });
+}
+
+function mkFieldInput(s, field) {
+  const inp = document.createElement('input');
+  inp.value = s[field] || '';
+  const orig = inp.value;
+  inp.addEventListener('input', () => {
+    inp.classList.toggle('dirty', inp.value !== orig);
+    inp.classList.remove('saved');
+  });
+  inp.addEventListener('change', async () => {
+    if (inp.value === s[field]) return;
+    try {
+      await api('/api/song', {
+        method: 'PUT',
+        body: {
+          channelId: s.channelId,
+          videoId: s.videoId,
+          songIndex: s.songIndex,
+          [field]: inp.value,
+        },
+      });
+      s[field] = inp.value;
+      inp.classList.remove('dirty');
+      inp.classList.add('saved');
+      setTimeout(() => inp.classList.remove('saved'), 1000);
+      refreshGitStatus();
+    } catch (e) {
+      toast('Save failed: ' + e.message, true);
+    }
+  });
+  return inp;
+}
+
+async function deleteSong(idx) {
+  const s = songs[idx];
+  if (!confirm(`Delete: ${s.title} / ${s.artist} (${s.videoId})?`)) return;
+  try {
+    await api('/api/song', {
+      method: 'DELETE',
+      body: {
+        channelId: s.channelId,
+        videoId: s.videoId,
+        songIndex: s.songIndex,
+      },
+    });
+    await loadSongs();
+    refreshGitStatus();
+    toast('Deleted');
+  } catch (e) {
+    toast('Delete failed: ' + e.message, true);
+  }
+}
+
+// ---------- Aliases ----------
+let aliasData = { songs: {}, artists: {} };
+
+async function loadAliases() {
+  aliasData = await api('/api/aliases');
+  renderAliases();
+}
+
+async function saveAliases() {
+  await api('/api/aliases', { method: 'PUT', body: aliasData });
+  refreshGitStatus();
+}
+
+function renderAliases() {
+  for (const cat of ['songs', 'artists']) {
+    const ul = $('#alias-' + cat + '-list');
+    ul.innerHTML = '';
+    const entries = Object.entries(aliasData[cat] || {})
+      .sort((a, b) => a[0].localeCompare(b[0]));
+    for (const [canonical, aliases] of entries) {
+      ul.appendChild(mkAliasItem(cat, canonical, aliases));
+    }
+  }
+}
+
+function mkAliasItem(cat, canonical, aliases) {
+  const li = document.createElement('li');
+  li.className = 'alias-item';
+
+  const head = document.createElement('div');
+  head.className = 'canonical';
+
+  const nameInput = document.createElement('input');
+  nameInput.className = 'canonical-input';
+  nameInput.value = canonical;
+  nameInput.addEventListener('change', async () => {
+    const newName = nameInput.value.trim();
+    if (!newName || newName === canonical) {
+      nameInput.value = canonical;
+      return;
+    }
+    if (aliasData[cat][newName]) {
+      toast('Name already exists', true);
+      nameInput.value = canonical;
+      return;
+    }
+    const list = aliasData[cat][canonical];
+    delete aliasData[cat][canonical];
+    aliasData[cat][newName] = list;
+    await saveAliases();
+    renderAliases();
+  });
+
+  const delBtn = document.createElement('button');
+  delBtn.className = 'delete-btn';
+  delBtn.textContent = 'Delete';
+  delBtn.onclick = async () => {
+    if (!confirm(`Delete "${canonical}"?`)) return;
+    delete aliasData[cat][canonical];
+    await saveAliases();
+    renderAliases();
+  };
+
+  head.append(nameInput, delBtn);
+
+  const tags = document.createElement('div');
+  tags.className = 'aliases';
+  for (const a of aliases) {
+    const tag = document.createElement('span');
+    tag.className = 'tag';
+    tag.append(document.createTextNode(a));
+    const rm = document.createElement('a');
+    rm.href = '#';
+    rm.textContent = '×';
+    rm.onclick = async (e) => {
+      e.preventDefault();
+      aliasData[cat][canonical] = aliasData[cat][canonical].filter(x => x !== a);
+      await saveAliases();
+      renderAliases();
+    };
+    tag.appendChild(rm);
+    tags.appendChild(tag);
+  }
+
+  const addInput = document.createElement('input');
+  addInput.className = 'alias-input';
+  addInput.placeholder = '+ alias';
+  addInput.addEventListener('keydown', async (e) => {
+    if (e.key !== 'Enter') return;
+    const v = addInput.value.trim();
+    if (!v) return;
+    if (aliasData[cat][canonical].includes(v)) {
+      toast('Already exists', true);
+      return;
+    }
+    aliasData[cat][canonical].push(v);
+    await saveAliases();
+    renderAliases();
+  });
+  tags.appendChild(addInput);
+
+  li.append(head, tags);
+  return li;
+}
+
+$$('button[data-add]').forEach(btn => {
+  btn.onclick = async () => {
+    const cat = btn.dataset.add;
+    const name = prompt('Canonical name:');
+    if (!name || !name.trim()) return;
+    const trimmed = name.trim();
+    if (aliasData[cat][trimmed]) {
+      toast('Already exists', true);
+      return;
+    }
+    aliasData[cat][trimmed] = [trimmed];
+    await saveAliases();
+    renderAliases();
+  };
+});
+
+// ---------- Re-normalize ----------
+$('#btn-renorm').onclick = async () => {
+  if (!confirm('Re-run normalizer on all song entries? This will use current aliases + normalizer rules to rewrite title/artist fields (titleRaw/artistRaw are kept intact).')) return;
+  $('#btn-renorm').disabled = true;
+  try {
+    const data = await api('/api/renormalize', { method: 'POST' });
+    toast(`Re-normalized: ${data.changed} entries changed`);
+    await loadSongs();
+    refreshGitStatus();
+  } catch (e) {
+    toast('Re-normalize failed: ' + e.message, true);
+  } finally {
+    $('#btn-renorm').disabled = false;
+  }
+};
+
+// ---------- Git commit ----------
+async function refreshGitStatus() {
+  try {
+    const data = await api('/api/git/status');
+    const badge = $('#changes-badge');
+    const n = data.files.length;
+    if (n) {
+      badge.style.display = 'inline-block';
+      badge.textContent = n + ' file' + (n === 1 ? '' : 's') + ' changed';
+    } else {
+      badge.style.display = 'none';
+    }
+  } catch {}
+}
+
+$('#btn-commit').onclick = async () => {
+  const data = await api('/api/git/status');
+  $('#git-stat').textContent = data.stat || '(no changes)';
+  $('#commit-modal').classList.add('open');
+};
+
+$('#btn-cancel-commit').onclick = () => $('#commit-modal').classList.remove('open');
+
+$('#btn-do-commit').onclick = async () => {
+  const msg = $('#commit-msg').value.trim();
+  if (!msg) { toast('Message required', true); return; }
+  $('#btn-do-commit').disabled = true;
+  try {
+    const data = await api('/api/git/commit', { method: 'POST', body: { message: msg } });
+    toast('Committed');
+    $('#commit-msg').value = '';
+    $('#commit-modal').classList.remove('open');
+    refreshGitStatus();
+  } catch (e) {
+    toast('Commit failed: ' + e.message, true);
+  } finally {
+    $('#btn-do-commit').disabled = false;
+  }
+};
+
+// ---------- Helpers ----------
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+}
+
+$('#search').addEventListener('input', debounce(loadSongs, 300));
+
+// ---------- Init ----------
+loadSongs();
+refreshGitStatus();
+</script>
+</body>
+</html>
