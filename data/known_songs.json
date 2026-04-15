@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1192,
-  "uniqueTitles": 1188,
-  "uniqueArtists": 534,
+  "totalEntries": 1188,
+  "uniqueTitles": 1185,
+  "uniqueArtists": 533,
   "songs": [
     {
       "title": "残響散歌",
@@ -529,6 +529,11 @@
       "count": 6
     },
     {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 6
+    },
+    {
       "title": "God knows...",
       "artist": "平野綾",
       "count": 6
@@ -841,11 +846,6 @@
     {
       "title": "怪獣の花唄",
       "artist": "Vaundy",
-      "count": 5
-    },
-    {
-      "title": "Across the world !!",
-      "artist": "深淵組",
       "count": 5
     },
     {
@@ -3299,6 +3299,11 @@
       "count": 2
     },
     {
+      "title": "ダダダダ天使",
+      "artist": "ナナヲアカリ",
+      "count": 2
+    },
+    {
       "title": "グッバイ宣言",
       "artist": "Chinozo",
       "count": 2
@@ -3404,6 +3409,11 @@
       "count": 2
     },
     {
+      "title": "フクロウ ~フクロウが知らせる客が来たと~",
+      "artist": "KOKIA",
+      "count": 2
+    },
+    {
       "title": "深海のリトルクライ",
       "artist": "sasakure.UK",
       "count": 2
@@ -3451,6 +3461,11 @@
     {
       "title": "エウテルペ",
       "artist": "EGOIST",
+      "count": 2
+    },
+    {
+      "title": "Weight of the World / 壊レタ世界ノ歌",
+      "artist": "河野万里奈",
       "count": 2
     },
     {
@@ -5359,11 +5374,6 @@
       "count": 1
     },
     {
-      "title": "ダダダダ天使",
-      "artist": "ナナヲアカリ",
-      "count": 1
-    },
-    {
       "title": "God knows",
       "artist": "平野綾, 涼宮ハルヒ",
       "count": 1
@@ -5659,11 +5669,6 @@
       "count": 1
     },
     {
-      "title": "フクロウ ~フクロウが知らせる客が来たと~",
-      "artist": "KOKIA",
-      "count": 1
-    },
-    {
       "title": "蜜月アンドゥトロワ",
       "artist": "DATEKEN",
       "count": 1
@@ -5804,11 +5809,6 @@
       "count": 1
     },
     {
-      "title": "フクロウ~フクロウが知らせる客が来たと~",
-      "artist": "KOKIA",
-      "count": 1
-    },
-    {
       "title": "水平線",
       "artist": "back number",
       "count": 1
@@ -5826,11 +5826,6 @@
     {
       "title": "シリウスの心臓",
       "artist": "ヰ世界情緒",
-      "count": 1
-    },
-    {
-      "title": "ダダダダ天使 (アカペラ?)",
-      "artist": "ナナヲアカリ",
       "count": 1
     },
     {
@@ -5914,16 +5909,6 @@
       "count": 1
     },
     {
-      "title": "Across the world !!",
-      "artist": "Yohira ch. 渉海よひら",
-      "count": 1
-    },
-    {
-      "title": "Weight of the World 壊レタ世界ノ歌",
-      "artist": "河野万里奈",
-      "count": 1
-    },
-    {
       "title": "再会",
       "artist": "はるまきごはん",
       "count": 1
@@ -5941,11 +5926,6 @@
     {
       "title": "晴天を穿つ",
       "artist": "傘村トータ",
-      "count": 1
-    },
-    {
-      "title": "Weight of the World / 壊レタ世界ノ歌",
-      "artist": "河野万里奈",
       "count": 1
     },
     {
@@ -6130,7 +6110,6 @@
     "YUI",
     "YUI for 雨音薫",
     "YURiKA",
-    "Yohira ch. 渉海よひら",
     "Yunomi & nicamoq",
     "ZARD",
     "ZOC",

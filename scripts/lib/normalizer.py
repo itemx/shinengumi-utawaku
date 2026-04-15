@@ -25,6 +25,7 @@ _TAIL_ANNOTATION_RE = re.compile(
     r"(?:cover|カバー|short\s*ver\.?|short|acoustic|弾き語り\s*ver\.?|piano\s*ver\.?|ピアノ|"
     r"full|フル|original\s*ver\.?|THE FIRST TAKE|[A-Z]+ [Vv]er\.?|"
     r"M@STER\s*VERSION|long\s*ver[:\.]?|[A-Z]{2,}\s+ver\.?|"
+    r"アカペラ\??|a\s*cappella\??|"
     r".+\s+[Cc]over)"
     r"[\)）]\s*$",
     re.IGNORECASE,
@@ -138,11 +139,11 @@ def _clean_text(text: str, is_title: bool = False) -> str:
         text = _FEAT_IN_TITLE_RE.sub("", text)
     # 歌手欄清理
     if not is_title:
-        # 移除羅馬拼音括號
+        # 先移除 feat. 及之後的內容 (Vocaloid 名等)
+        text = re.sub(r"\s+feat\.?\s+.+$", "", text, flags=re.IGNORECASE)
+        # 再移除羅馬拼音括號 (feat. 移除後，尾部可能才暴露出拼音括號)
         if _HAS_JAPANESE_RE.search(text):
             text = _ROMANIZATION_PAREN_RE.sub("", text)
-        # 移除 feat. 及之後的內容 (Vocaloid 名等)
-        text = re.sub(r"\s+feat\.?\s+.+$", "", text, flags=re.IGNORECASE)
     return text.strip()
 
 
