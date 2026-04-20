@@ -244,7 +244,7 @@ def main():
                     is_excluded = bool(_EXCLUDE_PATTERNS.search(title))
 
                     if is_utawaku and not is_excluded:
-                        # 加入 missing
+                        # 加入 missing (或 refresh 既有項目的 title/publishedAt)
                         if vid_id not in existing_missing_ids:
                             missing_data["missing"].append({
                                 "videoId": vid_id,
@@ -256,7 +256,17 @@ def main():
                             total_missing += 1
                             print(f"      📋 {title[:50]}: 加入 missing")
                         else:
-                            print(f"      📋 {title[:50]}: 已在 missing")
+                            # 已存在: 若標題或日期有變更則更新 (實況者可能改過)
+                            for m in missing_data["missing"]:
+                                if m["videoId"] == vid_id:
+                                    if (m.get("title") != title
+                                            or m.get("publishedAt") != vid_info["publishedAt"]):
+                                        m["title"] = title
+                                        m["publishedAt"] = vid_info["publishedAt"]
+                                        print(f"      🔄 {title[:50]}: 更新 missing 資料")
+                                    else:
+                                        print(f"      📋 {title[:50]}: 已在 missing")
+                                    break
                     else:
                         # 非歌枠，建立空記錄以避免重複掃描
                         if vid_id not in existing:
