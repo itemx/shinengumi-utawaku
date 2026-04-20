@@ -67,7 +67,10 @@ def merge_video(channel_data: dict, video: dict) -> dict:
     # 查找已存在的影片
     for i, existing in enumerate(existing_videos):
         if existing["videoId"] == video_id:
-            # 補填空白欄位 (如 publishedAt)
+            # title: 只要新值非空就覆蓋 (以最新為準，例如實況者改標題)
+            if video.get("title"):
+                existing["title"] = video["title"]
+            # 其他欄位: 只在空白時補填
             for key in ("publishedAt", "type"):
                 if not existing.get(key) and video.get(key):
                     existing[key] = video[key]
