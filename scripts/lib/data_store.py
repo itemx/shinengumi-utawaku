@@ -64,6 +64,16 @@ def merge_video(channel_data: dict, video: dict) -> dict:
     existing_videos: list[dict] = channel_data.get("videos", [])
     video_id = video["videoId"]
 
+    # 先對傳入的 songs 本身去重 (來源可能含日/英雙語清單等情況)
+    incoming_songs: list[dict] = []
+    seen_seconds: set[int] = set()
+    for song in video.get("songs", []):
+        if song["seconds"] in seen_seconds:
+            continue
+        seen_seconds.add(song["seconds"])
+        incoming_songs.append(song)
+    video["songs"] = incoming_songs
+
     # 查找已存在的影片
     for i, existing in enumerate(existing_videos):
         if existing["videoId"] == video_id:
@@ -76,7 +86,7 @@ def merge_video(channel_data: dict, video: dict) -> dict:
                     existing[key] = video[key]
             # 合併歌曲: 以 seconds 去重
             existing_seconds = {s["seconds"] for s in existing.get("songs", [])}
-            for song in video.get("songs", []):
+            for song in incoming_songs:
                 if song["seconds"] not in existing_seconds:
                     existing["songs"].append(song)
             existing_videos[i] = existing
