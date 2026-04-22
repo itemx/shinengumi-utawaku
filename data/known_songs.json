@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1282,
-  "uniqueTitles": 1264,
-  "uniqueArtists": 584,
+  "totalEntries": 1206,
+  "uniqueTitles": 1195,
+  "uniqueArtists": 548,
   "songs": [
     {
       "title": "残響散歌",
@@ -24,6 +24,11 @@
       "count": 14
     },
     {
+      "title": "少女レイ",
+      "artist": "みきとP",
+      "count": 14
+    },
+    {
       "title": "少女S",
       "artist": "SCANDAL",
       "count": 13
@@ -39,13 +44,13 @@
       "count": 13
     },
     {
-      "title": "少女レイ",
-      "artist": "みきとP",
-      "count": 13
-    },
-    {
       "title": "Calc.",
       "artist": "ジミーサムP",
+      "count": 12
+    },
+    {
+      "title": "眠れぬ月夜のランデブー",
+      "artist": "涼風しとら",
       "count": 12
     },
     {
@@ -59,22 +64,12 @@
       "count": 12
     },
     {
-      "title": "眠れぬ月夜のランデブー",
-      "artist": "涼風しとら",
-      "count": 11
-    },
-    {
       "title": "極楽浄土",
       "artist": "GARNiDELiA",
       "count": 11
     },
     {
       "title": "ギラギラ",
-      "artist": "Ado",
-      "count": 11
-    },
-    {
-      "title": "踊",
       "artist": "Ado",
       "count": 11
     },
@@ -86,11 +81,6 @@
     {
       "title": "逆光",
       "artist": "Ado",
-      "count": 11
-    },
-    {
-      "title": "crossing field",
-      "artist": "LiSA",
       "count": 11
     },
     {
@@ -184,6 +174,11 @@
       "count": 10
     },
     {
+      "title": "踊",
+      "artist": "Ado",
+      "count": 10
+    },
+    {
       "title": "Butter-Fly",
       "artist": "和田光司",
       "count": 10
@@ -191,6 +186,11 @@
     {
       "title": "Snow halation",
       "artist": "μ's",
+      "count": 10
+    },
+    {
+      "title": "crossing field",
+      "artist": "LiSA",
       "count": 10
     },
     {
@@ -254,6 +254,11 @@
       "count": 9
     },
     {
+      "title": "晴る",
+      "artist": "ヨルシカ",
+      "count": 9
+    },
+    {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
       "count": 9
@@ -276,6 +281,11 @@
     {
       "title": "ホタルノヒカリ",
       "artist": "いきものがかり",
+      "count": 9
+    },
+    {
+      "title": "Catch the Moment",
+      "artist": "LiSA",
       "count": 9
     },
     {
@@ -324,11 +334,6 @@
       "count": 8
     },
     {
-      "title": "晴る",
-      "artist": "ヨルシカ",
-      "count": 8
-    },
-    {
       "title": "明け星",
       "artist": "LiSA",
       "count": 8
@@ -339,8 +344,8 @@
       "count": 8
     },
     {
-      "title": "GHOST",
-      "artist": "星街すいせい",
+      "title": "会いたくて",
+      "artist": "Ado",
       "count": 8
     },
     {
@@ -351,11 +356,6 @@
     {
       "title": "chAngE",
       "artist": "miwa",
-      "count": 8
-    },
-    {
-      "title": "Catch the Moment",
-      "artist": "LiSA",
       "count": 8
     },
     {
@@ -454,6 +454,11 @@
       "count": 7
     },
     {
+      "title": "GHOST",
+      "artist": "星街すいせい",
+      "count": 7
+    },
+    {
       "title": "愛言葉IV",
       "artist": "DECO*27",
       "count": 7
@@ -464,11 +469,6 @@
       "count": 7
     },
     {
-      "title": "会いたくて",
-      "artist": "Ado",
-      "count": 7
-    },
-    {
       "title": "千本桜",
       "artist": "黒うさP",
       "count": 7
@@ -476,6 +476,11 @@
     {
       "title": "咲かせや咲かせ",
       "artist": "EGOIST",
+      "count": 7
+    },
+    {
+      "title": "PAPERMOON",
+      "artist": "Tommy heavenly6",
       "count": 7
     },
     {
@@ -499,6 +504,11 @@
       "count": 7
     },
     {
+      "title": "風になる",
+      "artist": "つじあやの",
+      "count": 7
+    },
+    {
       "title": "心という名の不可解",
       "artist": "Ado",
       "count": 7
@@ -509,18 +519,23 @@
       "count": 7
     },
     {
+      "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
+      "count": 7
+    },
+    {
       "title": "裸の勇者",
       "artist": "Vaundy",
       "count": 6
     },
     {
-      "title": "たぶん",
-      "artist": "YOASOBI",
+      "title": "限りなく灰色へ",
+      "artist": "すりぃ",
       "count": 6
     },
     {
-      "title": "Brave Shine",
-      "artist": "Aimer",
+      "title": "たぶん",
+      "artist": "YOASOBI",
       "count": 6
     },
     {
@@ -569,6 +584,11 @@
       "count": 6
     },
     {
+      "title": "怪獣の花唄",
+      "artist": "Vaundy",
+      "count": 6
+    },
+    {
       "title": "God knows...",
       "artist": "平野綾",
       "count": 6
@@ -589,6 +609,11 @@
       "count": 6
     },
     {
+      "title": "八月の夜",
+      "artist": "SILENT SIREN",
+      "count": 6
+    },
+    {
       "title": "メルト",
       "artist": "ryo (supercell)",
       "count": 6
@@ -601,11 +626,6 @@
     {
       "title": "阿修羅ちゃん",
       "artist": "Ado",
-      "count": 6
-    },
-    {
-      "title": "Caramel Pain",
-      "artist": "星街すいせい",
       "count": 6
     },
     {
@@ -639,18 +659,8 @@
       "count": 6
     },
     {
-      "title": "unlasting",
-      "artist": "LiSA",
-      "count": 6
-    },
-    {
       "title": "妄想感傷代償連盟",
       "artist": "DECO*27",
-      "count": 6
-    },
-    {
-      "title": "PAPERMOON",
-      "artist": "Tommy heavenly6",
       "count": 6
     },
     {
@@ -689,6 +699,11 @@
       "count": 6
     },
     {
+      "title": "からくりピエロ",
+      "artist": "40mP",
+      "count": 6
+    },
+    {
       "title": "秒針を噛む",
       "artist": "ずっと真夜中でいいのに。",
       "count": 6
@@ -704,11 +719,6 @@
       "count": 6
     },
     {
-      "title": "風になる",
-      "artist": "つじあやの",
-      "count": 6
-    },
-    {
       "title": "ファンサ",
       "artist": "mona (夏川椎菜)",
       "count": 6
@@ -721,11 +731,6 @@
     {
       "title": "メイジ・オブ・ヴァイオレット",
       "artist": "紫咲シオン",
-      "count": 6
-    },
-    {
-      "title": "ただ君に晴れ",
-      "artist": "ヨルシカ",
       "count": 6
     },
     {
@@ -759,11 +764,6 @@
       "count": 5
     },
     {
-      "title": "限りなく灰色へ",
-      "artist": "すりぃ",
-      "count": 5
-    },
-    {
       "title": "GIRAFFE BLUES",
       "artist": "ワルキューレ",
       "count": 5
@@ -776,6 +776,11 @@
     {
       "title": "ヒステリックナイトガール",
       "artist": "PSYQUI",
+      "count": 5
+    },
+    {
+      "title": "Brave Shine",
+      "artist": "Aimer",
       "count": 5
     },
     {
@@ -831,11 +836,6 @@
     {
       "title": "思想犯",
       "artist": "ヨルシカ",
-      "count": 5
-    },
-    {
-      "title": "BRAVE GROOVE",
-      "artist": "iLiFE!",
       "count": 5
     },
     {
@@ -914,11 +914,6 @@
       "count": 5
     },
     {
-      "title": "怪獣の花唄",
-      "artist": "Vaundy",
-      "count": 5
-    },
-    {
       "title": "INTERNET OVERDOSE",
       "artist": "Aiobahn",
       "count": 5
@@ -939,8 +934,8 @@
       "count": 5
     },
     {
-      "title": "八月の夜",
-      "artist": "SILENT SIREN",
+      "title": "トリノコシティ",
+      "artist": "40mP",
       "count": 5
     },
     {
@@ -959,6 +954,11 @@
       "count": 5
     },
     {
+      "title": "Caramel Pain",
+      "artist": "星街すいせい",
+      "count": 5
+    },
+    {
       "title": "グリズリーに襲われたら♡",
       "artist": "神宿",
       "count": 5
@@ -974,6 +974,11 @@
       "count": 5
     },
     {
+      "title": "瞬間センチメンタル",
+      "artist": "SCANDAL",
+      "count": 5
+    },
+    {
       "title": "シリウス",
       "artist": "藍井エイル",
       "count": 5
@@ -984,8 +989,8 @@
       "count": 5
     },
     {
-      "title": "irony",
-      "artist": "ClariS",
+      "title": "unlasting",
+      "artist": "LiSA",
       "count": 5
     },
     {
@@ -1024,13 +1029,13 @@
       "count": 5
     },
     {
-      "title": "うまぴょい伝説",
-      "artist": "ウマ娘 プリティーダービー",
+      "title": "そばかす",
+      "artist": "JUDY AND MARY",
       "count": 5
     },
     {
-      "title": "からくりピエロ",
-      "artist": "40mP",
+      "title": "うまぴょい伝説",
+      "artist": "ウマ娘 プリティーダービー",
       "count": 5
     },
     {
@@ -1259,6 +1264,11 @@
       "count": 4
     },
     {
+      "title": "BRAVE GROOVE",
+      "artist": "iLiFE!",
+      "count": 4
+    },
+    {
       "title": "Lamb.",
       "artist": "GARNiDELiA",
       "count": 4
@@ -1319,23 +1329,18 @@
       "count": 4
     },
     {
-      "title": "トリノコシティ",
-      "artist": "40mP",
-      "count": 4
-    },
-    {
       "title": "トライアングラー",
       "artist": "坂本真綾",
       "count": 4
     },
     {
-      "title": "Paradisus-Paradoxum",
-      "artist": "MYTH & ROID",
+      "title": "DOLL",
+      "artist": "SCANDAL",
       "count": 4
     },
     {
-      "title": "瞬間センチメンタル",
-      "artist": "SCANDAL",
+      "title": "Paradisus-Paradoxum",
+      "artist": "MYTH & ROID",
       "count": 4
     },
     {
@@ -1364,6 +1369,11 @@
       "count": 4
     },
     {
+      "title": "irony",
+      "artist": "ClariS",
+      "count": 4
+    },
+    {
       "title": "インタビュア",
       "artist": "クワガタP",
       "count": 4
@@ -1371,6 +1381,11 @@
     {
       "title": "乙女解剖",
       "artist": "DECO*27",
+      "count": 4
+    },
+    {
+      "title": "GLAMOROUS SKY",
+      "artist": "NANA starring MIKA NAKASHIMA",
       "count": 4
     },
     {
@@ -1404,6 +1419,16 @@
       "count": 4
     },
     {
+      "title": "Lemon",
+      "artist": "米津玄師",
+      "count": 4
+    },
+    {
+      "title": "MAD HEAD LOVE",
+      "artist": "米津玄師",
+      "count": 4
+    },
+    {
       "title": "夢のまた夢",
       "artist": "まふまふ",
       "count": 4
@@ -1431,11 +1456,6 @@
     {
       "title": "夜に駆ける",
       "artist": "YOASOBI",
-      "count": 4
-    },
-    {
-      "title": "そばかす",
-      "artist": "JUDY AND MARY",
       "count": 4
     },
     {
@@ -1599,6 +1619,11 @@
       "count": 3
     },
     {
+      "title": "テトリス",
+      "artist": "柊マグネタイト",
+      "count": 3
+    },
+    {
       "title": "イガク",
       "artist": "原口沙輔",
       "count": 3
@@ -1699,11 +1724,6 @@
       "count": 3
     },
     {
-      "title": "you are my curse",
-      "artist": "nyamura",
-      "count": 3
-    },
-    {
       "title": "灼熱にて純情",
       "artist": "星街すいせい",
       "count": 3
@@ -1784,11 +1804,6 @@
       "count": 3
     },
     {
-      "title": "DOLL",
-      "artist": "SCANDAL",
-      "count": 3
-    },
-    {
       "title": "HELP!!",
       "artist": "Kobo Kanaeru",
       "count": 3
@@ -1864,11 +1879,6 @@
       "count": 3
     },
     {
-      "title": "GLAMOROUS SKY",
-      "artist": "NANA starring MIKA NAKASHIMA",
-      "count": 3
-    },
-    {
       "title": "only my railgun",
       "artist": "fripSide",
       "count": 3
@@ -1881,16 +1891,6 @@
     {
       "title": "Realize",
       "artist": "鈴木このみ",
-      "count": 3
-    },
-    {
-      "title": "Lemon",
-      "artist": "米津玄師",
-      "count": 3
-    },
-    {
-      "title": "MAD HEAD LOVE",
-      "artist": "米津玄師",
       "count": 3
     },
     {
@@ -2174,6 +2174,11 @@
       "count": 3
     },
     {
+      "title": "LOSER",
+      "artist": "米津玄師",
+      "count": 3
+    },
+    {
       "title": "砂の惑星",
       "artist": "米津玄師",
       "count": 3
@@ -2264,6 +2269,11 @@
       "count": 2
     },
     {
+      "title": "あいつら全員同窓会",
+      "artist": "ずっと真夜中でいいのに。",
+      "count": 2
+    },
+    {
       "title": "あの娘シークレット",
       "artist": "Eve",
       "count": 2
@@ -2276,6 +2286,11 @@
     {
       "title": "Touch off",
       "artist": "UVERworld",
+      "count": 2
+    },
+    {
+      "title": "爆裂愛してる",
+      "artist": "M!LK",
       "count": 2
     },
     {
@@ -2311,11 +2326,6 @@
     {
       "title": "sweet timer",
       "artist": "iLiFE!",
-      "count": 2
-    },
-    {
-      "title": "テトリス",
-      "artist": "柊マグネタイト",
       "count": 2
     },
     {
@@ -2419,6 +2429,11 @@
       "count": 2
     },
     {
+      "title": "you are my curse",
+      "artist": "nyamura",
+      "count": 2
+    },
+    {
       "title": "浴槽とネオンテトラ",
       "artist": "REISAI",
       "count": 2
@@ -2471,6 +2486,11 @@
     {
       "title": "Deep in Abyss",
       "artist": "リコ (富田美憂),レグ (伊瀬茉莉也)",
+      "count": 2
+    },
+    {
+      "title": "ヒューマノイド",
+      "artist": "ずっと真夜中でいいのに。",
       "count": 2
     },
     {
@@ -2561,6 +2581,11 @@
     {
       "title": "サウダージ",
       "artist": "ポルノグラフィティ",
+      "count": 2
+    },
+    {
+      "title": "丸ノ内サディスティック",
+      "artist": "椎名林檎",
       "count": 2
     },
     {
@@ -2969,6 +2994,11 @@
       "count": 2
     },
     {
+      "title": "Love so sweet",
+      "artist": "嵐",
+      "count": 2
+    },
+    {
       "title": "かくれんぼ",
       "artist": "AliA",
       "count": 2
@@ -3244,11 +3274,6 @@
       "count": 2
     },
     {
-      "title": "LOSER",
-      "artist": "米津玄師",
-      "count": 2
-    },
-    {
       "title": "い~やい~やい~や",
       "artist": "Neru",
       "count": 2
@@ -3286,6 +3311,11 @@
     {
       "title": "ハナミズキ",
       "artist": "一青窈",
+      "count": 2
+    },
+    {
+      "title": "高嶺の花子さん",
+      "artist": "back number",
       "count": 2
     },
     {
@@ -3334,6 +3364,11 @@
       "count": 2
     },
     {
+      "title": "恋",
+      "artist": "星野源",
+      "count": 2
+    },
+    {
       "title": "Say!ファンファーレ!",
       "artist": "白上フブキ",
       "count": 2
@@ -3369,6 +3404,11 @@
       "count": 2
     },
     {
+      "title": "アゲハ蝶",
+      "artist": "ポルノグラフィティ",
+      "count": 2
+    },
+    {
       "title": "About me",
       "artist": "蝶々P",
       "count": 2
@@ -3391,6 +3431,11 @@
     {
       "title": "ROCK-mode'18",
       "artist": "LiSA",
+      "count": 2
+    },
+    {
+      "title": "シリョクケンサ",
+      "artist": "40mP",
       "count": 2
     },
     {
@@ -3529,11 +3574,6 @@
       "count": 2
     },
     {
-      "title": "あいつら全員同窓会",
-      "artist": "ずっと真夜中でいいのに。",
-      "count": 1
-    },
-    {
       "title": "TAIDADA",
       "artist": "ずっと真夜中でいいのに。",
       "count": 1
@@ -3571,11 +3611,6 @@
     {
       "title": "マコトシヤカ",
       "artist": "LiSA",
-      "count": 1
-    },
-    {
-      "title": "爆裂愛してる",
-      "artist": "M!LK",
       "count": 1
     },
     {
@@ -3749,11 +3784,6 @@
       "count": 1
     },
     {
-      "title": "ヒューマノイド",
-      "artist": "ずっと真夜中でいいのに。",
-      "count": 1
-    },
-    {
       "title": "スキャンダルなんかブッ飛ばせ",
       "artist": "SCANDAL",
       "count": 1
@@ -3781,11 +3811,6 @@
     {
       "title": "It's My Life",
       "artist": "YUI",
-      "count": 1
-    },
-    {
-      "title": "丸ノ内サディスティック",
-      "artist": "椎名林檎",
       "count": 1
     },
     {
@@ -4434,11 +4459,6 @@
       "count": 1
     },
     {
-      "title": "Love so sweet",
-      "artist": "嵐",
-      "count": 1
-    },
-    {
       "title": "One Love",
       "artist": "嵐",
       "count": 1
@@ -5084,11 +5104,6 @@
       "count": 1
     },
     {
-      "title": "高嶺の花子さん",
-      "artist": "back number",
-      "count": 1
-    },
-    {
       "title": "シュガーバイン",
       "artist": "Dixie Flatline",
       "count": 1
@@ -5284,11 +5299,6 @@
       "count": 1
     },
     {
-      "title": "恋",
-      "artist": "星野源",
-      "count": 1
-    },
-    {
       "title": "悲しみの向こうへ",
       "artist": "いとうかなこ",
       "count": 1
@@ -5406,11 +5416,6 @@
     {
       "title": "メビウス",
       "artist": "柊キライ",
-      "count": 1
-    },
-    {
-      "title": "アゲハ蝶",
-      "artist": "ポルノグラフィティ",
       "count": 1
     },
     {
@@ -5569,136 +5574,6 @@
       "count": 1
     },
     {
-      "title": "Ohenji Mada Kana? Ojisan Kōbun!",
-      "artist": "Yoshimoto Ojisan",
-      "count": 1
-    },
-    {
-      "title": "Mabel",
-      "artist": "バルーン",
-      "count": 1
-    },
-    {
-      "title": "Mikazuki",
-      "artist": "Sayuri",
-      "count": 1
-    },
-    {
-      "title": "Amanojaku",
-      "artist": "164",
-      "count": 1
-    },
-    {
-      "title": "Nai Nai",
-      "artist": "ReoNa",
-      "count": 1
-    },
-    {
-      "title": "Totemo Suteki na Rokugatsu Deshita",
-      "artist": "Eight",
-      "count": 1
-    },
-    {
-      "title": "Kawaki wo Ameku",
-      "artist": "Minami",
-      "count": 1
-    },
-    {
-      "title": "Sukisugite METSU!",
-      "artist": "M!LK",
-      "count": 1
-    },
-    {
-      "title": "Kawaii Dakejya Dame Desuka?",
-      "artist": "CUTIE STREET",
-      "count": 1
-    },
-    {
-      "title": "Hysteric Night Girl",
-      "artist": "PSYQUI",
-      "count": 1
-    },
-    {
-      "title": "Connect",
-      "artist": "ClariS",
-      "count": 1
-    },
-    {
-      "title": "Tobacco",
-      "artist": "Koresawa",
-      "count": 1
-    },
-    {
-      "title": "BIBBIDIBA",
-      "artist": "星街すいせい",
-      "count": 1
-    },
-    {
-      "title": "Kireigoto",
-      "artist": "星街すいせい",
-      "count": 1
-    },
-    {
-      "title": "Kakurenbo",
-      "artist": "AliA",
-      "count": 1
-    },
-    {
-      "title": "More! Mi Amore",
-      "artist": "Juice=Juice",
-      "count": 1
-    },
-    {
-      "title": "Igaku",
-      "artist": "Haraguchi Sasuke",
-      "count": 1
-    },
-    {
-      "title": "HEAVEN",
-      "artist": "HarryP",
-      "count": 1
-    },
-    {
-      "title": "Gacha Gacha Cute~ Figu@Mate",
-      "artist": "MOSAIC.WAV",
-      "count": 1
-    },
-    {
-      "title": "Tada Kimi ni Hare",
-      "artist": "Just a Sunny Day for You - Yorushika",
-      "count": 1
-    },
-    {
-      "title": "Irony",
-      "artist": "Scop",
-      "count": 1
-    },
-    {
-      "title": "Ghost In A Flower",
-      "artist": "Yorushika",
-      "count": 1
-    },
-    {
-      "title": "Odoriko",
-      "artist": "Vaundy",
-      "count": 1
-    },
-    {
-      "title": "Ai Wo Tsutaetaidatoka",
-      "artist": "aimyon",
-      "count": 1
-    },
-    {
-      "title": "Motto",
-      "artist": "Kana Nishino",
-      "count": 1
-    },
-    {
-      "title": "Across the world !!",
-      "artist": "Shin'en-gumi",
-      "count": 1
-    },
-    {
       "title": "夏祭り",
       "artist": "Whiteberry",
       "count": 1
@@ -5759,273 +5634,23 @@
       "count": 1
     },
     {
-      "title": "Mousouzei",
-      "artist": "DECO*27",
+      "title": "暗く黒く",
+      "artist": "ずっと真夜中でいいのに。",
       "count": 1
     },
     {
-      "title": "Ame wo Matsu, (Waiting for Rain)",
-      "artist": "Minami",
+      "title": "veil",
+      "artist": "須田景凪",
       "count": 1
     },
     {
-      "title": "Lilac",
-      "artist": "Minami",
+      "title": "APT.",
+      "artist": "ROSÉ & Bruno Mars",
       "count": 1
     },
     {
-      "title": "Shout Baby",
-      "artist": "Ryokuoushoku Shakai",
-      "count": 1
-    },
-    {
-      "title": "Proposal",
-      "artist": "natori",
-      "count": 1
-    },
-    {
-      "title": "No Doubt",
-      "artist": "Official HIGE DANdism",
-      "count": 1
-    },
-    {
-      "title": "Cry Baby",
-      "artist": "Official HIGE DANdism",
-      "count": 1
-    },
-    {
-      "title": "Seiza ni Naretara",
-      "artist": "Kessoku Band",
-      "count": 1
-    },
-    {
-      "title": "Chikyuu Saigo no Kokuhaku wo",
-      "artist": "kemu",
-      "count": 1
-    },
-    {
-      "title": "Byoushin wo Kamu",
-      "artist": "ZUTOMAYO",
-      "count": 1
-    },
-    {
-      "title": "Natsumatsuri",
-      "artist": "Whiteberry",
-      "count": 1
-    },
-    {
-      "title": "secret base ~Kimi ga Kureta Mono~",
-      "artist": "ZONE",
-      "count": 1
-    },
-    {
-      "title": "Genesis of Aquarion",
-      "artist": "AKINO",
-      "count": 1
-    },
-    {
-      "title": "Arashi no Naka de Kagayaite",
-      "artist": "Chihiro Yonekura",
-      "count": 1
-    },
-    {
-      "title": "BEYOND THE TIME (Beyond the Moebius Universe)",
-      "artist": "TM NETWORK",
-      "count": 1
-    },
-    {
-      "title": "Ahoy!! Warera Houshou Kaizokudan",
-      "artist": "Houshou Marine",
-      "count": 1
-    },
-    {
-      "title": "Bishoujo Muzai♡Pirates",
-      "artist": "Houshou Marine",
-      "count": 1
-    },
-    {
-      "title": "I I I",
-      "artist": "Houshou Marine, Kobo Kanaeru",
-      "count": 1
-    },
-    {
-      "title": "Say! Fanfare!",
-      "artist": "Shirakami Fubuki",
-      "count": 1
-    },
-    {
-      "title": "Mage of Violet",
-      "artist": "Murasaki Shion",
-      "count": 1
-    },
-    {
-      "title": "Kuraberarekko",
-      "artist": "TUYU",
-      "count": 1
-    },
-    {
-      "title": "Rock na Kimi to wa Owakare da",
-      "artist": "TUYU",
-      "count": 1
-    },
-    {
-      "title": "Sukisugite Metsu!",
-      "artist": "M!LK",
-      "count": 1
-    },
-    {
-      "title": "courage",
-      "artist": "Haruka Tomatsu",
-      "count": 1
-    },
-    {
-      "title": "Kimagure Romantic",
-      "artist": "Ikimonogakari",
-      "count": 1
-    },
-    {
-      "title": "Kimi no Shiranai Monogatari",
-      "artist": "ryo (supercell)",
-      "count": 1
-    },
-    {
-      "title": "Platinum",
-      "artist": "Maaya Sakamoto",
-      "count": 1
-    },
-    {
-      "title": "Tabun",
-      "artist": "YOASOBI",
-      "count": 1
-    },
-    {
-      "title": "Bansanka",
-      "artist": "tuki.",
-      "count": 1
-    },
-    {
-      "title": "Wasurete Kudasai",
-      "artist": "Yorushika",
-      "count": 1
-    },
-    {
-      "title": "Mephisto",
-      "artist": "QUEEN BEE",
-      "count": 1
-    },
-    {
-      "title": "Yomosugara Kimi Omou",
-      "artist": "TOKOTOKO (Nishizawa-sanP)",
-      "count": 1
-    },
-    {
-      "title": "Shoujo S",
-      "artist": "SCANDAL",
-      "count": 1
-    },
-    {
-      "title": "Vampire",
-      "artist": "DECO*27, Rockwell",
-      "count": 1
-    },
-    {
-      "title": "Sorairo Days",
-      "artist": "Shoko Nakagawa",
-      "count": 1
-    },
-    {
-      "title": "Together",
-      "artist": "Fumie Akiyoshi",
-      "count": 1
-    },
-    {
-      "title": "Shoujo Rei",
-      "artist": "MikitoP",
-      "count": 1
-    },
-    {
-      "title": "Gira Gira",
-      "artist": "Ado",
-      "count": 1
-    },
-    {
-      "title": "Tokyo Shandy Rendez-vous",
-      "artist": "MAISONdes",
-      "count": 1
-    },
-    {
-      "title": "Senbonzakura",
-      "artist": "KuroUsa-P",
-      "count": 1
-    },
-    {
-      "title": "Spring Thief",
-      "artist": "Yorushika",
-      "count": 1
-    },
-    {
-      "title": "Ikenai Taiyou",
-      "artist": "ORANGE RANGE",
-      "count": 1
-    },
-    {
-      "title": "Saudade",
-      "artist": "Porno Graffitti",
-      "count": 1
-    },
-    {
-      "title": "Chankapana",
-      "artist": "NEWS",
-      "count": 1
-    },
-    {
-      "title": "Shanghai Honey",
-      "artist": "ORANGE RANGE",
-      "count": 1
-    },
-    {
-      "title": "World is Mine",
-      "artist": "ryo (supercell)",
-      "count": 1
-    },
-    {
-      "title": "Hare Hare Yukai",
-      "artist": "Haruhi Suzumiya (CV. Aya Hirano), Yuki Nagato (CV. Minori Chihara), Mikuru Asahina (CV. Yuko Goto)",
-      "count": 1
-    },
-    {
-      "title": "Genjou Destruction",
-      "artist": "SPYAIR",
-      "count": 1
-    },
-    {
-      "title": "Fansa",
-      "artist": "mona (CV. Shiina Natsukawa)",
-      "count": 1
-    },
-    {
-      "title": "Motteke! Sailor Fuku",
-      "artist": "Konata Izumi (CV. Aya Hirano), Kagami Hiiragi (CV. Emiri Kato), Tsukasa Hiiragi (CV. Kaori Fukuhara), Miyuki Takara (CV. Aya Endo)",
-      "count": 1
-    },
-    {
-      "title": "Umapyoi Densetsu",
-      "artist": "Pretty Derby",
-      "count": 1
-    },
-    {
-      "title": "Koi wa Chaos no Shimobe Nari",
-      "artist": "Ushirokara Haiyoritai G",
-      "count": 1
-    },
-    {
-      "title": "Taiyou Iwaku Moe yo Chaos",
-      "artist": "Ushirokara Haiyoritai G",
-      "count": 1
-    },
-    {
-      "title": "Buttobina! Shitora-ryuu Chahan",
-      "artist": "涼風しとら",
+      "title": "Mr.Music",
+      "artist": "れるりり,ロンチーノ=ペペ,かごめP",
       "count": 1
     },
     {
@@ -6284,11 +5909,6 @@
       "count": 1
     },
     {
-      "title": "シリョクケンサ",
-      "artist": "40mP",
-      "count": 1
-    },
-    {
       "title": "月光食堂",
       "artist": "ぬー (古川本舗)",
       "count": 1
@@ -6454,7 +6074,6 @@
     "CINDERELLA PROJECT",
     "CRUSHER-P",
     "CUTIE STREET",
-    "Chihiro Yonekura",
     "Chinozo",
     "Choisauce (獅子志司)",
     "ClariS",
@@ -6480,7 +6099,6 @@
     "FLiP",
     "FRUITS ZIPPER",
     "FUNKIST",
-    "Fumie Akiyoshi",
     "GARNiDELiA",
     "GEMN",
     "GReeeeN",
@@ -6492,36 +6110,23 @@
     "Gulity Kiss",
     "GuraMarine",
     "HIMEHINA",
-    "Haraguchi Sasuke",
-    "HarryP",
-    "Haruhi Suzumiya (CV. Aya Hirano), Yuki Nagato (CV. Minori Chihara), Mikuru Asahina (CV. Yuko Goto)",
-    "Haruka Tomatsu",
     "Heavenz",
     "HoneyWorks 瀬戸口優 (神谷浩史)・榎本夏樹 (戸松遥)・望月蒼太 (梶裕貴)・早坂あかり (阿澄佳奈)・芹沢春輝 (鈴村健一)・合田美桜 (豊崎愛生)",
-    "Houshou Marine",
-    "Houshou Marine, Kobo Kanaeru",
-    "Ikimonogakari",
     "Islet",
     "JUDY AND MARY",
     "JUJU",
     "Janne Da Arc",
     "Juice=Juice",
     "Junky",
-    "Just a Sunny Day for You - Yorushika",
     "KANA-BOON",
     "KAT-TUN",
     "KELUN",
     "KOKIA",
     "Kalafina",
-    "Kana Nishino",
     "Kanaria",
-    "Kessoku Band",
     "King Gnu",
     "Kiroro",
     "Kobo Kanaeru",
-    "Konata Izumi (CV. Aya Hirano), Kagami Hiiragi (CV. Emiri Kato), Tsukasa Hiiragi (CV. Kaori Fukuhara), Miyuki Takara (CV. Aya Endo)",
-    "Koresawa",
-    "KuroUsa-P",
     "LUMi",
     "Last Note.",
     "LiSA",
@@ -6539,14 +6144,10 @@
     "MOSAIC.WAV",
     "MY FIRST STORY",
     "MYTH & ROID",
-    "Maaya Sakamoto",
     "May'n & 中島愛",
-    "MikitoP",
     "MilkyWay",
-    "Minami",
     "Mitchie M",
     "Mrs. GREEN APPLE",
-    "Murasaki Shion",
     "My Hair is Bad",
     "NANA starring MIKA NAKASHIMA",
     "NEE",
@@ -6555,24 +6156,20 @@
     "Neru",
     "ONE OK ROCK",
     "ORANGE RANGE",
-    "Official HIGE DANdism",
     "Official髭男dism",
     "Omoi",
     "Orangestar",
     "PSYQUI",
     "Perfume",
     "Petit Rabbit's",
-    "Porno Graffitti",
-    "Pretty Derby",
-    "QUEEN BEE",
     "R Sound Design",
     "RADWIMPS",
     "REISAI",
+    "ROSÉ & Bruno Mars",
     "ReGLOSS",
     "ReoNa",
     "Reol",
     "Royal Scandal",
-    "Ryokuoushoku Shakai",
     "SARM",
     "SCANDAL",
     "SEVENTHLINKS",
@@ -6583,24 +6180,17 @@
     "SPLAY",
     "SPYAIR",
     "Saint Snow",
-    "Sayuri",
-    "Scop",
     "See-Saw",
     "Sena Kiryuin & Justen Kuwabatake",
-    "Shin'en-gumi",
-    "Shirakami Fubuki",
-    "Shoko Nakagawa",
     "Sound Horizon",
     "Superfly",
     "T.M.Revolution",
     "T.M.Revolution×水樹奈々",
     "TM NETWORK",
-    "TOKOTOKO (Nishizawa-sanP)",
     "TOKOTOKO (西沢さんP)",
     "TOKOTOKO(西沢さんP)",
     "TOOBOE",
     "TRUE",
-    "TUYU",
     "Theatre Brook",
     "Tommy heavenly6",
     "TrySail",
@@ -6608,7 +6198,6 @@
     "UNISON SQUARE GARDEN",
     "UVERworld",
     "Uru",
-    "Ushirokara Haiyoritai G",
     "VAN DE SHOP",
     "Vaundy",
     "Whiteberry",
@@ -6618,16 +6207,12 @@
     "YUI",
     "YUI for 雨音薫",
     "YURiKA",
-    "Yorushika",
-    "Yoshimoto Ojisan",
     "Yunomi & nicamoq",
     "ZARD",
     "ZOC",
     "ZONE",
     "ZONE, 本間芽衣子 (茅野愛衣)/安城鳴子 (戸松遥)/鶴見知利子 (早見沙織)",
-    "ZUTOMAYO",
     "aiko",
-    "aimyon",
     "ano",
     "back number",
     "buzzG",
@@ -6653,13 +6238,11 @@
     "meiyo",
     "mihimaru GT",
     "miwa",
-    "mona (CV. Shiina Natsukawa)",
     "mona (夏川椎菜)",
     "mona(夏川椎菜)",
     "moricalliope",
     "mothy (悪ノP)",
     "n-buna",
-    "natori",
     "niki",
     "nyamura",
     "r-906",
@@ -6740,6 +6323,7 @@
     "ゆうゆ",
     "ゆず",
     "れるりり",
+    "れるりり,ロンチーノ=ペペ,かごめP",
     "ろくろ",
     "アイナ・ジ・エンド",
     "ウマ娘 プリティーダービー",
