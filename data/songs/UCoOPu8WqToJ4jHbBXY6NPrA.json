@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-04-09T11:29:53.139335+00:00",
+  "lastFetched": "2026-04-23T06:41:34.490598+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -4294,6 +4294,132 @@
         }
       ],
       "sourceCommentId": "issue#2",
+      "type": "stream"
+    },
+    {
+      "videoId": "M8IFc7KU-ic",
+      "title": "【 #歌枠 / #karaoke 】久しぶりの歌枠！初見さん大歓迎！【 #渉海よひら /深淵組】",
+      "publishedAt": "2024-06-23T15:18:33Z",
+      "songs": [
+        {
+          "timestamp": "14:57",
+          "seconds": 897,
+          "title": "花降らし",
+          "titleRaw": "花降らし",
+          "artist": "n-buna",
+          "artistRaw": "n-buna",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=897"
+        },
+        {
+          "timestamp": "23:12",
+          "seconds": 1392,
+          "title": "Bad Apple!!",
+          "titleRaw": "Bad Apple!!",
+          "artist": "Alstroemeria Records",
+          "artistRaw": "Alstroemeria Records",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=1392"
+        },
+        {
+          "timestamp": "29:37",
+          "seconds": 1777,
+          "title": "粛聖!! ロリ神レクイエム",
+          "titleRaw": "粛聖!! ロリ神レクイエム",
+          "artist": "しぐれうい",
+          "artistRaw": "しぐれうい",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=1777"
+        },
+        {
+          "timestamp": "36:32",
+          "seconds": 2192,
+          "title": "III",
+          "titleRaw": "III",
+          "artist": "宝鐘マリン & Kobo Kanaeru",
+          "artistRaw": "宝鐘マリン & Kobo Kanaeru",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=2192"
+        },
+        {
+          "timestamp": "46:10",
+          "seconds": 2770,
+          "title": "空色デイズ",
+          "titleRaw": "空色デイズ",
+          "artist": "中川翔子",
+          "artistRaw": "中川翔子",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=2770"
+        },
+        {
+          "timestamp": "53:01",
+          "seconds": 3181,
+          "title": "革命デュアリズム",
+          "titleRaw": "革命デュアリズム",
+          "artist": "水樹奈々×T.M.Revolution",
+          "artistRaw": "水樹奈々×T.M.Revolution",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=3181"
+        },
+        {
+          "timestamp": "1:05:26",
+          "seconds": 3926,
+          "title": "トライアングラー",
+          "titleRaw": "トライアングラー",
+          "artist": "坂本真綾",
+          "artistRaw": "坂本真綾",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=3926"
+        },
+        {
+          "timestamp": "1:16:20",
+          "seconds": 4580,
+          "title": "一度だけの恋なら",
+          "titleRaw": "一度だけの恋なら",
+          "artist": "ワルキューレ",
+          "artistRaw": "ワルキューレ",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=4580"
+        },
+        {
+          "timestamp": "1:26:20",
+          "seconds": 5180,
+          "title": "Synchrogazer",
+          "titleRaw": "Synchrogazer",
+          "artist": "水樹奈々",
+          "artistRaw": "水樹奈々",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=5180"
+        },
+        {
+          "timestamp": "2:01:13",
+          "seconds": 7273,
+          "title": "もぐもぐYUMMY!",
+          "titleRaw": "もぐもぐYUMMY!",
+          "artist": "猫又おかゆ",
+          "artistRaw": "猫又おかゆ",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=7273"
+        },
+        {
+          "timestamp": "2:05:58",
+          "seconds": 7558,
+          "title": "メイジ・オブ・ヴァイオレット",
+          "titleRaw": "メイジ・オブ・ヴァイオレット",
+          "artist": "紫咲シオン",
+          "artistRaw": "紫咲シオン",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=7558"
+        },
+        {
+          "timestamp": "2:35:13",
+          "seconds": 9313,
+          "title": "トンデモワンダーズ",
+          "titleRaw": "トンデモワンダーズ",
+          "artist": "sasakure.UK",
+          "artistRaw": "sasakure.UK",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=9313"
+        },
+        {
+          "timestamp": "2:41:51",
+          "seconds": 9711,
+          "title": "ダダダダ天使",
+          "titleRaw": "ダダダダ天使",
+          "artist": "ナナヲアカリ",
+          "artistRaw": "ナナヲアカリ",
+          "url": "https://youtu.be/M8IFc7KU-ic?t=9711"
+        }
+      ],
+      "sourceCommentId": "issue#12",
       "type": "stream"
     }
   ]
