@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-04-23T07:03:42.047228+00:00",
+  "lastFetched": "2026-04-23T09:07:19.134539+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -4537,6 +4537,150 @@
         }
       ],
       "sourceCommentId": "issue#13",
+      "type": "stream"
+    },
+    {
+      "videoId": "6I3669i6c8w",
+      "title": "【 #歌枠 / #karaoke 】SINGING STREAM！初見さん大歓迎！【 #渉海よひら /深淵組】",
+      "publishedAt": "2024-12-21T09:40:59Z",
+      "songs": [
+        {
+          "timestamp": "2:47",
+          "seconds": 167,
+          "title": "ノーダウト",
+          "titleRaw": "ノーダウト",
+          "artist": "Official髭男dism",
+          "artistRaw": "Official髭男dism",
+          "url": "https://youtu.be/6I3669i6c8w?t=167"
+        },
+        {
+          "timestamp": "8:19",
+          "seconds": 499,
+          "title": "モニタリング",
+          "titleRaw": "モニタリング",
+          "artist": "DECO*27",
+          "artistRaw": "DECO*27",
+          "url": "https://youtu.be/6I3669i6c8w?t=499"
+        },
+        {
+          "timestamp": "13:11",
+          "seconds": 791,
+          "title": "Rolling star",
+          "titleRaw": "Rolling star",
+          "artist": "YUI",
+          "artistRaw": "YUI",
+          "url": "https://youtu.be/6I3669i6c8w?t=791"
+        },
+        {
+          "timestamp": "19:37",
+          "seconds": 1177,
+          "title": "涙目爆発音",
+          "titleRaw": "涙目爆発音",
+          "artist": "ワルキューレ",
+          "artistRaw": "ワルキューレ",
+          "url": "https://youtu.be/6I3669i6c8w?t=1177"
+        },
+        {
+          "timestamp": "24:57",
+          "seconds": 1497,
+          "title": "一度だけの恋なら",
+          "titleRaw": "一度だけの恋なら",
+          "artist": "ワルキューレ",
+          "artistRaw": "ワルキューレ",
+          "url": "https://youtu.be/6I3669i6c8w?t=1497"
+        },
+        {
+          "timestamp": "37:51",
+          "seconds": 2271,
+          "title": "灼熱にて純情(wii-wii-woo)",
+          "titleRaw": "灼熱にて純情(wii-wii-woo)",
+          "artist": "星街すいせい",
+          "artistRaw": "星街すいせい",
+          "url": "https://youtu.be/6I3669i6c8w?t=2271"
+        },
+        {
+          "timestamp": "48:18",
+          "seconds": 2898,
+          "title": "絶頂讃歌",
+          "titleRaw": "絶頂讃歌",
+          "artist": "和ぬか",
+          "artistRaw": "和ぬか",
+          "url": "https://youtu.be/6I3669i6c8w?t=2898"
+        },
+        {
+          "timestamp": "53:42",
+          "seconds": 3222,
+          "title": "花になって",
+          "titleRaw": "花になって",
+          "artist": "緑黄色社会",
+          "artistRaw": "緑黄色社会",
+          "url": "https://youtu.be/6I3669i6c8w?t=3222"
+        },
+        {
+          "timestamp": "1:00:40",
+          "seconds": 3640,
+          "title": "God Knows...",
+          "titleRaw": "God Knows...",
+          "artist": "平野綾",
+          "artistRaw": "平野綾",
+          "url": "https://youtu.be/6I3669i6c8w?t=3640"
+        },
+        {
+          "timestamp": "1:12:22",
+          "seconds": 4342,
+          "title": "アイドル",
+          "titleRaw": "アイドル",
+          "artist": "YOASOBI",
+          "artistRaw": "YOASOBI",
+          "url": "https://youtu.be/6I3669i6c8w?t=4342"
+        },
+        {
+          "timestamp": "1:17:04",
+          "seconds": 4624,
+          "title": "物語りのワルツ",
+          "titleRaw": "物語りのワルツ",
+          "artist": "ヰ世界情緒",
+          "artistRaw": "ヰ世界情緒",
+          "url": "https://youtu.be/6I3669i6c8w?t=4624"
+        },
+        {
+          "timestamp": "1:36:58",
+          "seconds": 5818,
+          "title": "ウタカタララバイ",
+          "titleRaw": "ウタカタララバイ",
+          "artist": "Ado",
+          "artistRaw": "Ado",
+          "url": "https://youtu.be/6I3669i6c8w?t=5818"
+        },
+        {
+          "timestamp": "1:56:43",
+          "seconds": 7003,
+          "title": "クリスマスソング",
+          "titleRaw": "クリスマスソング",
+          "artist": "back number",
+          "artistRaw": "back number",
+          "url": "https://youtu.be/6I3669i6c8w?t=7003"
+        },
+        {
+          "timestamp": "2:09:26",
+          "seconds": 7766,
+          "title": "ワールド・ランプシェード",
+          "titleRaw": "ワールド・ランプシェード",
+          "artist": "buzzG",
+          "artistRaw": "buzzG",
+          "url": "https://youtu.be/6I3669i6c8w?t=7766"
+        },
+        {
+          "timestamp": "2:41:20",
+          "seconds": 9680,
+          "title": "天ノ弱",
+          "titleRaw": "天ノ弱",
+          "artist": "164",
+          "artistRaw": "164",
+          "url": "https://youtu.be/6I3669i6c8w?t=9680"
+        }
+      ],
+      "sourceCommentId": "issue#14",
       "type": "stream"
     }
   ]
