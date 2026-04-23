@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-04-23T06:41:34.490598+00:00",
+  "lastFetched": "2026-04-23T07:03:42.047228+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -4420,6 +4420,123 @@
         }
       ],
       "sourceCommentId": "issue#12",
+      "type": "stream"
+    },
+    {
+      "videoId": "cgpDmA3pHdY",
+      "title": "【 #歌枠 / karaoke 】Singing stream 記念配信前の歌枠！初見さん歓迎！【 #渉海よひら /深淵組】",
+      "publishedAt": "2024-11-29T00:21:00Z",
+      "songs": [
+        {
+          "timestamp": "9:44",
+          "seconds": 584,
+          "title": "ファーストレディ",
+          "titleRaw": "ファーストレディ",
+          "artist": "奏音69",
+          "artistRaw": "奏音69",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=584"
+        },
+        {
+          "timestamp": "20:21",
+          "seconds": 1221,
+          "title": "創聖のアクエリオン",
+          "titleRaw": "創聖のアクエリオン",
+          "artist": "AKINO",
+          "artistRaw": "AKINO",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=1221"
+        },
+        {
+          "timestamp": "29:16",
+          "seconds": 1756,
+          "title": "私は最強",
+          "titleRaw": "私は最強",
+          "artist": "Ado",
+          "artistRaw": "Ado",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=1756"
+        },
+        {
+          "timestamp": "40:01",
+          "seconds": 2401,
+          "title": "I beg you",
+          "titleRaw": "I beg you",
+          "artist": "Aimer",
+          "artistRaw": "Aimer",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=2401"
+        },
+        {
+          "timestamp": "51:13",
+          "seconds": 3073,
+          "title": "花の唄",
+          "titleRaw": "花の唄",
+          "artist": "Aimer",
+          "artistRaw": "Aimer",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=3073"
+        },
+        {
+          "timestamp": "1:11:43",
+          "seconds": 4303,
+          "title": "UNDEAD",
+          "titleRaw": "UNDEAD",
+          "artist": "YOASOBI",
+          "artistRaw": "YOASOBI",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=4303"
+        },
+        {
+          "timestamp": "1:17:31",
+          "seconds": 4651,
+          "title": "ソワレ",
+          "titleRaw": "ソワレ",
+          "artist": "星街すいせい",
+          "artistRaw": "星街すいせい",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=4651"
+        },
+        {
+          "timestamp": "1:23:33",
+          "seconds": 5013,
+          "title": "おやすみ泣き声、さよなら歌姫",
+          "titleRaw": "おやすみ泣き声、さよなら歌姫",
+          "artist": "クリープハイプ",
+          "artistRaw": "クリープハイプ",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=5013"
+        },
+        {
+          "timestamp": "1:28:59",
+          "seconds": 5339,
+          "title": "快晴",
+          "titleRaw": "快晴",
+          "artist": "Orangestar",
+          "artistRaw": "Orangestar",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=5339"
+        },
+        {
+          "timestamp": "1:35:02",
+          "seconds": 5702,
+          "title": "カサブタ",
+          "titleRaw": "カサブタ",
+          "artist": "千綿偉功",
+          "artistRaw": "千綿偉功",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=5702"
+        },
+        {
+          "timestamp": "1:39:36",
+          "seconds": 5976,
+          "title": "オトノケ",
+          "titleRaw": "オトノケ",
+          "artist": "Creepy Nuts",
+          "artistRaw": "Creepy Nuts",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=5976"
+        },
+        {
+          "timestamp": "1:45:00",
+          "seconds": 6300,
+          "title": "名前のない怪物",
+          "titleRaw": "名前のない怪物",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/cgpDmA3pHdY?t=6300"
+        }
+      ],
+      "sourceCommentId": "issue#13",
       "type": "stream"
     }
   ]

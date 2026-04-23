@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1210,
-  "uniqueTitles": 1198,
+  "totalEntries": 1213,
+  "uniqueTitles": 1201,
   "uniqueArtists": 550,
   "songs": [
     {
@@ -14,6 +14,11 @@
       "count": 15
     },
     {
+      "title": "創聖のアクエリオン",
+      "artist": "AKINO",
+      "count": 15
+    },
+    {
       "title": "少女レイ",
       "artist": "みきとP",
       "count": 14
@@ -21,11 +26,6 @@
     {
       "title": "フォニイ",
       "artist": "ツミキ",
-      "count": 14
-    },
-    {
-      "title": "創聖のアクエリオン",
-      "artist": "AKINO",
       "count": 14
     },
     {
@@ -259,6 +259,11 @@
       "count": 9
     },
     {
+      "title": "私は最強",
+      "artist": "Ado",
+      "count": 9
+    },
+    {
       "title": "勇者",
       "artist": "YOASOBI",
       "count": 9
@@ -314,6 +319,11 @@
       "count": 8
     },
     {
+      "title": "ソワレ",
+      "artist": "星街すいせい",
+      "count": 8
+    },
+    {
       "title": "again",
       "artist": "YUI",
       "count": 8
@@ -336,11 +346,6 @@
     {
       "title": "明け星",
       "artist": "LiSA",
-      "count": 8
-    },
-    {
-      "title": "私は最強",
-      "artist": "Ado",
       "count": 8
     },
     {
@@ -444,11 +449,6 @@
       "count": 7
     },
     {
-      "title": "ソワレ",
-      "artist": "星街すいせい",
-      "count": 7
-    },
-    {
       "title": "変わらないもの",
       "artist": "奥華子",
       "count": 7
@@ -459,8 +459,18 @@
       "count": 7
     },
     {
+      "title": "I beg you",
+      "artist": "Aimer",
+      "count": 7
+    },
+    {
       "title": "メイジ・オブ・ヴァイオレット",
       "artist": "紫咲シオン",
+      "count": 7
+    },
+    {
+      "title": "名前のない怪物",
+      "artist": "EGOIST",
       "count": 7
     },
     {
@@ -539,6 +549,11 @@
       "count": 6
     },
     {
+      "title": "UNDEAD",
+      "artist": "YOASOBI",
+      "count": 6
+    },
+    {
       "title": "妄想感傷代償連盟",
       "artist": "DECO*27",
       "count": 6
@@ -604,13 +619,13 @@
       "count": 6
     },
     {
-      "title": "God knows...",
-      "artist": "平野綾",
+      "title": "カサブタ",
+      "artist": "千綿偉功",
       "count": 6
     },
     {
-      "title": "I beg you",
-      "artist": "Aimer",
+      "title": "God knows...",
+      "artist": "平野綾",
       "count": 6
     },
     {
@@ -636,11 +651,6 @@
     {
       "title": "青のすみか",
       "artist": "キタニタツヤ",
-      "count": 6
-    },
-    {
-      "title": "名前のない怪物",
-      "artist": "EGOIST",
       "count": 6
     },
     {
@@ -774,11 +784,6 @@
       "count": 5
     },
     {
-      "title": "UNDEAD",
-      "artist": "YOASOBI",
-      "count": 5
-    },
-    {
       "title": "言って。",
       "artist": "ヨルシカ",
       "count": 5
@@ -906,11 +911,6 @@
     {
       "title": "アスノヨゾラ哨戒班",
       "artist": "Orangestar",
-      "count": 5
-    },
-    {
-      "title": "カサブタ",
-      "artist": "千綿偉功",
       "count": 5
     },
     {
@@ -1196,6 +1196,11 @@
     {
       "title": "それがあなたの幸せとしても",
       "artist": "Heavenz",
+      "count": 4
+    },
+    {
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
       "count": 4
     },
     {
@@ -1671,11 +1676,6 @@
     {
       "title": "Luna say maybe",
       "artist": "月村手毬",
-      "count": 3
-    },
-    {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
       "count": 3
     },
     {
@@ -2501,6 +2501,11 @@
     {
       "title": "革命デュアリズム",
       "artist": "水樹奈々×T.M.Revolution",
+      "count": 2
+    },
+    {
+      "title": "快晴",
+      "artist": "Orangestar",
       "count": 2
     },
     {
@@ -3979,6 +3984,21 @@
       "count": 1
     },
     {
+      "title": "ファーストレディ",
+      "artist": "奏音69",
+      "count": 1
+    },
+    {
+      "title": "花の唄",
+      "artist": "Aimer",
+      "count": 1
+    },
+    {
+      "title": "オトノケ",
+      "artist": "Creepy Nuts",
+      "count": 1
+    },
+    {
       "title": "TAIDADA",
       "artist": "ずっと真夜中でいいのに。",
       "count": 1
@@ -4636,11 +4656,6 @@
     {
       "title": "すーぱーぬこになりたい",
       "artist": "まふまふ",
-      "count": 1
-    },
-    {
-      "title": "快晴",
-      "artist": "Orangestar",
       "count": 1
     },
     {
