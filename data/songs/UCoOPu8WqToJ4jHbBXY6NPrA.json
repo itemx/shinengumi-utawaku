@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-04-23T09:07:19.134539+00:00",
+  "lastFetched": "2026-04-24T02:28:27.353090+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -4681,6 +4681,123 @@
         }
       ],
       "sourceCommentId": "issue#14",
+      "type": "stream"
+    },
+    {
+      "videoId": "d3vQrQxo2R8",
+      "title": "【 #歌枠 / #karaoke 】SINGING STREAM！初見さん大歓迎！【 #渉海よひら /深淵組】",
+      "publishedAt": "2025-01-09T16:22:59Z",
+      "songs": [
+        {
+          "timestamp": "12:35",
+          "seconds": 755,
+          "title": "チェリー",
+          "titleRaw": "チェリー",
+          "artist": "スピッツ",
+          "artistRaw": "スピッツ",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=755"
+        },
+        {
+          "timestamp": "20:21",
+          "seconds": 1221,
+          "title": "晴る",
+          "titleRaw": "晴る",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=1221"
+        },
+        {
+          "timestamp": "29:28",
+          "seconds": 1768,
+          "title": "asphyxia",
+          "titleRaw": "asphyxia",
+          "artist": "Cö shu Nie",
+          "artistRaw": "Cö shu Nie",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=1768"
+        },
+        {
+          "timestamp": "39:04",
+          "seconds": 2344,
+          "title": "flos",
+          "titleRaw": "flos",
+          "artist": "R Sound Design",
+          "artistRaw": "R Sound Design",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=2344"
+        },
+        {
+          "timestamp": "48:55",
+          "seconds": 2935,
+          "title": "命に嫌われている",
+          "titleRaw": "命に嫌われている",
+          "artist": "カンザキイオリ",
+          "artistRaw": "カンザキイオリ",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=2935"
+        },
+        {
+          "timestamp": "1:00:01",
+          "seconds": 3601,
+          "title": "Tell Your World",
+          "titleRaw": "Tell Your World",
+          "artist": "kz (livetune)",
+          "artistRaw": "kz (livetune)",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=3601"
+        },
+        {
+          "timestamp": "1:09:47",
+          "seconds": 4187,
+          "title": "春擬き",
+          "titleRaw": "春擬き",
+          "artist": "やなぎなぎ",
+          "artistRaw": "やなぎなぎ",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=4187"
+        },
+        {
+          "timestamp": "1:17:45",
+          "seconds": 4665,
+          "title": "ユキトキ",
+          "titleRaw": "ユキトキ",
+          "artist": "やなぎなぎ",
+          "artistRaw": "やなぎなぎ",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=4665"
+        },
+        {
+          "timestamp": "1:26:00",
+          "seconds": 5160,
+          "title": "All Alone With You",
+          "titleRaw": "All Alone With You",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=5160"
+        },
+        {
+          "timestamp": "1:38:42",
+          "seconds": 5922,
+          "title": "アンノウン・マザーグース",
+          "titleRaw": "アンノウン・マザーグース",
+          "artist": "wowaka",
+          "artistRaw": "wowaka",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=5922"
+        },
+        {
+          "timestamp": "1:48:30",
+          "seconds": 6510,
+          "title": "言って。",
+          "titleRaw": "言って。",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=6510"
+        },
+        {
+          "timestamp": "1:55:10",
+          "seconds": 6910,
+          "title": "ただ君に晴れ",
+          "titleRaw": "ただ君に晴れ",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/d3vQrQxo2R8?t=6910"
+        }
+      ],
+      "sourceCommentId": "issue#15",
       "type": "stream"
     }
   ]
