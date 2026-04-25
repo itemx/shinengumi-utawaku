@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1217,
-  "uniqueTitles": 1205,
-  "uniqueArtists": 551,
+  "totalEntries": 1227,
+  "uniqueTitles": 1214,
+  "uniqueArtists": 556,
   "songs": [
     {
       "title": "残響散歌",
@@ -34,6 +34,11 @@
       "count": 13
     },
     {
+      "title": "紅蓮華",
+      "artist": "LiSA",
+      "count": 13
+    },
+    {
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 13
@@ -56,11 +61,6 @@
     {
       "title": "怪物",
       "artist": "YOASOBI",
-      "count": 12
-    },
-    {
-      "title": "紅蓮華",
-      "artist": "LiSA",
       "count": 12
     },
     {
@@ -249,6 +249,11 @@
       "count": 9
     },
     {
+      "title": "アイネクライネ",
+      "artist": "米津玄師",
+      "count": 9
+    },
+    {
       "title": "春泥棒",
       "artist": "ヨルシカ",
       "count": 9
@@ -329,11 +334,6 @@
       "count": 8
     },
     {
-      "title": "アイネクライネ",
-      "artist": "米津玄師",
-      "count": 8
-    },
-    {
       "title": "カタオモイ",
       "artist": "Aimer",
       "count": 8
@@ -341,6 +341,16 @@
     {
       "title": "プライド革命",
       "artist": "CHiCO with HoneyWorks",
+      "count": 8
+    },
+    {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 8
+    },
+    {
+      "title": "I beg you",
+      "artist": "Aimer",
       "count": 8
     },
     {
@@ -446,16 +456,6 @@
     {
       "title": "HARUKAZE",
       "artist": "SCANDAL",
-      "count": 7
-    },
-    {
-      "title": "Across the world !!",
-      "artist": "深淵組",
-      "count": 7
-    },
-    {
-      "title": "I beg you",
-      "artist": "Aimer",
       "count": 7
     },
     {
@@ -614,6 +614,11 @@
       "count": 6
     },
     {
+      "title": "なんでもないや",
+      "artist": "RADWIMPS",
+      "count": 6
+    },
+    {
       "title": "春擬き",
       "artist": "やなぎなぎ",
       "count": 6
@@ -631,6 +636,11 @@
     {
       "title": "God knows...",
       "artist": "平野綾",
+      "count": 6
+    },
+    {
+      "title": "渡月橋 ~君 想ふ~",
+      "artist": "倉木麻衣",
       "count": 6
     },
     {
@@ -746,6 +756,11 @@
     {
       "title": "からくりピエロ",
       "artist": "40mP",
+      "count": 6
+    },
+    {
+      "title": "シュガーソングとビターステップ",
+      "artist": "UNISON SQUARE GARDEN",
       "count": 6
     },
     {
@@ -909,11 +924,6 @@
       "count": 5
     },
     {
-      "title": "なんでもないや",
-      "artist": "RADWIMPS",
-      "count": 5
-    },
-    {
       "title": "奏(かなで)",
       "artist": "スキマスイッチ",
       "count": 5
@@ -941,11 +951,6 @@
     {
       "title": "吉原ラメント",
       "artist": "亜沙",
-      "count": 5
-    },
-    {
-      "title": "渡月橋 ~君 想ふ~",
-      "artist": "倉木麻衣",
       "count": 5
     },
     {
@@ -1056,11 +1061,6 @@
     {
       "title": "再会",
       "artist": "LiSA×Uru",
-      "count": 5
-    },
-    {
-      "title": "シュガーソングとビターステップ",
-      "artist": "UNISON SQUARE GARDEN",
       "count": 5
     },
     {
@@ -1574,6 +1574,11 @@
       "count": 4
     },
     {
+      "title": "やさしさで溢れるように",
+      "artist": "JUJU",
+      "count": 4
+    },
+    {
       "title": "Together",
       "artist": "あきよしふみえ",
       "count": 4
@@ -1641,6 +1646,11 @@
     {
       "title": "だいしきゅーだいしゅき",
       "artist": "femme fatale",
+      "count": 3
+    },
+    {
+      "title": "さよならエレジー",
+      "artist": "菅田将暉",
       "count": 3
     },
     {
@@ -1794,6 +1804,11 @@
       "count": 3
     },
     {
+      "title": "打上花火",
+      "artist": "DAOKO × 米津玄師",
+      "count": 3
+    },
+    {
       "title": "YUME日和",
       "artist": "島谷ひとみ",
       "count": 3
@@ -1801,6 +1816,11 @@
     {
       "title": "世界は恋に落ちている",
       "artist": "CHiCO with HoneyWorks",
+      "count": 3
+    },
+    {
+      "title": "喧嘩上等",
+      "artist": "氣志團",
       "count": 3
     },
     {
@@ -2144,6 +2164,11 @@
       "count": 3
     },
     {
+      "title": "ポニーテールとシュシュ",
+      "artist": "AKB48",
+      "count": 3
+    },
+    {
       "title": "ワーワーワールド",
       "artist": "Giga, Mitchie M",
       "count": 3
@@ -2151,11 +2176,6 @@
     {
       "title": "オツキミリサイタル",
       "artist": "じん",
-      "count": 3
-    },
-    {
-      "title": "やさしさで溢れるように",
-      "artist": "JUJU",
       "count": 3
     },
     {
@@ -2339,11 +2359,6 @@
       "count": 2
     },
     {
-      "title": "さよならエレジー",
-      "artist": "菅田将暉",
-      "count": 2
-    },
-    {
       "title": "青いベンチ",
       "artist": "サスケ",
       "count": 2
@@ -2484,6 +2499,11 @@
       "count": 2
     },
     {
+      "title": "君って",
+      "artist": "西野カナ",
+      "count": 2
+    },
+    {
       "title": "if",
       "artist": "西野カナ",
       "count": 2
@@ -2504,11 +2524,6 @@
       "count": 2
     },
     {
-      "title": "打上花火",
-      "artist": "DAOKO × 米津玄師",
-      "count": 2
-    },
-    {
       "title": "Deep in Abyss",
       "artist": "リコ (富田美憂),レグ (伊瀬茉莉也)",
       "count": 2
@@ -2526,11 +2541,6 @@
     {
       "title": "SCANDAL BABY",
       "artist": "SCANDAL",
-      "count": 2
-    },
-    {
-      "title": "喧嘩上等",
-      "artist": "氣志團",
       "count": 2
     },
     {
@@ -2689,6 +2699,11 @@
       "count": 2
     },
     {
+      "title": "前前前世",
+      "artist": "RADWIMPS",
+      "count": 2
+    },
+    {
       "title": "命ばっかり",
       "artist": "ぬゆり",
       "count": 2
@@ -2804,6 +2819,11 @@
       "count": 2
     },
     {
+      "title": "白日",
+      "artist": "King Gnu",
+      "count": 2
+    },
+    {
       "title": "英雄 運命の詩",
       "artist": "EGOIST",
       "count": 2
@@ -2876,6 +2896,11 @@
     {
       "title": "Happy Halloween",
       "artist": "Junky",
+      "count": 2
+    },
+    {
+      "title": "サラバ、愛しき悲しみたちよ",
+      "artist": "ももいろクローバーZ",
       "count": 2
     },
     {
@@ -2976,6 +3001,11 @@
     {
       "title": "ライラック",
       "artist": "美波",
+      "count": 2
+    },
+    {
+      "title": "Gee",
+      "artist": "少女時代",
       "count": 2
     },
     {
@@ -3204,11 +3234,6 @@
       "count": 2
     },
     {
-      "title": "ポニーテールとシュシュ",
-      "artist": "AKB48",
-      "count": 2
-    },
-    {
       "title": "ワルキューレがとまらない",
       "artist": "ワルキューレ",
       "count": 2
@@ -3216,6 +3241,11 @@
     {
       "title": "火炎",
       "artist": "女王蜂",
+      "count": 2
+    },
+    {
+      "title": "この夜を止めてよ",
+      "artist": "JUJU",
       "count": 2
     },
     {
@@ -3381,6 +3411,11 @@
     {
       "title": "邪魔",
       "artist": "syudou",
+      "count": 2
+    },
+    {
+      "title": "YELL",
+      "artist": "いきものがかり",
       "count": 2
     },
     {
@@ -3794,11 +3829,6 @@
       "count": 1
     },
     {
-      "title": "君って",
-      "artist": "西野カナ",
-      "count": 1
-    },
-    {
       "title": "ROCK Mode'18",
       "artist": "LiSA",
       "count": 1
@@ -3939,11 +3969,6 @@
       "count": 1
     },
     {
-      "title": "前前前世",
-      "artist": "RADWIMPS",
-      "count": 1
-    },
-    {
       "title": "心拍数♯0822",
       "artist": "蝶々P",
       "count": 1
@@ -4051,11 +4076,6 @@
     {
       "title": "すろぉもぉしょん",
       "artist": "ピノキオピー",
-      "count": 1
-    },
-    {
-      "title": "白日",
-      "artist": "King Gnu",
       "count": 1
     },
     {
@@ -4206,11 +4226,6 @@
     {
       "title": "ラズベリー*モンスター",
       "artist": "CHiCO with HoneyWorks",
-      "count": 1
-    },
-    {
-      "title": "サラバ、愛しき悲しみたちよ",
-      "artist": "ももいろクローバーZ",
       "count": 1
     },
     {
@@ -4366,11 +4381,6 @@
     {
       "title": "EYES,NOSE,LIPS",
       "artist": "SOL (from BIGBANG)",
-      "count": 1
-    },
-    {
-      "title": "Gee",
-      "artist": "少女時代",
       "count": 1
     },
     {
@@ -4781,11 +4791,6 @@
     {
       "title": "Why? (Keep Your Head Down)",
       "artist": "東方神起",
-      "count": 1
-    },
-    {
-      "title": "この夜を止めてよ",
-      "artist": "JUJU",
       "count": 1
     },
     {
@@ -5214,11 +5219,6 @@
       "count": 1
     },
     {
-      "title": "YELL",
-      "artist": "いきものがかり",
-      "count": 1
-    },
-    {
       "title": "ココロナンセンス",
       "artist": "かいりきベア",
       "count": 1
@@ -5641,6 +5641,56 @@
     {
       "title": "うまぴょい伝説",
       "artist": "プリティーダービー",
+      "count": 1
+    },
+    {
+      "title": "RONDO",
+      "artist": "龍宮城",
+      "count": 1
+    },
+    {
+      "title": "会いたくて 会いたくて",
+      "artist": "西野カナ",
+      "count": 1
+    },
+    {
+      "title": "マリーゴールド",
+      "artist": "あいみょん",
+      "count": 1
+    },
+    {
+      "title": "恋音と雨空",
+      "artist": "AAA",
+      "count": 1
+    },
+    {
+      "title": "女々しくて",
+      "artist": "ゴールデンボンバー",
+      "count": 1
+    },
+    {
+      "title": "ありがとう",
+      "artist": "いきものがかり",
+      "count": 1
+    },
+    {
+      "title": "ガラスを割れ!",
+      "artist": "欅坂46",
+      "count": 1
+    },
+    {
+      "title": "GIVE ME FIVE!",
+      "artist": "AKB48",
+      "count": 1
+    },
+    {
+      "title": "糸",
+      "artist": "中島みゆき",
+      "count": 1
+    },
+    {
+      "title": "雪の音",
+      "artist": "GRe4N BOYZ",
       "count": 1
     },
     {
@@ -6099,6 +6149,7 @@
     "7!!",
     "9Lana",
     "A-RISE",
+    "AAA",
     "AKB48",
     "AKINO",
     "AKINO from bless4",
@@ -6157,6 +6208,7 @@
     "FUNKIST",
     "GARNiDELiA",
     "GEMN",
+    "GRe4N BOYZ",
     "GReeeeN",
     "Giga",
     "Giga, Mitchie M",
@@ -6399,6 +6451,7 @@
     "クワガタP",
     "グリン",
     "コレサワ",
+    "ゴールデンボンバー",
     "サスケ",
     "サツキ",
     "サトシ (松本梨香)&ヒカリ (豊口めぐみ)",
@@ -6457,6 +6510,7 @@
     "ヰ世界情緒",
     "一青窈",
     "七月半 SevenFat",
+    "中島みゆき",
     "中島美嘉",
     "中川翔子",
     "中王区 言の葉党",
@@ -6640,6 +6694,7 @@
     "麦わらの一味 (田中真弓,中井和哉,岡村明美,山口勝平,平田広明,大谷育江,山口由里子,矢尾一樹,チョー)",
     "黒うさP",
     "黒澤ルビィ (降幡愛) from Aqours",
-    "黛冬優子"
+    "黛冬優子",
+    "龍宮城"
   ]
 }
