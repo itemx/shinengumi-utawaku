@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-04-26T12:32:40.181360+00:00",
+  "lastFetched": "2026-04-27T01:32:23.825435+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -28811,6 +28811,24 @@
       ],
       "sourceCommentId": "issue#17",
       "type": "stream"
+    },
+    {
+      "videoId": "NwRnEmjJ7ak",
+      "title": "RADIANT FORCE /covered 涼風しとら 白玖ウタノ 石狩あかり 【歌ってみた】",
+      "publishedAt": "2026-04-26T12:00:06Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "RADIANT FORCE",
+          "titleRaw": "RADIANT FORCE",
+          "artist": "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
+          "artistRaw": "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
+          "url": "https://youtu.be/NwRnEmjJ7ak?t=0"
+        }
+      ],
+      "sourceCommentId": "issue#16",
+      "type": "cover"
     }
   ]
 }
