@@ -143,11 +143,17 @@ def _split_title_artist(text: str) -> tuple[str, str]:
     return text, ""
 
 
-def parse_comment(text: str) -> list[SongEntry] | None:
+def parse_comment(
+    text: str, min_songs: int = 3, skip_zero: bool = True
+) -> list[SongEntry] | None:
     """解析留言文字，擷取歌曲列表。
 
     Args:
         text: 留言原始文字。
+        min_songs: 最少需要解析出幾首歌才視為有效 setlist (預設 3)。
+            對於 cover/original 投稿，可設為 1。
+        skip_zero: 是否跳過 0:00 timestamp (預設 True，因為通常是配信開始標記)。
+            對於 cover/original 投稿，應設為 False。
 
     Returns:
         解析出的歌曲列表，若非セトリ留言則返回 None。
@@ -174,8 +180,8 @@ def parse_comment(text: str) -> list[SongEntry] | None:
     for ts_str, rest in matches:
         seconds = timestamp_to_seconds(ts_str)
 
-        # 跳過 0:00 (通常是配信開始標記)
-        if seconds == 0:
+        # 跳過 0:00 (通常是配信開始標記，但 cover/original 不跳過)
+        if skip_zero and seconds == 0:
             continue
 
         # 清理 rest
@@ -202,11 +208,8 @@ def parse_comment(text: str) -> list[SongEntry] | None:
             artist_raw=artist,
         ))
 
-    # 至少 3 曲才視為セトリ
-    if len(songs) < 3:
-        return None
-
-    if len(songs) < 3:
+    # 至少 min_songs 曲才視為有效 setlist
+    if len(songs) < min_songs:
         return None
 
     return songs

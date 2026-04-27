@@ -107,7 +107,12 @@ def main():
     print(f"  影片: {video_title} ({video_id})")
 
     # 解析セトリ
-    songs = parse_comment(setlist_text)
+    # cover/original/short 為單曲投稿: 允許 1 首、保留 0:00
+    vid_type = metadata.get("type", "stream")
+    if vid_type in ("cover", "original", "short"):
+        songs = parse_comment(setlist_text, min_songs=1, skip_zero=False)
+    else:
+        songs = parse_comment(setlist_text)
     if songs is None:
         print("  ❌ 無法解析セトリ")
         sys.exit(1)
@@ -191,7 +196,6 @@ def main():
             print(f"  ⚠ 無法取得發布日期: {e}")
 
     # 建立 video entry
-    vid_type = metadata.get("type", "stream")
     video_entry = {
         "videoId": video_id,
         "title": video_title,
