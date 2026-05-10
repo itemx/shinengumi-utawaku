@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1246,
-  "uniqueTitles": 1226,
-  "uniqueArtists": 565,
+  "totalEntries": 1257,
+  "uniqueTitles": 1236,
+  "uniqueArtists": 568,
   "songs": [
     {
       "title": "残響散歌",
@@ -424,6 +424,11 @@
       "count": 8
     },
     {
+      "title": "PAPERMOON",
+      "artist": "Tommy heavenly6",
+      "count": 8
+    },
+    {
       "title": "chAngE",
       "artist": "miwa",
       "count": 8
@@ -504,6 +509,11 @@
       "count": 7
     },
     {
+      "title": "アイディスマイル",
+      "artist": "とあ",
+      "count": 7
+    },
+    {
       "title": "変わらないもの",
       "artist": "奥華子",
       "count": 7
@@ -566,11 +576,6 @@
     {
       "title": "咲かせや咲かせ",
       "artist": "EGOIST",
-      "count": 7
-    },
-    {
-      "title": "PAPERMOON",
-      "artist": "Tommy heavenly6",
       "count": 7
     },
     {
@@ -639,6 +644,11 @@
       "count": 6
     },
     {
+      "title": "ツキアカリのミチシルベ",
+      "artist": "ステレオポニー",
+      "count": 6
+    },
+    {
       "title": "思想犯",
       "artist": "ヨルシカ",
       "count": 6
@@ -656,11 +666,6 @@
     {
       "title": "綺麗事",
       "artist": "星街すいせい",
-      "count": 6
-    },
-    {
-      "title": "アイディスマイル",
-      "artist": "とあ",
       "count": 6
     },
     {
@@ -869,11 +874,6 @@
       "count": 5
     },
     {
-      "title": "ツキアカリのミチシルベ",
-      "artist": "ステレオポニー",
-      "count": 5
-    },
-    {
       "title": "現状ディストラクション",
       "artist": "SPYAIR",
       "count": 5
@@ -946,6 +946,11 @@
     {
       "title": "ヤミタイガール",
       "artist": "れるりり",
+      "count": 5
+    },
+    {
+      "title": "誰にもなれない私だから",
+      "artist": "トゲナシトゲアリ",
       "count": 5
     },
     {
@@ -1364,11 +1369,6 @@
       "count": 4
     },
     {
-      "title": "誰にもなれない私だから",
-      "artist": "トゲナシトゲアリ",
-      "count": 4
-    },
-    {
       "title": "ニア",
       "artist": "夏代孝明",
       "count": 4
@@ -1671,6 +1671,11 @@
     {
       "title": "命に嫌われている",
       "artist": "カンザキイオリ",
+      "count": 4
+    },
+    {
+      "title": "ダダダダ天使",
+      "artist": "ナナヲアカリ",
       "count": 4
     },
     {
@@ -2014,6 +2019,11 @@
       "count": 3
     },
     {
+      "title": "憂、燦々",
+      "artist": "クリープハイプ",
+      "count": 3
+    },
+    {
       "title": "GO!!!",
       "artist": "FLOW",
       "count": 3
@@ -2104,6 +2114,11 @@
       "count": 3
     },
     {
+      "title": "don't cry anymore",
+      "artist": "miwa",
+      "count": 3
+    },
+    {
       "title": "完全感覚Dreamer",
       "artist": "ONE OK ROCK",
       "count": 3
@@ -2136,6 +2151,11 @@
     {
       "title": "お返事まだカナ💦❓おじさん構文😁❗",
       "artist": "吉本おじさん",
+      "count": 3
+    },
+    {
+      "title": "くりてぃかる♡ぷりちー",
+      "artist": "iLiFE!",
       "count": 3
     },
     {
@@ -2324,6 +2344,11 @@
       "count": 3
     },
     {
+      "title": "おねがいダーリン",
+      "artist": "ナナホシ管弦楽団",
+      "count": 3
+    },
+    {
       "title": "いかないで",
       "artist": "想太",
       "count": 3
@@ -2336,11 +2361,6 @@
     {
       "title": "アディショナルメモリー",
       "artist": "じん",
-      "count": 3
-    },
-    {
-      "title": "ダダダダ天使",
-      "artist": "ナナヲアカリ",
       "count": 3
     },
     {
@@ -2459,6 +2479,11 @@
       "count": 2
     },
     {
+      "title": "マコトシヤカ",
+      "artist": "LiSA",
+      "count": 2
+    },
+    {
       "title": "カーマイン",
       "artist": "ELLEGARDEN",
       "count": 2
@@ -2481,6 +2506,11 @@
     {
       "title": "シンメトリー",
       "artist": "ReGLOSS",
+      "count": 2
+    },
+    {
+      "title": "星に願いを",
+      "artist": "flumpool",
       "count": 2
     },
     {
@@ -2814,11 +2844,6 @@
       "count": 2
     },
     {
-      "title": "憂、燦々",
-      "artist": "クリープハイプ",
-      "count": 2
-    },
-    {
       "title": "アンヘル",
       "artist": "かいりきベア",
       "count": 2
@@ -2899,6 +2924,11 @@
       "count": 2
     },
     {
+      "title": "なまらめんこいギャル",
+      "artist": "オーイシマサヨシ",
+      "count": 2
+    },
+    {
       "title": "白日",
       "artist": "King Gnu",
       "count": 2
@@ -2929,6 +2959,11 @@
       "count": 2
     },
     {
+      "title": "キュンとクラフト",
+      "artist": "iLiFE!",
+      "count": 2
+    },
+    {
       "title": "不確定性COSMIC MOVEMENT",
       "artist": "ワルキューレ",
       "count": 2
@@ -2945,6 +2980,11 @@
     },
     {
       "title": "ヴィーナス",
+      "artist": "女王蜂",
+      "count": 2
+    },
+    {
+      "title": "BL",
       "artist": "女王蜂",
       "count": 2
     },
@@ -2991,11 +3031,6 @@
     {
       "title": "Dancing stars on me!",
       "artist": "μ's",
-      "count": 2
-    },
-    {
-      "title": "don't cry anymore",
-      "artist": "miwa",
       "count": 2
     },
     {
@@ -3064,8 +3099,8 @@
       "count": 2
     },
     {
-      "title": "くりてぃかる♡ぷりちー",
-      "artist": "iLiFE!",
+      "title": "アニメじゃない ~夢を忘れた古い地球人よ~",
+      "artist": "新井正人",
       "count": 2
     },
     {
@@ -3079,8 +3114,18 @@
       "count": 2
     },
     {
+      "title": "翔べ!ガンダム",
+      "artist": "池田鴻",
+      "count": 2
+    },
+    {
       "title": "INVOKE",
       "artist": "T.M.Revolution",
+      "count": 2
+    },
+    {
+      "title": "Reason",
+      "artist": "玉置成実",
       "count": 2
     },
     {
@@ -3324,6 +3369,11 @@
       "count": 2
     },
     {
+      "title": "PRIDE",
+      "artist": "女王蜂",
+      "count": 2
+    },
+    {
       "title": "火炎",
       "artist": "女王蜂",
       "count": 2
@@ -3469,11 +3519,6 @@
       "count": 2
     },
     {
-      "title": "おねがいダーリン",
-      "artist": "ナナホシ管弦楽団",
-      "count": 2
-    },
-    {
       "title": "アイロニ",
       "artist": "すこっぷ",
       "count": 2
@@ -3549,6 +3594,11 @@
       "count": 2
     },
     {
+      "title": "チューリングラブ",
+      "artist": "ナナヲアカリ",
+      "count": 2
+    },
+    {
       "title": "ニコニコ動画流星群",
       "artist": "しも",
       "count": 2
@@ -3589,6 +3639,11 @@
       "count": 2
     },
     {
+      "title": "アイ・アイ・ア",
+      "artist": "Ado",
+      "count": 2
+    },
+    {
       "title": "夏祭り",
       "artist": "Whiteberry",
       "count": 2
@@ -3606,6 +3661,11 @@
     {
       "title": "ブラックボックス",
       "artist": "LiSA",
+      "count": 2
+    },
+    {
+      "title": "振り向いてGOD",
+      "artist": "涼風しとら",
       "count": 2
     },
     {
@@ -3769,18 +3829,8 @@
       "count": 1
     },
     {
-      "title": "マコトシヤカ",
-      "artist": "LiSA",
-      "count": 1
-    },
-    {
       "title": "SUMMER SONG",
       "artist": "YUI",
-      "count": 1
-    },
-    {
-      "title": "星に願いを",
-      "artist": "flumpool",
       "count": 1
     },
     {
@@ -4129,11 +4179,6 @@
       "count": 1
     },
     {
-      "title": "なまらめんこいギャル",
-      "artist": "オーイシマサヨシ",
-      "count": 1
-    },
-    {
       "title": "粉雪",
       "artist": "レミオロメン",
       "count": 1
@@ -4194,11 +4239,6 @@
       "count": 1
     },
     {
-      "title": "キュンとクラフト",
-      "artist": "iLiFE!",
-      "count": 1
-    },
-    {
       "title": "Meteor",
       "artist": "T.M.Revolution",
       "count": 1
@@ -4236,11 +4276,6 @@
     {
       "title": "果てない空",
       "artist": "嵐",
-      "count": 1
-    },
-    {
-      "title": "BL",
-      "artist": "女王蜂",
       "count": 1
     },
     {
@@ -4359,11 +4394,6 @@
       "count": 1
     },
     {
-      "title": "アニメじゃない ~夢を忘れた古い地球人よ~",
-      "artist": "新井正人",
-      "count": 1
-    },
-    {
       "title": "うい麦畑でつかまえて",
       "artist": "しぐれうい",
       "count": 1
@@ -4379,11 +4409,6 @@
       "count": 1
     },
     {
-      "title": "翔べ!ガンダム",
-      "artist": "池田鴻",
-      "count": 1
-    },
-    {
       "title": "Z・刻をこえて",
       "artist": "鮎川麻弥",
       "count": 1
@@ -4396,11 +4421,6 @@
     {
       "title": "ignited –イグナイテッド–",
       "artist": "T.M.Revolution",
-      "count": 1
-    },
-    {
-      "title": "Reason",
-      "artist": "玉置成実",
       "count": 1
     },
     {
@@ -4816,11 +4836,6 @@
     {
       "title": "That Is How I Roll!",
       "artist": "Afterglow",
-      "count": 1
-    },
-    {
-      "title": "PRIDE",
-      "artist": "女王蜂",
       "count": 1
     },
     {
@@ -5369,11 +5384,6 @@
       "count": 1
     },
     {
-      "title": "チューリングラブ",
-      "artist": "ナナヲアカリ",
-      "count": 1
-    },
-    {
       "title": "全力バタンキュー",
       "artist": "A応P",
       "count": 1
@@ -5551,11 +5561,6 @@
     {
       "title": "ボッカデラベリタ",
       "artist": "柊キライ",
-      "count": 1
-    },
-    {
-      "title": "アイ・アイ・ア",
-      "artist": "Ado",
       "count": 1
     },
     {
@@ -5806,6 +5811,56 @@
     {
       "title": "ジェットロケット",
       "artist": "LiSA",
+      "count": 1
+    },
+    {
+      "title": "Happiness",
+      "artist": "嵐",
+      "count": 1
+    },
+    {
+      "title": "インスタントヘヴン feat.Eve",
+      "artist": "ナナヲアカリ",
+      "count": 1
+    },
+    {
+      "title": "モア!ジャンプ!モア!",
+      "artist": "MORE MORE JUMP!",
+      "count": 1
+    },
+    {
+      "title": "ころころガール",
+      "artist": "iLiFE!",
+      "count": 1
+    },
+    {
+      "title": "回春",
+      "artist": "女王蜂",
+      "count": 1
+    },
+    {
+      "title": "ブラッディ・グルービー",
+      "artist": "ChroNoiR",
+      "count": 1
+    },
+    {
+      "title": "Pray",
+      "artist": "Tommy heavenly6",
+      "count": 1
+    },
+    {
+      "title": "ヒトヒラのハナビラ",
+      "artist": "ステレオポニー",
+      "count": 1
+    },
+    {
+      "title": "泪のムコウ",
+      "artist": "ステレオポニー",
+      "count": 1
+    },
+    {
+      "title": "DAYBREAK'S BELL",
+      "artist": "L'Arc-en-Ciel",
       "count": 1
     },
     {
@@ -6278,6 +6333,7 @@
     "CUTIE STREET",
     "Chinozo",
     "Choisauce (獅子志司)",
+    "ChroNoiR",
     "ClariS",
     "Creepy Nuts",
     "Cö shu Nie",
@@ -6331,6 +6387,7 @@
     "King Gnu",
     "Kiroro",
     "Kobo Kanaeru",
+    "L'Arc-en-Ciel",
     "LUMi",
     "Last Note.",
     "LiSA",
@@ -6345,6 +6402,7 @@
     "MARETU",
     "ME:I",
     "MI8k (ナポリP)",
+    "MORE MORE JUMP!",
     "MOSAIC.WAV",
     "MY FIRST STORY",
     "MYTH & ROID",
