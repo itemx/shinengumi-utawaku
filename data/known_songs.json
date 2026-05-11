@@ -1,7 +1,13 @@
 {
+<<<<<<< Updated upstream
   "totalEntries": 1257,
   "uniqueTitles": 1236,
   "uniqueArtists": 568,
+=======
+  "totalEntries": 1230,
+  "uniqueTitles": 1215,
+  "uniqueArtists": 558,
+>>>>>>> Stashed changes
   "songs": [
     {
       "title": "残響散歌",
@@ -755,7 +761,7 @@
     },
     {
       "title": "可愛くてごめん",
-      "artist": "CHiCO with HoneyWorks",
+      "artist": "HoneyWorks",
       "count": 6
     },
     {
@@ -1854,6 +1860,11 @@
       "count": 3
     },
     {
+      "title": "アイのシナリオ",
+      "artist": "CHiCO with HoneyWorks",
+      "count": 3
+    },
+    {
       "title": "ネオネオン",
       "artist": "DECO*27",
       "count": 3
@@ -1870,7 +1881,7 @@
     },
     {
       "title": "金曜日のおはよう",
-      "artist": "CHiCO with HoneyWorks",
+      "artist": "HoneyWorks",
       "count": 3
     },
     {
@@ -3360,7 +3371,7 @@
     },
     {
       "title": "可愛くなりたい",
-      "artist": "CHiCO with HoneyWorks",
+      "artist": "HoneyWorks",
       "count": 2
     },
     {
@@ -3605,7 +3616,7 @@
     },
     {
       "title": "竹取オーバーナイトセンセーション",
-      "artist": "CHiCO with HoneyWorks",
+      "artist": "HoneyWorks",
       "count": 2
     },
     {
@@ -4285,7 +4296,12 @@
     },
     {
       "title": "病名恋ワズライ",
-      "artist": "CHiCO with HoneyWorks",
+      "artist": "HoneyWorks",
+      "count": 1
+    },
+    {
+      "title": "アイのシナリオ",
+      "artist": "HoneyWorks",
       "count": 1
     },
     {
@@ -4320,7 +4336,7 @@
     },
     {
       "title": "ラズベリー*モンスター",
-      "artist": "CHiCO with HoneyWorks",
+      "artist": "HoneyWorks",
       "count": 1
     },
     {
@@ -4700,7 +4716,7 @@
     },
     {
       "title": "東京サマーセッション feat.CHICO",
-      "artist": "CHiCO with HoneyWorks",
+      "artist": "HoneyWorks",
       "count": 1
     },
     {
@@ -6371,6 +6387,7 @@
     "GuraMarine",
     "HIMEHINA",
     "Heavenz",
+    "HoneyWorks",
     "HoneyWorks 瀬戸口優 (神谷浩史)・榎本夏樹 (戸松遥)・望月蒼太 (梶裕貴)・早坂あかり (阿澄佳奈)・芹沢春輝 (鈴村健一)・合田美桜 (豊崎愛生)",
     "Islet",
     "JUDY AND MARY",

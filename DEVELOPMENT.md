@@ -5,14 +5,24 @@
 
 ---
 
+## Status Snapshot
+
+- The project is already beyond the original MVP planning stage.
+- `README.md` and this file reflect the current implementation more accurately than `task_plan.md`.
+- The static site, player bar, submit flow, and GitHub Actions workflows are implemented.
+- Current Python test status: `94 passed` via `PYTHONPATH=. ./.venv/bin/pytest -q`
+
+---
+
 ## Architecture Overview
 
 ```
 YouTube Data API v3
         │
         ▼
-  Python CLI (fetch.py)          GitHub Issues (submit page)
-        │                                │
+  Python scripts                        GitHub Issues (submit page)
+ (fetch / scan / build)                        │
+        │                                      │
         ▼                                ▼
   comment_parser.py              ingest_issue.py
   title_parser.py                        │
@@ -31,6 +41,9 @@ YouTube Data API v3
 Two data input paths:
 1. **CLI** (`python3 scripts/fetch.py <URL>`) — bulk fetch from YouTube API
 2. **Online** (`/submit` page → GitHub Issue → Action → auto-ingest)
+
+One scheduled maintenance path:
+3. **Auto scan** (`scripts/scan_new.py` via `scan.yml`) — periodic scan for recent videos and missing setlists
 
 ---
 
@@ -77,6 +90,7 @@ vutalist/
 ├── scripts/
 │   ├── fetch.py                  # CLI: fetch setlists from YouTube (main entry point)
 │   ├── ingest_issue.py           # Parse GitHub Issue → write to data/songs/
+│   ├── scan_new.py               # Scheduled scan for recent videos + update missing/
 │   ├── build_stats.py            # Generate _stats.json + auto-clean missing list
 │   ├── build_known_songs.py      # Generate known_songs.json (song→artist lookup)
 │   ├── find_missing.py           # Find streams without timestamp setlists
@@ -96,7 +110,8 @@ vutalist/
 │   └── _stats.json               # Auto-generated: aggregate stats for Astro
 ├── .github/workflows/
 │   ├── deploy.yml                # Build + deploy to GitHub Pages on push to main
-│   └── ingest-submission.yml     # Parse Issue → ingest → commit → deploy
+│   ├── ingest-submission.yml     # Parse Issue → ingest → commit → deploy
+│   └── scan.yml                  # Periodically scan new videos → update data → deploy
 └── public/
     ├── CNAME                     # seg-uta.i3x.tw
     ├── favicon.svg / favicon.ico
@@ -161,11 +176,24 @@ python3 scripts/fetch.py "https://www.youtube.com/watch?v=VIDEO_ID"
 ### 3. Build Pipeline
 
 ```bash
-# Full build (what deploy.yml runs)
+# Full local build
 python3 scripts/build_stats.py    # Generate _stats.json, clean missing lists
-python3 scripts/build_known_songs.py  # optional, for known_songs.json
+python3 scripts/build_known_songs.py  # refresh known_songs.json
 npx astro build                   # SSG → dist/
 ```
+
+`deploy.yml` currently runs `build_stats.py` and Astro build. `build_known_songs.py` is refreshed in ingest/scan workflows and can also be run locally when data changes.
+
+### 4. Scheduled Scan Flow (`scripts/scan_new.py`)
+
+1. GitHub Action `scan.yml` runs every 3 days or manually
+2. Searches registered channels for recent videos
+3. Skips already-ingested videos with songs
+4. Tries cover/original detection first
+5. For likely streams, tries comments and description parsing
+6. Writes successful ingests to `data/songs/{channelId}.json`
+7. Adds likely singing streams without setlists to `data/missing/{channelId}.json`
+8. Rebuilds stats + known songs, commits `data/`, and triggers deploy if changed
 
 ---
 
@@ -196,6 +224,15 @@ Applied to every song title and artist name:
 - Talk pattern filter: regex for `の話`, `トーク`, `について`, etc.
 - Song/artist separator: last `/` (rfind) — handles song names containing `/`
 - `pick_best_comment()`: scores by song count × 2 + likes, channel owner bonus
+
+### Client-side Mirrors (`src/lib/*.ts`)
+
+The submit page includes lightweight TypeScript mirrors for the most important parser logic:
+- `comment-parser.ts` for previewing manual stream setlists
+- `url-parser.ts` for validating YouTube URLs
+- inline normalizer logic in `submit.astro` for lightweight preview normalization
+
+Python remains the authority. Client-side parsing is only for preview and submission UX.
 
 ### Title Parser (`scripts/lib/title_parser.py`)
 
@@ -275,6 +312,18 @@ Client-side switching between Traditional Chinese (`zh`) and Japanese (`ja`).
 - **Mechanism:** `data-i18n` attributes on elements, `data-i18n-placeholder` for inputs, `data-i18n-title` on `<html>` for page title
 - **Dictionary:** `src/lib/i18n.ts` — flat key-value pairs per locale
 - **Dynamic DOM:** `window.__applyI18n()` exposed for refreshing i18n on dynamically created elements
+
+---
+
+## Current Frontend State
+
+- `Base.astro` includes the header, `/submit` entry point, footer, and global `PlayerBar`
+- `index.astro` renders channel cards from `channels.json` and `_stats.json`
+- `[channel].astro` renders tabs for streams, covers, shorts, all songs, missing, and stats
+- `song/[slug].astro` renders cross-channel song appearance history
+- `SongTable.astro` includes client-side filtering
+- `LangSwitch.astro` uses cookie + localStorage + browser detection
+- `PlayerBar.astro` handles `data-play` links and YouTube IFrame playback
 
 ---
 
@@ -430,6 +479,31 @@ for ch in ['UCSH2LgTRhPCsaVPW_emgDJg', 'UCoOPu8WqToJ4jHbBXY6NPrA']:
 - **All workflows verified:** submit → ingest → deploy pipeline working end-to-end
 - **Data quality:** Multiple rounds of normalization completed. Remaining multi-artist entries are genuine same-name-different-song cases (Q, 再会, Across the world).
 - **Submit page:** Client-side normalization (NFKC, alias lookup, feat. stripping, quote removal, wave dash) applied in preview before submission.
+
+---
+
+## Testing
+
+Python tests live under `scripts/tests/`.
+
+Run them with:
+
+```bash
+PYTHONPATH=. ./.venv/bin/pytest -q
+```
+
+Current observed status:
+- `94 passed`
+
+Directly running `pytest` without `PYTHONPATH=.` may fail module resolution for `scripts.*` imports depending on environment setup.
+
+---
+
+## Documentation Notes
+
+- `README.md` is the best entry point for onboarding and local setup.
+- This file is the detailed implementation reference.
+- `task_plan.md` is preserved as a historical planning document and does not fully reflect the current implementation state.
 
 ---
 
