@@ -1,18 +1,17 @@
 {
-<<<<<<< Updated upstream
-  "totalEntries": 1257,
-  "uniqueTitles": 1236,
-  "uniqueArtists": 568,
-=======
-  "totalEntries": 1230,
-  "uniqueTitles": 1215,
-  "uniqueArtists": 558,
->>>>>>> Stashed changes
+  "totalEntries": 1264,
+  "uniqueTitles": 1241,
+  "uniqueArtists": 572,
   "songs": [
     {
       "title": "残響散歌",
       "artist": "Aimer",
       "count": 19
+    },
+    {
+      "title": "創聖のアクエリオン",
+      "artist": "AKINO",
+      "count": 16
     },
     {
       "title": "少女S",
@@ -25,14 +24,9 @@
       "count": 15
     },
     {
-      "title": "創聖のアクエリオン",
-      "artist": "AKINO",
-      "count": 15
-    },
-    {
       "title": "怪物",
       "artist": "YOASOBI",
-      "count": 14
+      "count": 15
     },
     {
       "title": "ANIMA",
@@ -165,6 +159,11 @@
       "count": 11
     },
     {
+      "title": "コネクト",
+      "artist": "ClariS",
+      "count": 11
+    },
+    {
       "title": "シンデレラ",
       "artist": "DECO*27",
       "count": 11
@@ -172,6 +171,11 @@
     {
       "title": "星間飛行",
       "artist": "ランカ・リー",
+      "count": 10
+    },
+    {
+      "title": "花になって",
+      "artist": "緑黄色社会",
       "count": 10
     },
     {
@@ -192,6 +196,11 @@
     {
       "title": "ノーチラス",
       "artist": "ヨルシカ",
+      "count": 10
+    },
+    {
+      "title": "アイネクライネ",
+      "artist": "米津玄師",
       "count": 10
     },
     {
@@ -230,11 +239,6 @@
       "count": 10
     },
     {
-      "title": "コネクト",
-      "artist": "ClariS",
-      "count": 10
-    },
-    {
       "title": "藍二乗",
       "artist": "ヨルシカ",
       "count": 10
@@ -250,9 +254,9 @@
       "count": 10
     },
     {
-      "title": "花になって",
-      "artist": "緑黄色社会",
-      "count": 9
+      "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
+      "count": 10
     },
     {
       "title": "勇者",
@@ -262,6 +266,11 @@
     {
       "title": "Stellar Stellar",
       "artist": "星街すいせい",
+      "count": 9
+    },
+    {
+      "title": "ピースサイン",
+      "artist": "米津玄師",
       "count": 9
     },
     {
@@ -275,13 +284,13 @@
       "count": 9
     },
     {
-      "title": "SOS",
-      "artist": "黛冬優子",
+      "title": "名前のない怪物",
+      "artist": "EGOIST",
       "count": 9
     },
     {
-      "title": "アイネクライネ",
-      "artist": "米津玄師",
+      "title": "SOS",
+      "artist": "黛冬優子",
       "count": 9
     },
     {
@@ -345,16 +354,6 @@
       "count": 9
     },
     {
-      "title": "ただ君に晴れ",
-      "artist": "ヨルシカ",
-      "count": 9
-    },
-    {
-      "title": "ピースサイン",
-      "artist": "米津玄師",
-      "count": 8
-    },
-    {
       "title": "again",
       "artist": "YUI",
       "count": 8
@@ -370,11 +369,6 @@
       "count": 8
     },
     {
-      "title": "名前のない怪物",
-      "artist": "EGOIST",
-      "count": 8
-    },
-    {
       "title": "Mela!",
       "artist": "緑黄色社会",
       "count": 8
@@ -387,6 +381,11 @@
     {
       "title": "カタオモイ",
       "artist": "Aimer",
+      "count": 8
+    },
+    {
+      "title": "HARUKAZE",
+      "artist": "SCANDAL",
       "count": 8
     },
     {
@@ -447,6 +446,11 @@
     {
       "title": "新時代",
       "artist": "Ado",
+      "count": 8
+    },
+    {
+      "title": "群青",
+      "artist": "YOASOBI",
       "count": 8
     },
     {
@@ -525,11 +529,6 @@
       "count": 7
     },
     {
-      "title": "HARUKAZE",
-      "artist": "SCANDAL",
-      "count": 7
-    },
-    {
       "title": "青春コンプレックス",
       "artist": "結束バンド",
       "count": 7
@@ -595,11 +594,6 @@
       "count": 7
     },
     {
-      "title": "群青",
-      "artist": "YOASOBI",
-      "count": 7
-    },
-    {
       "title": "シュガーソングとビターステップ",
       "artist": "UNISON SQUARE GARDEN",
       "count": 7
@@ -607,6 +601,11 @@
     {
       "title": "Tot Musica",
       "artist": "Ado",
+      "count": 7
+    },
+    {
+      "title": "君の知らない物語",
+      "artist": "ryo (supercell)",
       "count": 7
     },
     {
@@ -667,6 +666,11 @@
     {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
+      "count": 6
+    },
+    {
+      "title": "レクイエム",
+      "artist": "Kanaria",
       "count": 6
     },
     {
@@ -795,6 +799,11 @@
       "count": 6
     },
     {
+      "title": "夜に駆ける",
+      "artist": "YOASOBI",
+      "count": 6
+    },
+    {
       "title": "からくりピエロ",
       "artist": "40mP",
       "count": 6
@@ -825,8 +834,8 @@
       "count": 6
     },
     {
-      "title": "君の知らない物語",
-      "artist": "ryo (supercell)",
+      "title": "ライオン",
+      "artist": "May'n & 中島愛",
       "count": 6
     },
     {
@@ -842,6 +851,11 @@
     {
       "title": "ハロ/ハワユ",
       "artist": "ナノウ",
+      "count": 6
+    },
+    {
+      "title": "ワールドイズマイン",
+      "artist": "ryo (supercell)",
       "count": 6
     },
     {
@@ -975,11 +989,6 @@
       "count": 5
     },
     {
-      "title": "レクイエム",
-      "artist": "Kanaria",
-      "count": 5
-    },
-    {
       "title": "Beautiful World",
       "artist": "宇多田ヒカル",
       "count": 5
@@ -987,11 +996,6 @@
     {
       "title": "ミカヅキ",
       "artist": "さユり",
-      "count": 5
-    },
-    {
-      "title": "アイのシナリオ",
-      "artist": "CHiCO with HoneyWorks",
       "count": 5
     },
     {
@@ -1130,11 +1134,6 @@
       "count": 5
     },
     {
-      "title": "夜に駆ける",
-      "artist": "YOASOBI",
-      "count": 5
-    },
-    {
       "title": "そばかす",
       "artist": "JUDY AND MARY",
       "count": 5
@@ -1200,11 +1199,6 @@
       "count": 5
     },
     {
-      "title": "ライオン",
-      "artist": "May'n & 中島愛",
-      "count": 5
-    },
-    {
       "title": "いのちの名前",
       "artist": "木村弓",
       "count": 5
@@ -1235,6 +1229,11 @@
       "count": 5
     },
     {
+      "title": "ヒトガタ",
+      "artist": "HIMEHINA",
+      "count": 5
+    },
+    {
       "title": "resonance",
       "artist": "T.M.Revolution",
       "count": 5
@@ -1262,11 +1261,6 @@
     {
       "title": "モザイクロール",
       "artist": "DECO*27",
-      "count": 5
-    },
-    {
-      "title": "ワールドイズマイン",
-      "artist": "ryo (supercell)",
       "count": 5
     },
     {
@@ -1395,6 +1389,11 @@
       "count": 4
     },
     {
+      "title": "アイのシナリオ",
+      "artist": "CHiCO with HoneyWorks",
+      "count": 4
+    },
+    {
       "title": "SAKURAグッバイ",
       "artist": "SCANDAL",
       "count": 4
@@ -1510,6 +1509,11 @@
       "count": 4
     },
     {
+      "title": "only my railgun",
+      "artist": "fripSide",
+      "count": 4
+    },
+    {
       "title": "もってけ!セーラーふく",
       "artist": "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
       "count": 4
@@ -1620,11 +1624,6 @@
       "count": 4
     },
     {
-      "title": "ヒトガタ",
-      "artist": "HIMEHINA",
-      "count": 4
-    },
-    {
       "title": "妄想税",
       "artist": "DECO*27",
       "count": 4
@@ -1687,6 +1686,11 @@
     {
       "title": "メランコリック",
       "artist": "Junky",
+      "count": 4
+    },
+    {
+      "title": "地球最後の告白を",
+      "artist": "kemu",
       "count": 4
     },
     {
@@ -1860,11 +1864,6 @@
       "count": 3
     },
     {
-      "title": "アイのシナリオ",
-      "artist": "CHiCO with HoneyWorks",
-      "count": 3
-    },
-    {
       "title": "ネオネオン",
       "artist": "DECO*27",
       "count": 3
@@ -2010,11 +2009,6 @@
       "count": 3
     },
     {
-      "title": "only my railgun",
-      "artist": "fripSide",
-      "count": 3
-    },
-    {
       "title": "Los! Los! Los!",
       "artist": "ターニャ・デグレチャフ (悠木碧)",
       "count": 3
@@ -2102,6 +2096,11 @@
     {
       "title": "女子校戦争",
       "artist": "SILENT SIREN",
+      "count": 3
+    },
+    {
+      "title": "英雄 運命の詩",
+      "artist": "EGOIST",
       "count": 3
     },
     {
@@ -2390,11 +2389,6 @@
       "count": 3
     },
     {
-      "title": "地球最後の告白を",
-      "artist": "kemu",
-      "count": 3
-    },
-    {
       "title": "青空のラプソディ",
       "artist": "fhána",
       "count": 3
@@ -2417,6 +2411,11 @@
     {
       "title": "Endless Story",
       "artist": "田村ゆかり",
+      "count": 3
+    },
+    {
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
       "count": 3
     },
     {
@@ -2452,6 +2451,11 @@
     {
       "title": "あなたの夜が明けるまで",
       "artist": "傘村トータ",
+      "count": 3
+    },
+    {
+      "title": "heavenly blue",
+      "artist": "Kalafina",
       "count": 3
     },
     {
@@ -2942,11 +2946,6 @@
     {
       "title": "白日",
       "artist": "King Gnu",
-      "count": 2
-    },
-    {
-      "title": "英雄 運命の詩",
-      "artist": "EGOIST",
       "count": 2
     },
     {
@@ -3695,11 +3694,6 @@
       "count": 2
     },
     {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
-      "count": 2
-    },
-    {
       "title": "マーメイドシアター",
       "artist": "奏音69",
       "count": 2
@@ -3810,8 +3804,8 @@
       "count": 2
     },
     {
-      "title": "heavenly blue",
-      "artist": "Kalafina",
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
       "count": 2
     },
     {
@@ -6220,11 +6214,6 @@
       "count": 1
     },
     {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
-      "count": 1
-    },
-    {
       "title": "Preserved Roses",
       "artist": "T.M.Revolution×水樹奈々",
       "count": 1
@@ -6303,6 +6292,36 @@
       "title": "チェリー",
       "artist": "スピッツ",
       "count": 1
+    },
+    {
+      "title": "私は、わたしの事が好き。",
+      "artist": "HoneyWorks",
+      "count": 1
+    },
+    {
+      "title": "奈落の花",
+      "artist": "島みやえい子",
+      "count": 1
+    },
+    {
+      "title": "ただ声一つ",
+      "artist": "ロクデナシ",
+      "count": 1
+    },
+    {
+      "title": "Petals",
+      "artist": "Orangestar",
+      "count": 1
+    },
+    {
+      "title": "ファンサ",
+      "artist": "HoneyWorks",
+      "count": 1
+    },
+    {
+      "title": "君の神話 ~アクエリオン第二章",
+      "artist": "AKINO with bless4",
+      "count": 1
     }
   ],
   "artists": [
@@ -6319,6 +6338,7 @@
     "AKB48",
     "AKINO",
     "AKINO from bless4",
+    "AKINO with bless4",
     "ALI PROJECT",
     "AMOYAMO",
     "ASCA",
@@ -6682,6 +6702,7 @@
     "リリぴ",
     "レミオロメン",
     "レム (水瀬いのり)",
+    "ロクデナシ",
     "ワルキューレ",
     "ヰ世界情緒",
     "一青窈",
@@ -6740,6 +6761,7 @@
     "小日向美穂 (津田美波)、双葉杏 (五十嵐裕美)、前川みく (高森奈津美)",
     "少女時代",
     "岩崎良美",
+    "島みやえい子",
     "島村卯月 (大橋彩香)",
     "島谷ひとみ",
     "嵐",
