@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1264,
-  "uniqueTitles": 1241,
-  "uniqueArtists": 572,
+  "totalEntries": 1268,
+  "uniqueTitles": 1245,
+  "uniqueArtists": 574,
   "songs": [
     {
       "title": "残響散歌",
@@ -29,6 +29,11 @@
       "count": 15
     },
     {
+      "title": "少女レイ",
+      "artist": "みきとP",
+      "count": 15
+    },
+    {
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 14
@@ -44,11 +49,6 @@
       "count": 14
     },
     {
-      "title": "少女レイ",
-      "artist": "みきとP",
-      "count": 14
-    },
-    {
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
       "count": 13
@@ -56,6 +56,11 @@
     {
       "title": "紅蓮華",
       "artist": "LiSA",
+      "count": 13
+    },
+    {
+      "title": "花に亡霊",
+      "artist": "ヨルシカ",
       "count": 13
     },
     {
@@ -91,11 +96,6 @@
     {
       "title": "逆光",
       "artist": "Ado",
-      "count": 12
-    },
-    {
-      "title": "花に亡霊",
-      "artist": "ヨルシカ",
       "count": 12
     },
     {
@@ -176,6 +176,11 @@
     {
       "title": "花になって",
       "artist": "緑黄色社会",
+      "count": 10
+    },
+    {
+      "title": "Stellar Stellar",
+      "artist": "星街すいせい",
       "count": 10
     },
     {
@@ -264,11 +269,6 @@
       "count": 9
     },
     {
-      "title": "Stellar Stellar",
-      "artist": "星街すいせい",
-      "count": 9
-    },
-    {
       "title": "ピースサイン",
       "artist": "米津玄師",
       "count": 9
@@ -346,6 +346,11 @@
     {
       "title": "Ahoy!! 我ら宝鐘海賊団",
       "artist": "宝鐘マリン",
+      "count": 9
+    },
+    {
+      "title": "風になる",
+      "artist": "つじあやの",
       "count": 9
     },
     {
@@ -459,13 +464,13 @@
       "count": 8
     },
     {
-      "title": "風になる",
-      "artist": "つじあやの",
+      "title": "神っぽいな",
+      "artist": "ピノキオピー",
       "count": 8
     },
     {
-      "title": "神っぽいな",
-      "artist": "ピノキオピー",
+      "title": "夜明けと蛍",
+      "artist": "n-buna",
       "count": 8
     },
     {
@@ -491,6 +496,11 @@
     {
       "title": "Departures ~あなたにおくるアイの歌~",
       "artist": "EGOIST",
+      "count": 7
+    },
+    {
+      "title": "ワールド・ランプシェード",
+      "artist": "buzzG",
       "count": 7
     },
     {
@@ -584,6 +594,11 @@
       "count": 7
     },
     {
+      "title": "言って。",
+      "artist": "ヨルシカ",
+      "count": 7
+    },
+    {
       "title": "Rolling star",
       "artist": "YUI",
       "count": 7
@@ -619,13 +634,13 @@
       "count": 7
     },
     {
-      "title": "夜明けと蛍",
-      "artist": "n-buna",
+      "title": "Tell Your World",
+      "artist": "kz (livetune)",
       "count": 7
     },
     {
-      "title": "Tell Your World",
-      "artist": "kz (livetune)",
+      "title": "All Alone With You",
+      "artist": "EGOIST",
       "count": 7
     },
     {
@@ -654,6 +669,11 @@
       "count": 6
     },
     {
+      "title": "白い雪のプリンセスは",
+      "artist": "のぼる↑",
+      "count": 6
+    },
+    {
       "title": "思想犯",
       "artist": "ヨルシカ",
       "count": 6
@@ -661,11 +681,6 @@
     {
       "title": "BRAVE GROOVE",
       "artist": "iLiFE!",
-      "count": 6
-    },
-    {
-      "title": "ワールド・ランプシェード",
-      "artist": "buzzG",
       "count": 6
     },
     {
@@ -689,6 +704,11 @@
       "count": 6
     },
     {
+      "title": "奏(かなで)",
+      "artist": "スキマスイッチ",
+      "count": 6
+    },
+    {
       "title": "春擬き",
       "artist": "やなぎなぎ",
       "count": 6
@@ -696,6 +716,11 @@
     {
       "title": "God knows...",
       "artist": "平野綾",
+      "count": 6
+    },
+    {
+      "title": "吉原ラメント",
+      "artist": "亜沙",
       "count": 6
     },
     {
@@ -716,6 +741,11 @@
     {
       "title": "メルト",
       "artist": "ryo (supercell)",
+      "count": 6
+    },
+    {
+      "title": "トリノコシティ",
+      "artist": "40mP",
       "count": 6
     },
     {
@@ -766,11 +796,6 @@
     {
       "title": "可愛くてごめん",
       "artist": "HoneyWorks",
-      "count": 6
-    },
-    {
-      "title": "言って。",
-      "artist": "ヨルシカ",
       "count": 6
     },
     {
@@ -839,6 +864,16 @@
       "count": 6
     },
     {
+      "title": "いのちの名前",
+      "artist": "木村弓",
+      "count": 6
+    },
+    {
+      "title": "恋愛裁判",
+      "artist": "40mP",
+      "count": 6
+    },
+    {
       "title": "ルマ",
       "artist": "かいりきベア",
       "count": 6
@@ -856,11 +891,6 @@
     {
       "title": "ワールドイズマイン",
       "artist": "ryo (supercell)",
-      "count": 6
-    },
-    {
-      "title": "All Alone With You",
-      "artist": "EGOIST",
       "count": 6
     },
     {
@@ -921,11 +951,6 @@
     {
       "title": "回る空うさぎ",
       "artist": "Orangestar",
-      "count": 5
-    },
-    {
-      "title": "白い雪のプリンセスは",
-      "artist": "のぼる↑",
       "count": 5
     },
     {
@@ -1004,11 +1029,6 @@
       "count": 5
     },
     {
-      "title": "奏(かなで)",
-      "artist": "スキマスイッチ",
-      "count": 5
-    },
-    {
       "title": "ガーネット",
       "artist": "奥華子",
       "count": 5
@@ -1029,18 +1049,8 @@
       "count": 5
     },
     {
-      "title": "吉原ラメント",
-      "artist": "亜沙",
-      "count": 5
-    },
-    {
       "title": "アメヲマツ、",
       "artist": "美波",
-      "count": 5
-    },
-    {
-      "title": "トリノコシティ",
-      "artist": "40mP",
       "count": 5
     },
     {
@@ -1199,18 +1209,8 @@
       "count": 5
     },
     {
-      "title": "いのちの名前",
-      "artist": "木村弓",
-      "count": 5
-    },
-    {
       "title": "バラライカ",
       "artist": "月島きらり starring 久住小春",
-      "count": 5
-    },
-    {
-      "title": "恋愛裁判",
-      "artist": "40mP",
       "count": 5
     },
     {
@@ -1261,6 +1261,11 @@
     {
       "title": "モザイクロール",
       "artist": "DECO*27",
+      "count": 5
+    },
+    {
+      "title": "命に嫌われている",
+      "artist": "カンザキイオリ",
       "count": 5
     },
     {
@@ -1674,11 +1679,6 @@
       "count": 4
     },
     {
-      "title": "命に嫌われている",
-      "artist": "カンザキイオリ",
-      "count": 4
-    },
-    {
       "title": "ダダダダ天使",
       "artist": "ナナヲアカリ",
       "count": 4
@@ -1701,6 +1701,11 @@
     {
       "title": "EX-otogibanashi",
       "artist": "ryo (supercell)",
+      "count": 4
+    },
+    {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
       "count": 4
     },
     {
@@ -2144,6 +2149,11 @@
       "count": 3
     },
     {
+      "title": "快晴",
+      "artist": "Orangestar",
+      "count": 3
+    },
+    {
       "title": "フラレガイガール",
       "artist": "さユり",
       "count": 3
@@ -2424,11 +2434,6 @@
       "count": 3
     },
     {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
-      "count": 3
-    },
-    {
       "title": "Reply",
       "artist": "kz",
       "count": 3
@@ -2444,13 +2449,43 @@
       "count": 3
     },
     {
+      "title": "忘れじの言の葉",
+      "artist": "未来古代楽団",
+      "count": 3
+    },
+    {
+      "title": "フクロウ ~フクロウが知らせる客が来たと~",
+      "artist": "KOKIA",
+      "count": 3
+    },
+    {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 3
+    },
+    {
+      "title": "ユキトキ",
+      "artist": "やなぎなぎ",
+      "count": 3
+    },
+    {
       "title": "物語りのワルツ",
       "artist": "ヰ世界情緒",
       "count": 3
     },
     {
+      "title": "ブラックロックシューター",
+      "artist": "ryo (supercell)",
+      "count": 3
+    },
+    {
       "title": "あなたの夜が明けるまで",
       "artist": "傘村トータ",
+      "count": 3
+    },
+    {
+      "title": "エウテルペ",
+      "artist": "EGOIST",
       "count": 3
     },
     {
@@ -3061,11 +3096,6 @@
     {
       "title": "タイムマシン",
       "artist": "1640mP (164x40mP)",
-      "count": 2
-    },
-    {
-      "title": "快晴",
-      "artist": "Orangestar",
       "count": 2
     },
     {
@@ -3739,28 +3769,18 @@
       "count": 2
     },
     {
-      "title": "忘れじの言の葉",
-      "artist": "未来古代楽団",
-      "count": 2
-    },
-    {
-      "title": "フクロウ ~フクロウが知らせる客が来たと~",
-      "artist": "KOKIA",
-      "count": 2
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
-      "count": 2
-    },
-    {
       "title": "Phantom Minds",
       "artist": "水樹奈々",
       "count": 2
     },
     {
-      "title": "ユキトキ",
-      "artist": "やなぎなぎ",
+      "title": "rain stops, good-bye",
+      "artist": "におP",
+      "count": 2
+    },
+    {
+      "title": "Departures~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
       "count": 2
     },
     {
@@ -3779,18 +3799,13 @@
       "count": 2
     },
     {
-      "title": "ブラックロックシューター",
-      "artist": "ryo (supercell)",
-      "count": 2
-    },
-    {
       "title": "白ゆき",
       "artist": "n-buna",
       "count": 2
     },
     {
-      "title": "エウテルペ",
-      "artist": "EGOIST",
+      "title": "シリウスの心臓",
+      "artist": "ヰ世界情緒",
       "count": 2
     },
     {
@@ -6019,16 +6034,6 @@
       "count": 1
     },
     {
-      "title": "rain stops, good-bye",
-      "artist": "におP",
-      "count": 1
-    },
-    {
-      "title": "Departures~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
-      "count": 1
-    },
-    {
       "title": "海の幽霊",
       "artist": "米津玄師",
       "count": 1
@@ -6126,11 +6131,6 @@
     {
       "title": "月光食堂",
       "artist": "ぬー (古川本舗)",
-      "count": 1
-    },
-    {
-      "title": "シリウスの心臓",
-      "artist": "ヰ世界情緒",
       "count": 1
     },
     {
@@ -6321,6 +6321,26 @@
     {
       "title": "君の神話 ~アクエリオン第二章",
       "artist": "AKINO with bless4",
+      "count": 1
+    },
+    {
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
+      "count": 1
+    },
+    {
+      "title": "花筏",
+      "artist": "Orangestar",
+      "count": 1
+    },
+    {
+      "title": "月のワルツ",
+      "artist": "諫山実生",
+      "count": 1
+    },
+    {
+      "title": "天国",
+      "artist": "ひらぎ",
       "count": 1
     }
   ],
@@ -6612,6 +6632,7 @@
     "はいのことん,えこ。",
     "はりーP",
     "はるまきごはん",
+    "ひらぎ",
     "ぼーかりおどP",
     "まふまふ",
     "みきとP",
@@ -6871,6 +6892,7 @@
     "蝶々P",
     "西沢さんP",
     "西野カナ",
+    "諫山実生",
     "超ときめき宣伝部",
     "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
     "逢坂大河・櫛枝実乃梨・川嶋亜美",
