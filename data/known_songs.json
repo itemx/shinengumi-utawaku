@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1267,
-  "uniqueTitles": 1244,
-  "uniqueArtists": 574,
+  "totalEntries": 1275,
+  "uniqueTitles": 1252,
+  "uniqueArtists": 579,
   "songs": [
     {
       "title": "残響散歌",
@@ -134,6 +134,11 @@
       "count": 11
     },
     {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 11
+    },
+    {
       "title": "ギラギラ",
       "artist": "Ado",
       "count": 11
@@ -214,11 +219,6 @@
       "count": 10
     },
     {
-      "title": "Across the world !!",
-      "artist": "深淵組",
-      "count": 10
-    },
-    {
       "title": "踊",
       "artist": "Ado",
       "count": 10
@@ -291,6 +291,11 @@
     {
       "title": "SOS",
       "artist": "黛冬優子",
+      "count": 9
+    },
+    {
+      "title": "カタオモイ",
+      "artist": "Aimer",
       "count": 9
     },
     {
@@ -384,11 +389,6 @@
       "count": 8
     },
     {
-      "title": "カタオモイ",
-      "artist": "Aimer",
-      "count": 8
-    },
-    {
       "title": "HARUKAZE",
       "artist": "SCANDAL",
       "count": 8
@@ -461,6 +461,11 @@
     {
       "title": "ブルーバード",
       "artist": "いきものがかり",
+      "count": 8
+    },
+    {
+      "title": "君の知らない物語",
+      "artist": "ryo (supercell)",
       "count": 8
     },
     {
@@ -599,6 +604,11 @@
       "count": 7
     },
     {
+      "title": "ダーリンダンス",
+      "artist": "かいりきベア",
+      "count": 7
+    },
+    {
       "title": "Rolling star",
       "artist": "YUI",
       "count": 7
@@ -616,11 +626,6 @@
     {
       "title": "Tot Musica",
       "artist": "Ado",
-      "count": 7
-    },
-    {
-      "title": "君の知らない物語",
-      "artist": "ryo (supercell)",
       "count": 7
     },
     {
@@ -656,6 +661,11 @@
     {
       "title": "カサブタ",
       "artist": "千綿偉功",
+      "count": 6
+    },
+    {
+      "title": "ヒステリックナイトガール",
+      "artist": "PSYQUI",
       "count": 6
     },
     {
@@ -764,6 +774,11 @@
       "count": 6
     },
     {
+      "title": "グリズリーに襲われたら♡",
+      "artist": "神宿",
+      "count": 6
+    },
+    {
       "title": "独りんぼエンヴィー",
       "artist": "koyori (電ポルP)",
       "count": 6
@@ -799,8 +814,8 @@
       "count": 6
     },
     {
-      "title": "ダーリンダンス",
-      "artist": "かいりきベア",
+      "title": "Booo!",
+      "artist": "TOKOTOKO (西沢さんP)",
       "count": 6
     },
     {
@@ -874,6 +889,11 @@
       "count": 6
     },
     {
+      "title": "シル・ヴ・プレジデント",
+      "artist": "ナナホシ管弦楽団",
+      "count": 6
+    },
+    {
       "title": "ルマ",
       "artist": "かいりきベア",
       "count": 6
@@ -916,11 +936,6 @@
     {
       "title": "インフェルノ",
       "artist": "Mrs. GREEN APPLE",
-      "count": 5
-    },
-    {
-      "title": "ヒステリックナイトガール",
-      "artist": "PSYQUI",
       "count": 5
     },
     {
@@ -1074,13 +1089,13 @@
       "count": 5
     },
     {
-      "title": "グリズリーに襲われたら♡",
-      "artist": "神宿",
+      "title": "Overdose",
+      "artist": "なとり",
       "count": 5
     },
     {
-      "title": "Overdose",
-      "artist": "なとり",
+      "title": "一度だけの恋なら",
+      "artist": "ワルキューレ",
       "count": 5
     },
     {
@@ -1131,11 +1146,6 @@
     {
       "title": "紅蓮の弓矢",
       "artist": "Linked Horizon",
-      "count": 5
-    },
-    {
-      "title": "Booo!",
-      "artist": "TOKOTOKO (西沢さんP)",
       "count": 5
     },
     {
@@ -1251,11 +1261,6 @@
     {
       "title": "恋愛サーキュレーション",
       "artist": "花澤香菜",
-      "count": 5
-    },
-    {
-      "title": "シル・ヴ・プレジデント",
-      "artist": "ナナホシ管弦楽団",
       "count": 5
     },
     {
@@ -1449,11 +1454,6 @@
       "count": 4
     },
     {
-      "title": "一度だけの恋なら",
-      "artist": "ワルキューレ",
-      "count": 4
-    },
-    {
       "title": "好きすぎて滅!",
       "artist": "M!LK",
       "count": 4
@@ -1599,6 +1599,11 @@
       "count": 4
     },
     {
+      "title": "くりてぃかる♡ぷりちー",
+      "artist": "iLiFE!",
+      "count": 4
+    },
+    {
       "title": "超跑情人夢",
       "artist": "卜學亮",
       "count": 4
@@ -1699,6 +1704,11 @@
       "count": 4
     },
     {
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
+      "count": 4
+    },
+    {
       "title": "EX-otogibanashi",
       "artist": "ryo (supercell)",
       "count": 4
@@ -1706,6 +1716,11 @@
     {
       "title": "星降る海",
       "artist": "月見ヤチヨ",
+      "count": 4
+    },
+    {
+      "title": "Reply",
+      "artist": "kz",
       "count": 4
     },
     {
@@ -2174,13 +2189,13 @@
       "count": 3
     },
     {
-      "title": "くりてぃかる♡ぷりちー",
-      "artist": "iLiFE!",
+      "title": "HAPPY PARTY TRAIN",
+      "artist": "Aqours",
       "count": 3
     },
     {
-      "title": "HAPPY PARTY TRAIN",
-      "artist": "Aqours",
+      "title": "AXIA ~ダイスキでダイキライ~",
+      "artist": "ワルキューレ",
       "count": 3
     },
     {
@@ -2319,6 +2334,11 @@
       "count": 3
     },
     {
+      "title": "チュープリ",
+      "artist": "ZOC",
+      "count": 3
+    },
+    {
       "title": "風のメッセージ",
       "artist": "水橋舞",
       "count": 3
@@ -2409,6 +2429,11 @@
       "count": 3
     },
     {
+      "title": "Sincerely",
+      "artist": "TRUE",
+      "count": 3
+    },
+    {
       "title": "月が綺麗ねと言われたい!",
       "artist": "柿崎ユウタ",
       "count": 3
@@ -2424,18 +2449,13 @@
       "count": 3
     },
     {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
-      "count": 3
-    },
-    {
       "title": "射手座午後九時Don't be late",
       "artist": "シェリル・ノーム starring May'n",
       "count": 3
     },
     {
-      "title": "Reply",
-      "artist": "kz",
+      "title": "メルト CPK! Remix",
+      "artist": "ryo (supercell)",
       "count": 3
     },
     {
@@ -3149,11 +3169,6 @@
       "count": 2
     },
     {
-      "title": "AXIA ~ダイスキでダイキライ~",
-      "artist": "ワルキューレ",
-      "count": 2
-    },
-    {
       "title": "翔べ!ガンダム",
       "artist": "池田鴻",
       "count": 2
@@ -3454,11 +3469,6 @@
       "count": 2
     },
     {
-      "title": "チュープリ",
-      "artist": "ZOC",
-      "count": 2
-    },
-    {
       "title": "お後がよろしくって...よ!",
       "artist": "極・落女会:防波亭手寅 (山本希望),蕪羅亭魔梨威 (佐倉綾音),空琉美遊亭丸京 (南條愛乃),波浪浮亭木胡桃 (小岩井ことり),暗落亭苦来 (後藤沙緒里)",
       "count": 2
@@ -3714,11 +3724,6 @@
       "count": 2
     },
     {
-      "title": "Sincerely",
-      "artist": "TRUE",
-      "count": 2
-    },
-    {
       "title": "渉り星",
       "artist": "Islet",
       "count": 2
@@ -3744,11 +3749,6 @@
       "count": 2
     },
     {
-      "title": "メルト CPK! Remix",
-      "artist": "ryo (supercell)",
-      "count": 2
-    },
-    {
       "title": "クイーンオブハート",
       "artist": "奏音69",
       "count": 2
@@ -3759,8 +3759,18 @@
       "count": 2
     },
     {
+      "title": "少年よ我に帰れ",
+      "artist": "やくしまるえつこ",
+      "count": 2
+    },
+    {
       "title": "Rolling Star",
       "artist": "YUI",
+      "count": 2
+    },
+    {
+      "title": "ヴィーナスとジーザス",
+      "artist": "やくしまるえつこ",
       "count": 2
     },
     {
@@ -3826,6 +3836,21 @@
     {
       "title": "ネクロネイディア",
       "artist": "渉海よひら",
+      "count": 2
+    },
+    {
+      "title": "晴天を穿つ",
+      "artist": "傘村トータ",
+      "count": 2
+    },
+    {
+      "title": "奈落の花",
+      "artist": "島みやえい子",
+      "count": 2
+    },
+    {
+      "title": "ただ声一つ",
+      "artist": "ロクデナシ",
       "count": 2
     },
     {
@@ -5954,18 +5979,8 @@
       "count": 1
     },
     {
-      "title": "少年よ我に帰れ",
-      "artist": "やくしまるえつこ",
-      "count": 1
-    },
-    {
       "title": "D/N/A",
       "artist": "Azari",
-      "count": 1
-    },
-    {
-      "title": "ヴィーナスとジーザス",
-      "artist": "やくしまるえつこ",
       "count": 1
     },
     {
@@ -6214,11 +6229,6 @@
       "count": 1
     },
     {
-      "title": "晴天を穿つ",
-      "artist": "傘村トータ",
-      "count": 1
-    },
-    {
       "title": "少年よ我に歸れ",
       "artist": "やくしまるえつこ",
       "count": 1
@@ -6294,16 +6304,6 @@
       "count": 1
     },
     {
-      "title": "奈落の花",
-      "artist": "島みやえい子",
-      "count": 1
-    },
-    {
-      "title": "ただ声一つ",
-      "artist": "ロクデナシ",
-      "count": 1
-    },
-    {
       "title": "Petals",
       "artist": "Orangestar",
       "count": 1
@@ -6337,6 +6337,46 @@
       "title": "天国",
       "artist": "ひらぎ",
       "count": 1
+    },
+    {
+      "title": "エクストラ・マジック・アワー",
+      "artist": "AKINO with bless4",
+      "count": 1
+    },
+    {
+      "title": "リンネ",
+      "artist": "米津玄師",
+      "count": 1
+    },
+    {
+      "title": "芽ぐみの雨",
+      "artist": "やなぎなぎ",
+      "count": 1
+    },
+    {
+      "title": "Os 宇宙人",
+      "artist": "エリオをかまってちゃん",
+      "count": 1
+    },
+    {
+      "title": "magnet —recall—",
+      "artist": "流星P",
+      "count": 1
+    },
+    {
+      "title": "正解はひとつ!じゃない!!",
+      "artist": "ミルキィホームズ",
+      "count": 1
+    },
+    {
+      "title": "READY!!",
+      "artist": "765PRO ALLSTARS",
+      "count": 1
+    },
+    {
+      "title": "吹雪",
+      "artist": "西沢幸奏",
+      "count": 1
     }
   ],
   "artists": [
@@ -6347,6 +6387,7 @@
     "23.exe",
     "40mP",
     "7!!",
+    "765PRO ALLSTARS",
     "9Lana",
     "A-RISE",
     "AAA",
@@ -6647,6 +6688,7 @@
     "アイナ・ジ・エンド",
     "ウマ娘 プリティーダービー",
     "エミリア (高橋李依)",
+    "エリオをかまってちゃん",
     "オワタP",
     "オーイシマサヨシ",
     "カラスヤサボウ",
@@ -6707,6 +6749,7 @@
     "マキシマム ザ ホルモン",
     "マリア×風鳴翼",
     "ミカヅキ",
+    "ミルキィホームズ",
     "メル",
     "ヤスオ",
     "ユナ (神田沙也加)",
@@ -6839,6 +6882,7 @@
     "河野万里奈",
     "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
     "泉こなた(平野綾)・柊かがみ(加藤英美里)・柊つかさ(福原香織)・高良みゆき(遠藤綾)",
+    "流星P",
     "涼宮ハルヒ",
     "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
     "涼宮ハルヒ(平野綾)",
@@ -6886,6 +6930,7 @@
     "虹ヶ咲学園スクールアイドル同好会",
     "蝶々P",
     "西沢さんP",
+    "西沢幸奏",
     "西野カナ",
     "諫山実生",
     "超ときめき宣伝部",
