@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1268,
-  "uniqueTitles": 1245,
+  "totalEntries": 1267,
+  "uniqueTitles": 1244,
   "uniqueArtists": 574,
   "songs": [
     {
@@ -3744,6 +3744,11 @@
       "count": 2
     },
     {
+      "title": "メルト CPK! Remix",
+      "artist": "ryo (supercell)",
+      "count": 2
+    },
+    {
       "title": "クイーンオブハート",
       "artist": "奏音69",
       "count": 2
@@ -5934,11 +5939,6 @@
       "count": 1
     },
     {
-      "title": "メルト CPK Remix",
-      "artist": "ryo (supercell)",
-      "count": 1
-    },
-    {
       "title": "春を待つ",
       "artist": "Islet",
       "count": 1
@@ -5956,11 +5956,6 @@
     {
       "title": "少年よ我に帰れ",
       "artist": "やくしまるえつこ",
-      "count": 1
-    },
-    {
-      "title": "メルト CPK!remix",
-      "artist": "ryo (supercell)",
       "count": 1
     },
     {
