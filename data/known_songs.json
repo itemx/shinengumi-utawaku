@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1275,
-  "uniqueTitles": 1252,
-  "uniqueArtists": 579,
+  "totalEntries": 1278,
+  "uniqueTitles": 1255,
+  "uniqueArtists": 580,
   "songs": [
     {
       "title": "残響散歌",
@@ -49,6 +49,11 @@
       "count": 14
     },
     {
+      "title": "花に亡霊",
+      "artist": "ヨルシカ",
+      "count": 14
+    },
+    {
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
       "count": 13
@@ -59,13 +64,13 @@
       "count": 13
     },
     {
-      "title": "花に亡霊",
-      "artist": "ヨルシカ",
-      "count": 13
-    },
-    {
       "title": "Calc.",
       "artist": "ジミーサムP",
+      "count": 12
+    },
+    {
+      "title": "雨とカプチーノ",
+      "artist": "ヨルシカ",
       "count": 12
     },
     {
@@ -81,6 +86,11 @@
     {
       "title": "極楽浄土",
       "artist": "GARNiDELiA",
+      "count": 12
+    },
+    {
+      "title": "晴る",
+      "artist": "ヨルシカ",
       "count": 12
     },
     {
@@ -104,11 +114,6 @@
       "count": 11
     },
     {
-      "title": "雨とカプチーノ",
-      "artist": "ヨルシカ",
-      "count": 11
-    },
-    {
       "title": "Song of journey",
       "artist": "涼風しとら",
       "count": 11
@@ -124,13 +129,13 @@
       "count": 11
     },
     {
-      "title": "星座になれたら",
-      "artist": "結束バンド",
+      "title": "ノーチラス",
+      "artist": "ヨルシカ",
       "count": 11
     },
     {
-      "title": "晴る",
-      "artist": "ヨルシカ",
+      "title": "星座になれたら",
+      "artist": "結束バンド",
       "count": 11
     },
     {
@@ -169,8 +174,18 @@
       "count": 11
     },
     {
+      "title": "藍二乗",
+      "artist": "ヨルシカ",
+      "count": 11
+    },
+    {
       "title": "シンデレラ",
       "artist": "DECO*27",
+      "count": 11
+    },
+    {
+      "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
       "count": 11
     },
     {
@@ -204,11 +219,6 @@
       "count": 10
     },
     {
-      "title": "ノーチラス",
-      "artist": "ヨルシカ",
-      "count": 10
-    },
-    {
       "title": "アイネクライネ",
       "artist": "米津玄師",
       "count": 10
@@ -216,6 +226,11 @@
     {
       "title": "夜のピエロ",
       "artist": "Ado",
+      "count": 10
+    },
+    {
+      "title": "春泥棒",
+      "artist": "ヨルシカ",
       "count": 10
     },
     {
@@ -244,11 +259,6 @@
       "count": 10
     },
     {
-      "title": "藍二乗",
-      "artist": "ヨルシカ",
-      "count": 10
-    },
-    {
       "title": "一番の宝物",
       "artist": "Girls Dead Monster",
       "count": 10
@@ -256,11 +266,6 @@
     {
       "title": "熱愛105°C的你",
       "artist": "阿肆",
-      "count": 10
-    },
-    {
-      "title": "ただ君に晴れ",
-      "artist": "ヨルシカ",
       "count": 10
     },
     {
@@ -301,11 +306,6 @@
     {
       "title": "プライド革命",
       "artist": "CHiCO with HoneyWorks",
-      "count": 9
-    },
-    {
-      "title": "春泥棒",
-      "artist": "ヨルシカ",
       "count": 9
     },
     {
@@ -386,6 +386,11 @@
     {
       "title": "ambiguous",
       "artist": "GARNiDELiA",
+      "count": 8
+    },
+    {
+      "title": "靴の花火",
+      "artist": "ヨルシカ",
       "count": 8
     },
     {
@@ -504,6 +509,11 @@
       "count": 7
     },
     {
+      "title": "思想犯",
+      "artist": "ヨルシカ",
+      "count": 7
+    },
+    {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
       "count": 7
@@ -516,11 +526,6 @@
     {
       "title": "トンデモワンダーズ",
       "artist": "sasakure.UK",
-      "count": 7
-    },
-    {
-      "title": "靴の花火",
-      "artist": "ヨルシカ",
       "count": 7
     },
     {
@@ -629,6 +634,11 @@
       "count": 7
     },
     {
+      "title": "心に穴が空いた",
+      "artist": "ヨルシカ",
+      "count": 7
+    },
+    {
       "title": "心という名の不可解",
       "artist": "Ado",
       "count": 7
@@ -679,12 +689,17 @@
       "count": 6
     },
     {
+      "title": "忘れてください",
+      "artist": "ヨルシカ",
+      "count": 6
+    },
+    {
       "title": "白い雪のプリンセスは",
       "artist": "のぼる↑",
       "count": 6
     },
     {
-      "title": "思想犯",
+      "title": "パレード",
       "artist": "ヨルシカ",
       "count": 6
     },
@@ -864,11 +879,6 @@
       "count": 6
     },
     {
-      "title": "心に穴が空いた",
-      "artist": "ヨルシカ",
-      "count": 6
-    },
-    {
       "title": "ファンサ",
       "artist": "mona (夏川椎菜)",
       "count": 6
@@ -954,11 +964,6 @@
       "count": 5
     },
     {
-      "title": "忘れてください",
-      "artist": "ヨルシカ",
-      "count": 5
-    },
-    {
       "title": "メーベル",
       "artist": "バルーン",
       "count": 5
@@ -971,11 +976,6 @@
     {
       "title": "パラサイト",
       "artist": "DECO*27",
-      "count": 5
-    },
-    {
-      "title": "パレード",
-      "artist": "ヨルシカ",
       "count": 5
     },
     {
@@ -1061,6 +1061,11 @@
     {
       "title": "INTERNET OVERDOSE",
       "artist": "Aiobahn",
+      "count": 5
+    },
+    {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
       "count": 5
     },
     {
@@ -1309,6 +1314,11 @@
       "count": 4
     },
     {
+      "title": "左右盲",
+      "artist": "ヨルシカ",
+      "count": 4
+    },
+    {
       "title": "それがあなたの幸せとしても",
       "artist": "Heavenz",
       "count": 4
@@ -1374,8 +1384,18 @@
       "count": 4
     },
     {
+      "title": "準透明少年",
+      "artist": "ヨルシカ",
+      "count": 4
+    },
+    {
       "title": "G4L",
       "artist": "Giga",
+      "count": 4
+    },
+    {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
       "count": 4
     },
     {
@@ -1411,11 +1431,6 @@
     {
       "title": "おやすみ泣き声、さよなら歌姫",
       "artist": "クリープハイプ",
-      "count": 4
-    },
-    {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
       "count": 4
     },
     {
@@ -1569,6 +1584,11 @@
       "count": 4
     },
     {
+      "title": "火星人",
+      "artist": "ヨルシカ",
+      "count": 4
+    },
+    {
       "title": "オリオンをなぞる",
       "artist": "UNISON SQUARE GARDEN",
       "count": 4
@@ -1674,6 +1694,11 @@
       "count": 4
     },
     {
+      "title": "ヒッチコック",
+      "artist": "ヨルシカ",
+      "count": 4
+    },
+    {
       "title": "スペシャルガール",
       "artist": "れるりり",
       "count": 4
@@ -1764,11 +1789,6 @@
       "count": 3
     },
     {
-      "title": "左右盲",
-      "artist": "ヨルシカ",
-      "count": 3
-    },
-    {
       "title": "瞬間ハートビート",
       "artist": "ReGLOSS",
       "count": 3
@@ -1839,11 +1859,6 @@
       "count": 3
     },
     {
-      "title": "準透明少年",
-      "artist": "ヨルシカ",
-      "count": 3
-    },
-    {
       "title": "ボルテッカー",
       "artist": "DECO*27",
       "count": 3
@@ -1866,11 +1881,6 @@
     {
       "title": "たばこ",
       "artist": "コレサワ",
-      "count": 3
-    },
-    {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
       "count": 3
     },
     {
@@ -2071,11 +2081,6 @@
     {
       "title": "空想メソロギヰ",
       "artist": "妖精帝國",
-      "count": 3
-    },
-    {
-      "title": "火星人",
-      "artist": "ヨルシカ",
       "count": 3
     },
     {
@@ -2361,11 +2366,6 @@
     {
       "title": "シャルル",
       "artist": "バルーン",
-      "count": 3
-    },
-    {
-      "title": "ヒッチコック",
-      "artist": "ヨルシカ",
       "count": 3
     },
     {
@@ -3001,6 +3001,11 @@
     {
       "title": "白日",
       "artist": "King Gnu",
+      "count": 2
+    },
+    {
+      "title": "負け犬にアンコールはいらない",
+      "artist": "ヨルシカ",
       "count": 2
     },
     {
@@ -4266,11 +4271,6 @@
     {
       "title": "あわてんぼうのサンタクロース",
       "artist": "クリスマスソング",
-      "count": 1
-    },
-    {
-      "title": "負け犬にアンコールはいらない",
-      "artist": "ヨルシカ",
       "count": 1
     },
     {
@@ -5919,6 +5919,21 @@
       "count": 1
     },
     {
+      "title": "カトレア",
+      "artist": "ヨルシカ",
+      "count": 1
+    },
+    {
+      "title": "Say It.",
+      "artist": "Yorushika",
+      "count": 1
+    },
+    {
+      "title": "That's Why I Gave Up on Music",
+      "artist": "Yorushika",
+      "count": 1
+    },
+    {
       "title": "かぐやの城で踊りたい",
       "artist": "μ's",
       "count": 1
@@ -6565,6 +6580,7 @@
     "YUI",
     "YUI for 雨音薫",
     "YURiKA",
+    "Yorushika",
     "Yunomi & nicamoq",
     "ZARD",
     "ZOC",
