@@ -33,7 +33,13 @@ _RANGE_TIMESTAMP_RE = re.compile(
 _NUMBERING_RE = re.compile(r"^\d{1,3}[\.\)]\s*")
 
 # 用於清理裝飾符號
-_DECORATION_RE = re.compile(r"[🎵🎶🎤🎸🎹🎼🎧♪♫★☆✦✧●◉◆◇▶►▸▹⏰🔴💜❤️🩵🩷💛💚🧡🤍🖤💙]+")
+# 音樂/愛心 emoji: 無條件移除
+_DECORATION_RE = re.compile(r"[🎵🎶🎤🎸🎹🎼🎧♪♫✦✧●◉◆◇▶►▸▹⏰🔴💜❤️🩵🩷💛💚🧡🤍🖤💙]+")
+# ★/☆: 只在「2+ 連續」或「行首/行尾單獨出現」時才移除 (避免吃掉曲名中的單個 ☆ 例如 "七転八起☆至上主義!")
+_STAR_DECORATION_RE = re.compile(
+    r"(?:[★☆]{2,}|(?<=^)[★☆]\s+|\s+[★☆](?=$))",
+    re.MULTILINE,
+)
 _HASHTAG_LINE_RE = re.compile(r"^\s*#\S+", re.MULTILINE)
 
 # 曲名/歌手分隔符 (依優先序)
@@ -166,6 +172,8 @@ def parse_comment(
 
     # 移除裝飾 emoji (但保留文字)
     cleaned = _DECORATION_RE.sub("", cleaned)
+    # 移除星號裝飾 (僅 header 風格使用，保留曲名中單個 ☆/★)
+    cleaned = _STAR_DECORATION_RE.sub(" ", cleaned)
 
     # 先嘗試帶結束時間的格式 (00:02:30 - 00:06:47 01. title - artist)
     range_matches = _RANGE_TIMESTAMP_RE.findall(cleaned)
