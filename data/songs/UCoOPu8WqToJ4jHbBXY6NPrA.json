@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-05-14T06:03:50.704724+00:00",
+  "lastFetched": "2026-05-14T09:25:31.543062+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -5824,6 +5824,240 @@
         }
       ],
       "sourceCommentId": "issue#21",
+      "type": "stream"
+    },
+    {
+      "videoId": "LVYreJVRC3Q",
+      "title": "【歌枠】１週間おつかれさまでした🌇極上の歌声であなたの心を癒す3時間🫧1曲聴いていってください🌟 SINGING STREAM！【VTuber/配信中】",
+      "publishedAt": "2026-05-03T12:22:21Z",
+      "songs": [
+        {
+          "timestamp": "12:43",
+          "seconds": 763,
+          "title": "アクアテラリウム",
+          "titleRaw": "アクアテラリウム",
+          "artist": "やなぎなぎ",
+          "artistRaw": "やなぎなぎ",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=763"
+        },
+        {
+          "timestamp": "24:58",
+          "seconds": 1498,
+          "title": "FOCUS",
+          "titleRaw": "FOCUS",
+          "artist": "KIRA",
+          "artistRaw": "KIRA",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=1498"
+        },
+        {
+          "timestamp": "33:43",
+          "seconds": 2023,
+          "title": "夜明けと蛍",
+          "titleRaw": "夜明けと蛍",
+          "artist": "n-buna",
+          "artistRaw": "n-buna",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=2023"
+        },
+        {
+          "timestamp": "39:04",
+          "seconds": 2344,
+          "title": "創聖のアクエリオン",
+          "titleRaw": "創聖のアクエリオン",
+          "artist": "AKINO",
+          "artistRaw": "AKINO",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=2344"
+        },
+        {
+          "timestamp": "43:53",
+          "seconds": 2633,
+          "title": "星間飛行",
+          "titleRaw": "星間飛行",
+          "artist": "ランカ・リー",
+          "artistRaw": "ランカ・リー",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=2633"
+        },
+        {
+          "timestamp": "48:46",
+          "seconds": 2926,
+          "title": "射手座午後九時Don't be late",
+          "titleRaw": "射手座午後九時Don't be late",
+          "artist": "シェリル・ノーム starring May'n",
+          "artistRaw": "シェリル・ノーム starring May'n",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=2926"
+        },
+        {
+          "timestamp": "54:45",
+          "seconds": 3285,
+          "title": "ヒトリゴト",
+          "titleRaw": "ヒトリゴト",
+          "artist": "ClariS",
+          "artistRaw": "ClariS",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=3285"
+        },
+        {
+          "timestamp": "1:06:00",
+          "seconds": 3960,
+          "title": "君の神話 ~アクエリオン第二章",
+          "titleRaw": "君の神話 ~アクエリオン第二章",
+          "artist": "AKINO with bless4",
+          "artistRaw": "AKINO with bless4",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=3960"
+        },
+        {
+          "timestamp": "1:16:21",
+          "seconds": 4581,
+          "title": "エクストラ・マジック・アワー",
+          "titleRaw": "エクストラ・マジック・アワー",
+          "artist": "AKINO with bless4",
+          "artistRaw": "AKINO with bless4",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=4581"
+        },
+        {
+          "timestamp": "1:28:46",
+          "seconds": 5326,
+          "title": "海色",
+          "titleRaw": "海色",
+          "artist": "AKINO from bless4",
+          "artistRaw": "AKINO from bless4",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=5326"
+        },
+        {
+          "timestamp": "1:36:53",
+          "seconds": 5813,
+          "title": "ネクロネイディア",
+          "titleRaw": "ネクロネイディア",
+          "artist": "渉海よひら",
+          "artistRaw": "渉海よひら",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=5813"
+        },
+        {
+          "timestamp": "1:46:45",
+          "seconds": 6405,
+          "title": "heavenly blue",
+          "titleRaw": "heavenly blue",
+          "artist": "Kalafina",
+          "artistRaw": "Kalafina",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=6405"
+        },
+        {
+          "timestamp": "1:52:05",
+          "seconds": 6725,
+          "title": "Magia",
+          "titleRaw": "Magia",
+          "artist": "Kalafina",
+          "artistRaw": "Kalafina",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=6725"
+        },
+        {
+          "timestamp": "1:57:15",
+          "seconds": 7035,
+          "title": "コネクト",
+          "titleRaw": "コネクト",
+          "artist": "ClariS",
+          "artistRaw": "ClariS",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=7035"
+        },
+        {
+          "timestamp": "2:01:57",
+          "seconds": 7317,
+          "title": "Petals",
+          "titleRaw": "Petals",
+          "artist": "Orangestar",
+          "artistRaw": "Orangestar",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=7317"
+        },
+        {
+          "timestamp": "2:04:56",
+          "seconds": 7496,
+          "title": "花筏",
+          "titleRaw": "花筏",
+          "artist": "Orangestar",
+          "artistRaw": "Orangestar",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=7496"
+        },
+        {
+          "timestamp": "2:12:47",
+          "seconds": 7967,
+          "title": "そばかす",
+          "titleRaw": "そばかす",
+          "artist": "JUDY AND MARY",
+          "artistRaw": "JUDY AND MARY",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=7967"
+        },
+        {
+          "timestamp": "2:17:29",
+          "seconds": 8249,
+          "title": "メリッサ",
+          "titleRaw": "メリッサ",
+          "artist": "ポルノグラフィティ",
+          "artistRaw": "ポルノグラフィティ",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=8249"
+        },
+        {
+          "timestamp": "2:22:54",
+          "seconds": 8574,
+          "title": "七転八起☆至上主義!",
+          "titleRaw": "七転八起☆至上主義!",
+          "artist": "KOTOKO",
+          "artistRaw": "KOTOKO",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=8574"
+        },
+        {
+          "timestamp": "2:27:34",
+          "seconds": 8854,
+          "title": "ファンサ",
+          "titleRaw": "ファンサ",
+          "artist": "HoneyWorks",
+          "artistRaw": "HoneyWorks",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=8854"
+        },
+        {
+          "timestamp": "2:31:43",
+          "seconds": 9103,
+          "title": "ワールドイズマイン",
+          "titleRaw": "ワールドイズマイン",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=9103"
+        },
+        {
+          "timestamp": "2:42:37",
+          "seconds": 9757,
+          "title": "ヒトガタ",
+          "titleRaw": "ヒトガタ",
+          "artist": "HIMEHINA",
+          "artistRaw": "HIMEHINA",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=9757"
+        },
+        {
+          "timestamp": "2:49:32",
+          "seconds": 10172,
+          "title": "夕立のりぼん",
+          "titleRaw": "夕立のりぼん",
+          "artist": "みきとP",
+          "artistRaw": "みきとP",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=10172"
+        },
+        {
+          "timestamp": "2:53:23",
+          "seconds": 10403,
+          "title": "曖昧劣情Lover",
+          "titleRaw": "曖昧劣情Lover",
+          "artist": "koyori (電ポルP)",
+          "artistRaw": "koyori (電ポルP)",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=10403"
+        },
+        {
+          "timestamp": "3:01:17",
+          "seconds": 10877,
+          "title": "天国",
+          "titleRaw": "天国",
+          "artist": "ひらぎ",
+          "artistRaw": "ひらぎ",
+          "url": "https://youtu.be/LVYreJVRC3Q?t=10877"
+        }
+      ],
+      "sourceCommentId": "issue#22",
       "type": "stream"
     }
   ]

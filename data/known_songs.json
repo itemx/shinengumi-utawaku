@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1280,
-  "uniqueTitles": 1257,
-  "uniqueArtists": 582,
+  "totalEntries": 1283,
+  "uniqueTitles": 1260,
+  "uniqueArtists": 584,
   "songs": [
     {
       "title": "残響散歌",
@@ -9,13 +9,13 @@
       "count": 19
     },
     {
-      "title": "怪物",
-      "artist": "YOASOBI",
-      "count": 16
-    },
-    {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
+      "count": 17
+    },
+    {
+      "title": "怪物",
+      "artist": "YOASOBI",
       "count": 16
     },
     {
@@ -109,9 +109,19 @@
       "count": 12
     },
     {
+      "title": "コネクト",
+      "artist": "ClariS",
+      "count": 12
+    },
+    {
       "title": "ただ君に晴れ",
       "artist": "ヨルシカ",
       "count": 12
+    },
+    {
+      "title": "星間飛行",
+      "artist": "ランカ・リー",
+      "count": 11
     },
     {
       "title": "モニタリング",
@@ -174,11 +184,6 @@
       "count": 11
     },
     {
-      "title": "コネクト",
-      "artist": "ClariS",
-      "count": 11
-    },
-    {
       "title": "藍二乗",
       "artist": "ヨルシカ",
       "count": 11
@@ -187,11 +192,6 @@
       "title": "シンデレラ",
       "artist": "DECO*27",
       "count": 11
-    },
-    {
-      "title": "星間飛行",
-      "artist": "ランカ・リー",
-      "count": 10
     },
     {
       "title": "花になって",
@@ -364,6 +364,11 @@
       "count": 9
     },
     {
+      "title": "夜明けと蛍",
+      "artist": "n-buna",
+      "count": 9
+    },
+    {
       "title": "again",
       "artist": "YUI",
       "count": 8
@@ -476,11 +481,6 @@
     {
       "title": "神っぽいな",
       "artist": "ピノキオピー",
-      "count": 8
-    },
-    {
-      "title": "夜明けと蛍",
-      "artist": "n-buna",
       "count": 8
     },
     {
@@ -624,6 +624,11 @@
       "count": 7
     },
     {
+      "title": "そばかす",
+      "artist": "JUDY AND MARY",
+      "count": 7
+    },
+    {
       "title": "シュガーソングとビターステップ",
       "artist": "UNISON SQUARE GARDEN",
       "count": 7
@@ -646,6 +651,11 @@
     {
       "title": "メイジ・オブ・ヴァイオレット",
       "artist": "紫咲シオン",
+      "count": 7
+    },
+    {
+      "title": "ワールドイズマイン",
+      "artist": "ryo (supercell)",
       "count": 7
     },
     {
@@ -859,11 +869,6 @@
       "count": 6
     },
     {
-      "title": "そばかす",
-      "artist": "JUDY AND MARY",
-      "count": 6
-    },
-    {
       "title": "からくりピエロ",
       "artist": "40mP",
       "count": 6
@@ -904,6 +909,11 @@
       "count": 6
     },
     {
+      "title": "ヒトガタ",
+      "artist": "HIMEHINA",
+      "count": 6
+    },
+    {
       "title": "シル・ヴ・プレジデント",
       "artist": "ナナホシ管弦楽団",
       "count": 6
@@ -921,11 +931,6 @@
     {
       "title": "ハロ/ハワユ",
       "artist": "ナノウ",
-      "count": 6
-    },
-    {
-      "title": "ワールドイズマイン",
-      "artist": "ryo (supercell)",
       "count": 6
     },
     {
@@ -971,6 +976,11 @@
     {
       "title": "メーベル",
       "artist": "バルーン",
+      "count": 5
+    },
+    {
+      "title": "曖昧劣情Lover",
+      "artist": "koyori (電ポルP)",
       "count": 5
     },
     {
@@ -1089,6 +1099,11 @@
       "count": 5
     },
     {
+      "title": "夕立のりぼん",
+      "artist": "みきとP",
+      "count": 5
+    },
+    {
       "title": "美少女無罪♡パイレーツ",
       "artist": "宝鐘マリン",
       "count": 5
@@ -1116,6 +1131,11 @@
     {
       "title": "シリウス",
       "artist": "藍井エイル",
+      "count": 5
+    },
+    {
+      "title": "メリッサ",
+      "artist": "ポルノグラフィティ",
       "count": 5
     },
     {
@@ -1249,11 +1269,6 @@
       "count": 5
     },
     {
-      "title": "ヒトガタ",
-      "artist": "HIMEHINA",
-      "count": 5
-    },
-    {
       "title": "resonance",
       "artist": "T.M.Revolution",
       "count": 5
@@ -1321,11 +1336,6 @@
     {
       "title": "左右盲",
       "artist": "ヨルシカ",
-      "count": 4
-    },
-    {
-      "title": "曖昧劣情Lover",
-      "artist": "koyori (電ポルP)",
       "count": 4
     },
     {
@@ -1464,11 +1474,6 @@
       "count": 4
     },
     {
-      "title": "夕立のりぼん",
-      "artist": "みきとP",
-      "count": 4
-    },
-    {
       "title": "DOLL",
       "artist": "SCANDAL",
       "count": 4
@@ -1501,11 +1506,6 @@
     {
       "title": "DAN DAN 心魅かれてく",
       "artist": "FIELD OF VIEW",
-      "count": 4
-    },
-    {
-      "title": "メリッサ",
-      "artist": "ポルノグラフィティ",
       "count": 4
     },
     {
@@ -1759,6 +1759,11 @@
       "count": 4
     },
     {
+      "title": "射手座午後九時Don't be late",
+      "artist": "シェリル・ノーム starring May'n",
+      "count": 4
+    },
+    {
       "title": "星降る海",
       "artist": "月見ヤチヨ",
       "count": 4
@@ -1771,6 +1776,11 @@
     {
       "title": "星が瞬くこんな夜に",
       "artist": "ryo (supercell)",
+      "count": 4
+    },
+    {
+      "title": "heavenly blue",
+      "artist": "Kalafina",
       "count": 4
     },
     {
@@ -2469,11 +2479,6 @@
       "count": 3
     },
     {
-      "title": "射手座午後九時Don't be late",
-      "artist": "シェリル・ノーム starring May'n",
-      "count": 3
-    },
-    {
       "title": "メルト CPK! Remix",
       "artist": "ryo (supercell)",
       "count": 3
@@ -2534,8 +2539,8 @@
       "count": 3
     },
     {
-      "title": "heavenly blue",
-      "artist": "Kalafina",
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
       "count": 3
     },
     {
@@ -3324,6 +3329,11 @@
       "count": 2
     },
     {
+      "title": "海色",
+      "artist": "AKINO from bless4",
+      "count": 2
+    },
+    {
       "title": "Wonderful Rush",
       "artist": "μ's",
       "count": 2
@@ -3854,13 +3864,13 @@
       "count": 2
     },
     {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
+      "title": "晴天を穿つ",
+      "artist": "傘村トータ",
       "count": 2
     },
     {
-      "title": "晴天を穿つ",
-      "artist": "傘村トータ",
+      "title": "ヒトリゴト",
+      "artist": "ClariS",
       "count": 2
     },
     {
@@ -3874,8 +3884,43 @@
       "count": 2
     },
     {
+      "title": "Petals",
+      "artist": "Orangestar",
+      "count": 2
+    },
+    {
+      "title": "ファンサ",
+      "artist": "HoneyWorks",
+      "count": 2
+    },
+    {
+      "title": "君の神話 ~アクエリオン第二章",
+      "artist": "AKINO with bless4",
+      "count": 2
+    },
+    {
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
+      "count": 2
+    },
+    {
+      "title": "花筏",
+      "artist": "Orangestar",
+      "count": 2
+    },
+    {
       "title": "月のワルツ",
       "artist": "諫山実生",
+      "count": 2
+    },
+    {
+      "title": "天国",
+      "artist": "ひらぎ",
+      "count": 2
+    },
+    {
+      "title": "エクストラ・マジック・アワー",
+      "artist": "AKINO with bless4",
       "count": 2
     },
     {
@@ -4731,11 +4776,6 @@
     {
       "title": "生リセットボタンぽちーw",
       "artist": "沙花叉クロヱ",
-      "count": 1
-    },
-    {
-      "title": "海色",
-      "artist": "AKINO from bless4",
       "count": 1
     },
     {
@@ -6274,11 +6314,6 @@
       "count": 1
     },
     {
-      "title": "ヒトリゴト",
-      "artist": "ClariS",
-      "count": 1
-    },
-    {
       "title": "花降らし",
       "artist": "n-buna",
       "count": 1
@@ -6339,41 +6374,6 @@
       "count": 1
     },
     {
-      "title": "Petals",
-      "artist": "Orangestar",
-      "count": 1
-    },
-    {
-      "title": "ファンサ",
-      "artist": "HoneyWorks",
-      "count": 1
-    },
-    {
-      "title": "君の神話 ~アクエリオン第二章",
-      "artist": "AKINO with bless4",
-      "count": 1
-    },
-    {
-      "title": "アクアテラリウム",
-      "artist": "やなぎなぎ",
-      "count": 1
-    },
-    {
-      "title": "花筏",
-      "artist": "Orangestar",
-      "count": 1
-    },
-    {
-      "title": "天国",
-      "artist": "ひらぎ",
-      "count": 1
-    },
-    {
-      "title": "エクストラ・マジック・アワー",
-      "artist": "AKINO with bless4",
-      "count": 1
-    },
-    {
       "title": "芽ぐみの雨",
       "artist": "やなぎなぎ",
       "count": 1
@@ -6401,6 +6401,21 @@
     {
       "title": "Catch You Catch Me",
       "artist": "日向めぐみ",
+      "count": 1
+    },
+    {
+      "title": "FOCUS",
+      "artist": "KIRA",
+      "count": 1
+    },
+    {
+      "title": "Magia",
+      "artist": "Kalafina",
+      "count": 1
+    },
+    {
+      "title": "七転八起☆至上主義!",
+      "artist": "KOTOKO",
       "count": 1
     }
   ],
@@ -6500,7 +6515,9 @@
     "KANA-BOON",
     "KAT-TUN",
     "KELUN",
+    "KIRA",
     "KOKIA",
+    "KOTOKO",
     "Kalafina",
     "Kanaria",
     "King Gnu",
