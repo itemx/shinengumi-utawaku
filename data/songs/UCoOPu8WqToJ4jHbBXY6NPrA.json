@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-05-14T09:25:31.543062+00:00",
+  "lastFetched": "2026-05-16T13:26:10.524864+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -6059,6 +6059,24 @@
       ],
       "sourceCommentId": "issue#22",
       "type": "stream"
+    },
+    {
+      "videoId": "gHiO6Remw5A",
+      "title": "神の眷属が セレナーデ #歌ってみた #shorts #cover #新人vtuber #vsinger #セレナーデ #vtuber #なとり",
+      "publishedAt": "2026-05-15T09:00:54Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "セレナーデ",
+          "titleRaw": "セレナーデ",
+          "artist": "なとり",
+          "artistRaw": "なとり",
+          "url": "https://youtu.be/gHiO6Remw5A"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
