@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1291,
+  "totalEntries": 1292,
   "uniqueTitles": 1267,
-  "uniqueArtists": 587,
+  "uniqueArtists": 588,
   "songs": [
     {
       "title": "残響散歌",
@@ -6457,6 +6457,11 @@
       "title": "Hello, Worker",
       "artist": "KEI",
       "count": 1
+    },
+    {
+      "title": "星降る海",
+      "artist": "aqu3ra",
+      "count": 1
     }
   ],
   "artists": [
@@ -6657,6 +6662,7 @@
     "ZONE, 本間芽衣子 (茅野愛衣)/安城鳴子 (戸松遥)/鶴見知利子 (早見沙織)",
     "aiko",
     "ano",
+    "aqu3ra",
     "back number",
     "buzzG",
     "chomaiyo × TOKOTOKO (Nishizawasan-P)",

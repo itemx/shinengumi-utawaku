@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-05-19T03:44:42.378432+00:00",
+  "lastFetched": "2026-05-19T15:28:21.173675+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -6302,6 +6302,24 @@
       ],
       "sourceCommentId": "issue#23",
       "type": "stream"
+    },
+    {
+      "videoId": "JzPmUsXCcno",
+      "title": "神の眷属が 星降る海 #歌ってみた #shorts #cover #超かぐや姫 #vsinger #星降る海 #vtuber #新人vtuber #aqu3ra",
+      "publishedAt": "2026-05-18T09:04:15Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "星降る海",
+          "titleRaw": "星降る海",
+          "artist": "aqu3ra",
+          "artistRaw": "aqu3ra",
+          "url": "https://youtu.be/JzPmUsXCcno"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
