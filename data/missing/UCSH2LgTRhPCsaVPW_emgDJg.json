@@ -1,9 +1,16 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "generatedAt": "2026-05-16T13:26:10.065703+00:00",
+  "generatedAt": "2026-05-22T14:42:42.954654+00:00",
   "totalSearched": 173,
   "totalWithSetlist": 142,
-  "totalMissing": 0,
-  "missing": []
+  "totalMissing": 1,
+  "missing": [
+    {
+      "videoId": "W3YkdFoRvmc",
+      "title": "🐥【歌枠】ホロライブさん縛り歌枠！あなたの魂を揺らすVSinger!｜初見さん大歓迎！【VTuber/配信中】",
+      "publishedAt": "2026-05-22T11:08:11Z",
+      "url": "https://www.youtube.com/watch?v=W3YkdFoRvmc"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-05-19T15:28:21.173675+00:00",
+  "lastFetched": "2026-05-22T14:42:43.275733+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -6316,6 +6316,24 @@
           "artist": "aqu3ra",
           "artistRaw": "aqu3ra",
           "url": "https://youtu.be/JzPmUsXCcno"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "mzeUkb0N1m4",
+      "title": "神の眷属が Remember #歌ってみた #shorts #cover #超かぐや姫 #vsinger #remember  #vtuber #新人vtuber #yuigot #月見ヤチヨ",
+      "publishedAt": "2026-05-22T08:45:11Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "Remember",
+          "titleRaw": "Remember",
+          "artist": "月見ヤチヨ",
+          "artistRaw": "月見ヤチヨ",
+          "url": "https://youtu.be/mzeUkb0N1m4"
         }
       ],
       "sourceCommentId": "",
