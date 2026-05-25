@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-05-22T14:42:43.275733+00:00",
+  "lastFetched": "2026-05-25T14:56:30.661499+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -6334,6 +6334,24 @@
           "artist": "月見ヤチヨ",
           "artistRaw": "月見ヤチヨ",
           "url": "https://youtu.be/mzeUkb0N1m4"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "9FGVrQx9TaE",
+      "title": "神の眷属が プラネテス #歌ってみた #shorts #cover  #vsinger #プラネテス #vtuber #新人vtuber #seiza",
+      "publishedAt": "2026-05-25T09:07:51Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "プラネテス",
+          "titleRaw": "プラネテス",
+          "artist": "seiza",
+          "artistRaw": "seiza",
+          "url": "https://youtu.be/9FGVrQx9TaE"
         }
       ],
       "sourceCommentId": "",

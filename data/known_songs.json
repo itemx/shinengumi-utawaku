@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1292,
-  "uniqueTitles": 1267,
-  "uniqueArtists": 588,
+  "totalEntries": 1308,
+  "uniqueTitles": 1283,
+  "uniqueArtists": 599,
   "songs": [
     {
       "title": "残響散歌",
@@ -12,6 +12,11 @@
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
       "count": 17
+    },
+    {
+      "title": "ビビデバ",
+      "artist": "星街すいせい",
+      "count": 16
     },
     {
       "title": "怪物",
@@ -26,11 +31,6 @@
     {
       "title": "少女S",
       "artist": "SCANDAL",
-      "count": 15
-    },
-    {
-      "title": "ビビデバ",
-      "artist": "星街すいせい",
       "count": 15
     },
     {
@@ -149,6 +149,11 @@
       "count": 11
     },
     {
+      "title": "Stellar Stellar",
+      "artist": "星街すいせい",
+      "count": 11
+    },
+    {
       "title": "モニタリング",
       "artist": "DECO*27",
       "count": 11
@@ -207,11 +212,6 @@
       "title": "夜明けと蛍",
       "artist": "n-buna",
       "count": 11
-    },
-    {
-      "title": "Stellar Stellar",
-      "artist": "星街すいせい",
-      "count": 10
     },
     {
       "title": "往け",
@@ -331,6 +331,11 @@
     {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
+      "count": 9
+    },
+    {
+      "title": "ソワレ",
+      "artist": "星街すいせい",
       "count": 9
     },
     {
@@ -454,7 +459,7 @@
       "count": 8
     },
     {
-      "title": "ソワレ",
+      "title": "GHOST",
       "artist": "星街すいせい",
       "count": 8
     },
@@ -501,6 +506,11 @@
     {
       "title": "ブルーバード",
       "artist": "いきものがかり",
+      "count": 8
+    },
+    {
+      "title": "メイジ・オブ・ヴァイオレット",
+      "artist": "紫咲シオン",
       "count": 8
     },
     {
@@ -629,11 +639,6 @@
       "count": 7
     },
     {
-      "title": "GHOST",
-      "artist": "星街すいせい",
-      "count": 7
-    },
-    {
       "title": "愛言葉IV",
       "artist": "DECO*27",
       "count": 7
@@ -681,11 +686,6 @@
     {
       "title": "心という名の不可解",
       "artist": "Ado",
-      "count": 7
-    },
-    {
-      "title": "メイジ・オブ・ヴァイオレット",
-      "artist": "紫咲シオン",
       "count": 7
     },
     {
@@ -826,6 +826,11 @@
     {
       "title": "阿修羅ちゃん",
       "artist": "Ado",
+      "count": 6
+    },
+    {
+      "title": "Caramel Pain",
+      "artist": "星街すいせい",
       "count": 6
     },
     {
@@ -1089,6 +1094,11 @@
       "count": 5
     },
     {
+      "title": "灼熱にて純情(wii-wii-woo)",
+      "artist": "星街すいせい",
+      "count": 5
+    },
+    {
       "title": "化けの花",
       "artist": "なきそ",
       "count": 5
@@ -1141,11 +1151,6 @@
     {
       "title": "美少女無罪♡パイレーツ",
       "artist": "宝鐘マリン",
-      "count": 5
-    },
-    {
-      "title": "Caramel Pain",
-      "artist": "星街すいせい",
       "count": 5
     },
     {
@@ -1384,6 +1389,11 @@
       "count": 4
     },
     {
+      "title": "瞬間ハートビート",
+      "artist": "ReGLOSS",
+      "count": 4
+    },
+    {
       "title": "それがあなたの幸せとしても",
       "artist": "Heavenz",
       "count": 4
@@ -1491,11 +1501,6 @@
     {
       "title": "アカイト",
       "artist": "みきとP",
-      "count": 4
-    },
-    {
-      "title": "灼熱にて純情(wii-wii-woo)",
-      "artist": "星街すいせい",
       "count": 4
     },
     {
@@ -1879,12 +1884,17 @@
       "count": 3
     },
     {
+      "title": "SHINKIRO",
+      "artist": "GuraMarine",
+      "count": 3
+    },
+    {
       "title": "さよならエレジー",
       "artist": "菅田将暉",
       "count": 3
     },
     {
-      "title": "瞬間ハートビート",
+      "title": "シンメトリー",
       "artist": "ReGLOSS",
       "count": 3
     },
@@ -2489,6 +2499,11 @@
       "count": 3
     },
     {
+      "title": "Say!ファンファーレ!",
+      "artist": "白上フブキ",
+      "count": 3
+    },
+    {
       "title": "アゲハ蝶",
       "artist": "ポルノグラフィティ",
       "count": 3
@@ -2654,18 +2669,8 @@
       "count": 2
     },
     {
-      "title": "SHINKIRO",
-      "artist": "GuraMarine",
-      "count": 2
-    },
-    {
       "title": "青いベンチ",
       "artist": "サスケ",
-      "count": 2
-    },
-    {
-      "title": "シンメトリー",
-      "artist": "ReGLOSS",
       "count": 2
     },
     {
@@ -3146,6 +3151,11 @@
     {
       "title": "脳裏上のクラッカー",
       "artist": "ずっと真夜中でいいのに。",
+      "count": 2
+    },
+    {
+      "title": "美少女無罪パイレーツ",
+      "artist": "宝鐘マリン",
       "count": 2
     },
     {
@@ -3724,11 +3734,6 @@
       "count": 2
     },
     {
-      "title": "Say!ファンファーレ!",
-      "artist": "白上フブキ",
-      "count": 2
-    },
-    {
       "title": "チューリングラブ",
       "artist": "ナナヲアカリ",
       "count": 2
@@ -3804,6 +3809,11 @@
       "count": 2
     },
     {
+      "title": "もうどうなってもいいや",
+      "artist": "星街すいせい",
+      "count": 2
+    },
+    {
       "title": "カトレア",
       "artist": "ヨルシカ",
       "count": 2
@@ -3811,6 +3821,11 @@
     {
       "title": "セレナーデ",
       "artist": "なとり",
+      "count": 2
+    },
+    {
+      "title": "FACT",
+      "artist": "常闇トワ",
       "count": 2
     },
     {
@@ -4446,11 +4461,6 @@
     {
       "title": "アイのシナリオ",
       "artist": "HoneyWorks",
-      "count": 1
-    },
-    {
-      "title": "美少女無罪パイレーツ",
-      "artist": "宝鐘マリン",
       "count": 1
     },
     {
@@ -5884,11 +5894,6 @@
       "count": 1
     },
     {
-      "title": "もうどうなってもいいや",
-      "artist": "星街すいせい",
-      "count": 1
-    },
-    {
       "title": "ホムンクルス",
       "artist": "Vaundy",
       "count": 1
@@ -6026,6 +6031,76 @@
     {
       "title": "You Are My Curse",
       "artist": "nyamura",
+      "count": 1
+    },
+    {
+      "title": "ばーちゃらぶ",
+      "artist": "夏色まつり",
+      "count": 1
+    },
+    {
+      "title": "常夜リペイント",
+      "artist": "秘密結社holoX",
+      "count": 1
+    },
+    {
+      "title": "Ahoy!! 我ら宝鐘海賊団☆",
+      "artist": "宝鐘マリン",
+      "count": 1
+    },
+    {
+      "title": "リルビ",
+      "artist": "ロボ子さん",
+      "count": 1
+    },
+    {
+      "title": "I'm Your Treasure Box *あなたは マリンせんちょうを たからばこからみつけた。",
+      "artist": "宝鐘マリン",
+      "count": 1
+    },
+    {
+      "title": "スキスキDieスキ超Ayeシテル",
+      "artist": "宝鐘マリン",
+      "count": 1
+    },
+    {
+      "title": "ゴメンねメディスン",
+      "artist": "紫咲シオ",
+      "count": 1
+    },
+    {
+      "title": "守護ってルーナイト",
+      "artist": "姫森ルーナ",
+      "count": 1
+    },
+    {
+      "title": "きゅんきゅんみこきゅんきゅん♡",
+      "artist": "さくらみこ",
+      "count": 1
+    },
+    {
+      "title": "かわいこちぇっく!",
+      "artist": "戌神ころね",
+      "count": 1
+    },
+    {
+      "title": "ラヴレター",
+      "artist": "夏色まつり",
+      "count": 1
+    },
+    {
+      "title": "ホロホーク",
+      "artist": "鷹嶺ルイ",
+      "count": 1
+    },
+    {
+      "title": "カミサマ・ネコサマ",
+      "artist": "猫又おかゆ",
+      "count": 1
+    },
+    {
+      "title": "Shiny Smily Story",
+      "artist": "hololive IDOL PROJECT",
       "count": 1
     },
     {
@@ -6462,6 +6537,11 @@
       "title": "星降る海",
       "artist": "aqu3ra",
       "count": 1
+    },
+    {
+      "title": "プラネテス",
+      "artist": "seiza",
+      "count": 1
     }
   ],
   "artists": [
@@ -6675,6 +6755,7 @@
     "fhána",
     "flumpool",
     "fripSide",
+    "hololive IDOL PROJECT",
     "iLiFE!",
     "iON!",
     "jon",
@@ -6703,6 +6784,7 @@
     "samayuzame",
     "samfree",
     "sasakure.UK",
+    "seiza",
     "serial TV drama",
     "shito・Gom",
     "shr",
@@ -6730,6 +6812,7 @@
     "きゃりーぱみゅぱみゅ",
     "くじら",
     "こんにちは谷田さん",
+    "さくらみこ",
     "さつき が てんこもり",
     "さユり",
     "さユり×MY FIRST STORY",
@@ -6854,6 +6937,7 @@
     "レミオロメン",
     "レム (水瀬いのり)",
     "ロクデナシ",
+    "ロボ子さん",
     "ワルキューレ",
     "ヰ世界情緒",
     "一青窈",
@@ -6894,6 +6978,7 @@
     "坂本真綾",
     "夏代孝明",
     "夏川りみ",
+    "夏色まつり",
     "夢見りあむ (星希成奏)",
     "大塚愛",
     "大沼パセリ",
@@ -6901,6 +6986,7 @@
     "奥華子",
     "女王蜂",
     "妖精帝國",
+    "姫森ルーナ",
     "学園生活部",
     "宇多田ヒカル",
     "安部菜々 (三宅麻理恵)",
@@ -6918,6 +7004,7 @@
     "嵐",
     "工藤真由",
     "帝国歌劇団",
+    "常闇トワ",
     "平田志穂子",
     "平野綾",
     "平野綾, 涼宮ハルヒ",
@@ -6927,6 +7014,7 @@
     "後ろから這いより隊G",
     "志方あきこ",
     "想太",
+    "戌神ころね",
     "戦慄かなの",
     "戸松遥",
     "手嶌葵",
@@ -6999,6 +7087,7 @@
     "石風呂",
     "砂粒",
     "神宿",
+    "秘密結社holoX",
     "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
     "童謡",
     "米倉千尋",
@@ -7006,6 +7095,7 @@
     "糞田舎P",
     "紅色リトマス",
     "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)",
+    "紫咲シオ",
     "紫咲シオン",
     "結束バンド",
     "緑黄色社会",
@@ -7046,6 +7136,7 @@
     "高橋洋子",
     "髙屋亜希那",
     "鮎川麻弥",
+    "鷹嶺ルイ",
     "鷺沢文香 (M・A・O)、速水奏 (飯田友子)、橘ありす (佐藤亜美菜)、塩見周子 (ルゥティン)、二宮飛鳥 (青木志貴)",
     "麦わらの一味 (田中真弓,中井和哉,岡村明美,山口勝平,平田広明,大谷育江,山口由里子,矢尾一樹,チョー)",
     "麻枝准×やなぎなぎ",
