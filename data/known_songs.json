@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1313,
-  "uniqueTitles": 1288,
-  "uniqueArtists": 601,
+  "totalEntries": 1316,
+  "uniqueTitles": 1291,
+  "uniqueArtists": 603,
   "songs": [
     {
       "title": "残響散歌",
@@ -11,6 +11,11 @@
     {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
+      "count": 17
+    },
+    {
+      "title": "少女レイ",
+      "artist": "みきとP",
       "count": 17
     },
     {
@@ -24,13 +29,13 @@
       "count": 16
     },
     {
-      "title": "少女レイ",
-      "artist": "みきとP",
-      "count": 16
-    },
-    {
       "title": "少女S",
       "artist": "SCANDAL",
+      "count": 15
+    },
+    {
+      "title": "晴る",
+      "artist": "ヨルシカ",
       "count": 15
     },
     {
@@ -39,9 +44,9 @@
       "count": 15
     },
     {
-      "title": "晴る",
+      "title": "花に亡霊",
       "artist": "ヨルシカ",
-      "count": 14
+      "count": 15
     },
     {
       "title": "ANIMA",
@@ -51,11 +56,6 @@
     {
       "title": "フォニイ",
       "artist": "ツミキ",
-      "count": 14
-    },
-    {
-      "title": "花に亡霊",
-      "artist": "ヨルシカ",
       "count": 14
     },
     {
@@ -76,6 +76,11 @@
     {
       "title": "逆光",
       "artist": "Ado",
+      "count": 13
+    },
+    {
+      "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
       "count": 13
     },
     {
@@ -141,11 +146,6 @@
     {
       "title": "コネクト",
       "artist": "ClariS",
-      "count": 12
-    },
-    {
-      "title": "ただ君に晴れ",
-      "artist": "ヨルシカ",
       "count": 12
     },
     {
@@ -259,6 +259,16 @@
       "count": 10
     },
     {
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
+      "count": 10
+    },
+    {
+      "title": "ソワレ",
+      "artist": "星街すいせい",
+      "count": 10
+    },
+    {
       "title": "踊",
       "artist": "Ado",
       "count": 10
@@ -319,6 +329,11 @@
       "count": 9
     },
     {
+      "title": "変わらないもの",
+      "artist": "奥華子",
+      "count": 9
+    },
+    {
       "title": "I beg you",
       "artist": "Aimer",
       "count": 9
@@ -326,16 +341,6 @@
     {
       "title": "カワキヲアメク",
       "artist": "美波",
-      "count": 9
-    },
-    {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
-      "count": 9
-    },
-    {
-      "title": "ソワレ",
-      "artist": "星街すいせい",
       "count": 9
     },
     {
@@ -444,8 +449,8 @@
       "count": 8
     },
     {
-      "title": "変わらないもの",
-      "artist": "奥華子",
+      "title": "奏(かなで)",
+      "artist": "スキマスイッチ",
       "count": 8
     },
     {
@@ -456,6 +461,16 @@
     {
       "title": "青春コンプレックス",
       "artist": "結束バンド",
+      "count": 8
+    },
+    {
+      "title": "吉原ラメント",
+      "artist": "亜沙",
+      "count": 8
+    },
+    {
+      "title": "独りんぼエンヴィー",
+      "artist": "koyori (電ポルP)",
       "count": 8
     },
     {
@@ -539,6 +554,11 @@
       "count": 7
     },
     {
+      "title": "花の塔",
+      "artist": "さユり",
+      "count": 7
+    },
+    {
       "title": "唱",
       "artist": "Ado",
       "count": 7
@@ -584,8 +604,8 @@
       "count": 7
     },
     {
-      "title": "奏(かなで)",
-      "artist": "スキマスイッチ",
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
       "count": 7
     },
     {
@@ -599,11 +619,6 @@
       "count": 7
     },
     {
-      "title": "吉原ラメント",
-      "artist": "亜沙",
-      "count": 7
-    },
-    {
       "title": "シルシ",
       "artist": "LiSA",
       "count": 7
@@ -611,11 +626,6 @@
     {
       "title": "トリノコシティ",
       "artist": "40mP",
-      "count": 7
-    },
-    {
-      "title": "独りんぼエンヴィー",
-      "artist": "koyori (電ポルP)",
       "count": 7
     },
     {
@@ -699,11 +709,6 @@
       "count": 7
     },
     {
-      "title": "花の塔",
-      "artist": "さユり",
-      "count": 6
-    },
-    {
       "title": "限りなく灰色へ",
       "artist": "すりぃ",
       "count": 6
@@ -764,6 +769,11 @@
       "count": 6
     },
     {
+      "title": "ハイドアンド・シーク",
+      "artist": "19's Sound Factory",
+      "count": 6
+    },
+    {
       "title": "レクイエム",
       "artist": "Kanaria",
       "count": 6
@@ -786,11 +796,6 @@
     {
       "title": "ガーネット",
       "artist": "奥華子",
-      "count": 6
-    },
-    {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
       "count": 6
     },
     {
@@ -1071,11 +1076,6 @@
     {
       "title": "雑踏、僕らの街",
       "artist": "トゲナシトゲアリ",
-      "count": 5
-    },
-    {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory",
       "count": 5
     },
     {
@@ -1381,6 +1381,16 @@
     {
       "title": "Reply",
       "artist": "kz",
+      "count": 5
+    },
+    {
+      "title": "忘れじの言の葉",
+      "artist": "未来古代楽団",
+      "count": 5
+    },
+    {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
       "count": 5
     },
     {
@@ -1839,16 +1849,6 @@
       "count": 4
     },
     {
-      "title": "忘れじの言の葉",
-      "artist": "未来古代楽団",
-      "count": 4
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
-      "count": 4
-    },
-    {
       "title": "ユキトキ",
       "artist": "やなぎなぎ",
       "count": 4
@@ -1871,6 +1871,11 @@
     {
       "title": "heavenly blue",
       "artist": "Kalafina",
+      "count": 4
+    },
+    {
+      "title": "月のワルツ",
+      "artist": "諫山実生",
       "count": 4
     },
     {
@@ -2204,6 +2209,11 @@
       "count": 3
     },
     {
+      "title": "ドライフラワー",
+      "artist": "優里",
+      "count": 3
+    },
+    {
       "title": "わたしのアール",
       "artist": "和田たけあき (くらげP)",
       "count": 3
@@ -2509,6 +2519,11 @@
       "count": 3
     },
     {
+      "title": "ハナミズキ",
+      "artist": "一青窈",
+      "count": 3
+    },
+    {
       "title": "太陽曰く燃えよカオス",
       "artist": "後ろから這いより隊G",
       "count": 3
@@ -2574,6 +2589,11 @@
       "count": 3
     },
     {
+      "title": "鏡面の波",
+      "artist": "YURiKA",
+      "count": 3
+    },
+    {
       "title": "人間みたいね",
       "artist": "キタニタツヤ",
       "count": 3
@@ -2621,11 +2641,6 @@
     {
       "title": "花筏",
       "artist": "Orangestar",
-      "count": 3
-    },
-    {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
       "count": 3
     },
     {
@@ -3096,11 +3111,6 @@
     {
       "title": "B級",
       "artist": "ちゃんみな",
-      "count": 2
-    },
-    {
-      "title": "ドライフラワー",
-      "artist": "優里",
       "count": 2
     },
     {
@@ -3694,11 +3704,6 @@
       "count": 2
     },
     {
-      "title": "ハナミズキ",
-      "artist": "一青窈",
-      "count": 2
-    },
-    {
       "title": "高嶺の花子さん",
       "artist": "back number",
       "count": 2
@@ -3899,11 +3904,6 @@
       "count": 2
     },
     {
-      "title": "鏡面の波",
-      "artist": "YURiKA",
-      "count": 2
-    },
-    {
       "title": "旧支配者のキャロル",
       "artist": "クトゥルフ神話",
       "count": 2
@@ -3934,6 +3934,11 @@
       "count": 2
     },
     {
+      "title": "水平線",
+      "artist": "back number",
+      "count": 2
+    },
+    {
       "title": "白ゆき",
       "artist": "n-buna",
       "count": 2
@@ -3946,6 +3951,11 @@
     {
       "title": "もぐもぐYUMMY!",
       "artist": "猫又おかゆ",
+      "count": 2
+    },
+    {
+      "title": "蜜月アン・ドゥ・トロワ",
+      "artist": "DATEKEN",
       "count": 2
     },
     {
@@ -4011,6 +4021,26 @@
     {
       "title": "OnyXXX",
       "artist": "Black onyX",
+      "count": 2
+    },
+    {
+      "title": "死にゆく季節のきみへ",
+      "artist": "麻枝准×やなぎなぎ",
+      "count": 2
+    },
+    {
+      "title": "Hello, Worker",
+      "artist": "KEI",
+      "count": 2
+    },
+    {
+      "title": "夢をみる島",
+      "artist": "yuigot",
+      "count": 2
+    },
+    {
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
       "count": 2
     },
     {
@@ -6324,11 +6354,6 @@
       "count": 1
     },
     {
-      "title": "水平線",
-      "artist": "back number",
-      "count": 1
-    },
-    {
       "title": "月光食堂",
       "artist": "ぬー (古川本舗)",
       "count": 1
@@ -6396,11 +6421,6 @@
     {
       "title": "檄! 帝国華撃団",
       "artist": "真宮寺さくら (横山智佐)&帝国歌劇団",
-      "count": 1
-    },
-    {
-      "title": "蜜月アン・ドゥ・トロワ",
-      "artist": "DATEKEN",
       "count": 1
     },
     {
@@ -6524,16 +6544,6 @@
       "count": 1
     },
     {
-      "title": "死にゆく季節のきみへ",
-      "artist": "麻枝准×やなぎなぎ",
-      "count": 1
-    },
-    {
-      "title": "Hello, Worker",
-      "artist": "KEI",
-      "count": 1
-    },
-    {
       "title": "星降る海",
       "artist": "aqu3ra",
       "count": 1
@@ -6549,16 +6559,6 @@
       "count": 1
     },
     {
-      "title": "夢をみる島",
-      "artist": "yuigot",
-      "count": 1
-    },
-    {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
-      "count": 1
-    },
-    {
       "title": "over and over",
       "artist": "やなぎなぎ",
       "count": 1
@@ -6566,6 +6566,21 @@
     {
       "title": "ヒーロー",
       "artist": "ryo (supercell)",
+      "count": 1
+    },
+    {
+      "title": "明日への手紙",
+      "artist": "手嶌葵",
+      "count": 1
+    },
+    {
+      "title": "366日",
+      "artist": "HY",
+      "count": 1
+    },
+    {
+      "title": "君に届け",
+      "artist": "椎名真昼",
       "count": 1
     }
   ],
@@ -6654,6 +6669,7 @@
     "Gulity Kiss",
     "GuraMarine",
     "HIMEHINA",
+    "HY",
     "Heavenz",
     "HoneyWorks",
     "HoneyWorks 瀬戸口優 (神谷浩史)・榎本夏樹 (戸松遥)・望月蒼太 (梶裕貴)・早坂あかり (阿澄佳奈)・芹沢春輝 (鈴村健一)・合田美桜 (豊崎愛生)",
@@ -7075,6 +7091,7 @@
     "森口博子",
     "椎名もた (ぽわぽわP)",
     "椎名林檎",
+    "椎名真昼",
     "極・落女会:防波亭手寅 (山本希望),蕪羅亭魔梨威 (佐倉綾音),空琉美遊亭丸京 (南條愛乃),波浪浮亭木胡桃 (小岩井ことり),暗落亭苦来 (後藤沙緒里)",
     "欅坂46",
     "歌組雪月花",
