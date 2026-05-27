@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1308,
-  "uniqueTitles": 1283,
-  "uniqueArtists": 599,
+  "totalEntries": 1313,
+  "uniqueTitles": 1288,
+  "uniqueArtists": 601,
   "songs": [
     {
       "title": "残響散歌",
@@ -109,6 +109,11 @@
       "count": 12
     },
     {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 12
+    },
+    {
       "title": "Cry Baby",
       "artist": "Official髭男dism",
       "count": 12
@@ -126,6 +131,11 @@
     {
       "title": "空色デイズ",
       "artist": "中川翔子",
+      "count": 12
+    },
+    {
+      "title": "Butter-Fly",
+      "artist": "和田光司",
       "count": 12
     },
     {
@@ -174,18 +184,8 @@
       "count": 11
     },
     {
-      "title": "Across the world !!",
-      "artist": "深淵組",
-      "count": 11
-    },
-    {
       "title": "ギラギラ",
       "artist": "Ado",
-      "count": 11
-    },
-    {
-      "title": "Butter-Fly",
-      "artist": "和田光司",
       "count": 11
     },
     {
@@ -212,6 +212,11 @@
       "title": "夜明けと蛍",
       "artist": "n-buna",
       "count": 11
+    },
+    {
+      "title": "ピースサイン",
+      "artist": "米津玄師",
+      "count": 10
     },
     {
       "title": "往け",
@@ -286,11 +291,6 @@
     {
       "title": "勇者",
       "artist": "YOASOBI",
-      "count": 9
-    },
-    {
-      "title": "ピースサイン",
-      "artist": "米津玄師",
       "count": 9
     },
     {
@@ -401,6 +401,11 @@
     {
       "title": "トウキョウ・シャンディ・ランデヴ",
       "artist": "MAISONdes",
+      "count": 9
+    },
+    {
+      "title": "Tell Your World",
+      "artist": "kz (livetune)",
       "count": 9
     },
     {
@@ -524,11 +529,6 @@
       "count": 8
     },
     {
-      "title": "Tell Your World",
-      "artist": "kz (livetune)",
-      "count": 8
-    },
-    {
       "title": "All Alone With You",
       "artist": "EGOIST",
       "count": 8
@@ -606,6 +606,11 @@
     {
       "title": "シルシ",
       "artist": "LiSA",
+      "count": 7
+    },
+    {
+      "title": "トリノコシティ",
+      "artist": "40mP",
       "count": 7
     },
     {
@@ -692,6 +697,11 @@
       "title": "ワールドイズマイン",
       "artist": "ryo (supercell)",
       "count": 7
+    },
+    {
+      "title": "花の塔",
+      "artist": "さユり",
+      "count": 6
     },
     {
       "title": "限りなく灰色へ",
@@ -806,11 +816,6 @@
     {
       "title": "メルト",
       "artist": "ryo (supercell)",
-      "count": 6
-    },
-    {
-      "title": "トリノコシティ",
-      "artist": "40mP",
       "count": 6
     },
     {
@@ -969,13 +974,13 @@
       "count": 6
     },
     {
-      "title": "キスキツネ",
-      "artist": "HIMEHINA",
-      "count": 5
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
+      "count": 6
     },
     {
-      "title": "花の塔",
-      "artist": "さユり",
+      "title": "キスキツネ",
+      "artist": "HIMEHINA",
       "count": 5
     },
     {
@@ -1204,6 +1209,11 @@
       "count": 5
     },
     {
+      "title": "only my railgun",
+      "artist": "fripSide",
+      "count": 5
+    },
+    {
       "title": "Crow Song",
       "artist": "Girls Dead Monster",
       "count": 5
@@ -1261,6 +1271,11 @@
     {
       "title": "シニカルナイトプラン",
       "artist": "Ayase",
+      "count": 5
+    },
+    {
+      "title": "ヒバナ",
+      "artist": "DECO*27",
       "count": 5
     },
     {
@@ -1349,8 +1364,23 @@
       "count": 5
     },
     {
-      "title": "星降る海",
+      "title": "Remember",
       "artist": "月見ヤチヨ",
+      "count": 5
+    },
+    {
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
+      "count": 5
+    },
+    {
+      "title": "EX-otogibanashi",
+      "artist": "ryo (supercell)",
+      "count": 5
+    },
+    {
+      "title": "Reply",
+      "artist": "kz",
       "count": 5
     },
     {
@@ -1599,11 +1629,6 @@
       "count": 4
     },
     {
-      "title": "only my railgun",
-      "artist": "fripSide",
-      "count": 4
-    },
-    {
       "title": "もってけ!セーラーふく",
       "artist": "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
       "count": 4
@@ -1671,11 +1696,6 @@
     {
       "title": "シネマ",
       "artist": "Ayase",
-      "count": 4
-    },
-    {
-      "title": "ヒバナ",
-      "artist": "DECO*27",
       "count": 4
     },
     {
@@ -1804,23 +1824,8 @@
       "count": 4
     },
     {
-      "title": "Remember",
-      "artist": "月見ヤチヨ",
-      "count": 4
-    },
-    {
       "title": "月が綺麗ねと言われたい!",
       "artist": "柿崎ユウタ",
-      "count": 4
-    },
-    {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
-      "count": 4
-    },
-    {
-      "title": "EX-otogibanashi",
-      "artist": "ryo (supercell)",
       "count": 4
     },
     {
@@ -1829,8 +1834,8 @@
       "count": 4
     },
     {
-      "title": "Reply",
-      "artist": "kz",
+      "title": "メルト CPK! Remix",
+      "artist": "ryo (supercell)",
       "count": 4
     },
     {
@@ -1859,6 +1864,11 @@
       "count": 4
     },
     {
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
+      "count": 4
+    },
+    {
       "title": "heavenly blue",
       "artist": "Kalafina",
       "count": 4
@@ -1871,6 +1881,11 @@
     {
       "title": "メリュー",
       "artist": "n-buna",
+      "count": 3
+    },
+    {
+      "title": "ワールドイズマイン CPK! Remix",
+      "artist": "かぐや (夏吉ゆうこ)、月見ヤチヨ (早見沙織)",
       "count": 3
     },
     {
@@ -2011,6 +2026,11 @@
     {
       "title": "TESTAMENT",
       "artist": "水樹奈々",
+      "count": 3
+    },
+    {
+      "title": "ドーナツホール 2024",
+      "artist": "米津玄師",
       "count": 3
     },
     {
@@ -2504,6 +2524,11 @@
       "count": 3
     },
     {
+      "title": "竹取オーバーナイトセンセーション",
+      "artist": "HoneyWorks",
+      "count": 3
+    },
+    {
       "title": "アゲハ蝶",
       "artist": "ポルノグラフィティ",
       "count": 3
@@ -2536,11 +2561,6 @@
     {
       "title": "Endless Story",
       "artist": "田村ゆかり",
-      "count": 3
-    },
-    {
-      "title": "メルト CPK! Remix",
-      "artist": "ryo (supercell)",
       "count": 3
     },
     {
@@ -2589,8 +2609,8 @@
       "count": 3
     },
     {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
+      "title": "奈落の花",
+      "artist": "島みやえい子",
       "count": 3
     },
     {
@@ -2606,6 +2626,11 @@
     {
       "title": "月のワルツ",
       "artist": "諫山実生",
+      "count": 3
+    },
+    {
+      "title": "エクストラ・マジック・アワー",
+      "artist": "AKINO with bless4",
       "count": 3
     },
     {
@@ -2631,11 +2656,6 @@
     {
       "title": "あの娘シークレット",
       "artist": "Eve",
-      "count": 2
-    },
-    {
-      "title": "ワールドイズマイン CPK! Remix",
-      "artist": "かぐや (夏吉ゆうこ)、月見ヤチヨ (早見沙織)",
       "count": 2
     },
     {
@@ -2819,11 +2839,6 @@
       "count": 2
     },
     {
-      "title": "ドーナツホール 2024",
-      "artist": "米津玄師",
-      "count": 2
-    },
-    {
       "title": "Deep in Abyss",
       "artist": "リコ (富田美憂),レグ (伊瀬茉莉也)",
       "count": 2
@@ -2971,6 +2986,11 @@
     {
       "title": "RADIANT FORCE",
       "artist": "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
+      "count": 2
+    },
+    {
+      "title": "ハッピーシンセサイザ",
+      "artist": "EasyPop",
       "count": 2
     },
     {
@@ -3594,6 +3614,11 @@
       "count": 2
     },
     {
+      "title": "バレリーコ",
+      "artist": "みきとP",
+      "count": 2
+    },
+    {
       "title": "クノイチでも恋がしたい",
       "artist": "みきとP",
       "count": 2
@@ -3741,11 +3766,6 @@
     {
       "title": "ニコニコ動画流星群",
       "artist": "しも",
-      "count": 2
-    },
-    {
-      "title": "竹取オーバーナイトセンセーション",
-      "artist": "HoneyWorks",
       "count": 2
     },
     {
@@ -3944,8 +3964,8 @@
       "count": 2
     },
     {
-      "title": "奈落の花",
-      "artist": "島みやえい子",
+      "title": "私は、わたしの事が好き。",
+      "artist": "HoneyWorks",
       "count": 2
     },
     {
@@ -3974,11 +3994,6 @@
       "count": 2
     },
     {
-      "title": "エクストラ・マジック・アワー",
-      "artist": "AKINO with bless4",
-      "count": 2
-    },
-    {
       "title": "リンネ",
       "artist": "米津玄師",
       "count": 2
@@ -3991,6 +4006,11 @@
     {
       "title": "magnet —recall—",
       "artist": "流星P",
+      "count": 2
+    },
+    {
+      "title": "OnyXXX",
+      "artist": "Black onyX",
       "count": 2
     },
     {
@@ -4256,11 +4276,6 @@
     {
       "title": "Don't say“lazy”",
       "artist": "桜高軽音部",
-      "count": 1
-    },
-    {
-      "title": "ハッピーシンセサイザ",
-      "artist": "EasyPop",
       "count": 1
     },
     {
@@ -5101,11 +5116,6 @@
     {
       "title": "*~アスタリスク~",
       "artist": "ORANGE RANGE",
-      "count": 1
-    },
-    {
-      "title": "バレリーコ",
-      "artist": "みきとP",
       "count": 1
     },
     {
@@ -6474,11 +6484,6 @@
       "count": 1
     },
     {
-      "title": "私は、わたしの事が好き。",
-      "artist": "HoneyWorks",
-      "count": 1
-    },
-    {
       "title": "芽ぐみの雨",
       "artist": "やなぎなぎ",
       "count": 1
@@ -6496,11 +6501,6 @@
     {
       "title": "吹雪",
       "artist": "西沢幸奏",
-      "count": 1
-    },
-    {
-      "title": "OnyXXX",
-      "artist": "Black onyX",
       "count": 1
     },
     {
@@ -6542,6 +6542,31 @@
       "title": "プラネテス",
       "artist": "seiza",
       "count": 1
+    },
+    {
+      "title": "瞬間、シンフォニー。",
+      "artist": "40mP",
+      "count": 1
+    },
+    {
+      "title": "夢をみる島",
+      "artist": "yuigot",
+      "count": 1
+    },
+    {
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
+      "count": 1
+    },
+    {
+      "title": "over and over",
+      "artist": "やなぎなぎ",
+      "count": 1
+    },
+    {
+      "title": "ヒーロー",
+      "artist": "ryo (supercell)",
+      "count": 1
     }
   ],
   "artists": [
@@ -6575,6 +6600,7 @@
     "Alstroemeria Records",
     "Angel Dust (Blake Roman)",
     "Aqours",
+    "Aqu3ra",
     "Ayase",
     "Azari",
     "A応P",
@@ -6795,6 +6821,7 @@
     "wowaka",
     "yama",
     "yamada",
+    "yuigot",
     "μ's",
     "あいみょん",
     "あかせあかり",
