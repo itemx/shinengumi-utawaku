@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1316,
-  "uniqueTitles": 1291,
-  "uniqueArtists": 603,
+  "totalEntries": 1323,
+  "uniqueTitles": 1297,
+  "uniqueArtists": 606,
   "songs": [
     {
       "title": "残響散歌",
@@ -11,7 +11,7 @@
     {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
-      "count": 17
+      "count": 18
     },
     {
       "title": "少女レイ",
@@ -74,6 +74,11 @@
       "count": 13
     },
     {
+      "title": "空色デイズ",
+      "artist": "中川翔子",
+      "count": 13
+    },
+    {
       "title": "逆光",
       "artist": "Ado",
       "count": 13
@@ -82,6 +87,11 @@
       "title": "ただ君に晴れ",
       "artist": "ヨルシカ",
       "count": 13
+    },
+    {
+      "title": "星間飛行",
+      "artist": "ランカ・リー",
+      "count": 12
     },
     {
       "title": "雨とカプチーノ",
@@ -134,11 +144,6 @@
       "count": 12
     },
     {
-      "title": "空色デイズ",
-      "artist": "中川翔子",
-      "count": 12
-    },
-    {
       "title": "Butter-Fly",
       "artist": "和田光司",
       "count": 12
@@ -147,11 +152,6 @@
       "title": "コネクト",
       "artist": "ClariS",
       "count": 12
-    },
-    {
-      "title": "星間飛行",
-      "artist": "ランカ・リー",
-      "count": 11
     },
     {
       "title": "花になって",
@@ -289,8 +289,18 @@
       "count": 10
     },
     {
+      "title": "ホタルノヒカリ",
+      "artist": "いきものがかり",
+      "count": 10
+    },
+    {
       "title": "一番の宝物",
       "artist": "Girls Dead Monster",
+      "count": 10
+    },
+    {
+      "title": "君の知らない物語",
+      "artist": "ryo (supercell)",
       "count": 10
     },
     {
@@ -301,6 +311,11 @@
     {
       "title": "勇者",
       "artist": "YOASOBI",
+      "count": 9
+    },
+    {
+      "title": "again",
+      "artist": "YUI",
       "count": 9
     },
     {
@@ -369,11 +384,6 @@
       "count": 9
     },
     {
-      "title": "ホタルノヒカリ",
-      "artist": "いきものがかり",
-      "count": 9
-    },
-    {
       "title": "Catch the Moment",
       "artist": "LiSA",
       "count": 9
@@ -399,11 +409,6 @@
       "count": 9
     },
     {
-      "title": "君の知らない物語",
-      "artist": "ryo (supercell)",
-      "count": 9
-    },
-    {
       "title": "トウキョウ・シャンディ・ランデヴ",
       "artist": "MAISONdes",
       "count": 9
@@ -416,11 +421,6 @@
     {
       "title": "UNDEAD",
       "artist": "YOASOBI",
-      "count": 8
-    },
-    {
-      "title": "again",
-      "artist": "YUI",
       "count": 8
     },
     {
@@ -556,6 +556,11 @@
     {
       "title": "花の塔",
       "artist": "さユり",
+      "count": 7
+    },
+    {
+      "title": "カサブタ",
+      "artist": "千綿偉功",
       "count": 7
     },
     {
@@ -704,6 +709,11 @@
       "count": 7
     },
     {
+      "title": "甲賀忍法帖",
+      "artist": "陰陽座",
+      "count": 7
+    },
+    {
       "title": "ワールドイズマイン",
       "artist": "ryo (supercell)",
       "count": 7
@@ -721,11 +731,6 @@
     {
       "title": "インフェルノ",
       "artist": "Mrs. GREEN APPLE",
-      "count": 6
-    },
-    {
-      "title": "カサブタ",
-      "artist": "千綿偉功",
       "count": 6
     },
     {
@@ -776,6 +781,11 @@
     {
       "title": "レクイエム",
       "artist": "Kanaria",
+      "count": 6
+    },
+    {
+      "title": "Beautiful World",
+      "artist": "宇多田ヒカル",
       "count": 6
     },
     {
@@ -854,8 +864,18 @@
       "count": 6
     },
     {
+      "title": "瞬間センチメンタル",
+      "artist": "SCANDAL",
+      "count": 6
+    },
+    {
       "title": "1・2・3",
       "artist": "After the Rain",
+      "count": 6
+    },
+    {
+      "title": "メリッサ",
+      "artist": "ポルノグラフィティ",
       "count": 6
     },
     {
@@ -939,6 +959,11 @@
       "count": 6
     },
     {
+      "title": "回レ!雪月花",
+      "artist": "歌組雪月花",
+      "count": 6
+    },
+    {
       "title": "ライオン",
       "artist": "May'n & 中島愛",
       "count": 6
@@ -966,11 +991,6 @@
     {
       "title": "ルマ",
       "artist": "かいりきベア",
-      "count": 6
-    },
-    {
-      "title": "甲賀忍法帖",
-      "artist": "陰陽座",
       "count": 6
     },
     {
@@ -1089,11 +1109,6 @@
       "count": 5
     },
     {
-      "title": "Beautiful World",
-      "artist": "宇多田ヒカル",
-      "count": 5
-    },
-    {
       "title": "ミカヅキ",
       "artist": "さユり",
       "count": 5
@@ -1174,11 +1189,6 @@
       "count": 5
     },
     {
-      "title": "瞬間センチメンタル",
-      "artist": "SCANDAL",
-      "count": 5
-    },
-    {
       "title": "シリウス",
       "artist": "藍井エイル",
       "count": 5
@@ -1189,8 +1199,8 @@
       "count": 5
     },
     {
-      "title": "メリッサ",
-      "artist": "ポルノグラフィティ",
+      "title": "嘘",
+      "artist": "シド",
       "count": 5
     },
     {
@@ -1291,11 +1301,6 @@
     {
       "title": "ハレ晴レユカイ",
       "artist": "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
-      "count": 5
-    },
-    {
-      "title": "回レ!雪月花",
-      "artist": "歌組雪月花",
       "count": 5
     },
     {
@@ -1599,11 +1604,6 @@
       "count": 4
     },
     {
-      "title": "嘘",
-      "artist": "シド",
-      "count": 4
-    },
-    {
       "title": "サウダージ",
       "artist": "ポルノグラフィティ",
       "count": 4
@@ -1676,6 +1676,11 @@
     {
       "title": "サムライハート",
       "artist": "SPYAIR",
+      "count": 4
+    },
+    {
+      "title": "空想メソロギヰ",
+      "artist": "妖精帝國",
       "count": 4
     },
     {
@@ -2019,6 +2024,11 @@
       "count": 3
     },
     {
+      "title": "檄!帝国華撃団",
+      "artist": "帝国歌劇団",
+      "count": 3
+    },
+    {
       "title": "もっと...",
       "artist": "西野カナ",
       "count": 3
@@ -2179,11 +2189,6 @@
       "count": 3
     },
     {
-      "title": "空想メソロギヰ",
-      "artist": "妖精帝國",
-      "count": 3
-    },
-    {
       "title": "僕らの戦場",
       "artist": "ワルキューレ",
       "count": 3
@@ -2314,6 +2319,11 @@
       "count": 3
     },
     {
+      "title": "INVOKE",
+      "artist": "T.M.Revolution",
+      "count": 3
+    },
+    {
       "title": "no face",
       "artist": "Embellir Gift",
       "count": 3
@@ -2441,6 +2451,11 @@
     {
       "title": "バクチ・ダンサー",
       "artist": "DOES",
+      "count": 3
+    },
+    {
+      "title": "DANZEN!ふたりはプリキュア",
+      "artist": "五條真由美",
       "count": 3
     },
     {
@@ -2829,11 +2844,6 @@
       "count": 2
     },
     {
-      "title": "檄!帝国華撃団",
-      "artist": "帝国歌劇団",
-      "count": 2
-    },
-    {
       "title": "Best Friend",
       "artist": "西野カナ",
       "count": 2
@@ -2986,6 +2996,11 @@
     {
       "title": "好き!雪!本気マジック",
       "artist": "Mitchie M",
+      "count": 2
+    },
+    {
+      "title": "Don't say“lazy”",
+      "artist": "桜高軽音部",
       "count": 2
     },
     {
@@ -3164,6 +3179,11 @@
       "count": 2
     },
     {
+      "title": "Drawing days",
+      "artist": "SPLAY",
+      "count": 2
+    },
+    {
       "title": "ヴィーナス",
       "artist": "女王蜂",
       "count": 2
@@ -3304,8 +3324,8 @@
       "count": 2
     },
     {
-      "title": "INVOKE",
-      "artist": "T.M.Revolution",
+      "title": "あんなに一緒だったのに",
+      "artist": "See-Saw",
       "count": 2
     },
     {
@@ -3529,11 +3549,6 @@
       "count": 2
     },
     {
-      "title": "DANZEN!ふたりはプリキュア",
-      "artist": "五條真由美",
-      "count": 2
-    },
-    {
       "title": "恋するフォーチュンクッキー",
       "artist": "AKB48",
       "count": 2
@@ -3684,6 +3699,11 @@
       "count": 2
     },
     {
+      "title": "夢をかなえてドラえもん",
+      "artist": "mao",
+      "count": 2
+    },
+    {
       "title": "だってだって噫無情",
       "artist": "μ's",
       "count": 2
@@ -3711,6 +3731,11 @@
     {
       "title": "IGNITE",
       "artist": "藍井エイル",
+      "count": 2
+    },
+    {
+      "title": "プリキュア5、スマイル go go!",
+      "artist": "工藤真由",
       "count": 2
     },
     {
@@ -3756,6 +3781,11 @@
     {
       "title": "ASH",
       "artist": "LiSA",
+      "count": 2
+    },
+    {
+      "title": "てをつなごう",
+      "artist": "ハムちゃんず",
       "count": 2
     },
     {
@@ -4304,11 +4334,6 @@
       "count": 1
     },
     {
-      "title": "Don't say“lazy”",
-      "artist": "桜高軽音部",
-      "count": 1
-    },
-    {
       "title": "月陽–ツキアカリ–",
       "artist": "みきとP",
       "count": 1
@@ -4469,11 +4494,6 @@
       "count": 1
     },
     {
-      "title": "Drawing days",
-      "artist": "SPLAY",
-      "count": 1
-    },
-    {
       "title": "サイサキ",
       "artist": "Reol",
       "count": 1
@@ -4621,11 +4641,6 @@
     {
       "title": "Z・刻をこえて",
       "artist": "鮎川麻弥",
-      "count": 1
-    },
-    {
-      "title": "あんなに一緒だったのに",
-      "artist": "See-Saw",
       "count": 1
     },
     {
@@ -5299,11 +5314,6 @@
       "count": 1
     },
     {
-      "title": "夢をかなえてドラえもん",
-      "artist": "mao",
-      "count": 1
-    },
-    {
       "title": "喜劇",
       "artist": "星野源",
       "count": 1
@@ -5356,11 +5366,6 @@
     {
       "title": "放課後ストライド",
       "artist": "Last Note.",
-      "count": 1
-    },
-    {
-      "title": "プリキュア5、スマイル go go!",
-      "artist": "工藤真由",
       "count": 1
     },
     {
@@ -5491,11 +5496,6 @@
     {
       "title": "セカンド・キス",
       "artist": "みきとP",
-      "count": 1
-    },
-    {
-      "title": "てをつなごう",
-      "artist": "ハムちゃんず",
       "count": 1
     },
     {
@@ -6144,6 +6144,41 @@
       "count": 1
     },
     {
+      "title": "恋カナ",
+      "artist": "月島きらり starring 久住小春(モーニング娘。)",
+      "count": 1
+    },
+    {
+      "title": "Believe",
+      "artist": "玉置成実",
+      "count": 1
+    },
+    {
+      "title": "リライト",
+      "artist": "ASIAN KUNG-FU GENERATION",
+      "count": 1
+    },
+    {
+      "title": "Meteor –ミーティア–",
+      "artist": "T.M.Revolution",
+      "count": 1
+    },
+    {
+      "title": "キューティーハニー",
+      "artist": "倖田來未",
+      "count": 1
+    },
+    {
+      "title": "ケロッ!とマーチ",
+      "artist": "角田信朗&いはたじゅり",
+      "count": 1
+    },
+    {
+      "title": "No pain, No game",
+      "artist": "ナノ",
+      "count": 1
+    },
+    {
       "title": "かぐやの城で踊りたい",
       "artist": "μ's",
       "count": 1
@@ -6603,6 +6638,7 @@
     "ALI PROJECT",
     "AMOYAMO",
     "ASCA",
+    "ASIAN KUNG-FU GENERATION",
     "Ado",
     "After the Rain",
     "Afterglow",
@@ -6948,6 +6984,7 @@
     "トーマ",
     "ナナホシ管弦楽団",
     "ナナヲアカリ",
+    "ナノ",
     "ナノウ",
     "ナユタン星人",
     "ハムちゃんず",
@@ -7159,6 +7196,7 @@
     "西沢さんP",
     "西沢幸奏",
     "西野カナ",
+    "角田信朗&いはたじゅり",
     "諫山実生",
     "超ときめき宣伝部",
     "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
