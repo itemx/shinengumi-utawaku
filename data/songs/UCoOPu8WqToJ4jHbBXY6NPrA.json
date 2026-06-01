@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-06-01T04:40:08.768473+00:00",
+  "lastFetched": "2026-06-01T04:43:00.740675+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -7162,7 +7162,17 @@
       "videoId": "LZK_IAKshcY",
       "title": "Weight of the World / 壊レタ世界ノ歌 #歌ってみた #shorts #cover #vsinger  #vtuber #新人vtuber #岡部啓一 #NieR:Automata",
       "publishedAt": "2026-05-29T09:00:22Z",
-      "songs": [],
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "Weight of the World / 壊レタ世界ノ歌",
+          "titleRaw": "Weight of the World / 壊レタ世界ノ歌",
+          "artist": "河野万里奈",
+          "artistRaw": "河野万里奈",
+          "url": "https://youtu.be/LZK_IAKshcY?t=0"
+        }
+      ],
       "sourceCommentId": "",
       "type": "stream"
     },
