@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1340,
-  "uniqueTitles": 1310,
+  "totalEntries": 1341,
+  "uniqueTitles": 1311,
   "uniqueArtists": 613,
   "songs": [
     {
@@ -19,13 +19,13 @@
       "count": 18
     },
     {
-      "title": "ビビデバ",
-      "artist": "星街すいせい",
-      "count": 16
-    },
-    {
       "title": "晴る",
       "artist": "ヨルシカ",
+      "count": 17
+    },
+    {
+      "title": "ビビデバ",
+      "artist": "星街すいせい",
       "count": 16
     },
     {
@@ -59,6 +59,11 @@
       "count": 14
     },
     {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 14
+    },
+    {
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 14
@@ -71,11 +76,6 @@
     {
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
-      "count": 13
-    },
-    {
-      "title": "Across the world !!",
-      "artist": "深淵組",
       "count": 13
     },
     {
@@ -759,6 +759,11 @@
       "count": 7
     },
     {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
+      "count": 7
+    },
+    {
       "title": "限りなく灰色へ",
       "artist": "すりぃ",
       "count": 6
@@ -791,6 +796,11 @@
     {
       "title": "CHE.R.RY",
       "artist": "YUI",
+      "count": 6
+    },
+    {
+      "title": "盛れ!ミ・アモーレ",
+      "artist": "Juice=Juice",
       "count": 6
     },
     {
@@ -1024,8 +1034,13 @@
       "count": 6
     },
     {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
+      "title": "EX-otogibanashi",
+      "artist": "ryo (supercell)",
+      "count": 6
+    },
+    {
+      "title": "Reply",
+      "artist": "kz",
       "count": 6
     },
     {
@@ -1056,11 +1071,6 @@
     {
       "title": "現状ディストラクション",
       "artist": "SPYAIR",
-      "count": 5
-    },
-    {
-      "title": "盛れ!ミ・アモーレ",
-      "artist": "Juice=Juice",
       "count": 5
     },
     {
@@ -1394,18 +1404,13 @@
       "count": 5
     },
     {
+      "title": "月が綺麗ねと言われたい!",
+      "artist": "柿崎ユウタ",
+      "count": 5
+    },
+    {
       "title": "ray",
       "artist": "BUMP OF CHICKEN",
-      "count": 5
-    },
-    {
-      "title": "EX-otogibanashi",
-      "artist": "ryo (supercell)",
-      "count": 5
-    },
-    {
-      "title": "Reply",
-      "artist": "kz",
       "count": 5
     },
     {
@@ -1416,6 +1421,16 @@
     {
       "title": "エウテルペ",
       "artist": "EGOIST",
+      "count": 5
+    },
+    {
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
+      "count": 5
+    },
+    {
+      "title": "heavenly blue",
+      "artist": "Kalafina",
       "count": 5
     },
     {
@@ -1879,8 +1894,8 @@
       "count": 4
     },
     {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "柿崎ユウタ",
+      "title": "Endless Story",
+      "artist": "田村ゆかり",
       "count": 4
     },
     {
@@ -1919,13 +1934,13 @@
       "count": 4
     },
     {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
+      "title": "花筏",
+      "artist": "Orangestar",
       "count": 4
     },
     {
-      "title": "heavenly blue",
-      "artist": "Kalafina",
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
       "count": 4
     },
     {
@@ -2424,6 +2439,11 @@
       "count": 3
     },
     {
+      "title": "ギミー!レボリューション",
+      "artist": "内田真礼",
+      "count": 3
+    },
+    {
       "title": "きゅうくらりん",
       "artist": "いよわ",
       "count": 3
@@ -2624,6 +2644,11 @@
       "count": 3
     },
     {
+      "title": "Super Driver",
+      "artist": "平野綾",
+      "count": 3
+    },
+    {
       "title": "Sincerely",
       "artist": "TRUE",
       "count": 3
@@ -2634,8 +2659,8 @@
       "count": 3
     },
     {
-      "title": "Endless Story",
-      "artist": "田村ゆかり",
+      "title": "少年よ我に帰れ",
+      "artist": "やくしまるえつこ",
       "count": 3
     },
     {
@@ -2684,13 +2709,18 @@
       "count": 3
     },
     {
-      "title": "アクアテラリウム",
-      "artist": "やなぎなぎ",
+      "title": "ただ声一つ",
+      "artist": "ロクデナシ",
       "count": 3
     },
     {
-      "title": "花筏",
+      "title": "Petals",
       "artist": "Orangestar",
+      "count": 3
+    },
+    {
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
       "count": 3
     },
     {
@@ -2699,13 +2729,13 @@
       "count": 3
     },
     {
-      "title": "Hello, Worker",
-      "artist": "KEI",
+      "title": "Os 宇宙人",
+      "artist": "エリオをかまってちゃん",
       "count": 3
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
+      "title": "Hello, Worker",
+      "artist": "KEI",
       "count": 3
     },
     {
@@ -3459,11 +3489,6 @@
       "count": 2
     },
     {
-      "title": "ギミー!レボリューション",
-      "artist": "内田真礼",
-      "count": 2
-    },
-    {
       "title": "Daydream cafe",
       "artist": "Petit Rabbit's",
       "count": 2
@@ -3989,13 +4014,18 @@
       "count": 2
     },
     {
-      "title": "Super Driver",
-      "artist": "平野綾",
+      "title": "渉り星",
+      "artist": "Islet",
       "count": 2
     },
     {
-      "title": "渉り星",
-      "artist": "Islet",
+      "title": "創傷イノセンス",
+      "artist": "内田真礼",
+      "count": 2
+    },
+    {
+      "title": "adrenaline!!!",
+      "artist": "TrySail",
       "count": 2
     },
     {
@@ -4029,11 +4059,6 @@
       "count": 2
     },
     {
-      "title": "少年よ我に帰れ",
-      "artist": "やくしまるえつこ",
-      "count": 2
-    },
-    {
       "title": "Rolling Star",
       "artist": "YUI",
       "count": 2
@@ -4054,6 +4079,11 @@
       "count": 2
     },
     {
+      "title": "冒険でしょでしょ?",
+      "artist": "平野綾",
+      "count": 2
+    },
+    {
       "title": "rain stops, good-bye",
       "artist": "におP",
       "count": 2
@@ -4064,6 +4094,11 @@
       "count": 2
     },
     {
+      "title": "片翼の鳥",
+      "artist": "志方あきこ",
+      "count": 2
+    },
+    {
       "title": "夜顔の告白",
       "artist": "samayuzame",
       "count": 2
@@ -4071,6 +4106,11 @@
     {
       "title": "水平線",
       "artist": "back number",
+      "count": 2
+    },
+    {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
       "count": 2
     },
     {
@@ -4109,16 +4149,6 @@
       "count": 2
     },
     {
-      "title": "ただ声一つ",
-      "artist": "ロクデナシ",
-      "count": 2
-    },
-    {
-      "title": "Petals",
-      "artist": "Orangestar",
-      "count": 2
-    },
-    {
       "title": "ファンサ",
       "artist": "HoneyWorks",
       "count": 2
@@ -4139,8 +4169,8 @@
       "count": 2
     },
     {
-      "title": "Os 宇宙人",
-      "artist": "エリオをかまってちゃん",
+      "title": "芽ぐみの雨",
+      "artist": "やなぎなぎ",
       "count": 2
     },
     {
@@ -4151,6 +4181,11 @@
     {
       "title": "OnyXXX",
       "artist": "Black onyX",
+      "count": 2
+    },
+    {
+      "title": "七転八起☆至上主義!",
+      "artist": "KOTOKO",
       "count": 2
     },
     {
@@ -6284,16 +6319,6 @@
       "count": 1
     },
     {
-      "title": "創傷イノセンス",
-      "artist": "内田真礼",
-      "count": 1
-    },
-    {
-      "title": "adrenaline!!!",
-      "artist": "TrySail",
-      "count": 1
-    },
-    {
       "title": "ワールドイズマイン CPK ! Remix",
       "artist": "ryo (supercell)",
       "count": 1
@@ -6379,11 +6404,6 @@
       "count": 1
     },
     {
-      "title": "冒険でしょでしょ?",
-      "artist": "平野綾",
-      "count": 1
-    },
-    {
       "title": "海の幽霊",
       "artist": "米津玄師",
       "count": 1
@@ -6416,11 +6436,6 @@
     {
       "title": "God Knows ...",
       "artist": "涼宮ハルヒ",
-      "count": 1
-    },
-    {
-      "title": "片翼の鳥",
-      "artist": "志方あきこ",
       "count": 1
     },
     {
@@ -6466,11 +6481,6 @@
     {
       "title": "奇蹟",
       "artist": "Uru",
-      "count": 1
-    },
-    {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
       "count": 1
     },
     {
@@ -6619,11 +6629,6 @@
       "count": 1
     },
     {
-      "title": "芽ぐみの雨",
-      "artist": "やなぎなぎ",
-      "count": 1
-    },
-    {
       "title": "正解はひとつ!じゃない!!",
       "artist": "ミルキィホームズ",
       "count": 1
@@ -6651,11 +6656,6 @@
     {
       "title": "Magia",
       "artist": "Kalafina",
-      "count": 1
-    },
-    {
-      "title": "七転八起☆至上主義!",
-      "artist": "KOTOKO",
       "count": 1
     },
     {
@@ -6701,6 +6701,11 @@
     {
       "title": "蝶々結び",
       "artist": "Aimer",
+      "count": 1
+    },
+    {
+      "title": "→unfinished→",
+      "artist": "KOTOKO",
       "count": 1
     }
   ],
