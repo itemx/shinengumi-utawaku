@@ -80,10 +80,20 @@ def merge_video(channel_data: dict, video: dict) -> dict:
             # title: 只要新值非空就覆蓋 (以最新為準，例如實況者改標題)
             if video.get("title"):
                 existing["title"] = video["title"]
-            # 其他欄位: 只在空白時補填
-            for key in ("publishedAt", "type"):
-                if not existing.get(key) and video.get(key):
-                    existing[key] = video[key]
+            # publishedAt: 只在空白時補填
+            if not existing.get("publishedAt") and video.get("publishedAt"):
+                existing["publishedAt"] = video["publishedAt"]
+            # type: stream 是預設值，若新值是更具體的 type (cover/original/short) 則升級
+            new_type = video.get("type")
+            if new_type and new_type != "stream":
+                if existing.get("type") in (None, "", "stream"):
+                    existing["type"] = new_type
+            elif not existing.get("type") and new_type:
+                existing["type"] = new_type
+            # sourceCommentId: 若新值非空，補上或覆蓋空值 (issue 投稿要能追蹤來源)
+            new_sid = video.get("sourceCommentId", "")
+            if new_sid and not existing.get("sourceCommentId"):
+                existing["sourceCommentId"] = new_sid
             # 合併歌曲: 以 seconds 去重
             existing_seconds = {s["seconds"] for s in existing.get("songs", [])}
             for song in incoming_songs:
