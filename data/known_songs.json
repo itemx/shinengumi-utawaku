@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1348,
-  "uniqueTitles": 1317,
-  "uniqueArtists": 615,
+  "totalEntries": 1349,
+  "uniqueTitles": 1318,
+  "uniqueArtists": 616,
   "songs": [
     {
       "title": "残響散歌",
@@ -6742,6 +6742,11 @@
       "title": "→unfinished→",
       "artist": "KOTOKO",
       "count": 1
+    },
+    {
+      "title": "月陽 -ツキアカリ-",
+      "artist": "みきとp",
+      "count": 1
     }
   ],
   "artists": [
@@ -7056,6 +7061,7 @@
     "ぼーかりおどP",
     "まふまふ",
     "みきとP",
+    "みきとp",
     "みきーの (みきとP×keeno)",
     "めいちゃん",
     "めいちゃん, ナナホシ管弦楽団",

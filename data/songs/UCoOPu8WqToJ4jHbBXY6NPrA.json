@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-06-01T17:43:59.380230+00:00",
+  "lastFetched": "2026-06-07T13:56:39.139352+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -7432,6 +7432,24 @@
           "artist": "kz",
           "artistRaw": "kz",
           "url": "https://youtu.be/DBfvjyABsj0"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "RPPxUL1zhmQ",
+      "title": "神の眷属が 月陽 -ツキアカリ- #歌ってみた #shorts #cover #vsinger #月陽 #vtuber #新人vtuber #みきとp",
+      "publishedAt": "2026-06-05T12:00:28Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "月陽 -ツキアカリ-",
+          "titleRaw": "月陽 -ツキアカリ-",
+          "artist": "みきとp",
+          "artistRaw": "みきとp",
+          "url": "https://youtu.be/RPPxUL1zhmQ"
         }
       ],
       "sourceCommentId": "",
