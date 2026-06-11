@@ -32643,15 +32643,6 @@
       "publishedAt": "2026-06-01T11:09:43Z",
       "songs": [
         {
-          "timestamp": "00:32:28",
-          "seconds": 1948,
-          "title": "機器トラブル対応",
-          "titleRaw": "機器トラブル対応",
-          "artist": "",
-          "artistRaw": "",
-          "url": "https://youtu.be/R55pnysTxwc?t=1948"
-        },
-        {
           "timestamp": "00:09:21",
           "seconds": 561,
           "title": "変わらないもの",
@@ -32690,20 +32681,11 @@
         {
           "timestamp": "00:30:41",
           "seconds": 1841,
-          "title": "CHE.R.RY(途中まで)",
-          "titleRaw": "CHE.R.RY（途中まで）",
+          "title": "CHE.R.RY",
+          "titleRaw": "CHE.R.RY",
           "artist": "YUI",
           "artistRaw": "YUI",
           "url": "https://youtu.be/R55pnysTxwc?t=1841"
-        },
-        {
-          "timestamp": "00:39:39",
-          "seconds": 2379,
-          "title": "CHE.R.RY(途中から)",
-          "titleRaw": "CHE.R.RY（途中から）",
-          "artist": "YUI",
-          "artistRaw": "YUI",
-          "url": "https://youtu.be/R55pnysTxwc?t=2379"
         },
         {
           "timestamp": "00:43:12",
@@ -32794,6 +32776,15 @@
           "artist": "Vaundy",
           "artistRaw": "Vaundy",
           "url": "https://youtu.be/R55pnysTxwc?t=6023"
+        },
+        {
+          "timestamp": "01:50:14",
+          "seconds": 6614,
+          "title": "愛を伝えたいだとか",
+          "titleRaw": "Ai wo Tsutaetai Datoka",
+          "artist": "あいみょん",
+          "artistRaw": "Aimyon",
+          "url": "https://youtu.be/R55pnysTxwc?t=6614"
         },
         {
           "timestamp": "01:54:26",
@@ -32893,15 +32884,6 @@
           "artist": "バルーン",
           "artistRaw": "バルーン feat. v flower",
           "url": "https://youtu.be/R55pnysTxwc?t=10166"
-        },
-        {
-          "timestamp": "01:50:14",
-          "seconds": 6614,
-          "title": "Ai wo Tsutaetai Datoka",
-          "titleRaw": "Ai wo Tsutaetai Datoka",
-          "artist": "Aimyon",
-          "artistRaw": "Aimyon",
-          "url": "https://youtu.be/R55pnysTxwc?t=6614"
         }
       ],
       "sourceCommentId": "",

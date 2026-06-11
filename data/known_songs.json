@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1360,
-  "uniqueTitles": 1328,
-  "uniqueArtists": 622,
+  "totalEntries": 1357,
+  "uniqueTitles": 1325,
+  "uniqueArtists": 621,
   "songs": [
     {
       "title": "残響散歌",
@@ -629,6 +629,11 @@
       "count": 7
     },
     {
+      "title": "CHE.R.RY",
+      "artist": "YUI",
+      "count": 7
+    },
+    {
       "title": "盛れ!ミ・アモーレ",
       "artist": "Juice=Juice",
       "count": 7
@@ -829,11 +834,6 @@
       "count": 6
     },
     {
-      "title": "CHE.R.RY",
-      "artist": "YUI",
-      "count": 6
-    },
-    {
       "title": "ノーダウト",
       "artist": "Official髭男dism",
       "count": 6
@@ -906,6 +906,11 @@
     {
       "title": "クラクラ",
       "artist": "Ado",
+      "count": 6
+    },
+    {
+      "title": "愛を伝えたいだとか",
+      "artist": "あいみょん",
       "count": 6
     },
     {
@@ -1231,11 +1236,6 @@
     {
       "title": "斜陽",
       "artist": "ヨルシカ",
-      "count": 5
-    },
-    {
-      "title": "愛を伝えたいだとか",
-      "artist": "あいみょん",
       "count": 5
     },
     {
@@ -6319,21 +6319,6 @@
       "count": 1
     },
     {
-      "title": "CHE.R.RY(途中まで)",
-      "artist": "YUI",
-      "count": 1
-    },
-    {
-      "title": "CHE.R.RY(途中から)",
-      "artist": "YUI",
-      "count": 1
-    },
-    {
-      "title": "Ai wo Tsutaetai Datoka",
-      "artist": "Aimyon",
-      "count": 1
-    },
-    {
       "title": "ホシアイ",
       "artist": "レフティーモンスターP",
       "count": 1
@@ -6830,7 +6815,6 @@
     "AiNA THE END",
     "AiScReam",
     "Aimer",
-    "Aimyon",
     "Aiobahn",
     "Aiobahn +81",
     "AliA",
