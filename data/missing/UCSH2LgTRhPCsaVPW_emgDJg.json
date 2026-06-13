@@ -1,9 +1,16 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "generatedAt": "2026-06-10T15:38:35.369817+00:00",
+  "generatedAt": "2026-06-13T14:02:49.331598+00:00",
   "totalSearched": 173,
   "totalWithSetlist": 142,
-  "totalMissing": 0,
-  "missing": []
+  "totalMissing": 1,
+  "missing": [
+    {
+      "videoId": "UK67wUpSes8",
+      "title": "🐥【歌枠】高評価777！ラッキーセブンいくぞ✨️あなたの魂を揺らすVsinger✨【VTuber/配信中】",
+      "publishedAt": "2026-06-12T11:10:26Z",
+      "url": "https://www.youtube.com/watch?v=UK67wUpSes8"
+    }
+  ]
 }
