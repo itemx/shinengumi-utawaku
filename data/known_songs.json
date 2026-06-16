@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1370,
+  "totalEntries": 1369,
   "uniqueTitles": 1337,
-  "uniqueArtists": 626,
+  "uniqueArtists": 625,
   "songs": [
     {
       "title": "残響散歌",
@@ -2764,6 +2764,11 @@
       "count": 3
     },
     {
+      "title": "secret base~君がくれたもの~",
+      "artist": "ZONE",
+      "count": 3
+    },
+    {
       "title": "アディショナルメモリー",
       "artist": "じん",
       "count": 3
@@ -4026,11 +4031,6 @@
     {
       "title": "夏祭り",
       "artist": "Whiteberry",
-      "count": 2
-    },
-    {
-      "title": "secret base~君がくれたもの~",
-      "artist": "ZONE",
       "count": 2
     },
     {
@@ -5609,11 +5609,6 @@
       "count": 1
     },
     {
-      "title": "secret base~君がくれたもの~",
-      "artist": "ZONE, 本間芽衣子 (茅野愛衣)/安城鳴子 (戸松遥)/鶴見知利子 (早見沙織)",
-      "count": 1
-    },
-    {
       "title": "PLATONIC GIRL",
       "artist": "みきとP",
       "count": 1
@@ -7058,7 +7053,6 @@
     "ZARD",
     "ZOC",
     "ZONE",
-    "ZONE, 本間芽衣子 (茅野愛衣)/安城鳴子 (戸松遥)/鶴見知利子 (早見沙織)",
     "aiko",
     "amazarashi",
     "ano",
