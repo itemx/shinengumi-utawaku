@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1386,
-  "uniqueTitles": 1351,
+  "totalEntries": 1391,
+  "uniqueTitles": 1356,
   "uniqueArtists": 628,
   "songs": [
     {
@@ -74,6 +74,11 @@
       "count": 15
     },
     {
+      "title": "ANIMA",
+      "artist": "ReoNa",
+      "count": 15
+    },
+    {
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 14
@@ -86,11 +91,6 @@
     {
       "title": "プロポーズ",
       "artist": "なとり",
-      "count": 14
-    },
-    {
-      "title": "ANIMA",
-      "artist": "ReoNa",
       "count": 14
     },
     {
@@ -174,6 +174,16 @@
       "count": 12
     },
     {
+      "title": "The Everlasting Guilty Crown",
+      "artist": "EGOIST",
+      "count": 12
+    },
+    {
+      "title": "君の知らない物語",
+      "artist": "ryo (supercell)",
+      "count": 12
+    },
+    {
       "title": "変わらないもの",
       "artist": "奥華子",
       "count": 12
@@ -224,18 +234,13 @@
       "count": 11
     },
     {
-      "title": "The Everlasting Guilty Crown",
-      "artist": "EGOIST",
-      "count": 11
-    },
-    {
-      "title": "君の知らない物語",
-      "artist": "ryo (supercell)",
-      "count": 11
-    },
-    {
       "title": "ソワレ",
       "artist": "星街すいせい",
+      "count": 11
+    },
+    {
+      "title": "カラフル",
+      "artist": "ClariS",
       "count": 11
     },
     {
@@ -384,11 +389,6 @@
       "count": 10
     },
     {
-      "title": "カラフル",
-      "artist": "ClariS",
-      "count": 10
-    },
-    {
       "title": "ホタルノヒカリ",
       "artist": "いきものがかり",
       "count": 10
@@ -431,6 +431,11 @@
     {
       "title": "ヴァンパイア",
       "artist": "DECO*27",
+      "count": 9
+    },
+    {
+      "title": "花の塔",
+      "artist": "さユり",
       "count": 9
     },
     {
@@ -492,6 +497,11 @@
       "title": "トウキョウ・シャンディ・ランデヴ",
       "artist": "MAISONdes",
       "count": 9
+    },
+    {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
+      "count": 8
     },
     {
       "title": "UNDEAD",
@@ -564,8 +574,8 @@
       "count": 8
     },
     {
-      "title": "花の塔",
-      "artist": "さユり",
+      "title": "夜に駆ける",
+      "artist": "YOASOBI",
       "count": 8
     },
     {
@@ -659,11 +669,6 @@
       "count": 7
     },
     {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
-      "count": 7
-    },
-    {
       "title": "春擬き",
       "artist": "やなぎなぎ",
       "count": 7
@@ -734,6 +739,11 @@
       "count": 7
     },
     {
+      "title": "ロミオとシンデレラ",
+      "artist": "doriko",
+      "count": 7
+    },
+    {
       "title": "トンデモワンダーズ",
       "artist": "sasakure.UK",
       "count": 7
@@ -776,11 +786,6 @@
     {
       "title": "ウタカタララバイ",
       "artist": "Ado",
-      "count": 7
-    },
-    {
-      "title": "夜に駆ける",
-      "artist": "YOASOBI",
       "count": 7
     },
     {
@@ -889,6 +894,11 @@
       "count": 7
     },
     {
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
+      "count": 6
+    },
+    {
       "title": "EX-otogibanashi",
       "artist": "ryo (supercell)",
       "count": 6
@@ -926,11 +936,6 @@
     {
       "title": "Booo!",
       "artist": "TOKOTOKO (西沢さんP)",
-      "count": 6
-    },
-    {
-      "title": "ロミオとシンデレラ",
-      "artist": "doriko",
       "count": 6
     },
     {
@@ -1179,11 +1184,6 @@
       "count": 5
     },
     {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
-      "count": 5
-    },
-    {
       "title": "世界は恋に落ちている",
       "artist": "CHiCO with HoneyWorks",
       "count": 5
@@ -1221,6 +1221,11 @@
     {
       "title": "地球最後の告白を",
       "artist": "kemu",
+      "count": 5
+    },
+    {
+      "title": "星が瞬くこんな夜に",
+      "artist": "ryo (supercell)",
       "count": 5
     },
     {
@@ -1314,6 +1319,11 @@
       "count": 5
     },
     {
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
+      "count": 5
+    },
+    {
       "title": "ドライフラワー",
       "artist": "優里",
       "count": 5
@@ -1321,6 +1331,11 @@
     {
       "title": "マーシャル・マキシマイザー",
       "artist": "柊マグネタイト",
+      "count": 5
+    },
+    {
+      "title": "Rising Hope",
+      "artist": "LiSA",
       "count": 5
     },
     {
@@ -1574,6 +1589,11 @@
       "count": 4
     },
     {
+      "title": "青空のラプソディ",
+      "artist": "fhána",
+      "count": 4
+    },
+    {
       "title": "Endless Story",
       "artist": "田村ゆかり",
       "count": 4
@@ -1616,11 +1636,6 @@
     {
       "title": "チェリーポップ",
       "artist": "DECO*27",
-      "count": 4
-    },
-    {
-      "title": "星が瞬くこんな夜に",
-      "artist": "ryo (supercell)",
       "count": 4
     },
     {
@@ -1714,13 +1729,18 @@
       "count": 4
     },
     {
+      "title": "海色",
+      "artist": "AKINO from bless4",
+      "count": 4
+    },
+    {
       "title": "セレナーデ",
       "artist": "なとり",
       "count": 4
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
+      "title": "ドーナツホール 2024",
+      "artist": "米津玄師",
       "count": 4
     },
     {
@@ -2029,11 +2049,6 @@
       "count": 4
     },
     {
-      "title": "Rising Hope",
-      "artist": "LiSA",
-      "count": 4
-    },
-    {
       "title": "雫",
       "artist": "スキマスイッチ",
       "count": 4
@@ -2124,11 +2139,6 @@
       "count": 3
     },
     {
-      "title": "青空のラプソディ",
-      "artist": "fhána",
-      "count": 3
-    },
-    {
       "title": "Super Driver",
       "artist": "平野綾",
       "count": 3
@@ -2196,6 +2206,11 @@
     {
       "title": "rain stops, good-bye",
       "artist": "におP",
+      "count": 3
+    },
+    {
+      "title": "片翼の鳥",
+      "artist": "志方あきこ",
       "count": 3
     },
     {
@@ -2299,11 +2314,6 @@
       "count": 3
     },
     {
-      "title": "海色",
-      "artist": "AKINO from bless4",
-      "count": 3
-    },
-    {
       "title": "死にゆく季節のきみへ",
       "artist": "麻枝准×やなぎなぎ",
       "count": 3
@@ -2314,13 +2324,18 @@
       "count": 3
     },
     {
-      "title": "ドーナツホール 2024",
-      "artist": "米津玄師",
+      "title": "心拍数♯0822",
+      "artist": "蝶々P",
       "count": 3
     },
     {
-      "title": "心拍数♯0822",
-      "artist": "蝶々P",
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
+      "count": 3
+    },
+    {
+      "title": "アイ・アイ・ア",
+      "artist": "Ado",
       "count": 3
     },
     {
@@ -3079,8 +3094,8 @@
       "count": 2
     },
     {
-      "title": "片翼の鳥",
-      "artist": "志方あきこ",
+      "title": "境界の彼方",
+      "artist": "茅原実里",
       "count": 2
     },
     {
@@ -3234,8 +3249,8 @@
       "count": 2
     },
     {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
+      "title": "Burn My Universe",
+      "artist": "麻枝准×やなぎなぎ",
       "count": 2
     },
     {
@@ -3246,6 +3261,11 @@
     {
       "title": "グリグリメガネと月光蟲",
       "artist": "古川本舗",
+      "count": 2
+    },
+    {
+      "title": "LOVE & ROLL",
+      "artist": "ryo (supercell)",
       "count": 2
     },
     {
@@ -3261,6 +3281,11 @@
     {
       "title": "アサガオの散る頃に",
       "artist": "じっぷす",
+      "count": 2
+    },
+    {
+      "title": "アポリア",
+      "artist": "ヨルシカ",
       "count": 2
     },
     {
@@ -4289,11 +4314,6 @@
       "count": 2
     },
     {
-      "title": "アイ・アイ・ア",
-      "artist": "Ado",
-      "count": 2
-    },
-    {
       "title": "コイスルオトメ",
       "artist": "いきものがかり",
       "count": 2
@@ -4554,11 +4574,6 @@
       "count": 1
     },
     {
-      "title": "境界の彼方",
-      "artist": "茅原実里",
-      "count": 1
-    },
-    {
       "title": "BALALAIKA",
       "artist": "9Lana",
       "count": 1
@@ -4794,16 +4809,6 @@
       "count": 1
     },
     {
-      "title": "Burn My Universe",
-      "artist": "麻枝准×やなぎなぎ",
-      "count": 1
-    },
-    {
-      "title": "LOVE & ROLL",
-      "artist": "ryo (supercell)",
-      "count": 1
-    },
-    {
       "title": "点描の唄",
       "artist": "Mrs. GREEN APPLE",
       "count": 1
@@ -4821,6 +4826,31 @@
     {
       "title": "夕景イエスタデイ",
       "artist": "じん",
+      "count": 1
+    },
+    {
+      "title": "聖少女領域",
+      "artist": "ALI PROJECT",
+      "count": 1
+    },
+    {
+      "title": "二息歩行",
+      "artist": "DECO*27",
+      "count": 1
+    },
+    {
+      "title": "Planetes",
+      "artist": "EGOIST",
+      "count": 1
+    },
+    {
+      "title": "Ghost of a smile",
+      "artist": "EGOIST",
+      "count": 1
+    },
+    {
+      "title": "My Dearest",
+      "artist": "ryo (supercell)",
       "count": 1
     },
     {
@@ -6911,11 +6941,6 @@
     {
       "title": "フェイキング・オブ・コメディ",
       "artist": "jon-YAKITORY",
-      "count": 1
-    },
-    {
-      "title": "アポリア",
-      "artist": "ヨルシカ",
       "count": 1
     },
     {
