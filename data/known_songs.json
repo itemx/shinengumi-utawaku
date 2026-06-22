@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1391,
+  "totalEntries": 1392,
   "uniqueTitles": 1356,
-  "uniqueArtists": 628,
+  "uniqueArtists": 629,
   "songs": [
     {
       "title": "残響散歌",
@@ -14,13 +14,13 @@
       "count": 19
     },
     {
-      "title": "創聖のアクエリオン",
-      "artist": "AKINO",
-      "count": 18
-    },
-    {
       "title": "晴る",
       "artist": "ヨルシカ",
+      "count": 19
+    },
+    {
+      "title": "創聖のアクエリオン",
+      "artist": "AKINO",
       "count": 18
     },
     {
@@ -32,6 +32,11 @@
       "title": "怪物",
       "artist": "YOASOBI",
       "count": 17
+    },
+    {
+      "title": "紅蓮華",
+      "artist": "LiSA",
+      "count": 16
     },
     {
       "title": "Calc.",
@@ -52,11 +57,6 @@
       "title": "ただ君に晴れ",
       "artist": "ヨルシカ",
       "count": 16
-    },
-    {
-      "title": "紅蓮華",
-      "artist": "LiSA",
-      "count": 15
     },
     {
       "title": "フォニイ",
@@ -129,6 +129,11 @@
       "count": 13
     },
     {
+      "title": "花になって",
+      "artist": "緑黄色社会",
+      "count": 13
+    },
+    {
       "title": "雨とカプチーノ",
       "artist": "ヨルシカ",
       "count": 13
@@ -186,11 +191,6 @@
     {
       "title": "変わらないもの",
       "artist": "奥華子",
-      "count": 12
-    },
-    {
-      "title": "花になって",
-      "artist": "緑黄色社会",
       "count": 12
     },
     {
@@ -404,6 +404,11 @@
       "count": 10
     },
     {
+      "title": "トウキョウ・シャンディ・ランデヴ",
+      "artist": "MAISONdes",
+      "count": 10
+    },
+    {
       "title": "プラチナ",
       "artist": "坂本真綾",
       "count": 9
@@ -491,11 +496,6 @@
     {
       "title": "Ahoy!! 我ら宝鐘海賊団",
       "artist": "宝鐘マリン",
-      "count": 9
-    },
-    {
-      "title": "トウキョウ・シャンディ・ランデヴ",
-      "artist": "MAISONdes",
       "count": 9
     },
     {
@@ -2984,6 +2984,11 @@
       "count": 3
     },
     {
+      "title": "StaRt",
+      "artist": "Mrs. GREEN APPLE",
+      "count": 3
+    },
+    {
       "title": "マリーゴールド",
       "artist": "あいみょん",
       "count": 3
@@ -4319,11 +4324,6 @@
       "count": 2
     },
     {
-      "title": "StaRt",
-      "artist": "Mrs. GREEN APPLE",
-      "count": 2
-    },
-    {
       "title": "かわいいだけじゃだめですか?",
       "artist": "CUTIE STREET",
       "count": 2
@@ -4851,6 +4851,11 @@
     {
       "title": "My Dearest",
       "artist": "ryo (supercell)",
+      "count": 1
+    },
+    {
+      "title": "咲かせや咲かせ",
+      "artist": "カバネリ",
       "count": 1
     },
     {
@@ -7296,6 +7301,7 @@
     "エリオをかまってちゃん",
     "オワタP",
     "オーイシマサヨシ",
+    "カバネリ",
     "カラスヤサボウ",
     "カンザキイオリ",
     "キズナアイ",

@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-06-22T11:09:20.730664+00:00",
+  "lastFetched": "2026-06-22T17:00:30.533355+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -8237,6 +8237,24 @@
       ],
       "sourceCommentId": "issue#34",
       "type": "stream"
+    },
+    {
+      "videoId": "RF-pukgEYwc",
+      "title": "神の眷属が 咲かせや咲かせ #歌ってみた #shorts #cover #vsinger #咲かせや咲かせ #vtuber #新人vtuber #egoist #カバネリ",
+      "publishedAt": "2026-06-22T09:02:34Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "咲かせや咲かせ",
+          "titleRaw": "咲かせや咲かせ",
+          "artist": "カバネリ",
+          "artistRaw": "カバネリ",
+          "url": "https://youtu.be/RF-pukgEYwc"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
