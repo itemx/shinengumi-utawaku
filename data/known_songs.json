@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1392,
-  "uniqueTitles": 1356,
+  "totalEntries": 1393,
+  "uniqueTitles": 1357,
   "uniqueArtists": 629,
   "songs": [
     {
@@ -59,6 +59,11 @@
       "count": 16
     },
     {
+      "title": "夜明けと蛍",
+      "artist": "n-buna",
+      "count": 15
+    },
+    {
       "title": "フォニイ",
       "artist": "ツミキ",
       "count": 15
@@ -79,8 +84,8 @@
       "count": 15
     },
     {
-      "title": "夜明けと蛍",
-      "artist": "n-buna",
+      "title": "Stellar Stellar",
+      "artist": "星街すいせい",
       "count": 14
     },
     {
@@ -114,11 +119,6 @@
       "count": 13
     },
     {
-      "title": "Stellar Stellar",
-      "artist": "星街すいせい",
-      "count": 13
-    },
-    {
       "title": "コネクト",
       "artist": "ClariS",
       "count": 13
@@ -126,6 +126,11 @@
     {
       "title": "君の知らない物語",
       "artist": "ryo (supercell)",
+      "count": 13
+    },
+    {
+      "title": "変わらないもの",
+      "artist": "奥華子",
       "count": 13
     },
     {
@@ -179,6 +184,11 @@
       "count": 12
     },
     {
+      "title": "All Alone With You",
+      "artist": "EGOIST",
+      "count": 12
+    },
+    {
       "title": "モニタリング",
       "artist": "DECO*27",
       "count": 12
@@ -186,11 +196,6 @@
     {
       "title": "The Everlasting Guilty Crown",
       "artist": "EGOIST",
-      "count": 12
-    },
-    {
-      "title": "変わらないもの",
-      "artist": "奥華子",
       "count": 12
     },
     {
@@ -221,11 +226,6 @@
     {
       "title": "ロウワー",
       "artist": "ぬゆり",
-      "count": 11
-    },
-    {
-      "title": "All Alone With You",
-      "artist": "EGOIST",
       "count": 11
     },
     {
@@ -354,6 +354,11 @@
       "count": 10
     },
     {
+      "title": "命に嫌われている",
+      "artist": "カンザキイオリ",
+      "count": 10
+    },
+    {
       "title": "青のすみか",
       "artist": "キタニタツヤ",
       "count": 10
@@ -424,6 +429,11 @@
       "count": 9
     },
     {
+      "title": "忘れじの言の葉",
+      "artist": "未来古代楽団",
+      "count": 9
+    },
+    {
       "title": "おやすみ泣き声、さよなら歌姫",
       "artist": "クリープハイプ",
       "count": 9
@@ -434,6 +444,11 @@
       "count": 9
     },
     {
+      "title": "Departures ~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
+      "count": 9
+    },
+    {
       "title": "アイドル",
       "artist": "YOASOBI",
       "count": 9
@@ -441,11 +456,6 @@
     {
       "title": "ヴァンパイア",
       "artist": "DECO*27",
-      "count": 9
-    },
-    {
-      "title": "命に嫌われている",
-      "artist": "カンザキイオリ",
       "count": 9
     },
     {
@@ -529,16 +539,6 @@
       "count": 8
     },
     {
-      "title": "忘れじの言の葉",
-      "artist": "未来古代楽団",
-      "count": 8
-    },
-    {
-      "title": "Departures ~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
-      "count": 8
-    },
-    {
       "title": "Brave Shine",
       "artist": "Aimer",
       "count": 8
@@ -591,6 +591,11 @@
     {
       "title": "夜に駆ける",
       "artist": "YOASOBI",
+      "count": 8
+    },
+    {
+      "title": "月のワルツ",
+      "artist": "諫山実生",
       "count": 8
     },
     {
@@ -729,6 +734,11 @@
       "count": 7
     },
     {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 7
+    },
+    {
       "title": "Pray",
       "artist": "水樹奈々",
       "count": 7
@@ -786,11 +796,6 @@
     {
       "title": "ウタカタララバイ",
       "artist": "Ado",
-      "count": 7
-    },
-    {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
       "count": 7
     },
     {
@@ -941,11 +946,6 @@
     {
       "title": "スパークル",
       "artist": "RADWIMPS",
-      "count": 6
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
       "count": 6
     },
     {
@@ -1234,6 +1234,11 @@
       "count": 5
     },
     {
+      "title": "ウィアートル",
+      "artist": "rionos",
+      "count": 5
+    },
+    {
       "title": "曖昧劣情Lover",
       "artist": "koyori (電ポルP)",
       "count": 5
@@ -1261,6 +1266,11 @@
     {
       "title": "心做し",
       "artist": "majiko",
+      "count": 5
+    },
+    {
+      "title": "シリウスの心臓",
+      "artist": "ヰ世界情緒",
       "count": 5
     },
     {
@@ -1331,6 +1341,11 @@
     {
       "title": "ドライフラワー",
       "artist": "優里",
+      "count": 5
+    },
+    {
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
       "count": 5
     },
     {
@@ -1649,13 +1664,13 @@
       "count": 4
     },
     {
-      "title": "ウィアートル",
-      "artist": "rionos",
+      "title": "キャットラビング",
+      "artist": "香椎モイミ",
       "count": 4
     },
     {
-      "title": "キャットラビング",
-      "artist": "香椎モイミ",
+      "title": "水平線",
+      "artist": "back number",
       "count": 4
     },
     {
@@ -1666,11 +1681,6 @@
     {
       "title": "月光食堂",
       "artist": "ぬー (古川本舗)",
-      "count": 4
-    },
-    {
-      "title": "シリウスの心臓",
-      "artist": "ヰ世界情緒",
       "count": 4
     },
     {
@@ -1724,6 +1734,11 @@
       "count": 4
     },
     {
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
+      "count": 4
+    },
+    {
       "title": "花筏",
       "artist": "Orangestar",
       "count": 4
@@ -1749,13 +1764,23 @@
       "count": 4
     },
     {
+      "title": "死にゆく季節のきみへ",
+      "artist": "麻枝准×やなぎなぎ",
+      "count": 4
+    },
+    {
       "title": "ドーナツホール 2024",
       "artist": "米津玄師",
       "count": 4
     },
     {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 4
+    },
+    {
+      "title": "夏恋花火",
+      "artist": "40mP",
       "count": 4
     },
     {
@@ -1766,6 +1791,11 @@
     {
       "title": "エンヴィーベイビー",
       "artist": "Kanaria",
+      "count": 4
+    },
+    {
+      "title": "アポリア",
+      "artist": "ヨルシカ",
       "count": 4
     },
     {
@@ -2244,8 +2274,8 @@
       "count": 3
     },
     {
-      "title": "水平線",
-      "artist": "back number",
+      "title": "それを愛と呼ぶなら",
+      "artist": "Uru",
       "count": 3
     },
     {
@@ -2289,11 +2319,6 @@
       "count": 3
     },
     {
-      "title": "アクアテラリウム",
-      "artist": "やなぎなぎ",
-      "count": 3
-    },
-    {
       "title": "エクストラ・マジック・アワー",
       "artist": "AKINO with bless4",
       "count": 3
@@ -2319,11 +2344,6 @@
       "count": 3
     },
     {
-      "title": "死にゆく季節のきみへ",
-      "artist": "麻枝准×やなぎなぎ",
-      "count": 3
-    },
-    {
       "title": "Hello, Worker",
       "artist": "KEI",
       "count": 3
@@ -2334,18 +2354,8 @@
       "count": 3
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 3
-    },
-    {
       "title": "LOVE & ROLL",
       "artist": "ryo (supercell)",
-      "count": 3
-    },
-    {
-      "title": "夏恋花火",
-      "artist": "40mP",
       "count": 3
     },
     {
@@ -2354,8 +2364,18 @@
       "count": 3
     },
     {
-      "title": "アポリア",
-      "artist": "ヨルシカ",
+      "title": "二息歩行",
+      "artist": "DECO*27",
+      "count": 3
+    },
+    {
+      "title": "Planetes",
+      "artist": "EGOIST",
+      "count": 3
+    },
+    {
+      "title": "Ghost of a smile",
+      "artist": "EGOIST",
       "count": 3
     },
     {
@@ -3139,11 +3159,6 @@
       "count": 2
     },
     {
-      "title": "それを愛と呼ぶなら",
-      "artist": "Uru",
-      "count": 2
-    },
-    {
       "title": "シリョクケンサ",
       "artist": "40mP",
       "count": 2
@@ -3296,21 +3311,6 @@
     {
       "title": "いろは唄",
       "artist": "銀サク",
-      "count": 2
-    },
-    {
-      "title": "二息歩行",
-      "artist": "DECO*27",
-      "count": 2
-    },
-    {
-      "title": "Planetes",
-      "artist": "EGOIST",
-      "count": 2
-    },
-    {
-      "title": "Ghost of a smile",
-      "artist": "EGOIST",
       "count": 2
     },
     {
@@ -4856,6 +4856,11 @@
     {
       "title": "咲かせや咲かせ",
       "artist": "カバネリ",
+      "count": 1
+    },
+    {
+      "title": "想いを巡らす100の事象",
+      "artist": "EGOIST",
       "count": 1
     },
     {

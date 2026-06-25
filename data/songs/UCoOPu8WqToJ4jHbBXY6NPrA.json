@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-06-23T09:47:01.829208+00:00",
+  "lastFetched": "2026-06-25T07:51:56.335614+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -8497,6 +8497,222 @@
         }
       ],
       "sourceCommentId": "issue#35",
+      "type": "stream"
+    },
+    {
+      "videoId": "XhYhpKWA2f0",
+      "title": "【歌枠】夢のような空間からもう帰れない🐙海の中から響く魅惑の歌声🫧1曲聴いていってください🌟 SINGING STREAM！【VTuber/配信中】",
+      "publishedAt": "2026-06-23T19:17:51Z",
+      "songs": [
+        {
+          "timestamp": "12:23",
+          "seconds": 743,
+          "title": "想いを巡らす100の事象",
+          "titleRaw": "想いを巡らす100の事象",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=743"
+        },
+        {
+          "timestamp": "15:59",
+          "seconds": 959,
+          "title": "Ghost of a smile",
+          "titleRaw": "Ghost of a smile",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=959"
+        },
+        {
+          "timestamp": "21:58",
+          "seconds": 1318,
+          "title": "All Alone With You",
+          "titleRaw": "All Alone With You",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=1318"
+        },
+        {
+          "timestamp": "37:13",
+          "seconds": 2233,
+          "title": "二息歩行",
+          "titleRaw": "二息歩行",
+          "artist": "DECO*27",
+          "artistRaw": "DECO*27",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=2233"
+        },
+        {
+          "timestamp": "41:09",
+          "seconds": 2469,
+          "title": "命に嫌われている",
+          "titleRaw": "命に嫌われている",
+          "artist": "カンザキイオリ",
+          "artistRaw": "カンザキイオリ",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=2469"
+        },
+        {
+          "timestamp": "46:13",
+          "seconds": 2773,
+          "title": "グリグリメガネと月光蟲",
+          "titleRaw": "グリグリメガネと月光蟲",
+          "artist": "古川本舗",
+          "artistRaw": "古川本舗",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=2773"
+        },
+        {
+          "timestamp": "51:45",
+          "seconds": 3105,
+          "title": "アクアテラリウム",
+          "titleRaw": "アクアテラリウム",
+          "artist": "やなぎなぎ",
+          "artistRaw": "やなぎなぎ",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=3105"
+        },
+        {
+          "timestamp": "57:08",
+          "seconds": 3428,
+          "title": "死にゆく季節のきみへ",
+          "titleRaw": "死にゆく季節のきみへ",
+          "artist": "麻枝准×やなぎなぎ",
+          "artistRaw": "麻枝准×やなぎなぎ",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=3428"
+        },
+        {
+          "timestamp": "1:02:32",
+          "seconds": 3752,
+          "title": "月のワルツ",
+          "titleRaw": "月のワルツ",
+          "artist": "諫山実生",
+          "artistRaw": "諫山実生",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=3752"
+        },
+        {
+          "timestamp": "1:20:39",
+          "seconds": 4839,
+          "title": "変わらないもの",
+          "titleRaw": "変わらないもの",
+          "artist": "奥華子",
+          "artistRaw": "奥華子",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=4839"
+        },
+        {
+          "timestamp": "1:26:21",
+          "seconds": 5181,
+          "title": "夏恋花火",
+          "titleRaw": "夏恋花火",
+          "artist": "40mP",
+          "artistRaw": "40mP",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=5181"
+        },
+        {
+          "timestamp": "1:31:04",
+          "seconds": 5464,
+          "title": "忘れじの言の葉",
+          "titleRaw": "忘れじの言の葉",
+          "artist": "未来古代楽団",
+          "artistRaw": "未来古代楽団",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=5464"
+        },
+        {
+          "timestamp": "1:35:11",
+          "seconds": 5711,
+          "title": "Departures ~あなたにおくるアイの歌~",
+          "titleRaw": "Departures ~あなたにおくるアイの歌~",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=5711"
+        },
+        {
+          "timestamp": "1:39:28",
+          "seconds": 5968,
+          "title": "シリウスの心臓",
+          "titleRaw": "シリウスの心臓",
+          "artist": "ヰ世界情緒",
+          "artistRaw": "ヰ世界情緒",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=5968"
+        },
+        {
+          "timestamp": "2:00:38",
+          "seconds": 7238,
+          "title": "アポリア",
+          "titleRaw": "アポリア",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=7238"
+        },
+        {
+          "timestamp": "2:05:22",
+          "seconds": 7522,
+          "title": "Planetes",
+          "titleRaw": "Planetes",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=7522"
+        },
+        {
+          "timestamp": "2:11:36",
+          "seconds": 7896,
+          "title": "Stellar Stellar",
+          "titleRaw": "Stellar Stellar",
+          "artist": "星街すいせい",
+          "artistRaw": "星街すいせい",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=7896"
+        },
+        {
+          "timestamp": "2:17:06",
+          "seconds": 8226,
+          "title": "うたかた花火",
+          "titleRaw": "うたかた花火",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=8226"
+        },
+        {
+          "timestamp": "2:39:41",
+          "seconds": 9581,
+          "title": "水平線",
+          "titleRaw": "水平線",
+          "artist": "back number",
+          "artistRaw": "back number",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=9581"
+        },
+        {
+          "timestamp": "2:44:32",
+          "seconds": 9872,
+          "title": "それを愛と呼ぶなら",
+          "titleRaw": "それを愛と呼ぶなら",
+          "artist": "Uru",
+          "artistRaw": "Uru",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=9872"
+        },
+        {
+          "timestamp": "2:49:16",
+          "seconds": 10156,
+          "title": "夜明けと蛍",
+          "titleRaw": "夜明けと蛍",
+          "artist": "n-buna",
+          "artistRaw": "n-buna",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=10156"
+        },
+        {
+          "timestamp": "2:54:46",
+          "seconds": 10486,
+          "title": "深海のリトルクライ",
+          "titleRaw": "深海のリトルクライ",
+          "artist": "sasakure.UK",
+          "artistRaw": "sasakure.UK",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=10486"
+        },
+        {
+          "timestamp": "2:59:42",
+          "seconds": 10782,
+          "title": "ウィアートル",
+          "titleRaw": "ウィアートル",
+          "artist": "rionos",
+          "artistRaw": "rionos",
+          "url": "https://youtu.be/XhYhpKWA2f0?t=10782"
+        }
+      ],
+      "sourceCommentId": "issue#36",
       "type": "stream"
     }
   ]
