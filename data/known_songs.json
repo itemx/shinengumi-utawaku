@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1395,
-  "uniqueTitles": 1360,
+  "totalEntries": 1394,
+  "uniqueTitles": 1359,
   "uniqueArtists": 629,
   "songs": [
     {
@@ -91,6 +91,11 @@
     {
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
+      "count": 14
+    },
+    {
+      "title": "Departures ~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
       "count": 14
     },
     {
@@ -441,11 +446,6 @@
     {
       "title": "革命道中",
       "artist": "アイナ・ジ・エンド",
-      "count": 9
-    },
-    {
-      "title": "Departures ~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
       "count": 9
     },
     {
@@ -1561,11 +1561,6 @@
     {
       "title": "月が綺麗ねと言われたい!",
       "artist": "柿崎ユウタ",
-      "count": 5
-    },
-    {
-      "title": "Departures~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
       "count": 5
     },
     {
