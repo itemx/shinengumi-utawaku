@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1393,
-  "uniqueTitles": 1357,
-  "uniqueArtists": 629,
+  "totalEntries": 1396,
+  "uniqueTitles": 1360,
+  "uniqueArtists": 630,
   "songs": [
     {
       "title": "残響散歌",
@@ -24,13 +24,13 @@
       "count": 18
     },
     {
-      "title": "ビビデバ",
-      "artist": "星街すいせい",
-      "count": 17
-    },
-    {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
+      "count": 18
+    },
+    {
+      "title": "ビビデバ",
+      "artist": "星街すいせい",
       "count": 17
     },
     {
@@ -229,6 +229,21 @@
       "count": 11
     },
     {
+      "title": "Tell Your World",
+      "artist": "kz (livetune)",
+      "count": 11
+    },
+    {
+      "title": "ハロ/ハワユ",
+      "artist": "ナノウ",
+      "count": 11
+    },
+    {
+      "title": "吉原ラメント",
+      "artist": "亜沙",
+      "count": 11
+    },
+    {
       "title": "春泥棒",
       "artist": "ヨルシカ",
       "count": 11
@@ -294,23 +309,13 @@
       "count": 10
     },
     {
-      "title": "Tell Your World",
-      "artist": "kz (livetune)",
-      "count": 10
-    },
-    {
-      "title": "ハロ/ハワユ",
-      "artist": "ナノウ",
+      "title": "忘れじの言の葉",
+      "artist": "未来古代楽団",
       "count": 10
     },
     {
       "title": "GHOST",
       "artist": "星街すいせい",
-      "count": 10
-    },
-    {
-      "title": "吉原ラメント",
-      "artist": "亜沙",
       "count": 10
     },
     {
@@ -356,6 +361,11 @@
     {
       "title": "命に嫌われている",
       "artist": "カンザキイオリ",
+      "count": 10
+    },
+    {
+      "title": "からくりピエロ",
+      "artist": "40mP",
       "count": 10
     },
     {
@@ -419,6 +429,11 @@
       "count": 9
     },
     {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
+      "count": 9
+    },
+    {
       "title": "Catch the Moment",
       "artist": "LiSA",
       "count": 9
@@ -426,11 +441,6 @@
     {
       "title": "言って。",
       "artist": "ヨルシカ",
-      "count": 9
-    },
-    {
-      "title": "忘れじの言の葉",
-      "artist": "未来古代楽団",
       "count": 9
     },
     {
@@ -449,6 +459,16 @@
       "count": 9
     },
     {
+      "title": "恋愛裁判",
+      "artist": "40mP",
+      "count": 9
+    },
+    {
+      "title": "ロミオとシンデレラ",
+      "artist": "doriko",
+      "count": 9
+    },
+    {
       "title": "アイドル",
       "artist": "YOASOBI",
       "count": 9
@@ -461,11 +481,6 @@
     {
       "title": "花の塔",
       "artist": "さユり",
-      "count": 9
-    },
-    {
-      "title": "からくりピエロ",
-      "artist": "40mP",
       "count": 9
     },
     {
@@ -524,11 +539,6 @@
       "count": 9
     },
     {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
-      "count": 8
-    },
-    {
       "title": "UNDEAD",
       "artist": "YOASOBI",
       "count": 8
@@ -539,23 +549,18 @@
       "count": 8
     },
     {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 8
+    },
+    {
       "title": "Brave Shine",
       "artist": "Aimer",
       "count": 8
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP",
-      "count": 8
-    },
-    {
       "title": "独りんぼエンヴィー",
       "artist": "koyori (電ポルP)",
-      "count": 8
-    },
-    {
-      "title": "ロミオとシンデレラ",
-      "artist": "doriko",
       "count": 8
     },
     {
@@ -596,6 +601,11 @@
     {
       "title": "月のワルツ",
       "artist": "諫山実生",
+      "count": 8
+    },
+    {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
       "count": 8
     },
     {
@@ -734,11 +744,6 @@
       "count": 7
     },
     {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
-      "count": 7
-    },
-    {
       "title": "Pray",
       "artist": "水樹奈々",
       "count": 7
@@ -779,6 +784,11 @@
       "count": 7
     },
     {
+      "title": "アスノヨゾラ哨戒班",
+      "artist": "Orangestar",
+      "count": 7
+    },
+    {
       "title": "カサブタ",
       "artist": "千綿偉功",
       "count": 7
@@ -811,11 +821,6 @@
     {
       "title": "サリシノハラ",
       "artist": "みきとP",
-      "count": 7
-    },
-    {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
       "count": 7
     },
     {
@@ -989,11 +994,6 @@
       "count": 6
     },
     {
-      "title": "アスノヨゾラ哨戒班",
-      "artist": "Orangestar",
-      "count": 6
-    },
-    {
       "title": "God knows...",
       "artist": "平野綾",
       "count": 6
@@ -1021,6 +1021,11 @@
     {
       "title": "メリッサ",
       "artist": "ポルノグラフィティ",
+      "count": 6
+    },
+    {
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
       "count": 6
     },
     {
@@ -1269,6 +1274,11 @@
       "count": 5
     },
     {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 5
+    },
+    {
       "title": "シリウスの心臓",
       "artist": "ヰ世界情緒",
       "count": 5
@@ -1334,11 +1344,6 @@
       "count": 5
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
-      "count": 5
-    },
-    {
       "title": "ドライフラワー",
       "artist": "優里",
       "count": 5
@@ -1349,8 +1354,18 @@
       "count": 5
     },
     {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 5
+    },
+    {
       "title": "マーシャル・マキシマイザー",
       "artist": "柊マグネタイト",
+      "count": 5
+    },
+    {
+      "title": "アポリア",
+      "artist": "ヨルシカ",
       "count": 5
     },
     {
@@ -1679,11 +1694,6 @@
       "count": 4
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 4
-    },
-    {
       "title": "ダダダダ天使",
       "artist": "ナナヲアカリ",
       "count": 4
@@ -1769,13 +1779,18 @@
       "count": 4
     },
     {
+      "title": "Hello, Worker",
+      "artist": "KEI",
+      "count": 4
+    },
+    {
       "title": "ドーナツホール 2024",
       "artist": "米津玄師",
       "count": 4
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
+      "title": "心拍数♯0822",
+      "artist": "蝶々P",
       "count": 4
     },
     {
@@ -1794,8 +1809,13 @@
       "count": 4
     },
     {
-      "title": "アポリア",
-      "artist": "ヨルシカ",
+      "title": "Planetes",
+      "artist": "EGOIST",
+      "count": 4
+    },
+    {
+      "title": "Ghost of a smile",
+      "artist": "EGOIST",
       "count": 4
     },
     {
@@ -2344,16 +2364,6 @@
       "count": 3
     },
     {
-      "title": "Hello, Worker",
-      "artist": "KEI",
-      "count": 3
-    },
-    {
-      "title": "心拍数♯0822",
-      "artist": "蝶々P",
-      "count": 3
-    },
-    {
       "title": "LOVE & ROLL",
       "artist": "ryo (supercell)",
       "count": 3
@@ -2366,16 +2376,6 @@
     {
       "title": "二息歩行",
       "artist": "DECO*27",
-      "count": 3
-    },
-    {
-      "title": "Planetes",
-      "artist": "EGOIST",
-      "count": 3
-    },
-    {
-      "title": "Ghost of a smile",
-      "artist": "EGOIST",
       "count": 3
     },
     {
@@ -3304,6 +3304,11 @@
       "count": 2
     },
     {
+      "title": "「ねぇ。」",
+      "artist": "ナノウ",
+      "count": 2
+    },
+    {
       "title": "アサガオの散る頃に",
       "artist": "じっぷす",
       "count": 2
@@ -3311,6 +3316,11 @@
     {
       "title": "いろは唄",
       "artist": "銀サク",
+      "count": 2
+    },
+    {
+      "title": "想いを巡らす100の事象",
+      "artist": "EGOIST",
       "count": 2
     },
     {
@@ -4834,11 +4844,6 @@
       "count": 1
     },
     {
-      "title": "「ねぇ。」",
-      "artist": "ナノウ",
-      "count": 1
-    },
-    {
       "title": "夕景イエスタデイ",
       "artist": "じん",
       "count": 1
@@ -4859,8 +4864,18 @@
       "count": 1
     },
     {
-      "title": "想いを巡らす100の事象",
-      "artist": "EGOIST",
+      "title": "待ってて、彼岸で",
+      "artist": "rinri",
+      "count": 1
+    },
+    {
+      "title": "Unhappy Light",
+      "artist": "月村手毬",
+      "count": 1
+    },
+    {
+      "title": "サイレント・マジョリティ",
+      "artist": "Heavenz",
       "count": 1
     },
     {
@@ -7215,6 +7230,7 @@
     "nobodyknows+",
     "nyamura",
     "r-906",
+    "rinri",
     "rionos",
     "ryo (supercell)",
     "ryo (supercell), かぐや (CV.夏吉ゆうこ) & 月見ヤチヨ (CV.早見沙織)",
