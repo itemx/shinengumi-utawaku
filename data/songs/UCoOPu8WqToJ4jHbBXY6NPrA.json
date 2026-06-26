@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-06-26T09:11:01.774284+00:00",
+  "lastFetched": "2026-06-26T09:48:18.726996+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -8951,11 +8951,21 @@
     },
     {
       "videoId": "kVt8aQVEsYU",
-      "title": "白い雪のプリンセスは-Re:incarnation- #歌ってみた #shorts #cover #vsinger #白い雪のプリンセスは  #vtuber #新人vtuber #初音ミク",
+      "title": "白い雪のプリンセスは-Re:incarnation-",
       "publishedAt": "2026-06-25T09:00:15Z",
-      "songs": [],
-      "sourceCommentId": "",
-      "type": "stream"
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "白い雪のプリンセスは-Re:incarnation-",
+          "titleRaw": "白い雪のプリンセスは-Re:incarnation-",
+          "artist": "のぼる↑",
+          "artistRaw": "",
+          "url": "https://youtu.be/kVt8aQVEsYU?t=0"
+        }
+      ],
+      "sourceCommentId": "issue#39",
+      "type": "short"
     },
     {
       "videoId": "z_43dAFgy1Q",
