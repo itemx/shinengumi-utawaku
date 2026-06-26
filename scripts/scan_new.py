@@ -44,8 +44,10 @@ _UTAWAKU_PATTERNS = re.compile(
     r"歌枠|karaoke|singing\s*stream|SINGING\s*STREAM",
     re.IGNORECASE,
 )
+# ponytail: #shorts hashtag dropped — VTubers tag long 縦型歌枠 with it;
+# genuine Shorts are caught by duration (vid_info.isShort) instead.
 _EXCLUDE_PATTERNS = re.compile(
-    r"#shorts|歌ってみた|cover\b",
+    r"歌ってみた|cover\b",
     re.IGNORECASE,
 )
 
@@ -241,7 +243,7 @@ def main():
                 else:
                     # 判斷是否為真歌枠
                     is_utawaku = bool(_UTAWAKU_PATTERNS.search(title))
-                    is_excluded = bool(_EXCLUDE_PATTERNS.search(title))
+                    is_excluded = bool(_EXCLUDE_PATTERNS.search(title)) or vid_info.get("isShort", False)
 
                     if is_utawaku and not is_excluded:
                         # 加入 missing (或 refresh 既有項目的 title/publishedAt)
