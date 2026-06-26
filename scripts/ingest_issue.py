@@ -110,7 +110,7 @@ def main():
     # cover/original/short 為單曲投稿: 允許 1 首、保留 0:00
     vid_type = metadata.get("type", "stream")
     if vid_type in ("cover", "original", "short"):
-        songs = parse_comment(setlist_text, min_songs=1, skip_zero=False)
+        songs = parse_comment(setlist_text, min_songs=1, skip_zero=False, filter_chatter=False)
     else:
         songs = parse_comment(setlist_text)
     if songs is None:

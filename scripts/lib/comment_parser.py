@@ -150,7 +150,8 @@ def _split_title_artist(text: str) -> tuple[str, str]:
 
 
 def parse_comment(
-    text: str, min_songs: int = 3, skip_zero: bool = True
+    text: str, min_songs: int = 3, skip_zero: bool = True,
+    filter_chatter: bool = True,
 ) -> list[SongEntry] | None:
     """解析留言文字，擷取歌曲列表。
 
@@ -160,6 +161,8 @@ def parse_comment(
             對於 cover/original 投稿，可設為 1。
         skip_zero: 是否跳過 0:00 timestamp (預設 True，因為通常是配信開始標記)。
             對於 cover/original 投稿，應設為 False。
+        filter_chatter: 是否過濾雜談/配信標記 (預設 True)。
+            cover/original/short 為單曲投稿，標題即曲名，應設為 False。
 
     Returns:
         解析出的歌曲列表，若非セトリ留言則返回 None。
@@ -206,7 +209,7 @@ def parse_comment(
 
         # 過濾非歌曲項目 (配信標記、雜談)
         # 無歌手時判定更嚴格，但不完全排除 (保留可能的原創曲)
-        if not _is_likely_song(title, has_artist=bool(artist)):
+        if filter_chatter and not _is_likely_song(title, has_artist=bool(artist)):
             continue
 
         songs.append(SongEntry(
