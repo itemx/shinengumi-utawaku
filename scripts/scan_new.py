@@ -191,6 +191,8 @@ def main():
                 if original:
                     nr = normalize(original.title, original.artist, aliases)
                     vid_type = "short" if vid_info.get("isShort", original.is_short) else "original"
+                    # 先查現有資料庫補歌手，查不到才用頻道名
+                    artist = nr.artist or fill_missing_artist(nr.title, "", known) or channel_name
                     video_entry = {
                         "videoId": vid_id,
                         "title": title,
@@ -198,7 +200,7 @@ def main():
                         "songs": [{
                             "timestamp": "0:00", "seconds": 0,
                             "title": nr.title, "titleRaw": original.title,
-                            "artist": nr.artist or channel_name,
+                            "artist": artist,
                             "artistRaw": original.artist or channel_name,
                             "url": f"https://youtu.be/{vid_id}",
                         }],
