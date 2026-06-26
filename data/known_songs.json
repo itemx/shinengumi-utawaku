@@ -64,6 +64,11 @@
       "count": 15
     },
     {
+      "title": "Departures ~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
+      "count": 15
+    },
+    {
       "title": "フォニイ",
       "artist": "ツミキ",
       "count": 15
@@ -82,11 +87,6 @@
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 15
-    },
-    {
-      "title": "Departures ~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
-      "count": 14
     },
     {
       "title": "Stellar Stellar",
@@ -116,6 +116,11 @@
     {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
+      "count": 13
+    },
+    {
+      "title": "All Alone With You",
+      "artist": "EGOIST",
       "count": 13
     },
     {
@@ -189,8 +194,8 @@
       "count": 12
     },
     {
-      "title": "All Alone With You",
-      "artist": "EGOIST",
+      "title": "Tell Your World",
+      "artist": "kz (livetune)",
       "count": 12
     },
     {
@@ -224,6 +229,11 @@
       "count": 12
     },
     {
+      "title": "トリノコシティ",
+      "artist": "40mP",
+      "count": 11
+    },
+    {
       "title": "シンデレラ",
       "artist": "DECO*27",
       "count": 11
@@ -231,11 +241,6 @@
     {
       "title": "ロウワー",
       "artist": "ぬゆり",
-      "count": 11
-    },
-    {
-      "title": "Tell Your World",
-      "artist": "kz (livetune)",
       "count": 11
     },
     {
@@ -299,11 +304,6 @@
       "count": 11
     },
     {
-      "title": "トリノコシティ",
-      "artist": "40mP",
-      "count": 10
-    },
-    {
       "title": "星降る海",
       "artist": "月見ヤチヨ",
       "count": 10
@@ -326,6 +326,11 @@
     {
       "title": "GHOST",
       "artist": "星街すいせい",
+      "count": 10
+    },
+    {
+      "title": "恋愛裁判",
+      "artist": "40mP",
       "count": 10
     },
     {
@@ -459,11 +464,6 @@
       "count": 9
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP",
-      "count": 9
-    },
-    {
       "title": "ロミオとシンデレラ",
       "artist": "doriko",
       "count": 9
@@ -479,6 +479,11 @@
       "count": 9
     },
     {
+      "title": "月のワルツ",
+      "artist": "諫山実生",
+      "count": 9
+    },
+    {
       "title": "花の塔",
       "artist": "さユり",
       "count": 9
@@ -486,6 +491,11 @@
     {
       "title": "心という名の不可解",
       "artist": "Ado",
+      "count": 9
+    },
+    {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
       "count": 9
     },
     {
@@ -544,6 +554,11 @@
       "count": 8
     },
     {
+      "title": "ハイドアンド・シーク",
+      "artist": "19's Sound Factory",
+      "count": 8
+    },
+    {
       "title": "ワールドイズマイン",
       "artist": "ryo (supercell)",
       "count": 8
@@ -579,6 +594,11 @@
       "count": 8
     },
     {
+      "title": "アスノヨゾラ哨戒班",
+      "artist": "Orangestar",
+      "count": 8
+    },
+    {
       "title": "ミカヅキ",
       "artist": "さユり",
       "count": 8
@@ -599,13 +619,8 @@
       "count": 8
     },
     {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
-      "count": 8
-    },
-    {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
+      "title": "ヒバナ",
+      "artist": "DECO*27",
       "count": 8
     },
     {
@@ -724,11 +739,6 @@
       "count": 7
     },
     {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory",
-      "count": 7
-    },
-    {
       "title": "Tot Musica",
       "artist": "Ado",
       "count": 7
@@ -784,11 +794,6 @@
       "count": 7
     },
     {
-      "title": "アスノヨゾラ哨戒班",
-      "artist": "Orangestar",
-      "count": 7
-    },
-    {
       "title": "カサブタ",
       "artist": "千綿偉功",
       "count": 7
@@ -811,11 +816,6 @@
     {
       "title": "ヒステリックナイトガール",
       "artist": "PSYQUI",
-      "count": 7
-    },
-    {
-      "title": "ヒバナ",
-      "artist": "DECO*27",
       "count": 7
     },
     {
@@ -964,6 +964,16 @@
       "count": 6
     },
     {
+      "title": "ブラックロックシューター",
+      "artist": "ryo (supercell)",
+      "count": 6
+    },
+    {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 6
+    },
+    {
       "title": "いけないボーダーライン",
       "artist": "ワルキューレ",
       "count": 6
@@ -1026,6 +1036,11 @@
     {
       "title": "ロンリーユニバース",
       "artist": "Aqu3ra",
+      "count": 6
+    },
+    {
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
       "count": 6
     },
     {
@@ -1259,18 +1274,8 @@
       "count": 5
     },
     {
-      "title": "ブラックロックシューター",
-      "artist": "ryo (supercell)",
-      "count": 5
-    },
-    {
       "title": "心做し",
       "artist": "majiko",
-      "count": 5
-    },
-    {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
       "count": 5
     },
     {
@@ -1329,6 +1334,11 @@
       "count": 5
     },
     {
+      "title": "快晴",
+      "artist": "Orangestar",
+      "count": 5
+    },
+    {
       "title": "絶頂讃歌",
       "artist": "和ぬか",
       "count": 5
@@ -1339,18 +1349,23 @@
       "count": 5
     },
     {
+      "title": "死にゆく季節のきみへ",
+      "artist": "麻枝准×やなぎなぎ",
+      "count": 5
+    },
+    {
       "title": "ドライフラワー",
       "artist": "優里",
       "count": 5
     },
     {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
       "count": 5
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
+      "title": "夏恋花火",
+      "artist": "40mP",
       "count": 5
     },
     {
@@ -1361,6 +1376,16 @@
     {
       "title": "アポリア",
       "artist": "ヨルシカ",
+      "count": 5
+    },
+    {
+      "title": "Planetes",
+      "artist": "EGOIST",
+      "count": 5
+    },
+    {
+      "title": "Ghost of a smile",
+      "artist": "EGOIST",
       "count": 5
     },
     {
@@ -1729,11 +1754,6 @@
       "count": 4
     },
     {
-      "title": "快晴",
-      "artist": "Orangestar",
-      "count": 4
-    },
-    {
       "title": "天ノ弱",
       "artist": "164",
       "count": 4
@@ -1769,11 +1789,6 @@
       "count": 4
     },
     {
-      "title": "死にゆく季節のきみへ",
-      "artist": "麻枝准×やなぎなぎ",
-      "count": 4
-    },
-    {
       "title": "Hello, Worker",
       "artist": "KEI",
       "count": 4
@@ -1789,11 +1804,6 @@
       "count": 4
     },
     {
-      "title": "夏恋花火",
-      "artist": "40mP",
-      "count": 4
-    },
-    {
       "title": "secret base~君がくれたもの~",
       "artist": "ZONE",
       "count": 4
@@ -1804,13 +1814,13 @@
       "count": 4
     },
     {
-      "title": "Planetes",
-      "artist": "EGOIST",
+      "title": "二息歩行",
+      "artist": "DECO*27",
       "count": 4
     },
     {
-      "title": "Ghost of a smile",
-      "artist": "EGOIST",
+      "title": "高嶺の花子さん",
+      "artist": "back number",
       "count": 4
     },
     {
@@ -2359,18 +2369,33 @@
       "count": 3
     },
     {
+      "title": "Burn My Universe",
+      "artist": "麻枝准×やなぎなぎ",
+      "count": 3
+    },
+    {
+      "title": "ワンダーステラ",
+      "artist": "fhána",
+      "count": 3
+    },
+    {
       "title": "LOVE & ROLL",
       "artist": "ryo (supercell)",
       "count": 3
     },
     {
-      "title": "アイ・アイ・ア",
-      "artist": "Ado",
+      "title": "「ねぇ。」",
+      "artist": "ナノウ",
       "count": 3
     },
     {
-      "title": "二息歩行",
-      "artist": "DECO*27",
+      "title": "いろは唄",
+      "artist": "銀サク",
+      "count": 3
+    },
+    {
+      "title": "アイ・アイ・ア",
+      "artist": "Ado",
       "count": 3
     },
     {
@@ -2984,11 +3009,6 @@
       "count": 3
     },
     {
-      "title": "高嶺の花子さん",
-      "artist": "back number",
-      "count": 3
-    },
-    {
       "title": "太陽曰く燃えよカオス",
       "artist": "後ろから這いより隊G",
       "count": 3
@@ -3284,33 +3304,13 @@
       "count": 2
     },
     {
-      "title": "Burn My Universe",
-      "artist": "麻枝准×やなぎなぎ",
-      "count": 2
-    },
-    {
-      "title": "ワンダーステラ",
-      "artist": "fhána",
-      "count": 2
-    },
-    {
       "title": "サイレントマジョリティー",
       "artist": "欅坂46",
       "count": 2
     },
     {
-      "title": "「ねぇ。」",
-      "artist": "ナノウ",
-      "count": 2
-    },
-    {
       "title": "アサガオの散る頃に",
       "artist": "じっぷす",
-      "count": 2
-    },
-    {
-      "title": "いろは唄",
-      "artist": "銀サク",
       "count": 2
     },
     {
