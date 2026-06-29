@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1403,
-  "uniqueTitles": 1368,
-  "uniqueArtists": 635,
+  "totalEntries": 1407,
+  "uniqueTitles": 1372,
+  "uniqueArtists": 636,
   "songs": [
     {
       "title": "残響散歌",
@@ -79,6 +79,11 @@
       "count": 15
     },
     {
+      "title": "空色デイズ",
+      "artist": "中川翔子",
+      "count": 15
+    },
+    {
       "title": "Across the world !!",
       "artist": "深淵組",
       "count": 15
@@ -89,13 +94,18 @@
       "count": 15
     },
     {
+      "title": "モニタリング",
+      "artist": "DECO*27",
+      "count": 14
+    },
+    {
       "title": "Stellar Stellar",
       "artist": "星街すいせい",
       "count": 14
     },
     {
-      "title": "空色デイズ",
-      "artist": "中川翔子",
+      "title": "花になって",
+      "artist": "緑黄色社会",
       "count": 14
     },
     {
@@ -129,11 +139,6 @@
       "count": 13
     },
     {
-      "title": "モニタリング",
-      "artist": "DECO*27",
-      "count": 13
-    },
-    {
       "title": "IRIS OUT",
       "artist": "米津玄師",
       "count": 13
@@ -159,8 +164,8 @@
       "count": 13
     },
     {
-      "title": "花になって",
-      "artist": "緑黄色社会",
+      "title": "カラフル",
+      "artist": "ClariS",
       "count": 13
     },
     {
@@ -209,11 +214,6 @@
       "count": 12
     },
     {
-      "title": "カラフル",
-      "artist": "ClariS",
-      "count": 12
-    },
-    {
       "title": "スカー",
       "artist": "キタニタツヤ",
       "count": 12
@@ -241,6 +241,11 @@
     {
       "title": "シンデレラ",
       "artist": "DECO*27",
+      "count": 11
+    },
+    {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
       "count": 11
     },
     {
@@ -302,11 +307,6 @@
       "title": "藍二乗",
       "artist": "ヨルシカ",
       "count": 11
-    },
-    {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
-      "count": 10
     },
     {
       "title": "SOS",
@@ -376,6 +376,11 @@
     {
       "title": "命に嫌われている",
       "artist": "カンザキイオリ",
+      "count": 10
+    },
+    {
+      "title": "花の塔",
+      "artist": "さユり",
       "count": 10
     },
     {
@@ -481,11 +486,6 @@
     {
       "title": "月のワルツ",
       "artist": "諫山実生",
-      "count": 9
-    },
-    {
-      "title": "花の塔",
-      "artist": "さユり",
       "count": 9
     },
     {
@@ -714,6 +714,11 @@
       "count": 7
     },
     {
+      "title": "EX-otogibanashi",
+      "artist": "ryo (supercell)",
+      "count": 7
+    },
+    {
       "title": "春擬き",
       "artist": "やなぎなぎ",
       "count": 7
@@ -919,13 +924,13 @@
       "count": 7
     },
     {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
+      "title": "Remember",
+      "artist": "月見ヤチヨ",
       "count": 6
     },
     {
-      "title": "EX-otogibanashi",
-      "artist": "ryo (supercell)",
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
       "count": 6
     },
     {
@@ -1011,6 +1016,11 @@
     {
       "title": "白い雪のプリンセスは",
       "artist": "のぼる↑",
+      "count": 6
+    },
+    {
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
       "count": 6
     },
     {
@@ -1209,11 +1219,6 @@
       "count": 6
     },
     {
-      "title": "Remember",
-      "artist": "月見ヤチヨ",
-      "count": 5
-    },
-    {
       "title": "月が綺麗ねと言われたい!",
       "artist": "柿崎ユウタ",
       "count": 5
@@ -1331,11 +1336,6 @@
     {
       "title": "世界のつづき",
       "artist": "Ado",
-      "count": 5
-    },
-    {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
       "count": 5
     },
     {
@@ -1789,6 +1789,11 @@
       "count": 4
     },
     {
+      "title": "英雄 運命の詩",
+      "artist": "EGOIST",
+      "count": 4
+    },
+    {
       "title": "アクアテラリウム",
       "artist": "やなぎなぎ",
       "count": 4
@@ -1831,6 +1836,16 @@
     {
       "title": "心拍数♯0822",
       "artist": "蝶々P",
+      "count": 4
+    },
+    {
+      "title": "Burn My Universe",
+      "artist": "麻枝准×やなぎなぎ",
+      "count": 4
+    },
+    {
+      "title": "LOVE & ROLL",
+      "artist": "ryo (supercell)",
       "count": 4
     },
     {
@@ -2254,6 +2269,11 @@
       "count": 3
     },
     {
+      "title": "Rolling Star",
+      "artist": "YUI",
+      "count": 3
+    },
+    {
       "title": "桜日和",
       "artist": "星村麻衣",
       "count": 3
@@ -2334,11 +2354,6 @@
       "count": 3
     },
     {
-      "title": "英雄 運命の詩",
-      "artist": "EGOIST",
-      "count": 3
-    },
-    {
       "title": "奈落の花",
       "artist": "島みやえい子",
       "count": 3
@@ -2384,18 +2399,8 @@
       "count": 3
     },
     {
-      "title": "Burn My Universe",
-      "artist": "麻枝准×やなぎなぎ",
-      "count": 3
-    },
-    {
       "title": "ワンダーステラ",
       "artist": "fhána",
-      "count": 3
-    },
-    {
-      "title": "LOVE & ROLL",
-      "artist": "ryo (supercell)",
       "count": 3
     },
     {
@@ -2411,6 +2416,11 @@
     {
       "title": "アイ・アイ・ア",
       "artist": "Ado",
+      "count": 3
+    },
+    {
+      "title": "想いを巡らす100の事象",
+      "artist": "EGOIST",
       "count": 3
     },
     {
@@ -3149,11 +3159,6 @@
       "count": 2
     },
     {
-      "title": "Rolling Star",
-      "artist": "YUI",
-      "count": 2
-    },
-    {
       "title": "小悪魔だってかまわない!",
       "artist": "めいちゃん",
       "count": 2
@@ -3191,6 +3196,11 @@
     {
       "title": "TERMINATED",
       "artist": "茅原実里",
+      "count": 2
+    },
+    {
+      "title": "色彩",
+      "artist": "坂本真綾",
       "count": 2
     },
     {
@@ -3344,8 +3354,8 @@
       "count": 2
     },
     {
-      "title": "想いを巡らす100の事象",
-      "artist": "EGOIST",
+      "title": "待ってて、彼岸で",
+      "artist": "rinri",
       "count": 2
     },
     {
@@ -4594,11 +4604,6 @@
       "count": 1
     },
     {
-      "title": "色彩",
-      "artist": "坂本真綾",
-      "count": 1
-    },
-    {
       "title": "BALALAIKA",
       "artist": "9Lana",
       "count": 1
@@ -4849,11 +4854,6 @@
       "count": 1
     },
     {
-      "title": "待ってて、彼岸で",
-      "artist": "rinri",
-      "count": 1
-    },
-    {
       "title": "Unhappy Light",
       "artist": "月村手毬",
       "count": 1
@@ -4861,6 +4861,26 @@
     {
       "title": "サイレント・マジョリティ",
       "artist": "Heavenz",
+      "count": 1
+    },
+    {
+      "title": "トコハナ",
+      "artist": "やなぎなぎ",
+      "count": 1
+    },
+    {
+      "title": "愛が灯る",
+      "artist": "ロクデナシ",
+      "count": 1
+    },
+    {
+      "title": "君の銀の庭",
+      "artist": "Kalafina",
+      "count": 1
+    },
+    {
+      "title": "深淵のデカダンス",
+      "artist": "岡田梨央",
       "count": 1
     },
     {
@@ -7497,6 +7517,7 @@
     "小日向美穂 (津田美波)、双葉杏 (五十嵐裕美)、前川みく (高森奈津美)",
     "少女時代",
     "山本リンダ",
+    "岡田梨央",
     "岩崎良美",
     "島みやえい子",
     "島村卯月 (大橋彩香)",
