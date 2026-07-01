@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1407,
-  "uniqueTitles": 1372,
-  "uniqueArtists": 636,
+  "totalEntries": 1414,
+  "uniqueTitles": 1376,
+  "uniqueArtists": 642,
   "songs": [
     {
       "title": "残響散歌",
@@ -59,6 +59,11 @@
       "count": 16
     },
     {
+      "title": "ANIMA",
+      "artist": "ReoNa",
+      "count": 16
+    },
+    {
       "title": "夜明けと蛍",
       "artist": "n-buna",
       "count": 15
@@ -89,8 +94,8 @@
       "count": 15
     },
     {
-      "title": "ANIMA",
-      "artist": "ReoNa",
+      "title": "眠れぬ月夜のランデブー",
+      "artist": "涼風しとら",
       "count": 15
     },
     {
@@ -106,11 +111,6 @@
     {
       "title": "花になって",
       "artist": "緑黄色社会",
-      "count": 14
-    },
-    {
-      "title": "眠れぬ月夜のランデブー",
-      "artist": "涼風しとら",
       "count": 14
     },
     {
@@ -204,6 +204,11 @@
       "count": 12
     },
     {
+      "title": "ロウワー",
+      "artist": "ぬゆり",
+      "count": 12
+    },
+    {
       "title": "Tell Your World",
       "artist": "kz (livetune)",
       "count": 12
@@ -246,11 +251,6 @@
     {
       "title": "星降る海",
       "artist": "月見ヤチヨ",
-      "count": 11
-    },
-    {
-      "title": "ロウワー",
-      "artist": "ぬゆり",
       "count": 11
     },
     {
@@ -559,6 +559,11 @@
       "count": 8
     },
     {
+      "title": "CHE.R.RY",
+      "artist": "YUI",
+      "count": 8
+    },
+    {
       "title": "ハイドアンド・シーク",
       "artist": "19's Sound Factory",
       "count": 8
@@ -726,11 +731,6 @@
     {
       "title": "千本桜",
       "artist": "黒うさP",
-      "count": 7
-    },
-    {
-      "title": "CHE.R.RY",
-      "artist": "YUI",
       "count": 7
     },
     {
@@ -934,6 +934,11 @@
       "count": 6
     },
     {
+      "title": "世界は恋に落ちている",
+      "artist": "CHiCO with HoneyWorks",
+      "count": 6
+    },
+    {
       "title": "さようなら、花泥棒さん",
       "artist": "メル",
       "count": 6
@@ -966,6 +971,16 @@
     {
       "title": "Booo!",
       "artist": "TOKOTOKO (西沢さんP)",
+      "count": 6
+    },
+    {
+      "title": "星が瞬くこんな夜に",
+      "artist": "ryo (supercell)",
+      "count": 6
+    },
+    {
+      "title": "ヤミタイガール",
+      "artist": "れるりり",
       "count": 6
     },
     {
@@ -1031,6 +1046,11 @@
     {
       "title": "ノーダウト",
       "artist": "Official髭男dism",
+      "count": 6
+    },
+    {
+      "title": "絶頂讃歌",
+      "artist": "和ぬか",
       "count": 6
     },
     {
@@ -1164,6 +1184,11 @@
       "count": 6
     },
     {
+      "title": "あの夢をなぞって",
+      "artist": "YOASOBI",
+      "count": 6
+    },
+    {
       "title": "ラヴィ",
       "artist": "すりぃ",
       "count": 6
@@ -1224,11 +1249,6 @@
       "count": 5
     },
     {
-      "title": "世界は恋に落ちている",
-      "artist": "CHiCO with HoneyWorks",
-      "count": 5
-    },
-    {
       "title": "only my railgun",
       "artist": "fripSide",
       "count": 5
@@ -1254,11 +1274,6 @@
       "count": 5
     },
     {
-      "title": "星が瞬くこんな夜に",
-      "artist": "ryo (supercell)",
-      "count": 5
-    },
-    {
       "title": "ウィアートル",
       "artist": "rionos",
       "count": 5
@@ -1271,11 +1286,6 @@
     {
       "title": "曖昧劣情Lover",
       "artist": "koyori (電ポルP)",
-      "count": 5
-    },
-    {
-      "title": "ヤミタイガール",
-      "artist": "れるりり",
       "count": 5
     },
     {
@@ -1349,13 +1359,13 @@
       "count": 5
     },
     {
-      "title": "絶頂讃歌",
-      "artist": "和ぬか",
+      "title": "夕立のりぼん",
+      "artist": "みきとP",
       "count": 5
     },
     {
-      "title": "夕立のりぼん",
-      "artist": "みきとP",
+      "title": "セレナーデ",
+      "artist": "なとり",
       "count": 5
     },
     {
@@ -1376,6 +1386,11 @@
     {
       "title": "夏恋花火",
       "artist": "40mP",
+      "count": 5
+    },
+    {
+      "title": "secret base~君がくれたもの~",
+      "artist": "ZONE",
       "count": 5
     },
     {
@@ -1504,6 +1519,11 @@
       "count": 5
     },
     {
+      "title": "許婚っきゅん",
+      "artist": "ano",
+      "count": 5
+    },
+    {
       "title": "美少女無罪♡パイレーツ",
       "artist": "宝鐘マリン",
       "count": 5
@@ -1531,11 +1551,6 @@
     {
       "title": "嘘",
       "artist": "シド",
-      "count": 5
-    },
-    {
-      "title": "あの夢をなぞって",
-      "artist": "YOASOBI",
       "count": 5
     },
     {
@@ -1819,11 +1834,6 @@
       "count": 4
     },
     {
-      "title": "セレナーデ",
-      "artist": "なとり",
-      "count": 4
-    },
-    {
       "title": "Hello, Worker",
       "artist": "KEI",
       "count": 4
@@ -1846,11 +1856,6 @@
     {
       "title": "LOVE & ROLL",
       "artist": "ryo (supercell)",
-      "count": 4
-    },
-    {
-      "title": "secret base~君がくれたもの~",
-      "artist": "ZONE",
       "count": 4
     },
     {
@@ -1994,11 +1999,6 @@
       "count": 4
     },
     {
-      "title": "許婚っきゅん",
-      "artist": "ano",
-      "count": 4
-    },
-    {
       "title": "DOLL",
       "artist": "SCANDAL",
       "count": 4
@@ -2131,6 +2131,11 @@
     {
       "title": "INNOCENCE",
       "artist": "藍井エイル",
+      "count": 4
+    },
+    {
+      "title": "月光潤色ガール",
+      "artist": "れるりり",
       "count": 4
     },
     {
@@ -2744,6 +2749,11 @@
       "count": 3
     },
     {
+      "title": "B級",
+      "artist": "ちゃんみな",
+      "count": 3
+    },
+    {
       "title": "鬼ノ宴",
       "artist": "友成空",
       "count": 3
@@ -2769,8 +2779,13 @@
       "count": 3
     },
     {
-      "title": "月光潤色ガール",
+      "title": "乱躁滅裂ガール",
       "artist": "れるりり",
+      "count": 3
+    },
+    {
+      "title": "サラバ、愛しき悲しみたちよ",
+      "artist": "ももいろクローバーZ",
       "count": 3
     },
     {
@@ -2959,6 +2974,11 @@
       "count": 3
     },
     {
+      "title": "酔いどれ知らず",
+      "artist": "Kanaria",
+      "count": 3
+    },
+    {
       "title": "テレキャスタービーボーイ",
       "artist": "すりぃ",
       "count": 3
@@ -3074,8 +3094,18 @@
       "count": 3
     },
     {
+      "title": "コイスルオトメ",
+      "artist": "いきものがかり",
+      "count": 3
+    },
+    {
       "title": "StaRt",
       "artist": "Mrs. GREEN APPLE",
+      "count": 3
+    },
+    {
+      "title": "夏祭り",
+      "artist": "Whiteberry",
       "count": 3
     },
     {
@@ -3086,6 +3116,11 @@
     {
       "title": "マリーゴールド",
       "artist": "あいみょん",
+      "count": 3
+    },
+    {
+      "title": "Booo!",
+      "artist": "TOKOTOKO(西沢さんP)",
       "count": 3
     },
     {
@@ -3234,8 +3269,18 @@
       "count": 2
     },
     {
+      "title": "涙そうそう",
+      "artist": "夏川りみ",
+      "count": 2
+    },
+    {
       "title": "ダイアモンドクレバス",
       "artist": "シェリル・ノーム starring May'n",
+      "count": 2
+    },
+    {
+      "title": "Thrill, Risk, Heartless",
+      "artist": "LiSA",
       "count": 2
     },
     {
@@ -3714,11 +3759,6 @@
       "count": 2
     },
     {
-      "title": "B級",
-      "artist": "ちゃんみな",
-      "count": 2
-    },
-    {
       "title": "雪の華",
       "artist": "中島美嘉",
       "count": 2
@@ -3814,11 +3854,6 @@
       "count": 2
     },
     {
-      "title": "乱躁滅裂ガール",
-      "artist": "れるりり",
-      "count": 2
-    },
-    {
       "title": "ゾンビ",
       "artist": "DECO*27",
       "count": 2
@@ -3826,11 +3861,6 @@
     {
       "title": "Happy Halloween",
       "artist": "Junky",
-      "count": 2
-    },
-    {
-      "title": "サラバ、愛しき悲しみたちよ",
-      "artist": "ももいろクローバーZ",
       "count": 2
     },
     {
@@ -3946,6 +3976,11 @@
     {
       "title": "One Love",
       "artist": "嵐",
+      "count": 2
+    },
+    {
+      "title": "I'm a mess",
+      "artist": "MY FIRST STORY",
       "count": 2
     },
     {
@@ -4080,11 +4115,6 @@
     },
     {
       "title": "KING",
-      "artist": "Kanaria",
-      "count": 2
-    },
-    {
-      "title": "酔いどれ知らず",
       "artist": "Kanaria",
       "count": 2
     },
@@ -4369,18 +4399,8 @@
       "count": 2
     },
     {
-      "title": "コイスルオトメ",
-      "artist": "いきものがかり",
-      "count": 2
-    },
-    {
       "title": "かわいいだけじゃだめですか?",
       "artist": "CUTIE STREET",
-      "count": 2
-    },
-    {
-      "title": "夏祭り",
-      "artist": "Whiteberry",
       "count": 2
     },
     {
@@ -4399,11 +4419,6 @@
       "count": 2
     },
     {
-      "title": "Booo!",
-      "artist": "TOKOTOKO(西沢さんP)",
-      "count": 2
-    },
-    {
       "title": "Girls",
       "artist": "Easy Pop",
       "count": 2
@@ -4419,8 +4434,18 @@
       "count": 2
     },
     {
+      "title": "MOON PRIDE",
+      "artist": "ももいろクローバーZ",
+      "count": 2
+    },
+    {
       "title": "裏切りの夕焼け",
       "artist": "THEATRE BROOK",
+      "count": 2
+    },
+    {
+      "title": "熱情のスペクトラム",
+      "artist": "いきものがかり",
       "count": 2
     },
     {
@@ -4461,6 +4486,11 @@
     {
       "title": "ラブ&デストロイ",
       "artist": "MI8k",
+      "count": 2
+    },
+    {
+      "title": "say my nameの片思い",
+      "artist": "LiSA",
       "count": 2
     },
     {
@@ -4639,11 +4669,6 @@
       "count": 1
     },
     {
-      "title": "涙そうそう",
-      "artist": "夏川りみ",
-      "count": 1
-    },
-    {
       "title": "ここでキスして。",
       "artist": "椎名林檎",
       "count": 1
@@ -4651,11 +4676,6 @@
     {
       "title": "ブリキノダンス",
       "artist": "日向電工",
-      "count": 1
-    },
-    {
-      "title": "Thrill, Risk, Heartless",
-      "artist": "LiSA",
       "count": 1
     },
     {
@@ -4881,6 +4901,11 @@
     {
       "title": "深淵のデカダンス",
       "artist": "岡田梨央",
+      "count": 1
+    },
+    {
+      "title": "G4L",
+      "artist": "vocaloid",
       "count": 1
     },
     {
@@ -5551,11 +5576,6 @@
     {
       "title": "バレンタイン・キッス",
       "artist": "渡り廊下走り隊7",
-      "count": 1
-    },
-    {
-      "title": "I'm a mess",
-      "artist": "MY FIRST STORY",
       "count": 1
     },
     {
@@ -6549,11 +6569,6 @@
       "count": 1
     },
     {
-      "title": "MOON PRIDE",
-      "artist": "ももいろクローバーZ",
-      "count": 1
-    },
-    {
       "title": "狂乱 Hey Ki/ds!!",
       "artist": "THE ORAL CIGARETTES",
       "count": 1
@@ -6576,11 +6591,6 @@
     {
       "title": "やさしさに包まれたなら",
       "artist": "松任谷由実",
-      "count": 1
-    },
-    {
-      "title": "熱情のスペクトラム",
-      "artist": "いきものがかり",
       "count": 1
     },
     {
@@ -6934,11 +6944,6 @@
       "count": 1
     },
     {
-      "title": "say my nameの片思い",
-      "artist": "LiSA",
-      "count": 1
-    },
-    {
       "title": "traumerei",
       "artist": "LiSA",
       "count": 1
@@ -7036,6 +7041,36 @@
     {
       "title": "ダンシング・ヒーロー",
       "artist": "荻野目洋子",
+      "count": 1
+    },
+    {
+      "title": "聖槍爆裂ボーイ",
+      "artist": "れるりり,もじゃ",
+      "count": 1
+    },
+    {
+      "title": "妄想疾患■ガール",
+      "artist": "もじゃ",
+      "count": 1
+    },
+    {
+      "title": "一触即発☆禅ガール - れるりり",
+      "artist": "初音ミク・GUMI",
+      "count": 1
+    },
+    {
+      "title": "Gimme×Gimme",
+      "artist": "八王子P,Giga",
+      "count": 1
+    },
+    {
+      "title": "ウミユリ海底譚",
+      "artist": "n-buna",
+      "count": 1
+    },
+    {
+      "title": "Q",
+      "artist": "椎名もた(ぽわぽわP)",
       "count": 1
     }
   ],
@@ -7299,6 +7334,7 @@
     "syudou",
     "tamon",
     "tuki.",
+    "vocaloid",
     "wotaku",
     "wowaka",
     "yama",
@@ -7360,6 +7396,7 @@
     "みきーの (みきとP×keeno)",
     "めいちゃん",
     "めいちゃん, ナナホシ管弦楽団",
+    "もじゃ",
     "もじゃ,れるりり",
     "ももいろクローバー",
     "ももいろクローバーZ",
@@ -7368,6 +7405,7 @@
     "ゆうゆ",
     "ゆず",
     "れるりり",
+    "れるりり,もじゃ",
     "れるりり,ロンチーノ=ペペ,かごめP",
     "ろくろ",
     "アイナ・ジ・エンド",
@@ -7472,8 +7510,10 @@
     "傘村トータ",
     "優里",
     "八王子P",
+    "八王子P,Giga",
     "内田真礼",
     "内緒のピアス",
+    "初音ミク・GUMI",
     "勇魚",
     "十時愛梨 (原田ひとみ)、日野茜 (赤崎千夏)、高森藍子 (金子有希)、星輝子 (松田颯水)、堀裕子 (鈴木絵理)",
     "千石撫子(花澤香菜)",
@@ -7570,6 +7610,7 @@
     "梅とら",
     "森口博子",
     "椎名もた (ぽわぽわP)",
+    "椎名もた(ぽわぽわP)",
     "椎名林檎",
     "椎名真昼",
     "極・落女会:防波亭手寅 (山本希望),蕪羅亭魔梨威 (佐倉綾音),空琉美遊亭丸京 (南條愛乃),波浪浮亭木胡桃 (小岩井ことり),暗落亭苦来 (後藤沙緒里)",

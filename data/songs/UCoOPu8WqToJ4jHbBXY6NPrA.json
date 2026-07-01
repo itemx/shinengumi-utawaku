@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-06-29T04:11:45.450880+00:00",
+  "lastFetched": "2026-07-01T14:39:36.289913+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -9388,6 +9388,42 @@
       ],
       "sourceCommentId": "issue#40",
       "type": "stream"
+    },
+    {
+      "videoId": "IWXpmLkLSWs",
+      "title": "神の眷属が 星が瞬くこんな夜に #歌ってみた #shorts #cover #vtuber #新人vtuber #vsinger #星が瞬くこんな夜に #supercell",
+      "publishedAt": "2026-07-01T11:26:52Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "星が瞬くこんな夜に",
+          "titleRaw": "星が瞬くこんな夜に",
+          "artist": "ryo (supercell)",
+          "artistRaw": "supercell",
+          "url": "https://youtu.be/IWXpmLkLSWs"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "4mJEjxlufz0",
+      "title": "神の眷属が G4L #歌ってみた #shorts #cover #vtuber #新人vtuber #vsinger #G4L #giga #vocaloid",
+      "publishedAt": "2026-06-29T10:13:19Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "G4L",
+          "titleRaw": "G4L",
+          "artist": "vocaloid",
+          "artistRaw": "vocaloid",
+          "url": "https://youtu.be/4mJEjxlufz0"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
