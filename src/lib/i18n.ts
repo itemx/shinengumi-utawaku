@@ -73,6 +73,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "video.songs_unit": "曲",
     // Footer
     "footer.desc": "SEG-V UtaList — 深淵組成員歌回曲目索引",
+    "footer.contact": "管理人聯絡方式",
   },
   ja: {
     "nav.home": "ホーム",
@@ -130,6 +131,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "video.youtube": "YouTube で見る",
     "video.songs_unit": "曲",
     "footer.desc": "SEG-V UtaList — 深淵組メンバー セトリデータベース",
+    "footer.contact": "管理人への連絡",
   },
 };
 
