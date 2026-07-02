@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1413,
-  "uniqueTitles": 1375,
+  "totalEntries": 1412,
+  "uniqueTitles": 1374,
   "uniqueArtists": 642,
   "songs": [
     {
@@ -4904,12 +4904,7 @@
       "count": 1
     },
     {
-      "title": "02-1. Monster (前半)",
-      "artist": "嵐",
-      "count": 1
-    },
-    {
-      "title": "02-2. Monster (後半)",
+      "title": "Monster",
       "artist": "嵐",
       "count": 1
     },
