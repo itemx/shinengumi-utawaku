@@ -9,8 +9,8 @@ export const translations: Record<Locale, Record<string, string>> = {
     // Header
     "nav.home": "首頁",
     // Index
-    "index.page_title": "SEG-V UtaList — 深淵組成員歌回曲目索引",
-    "index.subtitle": "深淵組成員歌回曲目索引",
+    "index.page_title": "SEG-V UtaList — 深淵組成員非公式歌回曲目資料庫",
+    "index.subtitle": "深淵組成員非公式歌回曲目資料庫",
     "index.no_channels": "尚未登錄任何頻道",
     "label.streams": "直播",
     "label.covers": "投稿",
@@ -72,7 +72,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "video.youtube": "在 YouTube 觀看",
     "video.songs_unit": "曲",
     // Footer
-    "footer.desc": "SEG-V UtaList — 深淵組成員歌回曲目索引",
+    "footer.desc": "SEG-V UtaList — 深淵組成員非公式歌回曲目資料庫",
     "footer.contact": "管理人聯絡方式",
   },
   ja: {

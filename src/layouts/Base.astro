@@ -8,7 +8,7 @@ interface Props {
   i18nTitleKey?: string;
 }
 
-const { title = "SEG-V UtaList", description = "深淵組成員歌回曲目索引", i18nTitleKey = "" } = Astro.props;
+const { title = "SEG-V UtaList", description = "深淵組成員非公式歌回曲目資料庫", i18nTitleKey = "" } = Astro.props;
 const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`;
 ---
 
@@ -56,7 +56,7 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
 
     <footer class="bg-purple text-white/70 text-sm">
       <div class="max-w-6xl mx-auto px-4 py-6 text-center">
-        <p data-i18n="footer.desc">SEG-V UtaList — 深淵組成員歌回曲目索引</p>
+        <p data-i18n="footer.desc">SEG-V UtaList — 深淵組成員非公式歌回曲目資料庫</p>
         <a
           href="https://x.com/mkj_yoruko"
           target="_blank"
