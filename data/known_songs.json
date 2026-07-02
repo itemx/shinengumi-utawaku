@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1410,
+  "totalEntries": 1409,
   "uniqueTitles": 1372,
-  "uniqueArtists": 642,
+  "uniqueArtists": 641,
   "songs": [
     {
       "title": "残響散歌",
@@ -909,6 +909,11 @@
       "count": 7
     },
     {
+      "title": "シル・ヴ・プレジデント",
+      "artist": "ナナホシ管弦楽団",
+      "count": 7
+    },
+    {
       "title": "甲賀忍法帖",
       "artist": "陰陽座",
       "count": 7
@@ -1181,11 +1186,6 @@
     {
       "title": "スパークル",
       "artist": "RADWIMPS",
-      "count": 6
-    },
-    {
-      "title": "シル・ヴ・プレジデント",
-      "artist": "ナナホシ管弦楽団",
       "count": 6
     },
     {
@@ -6394,11 +6394,6 @@
       "count": 1
     },
     {
-      "title": "シル・ヴ・プレジデント",
-      "artist": "P丸様。",
-      "count": 1
-    },
-    {
       "title": "林檎花火とソーダの海",
       "artist": "まふまふ",
       "count": 1
@@ -7203,7 +7198,6 @@
     "PSYQUI",
     "Perfume",
     "Petit Rabbit's",
-    "P丸様。",
     "R Sound Design",
     "RADWIMPS",
     "REISAI",
