@@ -77,8 +77,8 @@ export const translations: Record<Locale, Record<string, string>> = {
   },
   ja: {
     "nav.home": "ホーム",
-    "index.subtitle": "深淵組メンバー セトリデータベース",
-    "index.page_title": "SEG-V UtaList — 深淵組メンバー セトリデータベース",
+    "index.subtitle": "深淵組メンバー 非公式 セトリデータベース",
+    "index.page_title": "SEG-V UtaList — 深淵組メンバー 非公式 セトリデータベース",
     "index.no_channels": "まだチャンネルが登録されていません",
     "label.streams": "配信",
     "label.covers": "投稿",
@@ -130,7 +130,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "type.original": "Original",
     "video.youtube": "YouTube で見る",
     "video.songs_unit": "曲",
-    "footer.desc": "SEG-V UtaList — 深淵組メンバー セトリデータベース",
+    "footer.desc": "SEG-V UtaList — 深淵組メンバー 非公式 セトリデータベース",
     "footer.contact": "管理人への連絡",
   },
 };
