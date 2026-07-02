@@ -108,15 +108,20 @@ const { songs, showSearch = true } = Astro.props;
 
     // Strip zero-width characters (U+200B, U+200C, U+200D, U+FEFF, etc.)
     const stripZW = (s: string) => s.replace(/[\u200B-\u200D\uFEFF\u00AD\u2060\u180E]/g, "");
+    // Fold katakana \u2192 hiragana so \u304B\u306A and \u30AB\u30CA match (like case-insensitivity)
+    const kana = (s: string) =>
+      stripZW(s).replace(/[\u30A1-\u30F6]/g, (c) =>
+        String.fromCharCode(c.charCodeAt(0) - 0x60)
+      );
 
     input?.addEventListener("input", () => {
       clearTimeout(timer);
       timer = window.setTimeout(() => {
-        const q = stripZW(input.value.toLowerCase().trim());
+        const q = kana(input.value.toLowerCase().trim());
         let visible = 0;
         rows.forEach((row) => {
-          const title = stripZW(row.dataset.title || "");
-          const artist = stripZW(row.dataset.artist || "");
+          const title = kana(row.dataset.title || "");
+          const artist = kana(row.dataset.artist || "");
           const match = !q || title.includes(q) || artist.includes(q);
           row.style.display = match ? "" : "none";
           if (match) visible++;
