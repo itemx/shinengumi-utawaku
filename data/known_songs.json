@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1412,
-  "uniqueTitles": 1374,
+  "totalEntries": 1410,
+  "uniqueTitles": 1372,
   "uniqueArtists": 642,
   "songs": [
     {
@@ -2459,6 +2459,11 @@
       "count": 3
     },
     {
+      "title": "Rally Go Round",
+      "artist": "LiSA",
+      "count": 3
+    },
+    {
       "title": "REALiZE",
       "artist": "LiSA",
       "count": 3
@@ -3366,11 +3371,6 @@
     {
       "title": "深海少女",
       "artist": "ゆうゆ",
-      "count": 2
-    },
-    {
-      "title": "Rally Go Round",
-      "artist": "LiSA",
       "count": 2
     },
     {
@@ -6396,16 +6396,6 @@
     {
       "title": "シル・ヴ・プレジデント",
       "artist": "P丸様。",
-      "count": 1
-    },
-    {
-      "title": "Rally Go Round(途中まで)",
-      "artist": "LiSA",
-      "count": 1
-    },
-    {
-      "title": "Rally Go Round(途中から)",
-      "artist": "LiSA",
       "count": 1
     },
     {
