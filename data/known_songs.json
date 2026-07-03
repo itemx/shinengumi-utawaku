@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1413,
-  "uniqueTitles": 1376,
+  "totalEntries": 1415,
+  "uniqueTitles": 1378,
   "uniqueArtists": 641,
   "songs": [
     {
@@ -34,6 +34,11 @@
       "count": 17
     },
     {
+      "title": "Departures ~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
+      "count": 17
+    },
+    {
       "title": "Calc.",
       "artist": "ジミーサムP",
       "count": 17
@@ -46,11 +51,6 @@
     {
       "title": "紅蓮華",
       "artist": "LiSA",
-      "count": 16
-    },
-    {
-      "title": "Departures ~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
       "count": 16
     },
     {
@@ -69,8 +69,18 @@
       "count": 16
     },
     {
+      "title": "All Alone With You",
+      "artist": "EGOIST",
+      "count": 15
+    },
+    {
       "title": "夜明けと蛍",
       "artist": "n-buna",
+      "count": 15
+    },
+    {
+      "title": "Stellar Stellar",
+      "artist": "星街すいせい",
       "count": 15
     },
     {
@@ -99,18 +109,8 @@
       "count": 15
     },
     {
-      "title": "All Alone With You",
-      "artist": "EGOIST",
-      "count": 14
-    },
-    {
       "title": "モニタリング",
       "artist": "DECO*27",
-      "count": 14
-    },
-    {
-      "title": "Stellar Stellar",
-      "artist": "星街すいせい",
       "count": 14
     },
     {
@@ -136,6 +136,11 @@
     {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
+      "count": 13
+    },
+    {
+      "title": "Tell Your World",
+      "artist": "kz (livetune)",
       "count": 13
     },
     {
@@ -194,6 +199,11 @@
       "count": 13
     },
     {
+      "title": "トリノコシティ",
+      "artist": "40mP",
+      "count": 12
+    },
+    {
       "title": "初めての恋が終わる時",
       "artist": "ryo (supercell)",
       "count": 12
@@ -206,11 +216,6 @@
     {
       "title": "ロウワー",
       "artist": "ぬゆり",
-      "count": 12
-    },
-    {
-      "title": "Tell Your World",
-      "artist": "kz (livetune)",
       "count": 12
     },
     {
@@ -239,11 +244,6 @@
       "count": 12
     },
     {
-      "title": "トリノコシティ",
-      "artist": "40mP",
-      "count": 11
-    },
-    {
       "title": "シンデレラ",
       "artist": "DECO*27",
       "count": 11
@@ -251,6 +251,11 @@
     {
       "title": "星降る海",
       "artist": "月見ヤチヨ",
+      "count": 11
+    },
+    {
+      "title": "アイネクライネ",
+      "artist": "米津玄師",
       "count": 11
     },
     {
@@ -316,11 +321,6 @@
     {
       "title": "SOS",
       "artist": "黛冬優子",
-      "count": 10
-    },
-    {
-      "title": "アイネクライネ",
-      "artist": "米津玄師",
       "count": 10
     },
     {
@@ -464,6 +464,16 @@
       "count": 9
     },
     {
+      "title": "ワールドイズマイン",
+      "artist": "ryo (supercell)",
+      "count": 9
+    },
+    {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 9
+    },
+    {
       "title": "おやすみ泣き声、さよなら歌姫",
       "artist": "クリープハイプ",
       "count": 9
@@ -485,6 +495,16 @@
     },
     {
       "title": "ヴァンパイア",
+      "artist": "DECO*27",
+      "count": 9
+    },
+    {
+      "title": "アスノヨゾラ哨戒班",
+      "artist": "Orangestar",
+      "count": 9
+    },
+    {
+      "title": "ヒバナ",
       "artist": "DECO*27",
       "count": 9
     },
@@ -569,16 +589,6 @@
       "count": 8
     },
     {
-      "title": "ワールドイズマイン",
-      "artist": "ryo (supercell)",
-      "count": 8
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
-      "count": 8
-    },
-    {
       "title": "Brave Shine",
       "artist": "Aimer",
       "count": 8
@@ -604,11 +614,6 @@
       "count": 8
     },
     {
-      "title": "アスノヨゾラ哨戒班",
-      "artist": "Orangestar",
-      "count": 8
-    },
-    {
       "title": "ミカヅキ",
       "artist": "さユり",
       "count": 8
@@ -626,11 +631,6 @@
     {
       "title": "夜に駆ける",
       "artist": "YOASOBI",
-      "count": 8
-    },
-    {
-      "title": "ヒバナ",
-      "artist": "DECO*27",
       "count": 8
     },
     {
@@ -779,6 +779,16 @@
       "count": 7
     },
     {
+      "title": "ブラックロックシューター",
+      "artist": "ryo (supercell)",
+      "count": 7
+    },
+    {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 7
+    },
+    {
       "title": "トンデモワンダーズ",
       "artist": "sasakure.UK",
       "count": 7
@@ -836,6 +846,16 @@
     {
       "title": "サリシノハラ",
       "artist": "みきとP",
+      "count": 7
+    },
+    {
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
+      "count": 7
+    },
+    {
+      "title": "Ghost of a smile",
+      "artist": "EGOIST",
       "count": 7
     },
     {
@@ -979,6 +999,11 @@
       "count": 6
     },
     {
+      "title": "地球最後の告白を",
+      "artist": "kemu",
+      "count": 6
+    },
+    {
       "title": "星が瞬くこんな夜に",
       "artist": "ryo (supercell)",
       "count": 6
@@ -991,16 +1016,6 @@
     {
       "title": "ヤミタイガール",
       "artist": "れるりり",
-      "count": 6
-    },
-    {
-      "title": "ブラックロックシューター",
-      "artist": "ryo (supercell)",
-      "count": 6
-    },
-    {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
       "count": 6
     },
     {
@@ -1069,13 +1084,13 @@
       "count": 6
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
+      "title": "死にゆく季節のきみへ",
+      "artist": "麻枝准×やなぎなぎ",
       "count": 6
     },
     {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
       "count": 6
     },
     {
@@ -1095,11 +1110,6 @@
     },
     {
       "title": "Planetes",
-      "artist": "EGOIST",
-      "count": 6
-    },
-    {
-      "title": "Ghost of a smile",
       "artist": "EGOIST",
       "count": 6
     },
@@ -1299,11 +1309,6 @@
       "count": 5
     },
     {
-      "title": "地球最後の告白を",
-      "artist": "kemu",
-      "count": 5
-    },
-    {
       "title": "キャットラビング",
       "artist": "香椎モイミ",
       "count": 5
@@ -1394,11 +1399,6 @@
       "count": 5
     },
     {
-      "title": "死にゆく季節のきみへ",
-      "artist": "麻枝准×やなぎなぎ",
-      "count": 5
-    },
-    {
       "title": "ドライフラワー",
       "artist": "優里",
       "count": 5
@@ -1421,6 +1421,11 @@
     {
       "title": "Rising Hope",
       "artist": "LiSA",
+      "count": 5
+    },
+    {
+      "title": "想いを巡らす100の事象",
+      "artist": "EGOIST",
       "count": 5
     },
     {
@@ -1864,6 +1869,11 @@
       "count": 4
     },
     {
+      "title": "バレリーコ",
+      "artist": "みきとP",
+      "count": 4
+    },
+    {
       "title": "心拍数♯0822",
       "artist": "蝶々P",
       "count": 4
@@ -1879,13 +1889,13 @@
       "count": 4
     },
     {
-      "title": "エンヴィーベイビー",
-      "artist": "Kanaria",
+      "title": "いろは唄",
+      "artist": "銀サク",
       "count": 4
     },
     {
-      "title": "想いを巡らす100の事象",
-      "artist": "EGOIST",
+      "title": "エンヴィーベイビー",
+      "artist": "Kanaria",
       "count": 4
     },
     {
@@ -2349,6 +2359,11 @@
       "count": 3
     },
     {
+      "title": "シリョクケンサ",
+      "artist": "40mP",
+      "count": 3
+    },
+    {
       "title": "あなたの夜が明けるまで",
       "artist": "傘村トータ",
       "count": 3
@@ -2409,11 +2424,6 @@
       "count": 3
     },
     {
-      "title": "バレリーコ",
-      "artist": "みきとP",
-      "count": 3
-    },
-    {
       "title": "ワンダーステラ",
       "artist": "fhána",
       "count": 3
@@ -2424,13 +2434,13 @@
       "count": 3
     },
     {
-      "title": "いろは唄",
-      "artist": "銀サク",
+      "title": "アイ・アイ・ア",
+      "artist": "Ado",
       "count": 3
     },
     {
-      "title": "アイ・アイ・ア",
-      "artist": "Ado",
+      "title": "待ってて、彼岸で",
+      "artist": "rinri",
       "count": 3
     },
     {
@@ -3269,11 +3279,6 @@
       "count": 2
     },
     {
-      "title": "シリョクケンサ",
-      "artist": "40mP",
-      "count": 2
-    },
-    {
       "title": "白ゆき",
       "artist": "n-buna",
       "count": 2
@@ -3409,8 +3414,8 @@
       "count": 2
     },
     {
-      "title": "待ってて、彼岸で",
-      "artist": "rinri",
+      "title": "六兆年と一夜物語",
+      "artist": "kemu",
       "count": 2
     },
     {
@@ -4929,6 +4934,16 @@
       "count": 1
     },
     {
+      "title": "死ぬにはいい日だった",
+      "artist": "ピコン",
+      "count": 1
+    },
+    {
+      "title": "東京テディベア",
+      "artist": "Neru",
+      "count": 1
+    },
+    {
       "title": "イエスタデイ",
       "artist": "Official髭男dism",
       "count": 1
@@ -6101,11 +6116,6 @@
     {
       "title": "ECHO",
       "artist": "CRUSHER-P",
-      "count": 1
-    },
-    {
-      "title": "六兆年と一夜物語",
-      "artist": "kemu",
       "count": 1
     },
     {
