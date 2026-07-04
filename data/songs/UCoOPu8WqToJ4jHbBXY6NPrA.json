@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-07-03T03:33:42.894421+00:00",
+  "lastFetched": "2026-07-04T13:36:20.491381+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -9829,6 +9829,24 @@
       ],
       "sourceCommentId": "issue#42",
       "type": "stream"
+    },
+    {
+      "videoId": "JW0nkz5XDx8",
+      "title": "神の眷属が CH4NGE #歌ってみた #shorts #cover #vtuber #新人vtuber #vsinger #ch4nge  #giga #vocaloid",
+      "publishedAt": "2026-07-03T09:00:25Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "CH4NGE",
+          "titleRaw": "CH4NGE",
+          "artist": "vocaloid",
+          "artistRaw": "vocaloid",
+          "url": "https://youtu.be/JW0nkz5XDx8"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
