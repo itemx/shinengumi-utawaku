@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1421,
-  "uniqueTitles": 1382,
-  "uniqueArtists": 645,
+  "totalEntries": 1432,
+  "uniqueTitles": 1392,
+  "uniqueArtists": 648,
   "songs": [
     {
       "title": "残響散歌",
@@ -74,6 +74,11 @@
       "count": 16
     },
     {
+      "title": "Tell Your World",
+      "artist": "kz (livetune)",
+      "count": 15
+    },
+    {
       "title": "夜明けと蛍",
       "artist": "n-buna",
       "count": 15
@@ -109,8 +114,8 @@
       "count": 15
     },
     {
-      "title": "Tell Your World",
-      "artist": "kz (livetune)",
+      "title": "初めての恋が終わる時",
+      "artist": "ryo (supercell)",
       "count": 14
     },
     {
@@ -151,11 +156,6 @@
     {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
-      "count": 13
-    },
-    {
-      "title": "初めての恋が終わる時",
-      "artist": "ryo (supercell)",
       "count": 13
     },
     {
@@ -264,6 +264,11 @@
       "count": 11
     },
     {
+      "title": "ワールドイズマイン",
+      "artist": "ryo (supercell)",
+      "count": 11
+    },
+    {
       "title": "アイネクライネ",
       "artist": "米津玄師",
       "count": 11
@@ -346,11 +351,6 @@
     {
       "title": "SOS",
       "artist": "黛冬優子",
-      "count": 10
-    },
-    {
-      "title": "ワールドイズマイン",
-      "artist": "ryo (supercell)",
       "count": 10
     },
     {
@@ -589,6 +589,11 @@
       "count": 8
     },
     {
+      "title": "千本桜",
+      "artist": "黒うさP",
+      "count": 8
+    },
+    {
       "title": "CHE.R.RY",
       "artist": "YUI",
       "count": 8
@@ -604,6 +609,11 @@
       "count": 8
     },
     {
+      "title": "メルト",
+      "artist": "ryo (supercell)",
+      "count": 8
+    },
+    {
       "title": "Brave Shine",
       "artist": "Aimer",
       "count": 8
@@ -616,6 +626,11 @@
     {
       "title": "奏(かなで)",
       "artist": "スキマスイッチ",
+      "count": 8
+    },
+    {
+      "title": "ブラックロックシューター",
+      "artist": "ryo (supercell)",
       "count": 8
     },
     {
@@ -754,11 +769,6 @@
       "count": 7
     },
     {
-      "title": "千本桜",
-      "artist": "黒うさP",
-      "count": 7
-    },
-    {
       "title": "Reply",
       "artist": "kz",
       "count": 7
@@ -774,13 +784,13 @@
       "count": 7
     },
     {
-      "title": "メルト",
-      "artist": "ryo (supercell)",
+      "title": "ワールド・ランプシェード",
+      "artist": "buzzG",
       "count": 7
     },
     {
-      "title": "ワールド・ランプシェード",
-      "artist": "buzzG",
+      "title": "地球最後の告白を",
+      "artist": "kemu",
       "count": 7
     },
     {
@@ -796,11 +806,6 @@
     {
       "title": "グリズリーに襲われたら♡",
       "artist": "神宿",
-      "count": 7
-    },
-    {
-      "title": "ブラックロックシューター",
-      "artist": "ryo (supercell)",
       "count": 7
     },
     {
@@ -969,6 +974,11 @@
       "count": 7
     },
     {
+      "title": "モザイクロール",
+      "artist": "DECO*27",
+      "count": 7
+    },
+    {
       "title": "Remember",
       "artist": "月見ヤチヨ",
       "count": 6
@@ -1016,11 +1026,6 @@
     {
       "title": "Booo!",
       "artist": "TOKOTOKO (西沢さんP)",
-      "count": 6
-    },
-    {
-      "title": "地球最後の告白を",
-      "artist": "kemu",
       "count": 6
     },
     {
@@ -1239,6 +1244,11 @@
       "count": 6
     },
     {
+      "title": "from Y to Y",
+      "artist": "ジミーサムP",
+      "count": 6
+    },
+    {
       "title": "シリウス",
       "artist": "藍井エイル",
       "count": 6
@@ -1301,11 +1311,6 @@
     {
       "title": "回レ!雪月花",
       "artist": "歌組雪月花",
-      "count": 6
-    },
-    {
-      "title": "モザイクロール",
-      "artist": "DECO*27",
       "count": 6
     },
     {
@@ -1421,6 +1426,11 @@
     {
       "title": "heavenly blue",
       "artist": "Kalafina",
+      "count": 5
+    },
+    {
+      "title": "天ノ弱",
+      "artist": "164",
       "count": 5
     },
     {
@@ -1599,11 +1609,6 @@
       "count": 5
     },
     {
-      "title": "from Y to Y",
-      "artist": "ジミーサムP",
-      "count": 5
-    },
-    {
       "title": "DAN DAN 心魅かれてく",
       "artist": "FIELD OF VIEW",
       "count": 5
@@ -1631,6 +1636,11 @@
     {
       "title": "バグ",
       "artist": "かいりきベア",
+      "count": 5
+    },
+    {
+      "title": "弱虫モンブラン",
+      "artist": "DECO*27",
       "count": 5
     },
     {
@@ -1861,11 +1871,6 @@
     {
       "title": "Weight of the World / 壊レタ世界ノ歌",
       "artist": "河野万里奈",
-      "count": 4
-    },
-    {
-      "title": "天ノ弱",
-      "artist": "164",
       "count": 4
     },
     {
@@ -2104,11 +2109,6 @@
       "count": 4
     },
     {
-      "title": "弱虫モンブラン",
-      "artist": "DECO*27",
-      "count": 4
-    },
-    {
       "title": "もってけ!セーラーふく",
       "artist": "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
       "count": 4
@@ -2201,6 +2201,11 @@
     {
       "title": "光るなら",
       "artist": "Goose house",
+      "count": 4
+    },
+    {
+      "title": "初音ミクの消失",
+      "artist": "cosMo@暴走P",
       "count": 4
     },
     {
@@ -2444,6 +2449,11 @@
       "count": 3
     },
     {
+      "title": "ハッピーシンセサイザ",
+      "artist": "EasyPop",
+      "count": 3
+    },
+    {
       "title": "夢をみる島",
       "artist": "yuigot",
       "count": 3
@@ -2471,6 +2481,11 @@
     {
       "title": "愛が灯る",
       "artist": "ロクデナシ",
+      "count": 3
+    },
+    {
+      "title": "六兆年と一夜物語",
+      "artist": "kemu",
       "count": 3
     },
     {
@@ -2644,6 +2659,11 @@
       "count": 3
     },
     {
+      "title": "深海少女",
+      "artist": "ゆうゆ",
+      "count": 3
+    },
+    {
       "title": "嵐の中で輝いて",
       "artist": "米倉千尋",
       "count": 3
@@ -2676,6 +2696,11 @@
     {
       "title": "愛錠",
       "artist": "LiSA",
+      "count": 3
+    },
+    {
+      "title": "ケッペキショウ",
+      "artist": "すこっぷ",
       "count": 3
     },
     {
@@ -2946,11 +2971,6 @@
     {
       "title": "お願いマッスル",
       "artist": "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)",
-      "count": 3
-    },
-    {
-      "title": "初音ミクの消失",
-      "artist": "cosMo@暴走P",
       "count": 3
     },
     {
@@ -3414,11 +3434,6 @@
       "count": 2
     },
     {
-      "title": "ハッピーシンセサイザ",
-      "artist": "EasyPop",
-      "count": 2
-    },
-    {
       "title": "蝶々結び",
       "artist": "Aimer",
       "count": 2
@@ -3454,8 +3469,8 @@
       "count": 2
     },
     {
-      "title": "六兆年と一夜物語",
-      "artist": "kemu",
+      "title": "東京テディベア",
+      "artist": "Neru",
       "count": 2
     },
     {
@@ -3674,11 +3689,6 @@
       "count": 2
     },
     {
-      "title": "深海少女",
-      "artist": "ゆうゆ",
-      "count": 2
-    },
-    {
       "title": "愛言葉V",
       "artist": "DECO*27",
       "count": 2
@@ -3696,11 +3706,6 @@
     {
       "title": "気まぐれメルシィ",
       "artist": "八王子P",
-      "count": 2
-    },
-    {
-      "title": "ケッペキショウ",
-      "artist": "すこっぷ",
       "count": 2
     },
     {
@@ -4304,6 +4309,11 @@
       "count": 2
     },
     {
+      "title": "パンダヒーロー",
+      "artist": "米津玄師",
+      "count": 2
+    },
+    {
       "title": "い~やい~やい~や",
       "artist": "Neru",
       "count": 2
@@ -4359,8 +4369,18 @@
       "count": 2
     },
     {
+      "title": "悪ノ召使",
+      "artist": "mothy (悪ノP)",
+      "count": 2
+    },
+    {
       "title": "悪ノ娘",
       "artist": "mothy (悪ノP)",
+      "count": 2
+    },
+    {
+      "title": "ルカルカナイトフィーバー",
+      "artist": "samfree",
       "count": 2
     },
     {
@@ -4946,11 +4966,6 @@
     {
       "title": "エルの天秤",
       "artist": "Sound Horizon",
-      "count": 1
-    },
-    {
-      "title": "東京テディベア",
-      "artist": "Neru",
       "count": 1
     },
     {
@@ -5964,11 +5979,6 @@
       "count": 1
     },
     {
-      "title": "パンダヒーロー",
-      "artist": "米津玄師",
-      "count": 1
-    },
-    {
       "title": "リバーシブル・キャンペーン",
       "artist": "DECO*27",
       "count": 1
@@ -6079,11 +6089,6 @@
       "count": 1
     },
     {
-      "title": "悪ノ召使",
-      "artist": "mothy (悪ノP)",
-      "count": 1
-    },
-    {
       "title": "WAVE",
       "artist": "niki",
       "count": 1
@@ -6096,11 +6101,6 @@
     {
       "title": "君の体温",
       "artist": "クワガタP",
-      "count": 1
-    },
-    {
-      "title": "ルカルカナイトフィーバー",
-      "artist": "samfree",
       "count": 1
     },
     {
@@ -7107,6 +7107,61 @@
       "title": "晩餐歌",
       "artist": "Tuki.",
       "count": 1
+    },
+    {
+      "title": "ローリンガール",
+      "artist": "wowaka",
+      "count": 1
+    },
+    {
+      "title": "人生リセットボタン",
+      "artist": "kemu",
+      "count": 1
+    },
+    {
+      "title": "裏表ラバーズ",
+      "artist": "wowaka",
+      "count": 1
+    },
+    {
+      "title": "ワールズエンド・ダンスホール",
+      "artist": "wowaka",
+      "count": 1
+    },
+    {
+      "title": "Just Be Friends",
+      "artist": "Dixie Flatline",
+      "count": 1
+    },
+    {
+      "title": "しわ",
+      "artist": "buzzG",
+      "count": 1
+    },
+    {
+      "title": "HEAVEN",
+      "artist": "HarryP(はりーP)",
+      "count": 1
+    },
+    {
+      "title": "Masked bitcH",
+      "artist": "ギガP",
+      "count": 1
+    },
+    {
+      "title": "右肩の蝶",
+      "artist": "のりぴー",
+      "count": 1
+    },
+    {
+      "title": "リモコン",
+      "artist": "じーざすP",
+      "count": 1
+    },
+    {
+      "title": "リリリリバーニングナイト",
+      "artist": "samfree",
+      "count": 1
     }
   ],
   "artists": [
@@ -7199,6 +7254,7 @@
     "GuraMarine",
     "HIMEHINA",
     "HY",
+    "HarryP(はりーP)",
     "Heavenz",
     "HoneyWorks",
     "HoneyWorks 瀬戸口優 (神谷浩史)・榎本夏樹 (戸松遥)・望月蒼太 (梶裕貴)・早坂あかり (阿澄佳奈)・芹沢春輝 (鈴村健一)・合田美桜 (豊崎愛生)",
@@ -7423,6 +7479,7 @@
     "ぬゆり",
     "ぬー (古川本舗)",
     "のぼる↑",
+    "のりぴー",
     "はいのことん,えこ。",
     "はりーP",
     "はるまきごはん",
@@ -7459,6 +7516,7 @@
     "キタニタツヤ",
     "キノシタ",
     "キャンディーズ",
+    "ギガP",
     "ギガP・れをる",
     "クトゥルフ神話",
     "クマムシ",
