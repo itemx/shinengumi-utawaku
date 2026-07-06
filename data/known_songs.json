@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1418,
-  "uniqueTitles": 1379,
-  "uniqueArtists": 643,
+  "totalEntries": 1421,
+  "uniqueTitles": 1382,
+  "uniqueArtists": 645,
   "songs": [
     {
       "title": "残響散歌",
@@ -11,7 +11,12 @@
     {
       "title": "少女レイ",
       "artist": "みきとP",
-      "count": 19
+      "count": 20
+    },
+    {
+      "title": "晴る",
+      "artist": "ヨルシカ",
+      "count": 20
     },
     {
       "title": "創聖のアクエリオン",
@@ -24,18 +29,13 @@
       "count": 19
     },
     {
-      "title": "晴る",
-      "artist": "ヨルシカ",
-      "count": 19
+      "title": "Departures ~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
+      "count": 18
     },
     {
       "title": "ビビデバ",
       "artist": "星街すいせい",
-      "count": 17
-    },
-    {
-      "title": "Departures ~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
       "count": 17
     },
     {
@@ -54,6 +54,11 @@
       "count": 17
     },
     {
+      "title": "All Alone With You",
+      "artist": "EGOIST",
+      "count": 16
+    },
+    {
       "title": "紅蓮華",
       "artist": "LiSA",
       "count": 16
@@ -67,11 +72,6 @@
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 16
-    },
-    {
-      "title": "All Alone With You",
-      "artist": "EGOIST",
-      "count": 15
     },
     {
       "title": "夜明けと蛍",
@@ -294,6 +294,11 @@
       "count": 11
     },
     {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
+      "count": 11
+    },
+    {
       "title": "往け",
       "artist": "LiSA",
       "count": 11
@@ -331,6 +336,11 @@
     {
       "title": "SOS",
       "artist": "黛冬優子",
+      "count": 10
+    },
+    {
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
       "count": 10
     },
     {
@@ -396,11 +406,6 @@
     {
       "title": "からくりピエロ",
       "artist": "40mP",
-      "count": 10
-    },
-    {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
       "count": 10
     },
     {
@@ -481,11 +486,6 @@
     {
       "title": "深海のリトルクライ",
       "artist": "sasakure.UK",
-      "count": 9
-    },
-    {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
       "count": 9
     },
     {
@@ -616,6 +616,11 @@
     {
       "title": "奏(かなで)",
       "artist": "スキマスイッチ",
+      "count": 8
+    },
+    {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
       "count": 8
     },
     {
@@ -789,11 +794,6 @@
       "count": 7
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 7
-    },
-    {
       "title": "トンデモワンダーズ",
       "artist": "sasakure.UK",
       "count": 7
@@ -851,6 +851,16 @@
     {
       "title": "うたかた花火",
       "artist": "ryo (supercell)",
+      "count": 7
+    },
+    {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 7
+    },
+    {
+      "title": "アポリア",
+      "artist": "ヨルシカ",
       "count": 7
     },
     {
@@ -1099,22 +1109,17 @@
       "count": 6
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 6
-    },
-    {
       "title": "夏恋花火",
       "artist": "40mP",
       "count": 6
     },
     {
-      "title": "アポリア",
-      "artist": "ヨルシカ",
+      "title": "Planetes",
+      "artist": "EGOIST",
       "count": 6
     },
     {
-      "title": "Planetes",
+      "title": "想いを巡らす100の事象",
       "artist": "EGOIST",
       "count": 6
     },
@@ -1404,8 +1409,18 @@
       "count": 5
     },
     {
+      "title": "バレリーコ",
+      "artist": "みきとP",
+      "count": 5
+    },
+    {
       "title": "ドライフラワー",
       "artist": "優里",
+      "count": 5
+    },
+    {
+      "title": "心拍数♯0822",
+      "artist": "蝶々P",
       "count": 5
     },
     {
@@ -1426,11 +1441,6 @@
     {
       "title": "Rising Hope",
       "artist": "LiSA",
-      "count": 5
-    },
-    {
-      "title": "想いを巡らす100の事象",
-      "artist": "EGOIST",
       "count": 5
     },
     {
@@ -1769,6 +1779,11 @@
       "count": 4
     },
     {
+      "title": "rain stops, good-bye",
+      "artist": "におP",
+      "count": 4
+    },
+    {
       "title": "チェリーポップ",
       "artist": "DECO*27",
       "count": 4
@@ -1884,16 +1899,6 @@
       "count": 4
     },
     {
-      "title": "バレリーコ",
-      "artist": "みきとP",
-      "count": 4
-    },
-    {
-      "title": "心拍数♯0822",
-      "artist": "蝶々P",
-      "count": 4
-    },
-    {
       "title": "Burn My Universe",
       "artist": "麻枝准×やなぎなぎ",
       "count": 4
@@ -1916,6 +1921,11 @@
     {
       "title": "高嶺の花子さん",
       "artist": "back number",
+      "count": 4
+    },
+    {
+      "title": "小夜子",
+      "artist": "みきとP",
       "count": 4
     },
     {
@@ -2341,11 +2351,6 @@
     {
       "title": "人マニア",
       "artist": "原口沙輔",
-      "count": 3
-    },
-    {
-      "title": "rain stops, good-bye",
-      "artist": "におP",
       "count": 3
     },
     {
@@ -2934,11 +2939,6 @@
       "count": 3
     },
     {
-      "title": "小夜子",
-      "artist": "みきとP",
-      "count": 3
-    },
-    {
       "title": "Beat Eater",
       "artist": "ポリスピカデリー",
       "count": 3
@@ -3426,6 +3426,31 @@
     {
       "title": "アサガオの散る頃に",
       "artist": "じっぷす",
+      "count": 2
+    },
+    {
+      "title": "サイレント・マジョリティ",
+      "artist": "Heavenz",
+      "count": 2
+    },
+    {
+      "title": "トコハナ",
+      "artist": "やなぎなぎ",
+      "count": 2
+    },
+    {
+      "title": "愛が灯る",
+      "artist": "ロクデナシ",
+      "count": 2
+    },
+    {
+      "title": "この世界で見つけたもの",
+      "artist": "EGOIST",
+      "count": 2
+    },
+    {
+      "title": "死ぬにはいい日だった",
+      "artist": "ピコン",
       "count": 2
     },
     {
@@ -4894,21 +4919,6 @@
       "count": 1
     },
     {
-      "title": "サイレント・マジョリティ",
-      "artist": "Heavenz",
-      "count": 1
-    },
-    {
-      "title": "トコハナ",
-      "artist": "やなぎなぎ",
-      "count": 1
-    },
-    {
-      "title": "愛が灯る",
-      "artist": "ロクデナシ",
-      "count": 1
-    },
-    {
       "title": "君の銀の庭",
       "artist": "Kalafina",
       "count": 1
@@ -4921,11 +4931,6 @@
     {
       "title": "G4L",
       "artist": "vocaloid",
-      "count": 1
-    },
-    {
-      "title": "この世界で見つけたもの",
-      "artist": "EGOIST",
       "count": 1
     },
     {
@@ -4944,11 +4949,6 @@
       "count": 1
     },
     {
-      "title": "死ぬにはいい日だった",
-      "artist": "ピコン",
-      "count": 1
-    },
-    {
       "title": "東京テディベア",
       "artist": "Neru",
       "count": 1
@@ -4956,6 +4956,21 @@
     {
       "title": "CH4NGE",
       "artist": "vocaloid",
+      "count": 1
+    },
+    {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
+      "count": 1
+    },
+    {
+      "title": "君の願いが世界を輝かす",
+      "artist": "MISIA",
+      "count": 1
+    },
+    {
+      "title": "My Clematis",
+      "artist": "VIVINOS",
       "count": 1
     },
     {
@@ -7222,6 +7237,7 @@
     "ME:I",
     "MI8k",
     "MI8k (ナポリP)",
+    "MISIA",
     "MORE MORE JUMP!",
     "MOSAIC.WAV",
     "MY FIRST STORY",
@@ -7287,6 +7303,7 @@
     "UVERworld",
     "Uru",
     "VAN DE SHOP",
+    "VIVINOS",
     "Vaundy",
     "Whiteberry",
     "XX:me",
