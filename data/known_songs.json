@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1431,
-  "uniqueTitles": 1391,
-  "uniqueArtists": 647,
+  "totalEntries": 1435,
+  "uniqueTitles": 1394,
+  "uniqueArtists": 648,
   "songs": [
     {
       "title": "残響散歌",
@@ -54,6 +54,11 @@
       "count": 17
     },
     {
+      "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
+      "count": 17
+    },
+    {
       "title": "怪物",
       "artist": "YOASOBI",
       "count": 17
@@ -61,11 +66,6 @@
     {
       "title": "紅蓮華",
       "artist": "LiSA",
-      "count": 16
-    },
-    {
-      "title": "ただ君に晴れ",
-      "artist": "ヨルシカ",
       "count": 16
     },
     {
@@ -129,6 +129,11 @@
       "count": 14
     },
     {
+      "title": "コネクト",
+      "artist": "ClariS",
+      "count": 14
+    },
+    {
       "title": "花になって",
       "artist": "緑黄色社会",
       "count": 14
@@ -171,11 +176,6 @@
     {
       "title": "IRIS OUT",
       "artist": "米津玄師",
-      "count": 13
-    },
-    {
-      "title": "コネクト",
-      "artist": "ClariS",
       "count": 13
     },
     {
@@ -224,6 +224,16 @@
       "count": 12
     },
     {
+      "title": "春泥棒",
+      "artist": "ヨルシカ",
+      "count": 12
+    },
+    {
+      "title": "群青",
+      "artist": "YOASOBI",
+      "count": 12
+    },
+    {
       "title": "The Everlasting Guilty Crown",
       "artist": "EGOIST",
       "count": 12
@@ -231,6 +241,11 @@
     {
       "title": "アルジャーノン",
       "artist": "ヨルシカ",
+      "count": 12
+    },
+    {
+      "title": "祝福",
+      "artist": "YOASOBI",
       "count": 12
     },
     {
@@ -299,16 +314,6 @@
       "count": 11
     },
     {
-      "title": "春泥棒",
-      "artist": "ヨルシカ",
-      "count": 11
-    },
-    {
-      "title": "群青",
-      "artist": "YOASOBI",
-      "count": 11
-    },
-    {
       "title": "ソワレ",
       "artist": "星街すいせい",
       "count": 11
@@ -339,11 +344,6 @@
       "count": 11
     },
     {
-      "title": "祝福",
-      "artist": "YOASOBI",
-      "count": 11
-    },
-    {
       "title": "桃源恋歌",
       "artist": "GARNiDELiA",
       "count": 11
@@ -351,6 +351,11 @@
     {
       "title": "夜のピエロ",
       "artist": "Ado",
+      "count": 11
+    },
+    {
+      "title": "炎",
+      "artist": "LiSA",
       "count": 11
     },
     {
@@ -444,6 +449,11 @@
       "count": 10
     },
     {
+      "title": "プライド革命",
+      "artist": "CHiCO with HoneyWorks",
+      "count": 10
+    },
+    {
       "title": "Shout Baby",
       "artist": "緑黄色社会",
       "count": 10
@@ -456,11 +466,6 @@
     {
       "title": "踊",
       "artist": "Ado",
-      "count": 10
-    },
-    {
-      "title": "炎",
-      "artist": "LiSA",
       "count": 10
     },
     {
@@ -524,6 +529,11 @@
       "count": 9
     },
     {
+      "title": "HARUKAZE",
+      "artist": "SCANDAL",
+      "count": 9
+    },
+    {
       "title": "ヴァンパイア",
       "artist": "DECO*27",
       "count": 9
@@ -554,11 +564,6 @@
       "count": 9
     },
     {
-      "title": "プライド革命",
-      "artist": "CHiCO with HoneyWorks",
-      "count": 9
-    },
-    {
       "title": "綺麗事",
       "artist": "星街すいせい",
       "count": 9
@@ -579,6 +584,11 @@
       "count": 9
     },
     {
+      "title": "破滅の純情",
+      "artist": "ワルキューレ",
+      "count": 9
+    },
+    {
       "title": "oath sign",
       "artist": "LiSA",
       "count": 9
@@ -591,6 +601,11 @@
     {
       "title": "Ahoy!! 我ら宝鐘海賊団",
       "artist": "宝鐘マリン",
+      "count": 9
+    },
+    {
+      "title": "サマータイムレコード",
+      "artist": "じん",
       "count": 9
     },
     {
@@ -636,11 +651,6 @@
     {
       "title": "ブラックロックシューター",
       "artist": "ryo (supercell)",
-      "count": 8
-    },
-    {
-      "title": "HARUKAZE",
-      "artist": "SCANDAL",
       "count": 8
     },
     {
@@ -729,11 +739,6 @@
       "count": 8
     },
     {
-      "title": "破滅の純情",
-      "artist": "ワルキューレ",
-      "count": 8
-    },
-    {
       "title": "PAPERMOON",
       "artist": "Tommy heavenly6",
       "count": 8
@@ -759,11 +764,6 @@
       "count": 8
     },
     {
-      "title": "サマータイムレコード",
-      "artist": "じん",
-      "count": 8
-    },
-    {
       "title": "神っぽいな",
       "artist": "ピノキオピー",
       "count": 8
@@ -776,6 +776,11 @@
     {
       "title": "EX-otogibanashi",
       "artist": "ryo (supercell)",
+      "count": 7
+    },
+    {
+      "title": "世界は恋に落ちている",
+      "artist": "CHiCO with HoneyWorks",
       "count": 7
     },
     {
@@ -861,6 +866,11 @@
     {
       "title": "Rolling star",
       "artist": "YUI",
+      "count": 7
+    },
+    {
+      "title": "一度だけの恋なら",
+      "artist": "ワルキューレ",
       "count": 7
     },
     {
@@ -954,6 +964,11 @@
       "count": 7
     },
     {
+      "title": "瞬間センチメンタル",
+      "artist": "SCANDAL",
+      "count": 7
+    },
+    {
       "title": "KICK BACK",
       "artist": "米津玄師",
       "count": 7
@@ -974,6 +989,11 @@
       "count": 7
     },
     {
+      "title": "火星人",
+      "artist": "ヨルシカ",
+      "count": 7
+    },
+    {
       "title": "心に穴が空いた",
       "artist": "ヨルシカ",
       "count": 7
@@ -991,11 +1011,6 @@
     {
       "title": "ray",
       "artist": "BUMP OF CHICKEN",
-      "count": 6
-    },
-    {
-      "title": "世界は恋に落ちている",
-      "artist": "CHiCO with HoneyWorks",
       "count": 6
     },
     {
@@ -1099,11 +1114,6 @@
       "count": 6
     },
     {
-      "title": "一度だけの恋なら",
-      "artist": "ワルキューレ",
-      "count": 6
-    },
-    {
       "title": "快晴",
       "artist": "Orangestar",
       "count": 6
@@ -1184,8 +1194,18 @@
       "count": 6
     },
     {
+      "title": "君と夏フェス",
+      "artist": "SHISHAMO",
+      "count": 6
+    },
+    {
       "title": "Hysteric Bullet",
       "artist": "GARNiDELiA",
+      "count": 6
+    },
+    {
+      "title": "daze",
+      "artist": "じん",
       "count": 6
     },
     {
@@ -1216,6 +1236,11 @@
     {
       "title": "ガーネット",
       "artist": "奥華子",
+      "count": 6
+    },
+    {
+      "title": "ハルジオン",
+      "artist": "YOASOBI",
       "count": 6
     },
     {
@@ -1254,11 +1279,6 @@
       "count": 6
     },
     {
-      "title": "瞬間センチメンタル",
-      "artist": "SCANDAL",
-      "count": 6
-    },
-    {
       "title": "from Y to Y",
       "artist": "ジミーサムP",
       "count": 6
@@ -1284,13 +1304,18 @@
       "count": 6
     },
     {
+      "title": "GLAMOROUS SKY",
+      "artist": "NANA starring MIKA NAKASHIMA",
+      "count": 6
+    },
+    {
       "title": "可愛くてごめん",
       "artist": "HoneyWorks",
       "count": 6
     },
     {
-      "title": "火星人",
-      "artist": "ヨルシカ",
+      "title": "シルエット",
+      "artist": "KANA-BOON",
       "count": 6
     },
     {
@@ -1326,6 +1351,11 @@
     {
       "title": "回レ!雪月花",
       "artist": "歌組雪月花",
+      "count": 6
+    },
+    {
+      "title": "振り向いてGOD",
+      "artist": "涼風しとら",
       "count": 6
     },
     {
@@ -1519,11 +1549,6 @@
       "count": 5
     },
     {
-      "title": "君と夏フェス",
-      "artist": "SHISHAMO",
-      "count": 5
-    },
-    {
       "title": "左右盲",
       "artist": "ヨルシカ",
       "count": 5
@@ -1574,11 +1599,6 @@
       "count": 5
     },
     {
-      "title": "daze",
-      "artist": "じん",
-      "count": 5
-    },
-    {
       "title": "ヨンジュウナナ",
       "artist": "みきとP",
       "count": 5
@@ -1586,11 +1606,6 @@
     {
       "title": "アカイト",
       "artist": "みきとP",
-      "count": 5
-    },
-    {
-      "title": "ハルジオン",
-      "artist": "YOASOBI",
       "count": 5
     },
     {
@@ -1664,11 +1679,6 @@
       "count": 5
     },
     {
-      "title": "GLAMOROUS SKY",
-      "artist": "NANA starring MIKA NAKASHIMA",
-      "count": 5
-    },
-    {
       "title": "Crow Song",
       "artist": "Girls Dead Monster",
       "count": 5
@@ -1676,11 +1686,6 @@
     {
       "title": "君じゃなきゃダメみたい",
       "artist": "オーイシマサヨシ",
-      "count": 5
-    },
-    {
-      "title": "シルエット",
-      "artist": "KANA-BOON",
       "count": 5
     },
     {
@@ -1764,13 +1769,18 @@
       "count": 5
     },
     {
+      "title": "ヒッチコック",
+      "artist": "ヨルシカ",
+      "count": 5
+    },
+    {
       "title": "気まぐれロマンティック",
       "artist": "いきものがかり",
       "count": 5
     },
     {
-      "title": "振り向いてGOD",
-      "artist": "涼風しとら",
+      "title": "千鳥",
+      "artist": "ヨルシカ",
       "count": 5
     },
     {
@@ -2279,11 +2289,6 @@
       "count": 4
     },
     {
-      "title": "ヒッチコック",
-      "artist": "ヨルシカ",
-      "count": 4
-    },
-    {
       "title": "スペシャルガール",
       "artist": "れるりり",
       "count": 4
@@ -2305,11 +2310,6 @@
     },
     {
       "title": "カトレア",
-      "artist": "ヨルシカ",
-      "count": 4
-    },
-    {
-      "title": "千鳥",
       "artist": "ヨルシカ",
       "count": 4
     },
@@ -2669,6 +2669,11 @@
       "count": 3
     },
     {
+      "title": "LOVE SURVIVE",
+      "artist": "SCANDAL",
+      "count": 3
+    },
+    {
       "title": "深海少女",
       "artist": "ゆうゆ",
       "count": 3
@@ -2981,6 +2986,11 @@
     {
       "title": "お願いマッスル",
       "artist": "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)",
+      "count": 3
+    },
+    {
+      "title": "かくれんぼ",
+      "artist": "AliA",
       "count": 3
     },
     {
@@ -3684,11 +3694,6 @@
       "count": 2
     },
     {
-      "title": "LOVE SURVIVE",
-      "artist": "SCANDAL",
-      "count": 2
-    },
-    {
       "title": "愛言葉V",
       "artist": "DECO*27",
       "count": 2
@@ -4031,11 +4036,6 @@
     {
       "title": "I'm a mess",
       "artist": "MY FIRST STORY",
-      "count": 2
-    },
-    {
-      "title": "かくれんぼ",
-      "artist": "AliA",
       "count": 2
     },
     {
@@ -4406,6 +4406,11 @@
     {
       "title": "エイリアンエイリアン",
       "artist": "ナユタン星人",
+      "count": 2
+    },
+    {
+      "title": "Believe again",
+      "artist": "Saint Snow",
       "count": 2
     },
     {
@@ -6154,11 +6159,6 @@
       "count": 1
     },
     {
-      "title": "Believe again",
-      "artist": "Saint Snow",
-      "count": 1
-    },
-    {
       "title": "学園天国",
       "artist": "フィンガー5",
       "count": 1
@@ -7157,6 +7157,26 @@
       "title": "リリリリバーニングナイト",
       "artist": "samfree",
       "count": 1
+    },
+    {
+      "title": "Strawberry Trapper",
+      "artist": "Guilty Kiss",
+      "count": 1
+    },
+    {
+      "title": "New Romantic Sailors",
+      "artist": "Guilty Kiss",
+      "count": 1
+    },
+    {
+      "title": "Guilty Eyes Fever",
+      "artist": "Guilty Kiss",
+      "count": 1
+    },
+    {
+      "title": "ハルカ",
+      "artist": "YOASOBI",
+      "count": 1
     }
   ],
   "artists": [
@@ -7244,6 +7264,7 @@
     "Giga, Mitchie M",
     "Girls Dead Monster",
     "Goose house",
+    "Guilty Kiss",
     "Guilty Kiss (Aqours)",
     "Gulity Kiss",
     "GuraMarine",
