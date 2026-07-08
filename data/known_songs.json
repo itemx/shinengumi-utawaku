@@ -1,5 +1,5 @@
 {
-  "totalEntries": 1436,
+  "totalEntries": 1435,
   "uniqueTitles": 1394,
   "uniqueArtists": 648,
   "songs": [
@@ -3214,6 +3214,11 @@
       "count": 3
     },
     {
+      "title": "サイレント・マジョリティ",
+      "artist": "Heavenz",
+      "count": 3
+    },
+    {
       "title": "「ねぇ。」",
       "artist": "ナノウ",
       "count": 3
@@ -4536,11 +4541,6 @@
     {
       "title": "七転八起☆至上主義!",
       "artist": "KOTOKO",
-      "count": 2
-    },
-    {
-      "title": "サイレント・マジョリティ",
-      "artist": "Heavenz",
       "count": 2
     },
     {
@@ -7101,11 +7101,6 @@
     {
       "title": "点描の唄",
       "artist": "Mrs. GREEN APPLE",
-      "count": 1
-    },
-    {
-      "title": "サイレント・マジョリティ",
-      "artist": "欅坂46",
       "count": 1
     },
     {
