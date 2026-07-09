@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-07-07T14:37:45.786405+00:00",
+  "lastFetched": "2026-07-09T09:30:23.459211+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -36326,6 +36326,24 @@
       ],
       "sourceCommentId": "",
       "type": "stream"
+    },
+    {
+      "videoId": "MiZ94sTcaRg",
+      "title": "セレナーデ/なとり 歌ってみた【涼風しとら】#vsinger #cover",
+      "publishedAt": "2026-07-09T09:00:02Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "セレナーデ",
+          "titleRaw": "セレナーデ",
+          "artist": "なとり",
+          "artistRaw": "",
+          "url": "https://youtu.be/MiZ94sTcaRg?t=0"
+        }
+      ],
+      "sourceCommentId": "issue#48",
+      "type": "short"
     }
   ]
 }
