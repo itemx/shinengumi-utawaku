@@ -1,9 +1,16 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "generatedAt": "2026-07-07T14:37:45.820659+00:00",
+  "generatedAt": "2026-07-10T14:29:30.185191+00:00",
   "totalSearched": 173,
   "totalWithSetlist": 142,
-  "totalMissing": 0,
-  "missing": []
+  "totalMissing": 1,
+  "missing": [
+    {
+      "videoId": "zg0ozOdtl1k",
+      "title": "🐥【歌枠】アニソン・昭和曲や、懐メロ歌枠。あなたの魂を揺らすVsinger✨【VTuber/配信中】",
+      "publishedAt": "2026-07-10T11:17:19Z",
+      "url": "https://www.youtube.com/watch?v=zg0ozOdtl1k"
+    }
+  ]
 }
