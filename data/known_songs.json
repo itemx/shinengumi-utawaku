@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1439,
-  "uniqueTitles": 1399,
-  "uniqueArtists": 649,
+  "totalEntries": 1454,
+  "uniqueTitles": 1413,
+  "uniqueArtists": 659,
   "songs": [
     {
       "title": "残響散歌",
@@ -14,6 +14,11 @@
       "count": 20
     },
     {
+      "title": "創聖のアクエリオン",
+      "artist": "AKINO",
+      "count": 20
+    },
+    {
       "title": "晴る",
       "artist": "ヨルシカ",
       "count": 20
@@ -21,11 +26,6 @@
     {
       "title": "Calc.",
       "artist": "ジミーサムP",
-      "count": 19
-    },
-    {
-      "title": "創聖のアクエリオン",
-      "artist": "AKINO",
       "count": 19
     },
     {
@@ -79,6 +79,11 @@
       "count": 16
     },
     {
+      "title": "残酷な天使のテーゼ",
+      "artist": "高橋洋子",
+      "count": 16
+    },
+    {
       "title": "Across the world !!",
       "artist": "深淵組",
       "count": 16
@@ -101,11 +106,6 @@
     {
       "title": "フォニイ",
       "artist": "ツミキ",
-      "count": 15
-    },
-    {
-      "title": "残酷な天使のテーゼ",
-      "artist": "高橋洋子",
       "count": 15
     },
     {
@@ -179,6 +179,11 @@
       "count": 13
     },
     {
+      "title": "Butter-Fly",
+      "artist": "和田光司",
+      "count": 13
+    },
+    {
       "title": "ハロ/ハワユ",
       "artist": "ナノウ",
       "count": 13
@@ -221,11 +226,6 @@
     {
       "title": "星降る海",
       "artist": "月見ヤチヨ",
-      "count": 12
-    },
-    {
-      "title": "Butter-Fly",
-      "artist": "和田光司",
       "count": 12
     },
     {
@@ -684,6 +684,11 @@
       "count": 8
     },
     {
+      "title": "そばかす",
+      "artist": "JUDY AND MARY",
+      "count": 8
+    },
+    {
       "title": "ミカヅキ",
       "artist": "さユり",
       "count": 8
@@ -884,11 +889,6 @@
       "count": 7
     },
     {
-      "title": "そばかす",
-      "artist": "JUDY AND MARY",
-      "count": 7
-    },
-    {
       "title": "カサブタ",
       "artist": "千綿偉功",
       "count": 7
@@ -1071,6 +1071,11 @@
     {
       "title": "ray",
       "artist": "BUMP OF CHICKEN",
+      "count": 6
+    },
+    {
+      "title": "only my railgun",
+      "artist": "fripSide",
       "count": 6
     },
     {
@@ -1376,11 +1381,6 @@
     {
       "title": "月が綺麗ねと言われたい!",
       "artist": "柿崎ユウタ",
-      "count": 5
-    },
-    {
-      "title": "only my railgun",
-      "artist": "fripSide",
       "count": 5
     },
     {
@@ -2099,6 +2099,11 @@
       "count": 4
     },
     {
+      "title": "負けないで",
+      "artist": "ZARD",
+      "count": 4
+    },
+    {
       "title": "ニア",
       "artist": "夏代孝明",
       "count": 4
@@ -2179,6 +2184,11 @@
       "count": 4
     },
     {
+      "title": "ムーンライト伝説",
+      "artist": "DALI",
+      "count": 4
+    },
+    {
       "title": "もってけ!セーラーふく",
       "artist": "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
       "count": 4
@@ -2231,6 +2241,11 @@
     {
       "title": "orion",
       "artist": "米津玄師",
+      "count": 4
+    },
+    {
+      "title": "ロマンスの神様",
+      "artist": "広瀬香美",
       "count": 4
     },
     {
@@ -2341,6 +2356,11 @@
     {
       "title": "キュートなカノジョ",
       "artist": "syudou",
+      "count": 4
+    },
+    {
+      "title": "タッチ",
+      "artist": "岩崎良美",
       "count": 4
     },
     {
@@ -2624,11 +2644,6 @@
       "count": 3
     },
     {
-      "title": "負けないで",
-      "artist": "ZARD",
-      "count": 3
-    },
-    {
       "title": "ビターチョコデコレーション",
       "artist": "syudou",
       "count": 3
@@ -2799,11 +2814,6 @@
       "count": 3
     },
     {
-      "title": "ムーンライト伝説",
-      "artist": "DALI",
-      "count": 3
-    },
-    {
       "title": "Los! Los! Los!",
       "artist": "ターニャ・デグレチャフ (悠木碧)",
       "count": 3
@@ -2856,11 +2866,6 @@
     {
       "title": "Stairway Generation",
       "artist": "Base Ball Bear",
-      "count": 3
-    },
-    {
-      "title": "ロマンスの神様",
-      "artist": "広瀬香美",
       "count": 3
     },
     {
@@ -3174,11 +3179,6 @@
       "count": 3
     },
     {
-      "title": "タッチ",
-      "artist": "岩崎良美",
-      "count": 3
-    },
-    {
       "title": "おねがいダーリン",
       "artist": "ナナホシ管弦楽団",
       "count": 3
@@ -3186,6 +3186,11 @@
     {
       "title": "アイロニ",
       "artist": "すこっぷ",
+      "count": 3
+    },
+    {
+      "title": "天体観測",
+      "artist": "BUMP OF CHICKEN",
       "count": 3
     },
     {
@@ -3451,6 +3456,11 @@
     {
       "title": "革命デュアリズム",
       "artist": "水樹奈々×T.M.Revolution",
+      "count": 2
+    },
+    {
+      "title": "チェリー",
+      "artist": "スピッツ",
       "count": 2
     },
     {
@@ -3856,6 +3866,11 @@
     {
       "title": "白日",
       "artist": "King Gnu",
+      "count": 2
+    },
+    {
+      "title": "First Love",
+      "artist": "宇多田ヒカル",
       "count": 2
     },
     {
@@ -4414,11 +4429,6 @@
       "count": 2
     },
     {
-      "title": "天体観測",
-      "artist": "BUMP OF CHICKEN",
-      "count": 2
-    },
-    {
       "title": "プリキュア5、スマイル go go!",
       "artist": "工藤真由",
       "count": 2
@@ -4576,6 +4586,31 @@
     {
       "title": "say my nameの片思い",
       "artist": "LiSA",
+      "count": 2
+    },
+    {
+      "title": "青い珊瑚礁",
+      "artist": "松田聖子",
+      "count": 2
+    },
+    {
+      "title": "赤いスイートピー",
+      "artist": "松田聖子",
+      "count": 2
+    },
+    {
+      "title": "少女A",
+      "artist": "中森明菜",
+      "count": 2
+    },
+    {
+      "title": "異邦人",
+      "artist": "久保田早紀",
+      "count": 2
+    },
+    {
+      "title": "春一番",
+      "artist": "キャンディーズ",
       "count": 2
     },
     {
@@ -4836,11 +4871,6 @@
     {
       "title": "クリスマスソング",
       "artist": "back number",
-      "count": 1
-    },
-    {
-      "title": "チェリー",
-      "artist": "スピッツ",
       "count": 1
     },
     {
@@ -5326,11 +5356,6 @@
     {
       "title": "雪の音",
       "artist": "GReeeeN",
-      "count": 1
-    },
-    {
-      "title": "First Love",
-      "artist": "宇多田ヒカル",
       "count": 1
     },
     {
@@ -7034,37 +7059,12 @@
       "count": 1
     },
     {
-      "title": "青い珊瑚礁",
-      "artist": "松田聖子",
-      "count": 1
-    },
-    {
-      "title": "赤いスイートピー",
-      "artist": "松田聖子",
-      "count": 1
-    },
-    {
-      "title": "少女A",
-      "artist": "中森明菜",
-      "count": 1
-    },
-    {
       "title": "狙いうち",
       "artist": "山本リンダ",
       "count": 1
     },
     {
       "title": "年下の男の子",
-      "artist": "キャンディーズ",
-      "count": 1
-    },
-    {
-      "title": "異邦人",
-      "artist": "久保田早紀",
-      "count": 1
-    },
-    {
-      "title": "春一番",
       "artist": "キャンディーズ",
       "count": 1
     },
@@ -7197,6 +7197,81 @@
       "title": "ドキッ! こういうのが恋なの?",
       "artist": "えり~な(キャナァーリ倶楽部)",
       "count": 1
+    },
+    {
+      "title": "DESIRE - 情熱 -",
+      "artist": "中森明菜",
+      "count": 1
+    },
+    {
+      "title": "木綿のハンカチーフ",
+      "artist": "太田裕美",
+      "count": 1
+    },
+    {
+      "title": "プレイバック Part2",
+      "artist": "山口百恵",
+      "count": 1
+    },
+    {
+      "title": "UFO",
+      "artist": "ピンク・レディー",
+      "count": 1
+    },
+    {
+      "title": "飾りじゃないのよ涙は",
+      "artist": "中森明菜",
+      "count": 1
+    },
+    {
+      "title": "小さな恋のうた",
+      "artist": "MONGOL800",
+      "count": 1
+    },
+    {
+      "title": "未来予想図II",
+      "artist": "DREAMS COME TRUE",
+      "count": 1
+    },
+    {
+      "title": "世界に一つだけの花",
+      "artist": "SMAP",
+      "count": 1
+    },
+    {
+      "title": "フレンズ",
+      "artist": "REBECCA",
+      "count": 1
+    },
+    {
+      "title": "恋しさと せつなさと 心強さと",
+      "artist": "篠原 涼子",
+      "count": 1
+    },
+    {
+      "title": "ライオン",
+      "artist": "シェリル・ノーム starring May'n,ランカ・リー=中島愛",
+      "count": 1
+    },
+    {
+      "title": "時の流れに身をまかせ",
+      "artist": "テレサ・テン",
+      "count": 1
+    },
+    {
+      "title": "いい日旅立ち",
+      "artist": "山口百恵",
+      "count": 1
+    },
+    {
+      "title": "銀河鉄道999",
+      "artist": "ゴダイゴ",
+      "count": 1
+    },
+    {
+      "title": "愛は勝つ",
+      "artist": "KAN",
+      "count": 1
     }
   ],
   "artists": [
@@ -7261,6 +7336,7 @@
     "DECO*27, Rockwell",
     "DECO*27,Naoki Itai",
     "DOES",
+    "DREAMS COME TRUE",
     "Dixie Flatline",
     "E-girls",
     "EGOIST",
@@ -7301,6 +7377,7 @@
     "Janne Da Arc",
     "Juice=Juice",
     "Junky",
+    "KAN",
     "KANA-BOON",
     "KAT-TUN",
     "KEI",
@@ -7331,6 +7408,7 @@
     "MI8k",
     "MI8k (ナポリP)",
     "MISIA",
+    "MONGOL800",
     "MORE MORE JUMP!",
     "MOSAIC.WAV",
     "MY FIRST STORY",
@@ -7355,6 +7433,7 @@
     "Petit Rabbit's",
     "R Sound Design",
     "RADWIMPS",
+    "REBECCA",
     "REISAI",
     "ROSÉ & Bruno Mars",
     "Re;IRIS",
@@ -7367,6 +7446,7 @@
     "SEVENTHLINKS",
     "SHISHAMO",
     "SILENT SIREN",
+    "SMAP",
     "SOL (from BIGBANG)",
     "SPEED",
     "SPLAY",
@@ -7563,6 +7643,7 @@
     "クワガタP",
     "グリン",
     "コレサワ",
+    "ゴダイゴ",
     "ゴールデンボンバー",
     "サカナクション",
     "サスケ",
@@ -7599,6 +7680,7 @@
     "ヒャダイン",
     "ピコン",
     "ピノキオピー",
+    "ピンク・レディー",
     "ピーナッツくん",
     "ファントムシータ",
     "フィンガー5",
@@ -7675,6 +7757,7 @@
     "大森靖子",
     "大沼パセリ",
     "大石昌良",
+    "太田裕美",
     "奏音69",
     "奥華子",
     "女王蜂",
@@ -7690,6 +7773,7 @@
     "小倉唯",
     "小日向美穂 (津田美波)、双葉杏 (五十嵐裕美)、前川みく (高森奈津美)",
     "少女時代",
+    "山口百恵",
     "山本リンダ",
     "岡田梨央",
     "岩崎良美",
@@ -7788,6 +7872,7 @@
     "秦基博",
     "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
     "童謡",
+    "篠原 涼子",
     "米倉千尋",
     "米津玄師",
     "糞田舎P",
