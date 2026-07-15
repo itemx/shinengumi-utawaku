@@ -46,6 +46,17 @@ def parse_cover_title(video_title: str) -> CoverInfo | None:
         song = _clean_song_name(m.group(1))
         is_short = True  # 此模式一律視為 Short
 
+    # 模式 1.5: 「{曲名} / {原唱歌手} [【VTuber】] [#]歌ってみた ...」
+    # 例: "IRIS OUT / 米津玄師 歌ってみた", "アイ・アイ・ア/ Ado #歌ってみた #shorts"
+    if not song:
+        m = re.match(
+            r"^(?:【[^】]*】\s*)?([^/【】]+?)\s*/\s*([^#/【】]+?)\s*(?:【[^】]*】\s*)?#?歌ってみた",
+            title,
+        )
+        if m:
+            song = _clean_song_name(m.group(1))
+            artist = m.group(2).strip()
+
     # 模式 2: 「【 #歌ってみた 】{曲名}【」
     if not song:
         m = re.search(r"【\s*#?歌ってみた\s*】\s*(.+?)\s*【", title)
@@ -224,3 +235,21 @@ def _extract_artist_from_hashtags(title: str, song_title: str = "") -> str:
 
     # 歌手 tag 通常在曲名 tag 之後，取最後一個
     return candidates[-1]
+
+
+if __name__ == "__main__":
+    # 模式 1.5: 曲名 / 歌手 歌ってみた 的自我檢查
+    cases = [
+        ("IRIS OUT / 米津玄師 歌ってみた #vsinger #cover", "IRIS OUT", "米津玄師"),
+        ("Bunny Girl / AKASAKI 歌ってみた #vsinger #cover", "Bunny Girl", "AKASAKI"),
+        ("パレード / ヨルシカ 歌ってみた【涼風しとら】#vsinger #cover", "パレード", "ヨルシカ"),
+        ("一体いつから/月村手毬 #歌ってみた #shorts #cover", "一体いつから", "月村手毬"),
+        ("アイ・アイ・ア/ Ado #歌ってみた #shorts #cover", "アイ・アイ・ア", "Ado"),
+        ("セレナーデ/なとり 歌ってみた【涼風しとら】#vsinger #cover", "セレナーデ", "なとり"),
+    ]
+    for title, want_song, want_artist in cases:
+        r = parse_cover_title(title)
+        assert r is not None, f"None: {title}"
+        assert r.title == want_song, f"{title}: song {r.title!r} != {want_song!r}"
+        assert r.artist == want_artist, f"{title}: artist {r.artist!r} != {want_artist!r}"
+    print("OK", len(cases), "cases")
