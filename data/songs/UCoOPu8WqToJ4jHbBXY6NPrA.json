@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-07-10T14:29:30.998953+00:00",
+  "lastFetched": "2026-07-15T09:11:16.432908+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -11027,6 +11027,24 @@
       ],
       "sourceCommentId": "issue#49",
       "type": "stream"
+    },
+    {
+      "videoId": "nlZXszAdtVM",
+      "title": "夜桜 feat.めいちゃん #歌ってみた #shorts #cover #vsinger #夜桜 #vtuber #新人vtuber #めいちゃん #くじら",
+      "publishedAt": "2026-06-26T09:00:34Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "夜桜",
+          "titleRaw": "夜桜",
+          "artist": "くじら",
+          "artistRaw": "くじら",
+          "url": "https://youtu.be/nlZXszAdtVM"
+        }
+      ],
+      "sourceCommentId": "manual",
+      "type": "short"
     }
   ]
 }

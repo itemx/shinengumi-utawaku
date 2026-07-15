@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1434,
-  "uniqueTitles": 1394,
+  "totalEntries": 1435,
+  "uniqueTitles": 1395,
   "uniqueArtists": 654,
   "songs": [
     {
@@ -7171,6 +7171,11 @@
     {
       "title": "-ERROR",
       "artist": "niki",
+      "count": 1
+    },
+    {
+      "title": "夜桜",
+      "artist": "くじら",
       "count": 1
     }
   ],
