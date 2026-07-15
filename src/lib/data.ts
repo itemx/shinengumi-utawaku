@@ -112,7 +112,10 @@ export function getMissingSetlists(channelId: string): MissingVideo[] {
 }
 
 export function getVideosByType(data: ChannelData) {
-  const streams = data.videos.filter((v) => (v.type || "stream") === "stream");
+  // 只顯示有曲目的直播；scan 產生的 0 曲 stub (避免重複掃描用) 不列入
+  const streams = data.videos.filter(
+    (v) => (v.type || "stream") === "stream" && v.songs.length > 0
+  );
   const shorts = data.videos.filter((v) => v.type === "short");
   const covers = data.videos.filter((v) => v.type === "cover" || v.type === "original");
   return { streams, shorts, covers };
