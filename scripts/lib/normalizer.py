@@ -119,8 +119,9 @@ def _clean_text(text: str, is_title: bool = False) -> str:
     text = text.strip()
     # 連續空白合一
     text = re.sub(r"\s+", " ", text)
-    # 移除前後引號裝飾
-    text = text.strip(_QUOTE_CHARS)
+    # 移除前後引號裝飾 (僅當頭尾成對包住時，避免吃掉曲名內合法引號如 Don't say "lazy")
+    if len(text) >= 2 and text[0] in _QUOTE_CHARS and text[-1] in _QUOTE_CHARS:
+        text = text.strip(_QUOTE_CHARS)
     # 移除尾部標註 (各種 ver 格式)
     text = _TAIL_ANNOTATION_RE.sub("", text)
     text = _DASH_VER_RE.sub("", text)

@@ -151,7 +151,8 @@ for (const [k, v] of Object.entries(titleArtists)) {
 
   <script is:inline define:vars={{ GITHUB_REPO, channelNames, channelMap, songAliases, artistAliases, knownSongs }}>
     // --- Light normalizer (mirrors Python normalizer's most impactful rules) ---
-    var QUOTE_CHARS = /^[「」『』""'']+|[「」『』""'']+$/g;
+    var QUOTE_OPEN = /^[「」『』""'']+/;
+    var QUOTE_CLOSE = /[「」『』""'']+$/;
     var FEAT_PAREN_RE = /\s*[\(（]feat\.?\s+.+?[\)）]\s*$/i;
     var FEAT_RE = /\s+feat\.?\s+.+$/i;
 
@@ -164,8 +165,11 @@ for (const [k, v] of Object.entries(titleArtists)) {
       text = text.replace(/\u301C/g, "~").replace(/\uFF5E/g, "~");
       // Strip + collapse whitespace
       text = text.trim().replace(/\s+/g, " ");
-      // Remove quotes
-      text = text.replace(QUOTE_CHARS, "");
+      // Remove wrapping quotes only when both ends are quoted
+      // (preserve legitimate inner/trailing quotes like Don't say "lazy")
+      if (QUOTE_OPEN.test(text) && QUOTE_CLOSE.test(text)) {
+        text = text.replace(QUOTE_OPEN, "").replace(QUOTE_CLOSE, "");
+      }
       // Remove (feat. xxx) and feat. xxx from both titles and artists
       text = text.replace(FEAT_PAREN_RE, "");
       text = text.replace(FEAT_RE, "");
