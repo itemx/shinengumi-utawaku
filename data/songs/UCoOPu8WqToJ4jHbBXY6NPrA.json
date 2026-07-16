@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-07-16T10:40:54.171326+00:00",
+  "lastFetched": "2026-07-16T13:54:36.839714+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -11522,6 +11522,42 @@
       ],
       "sourceCommentId": "issue#51",
       "type": "stream"
+    },
+    {
+      "videoId": "sNY7vClSat0",
+      "title": "命のユースティティア/ Neru #歌ってみた #shorts #cover #vtuber #新人vtuber #vsinger #命のユースティティア #Neru #vstreamer",
+      "publishedAt": "2026-07-15T09:20:42Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "命のユースティティア",
+          "titleRaw": "命のユースティティア",
+          "artist": "Neru",
+          "artistRaw": "Neru",
+          "url": "https://youtu.be/sNY7vClSat0"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "W1sSLRO-rwU",
+      "title": "一体いつから/月村手毬 #歌ってみた #shorts #cover #vtuber #新人vtuber #vsinger #一体いつから #月村手毬  #学マス  #vstreamer",
+      "publishedAt": "2026-07-10T09:00:40Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "一体いつから",
+          "titleRaw": "一体いつから",
+          "artist": "月村手毬",
+          "artistRaw": "月村手毬",
+          "url": "https://youtu.be/W1sSLRO-rwU"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }

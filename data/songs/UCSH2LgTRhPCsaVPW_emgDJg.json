@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-07-13T14:36:57.826901+00:00",
+  "lastFetched": "2026-07-16T13:54:36.364780+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -36920,6 +36920,122 @@
       ],
       "sourceCommentId": "",
       "type": "stream"
+    },
+    {
+      "videoId": "vxRAdB-etwM",
+      "title": "アポリア / ヨルシカ 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-07-16T09:00:39Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "アポリア",
+          "titleRaw": "アポリア",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/vxRAdB-etwM"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "wgTmeSkSWV0",
+      "title": "W/X/Y / Tani Yuuki 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-07-15T09:00:25Z",
+      "songs": [],
+      "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "YeQes0T_4Zo",
+      "title": "fake face dance music / 音田雅則 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-07-14T09:00:12Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "fake face dance music",
+          "titleRaw": "fake face dance music",
+          "artist": "音田雅則",
+          "artistRaw": "音田雅則",
+          "url": "https://youtu.be/YeQes0T_4Zo"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "O3r928JnfJI",
+      "title": "IRIS OUT / 米津玄師 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-07-13T09:00:05Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "IRIS OUT",
+          "titleRaw": "IRIS OUT",
+          "artist": "米津玄師",
+          "artistRaw": "米津玄師",
+          "url": "https://youtu.be/O3r928JnfJI"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "KLpqZc0C3k0",
+      "title": "Bunny Girl / AKASAKI 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-07-12T09:00:20Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "Bunny Girl",
+          "titleRaw": "Bunny Girl",
+          "artist": "AKASAKI",
+          "artistRaw": "AKASAKI",
+          "url": "https://youtu.be/KLpqZc0C3k0"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "_oKwBAvp41c",
+      "title": "パレード / ヨルシカ 歌ってみた【涼風しとら】#vsinger #cover",
+      "publishedAt": "2026-07-11T09:00:15Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "パレード",
+          "titleRaw": "パレード",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/_oKwBAvp41c"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "UTP6UM2hsgU",
+      "title": "セレナーデ / なとり 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-07-10T09:00:13Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "セレナーデ",
+          "titleRaw": "セレナーデ",
+          "artist": "なとり",
+          "artistRaw": "なとり",
+          "url": "https://youtu.be/UTP6UM2hsgU"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
