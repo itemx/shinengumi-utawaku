@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-07-16T13:54:36.364780+00:00",
+  "lastFetched": "2026-07-19T13:19:55.795205+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -37032,6 +37032,60 @@
           "artist": "なとり",
           "artistRaw": "なとり",
           "url": "https://youtu.be/UTP6UM2hsgU"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "Ms4OUBOOZh4",
+      "title": "ウワサのあの子 / 紫 今 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-07-19T09:00:31Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "ウワサのあの子",
+          "titleRaw": "ウワサのあの子",
+          "artist": "紫 今",
+          "artistRaw": "紫 今",
+          "url": "https://youtu.be/Ms4OUBOOZh4"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "s6wX98GEZuI",
+      "title": "いかないで / 想太 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-07-18T09:00:35Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "いかないで",
+          "titleRaw": "いかないで",
+          "artist": "想太",
+          "artistRaw": "想太",
+          "url": "https://youtu.be/s6wX98GEZuI"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "1BIvDA4R1V8",
+      "title": "いかないで / 想太 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-07-17T09:00:01Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "いかないで",
+          "titleRaw": "いかないで",
+          "artist": "想太",
+          "artistRaw": "想太",
+          "url": "https://youtu.be/1BIvDA4R1V8"
         }
       ],
       "sourceCommentId": "",

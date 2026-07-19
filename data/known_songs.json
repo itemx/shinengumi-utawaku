@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1439,
-  "uniqueTitles": 1400,
-  "uniqueArtists": 655,
+  "totalEntries": 1440,
+  "uniqueTitles": 1401,
+  "uniqueArtists": 656,
   "songs": [
     {
       "title": "残響散歌",
@@ -359,6 +359,11 @@
       "count": 11
     },
     {
+      "title": "GHOST",
+      "artist": "星街すいせい",
+      "count": 11
+    },
+    {
       "title": "ホタルノヒカリ",
       "artist": "いきものがかり",
       "count": 11
@@ -481,11 +486,6 @@
     {
       "title": "ミックスナッツ",
       "artist": "Official髭男dism",
-      "count": 10
-    },
-    {
-      "title": "GHOST",
-      "artist": "星街すいせい",
       "count": 10
     },
     {
@@ -1381,6 +1381,11 @@
     {
       "title": "ルマ",
       "artist": "かいりきベア",
+      "count": 6
+    },
+    {
+      "title": "いかないで",
+      "artist": "想太",
       "count": 6
     },
     {
@@ -2311,11 +2316,6 @@
     {
       "title": "タッチ",
       "artist": "岩崎良美",
-      "count": 4
-    },
-    {
-      "title": "いかないで",
-      "artist": "想太",
       "count": 4
     },
     {
@@ -6824,6 +6824,11 @@
       "count": 1
     },
     {
+      "title": "ウワサのあの子",
+      "artist": "紫 今",
+      "count": 1
+    },
+    {
       "title": "かぐやの城で踊りたい",
       "artist": "μ's",
       "count": 1
@@ -7798,6 +7803,7 @@
     "糞田舎P",
     "紅色リトマス",
     "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)",
+    "紫 今",
     "紫咲シオ",
     "紫咲シオン",
     "結束バンド",
