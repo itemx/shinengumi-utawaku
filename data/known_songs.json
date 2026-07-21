@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1440,
-  "uniqueTitles": 1401,
-  "uniqueArtists": 656,
+  "totalEntries": 1441,
+  "uniqueTitles": 1402,
+  "uniqueArtists": 657,
   "songs": [
     {
       "title": "残響散歌",
@@ -659,6 +659,11 @@
       "count": 9
     },
     {
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
+      "count": 9
+    },
+    {
       "title": "グリグリメガネと月光蟲",
       "artist": "古川本舗",
       "count": 9
@@ -846,11 +851,6 @@
     {
       "title": "シリウスの心臓",
       "artist": "ヰ世界情緒",
-      "count": 8
-    },
-    {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
       "count": 8
     },
     {
@@ -1419,6 +1419,11 @@
       "count": 6
     },
     {
+      "title": "死ぬにはいい日だった",
+      "artist": "ピコン",
+      "count": 6
+    },
+    {
       "title": "キスキツネ",
       "artist": "HIMEHINA",
       "count": 5
@@ -1794,6 +1799,11 @@
       "count": 5
     },
     {
+      "title": "青空のラプソディ",
+      "artist": "fhána",
+      "count": 5
+    },
+    {
       "title": "月が綺麗ねと言われたい!",
       "artist": "柿崎ユウタ",
       "count": 5
@@ -1856,11 +1866,6 @@
     {
       "title": "愛が灯る",
       "artist": "ロクデナシ",
-      "count": 5
-    },
-    {
-      "title": "死ぬにはいい日だった",
-      "artist": "ピコン",
       "count": 5
     },
     {
@@ -2224,6 +2229,11 @@
       "count": 4
     },
     {
+      "title": "かくれんぼ",
+      "artist": "AliA",
+      "count": 4
+    },
+    {
       "title": "初音ミクの消失",
       "artist": "cosMo@暴走P",
       "count": 4
@@ -2361,11 +2371,6 @@
     {
       "title": "垂直落下",
       "artist": "傘村トータ",
-      "count": 4
-    },
-    {
-      "title": "青空のラプソディ",
-      "artist": "fhána",
       "count": 4
     },
     {
@@ -2926,11 +2931,6 @@
     {
       "title": "お願いマッスル",
       "artist": "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)",
-      "count": 3
-    },
-    {
-      "title": "かくれんぼ",
-      "artist": "AliA",
       "count": 3
     },
     {
@@ -7202,6 +7202,11 @@
       "title": "永遠のあくる日",
       "artist": "Ado",
       "count": 1
+    },
+    {
+      "title": "炉心融解",
+      "artist": "iroha",
+      "count": 1
     }
   ],
   "artists": [
@@ -7438,6 +7443,7 @@
     "hololive IDOL PROJECT",
     "iLiFE!",
     "iON!",
+    "iroha",
     "jon",
     "jon-YAKITORY",
     "kemu",

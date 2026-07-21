@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-07-19T13:19:56.736499+00:00",
+  "lastFetched": "2026-07-21T08:12:05.900870+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -11873,6 +11873,60 @@
       ],
       "sourceCommentId": "",
       "type": "short"
+    },
+    {
+      "videoId": "azjYD8u9Vk0",
+      "title": "【#高低差歌枠リレー】高音とはなにか、教えて差し上げます。【VTuber/配信中】",
+      "publishedAt": "2026-07-18T10:11:28Z",
+      "songs": [
+        {
+          "timestamp": "2:40",
+          "seconds": 160,
+          "title": "炉心融解",
+          "titleRaw": "炉心融解",
+          "artist": "iroha",
+          "artistRaw": "iroha",
+          "url": "https://youtu.be/azjYD8u9Vk0?t=160"
+        },
+        {
+          "timestamp": "8:12",
+          "seconds": 492,
+          "title": "青空のラプソディ",
+          "titleRaw": "青空のラプソディ",
+          "artist": "fhána",
+          "artistRaw": "fhána",
+          "url": "https://youtu.be/azjYD8u9Vk0?t=492"
+        },
+        {
+          "timestamp": "15:25",
+          "seconds": 925,
+          "title": "死ぬにはいい日だった",
+          "titleRaw": "死ぬにはいい日だった",
+          "artist": "ピコン",
+          "artistRaw": "ピコン",
+          "url": "https://youtu.be/azjYD8u9Vk0?t=925"
+        },
+        {
+          "timestamp": "20:28",
+          "seconds": 1228,
+          "title": "かくれんぼ",
+          "titleRaw": "かくれんぼ",
+          "artist": "AliA",
+          "artistRaw": "AliA",
+          "url": "https://youtu.be/azjYD8u9Vk0?t=1228"
+        },
+        {
+          "timestamp": "26:34",
+          "seconds": 1594,
+          "title": "ネクロネイディア",
+          "titleRaw": "ネクロネイディア",
+          "artist": "渉海よひら",
+          "artistRaw": "渉海よひら",
+          "url": "https://youtu.be/azjYD8u9Vk0?t=1594"
+        }
+      ],
+      "sourceCommentId": "issue#53",
+      "type": "stream"
     }
   ]
 }
