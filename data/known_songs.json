@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1441,
-  "uniqueTitles": 1402,
+  "totalEntries": 1443,
+  "uniqueTitles": 1404,
   "uniqueArtists": 657,
   "songs": [
     {
@@ -11,17 +11,17 @@
     {
       "title": "少女レイ",
       "artist": "みきとP",
+      "count": 22
+    },
+    {
+      "title": "Departures ~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
       "count": 21
     },
     {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
       "count": 21
-    },
-    {
-      "title": "Departures ~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
-      "count": 20
     },
     {
       "title": "晴る",
@@ -114,6 +114,16 @@
       "count": 15
     },
     {
+      "title": "変わらないもの",
+      "artist": "奥華子",
+      "count": 15
+    },
+    {
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
+      "count": 15
+    },
+    {
       "title": "プロポーズ",
       "artist": "なとり",
       "count": 15
@@ -161,16 +171,6 @@
     {
       "title": "The Everlasting Guilty Crown",
       "artist": "EGOIST",
-      "count": 14
-    },
-    {
-      "title": "変わらないもの",
-      "artist": "奥華子",
-      "count": 14
-    },
-    {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
       "count": 14
     },
     {
@@ -239,6 +239,11 @@
       "count": 13
     },
     {
+      "title": "月のワルツ",
+      "artist": "諫山実生",
+      "count": 13
+    },
+    {
       "title": "祝福",
       "artist": "YOASOBI",
       "count": 12
@@ -294,8 +299,8 @@
       "count": 12
     },
     {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
       "count": 12
     },
     {
@@ -419,13 +424,18 @@
       "count": 11
     },
     {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
       "count": 11
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
+      "count": 11
+    },
+    {
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
       "count": 11
     },
     {
@@ -534,13 +544,13 @@
       "count": 10
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
       "count": 10
     },
     {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
+      "title": "夏恋花火",
+      "artist": "40mP",
       "count": 10
     },
     {
@@ -659,18 +669,18 @@
       "count": 9
     },
     {
+      "title": "ウィアートル",
+      "artist": "rionos",
+      "count": 9
+    },
+    {
+      "title": "シリウスの心臓",
+      "artist": "ヰ世界情緒",
+      "count": 9
+    },
+    {
       "title": "ネクロネイディア",
       "artist": "渉海よひら",
-      "count": 9
-    },
-    {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 9
-    },
-    {
-      "title": "夏恋花火",
-      "artist": "40mP",
       "count": 9
     },
     {
@@ -844,18 +854,13 @@
       "count": 8
     },
     {
-      "title": "ウィアートル",
-      "artist": "rionos",
-      "count": 8
-    },
-    {
-      "title": "シリウスの心臓",
-      "artist": "ヰ世界情緒",
-      "count": 8
-    },
-    {
       "title": "二息歩行",
       "artist": "DECO*27",
+      "count": 8
+    },
+    {
+      "title": "Planetes",
+      "artist": "EGOIST",
       "count": 8
     },
     {
@@ -1101,11 +1106,6 @@
     {
       "title": "死にゆく季節のきみへ",
       "artist": "麻枝准×やなぎなぎ",
-      "count": 7
-    },
-    {
-      "title": "Planetes",
-      "artist": "EGOIST",
       "count": 7
     },
     {
@@ -1391,6 +1391,11 @@
     {
       "title": "さようなら、花泥棒さん",
       "artist": "メル",
+      "count": 6
+    },
+    {
+      "title": "六兆年と一夜物語",
+      "artist": "kemu",
       "count": 6
     },
     {
@@ -1779,11 +1784,6 @@
       "count": 5
     },
     {
-      "title": "六兆年と一夜物語",
-      "artist": "kemu",
-      "count": 5
-    },
-    {
       "title": "secret base~君がくれたもの~",
       "artist": "ZONE",
       "count": 5
@@ -1806,6 +1806,11 @@
     {
       "title": "月が綺麗ねと言われたい!",
       "artist": "柿崎ユウタ",
+      "count": 5
+    },
+    {
+      "title": "ヴィーナスとジーザス",
+      "artist": "やくしまるえつこ",
       "count": 5
     },
     {
@@ -1866,6 +1871,16 @@
     {
       "title": "愛が灯る",
       "artist": "ロクデナシ",
+      "count": 5
+    },
+    {
+      "title": "この世界で見つけたもの",
+      "artist": "EGOIST",
+      "count": 5
+    },
+    {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
       "count": 5
     },
     {
@@ -2389,8 +2404,13 @@
       "count": 4
     },
     {
-      "title": "ヴィーナスとジーザス",
+      "title": "少年よ我に帰れ",
       "artist": "やくしまるえつこ",
+      "count": 4
+    },
+    {
+      "title": "鏡面の波",
+      "artist": "YURiKA",
       "count": 4
     },
     {
@@ -2429,13 +2449,8 @@
       "count": 4
     },
     {
-      "title": "この世界で見つけたもの",
-      "artist": "EGOIST",
-      "count": 4
-    },
-    {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
+      "title": "-ERROR",
+      "artist": "niki",
       "count": 4
     },
     {
@@ -3219,6 +3234,11 @@
       "count": 3
     },
     {
+      "title": "東京テディベア",
+      "artist": "Neru",
+      "count": 3
+    },
+    {
       "title": "Super Driver",
       "artist": "平野綾",
       "count": 3
@@ -3234,11 +3254,6 @@
       "count": 3
     },
     {
-      "title": "少年よ我に帰れ",
-      "artist": "やくしまるえつこ",
-      "count": 3
-    },
-    {
       "title": "Rolling Star",
       "artist": "YUI",
       "count": 3
@@ -3246,11 +3261,6 @@
     {
       "title": "桜日和",
       "artist": "星村麻衣",
-      "count": 3
-    },
-    {
-      "title": "鏡面の波",
-      "artist": "YURiKA",
       "count": 3
     },
     {
@@ -3329,8 +3339,13 @@
       "count": 3
     },
     {
-      "title": "-ERROR",
-      "artist": "niki",
+      "title": "キミソラキセキ",
+      "artist": "EGOIST",
+      "count": 3
+    },
+    {
+      "title": "give it back",
+      "artist": "Cö shu Nie",
       "count": 3
     },
     {
@@ -4449,11 +4464,6 @@
       "count": 2
     },
     {
-      "title": "東京テディベア",
-      "artist": "Neru",
-      "count": 2
-    },
-    {
       "title": "Bunny Girl",
       "artist": "AKASAKI",
       "count": 2
@@ -4644,13 +4654,8 @@
       "count": 2
     },
     {
-      "title": "キミソラキセキ",
-      "artist": "EGOIST",
-      "count": 2
-    },
-    {
-      "title": "give it back",
-      "artist": "Cö shu Nie",
+      "title": "永遠のあくる日",
+      "artist": "Ado",
       "count": 2
     },
     {
@@ -7199,13 +7204,18 @@
       "count": 1
     },
     {
-      "title": "永遠のあくる日",
-      "artist": "Ado",
+      "title": "炉心融解",
+      "artist": "iroha",
       "count": 1
     },
     {
-      "title": "炉心融解",
-      "artist": "iroha",
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
+      "count": 1
+    },
+    {
+      "title": "蒼のエーテル",
+      "artist": "ランカ・リー",
       "count": 1
     }
   ],
