@@ -212,12 +212,12 @@ def main():
                     print(f"      🌟 {nr.title} [{vid_type}]")
                     continue
 
-                # Stream: 嘗試抓 setlist
+                # Stream: 只從留言抓 setlist。
+                # 不 fallback 到說明文 — 接力歌回會把「時間表」寫在說明文，
+                # 會被誤判成歌單；真正歌單一般在(置頂/擁有者)留言。
+                # 若歌單只在說明文，該片會落到 missing 清單供手動補。
                 comments = yt.get_comments(vid_id)
                 songs = pick_best_comment_with_owner(comments, channel_id)
-
-                if songs is None and vid_info.get("description"):
-                    songs = parse_comment(vid_info["description"])
 
                 if songs:
                     # 有 setlist
