@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1445,
-  "uniqueTitles": 1406,
-  "uniqueArtists": 658,
+  "totalEntries": 1446,
+  "uniqueTitles": 1407,
+  "uniqueArtists": 659,
   "songs": [
     {
       "title": "残響散歌",
@@ -64,6 +64,11 @@
       "count": 17
     },
     {
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
+      "count": 17
+    },
+    {
       "title": "怪物",
       "artist": "YOASOBI",
       "count": 17
@@ -116,11 +121,6 @@
     {
       "title": "変わらないもの",
       "artist": "奥華子",
-      "count": 15
-    },
-    {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
       "count": 15
     },
     {
@@ -4484,6 +4484,11 @@
       "count": 2
     },
     {
+      "title": "ウワサのあの子",
+      "artist": "紫 今",
+      "count": 2
+    },
+    {
       "title": "渉り星",
       "artist": "Islet",
       "count": 2
@@ -6829,11 +6834,6 @@
       "count": 1
     },
     {
-      "title": "ウワサのあの子",
-      "artist": "紫 今",
-      "count": 1
-    },
-    {
       "title": "かぐやの城で踊りたい",
       "artist": "μ's",
       "count": 1
@@ -7226,6 +7226,11 @@
     {
       "title": "A Dream Is a Wish Your Heart Makes",
       "artist": "Ilene Woods",
+      "count": 1
+    },
+    {
+      "title": "全部夢だった!",
+      "artist": "黒うさぎ",
       "count": 1
     }
   ],
@@ -7885,6 +7890,7 @@
     "麦わらの一味 (田中真弓,中井和哉,岡村明美,山口勝平,平田広明,大谷育江,山口由里子,矢尾一樹,チョー)",
     "麻枝准×やなぎなぎ",
     "黒うさP",
+    "黒うさぎ",
     "黒澤ルビィ (降幡愛) from Aqours",
     "黛冬優子",
     "龍宮城"
