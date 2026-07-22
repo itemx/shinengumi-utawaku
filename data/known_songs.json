@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1442,
-  "uniqueTitles": 1403,
-  "uniqueArtists": 656,
+  "totalEntries": 1445,
+  "uniqueTitles": 1406,
+  "uniqueArtists": 658,
   "songs": [
     {
       "title": "残響散歌",
@@ -11,6 +11,11 @@
     {
       "title": "少女レイ",
       "artist": "みきとP",
+      "count": 23
+    },
+    {
+      "title": "花に亡霊",
+      "artist": "ヨルシカ",
       "count": 22
     },
     {
@@ -19,23 +24,18 @@
       "count": 21
     },
     {
-      "title": "花に亡霊",
+      "title": "晴る",
       "artist": "ヨルシカ",
       "count": 21
     },
     {
-      "title": "晴る",
-      "artist": "ヨルシカ",
-      "count": 20
+      "title": "All Alone With You",
+      "artist": "EGOIST",
+      "count": 21
     },
     {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
-      "count": 20
-    },
-    {
-      "title": "All Alone With You",
-      "artist": "EGOIST",
       "count": 20
     },
     {
@@ -46,6 +46,11 @@
     {
       "title": "君の知らない物語",
       "artist": "ryo (supercell)",
+      "count": 18
+    },
+    {
+      "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
       "count": 18
     },
     {
@@ -66,11 +71,6 @@
     {
       "title": "ANIMA",
       "artist": "ReoNa",
-      "count": 17
-    },
-    {
-      "title": "ただ君に晴れ",
-      "artist": "ヨルシカ",
       "count": 17
     },
     {
@@ -174,6 +174,11 @@
       "count": 14
     },
     {
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
+      "count": 14
+    },
+    {
       "title": "Butter-Fly",
       "artist": "和田光司",
       "count": 14
@@ -181,6 +186,11 @@
     {
       "title": "コネクト",
       "artist": "ClariS",
+      "count": 14
+    },
+    {
+      "title": "アポリア",
+      "artist": "ヨルシカ",
       "count": 14
     },
     {
@@ -209,11 +219,6 @@
       "count": 13
     },
     {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
-      "count": 13
-    },
-    {
       "title": "トリノコシティ",
       "artist": "40mP",
       "count": 13
@@ -229,13 +234,13 @@
       "count": 13
     },
     {
-      "title": "アポリア",
-      "artist": "ヨルシカ",
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
       "count": 13
     },
     {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
       "count": 13
     },
     {
@@ -299,8 +304,8 @@
       "count": 12
     },
     {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
       "count": 12
     },
     {
@@ -429,13 +434,13 @@
       "count": 11
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
       "count": 11
     },
     {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
       "count": 11
     },
     {
@@ -544,8 +549,13 @@
       "count": 10
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
+      "title": "ウィアートル",
+      "artist": "rionos",
+      "count": 10
+    },
+    {
+      "title": "シリウスの心臓",
+      "artist": "ヰ世界情緒",
       "count": 10
     },
     {
@@ -555,6 +565,11 @@
     },
     {
       "title": "Ghost of a smile",
+      "artist": "EGOIST",
+      "count": 10
+    },
+    {
+      "title": "想いを巡らす100の事象",
       "artist": "EGOIST",
       "count": 10
     },
@@ -669,28 +684,18 @@
       "count": 9
     },
     {
-      "title": "ウィアートル",
-      "artist": "rionos",
-      "count": 9
-    },
-    {
-      "title": "シリウスの心臓",
-      "artist": "ヰ世界情緒",
-      "count": 9
-    },
-    {
       "title": "ネクロネイディア",
       "artist": "渉海よひら",
       "count": 9
     },
     {
-      "title": "想いを巡らす100の事象",
-      "artist": "EGOIST",
-      "count": 9
-    },
-    {
       "title": "UNDEAD",
       "artist": "YOASOBI",
+      "count": 8
+    },
+    {
+      "title": "ヒステリックナイトガール",
+      "artist": "PSYQUI",
       "count": 8
     },
     {
@@ -889,11 +894,6 @@
       "count": 7
     },
     {
-      "title": "ヒステリックナイトガール",
-      "artist": "PSYQUI",
-      "count": 7
-    },
-    {
       "title": "ノーダウト",
       "artist": "Official髭男dism",
       "count": 7
@@ -1066,6 +1066,16 @@
     {
       "title": "シル・ヴ・プレジデント",
       "artist": "ナナホシ管弦楽団",
+      "count": 7
+    },
+    {
+      "title": "帝国少女",
+      "artist": "R Sound Design",
+      "count": 7
+    },
+    {
+      "title": "バレリーコ",
+      "artist": "みきとP",
       "count": 7
     },
     {
@@ -1344,6 +1354,11 @@
       "count": 6
     },
     {
+      "title": "天ノ弱",
+      "artist": "164",
+      "count": 6
+    },
+    {
       "title": "ルージュの伝言",
       "artist": "松任谷由実",
       "count": 6
@@ -1366,16 +1381,6 @@
     {
       "title": "スパークル",
       "artist": "RADWIMPS",
-      "count": 6
-    },
-    {
-      "title": "帝国少女",
-      "artist": "R Sound Design",
-      "count": 6
-    },
-    {
-      "title": "バレリーコ",
-      "artist": "みきとP",
       "count": 6
     },
     {
@@ -1419,8 +1424,18 @@
       "count": 6
     },
     {
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
+      "count": 6
+    },
+    {
       "title": "いろは唄",
       "artist": "銀サク",
+      "count": 6
+    },
+    {
+      "title": "この世界で見つけたもの",
+      "artist": "EGOIST",
       "count": 6
     },
     {
@@ -1704,11 +1719,6 @@
       "count": 5
     },
     {
-      "title": "天ノ弱",
-      "artist": "164",
-      "count": 5
-    },
-    {
       "title": "曇天",
       "artist": "DOES",
       "count": 5
@@ -1814,6 +1824,11 @@
       "count": 5
     },
     {
+      "title": "鏡面の波",
+      "artist": "YURiKA",
+      "count": 5
+    },
+    {
       "title": "フクロウ ~フクロウが知らせる客が来たと~",
       "artist": "KOKIA",
       "count": 5
@@ -1831,11 +1846,6 @@
     {
       "title": "heavenly blue",
       "artist": "Kalafina",
-      "count": 5
-    },
-    {
-      "title": "アクアテラリウム",
-      "artist": "やなぎなぎ",
       "count": 5
     },
     {
@@ -1871,11 +1881,6 @@
     {
       "title": "愛が灯る",
       "artist": "ロクデナシ",
-      "count": 5
-    },
-    {
-      "title": "この世界で見つけたもの",
-      "artist": "EGOIST",
       "count": 5
     },
     {
@@ -2409,11 +2414,6 @@
       "count": 4
     },
     {
-      "title": "鏡面の波",
-      "artist": "YURiKA",
-      "count": 4
-    },
-    {
       "title": "ユキトキ",
       "artist": "やなぎなぎ",
       "count": 4
@@ -2451,6 +2451,11 @@
     {
       "title": "-ERROR",
       "artist": "niki",
+      "count": 4
+    },
+    {
+      "title": "give it back",
+      "artist": "Cö shu Nie",
       "count": 4
     },
     {
@@ -3344,8 +3349,8 @@
       "count": 3
     },
     {
-      "title": "give it back",
-      "artist": "Cö shu Nie",
+      "title": "永遠のあくる日",
+      "artist": "Ado",
       "count": 3
     },
     {
@@ -4659,8 +4664,8 @@
       "count": 2
     },
     {
-      "title": "永遠のあくる日",
-      "artist": "Ado",
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
       "count": 2
     },
     {
@@ -7204,13 +7209,23 @@
       "count": 1
     },
     {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
+      "title": "蒼のエーテル",
+      "artist": "ランカ・リー",
       "count": 1
     },
     {
-      "title": "蒼のエーテル",
-      "artist": "ランカ・リー",
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
+      "count": 1
+    },
+    {
+      "title": "輝く未来",
+      "artist": "畠中洋&小此木麻里",
+      "count": 1
+    },
+    {
+      "title": "A Dream Is a Wish Your Heart Makes",
+      "artist": "Ilene Woods",
       "count": 1
     }
   ],
@@ -7311,6 +7326,7 @@
     "Heavenz",
     "HoneyWorks",
     "HoneyWorks 瀬戸口優 (神谷浩史)・榎本夏樹 (戸松遥)・望月蒼太 (梶裕貴)・早坂あかり (阿澄佳奈)・芹沢春輝 (鈴村健一)・合田美桜 (豊崎愛生)",
+    "Ilene Woods",
     "Islet",
     "JUDY AND MARY",
     "JUJU",
@@ -7797,6 +7813,7 @@
     "玉置成実",
     "理芽",
     "田村ゆかり",
+    "畠中洋&小此木麻里",
     "癒月",
     "白上フブキ",
     "相対性理論",
