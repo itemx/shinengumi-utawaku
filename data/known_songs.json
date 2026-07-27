@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1449,
-  "uniqueTitles": 1410,
-  "uniqueArtists": 660,
+  "totalEntries": 1450,
+  "uniqueTitles": 1411,
+  "uniqueArtists": 661,
   "songs": [
     {
       "title": "残響散歌",
@@ -7244,6 +7244,11 @@
       "count": 1
     },
     {
+      "title": "Part of Your World",
+      "artist": "Jodi Benson",
+      "count": 1
+    },
+    {
       "title": "A Whole New World",
       "artist": "Mena Massoud & Naomi Scott",
       "count": 1
@@ -7351,6 +7356,7 @@
     "JUDY AND MARY",
     "JUJU",
     "Janne Da Arc",
+    "Jodi Benson",
     "Juice=Juice",
     "Junky",
     "KAN",
