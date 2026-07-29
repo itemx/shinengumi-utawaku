@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1453,
-  "uniqueTitles": 1413,
-  "uniqueArtists": 662,
+  "totalEntries": 1456,
+  "uniqueTitles": 1416,
+  "uniqueArtists": 664,
   "songs": [
     {
       "title": "残響散歌",
@@ -14,6 +14,11 @@
       "count": 23
     },
     {
+      "title": "花に亡霊",
+      "artist": "ヨルシカ",
+      "count": 23
+    },
+    {
       "title": "All Alone With You",
       "artist": "EGOIST",
       "count": 22
@@ -21,11 +26,6 @@
     {
       "title": "Departures ~あなたにおくるアイの歌~",
       "artist": "EGOIST",
-      "count": 22
-    },
-    {
-      "title": "花に亡霊",
-      "artist": "ヨルシカ",
       "count": 22
     },
     {
@@ -46,7 +46,7 @@
     {
       "title": "君の知らない物語",
       "artist": "ryo (supercell)",
-      "count": 18
+      "count": 19
     },
     {
       "title": "ただ君に晴れ",
@@ -114,6 +114,11 @@
       "count": 16
     },
     {
+      "title": "眠れぬ月夜のランデブー",
+      "artist": "涼風しとら",
+      "count": 16
+    },
+    {
       "title": "プロポーズ",
       "artist": "なとり",
       "count": 16
@@ -121,6 +126,11 @@
     {
       "title": "初めての恋が終わる時",
       "artist": "ryo (supercell)",
+      "count": 15
+    },
+    {
+      "title": "Butter-Fly",
+      "artist": "和田光司",
       "count": 15
     },
     {
@@ -144,11 +154,6 @@
       "count": 15
     },
     {
-      "title": "眠れぬ月夜のランデブー",
-      "artist": "涼風しとら",
-      "count": 15
-    },
-    {
       "title": "雨とカプチーノ",
       "artist": "ヨルシカ",
       "count": 15
@@ -156,11 +161,6 @@
     {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
-      "count": 14
-    },
-    {
-      "title": "Butter-Fly",
-      "artist": "和田光司",
       "count": 14
     },
     {
@@ -579,6 +579,11 @@
       "count": 10
     },
     {
+      "title": "サマータイムレコード",
+      "artist": "じん",
+      "count": 10
+    },
+    {
       "title": "熱愛105°C的你",
       "artist": "阿肆",
       "count": 10
@@ -626,6 +631,11 @@
     {
       "title": "ネクロネイディア",
       "artist": "渉海よひら",
+      "count": 9
+    },
+    {
+      "title": "夜に駆ける",
+      "artist": "YOASOBI",
       "count": 9
     },
     {
@@ -689,11 +699,6 @@
       "count": 9
     },
     {
-      "title": "サマータイムレコード",
-      "artist": "じん",
-      "count": 9
-    },
-    {
       "title": "パメラ",
       "artist": "バルーン",
       "count": 9
@@ -701,6 +706,11 @@
     {
       "title": "This game",
       "artist": "鈴木このみ",
+      "count": 8
+    },
+    {
+      "title": "世界は恋に落ちている",
+      "artist": "CHiCO with HoneyWorks",
       "count": 8
     },
     {
@@ -784,11 +794,6 @@
       "count": 8
     },
     {
-      "title": "夜に駆ける",
-      "artist": "YOASOBI",
-      "count": 8
-    },
-    {
       "title": "ヒステリックナイトガール",
       "artist": "PSYQUI",
       "count": 8
@@ -801,6 +806,11 @@
     {
       "title": "二息歩行",
       "artist": "DECO*27",
+      "count": 8
+    },
+    {
+      "title": "Don't say \"lazy\"",
+      "artist": "放課後ティータイム",
       "count": 8
     },
     {
@@ -824,6 +834,11 @@
       "count": 8
     },
     {
+      "title": "ガーネット",
+      "artist": "奥華子",
+      "count": 8
+    },
+    {
       "title": "渡月橋 ~君 想ふ~",
       "artist": "倉木麻衣",
       "count": 8
@@ -831,6 +846,16 @@
     {
       "title": "シルシ",
       "artist": "LiSA",
+      "count": 8
+    },
+    {
+      "title": "八月の夜",
+      "artist": "SILENT SIREN",
+      "count": 8
+    },
+    {
+      "title": "ギターと孤独と蒼い惑星",
+      "artist": "結束バンド",
       "count": 8
     },
     {
@@ -886,11 +911,6 @@
     {
       "title": "EX-otogibanashi",
       "artist": "ryo (supercell)",
-      "count": 7
-    },
-    {
-      "title": "世界は恋に落ちている",
-      "artist": "CHiCO with HoneyWorks",
       "count": 7
     },
     {
@@ -974,6 +994,11 @@
       "count": 7
     },
     {
+      "title": "My Soul,Your Beats!",
+      "artist": "Lia",
+      "count": 7
+    },
+    {
       "title": "カサブタ",
       "artist": "千綿偉功",
       "count": 7
@@ -1029,11 +1054,6 @@
       "count": 7
     },
     {
-      "title": "Don't say \"lazy\"",
-      "artist": "放課後ティータイム",
-      "count": 7
-    },
-    {
       "title": "裸の勇者",
       "artist": "Vaundy",
       "count": 7
@@ -1074,6 +1094,11 @@
       "count": 7
     },
     {
+      "title": "daze",
+      "artist": "じん",
+      "count": 7
+    },
+    {
       "title": "誰にもなれない私だから",
       "artist": "トゲナシトゲアリ",
       "count": 7
@@ -1089,28 +1114,13 @@
       "count": 7
     },
     {
-      "title": "ガーネット",
-      "artist": "奥華子",
-      "count": 7
-    },
-    {
       "title": "愛を伝えたいだとか",
       "artist": "あいみょん",
       "count": 7
     },
     {
-      "title": "八月の夜",
-      "artist": "SILENT SIREN",
-      "count": 7
-    },
-    {
       "title": "メフィスト",
       "artist": "女王蜂",
-      "count": 7
-    },
-    {
-      "title": "ギターと孤独と蒼い惑星",
-      "artist": "結束バンド",
       "count": 7
     },
     {
@@ -1224,11 +1234,6 @@
       "count": 6
     },
     {
-      "title": "My Soul,Your Beats!",
-      "artist": "Lia",
-      "count": 6
-    },
-    {
       "title": "レディメイド",
       "artist": "Ado",
       "count": 6
@@ -1266,6 +1271,11 @@
     {
       "title": "メリッサ",
       "artist": "ポルノグラフィティ",
+      "count": 6
+    },
+    {
+      "title": "secret base~君がくれたもの~",
+      "artist": "ZONE",
       "count": 6
     },
     {
@@ -1334,11 +1344,6 @@
       "count": 6
     },
     {
-      "title": "daze",
-      "artist": "じん",
-      "count": 6
-    },
-    {
       "title": "踊り子",
       "artist": "Vaundy",
       "count": 6
@@ -1379,6 +1384,11 @@
       "count": 6
     },
     {
+      "title": "打上花火",
+      "artist": "DAOKO × 米津玄師",
+      "count": 6
+    },
+    {
       "title": "阿修羅ちゃん",
       "artist": "Ado",
       "count": 6
@@ -1416,6 +1426,11 @@
     {
       "title": "GLAMOROUS SKY",
       "artist": "NANA starring MIKA NAKASHIMA",
+      "count": 6
+    },
+    {
+      "title": "Crow Song",
+      "artist": "Girls Dead Monster",
       "count": 6
     },
     {
@@ -1629,11 +1644,6 @@
       "count": 5
     },
     {
-      "title": "secret base~君がくれたもの~",
-      "artist": "ZONE",
-      "count": 5
-    },
-    {
       "title": "サイレント・マジョリティ",
       "artist": "Heavenz",
       "count": 5
@@ -1739,13 +1749,13 @@
       "count": 5
     },
     {
-      "title": "INTERNET OVERDOSE",
-      "artist": "Aiobahn",
+      "title": "花占い",
+      "artist": "Vaundy",
       "count": 5
     },
     {
-      "title": "打上花火",
-      "artist": "DAOKO × 米津玄師",
+      "title": "INTERNET OVERDOSE",
+      "artist": "Aiobahn",
       "count": 5
     },
     {
@@ -1771,6 +1781,11 @@
     {
       "title": "好きすぎて滅!",
       "artist": "M!LK",
+      "count": 5
+    },
+    {
+      "title": "水の星へ愛をこめて",
+      "artist": "森口博子",
       "count": 5
     },
     {
@@ -1806,11 +1821,6 @@
     {
       "title": "弱虫モンブラン",
       "artist": "DECO*27",
-      "count": 5
-    },
-    {
-      "title": "Crow Song",
-      "artist": "Girls Dead Monster",
       "count": 5
     },
     {
@@ -1996,6 +2006,11 @@
     {
       "title": "丸の内サディスティック",
       "artist": "椎名林檎",
+      "count": 4
+    },
+    {
+      "title": "ハナミズキ",
+      "artist": "一青窈",
       "count": 4
     },
     {
@@ -2229,11 +2244,6 @@
       "count": 4
     },
     {
-      "title": "花占い",
-      "artist": "Vaundy",
-      "count": 4
-    },
-    {
       "title": "YUME日和",
       "artist": "島谷ひとみ",
       "count": 4
@@ -2259,12 +2269,17 @@
       "count": 4
     },
     {
-      "title": "ETERNAL WIND~ほほえみは光る風の中~",
-      "artist": "森口博子",
+      "title": "深海少女",
+      "artist": "ゆうゆ",
       "count": 4
     },
     {
-      "title": "水の星へ愛をこめて",
+      "title": "嵐の中で輝いて",
+      "artist": "米倉千尋",
+      "count": 4
+    },
+    {
+      "title": "ETERNAL WIND~ほほえみは光る風の中~",
       "artist": "森口博子",
       "count": 4
     },
@@ -2326,6 +2341,11 @@
     {
       "title": "四季折々に揺蕩いて",
       "artist": "After the Rain",
+      "count": 4
+    },
+    {
+      "title": "Alchemy",
+      "artist": "Girls Dead Monster",
       "count": 4
     },
     {
@@ -2474,6 +2494,11 @@
       "count": 4
     },
     {
+      "title": "夏祭り",
+      "artist": "Whiteberry",
+      "count": 4
+    },
+    {
       "title": "veil",
       "artist": "須田景凪",
       "count": 4
@@ -2586,11 +2611,6 @@
     {
       "title": "夜もすがら君想ふ",
       "artist": "西沢さんP",
-      "count": 3
-    },
-    {
-      "title": "ハナミズキ",
-      "artist": "一青窈",
       "count": 3
     },
     {
@@ -2829,16 +2849,6 @@
       "count": 3
     },
     {
-      "title": "深海少女",
-      "artist": "ゆうゆ",
-      "count": 3
-    },
-    {
-      "title": "嵐の中で輝いて",
-      "artist": "米倉千尋",
-      "count": 3
-    },
-    {
       "title": "めざせポケモンマスター",
       "artist": "松本梨香",
       "count": 3
@@ -2946,11 +2956,6 @@
     {
       "title": "GO!!!",
       "artist": "FLOW",
-      "count": 3
-    },
-    {
-      "title": "Alchemy",
-      "artist": "Girls Dead Monster",
       "count": 3
     },
     {
@@ -3326,11 +3331,6 @@
     {
       "title": "StaRt",
       "artist": "Mrs. GREEN APPLE",
-      "count": 3
-    },
-    {
-      "title": "夏祭り",
-      "artist": "Whiteberry",
       "count": 3
     },
     {
@@ -4304,6 +4304,11 @@
       "count": 2
     },
     {
+      "title": "さくらんぼ",
+      "artist": "大塚愛",
+      "count": 2
+    },
+    {
       "title": "わたしの一番かわいいところ",
       "artist": "FRUITS ZIPPER",
       "count": 2
@@ -4691,6 +4696,11 @@
     {
       "title": "Bunny Girl",
       "artist": "AKASAKI",
+      "count": 2
+    },
+    {
+      "title": "未来予想図II",
+      "artist": "DREAMS COME TRUE",
       "count": 2
     },
     {
@@ -5886,11 +5896,6 @@
     {
       "title": "脳漿炸裂ガール",
       "artist": "れるりり",
-      "count": 1
-    },
-    {
-      "title": "さくらんぼ",
-      "artist": "大塚愛",
       "count": 1
     },
     {
@@ -7209,11 +7214,6 @@
       "count": 1
     },
     {
-      "title": "未来予想図II",
-      "artist": "DREAMS COME TRUE",
-      "count": 1
-    },
-    {
       "title": "世界に一つだけの花",
       "artist": "SMAP",
       "count": 1
@@ -7266,6 +7266,21 @@
     {
       "title": "Dancing in the Moonlight",
       "artist": "ワルキューレ",
+      "count": 1
+    },
+    {
+      "title": "閃光",
+      "artist": "[Alexandros]",
+      "count": 1
+    },
+    {
+      "title": "いとしのエリー",
+      "artist": "サザンオールスターズ",
+      "count": 1
+    },
+    {
+      "title": "真夏の果実",
+      "artist": "サザンオールスターズ",
       "count": 1
     }
   ],
@@ -7487,6 +7502,7 @@
     "ZARD",
     "ZOC",
     "ZONE",
+    "[Alexandros]",
     "aiko",
     "amazarashi",
     "ano",
@@ -7643,6 +7659,7 @@
     "ゴダイゴ",
     "ゴールデンボンバー",
     "サカナクション",
+    "サザンオールスターズ",
     "サスケ",
     "サツキ",
     "サトシ (松本梨香)&ヒカリ (豊口めぐみ)",
