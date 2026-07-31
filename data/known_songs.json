@@ -1,16 +1,16 @@
 {
-  "totalEntries": 1456,
-  "uniqueTitles": 1416,
-  "uniqueArtists": 664,
+  "totalEntries": 1461,
+  "uniqueTitles": 1418,
+  "uniqueArtists": 666,
   "songs": [
-    {
-      "title": "残響散歌",
-      "artist": "Aimer",
-      "count": 23
-    },
     {
       "title": "少女レイ",
       "artist": "みきとP",
+      "count": 24
+    },
+    {
+      "title": "残響散歌",
+      "artist": "Aimer",
       "count": 23
     },
     {
@@ -74,6 +74,16 @@
       "count": 17
     },
     {
+      "title": "空色デイズ",
+      "artist": "中川翔子",
+      "count": 17
+    },
+    {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 17
+    },
+    {
       "title": "怪物",
       "artist": "YOASOBI",
       "count": 17
@@ -101,16 +111,6 @@
     {
       "title": "残酷な天使のテーゼ",
       "artist": "高橋洋子",
-      "count": 16
-    },
-    {
-      "title": "空色デイズ",
-      "artist": "中川翔子",
-      "count": 16
-    },
-    {
-      "title": "Across the world !!",
-      "artist": "深淵組",
       "count": 16
     },
     {
@@ -154,6 +154,11 @@
       "count": 15
     },
     {
+      "title": "アポリア",
+      "artist": "ヨルシカ",
+      "count": 15
+    },
+    {
       "title": "雨とカプチーノ",
       "artist": "ヨルシカ",
       "count": 15
@@ -184,13 +189,13 @@
       "count": 14
     },
     {
-      "title": "アポリア",
-      "artist": "ヨルシカ",
+      "title": "悪魔の子",
+      "artist": "ヒグチアイ",
       "count": 14
     },
     {
-      "title": "悪魔の子",
-      "artist": "ヒグチアイ",
+      "title": "Cry Baby",
+      "artist": "Official髭男dism",
       "count": 14
     },
     {
@@ -244,11 +249,6 @@
       "count": 13
     },
     {
-      "title": "Cry Baby",
-      "artist": "Official髭男dism",
-      "count": 13
-    },
-    {
       "title": "ぶっ飛びな!しとら流炒飯☆",
       "artist": "涼風しとら",
       "count": 13
@@ -294,6 +294,11 @@
       "count": 12
     },
     {
+      "title": "oath sign",
+      "artist": "LiSA",
+      "count": 12
+    },
+    {
       "title": "祝福",
       "artist": "YOASOBI",
       "count": 12
@@ -311,6 +316,11 @@
     {
       "title": "crossing field",
       "artist": "LiSA",
+      "count": 12
+    },
+    {
+      "title": "藍二乗",
+      "artist": "ヨルシカ",
       "count": 12
     },
     {
@@ -419,6 +429,11 @@
       "count": 11
     },
     {
+      "title": "サリシノハラ",
+      "artist": "みきとP",
+      "count": 11
+    },
+    {
       "title": "心という名の不可解",
       "artist": "Ado",
       "count": 11
@@ -431,11 +446,6 @@
     {
       "title": "青のすみか",
       "artist": "キタニタツヤ",
-      "count": 11
-    },
-    {
-      "title": "oath sign",
-      "artist": "LiSA",
       "count": 11
     },
     {
@@ -469,6 +479,11 @@
       "count": 11
     },
     {
+      "title": "ミックスナッツ",
+      "artist": "Official髭男dism",
+      "count": 11
+    },
+    {
       "title": "ホタルノヒカリ",
       "artist": "いきものがかり",
       "count": 11
@@ -476,11 +491,6 @@
     {
       "title": "白銀",
       "artist": "LiSA",
-      "count": 11
-    },
-    {
-      "title": "藍二乗",
-      "artist": "ヨルシカ",
       "count": 11
     },
     {
@@ -521,11 +531,6 @@
     {
       "title": "一度だけの恋なら",
       "artist": "ワルキューレ",
-      "count": 10
-    },
-    {
-      "title": "サリシノハラ",
-      "artist": "みきとP",
       "count": 10
     },
     {
@@ -574,8 +579,8 @@
       "count": 10
     },
     {
-      "title": "ミックスナッツ",
-      "artist": "Official髭男dism",
+      "title": "破滅の純情",
+      "artist": "ワルキューレ",
       "count": 10
     },
     {
@@ -684,11 +689,6 @@
       "count": 9
     },
     {
-      "title": "破滅の純情",
-      "artist": "ワルキューレ",
-      "count": 9
-    },
-    {
       "title": "シュガーソングとビターステップ",
       "artist": "UNISON SQUARE GARDEN",
       "count": 9
@@ -794,6 +794,11 @@
       "count": 8
     },
     {
+      "title": "ノーダウト",
+      "artist": "Official髭男dism",
+      "count": 8
+    },
+    {
       "title": "ヒステリックナイトガール",
       "artist": "PSYQUI",
       "count": 8
@@ -831,6 +836,11 @@
     {
       "title": "靴の花火",
       "artist": "ヨルシカ",
+      "count": 8
+    },
+    {
+      "title": "träumerei",
+      "artist": "LiSA",
       "count": 8
     },
     {
@@ -886,6 +896,11 @@
     {
       "title": "ちゅ、多様性。",
       "artist": "ano",
+      "count": 8
+    },
+    {
+      "title": "火星人",
+      "artist": "ヨルシカ",
       "count": 8
     },
     {
@@ -1009,13 +1024,13 @@
       "count": 7
     },
     {
-      "title": "帝国少女",
-      "artist": "R Sound Design",
+      "title": "ROCK-mode'18",
+      "artist": "LiSA",
       "count": 7
     },
     {
-      "title": "ノーダウト",
-      "artist": "Official髭男dism",
+      "title": "帝国少女",
+      "artist": "R Sound Design",
       "count": 7
     },
     {
@@ -1104,13 +1119,13 @@
       "count": 7
     },
     {
-      "title": "träumerei",
-      "artist": "LiSA",
+      "title": "アイディスマイル",
+      "artist": "とあ",
       "count": 7
     },
     {
-      "title": "アイディスマイル",
-      "artist": "とあ",
+      "title": "クラクラ",
+      "artist": "Ado",
       "count": 7
     },
     {
@@ -1141,11 +1156,6 @@
     {
       "title": "愛言葉IV",
       "artist": "DECO*27",
-      "count": 7
-    },
-    {
-      "title": "火星人",
-      "artist": "ヨルシカ",
       "count": 7
     },
     {
@@ -1234,13 +1244,13 @@
       "count": 6
     },
     {
-      "title": "レディメイド",
-      "artist": "Ado",
+      "title": "ダイアモンド クレバス",
+      "artist": "シェリル・ノーム starring May'n",
       "count": 6
     },
     {
-      "title": "ROCK-mode'18",
-      "artist": "LiSA",
+      "title": "レディメイド",
+      "artist": "Ado",
       "count": 6
     },
     {
@@ -1266,6 +1276,11 @@
     {
       "title": "アクアテラリウム",
       "artist": "やなぎなぎ",
+      "count": 6
+    },
+    {
+      "title": "夕立のりぼん",
+      "artist": "みきとP",
       "count": 6
     },
     {
@@ -1354,6 +1369,11 @@
       "count": 6
     },
     {
+      "title": "ヨンジュウナナ",
+      "artist": "みきとP",
+      "count": 6
+    },
+    {
       "title": "Beautiful World",
       "artist": "宇多田ヒカル",
       "count": 6
@@ -1376,11 +1396,6 @@
     {
       "title": "アメヲマツ、",
       "artist": "美波",
-      "count": 6
-    },
-    {
-      "title": "クラクラ",
-      "artist": "Ado",
       "count": 6
     },
     {
@@ -1534,6 +1549,11 @@
       "count": 5
     },
     {
+      "title": "AXIA ~ダイスキでダイキライ~",
+      "artist": "ワルキューレ",
+      "count": 5
+    },
+    {
       "title": "キャットラビング",
       "artist": "香椎モイミ",
       "count": 5
@@ -1579,11 +1599,6 @@
       "count": 5
     },
     {
-      "title": "ダイアモンド クレバス",
-      "artist": "シェリル・ノーム starring May'n",
-      "count": 5
-    },
-    {
       "title": "化けの花",
       "artist": "なきそ",
       "count": 5
@@ -1611,11 +1626,6 @@
     {
       "title": "ただ声一つ",
       "artist": "ロクデナシ",
-      "count": 5
-    },
-    {
-      "title": "夕立のりぼん",
-      "artist": "みきとP",
       "count": 5
     },
     {
@@ -1739,11 +1749,6 @@
       "count": 5
     },
     {
-      "title": "ヨンジュウナナ",
-      "artist": "みきとP",
-      "count": 5
-    },
-    {
       "title": "アカイト",
       "artist": "みきとP",
       "count": 5
@@ -1856,6 +1861,11 @@
     {
       "title": "シニカルナイトプラン",
       "artist": "Ayase",
+      "count": 5
+    },
+    {
+      "title": "INNOCENCE",
+      "artist": "藍井エイル",
       "count": 5
     },
     {
@@ -1976,11 +1986,6 @@
     {
       "title": "チェリーポップ",
       "artist": "DECO*27",
-      "count": 4
-    },
-    {
-      "title": "AXIA ~ダイスキでダイキライ~",
-      "artist": "ワルキューレ",
       "count": 4
     },
     {
@@ -2224,6 +2229,11 @@
       "count": 4
     },
     {
+      "title": "Empty MERMAiD",
+      "artist": "LiSA",
+      "count": 4
+    },
+    {
       "title": "you are my curse",
       "artist": "nyamura",
       "count": 4
@@ -2394,11 +2404,6 @@
       "count": 4
     },
     {
-      "title": "INNOCENCE",
-      "artist": "藍井エイル",
-      "count": 4
-    },
-    {
       "title": "月光潤色ガール",
       "artist": "れるりり",
       "count": 4
@@ -2501,6 +2506,11 @@
     {
       "title": "veil",
       "artist": "須田景凪",
+      "count": 4
+    },
+    {
+      "title": "ジェットロケット",
+      "artist": "LiSA",
       "count": 4
     },
     {
@@ -2794,11 +2804,6 @@
       "count": 3
     },
     {
-      "title": "Empty MERMAiD",
-      "artist": "LiSA",
-      "count": 3
-    },
-    {
       "title": "ネオネオン",
       "artist": "DECO*27",
       "count": 3
@@ -2941,6 +2946,11 @@
     {
       "title": "ドーナツホール",
       "artist": "米津玄師",
+      "count": 3
+    },
+    {
+      "title": "妄想スケッチ",
+      "artist": "40mP",
       "count": 3
     },
     {
@@ -3249,6 +3259,11 @@
       "count": 3
     },
     {
+      "title": "世田谷ナイトサファリ",
+      "artist": "みきとP",
+      "count": 3
+    },
+    {
       "title": "雨とペトラ",
       "artist": "バルーン",
       "count": 3
@@ -3276,6 +3291,11 @@
     {
       "title": "アイロニ",
       "artist": "すこっぷ",
+      "count": 3
+    },
+    {
+      "title": "IGNITE",
+      "artist": "藍井エイル",
       "count": 3
     },
     {
@@ -3364,7 +3384,7 @@
       "count": 3
     },
     {
-      "title": "ジェットロケット",
+      "title": "say my nameの片思い",
       "artist": "LiSA",
       "count": 3
     },
@@ -3846,11 +3866,6 @@
     {
       "title": "命ばっかり",
       "artist": "ぬゆり",
-      "count": 2
-    },
-    {
-      "title": "妄想スケッチ",
-      "artist": "40mP",
       "count": 2
     },
     {
@@ -4389,11 +4404,6 @@
       "count": 2
     },
     {
-      "title": "世田谷ナイトサファリ",
-      "artist": "みきとP",
-      "count": 2
-    },
-    {
       "title": "クノイチでも恋がしたい",
       "artist": "みきとP",
       "count": 2
@@ -4489,11 +4499,6 @@
       "count": 2
     },
     {
-      "title": "IGNITE",
-      "artist": "藍井エイル",
-      "count": 2
-    },
-    {
       "title": "プリキュア5、スマイル go go!",
       "artist": "工藤真由",
       "count": 2
@@ -4516,6 +4521,11 @@
     {
       "title": "イヤガール",
       "artist": "かいりきベア",
+      "count": 2
+    },
+    {
+      "title": "PLATONIC GIRL",
+      "artist": "みきとP",
       "count": 2
     },
     {
@@ -4659,7 +4669,7 @@
       "count": 2
     },
     {
-      "title": "say my nameの片思い",
+      "title": "オレンジサイダー",
       "artist": "LiSA",
       "count": 2
     },
@@ -5116,6 +5126,16 @@
     {
       "title": "A Whole New World",
       "artist": "Mena Massoud & Naomi Scott",
+      "count": 1
+    },
+    {
+      "title": "快晴",
+      "artist": "orangester",
+      "count": 1
+    },
+    {
+      "title": "Petals",
+      "artist": "orangester",
       "count": 1
     },
     {
@@ -6274,11 +6294,6 @@
       "count": 1
     },
     {
-      "title": "PLATONIC GIRL",
-      "artist": "みきとP",
-      "count": 1
-    },
-    {
       "title": "ハレハレヤ",
       "artist": "羽生まゐご",
       "count": 1
@@ -6989,11 +7004,6 @@
       "count": 1
     },
     {
-      "title": "オレンジサイダー",
-      "artist": "LiSA",
-      "count": 1
-    },
-    {
       "title": "traumerei",
       "artist": "LiSA",
       "count": 1
@@ -7282,6 +7292,21 @@
       "title": "真夏の果実",
       "artist": "サザンオールスターズ",
       "count": 1
+    },
+    {
+      "title": "ノンブレス・オブリージュ",
+      "artist": "ピノキオピー",
+      "count": 1
+    },
+    {
+      "title": "Absolute 5",
+      "artist": "ワルキューレ",
+      "count": 1
+    },
+    {
+      "title": "kiss",
+      "artist": "みきーの(みきとP×keeno)",
+      "count": 1
     }
   ],
   "artists": [
@@ -7543,6 +7568,7 @@
     "niki",
     "nobodyknows+",
     "nyamura",
+    "orangester",
     "r-906",
     "rinri",
     "rionos",
@@ -7620,6 +7646,7 @@
     "まふまふ",
     "みきとP",
     "みきーの (みきとP×keeno)",
+    "みきーの(みきとP×keeno)",
     "めいちゃん",
     "めいちゃん, ナナホシ管弦楽団",
     "もじゃ",

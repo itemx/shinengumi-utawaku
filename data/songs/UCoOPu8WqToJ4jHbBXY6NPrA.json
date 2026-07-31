@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-07-25T13:36:33.826481+00:00",
+  "lastFetched": "2026-07-31T14:09:27.564647+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -12719,6 +12719,42 @@
       ],
       "sourceCommentId": "",
       "type": "stream"
+    },
+    {
+      "videoId": "CZZ9waIg2HE",
+      "title": "快晴/orangester #歌ってみた #shorts #cover #vtuber #新人vtuber #vsinger #快晴 #orangestar #vstreamer #vocaloid",
+      "publishedAt": "2026-07-31T09:28:31Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "快晴",
+          "titleRaw": "快晴",
+          "artist": "orangester",
+          "artistRaw": "orangester",
+          "url": "https://youtu.be/CZZ9waIg2HE"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "n-sWb9ZVQDw",
+      "title": "Petals / orangester #歌ってみた #shorts #cover #vtuber #新人vtuber #vsinger #petals #orangestar #vstreamer",
+      "publishedAt": "2026-07-29T09:03:31Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "Petals",
+          "titleRaw": "Petals",
+          "artist": "orangester",
+          "artistRaw": "orangester",
+          "url": "https://youtu.be/n-sWb9ZVQDw"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
