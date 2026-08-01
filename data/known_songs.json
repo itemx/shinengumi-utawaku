@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1461,
-  "uniqueTitles": 1418,
-  "uniqueArtists": 666,
+  "totalEntries": 1466,
+  "uniqueTitles": 1422,
+  "uniqueArtists": 669,
   "songs": [
     {
       "title": "少女レイ",
@@ -29,14 +29,14 @@
       "count": 22
     },
     {
-      "title": "晴る",
-      "artist": "ヨルシカ",
+      "title": "創聖のアクエリオン",
+      "artist": "AKINO",
       "count": 21
     },
     {
-      "title": "創聖のアクエリオン",
-      "artist": "AKINO",
-      "count": 20
+      "title": "晴る",
+      "artist": "ヨルシカ",
+      "count": 21
     },
     {
       "title": "Calc.",
@@ -51,6 +51,11 @@
     {
       "title": "ただ君に晴れ",
       "artist": "ヨルシカ",
+      "count": 18
+    },
+    {
+      "title": "ANIMA",
+      "artist": "ReoNa",
       "count": 18
     },
     {
@@ -89,11 +94,6 @@
       "count": 17
     },
     {
-      "title": "ANIMA",
-      "artist": "ReoNa",
-      "count": 17
-    },
-    {
       "title": "Tell Your World",
       "artist": "kz (livetune)",
       "count": 16
@@ -111,6 +111,11 @@
     {
       "title": "残酷な天使のテーゼ",
       "artist": "高橋洋子",
+      "count": 16
+    },
+    {
+      "title": "カラフル",
+      "artist": "ClariS",
       "count": 16
     },
     {
@@ -149,8 +154,8 @@
       "count": 15
     },
     {
-      "title": "カラフル",
-      "artist": "ClariS",
+      "title": "花になって",
+      "artist": "緑黄色社会",
       "count": 15
     },
     {
@@ -162,6 +167,11 @@
       "title": "雨とカプチーノ",
       "artist": "ヨルシカ",
       "count": 15
+    },
+    {
+      "title": "星間飛行",
+      "artist": "ランカ・リー",
+      "count": 14
     },
     {
       "title": "だから僕は音楽を辞めた",
@@ -184,11 +194,6 @@
       "count": 14
     },
     {
-      "title": "花になって",
-      "artist": "緑黄色社会",
-      "count": 14
-    },
-    {
       "title": "悪魔の子",
       "artist": "ヒグチアイ",
       "count": 14
@@ -201,11 +206,6 @@
     {
       "title": "トリノコシティ",
       "artist": "40mP",
-      "count": 13
-    },
-    {
-      "title": "星間飛行",
-      "artist": "ランカ・リー",
       "count": 13
     },
     {
@@ -236,6 +236,11 @@
     {
       "title": "月のワルツ",
       "artist": "諫山実生",
+      "count": 13
+    },
+    {
+      "title": "祝福",
+      "artist": "YOASOBI",
       "count": 13
     },
     {
@@ -284,6 +289,11 @@
       "count": 12
     },
     {
+      "title": "花の塔",
+      "artist": "さユり",
+      "count": 12
+    },
+    {
       "title": "アルジャーノン",
       "artist": "ヨルシカ",
       "count": 12
@@ -296,11 +306,6 @@
     {
       "title": "oath sign",
       "artist": "LiSA",
-      "count": 12
-    },
-    {
-      "title": "祝福",
-      "artist": "YOASOBI",
       "count": 12
     },
     {
@@ -322,6 +327,11 @@
       "title": "藍二乗",
       "artist": "ヨルシカ",
       "count": 12
+    },
+    {
+      "title": "プラチナ",
+      "artist": "坂本真綾",
+      "count": 11
     },
     {
       "title": "シンデレラ",
@@ -424,11 +434,6 @@
       "count": 11
     },
     {
-      "title": "花の塔",
-      "artist": "さユり",
-      "count": 11
-    },
-    {
       "title": "サリシノハラ",
       "artist": "みきとP",
       "count": 11
@@ -492,11 +497,6 @@
       "title": "白銀",
       "artist": "LiSA",
       "count": 11
-    },
-    {
-      "title": "プラチナ",
-      "artist": "坂本真綾",
-      "count": 10
     },
     {
       "title": "SOS",
@@ -954,6 +954,11 @@
       "count": 7
     },
     {
+      "title": "スパークル",
+      "artist": "RADWIMPS",
+      "count": 7
+    },
+    {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
       "count": 7
@@ -1059,6 +1064,11 @@
       "count": 7
     },
     {
+      "title": "Rising Hope",
+      "artist": "LiSA",
+      "count": 7
+    },
+    {
       "title": "六兆年と一夜物語",
       "artist": "kemu",
       "count": 7
@@ -1149,6 +1159,11 @@
       "count": 7
     },
     {
+      "title": "1・2・3",
+      "artist": "After the Rain",
+      "count": 7
+    },
+    {
       "title": "風のゆくえ",
       "artist": "Ado",
       "count": 7
@@ -1196,11 +1211,6 @@
     {
       "title": "flos",
       "artist": "R Sound Design",
-      "count": 6
-    },
-    {
-      "title": "スパークル",
-      "artist": "RADWIMPS",
       "count": 6
     },
     {
@@ -1296,11 +1306,6 @@
     {
       "title": "いろは唄",
       "artist": "銀サク",
-      "count": 6
-    },
-    {
-      "title": "Rising Hope",
-      "artist": "LiSA",
       "count": 6
     },
     {
@@ -1421,11 +1426,6 @@
     {
       "title": "シリウス",
       "artist": "藍井エイル",
-      "count": 6
-    },
-    {
-      "title": "1・2・3",
-      "artist": "After the Rain",
       "count": 6
     },
     {
@@ -1629,6 +1629,11 @@
       "count": 5
     },
     {
+      "title": "海色",
+      "artist": "AKINO from bless4",
+      "count": 5
+    },
+    {
       "title": "Hello, Worker",
       "artist": "KEI",
       "count": 5
@@ -1769,6 +1774,11 @@
       "count": 5
     },
     {
+      "title": "YUME日和",
+      "artist": "島谷ひとみ",
+      "count": 5
+    },
+    {
       "title": "許婚っきゅん",
       "artist": "ano",
       "count": 5
@@ -1786,6 +1796,11 @@
     {
       "title": "好きすぎて滅!",
       "artist": "M!LK",
+      "count": 5
+    },
+    {
+      "title": "ETERNAL WIND~ほほえみは光る風の中~",
+      "artist": "森口博子",
       "count": 5
     },
     {
@@ -1889,6 +1904,11 @@
       "count": 5
     },
     {
+      "title": "雫",
+      "artist": "スキマスイッチ",
+      "count": 5
+    },
+    {
       "title": "うっせぇわ",
       "artist": "Ado",
       "count": 5
@@ -1911,6 +1931,11 @@
     {
       "title": "恋愛サーキュレーション",
       "artist": "花澤香菜",
+      "count": 5
+    },
+    {
+      "title": "Together",
+      "artist": "あきよしふみえ",
       "count": 5
     },
     {
@@ -1989,6 +2014,11 @@
       "count": 4
     },
     {
+      "title": "TESTAMENT",
+      "artist": "水樹奈々",
+      "count": 4
+    },
+    {
       "title": "メランコリック",
       "artist": "Junky",
       "count": 4
@@ -2061,11 +2091,6 @@
     {
       "title": "カブトムシ",
       "artist": "aiko",
-      "count": 4
-    },
-    {
-      "title": "海色",
-      "artist": "AKINO from bless4",
       "count": 4
     },
     {
@@ -2254,11 +2279,6 @@
       "count": 4
     },
     {
-      "title": "YUME日和",
-      "artist": "島谷ひとみ",
-      "count": 4
-    },
-    {
       "title": "お勉強しといてよ",
       "artist": "ずっと真夜中でいいのに。",
       "count": 4
@@ -2286,11 +2306,6 @@
     {
       "title": "嵐の中で輝いて",
       "artist": "米倉千尋",
-      "count": 4
-    },
-    {
-      "title": "ETERNAL WIND~ほほえみは光る風の中~",
-      "artist": "森口博子",
       "count": 4
     },
     {
@@ -2429,11 +2444,6 @@
       "count": 4
     },
     {
-      "title": "雫",
-      "artist": "スキマスイッチ",
-      "count": 4
-    },
-    {
       "title": "サラマンダー",
       "artist": "DECO*27",
       "count": 4
@@ -2461,11 +2471,6 @@
     {
       "title": "やさしさで溢れるように",
       "artist": "JUJU",
-      "count": 4
-    },
-    {
-      "title": "Together",
-      "artist": "あきよしふみえ",
       "count": 4
     },
     {
@@ -2591,11 +2596,6 @@
     {
       "title": "片翼の鳥",
       "artist": "志方あきこ",
-      "count": 3
-    },
-    {
-      "title": "TESTAMENT",
-      "artist": "水樹奈々",
       "count": 3
     },
     {
@@ -2844,6 +2844,11 @@
       "count": 3
     },
     {
+      "title": "百花繚乱",
+      "artist": "幾田りら",
+      "count": 3
+    },
+    {
       "title": "MILABO",
       "artist": "ずっと真夜中でいいのに。",
       "count": 3
@@ -3089,6 +3094,11 @@
       "count": 3
     },
     {
+      "title": "翔べ!ガンダム",
+      "artist": "池田鴻",
+      "count": 3
+    },
+    {
       "title": "INVOKE",
       "artist": "T.M.Revolution",
       "count": 3
@@ -3106,6 +3116,11 @@
     {
       "title": "ワンダーランド",
       "artist": "FLiP",
+      "count": 3
+    },
+    {
+      "title": "you",
+      "artist": "癒月",
       "count": 3
     },
     {
@@ -3354,6 +3369,11 @@
       "count": 3
     },
     {
+      "title": "BEYOND THE TIME (メビウスの宇宙を越えて)",
+      "artist": "TM NETWORK",
+      "count": 3
+    },
+    {
       "title": "夜もすがら君想ふ",
       "artist": "TOKOTOKO(西沢さんP)",
       "count": 3
@@ -3381,6 +3401,11 @@
     {
       "title": "プロポーズ",
       "artist": "内緒のピアス",
+      "count": 3
+    },
+    {
+      "title": "ホムンクルス",
+      "artist": "Vaundy",
       "count": 3
     },
     {
@@ -3809,11 +3834,6 @@
       "count": 2
     },
     {
-      "title": "百花繚乱",
-      "artist": "幾田りら",
-      "count": 2
-    },
-    {
       "title": "Believe",
       "artist": "童謡",
       "count": 2
@@ -4094,11 +4114,6 @@
       "count": 2
     },
     {
-      "title": "翔べ!ガンダム",
-      "artist": "池田鴻",
-      "count": 2
-    },
-    {
       "title": "Reason",
       "artist": "玉置成実",
       "count": 2
@@ -4131,11 +4146,6 @@
     {
       "title": "君の神様になりたい。",
       "artist": "カンザキイオリ",
-      "count": 2
-    },
-    {
-      "title": "you",
-      "artist": "癒月",
       "count": 2
     },
     {
@@ -4584,11 +4594,6 @@
       "count": 2
     },
     {
-      "title": "BEYOND THE TIME (メビウスの宇宙を越えて)",
-      "artist": "TM NETWORK",
-      "count": 2
-    },
-    {
       "title": "ハレ晴レユカイ",
       "artist": "涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)",
       "count": 2
@@ -4606,11 +4611,6 @@
     {
       "title": "もうどうなってもいいや",
       "artist": "星街すいせい",
-      "count": 2
-    },
-    {
-      "title": "ホムンクルス",
-      "artist": "Vaundy",
       "count": 2
     },
     {
@@ -4716,6 +4716,11 @@
     {
       "title": "ウワサのあの子",
       "artist": "紫 今",
+      "count": 2
+    },
+    {
+      "title": "閃光",
+      "artist": "[Alexandros]",
       "count": 2
     },
     {
@@ -7279,11 +7284,6 @@
       "count": 1
     },
     {
-      "title": "閃光",
-      "artist": "[Alexandros]",
-      "count": 1
-    },
-    {
       "title": "いとしのエリー",
       "artist": "サザンオールスターズ",
       "count": 1
@@ -7306,6 +7306,31 @@
     {
       "title": "kiss",
       "artist": "みきーの(みきとP×keeno)",
+      "count": 1
+    },
+    {
+      "title": "ハレンチ",
+      "artist": "ちゃんみな",
+      "count": 1
+    },
+    {
+      "title": "departure!",
+      "artist": "小野正利",
+      "count": 1
+    },
+    {
+      "title": "不死鳥のフランメ",
+      "artist": "マリア×風鳴翼(日笠陽子×水樹奈々)",
+      "count": 1
+    },
+    {
+      "title": "Survivor",
+      "artist": "BLUE ENCOUNT",
+      "count": 1
+    },
+    {
+      "title": "心よ原始に戻れ",
+      "artist": "高橋洋子",
       "count": 1
     }
   ],
@@ -7348,6 +7373,7 @@
     "Azari",
     "A応P",
     "BIGBANG",
+    "BLUE ENCOUNT",
     "BUMP OF CHICKEN",
     "Base Ball Bear",
     "BiBi (μ's)",
@@ -7731,6 +7757,7 @@
     "ポルノグラフィティ",
     "マキシマム ザ ホルモン",
     "マリア×風鳴翼",
+    "マリア×風鳴翼(日笠陽子×水樹奈々)",
     "ミルキィホームズ",
     "メル",
     "ヤスオ",
@@ -7811,6 +7838,7 @@
     "家入レオ",
     "小倉唯",
     "小日向美穂 (津田美波)、双葉杏 (五十嵐裕美)、前川みく (高森奈津美)",
+    "小野正利",
     "少女時代",
     "山口百恵",
     "山本リンダ",
