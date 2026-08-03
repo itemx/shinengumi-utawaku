@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1466,
-  "uniqueTitles": 1422,
-  "uniqueArtists": 669,
+  "totalEntries": 1471,
+  "uniqueTitles": 1427,
+  "uniqueArtists": 670,
   "songs": [
     {
       "title": "少女レイ",
@@ -139,6 +139,11 @@
       "count": 15
     },
     {
+      "title": "モニタリング",
+      "artist": "DECO*27",
+      "count": 15
+    },
+    {
       "title": "フォニイ",
       "artist": "ツミキ",
       "count": 15
@@ -174,13 +179,13 @@
       "count": 14
     },
     {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
       "count": 14
     },
     {
-      "title": "モニタリング",
-      "artist": "DECO*27",
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
       "count": 14
     },
     {
@@ -206,11 +211,6 @@
     {
       "title": "トリノコシティ",
       "artist": "40mP",
-      "count": 13
-    },
-    {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
       "count": 13
     },
     {
@@ -262,6 +262,11 @@
       "title": "逆光",
       "artist": "Ado",
       "count": 13
+    },
+    {
+      "title": "Catch the Moment",
+      "artist": "LiSA",
+      "count": 12
     },
     {
       "title": "ロウワー",
@@ -336,11 +341,6 @@
     {
       "title": "シンデレラ",
       "artist": "DECO*27",
-      "count": 11
-    },
-    {
-      "title": "Catch the Moment",
-      "artist": "LiSA",
       "count": 11
     },
     {
@@ -599,6 +599,11 @@
       "count": 10
     },
     {
+      "title": "世界は恋に落ちている",
+      "artist": "CHiCO with HoneyWorks",
+      "count": 9
+    },
+    {
       "title": "言って。",
       "artist": "ヨルシカ",
       "count": 9
@@ -709,13 +714,18 @@
       "count": 8
     },
     {
-      "title": "世界は恋に落ちている",
-      "artist": "CHiCO with HoneyWorks",
+      "title": "EX-otogibanashi",
+      "artist": "ryo (supercell)",
       "count": 8
     },
     {
       "title": "only my railgun",
       "artist": "fripSide",
+      "count": 8
+    },
+    {
+      "title": "春擬き",
+      "artist": "やなぎなぎ",
       "count": 8
     },
     {
@@ -921,16 +931,6 @@
     {
       "title": "ray",
       "artist": "BUMP OF CHICKEN",
-      "count": 7
-    },
-    {
-      "title": "EX-otogibanashi",
-      "artist": "ryo (supercell)",
-      "count": 7
-    },
-    {
-      "title": "春擬き",
-      "artist": "やなぎなぎ",
       "count": 7
     },
     {
@@ -1504,6 +1504,11 @@
       "count": 6
     },
     {
+      "title": "竹取オーバーナイトセンセーション",
+      "artist": "HoneyWorks",
+      "count": 5
+    },
+    {
       "title": "青空のラプソディ",
       "artist": "fhána",
       "count": 5
@@ -1536,6 +1541,11 @@
     {
       "title": "フクロウ ~フクロウが知らせる客が来たと~",
       "artist": "KOKIA",
+      "count": 5
+    },
+    {
+      "title": "ユキトキ",
+      "artist": "やなぎなぎ",
       "count": 5
     },
     {
@@ -1959,11 +1969,6 @@
       "count": 4
     },
     {
-      "title": "竹取オーバーナイトセンセーション",
-      "artist": "HoneyWorks",
-      "count": 4
-    },
-    {
       "title": "Endless Story",
       "artist": "田村ゆかり",
       "count": 4
@@ -2001,11 +2006,6 @@
     {
       "title": "それがあなたの幸せとしても",
       "artist": "Heavenz",
-      "count": 4
-    },
-    {
-      "title": "ユキトキ",
-      "artist": "やなぎなぎ",
       "count": 4
     },
     {
@@ -2544,6 +2544,16 @@
       "count": 3
     },
     {
+      "title": "初恋サイダー",
+      "artist": "Buono!",
+      "count": 3
+    },
+    {
+      "title": "抜錨",
+      "artist": "ナナホシ管弦楽団",
+      "count": 3
+    },
+    {
       "title": "Bのリベンジ",
       "artist": "B小町",
       "count": 3
@@ -2624,6 +2634,11 @@
       "count": 3
     },
     {
+      "title": "Thrill, Risk, Heartless",
+      "artist": "LiSA",
+      "count": 3
+    },
+    {
       "title": "きゅうくらりん",
       "artist": "いよわ",
       "count": 3
@@ -2659,6 +2674,11 @@
       "count": 3
     },
     {
+      "title": "芽ぐみの雨",
+      "artist": "やなぎなぎ",
+      "count": 3
+    },
+    {
       "title": "負け犬にアンコールはいらない",
       "artist": "ヨルシカ",
       "count": 3
@@ -2681,6 +2701,11 @@
     {
       "title": "アサガオの散る頃に",
       "artist": "じっぷす",
+      "count": 3
+    },
+    {
+      "title": "My Dearest",
+      "artist": "ryo (supercell)",
       "count": 3
     },
     {
@@ -3434,18 +3459,8 @@
       "count": 2
     },
     {
-      "title": "初恋サイダー",
-      "artist": "Buono!",
-      "count": 2
-    },
-    {
       "title": "太陽系デスコ",
       "artist": "ナユタン星人",
-      "count": 2
-    },
-    {
-      "title": "抜錨",
-      "artist": "ナナホシ管弦楽団",
       "count": 2
     },
     {
@@ -3524,6 +3539,11 @@
       "count": 2
     },
     {
+      "title": "奇蹟",
+      "artist": "Uru",
+      "count": 2
+    },
+    {
       "title": "白ゆき",
       "artist": "n-buna",
       "count": 2
@@ -3531,11 +3551,6 @@
     {
       "title": "涙そうそう",
       "artist": "夏川りみ",
-      "count": 2
-    },
-    {
-      "title": "Thrill, Risk, Heartless",
-      "artist": "LiSA",
       "count": 2
     },
     {
@@ -3589,11 +3604,6 @@
       "count": 2
     },
     {
-      "title": "芽ぐみの雨",
-      "artist": "やなぎなぎ",
-      "count": 2
-    },
-    {
       "title": "magnet —recall—",
       "artist": "流星P",
       "count": 2
@@ -3614,7 +3624,12 @@
       "count": 2
     },
     {
-      "title": "My Dearest",
+      "title": "瞬間、シンフォニー。",
+      "artist": "40mP",
+      "count": 2
+    },
+    {
+      "title": "ヒーロー",
       "artist": "ryo (supercell)",
       "count": 2
     },
@@ -3634,8 +3649,23 @@
       "count": 2
     },
     {
+      "title": "ALIVE",
+      "artist": "ClariS",
+      "count": 2
+    },
+    {
       "title": "命のユースティティア",
       "artist": "Neru",
+      "count": 2
+    },
+    {
+      "title": "炉心融解",
+      "artist": "iroha",
+      "count": 2
+    },
+    {
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
       "count": 2
     },
     {
@@ -4844,11 +4874,6 @@
       "count": 1
     },
     {
-      "title": "奇蹟",
-      "artist": "Uru",
-      "count": 1
-    },
-    {
       "title": "メルト 10th ANNIVESARY MIX",
       "artist": "ryo (supercell)",
       "count": 1
@@ -4979,18 +5004,8 @@
       "count": 1
     },
     {
-      "title": "瞬間、シンフォニー。",
-      "artist": "40mP",
-      "count": 1
-    },
-    {
       "title": "over and over",
       "artist": "やなぎなぎ",
-      "count": 1
-    },
-    {
-      "title": "ヒーロー",
-      "artist": "ryo (supercell)",
       "count": 1
     },
     {
@@ -5084,28 +5099,13 @@
       "count": 1
     },
     {
-      "title": "ALIVE",
-      "artist": "ClariS",
-      "count": 1
-    },
-    {
       "title": "一体いつから",
       "artist": "月村手毬",
       "count": 1
     },
     {
-      "title": "炉心融解",
-      "artist": "iroha",
-      "count": 1
-    },
-    {
       "title": "蒼のエーテル",
       "artist": "ランカ・リー",
-      "count": 1
-    },
-    {
-      "title": "花泡沫",
-      "artist": "ロクデナシ",
       "count": 1
     },
     {
@@ -5141,6 +5141,31 @@
     {
       "title": "Petals",
       "artist": "orangester",
+      "count": 1
+    },
+    {
+      "title": "アルビレオ",
+      "artist": "ロクデナシ",
+      "count": 1
+    },
+    {
+      "title": "Luminous",
+      "artist": "AiNA THE END",
+      "count": 1
+    },
+    {
+      "title": "夏に去りし君を想フ",
+      "artist": "baker",
+      "count": 1
+    },
+    {
+      "title": "Paradise Lost",
+      "artist": "茅原実里",
+      "count": 1
+    },
+    {
+      "title": "アイヲウタエ",
+      "artist": "春奈るな",
       "count": 1
     },
     {
@@ -7558,6 +7583,7 @@
     "amazarashi",
     "ano",
     "back number",
+    "baker",
     "buzzG",
     "buzzG feat.りょーくん",
     "chomaiyo × TOKOTOKO (Nishizawasan-P)",
