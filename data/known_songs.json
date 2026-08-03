@@ -1,12 +1,17 @@
 {
-  "totalEntries": 1471,
-  "uniqueTitles": 1427,
-  "uniqueArtists": 670,
+  "totalEntries": 1474,
+  "uniqueTitles": 1430,
+  "uniqueArtists": 671,
   "songs": [
     {
       "title": "少女レイ",
       "artist": "みきとP",
       "count": 24
+    },
+    {
+      "title": "All Alone With You",
+      "artist": "EGOIST",
+      "count": 23
     },
     {
       "title": "残響散歌",
@@ -17,11 +22,6 @@
       "title": "花に亡霊",
       "artist": "ヨルシカ",
       "count": 23
-    },
-    {
-      "title": "All Alone With You",
-      "artist": "EGOIST",
-      "count": 22
     },
     {
       "title": "Departures ~あなたにおくるアイの歌~",
@@ -114,6 +114,11 @@
       "count": 16
     },
     {
+      "title": "変わらないもの",
+      "artist": "奥華子",
+      "count": 16
+    },
+    {
       "title": "カラフル",
       "artist": "ClariS",
       "count": 16
@@ -151,11 +156,6 @@
     {
       "title": "The Everlasting Guilty Crown",
       "artist": "EGOIST",
-      "count": 15
-    },
-    {
-      "title": "変わらないもの",
-      "artist": "奥華子",
       "count": 15
     },
     {
@@ -199,6 +199,11 @@
       "count": 14
     },
     {
+      "title": "月のワルツ",
+      "artist": "諫山実生",
+      "count": 14
+    },
+    {
       "title": "悪魔の子",
       "artist": "ヒグチアイ",
       "count": 14
@@ -234,8 +239,8 @@
       "count": 13
     },
     {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
       "count": 13
     },
     {
@@ -301,11 +306,6 @@
     {
       "title": "アルジャーノン",
       "artist": "ヨルシカ",
-      "count": 12
-    },
-    {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
       "count": 12
     },
     {
@@ -454,6 +454,11 @@
       "count": 11
     },
     {
+      "title": "Ghost of a smile",
+      "artist": "EGOIST",
+      "count": 11
+    },
+    {
       "title": "往け",
       "artist": "LiSA",
       "count": 11
@@ -544,7 +549,7 @@
       "count": 10
     },
     {
-      "title": "Ghost of a smile",
+      "title": "Planetes",
       "artist": "EGOIST",
       "count": 10
     },
@@ -646,11 +651,6 @@
     {
       "title": "夜に駆ける",
       "artist": "YOASOBI",
-      "count": 9
-    },
-    {
-      "title": "Planetes",
-      "artist": "EGOIST",
       "count": 9
     },
     {
@@ -786,6 +786,11 @@
     {
       "title": "ミカヅキ",
       "artist": "さユり",
+      "count": 8
+    },
+    {
+      "title": "帝国少女",
+      "artist": "R Sound Design",
       "count": 8
     },
     {
@@ -1034,11 +1039,6 @@
       "count": 7
     },
     {
-      "title": "帝国少女",
-      "artist": "R Sound Design",
-      "count": 7
-    },
-    {
       "title": "ウタカタララバイ",
       "artist": "Ado",
       "count": 7
@@ -1069,8 +1069,23 @@
       "count": 7
     },
     {
+      "title": "愛が灯る",
+      "artist": "ロクデナシ",
+      "count": 7
+    },
+    {
+      "title": "死ぬにはいい日だった",
+      "artist": "ピコン",
+      "count": 7
+    },
+    {
       "title": "六兆年と一夜物語",
       "artist": "kemu",
+      "count": 7
+    },
+    {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
       "count": 7
     },
     {
@@ -1194,6 +1209,11 @@
       "count": 6
     },
     {
+      "title": "月が綺麗ねと言われたい!",
+      "artist": "柿崎ユウタ",
+      "count": 6
+    },
+    {
       "title": "さようなら、花泥棒さん",
       "artist": "メル",
       "count": 6
@@ -1279,6 +1299,11 @@
       "count": 6
     },
     {
+      "title": "ただ声一つ",
+      "artist": "ロクデナシ",
+      "count": 6
+    },
+    {
       "title": "ヒトガタ",
       "artist": "HIMEHINA",
       "count": 6
@@ -1309,23 +1334,8 @@
       "count": 6
     },
     {
-      "title": "愛が灯る",
-      "artist": "ロクデナシ",
-      "count": 6
-    },
-    {
       "title": "この世界で見つけたもの",
       "artist": "EGOIST",
-      "count": 6
-    },
-    {
-      "title": "死ぬにはいい日だった",
-      "artist": "ピコン",
-      "count": 6
-    },
-    {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
       "count": 6
     },
     {
@@ -1514,11 +1524,6 @@
       "count": 5
     },
     {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "柿崎ユウタ",
-      "count": 5
-    },
-    {
       "title": "春を告げる",
       "artist": "yama",
       "count": 5
@@ -1634,8 +1639,8 @@
       "count": 5
     },
     {
-      "title": "ただ声一つ",
-      "artist": "ロクデナシ",
+      "title": "花筏",
+      "artist": "Orangestar",
       "count": 5
     },
     {
@@ -1691,6 +1696,11 @@
     {
       "title": "-ERROR",
       "artist": "niki",
+      "count": 5
+    },
+    {
+      "title": "キミソラキセキ",
+      "artist": "EGOIST",
       "count": 5
     },
     {
@@ -1999,6 +2009,11 @@
       "count": 4
     },
     {
+      "title": "桜日和",
+      "artist": "星村麻衣",
+      "count": 4
+    },
+    {
       "title": "Luna say maybe",
       "artist": "月村手毬",
       "count": 4
@@ -2069,11 +2084,6 @@
       "count": 4
     },
     {
-      "title": "花筏",
-      "artist": "Orangestar",
-      "count": 4
-    },
-    {
       "title": "Os 宇宙人",
       "artist": "エリオをかまってちゃん",
       "count": 4
@@ -2129,11 +2139,6 @@
       "count": 4
     },
     {
-      "title": "キミソラキセキ",
-      "artist": "EGOIST",
-      "count": 4
-    },
-    {
       "title": "give it back",
       "artist": "Cö shu Nie",
       "count": 4
@@ -2146,6 +2151,11 @@
     {
       "title": "かくれんぼ",
       "artist": "AliA",
+      "count": 4
+    },
+    {
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
       "count": 4
     },
     {
@@ -2564,11 +2574,6 @@
       "count": 3
     },
     {
-      "title": "桜日和",
-      "artist": "星村麻衣",
-      "count": 3
-    },
-    {
       "title": "アディショナルメモリー",
       "artist": "じん",
       "count": 3
@@ -2729,8 +2734,8 @@
       "count": 3
     },
     {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
+      "title": "A Dream Is a Wish Your Heart Makes",
+      "artist": "Ilene Woods",
       "count": 3
     },
     {
@@ -3439,6 +3444,11 @@
       "count": 3
     },
     {
+      "title": "1/6 ー out of the gravity ー",
+      "artist": "ぼーかりおどP",
+      "count": 2
+    },
+    {
       "title": "渉り星",
       "artist": "Islet",
       "count": 2
@@ -3674,8 +3684,18 @@
       "count": 2
     },
     {
-      "title": "A Dream Is a Wish Your Heart Makes",
-      "artist": "Ilene Woods",
+      "title": "雨景色",
+      "artist": "ロクデナシ",
+      "count": 2
+    },
+    {
+      "title": "Part of Your World",
+      "artist": "Jodi Benson",
+      "count": 2
+    },
+    {
+      "title": "ガランド",
+      "artist": "ピコン",
       "count": 2
     },
     {
@@ -4764,11 +4784,6 @@
       "count": 1
     },
     {
-      "title": "1/6 ー out of the gravity ー",
-      "artist": "ぼーかりおどP",
-      "count": 1
-    },
-    {
       "title": "Dear",
       "artist": "19's Sound Factory",
       "count": 1
@@ -5119,16 +5134,6 @@
       "count": 1
     },
     {
-      "title": "雨景色",
-      "artist": "ロクデナシ",
-      "count": 1
-    },
-    {
-      "title": "Part of Your World",
-      "artist": "Jodi Benson",
-      "count": 1
-    },
-    {
       "title": "A Whole New World",
       "artist": "Mena Massoud & Naomi Scott",
       "count": 1
@@ -5166,6 +5171,21 @@
     {
       "title": "アイヲウタエ",
       "artist": "春奈るな",
+      "count": 1
+    },
+    {
+      "title": "スカート",
+      "artist": "古川本舗",
+      "count": 1
+    },
+    {
+      "title": "letter song",
+      "artist": "doriko",
+      "count": 1
+    },
+    {
+      "title": "One day",
+      "artist": "THE ROOTLESS",
       "count": 1
     },
     {
@@ -5241,11 +5261,6 @@
     {
       "title": "アディオス",
       "artist": "ダズビー",
-      "count": 1
-    },
-    {
-      "title": "ガランド",
-      "artist": "ピコン",
       "count": 1
     },
     {
@@ -7548,6 +7563,7 @@
     "T.M.Revolution",
     "T.M.Revolution×水樹奈々",
     "THE ORAL CIGARETTES",
+    "THE ROOTLESS",
     "THEATRE BROOK",
     "TK from 凛として時雨",
     "TM NETWORK",
