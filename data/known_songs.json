@@ -1,26 +1,26 @@
 {
-  "totalEntries": 1474,
-  "uniqueTitles": 1430,
+  "totalEntries": 1475,
+  "uniqueTitles": 1431,
   "uniqueArtists": 671,
   "songs": [
     {
       "title": "少女レイ",
       "artist": "みきとP",
-      "count": 24
+      "count": 25
     },
     {
       "title": "All Alone With You",
       "artist": "EGOIST",
-      "count": 23
-    },
-    {
-      "title": "残響散歌",
-      "artist": "Aimer",
-      "count": 23
+      "count": 24
     },
     {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
+      "count": 24
+    },
+    {
+      "title": "残響散歌",
+      "artist": "Aimer",
       "count": 23
     },
     {
@@ -84,6 +84,11 @@
       "count": 17
     },
     {
+      "title": "変わらないもの",
+      "artist": "奥華子",
+      "count": 17
+    },
+    {
       "title": "Across the world !!",
       "artist": "深淵組",
       "count": 17
@@ -114,13 +119,13 @@
       "count": 16
     },
     {
-      "title": "変わらないもの",
-      "artist": "奥華子",
+      "title": "カラフル",
+      "artist": "ClariS",
       "count": 16
     },
     {
-      "title": "カラフル",
-      "artist": "ClariS",
+      "title": "アポリア",
+      "artist": "ヨルシカ",
       "count": 16
     },
     {
@@ -164,11 +169,6 @@
       "count": 15
     },
     {
-      "title": "アポリア",
-      "artist": "ヨルシカ",
-      "count": 15
-    },
-    {
       "title": "雨とカプチーノ",
       "artist": "ヨルシカ",
       "count": 15
@@ -189,6 +189,11 @@
       "count": 14
     },
     {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 14
+    },
+    {
       "title": "IRIS OUT",
       "artist": "米津玄師",
       "count": 14
@@ -201,6 +206,11 @@
     {
       "title": "月のワルツ",
       "artist": "諫山実生",
+      "count": 14
+    },
+    {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
       "count": 14
     },
     {
@@ -224,11 +234,6 @@
       "count": 13
     },
     {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
-      "count": 13
-    },
-    {
       "title": "ハロ/ハワユ",
       "artist": "ナノウ",
       "count": 13
@@ -239,8 +244,8 @@
       "count": 13
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
       "count": 13
     },
     {
@@ -279,6 +284,11 @@
       "count": 12
     },
     {
+      "title": "ウィアートル",
+      "artist": "rionos",
+      "count": 12
+    },
+    {
       "title": "春泥棒",
       "artist": "ヨルシカ",
       "count": 12
@@ -304,8 +314,8 @@
       "count": 12
     },
     {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
+      "title": "サリシノハラ",
+      "artist": "みきとP",
       "count": 12
     },
     {
@@ -356,11 +366,6 @@
     {
       "title": "God knows...",
       "artist": "平野綾",
-      "count": 11
-    },
-    {
-      "title": "ウィアートル",
-      "artist": "rionos",
       "count": 11
     },
     {
@@ -431,11 +436,6 @@
     {
       "title": "ヒバナ",
       "artist": "DECO*27",
-      "count": 11
-    },
-    {
-      "title": "サリシノハラ",
-      "artist": "みきとP",
       "count": 11
     },
     {
@@ -774,6 +774,16 @@
       "count": 8
     },
     {
+      "title": "いのちの名前",
+      "artist": "木村弓",
+      "count": 8
+    },
+    {
+      "title": "エウテルペ",
+      "artist": "EGOIST",
+      "count": 8
+    },
+    {
       "title": "ブルーバード",
       "artist": "いきものがかり",
       "count": 8
@@ -814,6 +824,11 @@
       "count": 8
     },
     {
+      "title": "天ノ弱",
+      "artist": "164",
+      "count": 8
+    },
+    {
       "title": "ヒステリックナイトガール",
       "artist": "PSYQUI",
       "count": 8
@@ -824,8 +839,23 @@
       "count": 8
     },
     {
+      "title": "死にゆく季節のきみへ",
+      "artist": "麻枝准×やなぎなぎ",
+      "count": 8
+    },
+    {
+      "title": "心拍数♯0822",
+      "artist": "蝶々P",
+      "count": 8
+    },
+    {
       "title": "二息歩行",
       "artist": "DECO*27",
+      "count": 8
+    },
+    {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
       "count": 8
     },
     {
@@ -1004,13 +1034,8 @@
       "count": 7
     },
     {
-      "title": "いのちの名前",
-      "artist": "木村弓",
-      "count": 7
-    },
-    {
-      "title": "エウテルペ",
-      "artist": "EGOIST",
+      "title": "テルーの唄",
+      "artist": "手嶌葵",
       "count": 7
     },
     {
@@ -1044,23 +1069,8 @@
       "count": 7
     },
     {
-      "title": "天ノ弱",
-      "artist": "164",
-      "count": 7
-    },
-    {
-      "title": "死にゆく季節のきみへ",
-      "artist": "麻枝准×やなぎなぎ",
-      "count": 7
-    },
-    {
       "title": "バレリーコ",
       "artist": "みきとP",
-      "count": 7
-    },
-    {
-      "title": "心拍数♯0822",
-      "artist": "蝶々P",
       "count": 7
     },
     {
@@ -1074,6 +1084,11 @@
       "count": 7
     },
     {
+      "title": "この世界で見つけたもの",
+      "artist": "EGOIST",
+      "count": 7
+    },
+    {
       "title": "死ぬにはいい日だった",
       "artist": "ピコン",
       "count": 7
@@ -1081,11 +1096,6 @@
     {
       "title": "六兆年と一夜物語",
       "artist": "kemu",
-      "count": 7
-    },
-    {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
       "count": 7
     },
     {
@@ -1234,6 +1244,11 @@
       "count": 6
     },
     {
+      "title": "フクロウ ~フクロウが知らせる客が来たと~",
+      "artist": "KOKIA",
+      "count": 6
+    },
+    {
       "title": "ルマ",
       "artist": "かいりきベア",
       "count": 6
@@ -1266,11 +1281,6 @@
     {
       "title": "晩餐歌",
       "artist": "tuki.",
-      "count": 6
-    },
-    {
-      "title": "テルーの唄",
-      "artist": "手嶌葵",
       "count": 6
     },
     {
@@ -1329,13 +1339,13 @@
       "count": 6
     },
     {
-      "title": "いろは唄",
-      "artist": "銀サク",
+      "title": "サイレント・マジョリティ",
+      "artist": "Heavenz",
       "count": 6
     },
     {
-      "title": "この世界で見つけたもの",
-      "artist": "EGOIST",
+      "title": "いろは唄",
+      "artist": "銀サク",
       "count": 6
     },
     {
@@ -1544,11 +1554,6 @@
       "count": 5
     },
     {
-      "title": "フクロウ ~フクロウが知らせる客が来たと~",
-      "artist": "KOKIA",
-      "count": 5
-    },
-    {
       "title": "ユキトキ",
       "artist": "やなぎなぎ",
       "count": 5
@@ -1674,11 +1679,6 @@
       "count": 5
     },
     {
-      "title": "サイレント・マジョリティ",
-      "artist": "Heavenz",
-      "count": 5
-    },
-    {
       "title": "マーシャル・マキシマイザー",
       "artist": "柊マグネタイト",
       "count": 5
@@ -1701,6 +1701,16 @@
     {
       "title": "キミソラキセキ",
       "artist": "EGOIST",
+      "count": 5
+    },
+    {
+      "title": "give it back",
+      "artist": "Cö shu Nie",
+      "count": 5
+    },
+    {
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
       "count": 5
     },
     {
@@ -2024,6 +2034,11 @@
       "count": 4
     },
     {
+      "title": "蜜月アン・ドゥ・トロワ",
+      "artist": "DATEKEN",
+      "count": 4
+    },
+    {
       "title": "チェリーポップ",
       "artist": "DECO*27",
       "count": 4
@@ -2139,8 +2154,8 @@
       "count": 4
     },
     {
-      "title": "give it back",
-      "artist": "Cö shu Nie",
+      "title": "Alice",
+      "artist": "古川本舗",
       "count": 4
     },
     {
@@ -2154,8 +2169,8 @@
       "count": 4
     },
     {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
+      "title": "A Dream Is a Wish Your Heart Makes",
+      "artist": "Ilene Woods",
       "count": 4
     },
     {
@@ -2589,11 +2604,6 @@
       "count": 3
     },
     {
-      "title": "蜜月アン・ドゥ・トロワ",
-      "artist": "DATEKEN",
-      "count": 3
-    },
-    {
       "title": "邪魔",
       "artist": "syudou",
       "count": 3
@@ -2724,18 +2734,18 @@
       "count": 3
     },
     {
-      "title": "Alice",
-      "artist": "古川本舗",
-      "count": 3
-    },
-    {
       "title": "原罪の灯",
       "artist": "EGOIST",
       "count": 3
     },
     {
-      "title": "A Dream Is a Wish Your Heart Makes",
-      "artist": "Ilene Woods",
+      "title": "輝く未来",
+      "artist": "畠中洋&小此木麻里",
+      "count": 3
+    },
+    {
+      "title": "Part of Your World",
+      "artist": "Jodi Benson",
       "count": 3
     },
     {
@@ -3679,18 +3689,13 @@
       "count": 2
     },
     {
-      "title": "輝く未来",
-      "artist": "畠中洋&小此木麻里",
-      "count": 2
-    },
-    {
       "title": "雨景色",
       "artist": "ロクデナシ",
       "count": 2
     },
     {
-      "title": "Part of Your World",
-      "artist": "Jodi Benson",
+      "title": "A Whole New World",
+      "artist": "Mena Massoud & Naomi Scott",
       "count": 2
     },
     {
@@ -5134,11 +5139,6 @@
       "count": 1
     },
     {
-      "title": "A Whole New World",
-      "artist": "Mena Massoud & Naomi Scott",
-      "count": 1
-    },
-    {
       "title": "快晴",
       "artist": "orangester",
       "count": 1
@@ -5186,6 +5186,11 @@
     {
       "title": "One day",
       "artist": "THE ROOTLESS",
+      "count": 1
+    },
+    {
+      "title": "蒼エーテル",
+      "artist": "ランカ・リー",
       "count": 1
     },
     {
