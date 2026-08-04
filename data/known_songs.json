@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1475,
-  "uniqueTitles": 1431,
+  "totalEntries": 1477,
+  "uniqueTitles": 1432,
   "uniqueArtists": 671,
   "songs": [
     {
@@ -1199,6 +1199,11 @@
       "count": 7
     },
     {
+      "title": "ラヴィ",
+      "artist": "すりぃ",
+      "count": 7
+    },
+    {
       "title": "心に穴が空いた",
       "artist": "ヨルシカ",
       "count": 7
@@ -1451,11 +1456,6 @@
     {
       "title": "あの夢をなぞって",
       "artist": "YOASOBI",
-      "count": 6
-    },
-    {
-      "title": "ラヴィ",
-      "artist": "すりぃ",
       "count": 6
     },
     {
@@ -2539,6 +2539,11 @@
       "count": 4
     },
     {
+      "title": "ライラック",
+      "artist": "Mrs. GREEN APPLE",
+      "count": 4
+    },
+    {
       "title": "ジェットロケット",
       "artist": "LiSA",
       "count": 4
@@ -3421,11 +3426,6 @@
     {
       "title": "マリーゴールド",
       "artist": "あいみょん",
-      "count": 3
-    },
-    {
-      "title": "ライラック",
-      "artist": "Mrs. GREEN APPLE",
       "count": 3
     },
     {
@@ -5191,6 +5191,11 @@
     {
       "title": "蒼エーテル",
       "artist": "ランカ・リー",
+      "count": 1
+    },
+    {
+      "title": "花筏",
+      "artist": "orangester",
       "count": 1
     },
     {
@@ -7376,6 +7381,11 @@
     {
       "title": "心よ原始に戻れ",
       "artist": "高橋洋子",
+      "count": 1
+    },
+    {
+      "title": "へび",
+      "artist": "ヨルシカ",
       "count": 1
     }
   ],

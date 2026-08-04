@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-08-01T13:23:38.629374+00:00",
+  "lastFetched": "2026-08-04T14:16:18.567952+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -38305,6 +38305,60 @@
       ],
       "sourceCommentId": "",
       "type": "stream"
+    },
+    {
+      "videoId": "eeQTHwde0K4",
+      "title": "ラヴィ(Lavie) / すりぃ 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-04T09:00:17Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "ラヴィ",
+          "titleRaw": "ラヴィ(Lavie)",
+          "artist": "すりぃ",
+          "artistRaw": "すりぃ",
+          "url": "https://youtu.be/eeQTHwde0K4"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "Drsahl_XyvU",
+      "title": "ライラック / Mrs. GREEN APPLE 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-03T09:00:23Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "ライラック",
+          "titleRaw": "ライラック",
+          "artist": "Mrs. GREEN APPLE",
+          "artistRaw": "Mrs. GREEN APPLE",
+          "url": "https://youtu.be/Drsahl_XyvU"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "fly-pdCR0aE",
+      "title": "へび / ヨルシカ 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-02T09:00:04Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "へび",
+          "titleRaw": "へび",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/fly-pdCR0aE"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }

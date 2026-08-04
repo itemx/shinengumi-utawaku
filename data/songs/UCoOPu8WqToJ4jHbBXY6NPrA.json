@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-08-04T08:47:12.285513+00:00",
+  "lastFetched": "2026-08-04T14:16:18.877800+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -13475,6 +13475,24 @@
       ],
       "sourceCommentId": "issue#59",
       "type": "stream"
+    },
+    {
+      "videoId": "Rjkz4r_ktD0",
+      "title": "花筏 / orangester #歌ってみた #shorts #cover #vtuber #新人vtuber #vsinger #花筏 #orangestar #vstreamer",
+      "publishedAt": "2026-08-03T09:07:33Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "花筏",
+          "titleRaw": "花筏",
+          "artist": "orangester",
+          "artistRaw": "orangester",
+          "url": "https://youtu.be/Rjkz4r_ktD0"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }

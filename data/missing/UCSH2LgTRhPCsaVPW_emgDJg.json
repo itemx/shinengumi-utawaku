@@ -1,9 +1,16 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "generatedAt": "2026-08-01T13:23:38.666509+00:00",
+  "generatedAt": "2026-08-04T14:16:18.606053+00:00",
   "totalSearched": 173,
   "totalWithSetlist": 142,
-  "totalMissing": 0,
-  "missing": []
+  "totalMissing": 1,
+  "missing": [
+    {
+      "videoId": "KpUssdsqRCs",
+      "title": "【歌枠】8月最初の歌枠！8月の暑さに負けるな！あなたの魂を揺らすVsinger✨【VTuber/配信中】",
+      "publishedAt": "2026-08-03T11:03:58Z",
+      "url": "https://www.youtube.com/watch?v=KpUssdsqRCs"
+    }
+  ]
 }
