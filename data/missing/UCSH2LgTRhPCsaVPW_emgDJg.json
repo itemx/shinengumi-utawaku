@@ -1,9 +1,16 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "generatedAt": "2026-08-04T14:16:18.606053+00:00",
+  "generatedAt": "2026-08-07T13:05:49.599484+00:00",
   "totalSearched": 173,
   "totalWithSetlist": 142,
-  "totalMissing": 0,
-  "missing": []
+  "totalMissing": 1,
+  "missing": [
+    {
+      "videoId": "TsfnmTOxioQ",
+      "title": "【歌枠】初見さん！助けて！あなたの魂を揺らすVsinger✨【VTuber/配信中】",
+      "publishedAt": "2026-08-07T11:18:55Z",
+      "url": "https://www.youtube.com/watch?v=TsfnmTOxioQ"
+    }
+  ]
 }
