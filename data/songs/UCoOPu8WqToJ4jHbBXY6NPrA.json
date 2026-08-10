@@ -13518,29 +13518,11 @@
       "publishedAt": "2026-08-06T19:30:46Z",
       "songs": [
         {
-          "timestamp": "03:41",
-          "seconds": 221,
-          "title": "声入り",
-          "titleRaw": "声入り",
-          "artist": "",
-          "artistRaw": "",
-          "url": "https://youtu.be/ghUTCdUGaNM?t=221"
-        },
-        {
-          "timestamp": "08:26",
-          "seconds": 506,
-          "title": "開幕",
-          "titleRaw": "開幕",
-          "artist": "",
-          "artistRaw": "",
-          "url": "https://youtu.be/ghUTCdUGaNM?t=506"
-        },
-        {
           "timestamp": "09:00",
           "seconds": 540,
           "title": "鯨が落ちる街",
           "titleRaw": "鯨が落ちる街",
-          "artist": "",
+          "artist": "ロクデナシ",
           "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=540"
         },
@@ -13626,6 +13608,15 @@
           "url": "https://youtu.be/ghUTCdUGaNM?t=3261"
         },
         {
+          "timestamp": "58:08",
+          "seconds": 3488,
+          "title": "だから僕は音楽を辞めた",
+          "titleRaw": "だから僕は音楽を辞めた",
+          "artist": "ヨルシカ",
+          "artistRaw": "",
+          "url": "https://youtu.be/ghUTCdUGaNM?t=3488"
+        },
+        {
           "timestamp": "1:02:55",
           "seconds": 3775,
           "title": "花に亡霊",
@@ -13642,6 +13633,15 @@
           "artist": "ヨルシカ",
           "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=4029"
+        },
+        {
+          "timestamp": "1:25:47",
+          "seconds": 5147,
+          "title": "1/6 -out of the gravity -16th piano mix",
+          "titleRaw": "1/6 -out of the gravity -16th piano mix",
+          "artist": "",
+          "artistRaw": "",
+          "url": "https://youtu.be/ghUTCdUGaNM?t=5147"
         },
         {
           "timestamp": "1:30:31",
@@ -13666,8 +13666,8 @@
           "seconds": 6004,
           "title": "サリシノハラ",
           "titleRaw": "サリシノハラ",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=6004"
         },
         {
@@ -13675,8 +13675,8 @@
           "seconds": 6295,
           "title": "天ノ弱",
           "titleRaw": "天ノ弱",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=6295"
         },
         {
@@ -13684,8 +13684,8 @@
           "seconds": 6505,
           "title": "二息歩行",
           "titleRaw": "二息歩行",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=6505"
         },
         {
@@ -13693,8 +13693,8 @@
           "seconds": 6785,
           "title": "Hello,Worker",
           "titleRaw": "Hello,Worker",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=6785"
         },
         {
@@ -13702,8 +13702,8 @@
           "seconds": 7043,
           "title": "六兆年と一夜物語",
           "titleRaw": "六兆年と一夜物語",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=7043"
         },
         {
@@ -13711,8 +13711,8 @@
           "seconds": 7339,
           "title": "ヒバナ",
           "titleRaw": "ヒバナ",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=7339"
         },
         {
@@ -13720,8 +13720,8 @@
           "seconds": 7627,
           "title": "乙女解剖",
           "titleRaw": "乙女解剖",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=7627"
         },
         {
@@ -13729,8 +13729,8 @@
           "seconds": 7950,
           "title": "妄想税",
           "titleRaw": "妄想税",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=7950"
         },
         {
@@ -13738,8 +13738,8 @@
           "seconds": 8337,
           "title": "ベノム",
           "titleRaw": "ベノム",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=8337"
         },
         {
@@ -13747,8 +13747,8 @@
           "seconds": 8707,
           "title": "夕景イエスタデイ",
           "titleRaw": "夕景イエスタデイ",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=8707"
         },
         {
@@ -13756,8 +13756,8 @@
           "seconds": 9589,
           "title": "吉原ラメント",
           "titleRaw": "吉原ラメント",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=9589"
         },
         {
@@ -13765,8 +13765,8 @@
           "seconds": 9873,
           "title": "メランコリック",
           "titleRaw": "メランコリック",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=9873"
         },
         {
@@ -13774,8 +13774,8 @@
           "seconds": 10137,
           "title": "夜に駆ける",
           "titleRaw": "夜に駆ける",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=10137"
         },
         {
@@ -13783,8 +13783,8 @@
           "seconds": 10400,
           "title": "サマータイムレコード",
           "titleRaw": "サマータイムレコード",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=10400"
         },
         {
@@ -13792,8 +13792,8 @@
           "seconds": 10675,
           "title": "ロストワンの号哭",
           "titleRaw": "ロストワンの号哭",
-          "artist": "Piano Ver.",
-          "artistRaw": "Piano Ver.",
+          "artist": "",
+          "artistRaw": "",
           "url": "https://youtu.be/ghUTCdUGaNM?t=10675"
         },
         {
