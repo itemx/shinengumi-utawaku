@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1502,
-  "uniqueTitles": 1445,
+  "totalEntries": 1505,
+  "uniqueTitles": 1448,
   "uniqueArtists": 672,
   "songs": [
     {
@@ -54,14 +54,14 @@
       "count": 19
     },
     {
-      "title": "ANIMA",
-      "artist": "ReoNa",
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
       "count": 18
     },
     {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
-      "count": 17
+      "title": "ANIMA",
+      "artist": "ReoNa",
+      "count": 18
     },
     {
       "title": "ビビデバ",
@@ -114,6 +114,11 @@
       "count": 16
     },
     {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 16
+    },
+    {
       "title": "紅蓮華",
       "artist": "LiSA",
       "count": 16
@@ -154,11 +159,6 @@
       "count": 15
     },
     {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
-      "count": 15
-    },
-    {
       "title": "モニタリング",
       "artist": "DECO*27",
       "count": 15
@@ -176,6 +176,16 @@
     {
       "title": "花になって",
       "artist": "緑黄色社会",
+      "count": 15
+    },
+    {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 15
+    },
+    {
+      "title": "悪魔の子",
+      "artist": "ヒグチアイ",
       "count": 15
     },
     {
@@ -209,18 +219,8 @@
       "count": 14
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 14
-    },
-    {
       "title": "ギラギラ",
       "artist": "Ado",
-      "count": 14
-    },
-    {
-      "title": "悪魔の子",
-      "artist": "ヒグチアイ",
       "count": 14
     },
     {
@@ -304,6 +304,11 @@
       "count": 12
     },
     {
+      "title": "恋愛裁判",
+      "artist": "40mP",
+      "count": 12
+    },
+    {
       "title": "春泥棒",
       "artist": "ヨルシカ",
       "count": 12
@@ -336,6 +341,11 @@
     {
       "title": "うたかた花火",
       "artist": "ryo (supercell)",
+      "count": 12
+    },
+    {
+      "title": "Ghost of a smile",
+      "artist": "EGOIST",
       "count": 12
     },
     {
@@ -386,11 +396,6 @@
     {
       "title": "GHOST",
       "artist": "星街すいせい",
-      "count": 11
-    },
-    {
-      "title": "恋愛裁判",
-      "artist": "40mP",
       "count": 11
     },
     {
@@ -454,6 +459,11 @@
       "count": 11
     },
     {
+      "title": "からくりピエロ",
+      "artist": "40mP",
+      "count": 11
+    },
+    {
       "title": "心という名の不可解",
       "artist": "Ado",
       "count": 11
@@ -461,11 +471,6 @@
     {
       "title": "青のすみか",
       "artist": "キタニタツヤ",
-      "count": 11
-    },
-    {
-      "title": "Ghost of a smile",
-      "artist": "EGOIST",
       "count": 11
     },
     {
@@ -536,11 +541,6 @@
     {
       "title": "一度だけの恋なら",
       "artist": "ワルキューレ",
-      "count": 10
-    },
-    {
-      "title": "からくりピエロ",
-      "artist": "40mP",
       "count": 10
     },
     {
@@ -649,6 +649,11 @@
       "count": 9
     },
     {
+      "title": "帝国少女",
+      "artist": "R Sound Design",
+      "count": 9
+    },
+    {
       "title": "ネクロネイディア",
       "artist": "渉海よひら",
       "count": 9
@@ -661,6 +666,11 @@
     {
       "title": "セレナーデ",
       "artist": "なとり",
+      "count": 9
+    },
+    {
+      "title": "死にゆく季節のきみへ",
+      "artist": "麻枝准×やなぎなぎ",
       "count": 9
     },
     {
@@ -774,6 +784,11 @@
       "count": 8
     },
     {
+      "title": "スパークル",
+      "artist": "RADWIMPS",
+      "count": 8
+    },
+    {
       "title": "メルト",
       "artist": "ryo (supercell)",
       "count": 8
@@ -829,11 +844,6 @@
       "count": 8
     },
     {
-      "title": "帝国少女",
-      "artist": "R Sound Design",
-      "count": 8
-    },
-    {
       "title": "なんでもないや",
       "artist": "RADWIMPS",
       "count": 8
@@ -859,13 +869,13 @@
       "count": 8
     },
     {
-      "title": "ヒステリックナイトガール",
-      "artist": "PSYQUI",
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
       "count": 8
     },
     {
-      "title": "死にゆく季節のきみへ",
-      "artist": "麻枝准×やなぎなぎ",
+      "title": "ヒステリックナイトガール",
+      "artist": "PSYQUI",
       "count": 8
     },
     {
@@ -1024,11 +1034,6 @@
       "count": 7
     },
     {
-      "title": "スパークル",
-      "artist": "RADWIMPS",
-      "count": 7
-    },
-    {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
       "count": 7
@@ -1119,11 +1124,6 @@
       "count": 7
     },
     {
-      "title": "アクアテラリウム",
-      "artist": "やなぎなぎ",
-      "count": 7
-    },
-    {
       "title": "メリッサ",
       "artist": "ポルノグラフィティ",
       "count": 7
@@ -1151,6 +1151,11 @@
     {
       "title": "六兆年と一夜物語",
       "artist": "kemu",
+      "count": 7
+    },
+    {
+      "title": "give it back",
+      "artist": "Cö shu Nie",
       "count": 7
     },
     {
@@ -1279,6 +1284,11 @@
       "count": 6
     },
     {
+      "title": "ヴィーナスとジーザス",
+      "artist": "やくしまるえつこ",
+      "count": 6
+    },
+    {
       "title": "鏡面の波",
       "artist": "YURiKA",
       "count": 6
@@ -1386,11 +1396,6 @@
     {
       "title": "いろは唄",
       "artist": "銀サク",
-      "count": 6
-    },
-    {
-      "title": "give it back",
-      "artist": "Cö shu Nie",
       "count": 6
     },
     {
@@ -1584,6 +1589,11 @@
       "count": 6
     },
     {
+      "title": "垂直落下",
+      "artist": "傘村トータ",
+      "count": 5
+    },
+    {
       "title": "竹取オーバーナイトセンセーション",
       "artist": "HoneyWorks",
       "count": 5
@@ -1604,13 +1614,13 @@
       "count": 5
     },
     {
-      "title": "ダーリン",
-      "artist": "須田景凪",
+      "title": "少年よ我に帰れ",
+      "artist": "やくしまるえつこ",
       "count": 5
     },
     {
-      "title": "ヴィーナスとジーザス",
-      "artist": "やくしまるえつこ",
+      "title": "ダーリン",
+      "artist": "須田景凪",
       "count": 5
     },
     {
@@ -1749,6 +1759,11 @@
       "count": 5
     },
     {
+      "title": "Alice",
+      "artist": "古川本舗",
+      "count": 5
+    },
+    {
       "title": "-ERROR",
       "artist": "niki",
       "count": 5
@@ -1759,6 +1774,11 @@
       "count": 5
     },
     {
+      "title": "永遠のあくる日",
+      "artist": "Ado",
+      "count": 5
+    },
+    {
       "title": "かくれんぼ",
       "artist": "AliA",
       "count": 5
@@ -1766,6 +1786,16 @@
     {
       "title": "スーパー・ノヴァ",
       "artist": "古川本舗",
+      "count": 5
+    },
+    {
+      "title": "A Dream Is a Wish Your Heart Makes",
+      "artist": "Ilene Woods",
+      "count": 5
+    },
+    {
+      "title": "妄想税",
+      "artist": "DECO*27",
       "count": 5
     },
     {
@@ -2064,11 +2094,6 @@
       "count": 5
     },
     {
-      "title": "垂直落下",
-      "artist": "傘村トータ",
-      "count": 4
-    },
-    {
       "title": "Endless Story",
       "artist": "田村ゆかり",
       "count": 4
@@ -2086,11 +2111,6 @@
     {
       "title": "夢のまた夢",
       "artist": "まふまふ",
-      "count": 4
-    },
-    {
-      "title": "少年よ我に帰れ",
-      "artist": "やくしまるえつこ",
       "count": 4
     },
     {
@@ -2224,18 +2244,8 @@
       "count": 4
     },
     {
-      "title": "Alice",
-      "artist": "古川本舗",
-      "count": 4
-    },
-    {
-      "title": "永遠のあくる日",
-      "artist": "Ado",
-      "count": 4
-    },
-    {
-      "title": "A Dream Is a Wish Your Heart Makes",
-      "artist": "Ilene Woods",
+      "title": "Part of Your World",
+      "artist": "Jodi Benson",
       "count": 4
     },
     {
@@ -2490,11 +2500,6 @@
     },
     {
       "title": "サラマンダー",
-      "artist": "DECO*27",
-      "count": 4
-    },
-    {
-      "title": "妄想税",
       "artist": "DECO*27",
       "count": 4
     },
@@ -2769,6 +2774,11 @@
       "count": 3
     },
     {
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
+      "count": 3
+    },
+    {
       "title": "輝く未来",
       "artist": "畠中洋&小此木麻里",
       "count": 3
@@ -2776,11 +2786,6 @@
     {
       "title": "雨景色",
       "artist": "ロクデナシ",
-      "count": 3
-    },
-    {
-      "title": "Part of Your World",
-      "artist": "Jodi Benson",
       "count": 3
     },
     {
@@ -3711,11 +3716,6 @@
     {
       "title": "炉心融解",
       "artist": "iroha",
-      "count": 2
-    },
-    {
-      "title": "花泡沫",
-      "artist": "ロクデナシ",
       "count": 2
     },
     {
@@ -5321,6 +5321,21 @@
     {
       "title": "Vitalization",
       "artist": "水樹奈々",
+      "count": 1
+    },
+    {
+      "title": "有心論",
+      "artist": "RADWIMPS",
+      "count": 1
+    },
+    {
+      "title": "鯨が落ちる街",
+      "artist": "ロクデナシ",
+      "count": 1
+    },
+    {
+      "title": "奏",
+      "artist": "スキマスイッチ",
       "count": 1
     },
     {
