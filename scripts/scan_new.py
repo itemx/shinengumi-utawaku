@@ -27,6 +27,7 @@ from scripts.lib.youtube_api import YouTubeClient
 from scripts.lib.comment_parser import parse_comment, pick_best_comment_with_owner
 from scripts.lib.title_parser import parse_cover_title, parse_original_song
 from scripts.lib.normalizer import load_aliases, normalize, load_known_songs, fill_missing_artist
+from scripts.lib.review_issue import create_review_issue
 from scripts.lib.data_store import (
     read_channel_data,
     write_channel_data,
@@ -38,6 +39,21 @@ from scripts.lib.data_store import (
 )
 
 MISSING_DIR = DATA_DIR / "missing"
+REVIEW_PATH = DATA_DIR / "review_requested.json"
+
+
+def load_review_requested() -> set[str]:
+    """已開過 review issue 的 videoId (避免重複開)。"""
+    if REVIEW_PATH.exists():
+        return set(json.loads(REVIEW_PATH.read_text(encoding="utf-8")))
+    return set()
+
+
+def save_review_requested(ids: set[str]):
+    REVIEW_PATH.write_text(
+        json.dumps(sorted(ids), ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 # 歌枠判定 (同 find_missing.py)
 _UTAWAKU_PATTERNS = re.compile(
@@ -104,6 +120,8 @@ def main():
 
     total_new = 0
     total_missing = 0
+    total_review = 0
+    review_requested = load_review_requested()
 
     for ch in channels:
         channel_id = ch["channelId"]
@@ -231,6 +249,19 @@ def main():
                             "artist": artist, "artistRaw": s.artist_raw,
                             "url": f"https://youtu.be/{vid_id}?t={s.seconds}",
                         })
+                    # 有曲目缺歌手 → 不自動入庫，開 review issue 待人工補完
+                    if any(not s["artist"] for s in song_entries):
+                        if vid_id in review_requested:
+                            print(f"      🎫 {title[:50]}: 已開過 review issue，跳過")
+                        else:
+                            ok = create_review_issue(
+                                vid_id, title, channel_id, song_entries,
+                            )
+                            if ok:
+                                review_requested.add(vid_id)
+                                total_review += 1
+                        continue
+
                     video_entry = {
                         "videoId": vid_id,
                         "title": title,
@@ -296,9 +327,13 @@ def main():
         missing_data["totalMissing"] = len(missing_data.get("missing", []))
         save_missing(channel_id, missing_data)
 
+    # 記錄已開 review 的 videoId
+    save_review_requested(review_requested)
+
     # 摘要
     print(f"\n{'='*50}")
-    print(f"完成！新增 {total_new} 部有セトリ影片, {total_missing} 部加入 missing")
+    print(f"完成！新增 {total_new} 部有セトリ影片, "
+          f"{total_review} 部開 review issue, {total_missing} 部加入 missing")
     print(f"YouTube API 用量: {yt.units_consumed} units")
 
 

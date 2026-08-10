@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   actions: write
+  issues: write
 
 jobs:
   scan:
@@ -25,6 +26,8 @@ jobs:
       - name: Scan for new videos (last 7 days)
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: python scripts/scan_new.py --days 7
 
       - name: Build stats
