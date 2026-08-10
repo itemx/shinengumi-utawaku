@@ -53,7 +53,16 @@ _SKIP_TITLES = {
     "おまけ", "アンコール前MC",
     "オープニングトーク", "エンディングトーク", "MC",
     "はじまり", "始まり",
+    "声入り", "開幕", "開演", "閉幕", "前説", "待機",
 }
+
+# 分割後若「歌手」其實是版本標註 (Piano Ver. 等)，應丟棄並視為標準版
+_VER_ANNOTATION_RE = re.compile(
+    r"^(?:[\wぁ-んァ-ヶ・]+\s*)*"
+    r"(?:piano|acoustic|ピアノ|弾き語り|full|short|original|アカペラ|a\s*cappella)?"
+    r"\s*ver\.?$",
+    re.IGNORECASE,
+)
 
 # 雜談 timestamp 特徵 (含「話」「の件」等)
 _TALK_PATTERNS = re.compile(
@@ -203,6 +212,10 @@ def parse_comment(
 
         # 分離曲名與歌手
         title, artist = _split_title_artist(rest)
+
+        # 「歌手」其實是版本標註 (曲名 - Piano Ver.) → 丟棄，視為標準版
+        if artist and _VER_ANNOTATION_RE.match(artist.strip()):
+            artist = ""
 
         if not title:
             continue

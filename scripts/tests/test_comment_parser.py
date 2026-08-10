@@ -262,3 +262,31 @@ class TestPickBestComment:
     def test_empty_list(self):
         result = pick_best_comment_with_owner([])
         assert result is None
+
+
+class TestNotationFiltering:
+    def test_piano_ver_treated_as_standard(self):
+        text = (
+            "1:40:04 サリシノハラ - Piano Ver.\n"
+            "1:44:55 天ノ弱 - Piano Ver.\n"
+            "1:53:05 Hello,Worker - Piano Ver."
+        )
+        songs = parse_comment(text)
+        assert songs is not None
+        titles = {s.title_raw for s in songs}
+        assert titles == {"サリシノハラ", "天ノ弱", "Hello,Worker"}
+        # version annotation must not leak into artist
+        assert all("ver" not in (s.artist_raw or "").lower() for s in songs)
+
+    def test_skip_non_song_markers(self):
+        text = (
+            "03:41 声入り\n08:26 開幕\n19:44 トーク①\n"
+            "09:00 鯨が落ちる街\n16:38 ただ声一つ\n41:43 愛が灯る"
+        )
+        songs = parse_comment(text)
+        assert songs is not None
+        titles = {s.title_raw for s in songs}
+        assert "声入り" not in titles
+        assert "開幕" not in titles
+        assert not any("トーク" in t for t in titles)
+        assert {"鯨が落ちる街", "ただ声一つ", "愛が灯る"} <= titles
