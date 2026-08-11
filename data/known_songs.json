@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1495,
-  "uniqueTitles": 1451,
+  "totalEntries": 1496,
+  "uniqueTitles": 1452,
   "uniqueArtists": 674,
   "songs": [
     {
@@ -24,6 +24,11 @@
       "count": 24
     },
     {
+      "title": "創聖のアクエリオン",
+      "artist": "AKINO",
+      "count": 23
+    },
+    {
       "title": "晴る",
       "artist": "ヨルシカ",
       "count": 23
@@ -34,9 +39,9 @@
       "count": 22
     },
     {
-      "title": "創聖のアクエリオン",
-      "artist": "AKINO",
-      "count": 22
+      "title": "君の知らない物語",
+      "artist": "ryo (supercell)",
+      "count": 20
     },
     {
       "title": "Calc.",
@@ -44,8 +49,8 @@
       "count": 19
     },
     {
-      "title": "君の知らない物語",
-      "artist": "ryo (supercell)",
+      "title": "空色デイズ",
+      "artist": "中川翔子",
       "count": 19
     },
     {
@@ -64,8 +69,8 @@
       "count": 18
     },
     {
-      "title": "空色デイズ",
-      "artist": "中川翔子",
+      "title": "Across the world !!",
+      "artist": "深淵組",
       "count": 18
     },
     {
@@ -94,11 +99,6 @@
       "count": 17
     },
     {
-      "title": "Across the world !!",
-      "artist": "深淵組",
-      "count": 17
-    },
-    {
       "title": "怪物",
       "artist": "YOASOBI",
       "count": 17
@@ -107,6 +107,11 @@
       "title": "アポリア",
       "artist": "ヨルシカ",
       "count": 17
+    },
+    {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
+      "count": 16
     },
     {
       "title": "Butter-Fly",
@@ -157,11 +162,6 @@
       "title": "プロポーズ",
       "artist": "なとり",
       "count": 16
-    },
-    {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
-      "count": 15
     },
     {
       "title": "だから僕は音楽を辞めた",
@@ -314,6 +314,11 @@
       "count": 12
     },
     {
+      "title": "風になる",
+      "artist": "つじあやの",
+      "count": 12
+    },
+    {
       "title": "春泥棒",
       "artist": "ヨルシカ",
       "count": 12
@@ -414,11 +419,6 @@
       "count": 11
     },
     {
-      "title": "風になる",
-      "artist": "つじあやの",
-      "count": 11
-    },
-    {
       "title": "月光食堂",
       "artist": "ぬー (古川本舗)",
       "count": 11
@@ -446,6 +446,11 @@
     {
       "title": "I beg you",
       "artist": "Aimer",
+      "count": 11
+    },
+    {
+      "title": "一度だけの恋なら",
+      "artist": "ワルキューレ",
       "count": 11
     },
     {
@@ -541,11 +546,6 @@
     {
       "title": "カタオモイ",
       "artist": "Aimer",
-      "count": 10
-    },
-    {
-      "title": "一度だけの恋なら",
-      "artist": "ワルキューレ",
       "count": 10
     },
     {
@@ -646,6 +646,11 @@
     {
       "title": "HARUKAZE",
       "artist": "SCANDAL",
+      "count": 9
+    },
+    {
+      "title": "いのちの名前",
+      "artist": "木村弓",
       "count": 9
     },
     {
@@ -816,11 +821,6 @@
     {
       "title": "ライオン",
       "artist": "May'n & 中島愛",
-      "count": 8
-    },
-    {
-      "title": "いのちの名前",
-      "artist": "木村弓",
       "count": 8
     },
     {
@@ -1041,6 +1041,11 @@
     {
       "title": "レクイエム",
       "artist": "Kanaria",
+      "count": 7
+    },
+    {
+      "title": "鏡面の波",
+      "artist": "YURiKA",
       "count": 7
     },
     {
@@ -1291,11 +1296,6 @@
     {
       "title": "ヴィーナスとジーザス",
       "artist": "やくしまるえつこ",
-      "count": 6
-    },
-    {
-      "title": "鏡面の波",
-      "artist": "YURiKA",
       "count": 6
     },
     {
@@ -2259,6 +2259,11 @@
       "count": 4
     },
     {
+      "title": "メリュー",
+      "artist": "n-buna",
+      "count": 4
+    },
+    {
       "title": "ルンがピカッと光ったら",
       "artist": "ワルキューレ",
       "count": 4
@@ -2654,6 +2659,16 @@
       "count": 3
     },
     {
+      "title": "プレパレード",
+      "artist": "逢坂大河・櫛枝実乃梨・川嶋亜美",
+      "count": 3
+    },
+    {
+      "title": "冒険でしょでしょ?",
+      "artist": "平野綾",
+      "count": 3
+    },
+    {
       "title": "邪魔",
       "artist": "syudou",
       "count": 3
@@ -2799,8 +2814,8 @@
       "count": 3
     },
     {
-      "title": "メリュー",
-      "artist": "n-buna",
+      "title": "想像フォレスト",
+      "artist": "じん",
       "count": 3
     },
     {
@@ -3534,6 +3549,11 @@
       "count": 2
     },
     {
+      "title": "春を待つ",
+      "artist": "Islet",
+      "count": 2
+    },
+    {
       "title": "クイーンオブハート",
       "artist": "奏音69",
       "count": 2
@@ -3554,6 +3574,11 @@
       "count": 2
     },
     {
+      "title": "ジェヘナ",
+      "artist": "wotaku",
+      "count": 2
+    },
+    {
       "title": "旧支配者のキャロル",
       "artist": "クトゥルフ神話",
       "count": 2
@@ -3566,16 +3591,6 @@
     {
       "title": "エルの楽園 [→ side:E →]",
       "artist": "Sound Horizon",
-      "count": 2
-    },
-    {
-      "title": "プレパレード",
-      "artist": "逢坂大河・櫛枝実乃梨・川嶋亜美",
-      "count": 2
-    },
-    {
-      "title": "冒険でしょでしょ?",
-      "artist": "平野綾",
       "count": 2
     },
     {
@@ -3619,6 +3634,11 @@
       "count": 2
     },
     {
+      "title": "RESISTER",
+      "artist": "ASCA",
+      "count": 2
+    },
+    {
       "title": "もぐもぐYUMMY!",
       "artist": "猫又おかゆ",
       "count": 2
@@ -3636,6 +3656,11 @@
     {
       "title": "革命デュアリズム",
       "artist": "水樹奈々×T.M.Revolution",
+      "count": 2
+    },
+    {
+      "title": "花の唄",
+      "artist": "Aimer",
       "count": 2
     },
     {
@@ -3679,6 +3704,11 @@
       "count": 2
     },
     {
+      "title": "Magia",
+      "artist": "Kalafina",
+      "count": 2
+    },
+    {
       "title": "七転八起☆至上主義!",
       "artist": "KOTOKO",
       "count": 2
@@ -3694,6 +3724,11 @@
       "count": 2
     },
     {
+      "title": "君の銀の庭",
+      "artist": "Kalafina",
+      "count": 2
+    },
+    {
       "title": "君の願いが世界を輝かす",
       "artist": "MISIA",
       "count": 2
@@ -3701,6 +3736,11 @@
     {
       "title": "愛くださいませ",
       "artist": "≠ME",
+      "count": 2
+    },
+    {
+      "title": "夜桜",
+      "artist": "くじら",
       "count": 2
     },
     {
@@ -4529,11 +4569,6 @@
       "count": 2
     },
     {
-      "title": "想像フォレスト",
-      "artist": "じん",
-      "count": 2
-    },
-    {
       "title": "パンダヒーロー",
       "artist": "米津玄師",
       "count": 2
@@ -4869,11 +4904,6 @@
       "count": 1
     },
     {
-      "title": "春を待つ",
-      "artist": "Islet",
-      "count": 1
-    },
-    {
       "title": "栞",
       "artist": "クリープハイプ",
       "count": 1
@@ -4881,11 +4911,6 @@
     {
       "title": "D/N/A",
       "artist": "Azari",
-      "count": 1
-    },
-    {
-      "title": "ジェヘナ",
-      "artist": "wotaku",
       "count": 1
     },
     {
@@ -4979,11 +5004,6 @@
       "count": 1
     },
     {
-      "title": "RESISTER",
-      "artist": "ASCA",
-      "count": 1
-    },
-    {
       "title": "アイドルライフスターターパック",
       "artist": "iLiFE!",
       "count": 1
@@ -5034,11 +5054,6 @@
       "count": 1
     },
     {
-      "title": "花の唄",
-      "artist": "Aimer",
-      "count": 1
-    },
-    {
       "title": "オトノケ",
       "artist": "Creepy Nuts",
       "count": 1
@@ -5071,11 +5086,6 @@
     {
       "title": "FOCUS",
       "artist": "KIRA",
-      "count": 1
-    },
-    {
-      "title": "Magia",
-      "artist": "Kalafina",
       "count": 1
     },
     {
@@ -5129,11 +5139,6 @@
       "count": 1
     },
     {
-      "title": "君の銀の庭",
-      "artist": "Kalafina",
-      "count": 1
-    },
-    {
       "title": "深淵のデカダンス",
       "artist": "岡田梨央",
       "count": 1
@@ -5171,11 +5176,6 @@
     {
       "title": "Blast!",
       "artist": "TRUE",
-      "count": 1
-    },
-    {
-      "title": "夜桜",
-      "artist": "くじら",
       "count": 1
     },
     {
@@ -5301,6 +5301,11 @@
     {
       "title": "BON VOYAGE!",
       "artist": "BON-BON BLANCO",
+      "count": 1
+    },
+    {
+      "title": "春はゆく",
+      "artist": "Aimer",
       "count": 1
     },
     {
