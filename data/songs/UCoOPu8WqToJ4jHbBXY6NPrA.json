@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-08-10T09:45:17.775921+00:00",
+  "lastFetched": "2026-08-11T08:36:23.788534+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -14248,6 +14248,132 @@
         }
       ],
       "sourceCommentId": "issue#62",
+      "type": "stream"
+    },
+    {
+      "videoId": "5NIwhlvOf2I",
+      "title": "【 #歌枠 / #karaoke 】5万人ありがとう～！！！記念の歌枠！初見さんみつけてください✨【 #渉海よひら /深淵組】",
+      "publishedAt": "2025-01-26T08:31:26Z",
+      "songs": [
+        {
+          "timestamp": "9:22",
+          "seconds": 562,
+          "title": "空色デイズ",
+          "titleRaw": "空色デイズ",
+          "artist": "中川翔子",
+          "artistRaw": "中川翔子",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=562"
+        },
+        {
+          "timestamp": "16:59",
+          "seconds": 1019,
+          "title": "プラチナ",
+          "titleRaw": "プラチナ",
+          "artist": "坂本真綾",
+          "artistRaw": "坂本真綾",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=1019"
+        },
+        {
+          "timestamp": "25:52",
+          "seconds": 1552,
+          "title": "創聖のアクエリオン",
+          "titleRaw": "創聖のアクエリオン",
+          "artist": "AKINO",
+          "artistRaw": "AKINO",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=1552"
+        },
+        {
+          "timestamp": "35:53",
+          "seconds": 2153,
+          "title": "君の神話 ~アクエリオン第二章",
+          "titleRaw": "君の神話 ~アクエリオン第二章",
+          "artist": "AKINO with bless4",
+          "artistRaw": "AKINO with bless4",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=2153"
+        },
+        {
+          "timestamp": "45:51",
+          "seconds": 2751,
+          "title": "モニタリング",
+          "titleRaw": "モニタリング",
+          "artist": "DECO*27",
+          "artistRaw": "DECO*27",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=2751"
+        },
+        {
+          "timestamp": "53:21",
+          "seconds": 3201,
+          "title": "スイートマジック",
+          "titleRaw": "スイートマジック",
+          "artist": "Junky",
+          "artistRaw": "Junky",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=3201"
+        },
+        {
+          "timestamp": "1:00:07",
+          "seconds": 3607,
+          "title": "this game",
+          "titleRaw": "this game",
+          "artist": "鈴木このみ",
+          "artistRaw": "鈴木このみ",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=3607"
+        },
+        {
+          "timestamp": "1:07:55",
+          "seconds": 4075,
+          "title": "特捜戦隊デカレンジャー",
+          "titleRaw": "特捜戦隊デカレンジャー",
+          "artist": "サイキックラバー",
+          "artistRaw": "サイキックラバー",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=4075"
+        },
+        {
+          "timestamp": "1:21:22",
+          "seconds": 4882,
+          "title": "Climax Jump",
+          "titleRaw": "Climax Jump",
+          "artist": "AAA DEN-O form",
+          "artistRaw": "AAA DEN-O form",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=4882"
+        },
+        {
+          "timestamp": "1:30:27",
+          "seconds": 5427,
+          "title": "DANZEN!ふたりはプリキュア Ver.MaxHeart",
+          "titleRaw": "DANZEN!ふたりはプリキュア Ver.MaxHeart",
+          "artist": "五條真由美",
+          "artistRaw": "五條真由美",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=5427"
+        },
+        {
+          "timestamp": "1:45:07",
+          "seconds": 6307,
+          "title": "BON VOYAGE!",
+          "titleRaw": "BON VOYAGE!",
+          "artist": "BON-BON BLANCO",
+          "artistRaw": "BON-BON BLANCO",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=6307"
+        },
+        {
+          "timestamp": "1:55:28",
+          "seconds": 6928,
+          "title": "1・2・3",
+          "titleRaw": "1・2・3",
+          "artist": "After the Rain",
+          "artistRaw": "After the Rain",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=6928"
+        },
+        {
+          "timestamp": "2:06:45",
+          "seconds": 7605,
+          "title": "Butter-Fly",
+          "titleRaw": "Butter-Fly",
+          "artist": "和田光司",
+          "artistRaw": "和田光司",
+          "url": "https://youtu.be/5NIwhlvOf2I?t=7605"
+        }
+      ],
+      "sourceCommentId": "issue#64",
       "type": "stream"
     }
   ]

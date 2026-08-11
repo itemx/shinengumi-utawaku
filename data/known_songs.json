@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1490,
-  "uniqueTitles": 1446,
-  "uniqueArtists": 671,
+  "totalEntries": 1495,
+  "uniqueTitles": 1451,
+  "uniqueArtists": 674,
   "songs": [
     {
       "title": "少女レイ",
@@ -36,7 +36,7 @@
     {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
-      "count": 21
+      "count": 22
     },
     {
       "title": "Calc.",
@@ -64,6 +64,11 @@
       "count": 18
     },
     {
+      "title": "空色デイズ",
+      "artist": "中川翔子",
+      "count": 18
+    },
+    {
       "title": "ビビデバ",
       "artist": "星街すいせい",
       "count": 17
@@ -81,11 +86,6 @@
     {
       "title": "少女S",
       "artist": "SCANDAL",
-      "count": 17
-    },
-    {
-      "title": "空色デイズ",
-      "artist": "中川翔子",
       "count": 17
     },
     {
@@ -109,6 +109,11 @@
       "count": 17
     },
     {
+      "title": "Butter-Fly",
+      "artist": "和田光司",
+      "count": 16
+    },
+    {
       "title": "Tell Your World",
       "artist": "kz (livetune)",
       "count": 16
@@ -121,6 +126,11 @@
     {
       "title": "紅蓮華",
       "artist": "LiSA",
+      "count": 16
+    },
+    {
+      "title": "モニタリング",
+      "artist": "DECO*27",
       "count": 16
     },
     {
@@ -161,16 +171,6 @@
     {
       "title": "初めての恋が終わる時",
       "artist": "ryo (supercell)",
-      "count": 15
-    },
-    {
-      "title": "Butter-Fly",
-      "artist": "和田光司",
-      "count": 15
-    },
-    {
-      "title": "モニタリング",
-      "artist": "DECO*27",
       "count": 15
     },
     {
@@ -289,6 +289,11 @@
       "count": 13
     },
     {
+      "title": "プラチナ",
+      "artist": "坂本真綾",
+      "count": 12
+    },
+    {
       "title": "シンデレラ",
       "artist": "DECO*27",
       "count": 12
@@ -377,11 +382,6 @@
       "title": "藍二乗",
       "artist": "ヨルシカ",
       "count": 12
-    },
-    {
-      "title": "プラチナ",
-      "artist": "坂本真綾",
-      "count": 11
     },
     {
       "title": "ワールドイズマイン",
@@ -909,6 +909,11 @@
       "count": 8
     },
     {
+      "title": "1・2・3",
+      "artist": "After the Rain",
+      "count": 8
+    },
+    {
       "title": "Mela!",
       "artist": "緑黄色社会",
       "count": 8
@@ -1246,11 +1251,6 @@
     {
       "title": "KICK BACK",
       "artist": "米津玄師",
-      "count": 7
-    },
-    {
-      "title": "1・2・3",
-      "artist": "After the Rain",
       "count": 7
     },
     {
@@ -2194,6 +2194,11 @@
       "count": 4
     },
     {
+      "title": "君の神話 ~アクエリオン第二章",
+      "artist": "AKINO with bless4",
+      "count": 4
+    },
+    {
       "title": "Os 宇宙人",
       "artist": "エリオをかまってちゃん",
       "count": 4
@@ -2721,11 +2726,6 @@
     {
       "title": "Petals",
       "artist": "Orangestar",
-      "count": 3
-    },
-    {
-      "title": "君の神話 ~アクエリオン第二章",
-      "artist": "AKINO with bless4",
       "count": 3
     },
     {
@@ -3741,6 +3741,11 @@
     {
       "title": "鯨が落ちる街",
       "artist": "ロクデナシ",
+      "count": 2
+    },
+    {
+      "title": "スイートマジック",
+      "artist": "Junky",
       "count": 2
     },
     {
@@ -5274,6 +5279,31 @@
       "count": 1
     },
     {
+      "title": "this game",
+      "artist": "鈴木このみ",
+      "count": 1
+    },
+    {
+      "title": "特捜戦隊デカレンジャー",
+      "artist": "サイキックラバー",
+      "count": 1
+    },
+    {
+      "title": "Climax Jump",
+      "artist": "AAA DEN-O form",
+      "count": 1
+    },
+    {
+      "title": "DANZEN!ふたりはプリキュア Ver.MaxHeart",
+      "artist": "五條真由美",
+      "count": 1
+    },
+    {
+      "title": "BON VOYAGE!",
+      "artist": "BON-BON BLANCO",
+      "count": 1
+    },
+    {
       "title": "イエスタデイ",
       "artist": "Official髭男dism",
       "count": 1
@@ -6554,11 +6584,6 @@
       "count": 1
     },
     {
-      "title": "スイートマジック",
-      "artist": "Junky",
-      "count": 1
-    },
-    {
       "title": "sweets parade",
       "artist": "髏々宮カルタ (花澤香菜)",
       "count": 1
@@ -7466,6 +7491,7 @@
     "9Lana",
     "A-RISE",
     "AAA",
+    "AAA DEN-O form",
     "AKASAKI",
     "AKB48",
     "AKINO",
@@ -7494,6 +7520,7 @@
     "A応P",
     "BIGBANG",
     "BLUE ENCOUNT",
+    "BON-BON BLANCO",
     "BUMP OF CHICKEN",
     "Base Ball Bear",
     "BiBi (μ's)",
@@ -7832,6 +7859,7 @@
     "コレサワ",
     "ゴダイゴ",
     "ゴールデンボンバー",
+    "サイキックラバー",
     "サカナクション",
     "サザンオールスターズ",
     "サスケ",
