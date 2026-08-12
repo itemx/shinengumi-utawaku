@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-08-12T03:44:05.748672+00:00",
+  "lastFetched": "2026-08-12T04:46:36.996110+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -14797,6 +14797,123 @@
         }
       ],
       "sourceCommentId": "issue#66",
+      "type": "stream"
+    },
+    {
+      "videoId": "zMZ217rI7rE",
+      "title": "【 #歌枠 / #karaoke 】真夜中のSINGING STREAM！初見さん大歓迎！【 #渉海よひら /深淵組】",
+      "publishedAt": "2025-02-04T18:22:45Z",
+      "songs": [
+        {
+          "timestamp": "17:54",
+          "seconds": 1074,
+          "title": "Brave Shine",
+          "titleRaw": "Brave Shine",
+          "artist": "Aimer",
+          "artistRaw": "Aimer",
+          "url": "https://youtu.be/zMZ217rI7rE?t=1074"
+        },
+        {
+          "timestamp": "24:05",
+          "seconds": 1445,
+          "title": "一番の宝物",
+          "titleRaw": "一番の宝物",
+          "artist": "Girls Dead Monster",
+          "artistRaw": "Girls Dead Monster",
+          "url": "https://youtu.be/zMZ217rI7rE?t=1445"
+        },
+        {
+          "timestamp": "31:05",
+          "seconds": 1865,
+          "title": "晩餐歌",
+          "titleRaw": "晩餐歌",
+          "artist": "tuki.",
+          "artistRaw": "tuki.",
+          "url": "https://youtu.be/zMZ217rI7rE?t=1865"
+        },
+        {
+          "timestamp": "37:20",
+          "seconds": 2240,
+          "title": "ドライフラワー",
+          "titleRaw": "ドライフラワー",
+          "artist": "優里",
+          "artistRaw": "優里",
+          "url": "https://youtu.be/zMZ217rI7rE?t=2240"
+        },
+        {
+          "timestamp": "47:14",
+          "seconds": 2834,
+          "title": "アンノウンマザーグース",
+          "titleRaw": "アンノウンマザーグース",
+          "artist": "wowaka",
+          "artistRaw": "wowaka",
+          "url": "https://youtu.be/zMZ217rI7rE?t=2834"
+        },
+        {
+          "timestamp": "56:53",
+          "seconds": 3413,
+          "title": "心拍数♯0822",
+          "titleRaw": "心拍数♯0822",
+          "artist": "蝶々P",
+          "artistRaw": "蝶々P",
+          "url": "https://youtu.be/zMZ217rI7rE?t=3413"
+        },
+        {
+          "timestamp": "1:25:21",
+          "seconds": 5121,
+          "title": "恋愛裁判",
+          "titleRaw": "恋愛裁判",
+          "artist": "40mP",
+          "artistRaw": "40mP",
+          "url": "https://youtu.be/zMZ217rI7rE?t=5121"
+        },
+        {
+          "timestamp": "1:35:30",
+          "seconds": 5730,
+          "title": "Alice in 冷凍庫",
+          "titleRaw": "Alice in 冷凍庫",
+          "artist": "Orangestar",
+          "artistRaw": "Orangestar",
+          "url": "https://youtu.be/zMZ217rI7rE?t=5730"
+        },
+        {
+          "timestamp": "1:41:00",
+          "seconds": 6060,
+          "title": "忘れじの言の葉",
+          "titleRaw": "忘れじの言の葉",
+          "artist": "未来古代楽団",
+          "artistRaw": "未来古代楽団",
+          "url": "https://youtu.be/zMZ217rI7rE?t=6060"
+        },
+        {
+          "timestamp": "1:46:34",
+          "seconds": 6394,
+          "title": "フクロウ ~フクロウが知らせる客が来たと~",
+          "titleRaw": "フクロウ ~フクロウが知らせる客が来たと~",
+          "artist": "KOKIA",
+          "artistRaw": "KOKIA",
+          "url": "https://youtu.be/zMZ217rI7rE?t=6394"
+        },
+        {
+          "timestamp": "1:56:34",
+          "seconds": 6994,
+          "title": "All Alone With You",
+          "titleRaw": "All Alone With You",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/zMZ217rI7rE?t=6994"
+        },
+        {
+          "timestamp": "2:52:59",
+          "seconds": 10379,
+          "title": "旧支配者のキャロル",
+          "titleRaw": "旧支配者のキャロル",
+          "artist": "クトゥルフ神話",
+          "artistRaw": "クトゥルフ神話",
+          "url": "https://youtu.be/zMZ217rI7rE?t=10379"
+        }
+      ],
+      "sourceCommentId": "issue#67",
       "type": "stream"
     }
   ]

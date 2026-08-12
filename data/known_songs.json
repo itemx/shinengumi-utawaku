@@ -1,17 +1,17 @@
 {
-  "totalEntries": 1496,
-  "uniqueTitles": 1452,
+  "totalEntries": 1498,
+  "uniqueTitles": 1454,
   "uniqueArtists": 674,
   "songs": [
+    {
+      "title": "All Alone With You",
+      "artist": "EGOIST",
+      "count": 26
+    },
     {
       "title": "少女レイ",
       "artist": "みきとP",
       "count": 26
-    },
-    {
-      "title": "All Alone With You",
-      "artist": "EGOIST",
-      "count": 25
     },
     {
       "title": "花に亡霊",
@@ -179,6 +179,11 @@
       "count": 15
     },
     {
+      "title": "忘れじの言の葉",
+      "artist": "未来古代楽団",
+      "count": 15
+    },
+    {
       "title": "フォニイ",
       "artist": "ツミキ",
       "count": 15
@@ -206,11 +211,6 @@
     {
       "title": "星間飛行",
       "artist": "ランカ・リー",
-      "count": 14
-    },
-    {
-      "title": "忘れじの言の葉",
-      "artist": "未来古代楽団",
       "count": 14
     },
     {
@@ -251,6 +251,16 @@
     {
       "title": "ウィアートル",
       "artist": "rionos",
+      "count": 13
+    },
+    {
+      "title": "恋愛裁判",
+      "artist": "40mP",
+      "count": 13
+    },
+    {
+      "title": "一番の宝物",
+      "artist": "Girls Dead Monster",
       "count": 13
     },
     {
@@ -314,11 +324,6 @@
       "count": 12
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP",
-      "count": 12
-    },
-    {
       "title": "風になる",
       "artist": "つじあやの",
       "count": 12
@@ -341,11 +346,6 @@
     {
       "title": "群青",
       "artist": "YOASOBI",
-      "count": 12
-    },
-    {
-      "title": "一番の宝物",
-      "artist": "Girls Dead Monster",
       "count": 12
     },
     {
@@ -421,6 +421,11 @@
     {
       "title": "GHOST",
       "artist": "星街すいせい",
+      "count": 11
+    },
+    {
+      "title": "Brave Shine",
+      "artist": "Aimer",
       "count": 11
     },
     {
@@ -539,11 +544,6 @@
       "count": 10
     },
     {
-      "title": "Brave Shine",
-      "artist": "Aimer",
-      "count": 10
-    },
-    {
       "title": "Snow halation",
       "artist": "μ's",
       "count": 10
@@ -556,6 +556,11 @@
     {
       "title": "カタオモイ",
       "artist": "Aimer",
+      "count": 10
+    },
+    {
+      "title": "心拍数♯0822",
+      "artist": "蝶々P",
       "count": 10
     },
     {
@@ -681,11 +686,6 @@
     {
       "title": "死にゆく季節のきみへ",
       "artist": "麻枝准×やなぎなぎ",
-      "count": 9
-    },
-    {
-      "title": "心拍数♯0822",
-      "artist": "蝶々P",
       "count": 9
     },
     {
@@ -1074,6 +1074,11 @@
       "count": 7
     },
     {
+      "title": "フクロウ ~フクロウが知らせる客が来たと~",
+      "artist": "KOKIA",
+      "count": 7
+    },
+    {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
       "count": 7
@@ -1111,6 +1116,11 @@
     {
       "title": "夜もすがら君想ふ",
       "artist": "西沢さんP",
+      "count": 7
+    },
+    {
+      "title": "晩餐歌",
+      "artist": "tuki.",
       "count": 7
     },
     {
@@ -1314,11 +1324,6 @@
       "count": 6
     },
     {
-      "title": "フクロウ ~フクロウが知らせる客が来たと~",
-      "artist": "KOKIA",
-      "count": 6
-    },
-    {
       "title": "ルマ",
       "artist": "かいりきベア",
       "count": 6
@@ -1354,11 +1359,6 @@
       "count": 6
     },
     {
-      "title": "晩餐歌",
-      "artist": "tuki.",
-      "count": 6
-    },
-    {
       "title": "僕らの戦場",
       "artist": "ワルキューレ",
       "count": 6
@@ -1391,6 +1391,11 @@
     {
       "title": "夕立のりぼん",
       "artist": "みきとP",
+      "count": 6
+    },
+    {
+      "title": "ドライフラワー",
+      "artist": "優里",
       "count": 6
     },
     {
@@ -1751,11 +1756,6 @@
     {
       "title": "Hello, Worker",
       "artist": "KEI",
-      "count": 5
-    },
-    {
-      "title": "ドライフラワー",
-      "artist": "優里",
       "count": 5
     },
     {
@@ -2656,6 +2656,11 @@
     {
       "title": "アディショナルメモリー",
       "artist": "じん",
+      "count": 3
+    },
+    {
+      "title": "旧支配者のキャロル",
+      "artist": "クトゥルフ神話",
       "count": 3
     },
     {
@@ -3581,11 +3586,6 @@
     {
       "title": "ジェヘナ",
       "artist": "wotaku",
-      "count": 2
-    },
-    {
-      "title": "旧支配者のキャロル",
-      "artist": "クトゥルフ神話",
       "count": 2
     },
     {
@@ -5306,6 +5306,16 @@
     {
       "title": "春はゆく",
       "artist": "Aimer",
+      "count": 1
+    },
+    {
+      "title": "アンノウンマザーグース",
+      "artist": "wowaka",
+      "count": 1
+    },
+    {
+      "title": "Alice in 冷凍庫",
+      "artist": "Orangestar",
       "count": 1
     },
     {
