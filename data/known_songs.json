@@ -9,14 +9,14 @@
       "count": 26
     },
     {
-      "title": "花に亡霊",
-      "artist": "ヨルシカ",
+      "title": "All Alone With You",
+      "artist": "EGOIST",
       "count": 25
     },
     {
-      "title": "All Alone With You",
-      "artist": "EGOIST",
-      "count": 24
+      "title": "花に亡霊",
+      "artist": "ヨルシカ",
+      "count": 25
     },
     {
       "title": "残響散歌",
@@ -44,6 +44,11 @@
       "count": 20
     },
     {
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
+      "count": 19
+    },
+    {
       "title": "Calc.",
       "artist": "ジミーサムP",
       "count": 19
@@ -62,11 +67,6 @@
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 19
-    },
-    {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
-      "count": 18
     },
     {
       "title": "Across the world !!",
@@ -114,6 +114,11 @@
       "count": 16
     },
     {
+      "title": "初めての恋が終わる時",
+      "artist": "ryo (supercell)",
+      "count": 16
+    },
+    {
       "title": "Butter-Fly",
       "artist": "和田光司",
       "count": 16
@@ -144,6 +149,11 @@
       "count": 16
     },
     {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 16
+    },
+    {
       "title": "カラフル",
       "artist": "ClariS",
       "count": 16
@@ -169,11 +179,6 @@
       "count": 15
     },
     {
-      "title": "初めての恋が終わる時",
-      "artist": "ryo (supercell)",
-      "count": 15
-    },
-    {
       "title": "フォニイ",
       "artist": "ツミキ",
       "count": 15
@@ -189,11 +194,6 @@
       "count": 15
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 15
-    },
-    {
       "title": "ギラギラ",
       "artist": "Ado",
       "count": 15
@@ -206,6 +206,11 @@
     {
       "title": "星間飛行",
       "artist": "ランカ・リー",
+      "count": 14
+    },
+    {
+      "title": "忘れじの言の葉",
+      "artist": "未来古代楽団",
       "count": 14
     },
     {
@@ -239,11 +244,6 @@
       "count": 13
     },
     {
-      "title": "忘れじの言の葉",
-      "artist": "未来古代楽団",
-      "count": 13
-    },
-    {
       "title": "ハロ/ハワユ",
       "artist": "ナノウ",
       "count": 13
@@ -266,6 +266,11 @@
     {
       "title": "アルジャーノン",
       "artist": "ヨルシカ",
+      "count": 13
+    },
+    {
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
       "count": 13
     },
     {
@@ -324,8 +329,23 @@
       "count": 12
     },
     {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 12
+    },
+    {
+      "title": "シリウスの心臓",
+      "artist": "ヰ世界情緒",
+      "count": 12
+    },
+    {
       "title": "群青",
       "artist": "YOASOBI",
+      "count": 12
+    },
+    {
+      "title": "一番の宝物",
+      "artist": "Girls Dead Monster",
       "count": 12
     },
     {
@@ -351,11 +371,6 @@
     {
       "title": "心という名の不可解",
       "artist": "Ado",
-      "count": 12
-    },
-    {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
       "count": 12
     },
     {
@@ -419,16 +434,6 @@
       "count": 11
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 11
-    },
-    {
-      "title": "シリウスの心臓",
-      "artist": "ヰ世界情緒",
-      "count": 11
-    },
-    {
       "title": "ピースサイン",
       "artist": "米津玄師",
       "count": 11
@@ -436,11 +441,6 @@
     {
       "title": "アスノヨゾラ哨戒班",
       "artist": "Orangestar",
-      "count": 11
-    },
-    {
-      "title": "一番の宝物",
-      "artist": "Girls Dead Monster",
       "count": 11
     },
     {
@@ -470,6 +470,11 @@
     },
     {
       "title": "からくりピエロ",
+      "artist": "40mP",
+      "count": 11
+    },
+    {
+      "title": "夏恋花火",
       "artist": "40mP",
       "count": 11
     },
@@ -529,6 +534,11 @@
       "count": 10
     },
     {
+      "title": "ハイドアンド・シーク",
+      "artist": "19's Sound Factory",
+      "count": 10
+    },
+    {
       "title": "Brave Shine",
       "artist": "Aimer",
       "count": 10
@@ -546,11 +556,6 @@
     {
       "title": "カタオモイ",
       "artist": "Aimer",
-      "count": 10
-    },
-    {
-      "title": "夏恋花火",
-      "artist": "40mP",
       "count": 10
     },
     {
@@ -611,11 +616,6 @@
     {
       "title": "言って。",
       "artist": "ヨルシカ",
-      "count": 9
-    },
-    {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory",
       "count": 9
     },
     {
@@ -794,6 +794,11 @@
       "count": 8
     },
     {
+      "title": "鏡面の波",
+      "artist": "YURiKA",
+      "count": 8
+    },
+    {
       "title": "スパークル",
       "artist": "RADWIMPS",
       "count": 8
@@ -894,6 +899,21 @@
       "count": 8
     },
     {
+      "title": "この世界で見つけたもの",
+      "artist": "EGOIST",
+      "count": 8
+    },
+    {
+      "title": "死ぬにはいい日だった",
+      "artist": "ピコン",
+      "count": 8
+    },
+    {
+      "title": "六兆年と一夜物語",
+      "artist": "kemu",
+      "count": 8
+    },
+    {
       "title": "あいのけもの",
       "artist": "古川本舗",
       "count": 8
@@ -911,6 +931,11 @@
     {
       "title": "1・2・3",
       "artist": "After the Rain",
+      "count": 8
+    },
+    {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
       "count": 8
     },
     {
@@ -1044,11 +1069,6 @@
       "count": 7
     },
     {
-      "title": "鏡面の波",
-      "artist": "YURiKA",
-      "count": 7
-    },
-    {
       "title": "Tot Musica",
       "artist": "Ado",
       "count": 7
@@ -1154,21 +1174,6 @@
       "count": 7
     },
     {
-      "title": "この世界で見つけたもの",
-      "artist": "EGOIST",
-      "count": 7
-    },
-    {
-      "title": "死ぬにはいい日だった",
-      "artist": "ピコン",
-      "count": 7
-    },
-    {
-      "title": "六兆年と一夜物語",
-      "artist": "kemu",
-      "count": 7
-    },
-    {
       "title": "give it back",
       "artist": "Cö shu Nie",
       "count": 7
@@ -1229,11 +1234,6 @@
       "count": 7
     },
     {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
-      "count": 7
-    },
-    {
       "title": "クラクラ",
       "artist": "Ado",
       "count": 7
@@ -1291,6 +1291,11 @@
     {
       "title": "さようなら、花泥棒さん",
       "artist": "メル",
+      "count": 6
+    },
+    {
+      "title": "少年よ我に帰れ",
+      "artist": "やくしまるえつこ",
       "count": 6
     },
     {
@@ -1401,6 +1406,21 @@
     {
       "title": "いろは唄",
       "artist": "銀サク",
+      "count": 6
+    },
+    {
+      "title": "Alice",
+      "artist": "古川本舗",
+      "count": 6
+    },
+    {
+      "title": "キミソラキセキ",
+      "artist": "EGOIST",
+      "count": 6
+    },
+    {
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
       "count": 6
     },
     {
@@ -1624,11 +1644,6 @@
       "count": 5
     },
     {
-      "title": "少年よ我に帰れ",
-      "artist": "やくしまるえつこ",
-      "count": 5
-    },
-    {
       "title": "ダーリン",
       "artist": "須田景凪",
       "count": 5
@@ -1774,18 +1789,8 @@
       "count": 5
     },
     {
-      "title": "Alice",
-      "artist": "古川本舗",
-      "count": 5
-    },
-    {
       "title": "-ERROR",
       "artist": "niki",
-      "count": 5
-    },
-    {
-      "title": "キミソラキセキ",
-      "artist": "EGOIST",
       "count": 5
     },
     {
@@ -1796,11 +1801,6 @@
     {
       "title": "かくれんぼ",
       "artist": "AliA",
-      "count": 5
-    },
-    {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
       "count": 5
     },
     {
@@ -2254,6 +2254,11 @@
       "count": 4
     },
     {
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
+      "count": 4
+    },
+    {
       "title": "Part of Your World",
       "artist": "Jodi Benson",
       "count": 4
@@ -2261,6 +2266,11 @@
     {
       "title": "メリュー",
       "artist": "n-buna",
+      "count": 4
+    },
+    {
+      "title": "ケッペキショウ",
+      "artist": "すこっぷ",
       "count": 4
     },
     {
@@ -2799,17 +2809,17 @@
       "count": 3
     },
     {
-      "title": "花泡沫",
-      "artist": "ロクデナシ",
-      "count": 3
-    },
-    {
       "title": "輝く未来",
       "artist": "畠中洋&小此木麻里",
       "count": 3
     },
     {
       "title": "雨景色",
+      "artist": "ロクデナシ",
+      "count": 3
+    },
+    {
+      "title": "鯨が落ちる街",
       "artist": "ロクデナシ",
       "count": 3
     },
@@ -3006,11 +3016,6 @@
     {
       "title": "愛錠",
       "artist": "LiSA",
-      "count": 3
-    },
-    {
-      "title": "ケッペキショウ",
-      "artist": "すこっぷ",
       "count": 3
     },
     {
@@ -3779,8 +3784,8 @@
       "count": 2
     },
     {
-      "title": "鯨が落ちる街",
-      "artist": "ロクデナシ",
+      "title": "有心論",
+      "artist": "RADWIMPS",
       "count": 2
     },
     {
@@ -5266,11 +5271,6 @@
     {
       "title": "Vitalization",
       "artist": "水樹奈々",
-      "count": 1
-    },
-    {
-      "title": "有心論",
-      "artist": "RADWIMPS",
       "count": 1
     },
     {
