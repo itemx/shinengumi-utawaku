@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1500,
-  "uniqueTitles": 1457,
+  "totalEntries": 1501,
+  "uniqueTitles": 1458,
   "uniqueArtists": 674,
   "songs": [
     {
@@ -354,6 +354,11 @@
       "count": 12
     },
     {
+      "title": "名前のない怪物",
+      "artist": "EGOIST",
+      "count": 12
+    },
+    {
       "title": "命に嫌われている",
       "artist": "カンザキイオリ",
       "count": 12
@@ -461,11 +466,6 @@
     {
       "title": "私は最強",
       "artist": "Ado",
-      "count": 11
-    },
-    {
-      "title": "名前のない怪物",
-      "artist": "EGOIST",
       "count": 11
     },
     {
@@ -1249,6 +1249,11 @@
       "count": 7
     },
     {
+      "title": "正しくなれない",
+      "artist": "ずっと真夜中でいいのに。",
+      "count": 7
+    },
+    {
       "title": "クラクラ",
       "artist": "Ado",
       "count": 7
@@ -1491,11 +1496,6 @@
     {
       "title": "Beautiful World",
       "artist": "宇多田ヒカル",
-      "count": 6
-    },
-    {
-      "title": "正しくなれない",
-      "artist": "ずっと真夜中でいいのに。",
       "count": 6
     },
     {
@@ -7501,6 +7501,11 @@
     {
       "title": "Naisho no Hanashi",
       "artist": "ClariS",
+      "count": 1
+    },
+    {
+      "title": "ラプンツェル Rapunzel",
+      "artist": "n-buna",
       "count": 1
     }
   ],

@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-08-10T13:10:32.182456+00:00",
+  "lastFetched": "2026-08-13T13:13:18.864322+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -39120,6 +39120,60 @@
           "artist": "amazarashi",
           "artistRaw": "amazarashi",
           "url": "https://youtu.be/KxJb1GXl4zk"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "hVbXdNUyVhM",
+      "title": "ラプンツェル Rapunzel / n-buna 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-13T09:00:02Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "ラプンツェル Rapunzel",
+          "titleRaw": "ラプンツェル Rapunzel",
+          "artist": "n-buna",
+          "artistRaw": "n-buna",
+          "url": "https://youtu.be/hVbXdNUyVhM"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "YZbj30PLxWo",
+      "title": "名前のない怪物 / EGOIST 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-12T09:00:22Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "名前のない怪物",
+          "titleRaw": "名前のない怪物",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/YZbj30PLxWo"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "fg9GGppi5zU",
+      "title": "正しくなれない / ずっと真夜中でいいのに。 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-11T09:00:31Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "正しくなれない",
+          "titleRaw": "正しくなれない",
+          "artist": "ずっと真夜中でいいのに。",
+          "artistRaw": "ずっと真夜中でいいのに。",
+          "url": "https://youtu.be/fg9GGppi5zU"
         }
       ],
       "sourceCommentId": "",

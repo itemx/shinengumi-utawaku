@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-08-12T10:37:28.712808+00:00",
+  "lastFetched": "2026-08-13T13:13:19.479529+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -15094,6 +15094,22 @@
         }
       ],
       "sourceCommentId": "issue#68",
+      "type": "stream"
+    },
+    {
+      "videoId": "MCzjW7V1bC8",
+      "title": "Alice in 冷凍庫 / Orangester #shorts #cover #歌ってみた",
+      "publishedAt": "2026-08-13T09:01:50Z",
+      "songs": [],
+      "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "lysiyu-Rrso",
+      "title": "アイスドロップ/aqu3ra #cover #歌ってみた #aqu3ra #アイスドロップ #プロセカ #moremorejump",
+      "publishedAt": "2026-08-12T09:14:53Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]
