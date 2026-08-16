@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1501,
-  "uniqueTitles": 1458,
-  "uniqueArtists": 674,
+  "totalEntries": 1512,
+  "uniqueTitles": 1464,
+  "uniqueArtists": 680,
   "songs": [
     {
       "title": "All Alone With You",
@@ -16,7 +16,7 @@
     {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
-      "count": 25
+      "count": 26
     },
     {
       "title": "残響散歌",
@@ -44,6 +44,11 @@
       "count": 20
     },
     {
+      "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
+      "count": 20
+    },
+    {
       "title": "おやすみ泣き声、さよなら歌姫",
       "artist": "クリープハイプ",
       "count": 19
@@ -59,11 +64,6 @@
       "count": 19
     },
     {
-      "title": "ただ君に晴れ",
-      "artist": "ヨルシカ",
-      "count": 19
-    },
-    {
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 19
@@ -71,6 +71,11 @@
     {
       "title": "夜明けと蛍",
       "artist": "n-buna",
+      "count": 18
+    },
+    {
+      "title": "Stellar Stellar",
+      "artist": "星街すいせい",
       "count": 18
     },
     {
@@ -86,11 +91,6 @@
     {
       "title": "モニタリング",
       "artist": "DECO*27",
-      "count": 17
-    },
-    {
-      "title": "Stellar Stellar",
-      "artist": "星街すいせい",
       "count": 17
     },
     {
@@ -209,6 +209,11 @@
       "count": 15
     },
     {
+      "title": "逆光",
+      "artist": "Ado",
+      "count": 15
+    },
+    {
       "title": "星間飛行",
       "artist": "ランカ・リー",
       "count": 14
@@ -231,11 +236,6 @@
     {
       "title": "Cry Baby",
       "artist": "Official髭男dism",
-      "count": 14
-    },
-    {
-      "title": "逆光",
-      "artist": "Ado",
       "count": 14
     },
     {
@@ -266,6 +266,11 @@
     {
       "title": "極楽浄土",
       "artist": "GARNiDELiA",
+      "count": 13
+    },
+    {
+      "title": "名前のない怪物",
+      "artist": "EGOIST",
       "count": 13
     },
     {
@@ -351,11 +356,6 @@
     {
       "title": "ソワレ",
       "artist": "星街すいせい",
-      "count": 12
-    },
-    {
-      "title": "名前のない怪物",
-      "artist": "EGOIST",
       "count": 12
     },
     {
@@ -574,6 +574,11 @@
       "count": 10
     },
     {
+      "title": "忘れてください",
+      "artist": "ヨルシカ",
+      "count": 10
+    },
+    {
       "title": "CHAINSAW BLOOD",
       "artist": "Vaundy",
       "count": 10
@@ -694,13 +699,13 @@
       "count": 9
     },
     {
-      "title": "勇者",
-      "artist": "YOASOBI",
+      "title": "斜陽",
+      "artist": "ヨルシカ",
       "count": 9
     },
     {
-      "title": "忘れてください",
-      "artist": "ヨルシカ",
+      "title": "勇者",
+      "artist": "YOASOBI",
       "count": 9
     },
     {
@@ -951,11 +956,6 @@
     {
       "title": "1・2・3",
       "artist": "After the Rain",
-      "count": 8
-    },
-    {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
       "count": 8
     },
     {
@@ -1219,6 +1219,11 @@
       "count": 7
     },
     {
+      "title": "左右盲",
+      "artist": "ヨルシカ",
+      "count": 7
+    },
+    {
       "title": "唱",
       "artist": "Ado",
       "count": 7
@@ -1269,6 +1274,11 @@
       "count": 7
     },
     {
+      "title": "Caramel Pain",
+      "artist": "星街すいせい",
+      "count": 7
+    },
+    {
       "title": "INTERNET YAMERO",
       "artist": "Aiobahn",
       "count": 7
@@ -1286,6 +1296,11 @@
     {
       "title": "ラヴィ",
       "artist": "すりぃ",
+      "count": 7
+    },
+    {
+      "title": "Crow Song",
+      "artist": "Girls Dead Monster",
       "count": 7
     },
     {
@@ -1469,11 +1484,6 @@
       "count": 6
     },
     {
-      "title": "左右盲",
-      "artist": "ヨルシカ",
-      "count": 6
-    },
-    {
       "title": "Fallen",
       "artist": "EGOIST",
       "count": 6
@@ -1519,11 +1529,6 @@
       "count": 6
     },
     {
-      "title": "Caramel Pain",
-      "artist": "星街すいせい",
-      "count": 6
-    },
-    {
       "title": "from Y to Y",
       "artist": "ジミーサムP",
       "count": 6
@@ -1556,11 +1561,6 @@
     {
       "title": "GLAMOROUS SKY",
       "artist": "NANA starring MIKA NAKASHIMA",
-      "count": 6
-    },
-    {
-      "title": "Crow Song",
-      "artist": "Girls Dead Monster",
       "count": 6
     },
     {
@@ -1611,6 +1611,11 @@
     {
       "title": "だってアタシのヒーロー。",
       "artist": "LiSA",
+      "count": 6
+    },
+    {
+      "title": "ヒッチコック",
+      "artist": "ヨルシカ",
       "count": 6
     },
     {
@@ -1889,6 +1894,11 @@
       "count": 5
     },
     {
+      "title": "more than words",
+      "artist": "羊文学",
+      "count": 5
+    },
+    {
       "title": "廻廻奇譚",
       "artist": "Eve",
       "count": 5
@@ -2101,11 +2111,6 @@
     {
       "title": "Together",
       "artist": "あきよしふみえ",
-      "count": 5
-    },
-    {
-      "title": "ヒッチコック",
-      "artist": "ヨルシカ",
       "count": 5
     },
     {
@@ -2334,11 +2339,6 @@
       "count": 4
     },
     {
-      "title": "more than words",
-      "artist": "羊文学",
-      "count": 4
-    },
-    {
       "title": "ゴーゴー幽霊船",
       "artist": "米津玄師",
       "count": 4
@@ -2471,6 +2471,11 @@
     {
       "title": "四季折々に揺蕩いて",
       "artist": "After the Rain",
+      "count": 4
+    },
+    {
+      "title": "GO!!!",
+      "artist": "FLOW",
       "count": 4
     },
     {
@@ -3099,11 +3104,6 @@
       "count": 3
     },
     {
-      "title": "GO!!!",
-      "artist": "FLOW",
-      "count": 3
-    },
-    {
       "title": "Bravely You",
       "artist": "Lia",
       "count": 3
@@ -3509,6 +3509,11 @@
       "count": 3
     },
     {
+      "title": "ハレ晴レユカイ",
+      "artist": "涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)",
+      "count": 3
+    },
+    {
       "title": "マリーゴールド",
       "artist": "あいみょん",
       "count": 3
@@ -3529,8 +3534,23 @@
       "count": 3
     },
     {
+      "title": "季節は次々死んでいく",
+      "artist": "amazarashi",
+      "count": 3
+    },
+    {
+      "title": "オレンジサイダー",
+      "artist": "LiSA",
+      "count": 3
+    },
+    {
       "title": "say my nameの片思い",
       "artist": "LiSA",
+      "count": 3
+    },
+    {
+      "title": "閃光",
+      "artist": "[Alexandros]",
       "count": 3
     },
     {
@@ -4744,11 +4764,6 @@
       "count": 2
     },
     {
-      "title": "ハレ晴レユカイ",
-      "artist": "涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)",
-      "count": 2
-    },
-    {
       "title": "ファンサ",
       "artist": "mona(夏川椎菜)",
       "count": 2
@@ -4819,17 +4834,7 @@
       "count": 2
     },
     {
-      "title": "季節は次々死んでいく",
-      "artist": "amazarashi",
-      "count": 2
-    },
-    {
       "title": "best day, best way",
-      "artist": "LiSA",
-      "count": 2
-    },
-    {
-      "title": "オレンジサイダー",
       "artist": "LiSA",
       "count": 2
     },
@@ -4879,8 +4884,8 @@
       "count": 2
     },
     {
-      "title": "閃光",
-      "artist": "[Alexandros]",
+      "title": "God knows...",
+      "artist": "涼宮ハルヒ(平野綾)",
       "count": 2
     },
     {
@@ -4891,6 +4896,16 @@
     {
       "title": "ラストリゾート",
       "artist": "Ayase",
+      "count": 2
+    },
+    {
+      "title": "ラプンツェル Rapunzel",
+      "artist": "n-buna",
+      "count": 2
+    },
+    {
+      "title": "怪獣",
+      "artist": "サカナクション",
       "count": 2
     },
     {
@@ -7409,11 +7424,6 @@
       "count": 1
     },
     {
-      "title": "God knows...",
-      "artist": "涼宮ハルヒ(平野綾)",
-      "count": 1
-    },
-    {
       "title": "Dancing in the Moonlight",
       "artist": "ワルキューレ",
       "count": 1
@@ -7504,8 +7514,53 @@
       "count": 1
     },
     {
-      "title": "ラプンツェル Rapunzel",
-      "artist": "n-buna",
+      "title": "雨き声残響",
+      "artist": "Orangestar",
+      "count": 1
+    },
+    {
+      "title": "Don't say“lazy”",
+      "artist": "桜高軽音部",
+      "count": 1
+    },
+    {
+      "title": "08 ギターと孤独と蒼い惑星",
+      "artist": "結束バンド",
+      "count": 1
+    },
+    {
+      "title": "咲いてJewel",
+      "artist": "鷺沢文香(M・A・O)、速水奏(飯田友子)、橘ありす(佐藤亜美菜)、塩見周子(ルゥティン)、二宮飛鳥(青木志貴)",
+      "count": 1
+    },
+    {
+      "title": "ROCK-mode '18",
+      "artist": "LiSA",
+      "count": 1
+    },
+    {
+      "title": "Tulip",
+      "artist": "速水奏(飯田友子)、塩見周子(ルゥティン)、城ヶ崎美嘉(佳村はるか)、宮本フレデリカ(高野麻美)、一ノ瀬志希(藍原ことみ)",
+      "count": 1
+    },
+    {
+      "title": "モザイクカケラ",
+      "artist": "SunSet Swish",
+      "count": 1
+    },
+    {
+      "title": "S(mile)ING!",
+      "artist": "島村卯月(大橋彩香)",
+      "count": 1
+    },
+    {
+      "title": "アタシポンコツアンドロイド",
+      "artist": "小日向美穂(津田美波)、双葉杏(五十嵐裕美)、前川みく(高森奈津美)",
+      "count": 1
+    },
+    {
+      "title": "純情Midnight伝説",
+      "artist": "向井拓海(原優子)、藤本里奈(金子真由美)、松永涼(千菅春香)、大和亜季(村中知)、木村夏樹(安野希世乃)",
       "count": 1
     }
   ],
@@ -7697,6 +7752,7 @@
     "Saint Snow",
     "See-Saw",
     "Sound Horizon",
+    "SunSet Swish",
     "Superfly",
     "T.M.Revolution",
     "T.M.Revolution×水樹奈々",
@@ -7990,6 +8046,7 @@
     "吉幾三",
     "吉本おじさん",
     "向井拓海 (原優子)、藤本里奈 (金子真由美)、松永涼 (千菅春香)、大和亜季 (村中知)、木村夏樹 (安野希世乃)",
+    "向井拓海(原優子)、藤本里奈(金子真由美)、松永涼(千菅春香)、大和亜季(村中知)、木村夏樹(安野希世乃)",
     "和ぬか",
     "和田たけあき (くらげP)",
     "和田光司",
@@ -8018,6 +8075,7 @@
     "家入レオ",
     "小倉唯",
     "小日向美穂 (津田美波)、双葉杏 (五十嵐裕美)、前川みく (高森奈津美)",
+    "小日向美穂(津田美波)、双葉杏(五十嵐裕美)、前川みく(高森奈津美)",
     "小野正利",
     "少女時代",
     "山口百恵",
@@ -8026,6 +8084,7 @@
     "岩崎良美",
     "島みやえい子",
     "島村卯月 (大橋彩香)",
+    "島村卯月(大橋彩香)",
     "島谷 ひとみ",
     "島谷ひとみ",
     "嵐",
@@ -8151,6 +8210,7 @@
     "諫山実生",
     "超ときめき宣伝部",
     "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
+    "速水奏(飯田友子)、塩見周子(ルゥティン)、城ヶ崎美嘉(佳村はるか)、宮本フレデリカ(高野麻美)、一ノ瀬志希(藍原ことみ)",
     "逢坂大河・櫛枝実乃梨・川嶋亜美",
     "那珂",
     "鄧麗君 (テレサ・テン)",
@@ -8177,6 +8237,7 @@
     "鮎川麻弥",
     "鷹嶺ルイ",
     "鷺沢文香 (M・A・O)、速水奏 (飯田友子)、橘ありす (佐藤亜美菜)、塩見周子 (ルゥティン)、二宮飛鳥 (青木志貴)",
+    "鷺沢文香(M・A・O)、速水奏(飯田友子)、橘ありす(佐藤亜美菜)、塩見周子(ルゥティン)、二宮飛鳥(青木志貴)",
     "麦わらの一味 (田中真弓,中井和哉,岡村明美,山口勝平,平田広明,大谷育江,山口由里子,矢尾一樹,チョー)",
     "麻枝准×やなぎなぎ",
     "黒うさP",
