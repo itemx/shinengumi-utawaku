@@ -1,8 +1,13 @@
 {
-  "totalEntries": 1512,
-  "uniqueTitles": 1465,
-  "uniqueArtists": 680,
+  "totalEntries": 1513,
+  "uniqueTitles": 1466,
+  "uniqueArtists": 681,
   "songs": [
+    {
+      "title": "花に亡霊",
+      "artist": "ヨルシカ",
+      "count": 27
+    },
     {
       "title": "All Alone With You",
       "artist": "EGOIST",
@@ -11,11 +16,6 @@
     {
       "title": "少女レイ",
       "artist": "みきとP",
-      "count": 26
-    },
-    {
-      "title": "花に亡霊",
-      "artist": "ヨルシカ",
       "count": 26
     },
     {
@@ -84,6 +84,11 @@
       "count": 18
     },
     {
+      "title": "アポリア",
+      "artist": "ヨルシカ",
+      "count": 18
+    },
+    {
       "title": "初めての恋が終わる時",
       "artist": "ryo (supercell)",
       "count": 17
@@ -114,11 +119,6 @@
       "count": 17
     },
     {
-      "title": "アポリア",
-      "artist": "ヨルシカ",
-      "count": 17
-    },
-    {
       "title": "悪魔の子",
       "artist": "ヒグチアイ",
       "count": 17
@@ -126,6 +126,11 @@
     {
       "title": "星降る海",
       "artist": "月見ヤチヨ",
+      "count": 16
+    },
+    {
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
       "count": 16
     },
     {
@@ -174,11 +179,6 @@
       "count": 16
     },
     {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
-      "count": 15
-    },
-    {
       "title": "忘れじの言の葉",
       "artist": "未来古代楽団",
       "count": 15
@@ -196,6 +196,11 @@
     {
       "title": "花になって",
       "artist": "緑黄色社会",
+      "count": 15
+    },
+    {
+      "title": "月のワルツ",
+      "artist": "諫山実生",
       "count": 15
     },
     {
@@ -224,13 +229,23 @@
       "count": 14
     },
     {
+      "title": "ウィアートル",
+      "artist": "rionos",
+      "count": 14
+    },
+    {
       "title": "コネクト",
       "artist": "ClariS",
       "count": 14
     },
     {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
+      "count": 14
+    },
+    {
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
       "count": 14
     },
     {
@@ -249,13 +264,13 @@
       "count": 13
     },
     {
-      "title": "ウィアートル",
-      "artist": "rionos",
+      "title": "恋愛裁判",
+      "artist": "40mP",
       "count": 13
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP",
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
       "count": 13
     },
     {
@@ -284,18 +299,13 @@
       "count": 13
     },
     {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
-      "count": 13
-    },
-    {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
-      "count": 13
-    },
-    {
       "title": "oath sign",
       "artist": "LiSA",
+      "count": 13
+    },
+    {
+      "title": "サマータイムレコード",
+      "artist": "じん",
       "count": 13
     },
     {
@@ -354,11 +364,6 @@
       "count": 12
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 12
-    },
-    {
       "title": "シリウスの心臓",
       "artist": "ヰ世界情緒",
       "count": 12
@@ -394,6 +399,11 @@
       "count": 12
     },
     {
+      "title": "からくりピエロ",
+      "artist": "40mP",
+      "count": 12
+    },
+    {
       "title": "心という名の不可解",
       "artist": "Ado",
       "count": 12
@@ -401,11 +411,6 @@
     {
       "title": "Ghost of a smile",
       "artist": "EGOIST",
-      "count": 12
-    },
-    {
-      "title": "サマータイムレコード",
-      "artist": "じん",
       "count": 12
     },
     {
@@ -432,6 +437,11 @@
       "title": "藍二乗",
       "artist": "ヨルシカ",
       "count": 12
+    },
+    {
+      "title": "ハイドアンド・シーク",
+      "artist": "19's Sound Factory",
+      "count": 11
     },
     {
       "title": "ワールドイズマイン",
@@ -484,11 +494,6 @@
       "count": 11
     },
     {
-      "title": "からくりピエロ",
-      "artist": "40mP",
-      "count": 11
-    },
-    {
       "title": "夏恋花火",
       "artist": "40mP",
       "count": 11
@@ -496,6 +501,11 @@
     {
       "title": "青のすみか",
       "artist": "キタニタツヤ",
+      "count": 11
+    },
+    {
+      "title": "Planetes",
+      "artist": "EGOIST",
       "count": 11
     },
     {
@@ -549,11 +559,6 @@
       "count": 10
     },
     {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory",
-      "count": 10
-    },
-    {
       "title": "地球最後の告白を",
       "artist": "kemu",
       "count": 10
@@ -574,13 +579,13 @@
       "count": 10
     },
     {
-      "title": "心拍数♯0822",
-      "artist": "蝶々P",
+      "title": "死にゆく季節のきみへ",
+      "artist": "麻枝准×やなぎなぎ",
       "count": 10
     },
     {
-      "title": "Planetes",
-      "artist": "EGOIST",
+      "title": "心拍数♯0822",
+      "artist": "蝶々P",
       "count": 10
     },
     {
@@ -654,6 +659,11 @@
       "count": 9
     },
     {
+      "title": "鏡面の波",
+      "artist": "YURiKA",
+      "count": 9
+    },
+    {
       "title": "スパークル",
       "artist": "RADWIMPS",
       "count": 9
@@ -671,6 +681,11 @@
     {
       "title": "独りんぼエンヴィー",
       "artist": "koyori (電ポルP)",
+      "count": 9
+    },
+    {
+      "title": "奏(かなで)",
+      "artist": "スキマスイッチ",
       "count": 9
     },
     {
@@ -714,13 +729,18 @@
       "count": 9
     },
     {
-      "title": "死にゆく季節のきみへ",
-      "artist": "麻枝准×やなぎなぎ",
+      "title": "二息歩行",
+      "artist": "DECO*27",
       "count": 9
     },
     {
-      "title": "二息歩行",
-      "artist": "DECO*27",
+      "title": "この世界で見つけたもの",
+      "artist": "EGOIST",
+      "count": 9
+    },
+    {
+      "title": "死ぬにはいい日だった",
+      "artist": "ピコン",
       "count": 9
     },
     {
@@ -829,6 +849,11 @@
       "count": 8
     },
     {
+      "title": "少年よ我に帰れ",
+      "artist": "やくしまるえつこ",
+      "count": 8
+    },
+    {
       "title": "妄想感傷代償連盟",
       "artist": "DECO*27",
       "count": 8
@@ -836,11 +861,6 @@
     {
       "title": "盛れ!ミ・アモーレ",
       "artist": "Juice=Juice",
-      "count": 8
-    },
-    {
-      "title": "鏡面の波",
-      "artist": "YURiKA",
       "count": 8
     },
     {
@@ -856,11 +876,6 @@
     {
       "title": "星が瞬くこんな夜に",
       "artist": "ryo (supercell)",
-      "count": 8
-    },
-    {
-      "title": "奏(かなで)",
-      "artist": "スキマスイッチ",
       "count": 8
     },
     {
@@ -941,16 +956,6 @@
     {
       "title": "愛が灯る",
       "artist": "ロクデナシ",
-      "count": 8
-    },
-    {
-      "title": "この世界で見つけたもの",
-      "artist": "EGOIST",
-      "count": 8
-    },
-    {
-      "title": "死ぬにはいい日だった",
-      "artist": "ピコン",
       "count": 8
     },
     {
@@ -1077,11 +1082,6 @@
       "title": "振り向いてGOD",
       "artist": "涼風しとら",
       "count": 8
-    },
-    {
-      "title": "少年よ我に帰れ",
-      "artist": "やくしまるえつこ",
-      "count": 7
     },
     {
       "title": "Reply",
@@ -1334,6 +1334,11 @@
       "count": 7
     },
     {
+      "title": "垂直落下",
+      "artist": "傘村トータ",
+      "count": 6
+    },
+    {
       "title": "Remember",
       "artist": "月見ヤチヨ",
       "count": 6
@@ -1414,6 +1419,11 @@
       "count": 6
     },
     {
+      "title": "回る空うさぎ",
+      "artist": "Orangestar",
+      "count": 6
+    },
+    {
       "title": "白い雪のプリンセスは",
       "artist": "のぼる↑",
       "count": 6
@@ -1461,6 +1471,11 @@
     {
       "title": "キミソラキセキ",
       "artist": "EGOIST",
+      "count": 6
+    },
+    {
+      "title": "永遠のあくる日",
+      "artist": "Ado",
       "count": 6
     },
     {
@@ -1649,11 +1664,6 @@
       "count": 6
     },
     {
-      "title": "垂直落下",
-      "artist": "傘村トータ",
-      "count": 5
-    },
-    {
       "title": "竹取オーバーナイトセンセーション",
       "artist": "HoneyWorks",
       "count": 5
@@ -1744,11 +1754,6 @@
       "count": 5
     },
     {
-      "title": "回る空うさぎ",
-      "artist": "Orangestar",
-      "count": 5
-    },
-    {
       "title": "世界のつづき",
       "artist": "Ado",
       "count": 5
@@ -1834,11 +1839,6 @@
       "count": 5
     },
     {
-      "title": "永遠のあくる日",
-      "artist": "Ado",
-      "count": 5
-    },
-    {
       "title": "かくれんぼ",
       "artist": "AliA",
       "count": 5
@@ -1851,6 +1851,11 @@
     {
       "title": "乙女解剖",
       "artist": "DECO*27",
+      "count": 5
+    },
+    {
+      "title": "ケッペキショウ",
+      "artist": "すこっぷ",
       "count": 5
     },
     {
@@ -2139,6 +2144,11 @@
       "count": 5
     },
     {
+      "title": "1/6 ー out of the gravity ー",
+      "artist": "ぼーかりおどP",
+      "count": 4
+    },
+    {
       "title": "ギミー!レボリューション",
       "artist": "内田真礼",
       "count": 4
@@ -2316,11 +2326,6 @@
     {
       "title": "メリュー",
       "artist": "n-buna",
-      "count": 4
-    },
-    {
-      "title": "ケッペキショウ",
-      "artist": "すこっぷ",
       "count": 4
     },
     {
@@ -2644,11 +2649,6 @@
       "count": 3
     },
     {
-      "title": "1/6 ー out of the gravity ー",
-      "artist": "ぼーかりおどP",
-      "count": 3
-    },
-    {
       "title": "Sincerely",
       "artist": "TRUE",
       "count": 3
@@ -2831,6 +2831,11 @@
     {
       "title": "鯨が落ちる街",
       "artist": "ロクデナシ",
+      "count": 3
+    },
+    {
+      "title": "有心論",
+      "artist": "RADWIMPS",
       "count": 3
     },
     {
@@ -3829,8 +3834,8 @@
       "count": 2
     },
     {
-      "title": "有心論",
-      "artist": "RADWIMPS",
+      "title": "Henceforth",
+      "artist": "orangester",
       "count": 2
     },
     {
@@ -5264,11 +5269,6 @@
       "count": 1
     },
     {
-      "title": "Henceforth",
-      "artist": "orangester",
-      "count": 1
-    },
-    {
       "title": "Hello,Worker",
       "artist": "ゆうゆ",
       "count": 1
@@ -5351,6 +5351,11 @@
     {
       "title": "Sleeping Awake",
       "artist": "Aqu3ra",
+      "count": 1
+    },
+    {
+      "title": "眠りの国",
+      "artist": "アイオン",
       "count": 1
     },
     {
@@ -7920,6 +7925,7 @@
     "れるりり,もじゃ",
     "れるりり,ロンチーノ=ペペ,かごめP",
     "ろくろ",
+    "アイオン",
     "アイナ・ジ・エンド",
     "ウマ娘 プリティーダービー",
     "エミリア (高橋李依)",
