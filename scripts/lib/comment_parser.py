@@ -29,8 +29,8 @@ _RANGE_TIMESTAMP_RE = re.compile(
     re.MULTILINE,
 )
 
-# 編號前綴: "01. " "1. " "01 " 等
-_NUMBERING_RE = re.compile(r"^\d{1,3}[\.\)]\s*")
+# 編號前綴: "01. " "1. " "1) " (帶點/括號)，或零補位曲序 "08 " (0X + 空白)
+_NUMBERING_RE = re.compile(r"^(?:\d{1,3}[\.\)]\s*|0\d\s+)")
 
 # 用於清理裝飾符號
 # 音樂/愛心 emoji: 無條件移除

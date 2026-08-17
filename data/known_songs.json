@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1506,
-  "uniqueTitles": 1464,
+  "totalEntries": 1505,
+  "uniqueTitles": 1463,
   "uniqueArtists": 675,
   "songs": [
     {
@@ -714,6 +714,11 @@
       "count": 9
     },
     {
+      "title": "ギターと孤独と蒼い惑星",
+      "artist": "結束バンド",
+      "count": 9
+    },
+    {
       "title": "独りんぼエンヴィー",
       "artist": "koyori (電ポルP)",
       "count": 9
@@ -906,11 +911,6 @@
     {
       "title": "晩餐歌",
       "artist": "tuki.",
-      "count": 8
-    },
-    {
-      "title": "ギターと孤独と蒼い惑星",
-      "artist": "結束バンド",
       "count": 8
     },
     {
@@ -7086,11 +7086,6 @@
     {
       "title": "雨き声残響",
       "artist": "Orangestar",
-      "count": 1
-    },
-    {
-      "title": "08 ギターと孤独と蒼い惑星",
-      "artist": "結束バンド",
       "count": 1
     },
     {
