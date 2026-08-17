@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1496,
-  "uniqueTitles": 1454,
-  "uniqueArtists": 673,
+  "totalEntries": 1499,
+  "uniqueTitles": 1457,
+  "uniqueArtists": 674,
   "songs": [
     {
       "title": "少女レイ",
@@ -74,6 +74,11 @@
       "count": 18
     },
     {
+      "title": "夜明けと蛍",
+      "artist": "n-buna",
+      "count": 18
+    },
+    {
       "title": "少女S",
       "artist": "SCANDAL",
       "count": 17
@@ -81,6 +86,11 @@
     {
       "title": "Stellar Stellar",
       "artist": "星街すいせい",
+      "count": 17
+    },
+    {
+      "title": "モニタリング",
+      "artist": "DECO*27",
       "count": 17
     },
     {
@@ -99,19 +109,9 @@
       "count": 17
     },
     {
-      "title": "夜明けと蛍",
-      "artist": "n-buna",
-      "count": 17
-    },
-    {
       "title": "アポリア",
       "artist": "ヨルシカ",
       "count": 17
-    },
-    {
-      "title": "モニタリング",
-      "artist": "DECO*27",
-      "count": 16
     },
     {
       "title": "眠れぬ月夜のランデブー",
@@ -619,6 +619,11 @@
       "count": 9
     },
     {
+      "title": "CHE.R.RY",
+      "artist": "YUI",
+      "count": 9
+    },
+    {
       "title": "忘れてください",
       "artist": "ヨルシカ",
       "count": 9
@@ -759,11 +764,6 @@
       "count": 8
     },
     {
-      "title": "CHE.R.RY",
-      "artist": "YUI",
-      "count": 8
-    },
-    {
       "title": "盛れ!ミ・アモーレ",
       "artist": "Juice=Juice",
       "count": 8
@@ -786,6 +786,11 @@
     {
       "title": "靴の花火",
       "artist": "ヨルシカ",
+      "count": 8
+    },
+    {
+      "title": "ウタカタララバイ",
+      "artist": "Ado",
       "count": 8
     },
     {
@@ -871,6 +876,11 @@
     {
       "title": "1・2・3",
       "artist": "After the Rain",
+      "count": 8
+    },
+    {
+      "title": "メリッサ",
+      "artist": "ポルノグラフィティ",
       "count": 8
     },
     {
@@ -1004,6 +1014,11 @@
       "count": 8
     },
     {
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
+      "count": 8
+    },
+    {
       "title": "EX-otogibanashi",
       "artist": "ryo (supercell)",
       "count": 8
@@ -1114,6 +1129,11 @@
       "count": 7
     },
     {
+      "title": "G4L",
+      "artist": "Giga",
+      "count": 7
+    },
+    {
       "title": "トンデモワンダーズ",
       "artist": "sasakure.UK",
       "count": 7
@@ -1124,8 +1144,8 @@
       "count": 7
     },
     {
-      "title": "ウタカタララバイ",
-      "artist": "Ado",
+      "title": "ヨンジュウナナ",
+      "artist": "みきとP",
       "count": 7
     },
     {
@@ -1171,11 +1191,6 @@
     {
       "title": "KICK BACK",
       "artist": "米津玄師",
-      "count": 7
-    },
-    {
-      "title": "メリッサ",
-      "artist": "ポルノグラフィティ",
       "count": 7
     },
     {
@@ -1264,11 +1279,6 @@
       "count": 7
     },
     {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
-      "count": 7
-    },
-    {
       "title": "Reply",
       "artist": "kz",
       "count": 7
@@ -1339,11 +1349,6 @@
       "count": 6
     },
     {
-      "title": "G4L",
-      "artist": "Giga",
-      "count": 6
-    },
-    {
       "title": "踊り子",
       "artist": "Vaundy",
       "count": 6
@@ -1351,11 +1356,6 @@
     {
       "title": "雑踏、僕らの街",
       "artist": "トゲナシトゲアリ",
-      "count": 6
-    },
-    {
-      "title": "ヨンジュウナナ",
-      "artist": "みきとP",
       "count": 6
     },
     {
@@ -2064,6 +2064,11 @@
       "count": 5
     },
     {
+      "title": "Os 宇宙人",
+      "artist": "エリオをかまってちゃん",
+      "count": 5
+    },
+    {
       "title": "Hello, Worker",
       "artist": "KEI",
       "count": 5
@@ -2424,6 +2429,11 @@
       "count": 4
     },
     {
+      "title": "ギミー!レボリューション",
+      "artist": "内田真礼",
+      "count": 4
+    },
+    {
       "title": "サラマンダー",
       "artist": "DECO*27",
       "count": 4
@@ -2549,6 +2559,11 @@
       "count": 4
     },
     {
+      "title": "初恋サイダー",
+      "artist": "Buono!",
+      "count": 4
+    },
+    {
       "title": "射手座午後九時Don't be late",
       "artist": "シェリル・ノーム starring May'n",
       "count": 4
@@ -2569,13 +2584,18 @@
       "count": 4
     },
     {
+      "title": "冒険でしょでしょ?",
+      "artist": "平野綾",
+      "count": 4
+    },
+    {
       "title": "君の神話 ~アクエリオン第二章",
       "artist": "AKINO with bless4",
       "count": 4
     },
     {
-      "title": "Os 宇宙人",
-      "artist": "エリオをかまってちゃん",
+      "title": "芽ぐみの雨",
+      "artist": "やなぎなぎ",
       "count": 4
     },
     {
@@ -2586,6 +2606,11 @@
     {
       "title": "「ねぇ。」",
       "artist": "ナノウ",
+      "count": 4
+    },
+    {
+      "title": "My Dearest",
+      "artist": "ryo (supercell)",
       "count": 4
     },
     {
@@ -3084,11 +3109,6 @@
       "count": 3
     },
     {
-      "title": "ギミー!レボリューション",
-      "artist": "内田真礼",
-      "count": 3
-    },
-    {
       "title": "きゅうくらりん",
       "artist": "いよわ",
       "count": 3
@@ -3394,11 +3414,6 @@
       "count": 3
     },
     {
-      "title": "初恋サイダー",
-      "artist": "Buono!",
-      "count": 3
-    },
-    {
       "title": "抜錨",
       "artist": "ナナホシ管弦楽団",
       "count": 3
@@ -3426,11 +3441,6 @@
     {
       "title": "プレパレード",
       "artist": "逢坂大河・櫛枝実乃梨・川嶋亜美",
-      "count": 3
-    },
-    {
-      "title": "冒険でしょでしょ?",
-      "artist": "平野綾",
       "count": 3
     },
     {
@@ -3489,11 +3499,6 @@
       "count": 3
     },
     {
-      "title": "芽ぐみの雨",
-      "artist": "やなぎなぎ",
-      "count": 3
-    },
-    {
       "title": "夢をみる島",
       "artist": "yuigot",
       "count": 3
@@ -3506,11 +3511,6 @@
     {
       "title": "蝶々結び",
       "artist": "Aimer",
-      "count": 3
-    },
-    {
-      "title": "My Dearest",
-      "artist": "ryo (supercell)",
       "count": 3
     },
     {
@@ -4699,6 +4699,11 @@
       "count": 2
     },
     {
+      "title": "革命道中 On The Way",
+      "artist": "AiNA THE END",
+      "count": 2
+    },
+    {
       "title": "春を待つ",
       "artist": "Islet",
       "count": 2
@@ -4826,6 +4831,11 @@
     {
       "title": "瞬間、シンフォニー。",
       "artist": "40mP",
+      "count": 2
+    },
+    {
+      "title": "→unfinished→",
+      "artist": "KOTOKO",
       "count": 2
     },
     {
@@ -7069,11 +7079,6 @@
       "count": 1
     },
     {
-      "title": "革命道中 On The Way",
-      "artist": "AiNA THE END",
-      "count": 1
-    },
-    {
       "title": "Listen!!",
       "artist": "放課後ティータイム",
       "count": 1
@@ -7289,11 +7294,6 @@
       "count": 1
     },
     {
-      "title": "→unfinished→",
-      "artist": "KOTOKO",
-      "count": 1
-    },
-    {
       "title": "点描の唄",
       "artist": "Mrs. GREEN APPLE",
       "count": 1
@@ -7481,6 +7481,21 @@
     {
       "title": "Alice in 冷凍庫",
       "artist": "Orangestar",
+      "count": 1
+    },
+    {
+      "title": "マジックナンバー",
+      "artist": "坂本真綾",
+      "count": 1
+    },
+    {
+      "title": "ループ",
+      "artist": "ループ",
+      "count": 1
+    },
+    {
+      "title": "Sleeping Awake",
+      "artist": "Aqu3ra",
       "count": 1
     }
   ],
@@ -7921,6 +7936,7 @@
     "ランカ・リー",
     "リコ (富田美憂),レグ (伊瀬茉莉也)",
     "リリぴ",
+    "ループ",
     "レフティーモンスターP",
     "レミオロメン",
     "レム (水瀬いのり)",
