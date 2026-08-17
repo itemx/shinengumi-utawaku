@@ -146,6 +146,9 @@ def _split_title_artist(text: str) -> tuple[str, str]:
 
     # 嘗試各種分隔符 — 用最後一個分割 (曲名可能含 "/")
     for sep in _SEPARATORS:
+        # ー 收尾為裝飾括號 (例: 1/6 ー out of the gravity ー)，不當分隔符
+        if sep == " ー " and text.rstrip().endswith("ー"):
+            continue
         idx = text.rfind(sep)
         if idx >= 0:
             return text[:idx].strip(), text[idx + len(sep):].strip()

@@ -258,6 +258,8 @@ for (const [k, v] of Object.entries(titleArtists)) {
       var bm = text.match(/[「『](.+?)[」』]\s*[/／\-]?\s*(.+)?/);
       if (bm) return [bm[1].trim(), (bm[2]||"").trim()];
       for (var i=0;i<SEPARATORS.length;i++) {
+        // ー 收尾為裝飾括號 (例: 1/6 ー out of the gravity ー)，不當分隔符
+        if (SEPARATORS[i] === " ー " && /ー\s*$/.test(text)) continue;
         var lastIdx = text.lastIndexOf(SEPARATORS[i]);
         if (lastIdx >= 0) {
           return [text.slice(0, lastIdx).trim(), text.slice(lastIdx + SEPARATORS[i].length).trim()];
