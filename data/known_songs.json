@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1510,
-  "uniqueTitles": 1463,
+  "totalEntries": 1512,
+  "uniqueTitles": 1465,
   "uniqueArtists": 680,
   "songs": [
     {
@@ -264,6 +264,11 @@
       "count": 13
     },
     {
+      "title": "サリシノハラ",
+      "artist": "みきとP",
+      "count": 13
+    },
+    {
       "title": "トリノコシティ",
       "artist": "40mP",
       "count": 13
@@ -329,11 +334,6 @@
       "count": 12
     },
     {
-      "title": "サリシノハラ",
-      "artist": "みきとP",
-      "count": 12
-    },
-    {
       "title": "星座になれたら",
       "artist": "結束バンド",
       "count": 12
@@ -341,6 +341,11 @@
     {
       "title": "春泥棒",
       "artist": "ヨルシカ",
+      "count": 12
+    },
+    {
+      "title": "吉原ラメント",
+      "artist": "亜沙",
       "count": 12
     },
     {
@@ -371,6 +376,11 @@
     {
       "title": "藍二乗",
       "artist": "ヨルシカ",
+      "count": 12
+    },
+    {
+      "title": "ヒバナ",
+      "artist": "DECO*27",
       "count": 12
     },
     {
@@ -459,11 +469,6 @@
       "count": 11
     },
     {
-      "title": "吉原ラメント",
-      "artist": "亜沙",
-      "count": 11
-    },
-    {
       "title": "I beg you",
       "artist": "Aimer",
       "count": 11
@@ -511,11 +516,6 @@
     {
       "title": "ロミオとシンデレラ",
       "artist": "doriko",
-      "count": 11
-    },
-    {
-      "title": "ヒバナ",
-      "artist": "DECO*27",
       "count": 11
     },
     {
@@ -591,6 +591,11 @@
     {
       "title": "心拍数♯0822",
       "artist": "蝶々P",
+      "count": 10
+    },
+    {
+      "title": "夜に駆ける",
+      "artist": "YOASOBI",
       "count": 10
     },
     {
@@ -709,11 +714,6 @@
       "count": 9
     },
     {
-      "title": "夜に駆ける",
-      "artist": "YOASOBI",
-      "count": 9
-    },
-    {
       "title": "シュガーソングとビターステップ",
       "artist": "UNISON SQUARE GARDEN",
       "count": 9
@@ -721,6 +721,11 @@
     {
       "title": "Ahoy!! 我ら宝鐘海賊団",
       "artist": "宝鐘マリン",
+      "count": 9
+    },
+    {
+      "title": "天ノ弱",
+      "artist": "164",
       "count": 9
     },
     {
@@ -736,6 +741,11 @@
     {
       "title": "帝国少女",
       "artist": "R Sound Design",
+      "count": 9
+    },
+    {
+      "title": "六兆年と一夜物語",
+      "artist": "kemu",
       "count": 9
     },
     {
@@ -756,6 +766,11 @@
     {
       "title": "死にゆく季節のきみへ",
       "artist": "麻枝准×やなぎなぎ",
+      "count": 9
+    },
+    {
+      "title": "二息歩行",
+      "artist": "DECO*27",
       "count": 9
     },
     {
@@ -974,11 +989,6 @@
       "count": 8
     },
     {
-      "title": "天ノ弱",
-      "artist": "164",
-      "count": 8
-    },
-    {
       "title": "Rising Hope",
       "artist": "LiSA",
       "count": 8
@@ -1001,11 +1011,6 @@
     {
       "title": "スパークル",
       "artist": "RADWIMPS",
-      "count": 8
-    },
-    {
-      "title": "六兆年と一夜物語",
-      "artist": "kemu",
       "count": 8
     },
     {
@@ -1041,11 +1046,6 @@
     {
       "title": "アクアテラリウム",
       "artist": "やなぎなぎ",
-      "count": 8
-    },
-    {
-      "title": "二息歩行",
-      "artist": "DECO*27",
       "count": 8
     },
     {
@@ -1359,6 +1359,11 @@
       "count": 6
     },
     {
+      "title": "ベノム",
+      "artist": "かいりきベア",
+      "count": 6
+    },
+    {
       "title": "Fallen",
       "artist": "EGOIST",
       "count": 6
@@ -1544,6 +1549,11 @@
       "count": 6
     },
     {
+      "title": "妄想税",
+      "artist": "DECO*27",
+      "count": 6
+    },
+    {
       "title": "だってアタシのヒーロー。",
       "artist": "LiSA",
       "count": 6
@@ -1714,11 +1724,6 @@
       "count": 5
     },
     {
-      "title": "ベノム",
-      "artist": "かいりきベア",
-      "count": 5
-    },
-    {
       "title": "ずうっといっしょ!",
       "artist": "キタニタツヤ",
       "count": 5
@@ -1845,6 +1850,11 @@
     },
     {
       "title": "愛言葉III",
+      "artist": "DECO*27",
+      "count": 5
+    },
+    {
+      "title": "乙女解剖",
       "artist": "DECO*27",
       "count": 5
     },
@@ -1984,11 +1994,6 @@
       "count": 5
     },
     {
-      "title": "妄想税",
-      "artist": "DECO*27",
-      "count": 5
-    },
-    {
       "title": "resonance",
       "artist": "T.M.Revolution",
       "count": 5
@@ -2021,6 +2026,11 @@
     {
       "title": "竹取オーバーナイトセンセーション",
       "artist": "HoneyWorks",
+      "count": 5
+    },
+    {
+      "title": "メランコリック",
+      "artist": "Junky",
       "count": 5
     },
     {
@@ -2304,11 +2314,6 @@
       "count": 4
     },
     {
-      "title": "乙女解剖",
-      "artist": "DECO*27",
-      "count": 4
-    },
-    {
       "title": "ムーンライト伝説",
       "artist": "DALI",
       "count": 4
@@ -2521,11 +2526,6 @@
     {
       "title": "ダダダダ天使",
       "artist": "ナナヲアカリ",
-      "count": 4
-    },
-    {
-      "title": "メランコリック",
-      "artist": "Junky",
       "count": 4
     },
     {
@@ -4851,6 +4851,11 @@
     {
       "title": "→unfinished→",
       "artist": "KOTOKO",
+      "count": 2
+    },
+    {
+      "title": "夕景イエスタデイ",
+      "artist": "じん",
       "count": 2
     },
     {
@@ -7354,11 +7359,6 @@
       "count": 1
     },
     {
-      "title": "夕景イエスタデイ",
-      "artist": "じん",
-      "count": 1
-    },
-    {
       "title": "聖少女領域",
       "artist": "ALI PROJECT",
       "count": 1
@@ -7476,6 +7476,16 @@
     {
       "title": "Henceforth",
       "artist": "orangester",
+      "count": 1
+    },
+    {
+      "title": "Hello,Worker",
+      "artist": "ゆうゆ",
+      "count": 1
+    },
+    {
+      "title": "ロストワンの号哭",
+      "artist": "Neru",
       "count": 1
     },
     {
