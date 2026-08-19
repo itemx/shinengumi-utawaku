@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-08-19T09:05:37.682419+00:00",
+  "lastFetched": "2026-08-19T12:49:13.003311+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -15585,6 +15585,14 @@
         }
       ],
       "sourceCommentId": "issue#73",
+      "type": "stream"
+    },
+    {
+      "videoId": "PmvpsT5bZek",
+      "title": "藍時雨/aqu3ra #shorts #cover #歌ってみた",
+      "publishedAt": "2026-08-17T11:06:23Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]

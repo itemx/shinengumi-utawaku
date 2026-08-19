@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-08-17T09:41:22.115873+00:00",
+  "lastFetched": "2026-08-19T12:49:12.388978+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -39745,6 +39745,60 @@
       ],
       "sourceCommentId": "issue#71",
       "type": "stream"
+    },
+    {
+      "videoId": "yCrYlYL_di8",
+      "title": "食虫植物 / 理芽 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-19T09:00:40Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "食虫植物",
+          "titleRaw": "食虫植物",
+          "artist": "理芽",
+          "artistRaw": "理芽",
+          "url": "https://youtu.be/yCrYlYL_di8"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "JUt44YV8HN8",
+      "title": "少女A / 椎名もた 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-18T09:00:10Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "少女A",
+          "titleRaw": "少女A",
+          "artist": "椎名もた",
+          "artistRaw": "椎名もた",
+          "url": "https://youtu.be/JUt44YV8HN8"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "AXHm3wp_7HM",
+      "title": "群青 / YOASOBI 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-17T09:00:20Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "群青",
+          "titleRaw": "群青",
+          "artist": "YOASOBI",
+          "artistRaw": "YOASOBI",
+          "url": "https://youtu.be/AXHm3wp_7HM"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1508,
+  "totalEntries": 1509,
   "uniqueTitles": 1466,
-  "uniqueArtists": 675,
+  "uniqueArtists": 676,
   "songs": [
     {
       "title": "All Alone With You",
@@ -279,6 +279,11 @@
       "count": 13
     },
     {
+      "title": "群青",
+      "artist": "YOASOBI",
+      "count": 13
+    },
+    {
       "title": "一番の宝物",
       "artist": "Girls Dead Monster",
       "count": 13
@@ -376,11 +381,6 @@
     {
       "title": "シリウスの心臓",
       "artist": "ヰ世界情緒",
-      "count": 12
-    },
-    {
-      "title": "群青",
-      "artist": "YOASOBI",
       "count": 12
     },
     {
@@ -2584,6 +2584,11 @@
       "count": 4
     },
     {
+      "title": "食虫植物",
+      "artist": "理芽",
+      "count": 4
+    },
+    {
       "title": "サラマンダー",
       "artist": "DECO*27",
       "count": 4
@@ -3351,11 +3356,6 @@
     {
       "title": "僕らは今のなかで",
       "artist": "μ's",
-      "count": 3
-    },
-    {
-      "title": "食虫植物",
-      "artist": "理芽",
       "count": 3
     },
     {
@@ -7542,6 +7542,11 @@
       "title": "モザイクカケラ",
       "artist": "SunSet Swish",
       "count": 1
+    },
+    {
+      "title": "少女A",
+      "artist": "椎名もた",
+      "count": 1
     }
   ],
   "artists": [
@@ -8109,6 +8114,7 @@
     "柿崎ユウタ",
     "梅とら",
     "森口博子",
+    "椎名もた",
     "椎名もた (ぽわぽわP)",
     "椎名もた(ぽわぽわP)",
     "椎名林檎",
