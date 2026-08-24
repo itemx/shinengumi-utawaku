@@ -12,8 +12,58 @@ const stats = getStats();
     <h1 class="text-4xl font-bold mb-3 bg-gradient-to-r from-purple to-primary bg-clip-text text-transparent">
       SEG-V UtaList
     </h1>
-    <p class="text-text-muted text-lg" data-i18n="index.subtitle">深淵組成員非公式歌回曲目資料庫</p>
+    <p class="text-text-muted text-lg mb-5" data-i18n="index.subtitle">深淵組成員非公式歌回曲目資料庫</p>
+
+    <button
+      id="btn-shuffle-all"
+      class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-opacity hover:opacity-90 disabled:opacity-60"
+      style="background: linear-gradient(135deg, #5e2a89, #e40079);"
+      title="Shuffle All"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" />
+      </svg>
+      <span data-i18n="index.shuffle_all">全部隨機播放</span>
+    </button>
   </section>
+
+  <script is:inline>
+    (function () {
+      var btn = document.getElementById("btn-shuffle-all");
+      if (!btn) return;
+      var label = btn.querySelector("span");
+      var pool = null;
+
+      btn.addEventListener("click", async function () {
+        if (!pool) {
+          var original = label.textContent;
+          btn.disabled = true;
+          label.textContent = "…";
+          try {
+            var res = await fetch("/shuffle-pool.json");
+            pool = await res.json();
+          } catch (err) {
+            label.textContent = original;
+            btn.disabled = false;
+            return;
+          }
+          label.textContent = original;
+          btn.disabled = false;
+        }
+        if (!pool.length) return;
+
+        // Fisher-Yates 洗牌
+        var tracks = pool.map(function (r) {
+          return { videoId: r[0], start: r[1], title: r[2], artist: r[3], dur: r[4] || null, date: r[5] };
+        });
+        for (var i = tracks.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var tmp = tracks[i]; tracks[i] = tracks[j]; tracks[j] = tmp;
+        }
+        if (window.__playQueue) window.__playQueue(tracks, 0);
+      });
+    })();
+  </script>
 
   {channels.length === 0 ? (
     <p class="text-center text-text-muted" data-i18n="index.no_channels">尚未登錄任何頻道</p>

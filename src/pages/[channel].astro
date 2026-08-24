@@ -4,7 +4,7 @@ import SongTable from "../components/SongTable.astro";
 import VideoCard from "../components/VideoCard.astro";
 import CoverCard from "../components/CoverCard.astro";
 import StatsBar from "../components/StatsBar.astro";
-import { getChannels, getChannelData, getStats, getVideosByType, getMissingSetlists } from "../lib/data";
+import { getChannels, getChannelData, getStats, getVideosByType, getMissingSetlists, getSongMeta } from "../lib/data";
 import { slugify } from "../lib/slugify";
 
 export function getStaticPaths() {
@@ -24,6 +24,7 @@ const config = channels.find((c) => c.channelId === channelId);
 
 const { streams, shorts, covers } = getVideosByType(data);
 const missing = getMissingSetlists(channelId);
+const songMeta = getSongMeta();
 
 // 歌曲統計 (用於曲目 tab)
 const songMap = new Map<string, {
@@ -89,22 +90,17 @@ const sortedCovers = [...covers].sort((a, b) => b.publishedAt.localeCompare(a.pu
   </div>
 
   <!-- Shuffle data -->
-  <script is:inline define:vars={{ allSongs: data.videos.flatMap(v => v.songs.filter(s => s.seconds > 0).map(s => ({ videoId: v.videoId, start: s.seconds, title: s.title, artist: s.artist, date: v.publishedAt.slice(0, 10) }))) }}>
+  <script is:inline define:vars={{ allSongs: data.videos.flatMap(v => v.songs.filter(s => s.seconds > 0).map(s => ({ videoId: v.videoId, start: s.seconds, title: s.title, artist: s.artist, date: v.publishedAt.slice(0, 10), dur: songMeta.get(`${s.title}\t${s.artist}`)?.durationSec ?? null }))) }}>
     document.getElementById('btn-shuffle')?.addEventListener('click', () => {
       if (!allSongs.length) return;
-      const shuffled = [...allSongs].sort(() => Math.random() - 0.5);
-      const pick = shuffled[0];
-      const link = document.createElement('a');
-      link.dataset.play = '';
-      link.dataset.videoId = pick.videoId;
-      link.dataset.start = String(pick.start);
-      link.dataset.title = pick.title;
-      link.dataset.artist = pick.artist;
-      link.dataset.date = pick.date;
-      link.style.display = 'none';
-      document.body.appendChild(link);
-      link.click();
-      link.remove();
+      // Fisher-Yates（sort(() => Math.random() - 0.5) 分佈不均）
+      const tracks = allSongs.slice();
+      for (let i = tracks.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [tracks[i], tracks[j]] = [tracks[j], tracks[i]];
+      }
+      // 播整個洗好的佇列，而非只播一首
+      if (window.__playQueue) window.__playQueue(tracks, 0);
     });
   </script>
 

@@ -511,4 +511,19 @@ for (const ch of channels) {
     autoAdvance = !autoAdvance;
     updateQueueUI();
   });
+
+  /** 程式化播放佇列 — 供隨機播放等功能使用（不依賴 DOM 的 [data-play]）。
+   *  tracks: [{videoId, start, title, artist, date, dur}]  */
+  window.__playQueue = function(tracks, startIdx) {
+    if (!tracks || !tracks.length) return;
+    queue = tracks.map(function(t) {
+      return {
+        videoId: t.videoId, start: t.start || 0,
+        title: t.title || "", artist: t.artist || "", date: t.date || "",
+        dur: t.dur || null,
+        end: t.dur ? (t.start || 0) + t.dur : null,
+      };
+    });
+    playAt(startIdx || 0);
+  };
 </script>
