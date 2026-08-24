@@ -16,6 +16,13 @@ Codex 重點速記（細節仍以 COORDINATION.md 為準）：
 - tag 只能用英文 12 類：`anime vocaloid game tokusatsu idol j-pop k-pop western touhou doujin original ballad`
 - `durationSec`：官方正式發行標準版整數秒（30–3600），查不到填 `null`。
   與使用者口頭給的粗估衝突時，**以官方正式串流／發行版為準**。
+- **查不到 duration 時先檢查是不是羅馬拼音重複標題**（已實際發生 3 次：
+  `Naisho no Hanashi`→`ナイショの話`、`Say It.`→`言って。`、
+  `Totemo Suteki na Rokugatsu Deshita`→`とても素敵な六月でした`）。
+  特徵：標題是完整日文句子的逐字拼音（含 no/wa/ga/wo/de/da/deshita 等語助詞），
+  且同歌手在庫中已有大量日文標題曲目。符合就**不要**猜 duration/tag，
+  改發 `song_meta: SUSPECT-ROMAJI <曲名> / <歌手>` 交給 Claude 查證。
+  詳見 [COORDINATION.md](COORDINATION.md#羅馬拼音重複標題偵測2026-08-25-起)。
 - **自主連續補完模式已授權**：不用每批等確認，但每次 push 前自己跑
   `python scripts/build_song_meta.py --validate`（須 0 錯誤），並每 ~100 首分段 commit。
 - **絕不手改**衍生檔 `data/known_songs.json`、`data/_stats.json`。

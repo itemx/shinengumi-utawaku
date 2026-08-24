@@ -96,6 +96,50 @@ Codex 可從目前進度（Alchemy 之後那批已完成，下一首 `Booo!` 之
    同曲若有複數個可信正式標準版秒數，取最長者作為 worst case。
 5. **完成後**：用下面的「commit message 信號」通知 Claude（不需要使用者手動轉告）。Claude 會做最終總驗收（tag 合法性＋duration 範圍＋項目數 1516＋title/artist 零變動），通過後接排歌單 Phase 3（tag 篩選＋精準時間估算＋反推模式）。
 
+## 羅馬拼音重複標題偵測（2026-08-25 起）
+
+### 背景
+
+實際發現過 3 起「日文曲被硬翻／拼音成英文，跟已存在的日文標題重複」的案例：
+
+| 誤植標題 | 正確標題 | 歌手 |
+|---|---|---|
+| `Naisho no Hanashi` | `ナイショの話` | ClariS |
+| `Say It.` | `言って。` | ヨルシカ |
+| `That's Why I Gave Up on Music` | `だから僕は音楽を辞めた` | ヨルシカ |
+| `Totemo Suteki na Rokugatsu Deshita` | `とても素敵な六月でした` | Eight |
+
+共通特徵：
+1. 標題是**完整日文句子的逐字羅馬拼音**（含語助詞 `no/wa/ga/wo/ni/de/da/desu/deshita/kara/made` 等），不是官方英文曲名。
+2. 同一歌手在 DB 底下已有**大量日文標題曲目**，這筆卻只出現 **1 次**且是純英文/羅馬拼音。
+3. 常伴隨 `durationSec` 查不到（因為官方查證工具搜不到這個拼音字串）——這是本次發現案例的入口。
+
+**反例（官方正式英文曲名，不要誤刪）**：`HADASHi NO STEP`（LiSA）、`No pain, No game`（ナノ）、`träumerei`（LiSA）、`QUEEN`（LiSA）等 —— 這些是官方就用英文/羅馬字發行的曲名，經查證**沒有**對應的日文標題重複項，維持原樣。
+
+### 偵測方法（Codex 補 duration 時可順手做）
+
+當查證某首歌的官方 duration 卡住、搜不到時，若該曲同時符合：
+- 標題含日文語助詞拼音（見上）或明顯是完整句子的逐字翻譯／拼音，且
+- 同一歌手在曲庫中已有其他日文標題曲目
+
+先**不要**猜測 duration 或硬套 tag，改用下面的信號回報，交給 Claude 確認是否為重複。
+
+### 信號
+
+| 信號 | 發送方 | 意義 |
+|---|---|---|
+| `song_meta: SUSPECT-ROMAJI <曲名> / <歌手>` | Codex | 懷疑是羅馬拼音重複標題，請 Claude 查證是否與既有日文曲目合併 |
+
+範例：
+
+```
+data: continue duration verification, flag 1 suspect
+
+song_meta: SUSPECT-ROMAJI Kimi no Na wa / RADWIMPS
+```
+
+Claude 查證後會直接在 `data/songs/*` 合併／改標題（若確認）、清理 `song_meta.json` 對應的孤兒項目，並在下次 `AUDIT-PASS`／`AUDIT-FAIL` 一併回報結果，不需要另開信號回應。
+
 ## Agent 間自動通知（commit message 信號）
 
 用 **commit message 當事件總線**，取代人工轉告。git 是兩邊唯一共用的即時通道。
@@ -108,6 +152,7 @@ Codex 可從目前進度（Alchemy 之後那批已完成，下一首 `Booo!` 之
 |---|---|---|
 | `song_meta: COMPLETE` | Codex | song_meta 全部補完，請 Claude 總驗收 |
 | `song_meta: NEEDS-CLAUDE <一行說明>` | Codex | 中途卡住／發現規格衝突，需要 Claude 介入 |
+| `song_meta: SUSPECT-ROMAJI <曲名> / <歌手>` | Codex | 懷疑是羅馬拼音重複標題，見下方專節 |
 | `song_meta: AUDIT-PASS` | Claude | 總驗收通過，Codex 可視為結案 |
 | `song_meta: AUDIT-FAIL <一行說明>` | Claude | 驗收未過，Codex 需依說明修正 |
 
