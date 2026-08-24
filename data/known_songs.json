@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1506,
-  "uniqueTitles": 1466,
-  "uniqueArtists": 676,
+  "totalEntries": 1505,
+  "uniqueTitles": 1465,
+  "uniqueArtists": 675,
   "songs": [
     {
       "title": "花に亡霊",
@@ -4224,6 +4224,11 @@
       "count": 2
     },
     {
+      "title": "月亮代表我的心",
+      "artist": "鄧麗君 (テレサ・テン)",
+      "count": 2
+    },
+    {
       "title": "フロントメモリー",
       "artist": "鈴木瑛美子×亀田誠治",
       "count": 2
@@ -5654,11 +5659,6 @@
       "count": 1
     },
     {
-      "title": "月亮代表我的心",
-      "artist": "鄧麗君 (テレサ・テン)",
-      "count": 1
-    },
-    {
       "title": "days",
       "artist": "じん feat.Lia",
       "count": 1
@@ -6261,11 +6261,6 @@
     {
       "title": "千本桜 feat.初音ミク",
       "artist": "黒うさP",
-      "count": 1
-    },
-    {
-      "title": "月亮代表我的心 (月は何でも知っている)",
-      "artist": "テレサ・テン",
       "count": 1
     },
     {
@@ -7936,7 +7931,6 @@
     "ダズビー",
     "ツミキ",
     "ツユ",
-    "テレサ・テン",
     "トウキョウ・シャンディ・ランデヴパロディ",
     "トゲナシトゲアリ",
     "トーマ",
