@@ -73,7 +73,8 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
       <div class="text-sm mb-2">
         <span id="sel-count" class="font-bold text-primary">0</span>
         <span data-i18n="plan.songs_unit">首</span>
-        <span class="text-text-muted"> · ≈ </span>
+        <span class="text-text-muted"> · </span>
+        <span class="text-text-muted text-xs" data-i18n="plan.est_time">預估時長約</span>
         <span id="sel-time" class="font-bold">0:00</span>
       </div>
       <div class="flex items-center gap-2 mb-3 text-xs text-text-muted">
@@ -82,11 +83,44 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
         <span data-i18n="plan.minutes">分鐘</span>
         <span id="target-diff"></span>
       </div>
-      <button id="autofill" class="w-full mb-3 py-1.5 rounded-full text-xs border border-primary text-primary hover:bg-pink-50"
+      <button id="autofill" class="w-full mb-2 py-1.5 rounded-full text-xs border border-primary text-primary hover:bg-pink-50"
         data-i18n="plan.autofill">依目標自動組合</button>
-      <ol id="selected" class="text-sm space-y-1 mb-3 max-h-[36vh] overflow-y-auto list-decimal list-inside"></ol>
-      <textarea id="out" readonly rows="4" class="w-full text-xs border border-border rounded p-2 font-mono bg-gray-50"></textarea>
-      <button id="copy" class="btn-primary mt-2 w-full py-2 rounded-full text-sm text-white bg-primary hover:bg-primary-dark" data-i18n="plan.copy">複製清單</button>
+
+      <!-- 排序控制 -->
+      <div class="flex flex-wrap items-center gap-2 mb-2 text-xs">
+        <label class="flex items-center gap-1 cursor-pointer text-text-muted">
+          <input type="checkbox" id="group-artist" />
+          <span data-i18n="plan.group_artist">同歌手集中</span>
+        </label>
+        <select id="sort-by" class="px-2 py-1 border border-border rounded text-xs">
+          <option value="manual" data-i18n="plan.sort_manual">手動順序</option>
+          <option value="artist" data-i18n="plan.sort_artist">依歌手</option>
+          <option value="title" data-i18n="plan.sort_title">依曲名</option>
+        </select>
+      </div>
+
+      <ol id="selected" class="text-sm space-y-0.5 mb-3 max-h-[40vh] overflow-y-auto"></ol>
+
+      <button id="open-out" class="w-full py-2 rounded-full text-sm text-white bg-primary hover:bg-primary-dark"
+        data-i18n="plan.show_list">產生清單</button>
+    </div>
+  </div>
+
+  <!-- 輸出彈出視窗 -->
+  <div id="out-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 p-4">
+    <div class="bg-white rounded-lg shadow-xl w-full max-w-lg p-4">
+      <div class="flex items-baseline justify-between mb-2">
+        <h3 class="font-bold text-purple" data-i18n="plan.list_title">歌單</h3>
+        <span id="out-summary" class="text-xs text-text-muted"></span>
+      </div>
+      <textarea id="out" readonly rows="14"
+        class="w-full text-sm border border-border rounded p-2 font-mono bg-gray-50"></textarea>
+      <div class="flex gap-2 mt-3">
+        <button id="copy" class="flex-1 py-2 rounded-full text-sm text-white bg-primary hover:bg-primary-dark"
+          data-i18n="plan.copy">複製清單</button>
+        <button id="close-out" class="px-4 py-2 rounded-full text-sm border border-border hover:bg-gray-50"
+          data-i18n="plan.close">關閉</button>
+      </div>
     </div>
   </div>
 
@@ -144,21 +178,88 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
       renderPool(); renderSelected();
     }
 
+    /** 依目前排序設定回傳顯示用的順序 (不改動 selected 本身，除了手動搬移)。 */
+    function orderedSelection(){
+      var mode=document.getElementById("sort-by").value;
+      var group=document.getElementById("group-artist").checked;
+      var arr=selected.slice();
+
+      if (mode==="artist"){
+        arr.sort(function(a,b){
+          var c=norm(pool[a].artist).localeCompare(norm(pool[b].artist));
+          return c || norm(pool[a].title).localeCompare(norm(pool[b].title));
+        });
+      } else if (mode==="title"){
+        arr.sort(function(a,b){ return norm(pool[a].title).localeCompare(norm(pool[b].title)); });
+      } else if (group){
+        // 手動順序 + 同歌手集中：保留各歌手首次出現的先後，把同歌手的聚在一起
+        var order=[], buckets={};
+        arr.forEach(function(i){
+          var k=pool[i].artist||"￿";
+          if(!buckets[k]){ buckets[k]=[]; order.push(k); }
+          buckets[k].push(i);
+        });
+        arr=[]; order.forEach(function(k){ arr=arr.concat(buckets[k]); });
+      }
+      return arr;
+    }
+
     function renderSelected(){
       var ol=document.getElementById("selected"); ol.innerHTML="";
+      var mode=document.getElementById("sort-by").value;
+      var view=orderedSelection();
       var totalSec=0;
-      selected.forEach(function(i){
+      var prevArtist=null;
+
+      view.forEach(function(i, pos){
         var s=pool[i]; totalSec += (s.dur||avgDur);
+
+        // 同歌手集中/依歌手排序時，加上歌手分組標頭
+        var grouping=(mode==="artist") || (mode==="manual" && document.getElementById("group-artist").checked);
+        if (grouping && s.artist!==prevArtist){
+          var h=document.createElement("li");
+          h.className="text-[11px] font-bold text-purple pt-1.5 list-none";
+          h.textContent=s.artist||"—";
+          ol.appendChild(h);
+          prevArtist=s.artist;
+        }
+
         var li=document.createElement("li");
-        li.className="flex items-start gap-1";
-        li.innerHTML='<span class="flex-1">'+esc(s.title)+(s.artist?' <span class="text-text-muted">/ '+esc(s.artist)+'</span>':'')+'</span>'+
-          '<button class="text-text-muted hover:text-primary text-xs" title="移除">✕</button>';
-        li.querySelector("button").onclick=function(){ toggle(i); };
+        li.className="flex items-center gap-1 group";
+        li.innerHTML=
+          '<span class="w-5 shrink-0 text-right text-[10px] text-text-muted">'+(pos+1)+'</span>'+
+          '<span class="flex-1 leading-tight">'+esc(s.title)+
+            (s.artist?' <span class="text-text-muted text-xs">/ '+esc(s.artist)+'</span>':'')+
+            (s.dur?' <span class="text-[10px] text-text-muted">('+fmtMS(s.dur)+')</span>':'')+
+          '</span>'+
+          '<button data-act="up" class="px-0.5 text-text-muted hover:text-primary text-xs disabled:opacity-25" title="上移">▲</button>'+
+          '<button data-act="down" class="px-0.5 text-text-muted hover:text-primary text-xs disabled:opacity-25" title="下移">▼</button>'+
+          '<button data-act="del" class="px-0.5 text-text-muted hover:text-primary text-xs" title="移除">✕</button>';
+
+        var up=li.querySelector('[data-act="up"]');
+        var down=li.querySelector('[data-act="down"]');
+        // 只有手動順序才能上下搬移
+        if (mode!=="manual"){ up.disabled=true; down.disabled=true; }
+        else {
+          var realIdx=selected.indexOf(i);
+          up.disabled = realIdx<=0;
+          down.disabled = realIdx>=selected.length-1;
+          up.onclick=function(){ move(realIdx,-1); };
+          down.onclick=function(){ move(realIdx,1); };
+        }
+        li.querySelector('[data-act="del"]').onclick=function(){ toggle(i); };
         ol.appendChild(li);
       });
+
       document.getElementById("sel-count").textContent=selected.length;
       document.getElementById("sel-time").textContent=fmtHM(totalSec);
-      document.getElementById("out").value=selected.map(function(i){ var s=pool[i]; return s.title+(s.artist?" / "+s.artist:""); }).join("\n");
+      document.getElementById("out").value=view.map(function(i){
+        var s=pool[i]; return s.title+(s.artist?" / "+s.artist:"");
+      }).join("\n");
+      document.getElementById("out-summary").textContent=
+        selected.length+" "+txt("plan.songs_unit","首")+" · "+
+        txt("plan.est_time","預估時長約")+" "+fmtHM(totalSec);
+
       // target
       var t=parseInt(document.getElementById("target").value,10);
       var diff=document.getElementById("target-diff");
@@ -166,7 +267,21 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
       else diff.textContent="";
     }
 
+    /** 手動搬移 selected 內的項目 */
+    function move(idx, delta){
+      var to=idx+delta;
+      if (to<0 || to>=selected.length) return;
+      var tmp=selected[idx]; selected[idx]=selected[to]; selected[to]=tmp;
+      renderSelected();
+    }
+
     function esc(s){ return String(s).replace(/[&<>]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c];}); }
+
+    /** 取已套用翻譯的文字（從頁面上帶該 data-i18n 的元素讀，語言切換後自動跟著變） */
+    function txt(key, fallback){
+      var el=document.querySelector('[data-i18n="'+key+'"]');
+      return (el && el.textContent.trim()) || fallback;
+    }
 
     q.addEventListener("input", renderPool);
     channelSel.addEventListener("change", renderPool);
@@ -203,6 +318,22 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
       var out=document.getElementById("out"); out.select(); navigator.clipboard.writeText(out.value);
       var b=document.getElementById("copy"); var o=b.textContent; b.textContent="✓"; setTimeout(function(){ b.textContent=o; },1000);
     };
+
+    // 排序控制
+    document.getElementById("group-artist").addEventListener("change", renderSelected);
+    document.getElementById("sort-by").addEventListener("change", renderSelected);
+
+    // 輸出彈出視窗
+    var outModal=document.getElementById("out-modal");
+    function openOut(){ outModal.classList.remove("hidden"); outModal.classList.add("flex"); }
+    function closeOut(){ outModal.classList.add("hidden"); outModal.classList.remove("flex"); }
+    document.getElementById("open-out").onclick=function(){
+      if (!selected.length) return;
+      renderSelected(); openOut();
+    };
+    document.getElementById("close-out").onclick=closeOut;
+    outModal.addEventListener("click", function(e){ if (e.target===outModal) closeOut(); });
+    document.addEventListener("keydown", function(e){ if (e.key==="Escape") closeOut(); });
 
     // 切換語言時重繪 (讓動態 tag 跟著換)
     window.addEventListener("langchange", function(){ renderPool(); });
