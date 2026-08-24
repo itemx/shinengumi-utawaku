@@ -1,21 +1,21 @@
 {
-  "totalEntries": 1514,
-  "uniqueTitles": 1470,
+  "totalEntries": 1516,
+  "uniqueTitles": 1472,
   "uniqueArtists": 680,
   "songs": [
     {
       "title": "All Alone With You",
       "artist": "EGOIST",
-      "count": 27
-    },
-    {
-      "title": "少女レイ",
-      "artist": "みきとP",
-      "count": 27
+      "count": 28
     },
     {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
+      "count": 28
+    },
+    {
+      "title": "少女レイ",
+      "artist": "みきとP",
       "count": 27
     },
     {
@@ -24,19 +24,19 @@
       "count": 25
     },
     {
-      "title": "創聖のアクエリオン",
-      "artist": "AKINO",
-      "count": 23
-    },
-    {
       "title": "晴る",
       "artist": "ヨルシカ",
-      "count": 23
+      "count": 24
     },
     {
       "title": "Departures ~あなたにおくるアイの歌~",
       "artist": "EGOIST",
-      "count": 22
+      "count": 23
+    },
+    {
+      "title": "創聖のアクエリオン",
+      "artist": "AKINO",
+      "count": 23
     },
     {
       "title": "君の知らない物語",
@@ -59,6 +59,11 @@
       "count": 20
     },
     {
+      "title": "夜明けと蛍",
+      "artist": "n-buna",
+      "count": 19
+    },
+    {
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 19
@@ -79,11 +84,6 @@
       "count": 19
     },
     {
-      "title": "夜明けと蛍",
-      "artist": "n-buna",
-      "count": 18
-    },
-    {
       "title": "モニタリング",
       "artist": "DECO*27",
       "count": 18
@@ -94,9 +94,19 @@
       "count": 18
     },
     {
+      "title": "変わらないもの",
+      "artist": "奥華子",
+      "count": 18
+    },
+    {
       "title": "悪魔の子",
       "artist": "ヒグチアイ",
       "count": 18
+    },
+    {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
+      "count": 17
     },
     {
       "title": "だから僕は音楽を辞めた",
@@ -124,19 +134,14 @@
       "count": 17
     },
     {
-      "title": "変わらないもの",
-      "artist": "奥華子",
-      "count": 17
-    },
-    {
       "title": "怪物",
       "artist": "YOASOBI",
       "count": 17
     },
     {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
-      "count": 16
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 17
     },
     {
       "title": "Butter-Fly",
@@ -169,11 +174,6 @@
       "count": 16
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 16
-    },
-    {
       "title": "カラフル",
       "artist": "ClariS",
       "count": 16
@@ -194,6 +194,11 @@
       "count": 15
     },
     {
+      "title": "ウィアートル",
+      "artist": "rionos",
+      "count": 15
+    },
+    {
       "title": "フォニイ",
       "artist": "ツミキ",
       "count": 15
@@ -206,6 +211,11 @@
     {
       "title": "月のワルツ",
       "artist": "諫山実生",
+      "count": 15
+    },
+    {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
       "count": 15
     },
     {
@@ -234,13 +244,13 @@
       "count": 14
     },
     {
-      "title": "ウィアートル",
-      "artist": "rionos",
+      "title": "恋愛裁判",
+      "artist": "40mP",
       "count": 14
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP",
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
       "count": 14
     },
     {
@@ -249,8 +259,13 @@
       "count": 14
     },
     {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
+      "title": "命に嫌われている",
+      "artist": "カンザキイオリ",
+      "count": 14
+    },
+    {
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
       "count": 14
     },
     {
@@ -284,11 +299,6 @@
       "count": 13
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 13
-    },
-    {
       "title": "群青",
       "artist": "YOASOBI",
       "count": 13
@@ -306,16 +316,6 @@
     {
       "title": "名前のない怪物",
       "artist": "EGOIST",
-      "count": 13
-    },
-    {
-      "title": "命に嫌われている",
-      "artist": "カンザキイオリ",
-      "count": 13
-    },
-    {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
       "count": 13
     },
     {
@@ -499,6 +499,11 @@
       "count": 11
     },
     {
+      "title": "死にゆく季節のきみへ",
+      "artist": "麻枝准×やなぎなぎ",
+      "count": 11
+    },
+    {
       "title": "夏恋花火",
       "artist": "40mP",
       "count": 11
@@ -604,18 +609,28 @@
       "count": 10
     },
     {
-      "title": "死にゆく季節のきみへ",
-      "artist": "麻枝准×やなぎなぎ",
-      "count": 10
-    },
-    {
       "title": "心拍数♯0822",
       "artist": "蝶々P",
       "count": 10
     },
     {
+      "title": "二息歩行",
+      "artist": "DECO*27",
+      "count": 10
+    },
+    {
       "title": "想いを巡らす100の事象",
       "artist": "EGOIST",
+      "count": 10
+    },
+    {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
+      "count": 10
+    },
+    {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
       "count": 10
     },
     {
@@ -734,13 +749,13 @@
       "count": 9
     },
     {
-      "title": "セレナーデ",
-      "artist": "なとり",
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
       "count": 9
     },
     {
-      "title": "二息歩行",
-      "artist": "DECO*27",
+      "title": "セレナーデ",
+      "artist": "なとり",
       "count": 9
     },
     {
@@ -764,18 +779,8 @@
       "count": 9
     },
     {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
-      "count": 9
-    },
-    {
       "title": "Don't say \"lazy\"",
       "artist": "放課後ティータイム",
-      "count": 9
-    },
-    {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
       "count": 9
     },
     {
@@ -929,6 +934,11 @@
       "count": 8
     },
     {
+      "title": "テルーの唄",
+      "artist": "手嶌葵",
+      "count": 8
+    },
+    {
       "title": "エウテルペ",
       "artist": "EGOIST",
       "count": 8
@@ -974,11 +984,6 @@
       "count": 8
     },
     {
-      "title": "アクアテラリウム",
-      "artist": "やなぎなぎ",
-      "count": 8
-    },
-    {
       "title": "ヒステリックナイトガール",
       "artist": "PSYQUI",
       "count": 8
@@ -999,8 +1004,18 @@
       "count": 8
     },
     {
+      "title": "Alice",
+      "artist": "古川本舗",
+      "count": 8
+    },
+    {
       "title": "give it back",
       "artist": "Cö shu Nie",
+      "count": 8
+    },
+    {
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
       "count": 8
     },
     {
@@ -1159,11 +1174,6 @@
       "count": 7
     },
     {
-      "title": "テルーの唄",
-      "artist": "手嶌葵",
-      "count": 7
-    },
-    {
       "title": "POP IN 2",
       "artist": "B小町",
       "count": 7
@@ -1211,16 +1221,6 @@
     {
       "title": "小夜子",
       "artist": "みきとP",
-      "count": 7
-    },
-    {
-      "title": "Alice",
-      "artist": "古川本舗",
-      "count": 7
-    },
-    {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
       "count": 7
     },
     {
@@ -1519,6 +1519,11 @@
       "count": 6
     },
     {
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
+      "count": 6
+    },
+    {
       "title": "乙女解剖",
       "artist": "DECO*27",
       "count": 6
@@ -1724,6 +1729,11 @@
       "count": 5
     },
     {
+      "title": "蜜月アン・ドゥ・トロワ",
+      "artist": "DATEKEN",
+      "count": 5
+    },
+    {
       "title": "ユキトキ",
       "artist": "やなぎなぎ",
       "count": 5
@@ -1859,13 +1869,13 @@
       "count": 5
     },
     {
-      "title": "花泡沫",
-      "artist": "ロクデナシ",
+      "title": "A Dream Is a Wish Your Heart Makes",
+      "artist": "Ilene Woods",
       "count": 5
     },
     {
-      "title": "A Dream Is a Wish Your Heart Makes",
-      "artist": "Ilene Woods",
+      "title": "Part of Your World",
+      "artist": "Jodi Benson",
       "count": 5
     },
     {
@@ -2209,11 +2219,6 @@
       "count": 4
     },
     {
-      "title": "蜜月アン・ドゥ・トロワ",
-      "artist": "DATEKEN",
-      "count": 4
-    },
-    {
       "title": "冒険でしょでしょ?",
       "artist": "平野綾",
       "count": 4
@@ -2336,11 +2341,6 @@
     {
       "title": "輝く未来",
       "artist": "畠中洋&小此木麻里",
-      "count": 4
-    },
-    {
-      "title": "Part of Your World",
-      "artist": "Jodi Benson",
       "count": 4
     },
     {
@@ -3846,6 +3846,11 @@
     {
       "title": "スイートマジック",
       "artist": "Junky",
+      "count": 2
+    },
+    {
+      "title": "あぶく",
+      "artist": "ヨルシカ",
       "count": 2
     },
     {
@@ -5384,11 +5389,6 @@
       "count": 1
     },
     {
-      "title": "あぶく",
-      "artist": "ヨルシカ",
-      "count": 1
-    },
-    {
       "title": "StarDust",
       "artist": "Sound Horizon",
       "count": 1
@@ -5396,6 +5396,16 @@
     {
       "title": "a.m.3：21",
       "artist": "yama",
+      "count": 1
+    },
+    {
+      "title": "櫂",
+      "artist": "ヨルシカ",
+      "count": 1
+    },
+    {
+      "title": "Happiness Umbrella",
+      "artist": "ロクデナシ",
       "count": 1
     },
     {
