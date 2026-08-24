@@ -236,6 +236,8 @@
     ]
   },
   "artists": {
+    "MI8k": ["MI8k", "MI8k (ナポリP)", "MI8k(ナポリP)"],
+    "鄧麗君 (テレサ・テン)": ["鄧麗君 (テレサ・テン)", "テレサ・テン", "鄧麗君", "鄧麗君(テレサ・テン)"],
     "平野綾": [
       "平野綾",
       "涼宮ハルヒ(平野綾)",
@@ -351,7 +353,7 @@
     "猫虫P": ["猫虫P", "猫虫"],
     "松任谷由実": ["松任谷由実", "荒井由実"],
     "CHiCO with HoneyWorks": ["CHiCO with HoneyWorks"],
-    "HoneyWorks": ["HoneyWorks", "Honeyworks", "honeyworks"],
+    "HoneyWorks": ["HoneyWorks", "Honeyworks", "honeyworks", "shito・Gom", "shito・Gom (HoneyWorks)"],
     "月見ヤチヨ": ["月見ヤチヨ", "月見ヤチヨ(cv.早見沙織)", "月見ヤチヨ (CV: 早見沙織)", "Aqu3ra 月見ヤチヨ (CV: 早見沙織)"],
     "月村手毬": ["月村手毬", "月村手毬 (小鹿なお)"],
     "DAOKO × 米津玄師": ["DAOKO × 米津玄師", "DAOKO×米津玄師"],

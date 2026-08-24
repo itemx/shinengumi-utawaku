@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1510,
-  "uniqueTitles": 1468,
-  "uniqueArtists": 678,
+  "totalEntries": 1507,
+  "uniqueTitles": 1467,
+  "uniqueArtists": 676,
   "songs": [
     {
       "title": "花に亡霊",
@@ -2269,6 +2269,11 @@
       "count": 4
     },
     {
+      "title": "金曜日のおはよう",
+      "artist": "HoneyWorks",
+      "count": 4
+    },
+    {
       "title": "檄!帝国華撃団",
       "artist": "帝国歌劇団",
       "count": 4
@@ -2744,6 +2749,11 @@
       "count": 3
     },
     {
+      "title": "ラブ&デストロイ",
+      "artist": "MI8k",
+      "count": 3
+    },
+    {
       "title": "あなたクランケン",
       "artist": "tamon",
       "count": 3
@@ -2801,11 +2811,6 @@
     {
       "title": "ネオネオン",
       "artist": "DECO*27",
-      "count": 3
-    },
-    {
-      "title": "金曜日のおはよう",
-      "artist": "HoneyWorks",
       "count": 3
     },
     {
@@ -4214,6 +4219,11 @@
       "count": 2
     },
     {
+      "title": "我只在乎你(時の流れに身をまかせ)",
+      "artist": "鄧麗君 (テレサ・テン)",
+      "count": 2
+    },
+    {
       "title": "フロントメモリー",
       "artist": "鈴木瑛美子×亀田誠治",
       "count": 2
@@ -4629,11 +4639,6 @@
       "count": 2
     },
     {
-      "title": "ラブ&デストロイ",
-      "artist": "MI8k",
-      "count": 2
-    },
-    {
       "title": "best day, best way",
       "artist": "LiSA",
       "count": 2
@@ -4971,11 +4976,6 @@
     {
       "title": "メズマライザー",
       "artist": "サツキ",
-      "count": 1
-    },
-    {
-      "title": "ラブ&デストロイ",
-      "artist": "MI8k (ナポリP)",
       "count": 1
     },
     {
@@ -5664,11 +5664,6 @@
       "count": 1
     },
     {
-      "title": "我只在乎你(時の流れに身をまかせ)",
-      "artist": "鄧麗君 (テレサ・テン)",
-      "count": 1
-    },
-    {
       "title": "藍の華",
       "artist": "HIMEHINA",
       "count": 1
@@ -6274,11 +6269,6 @@
       "count": 1
     },
     {
-      "title": "我只在乎你 (時の流れに身をまかせ)",
-      "artist": "テレサ・テン",
-      "count": 1
-    },
-    {
       "title": "バイオレンス",
       "artist": "女王蜂",
       "count": 1
@@ -6481,11 +6471,6 @@
     {
       "title": "あの夏に咲け",
       "artist": "ヨルシカ",
-      "count": 1
-    },
-    {
-      "title": "金曜日のおはよう",
-      "artist": "shito・Gom",
       "count": 1
     },
     {
@@ -7692,7 +7677,6 @@
     "MAY'S",
     "ME:I",
     "MI8k",
-    "MI8k (ナポリP)",
     "MISIA",
     "MONGOL800",
     "MORE MORE JUMP!",
@@ -7830,7 +7814,6 @@
     "sasakure.UK",
     "seiza",
     "serial TV drama",
-    "shito・Gom",
     "shr",
     "syudou",
     "tamon",
