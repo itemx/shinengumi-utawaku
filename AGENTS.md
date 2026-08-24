@@ -23,4 +23,28 @@ Codex 重點速記（細節仍以 COORDINATION.md 為準）：
   `src/lib/data.ts`、`src/lib/i18n.ts`、`data/songs/*`、`data/aliases.json`）屬 Claude，
   要動先在對話裡講一聲換手。
 - push 前一律 `git pull --rebase`。
-- 全部補完後，通知 Claude 做最終總驗收。
+
+## 完成信號（重要：取代人工轉告）
+
+全部補完後，**最後一個 commit 的 message 必須包含這行標記**：
+
+```
+song_meta: COMPLETE
+```
+
+例如：
+
+```
+data: finish song_meta enrichment (1516 songs)
+
+song_meta: COMPLETE
+```
+
+Claude 有背景監看在輪詢 `origin/main`，看到這個標記會自動被喚醒並執行最終總驗收，
+**不需要使用者手動轉告**。所以請務必 push 後才算完成（只 commit 沒 push 不會被偵測到）。
+
+若中途需要 Claude 介入（例如發現規格衝突、驗證一直過不了），同樣可用 commit message 標記：
+
+```
+song_meta: NEEDS-CLAUDE <一行說明>
+```
