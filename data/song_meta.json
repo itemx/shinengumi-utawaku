@@ -7383,7 +7383,7 @@
     "title": "我只在乎你(時の流れに身をまかせ)",
     "artist": "鄧麗君 (テレサ・テン)",
     "tags": ["western", "ballad"],
-    "durationSec": null
+    "durationSec": 249
   },
   {
     "title": "打上花火",
@@ -7528,12 +7528,6 @@
     "artist": "ヨルシカ",
     "tags": ["j-pop", "ballad"],
     "durationSec": 290
-  },
-  {
-    "title": "時の流れに身をまかせ",
-    "artist": "テレサ・テン",
-    "tags": ["western", "ballad"],
-    "durationSec": 249
   },
   {
     "title": "晩餐歌",

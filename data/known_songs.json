@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1507,
-  "uniqueTitles": 1467,
+  "totalEntries": 1506,
+  "uniqueTitles": 1466,
   "uniqueArtists": 676,
   "songs": [
     {
@@ -3214,6 +3214,11 @@
       "count": 3
     },
     {
+      "title": "我只在乎你(時の流れに身をまかせ)",
+      "artist": "鄧麗君 (テレサ・テン)",
+      "count": 3
+    },
+    {
       "title": "JINGO JUNGLE",
       "artist": "MYTH & ROID",
       "count": 3
@@ -4216,11 +4221,6 @@
     {
       "title": "メリーゴーランド",
       "artist": "優里",
-      "count": 2
-    },
-    {
-      "title": "我只在乎你(時の流れに身をまかせ)",
-      "artist": "鄧麗君 (テレサ・テン)",
       "count": 2
     },
     {
@@ -6931,11 +6931,6 @@
     {
       "title": "恋しさと せつなさと 心強さと",
       "artist": "篠原 涼子",
-      "count": 1
-    },
-    {
-      "title": "時の流れに身をまかせ",
-      "artist": "テレサ・テン",
       "count": 1
     },
     {
