@@ -76,8 +76,21 @@ python scripts/build_song_meta.py --validate
 
 ### 交接要求
 
-- **Claude** 必須將 `scripts/build_song_meta.py` 的 `ALLOWED_TAGS` 與 `data/SONG_META_GUIDE.md` 同步改為上述英文詞彙，之後再以 `python scripts/build_song_meta.py --validate` 驗證。
-- **Codex** 在驗證器同步前，不得將英文 tag 寫入 `data/song_meta.json`。
+- **Claude** 必須將 `scripts/build_song_meta.py` 的 `ALLOWED_TAGS` 與 `data/SONG_META_GUIDE.md` 同步改為上述英文詞彙，之後再以 `python scripts/build_song_meta.py --validate` 驗證。（已完成 2026-08-24）
+- **Codex** 在驗證器同步前，不得將英文 tag 寫入 `data/song_meta.json`。（驗證器已同步，可寫入）
+
+### 自主連續補完模式（2026-08-24 起，Codex 可一路跑完不用逐批確認）
+
+Codex 可從目前進度（Alchemy 之後那批已完成，下一首 `Booo!` 之後）一路補到最後一首，**不需每批等 Claude 確認**，但須遵守：
+
+1. **每次 push 前自驗**：`python scripts/build_song_meta.py --validate`，通過（0 錯誤）才 commit + push；沒過就修到過。
+2. **分段 commit**：建議每 ~100 首一個 commit（不要憋成單一巨大 commit），commit message 標明範圍與是否有 null。
+3. **不變量（每次都要成立）**：
+   - 只改 `tags` / `durationSec`；**不增刪項目、不改 `title` / `artist`**（項目數固定 1516）。
+   - tag 只用英文 11 類；`durationSec` 為 30–3600 整數，或 `null`。
+   - push 前 `git pull --rebase`。
+4. **時長衝突裁決**：使用者口頭給的粗估與官方查證不一致時，**以官方正式串流／發行標準版為準**（使用者已同意）。查不到官方版才用使用者給的粗估；都沒有就 `null`。
+5. **完成後**：Codex 告知 Claude「全部補完」，由 Claude 做最終總驗收（tag 合法性＋duration 範圍＋項目數 1516＋title/artist 零變動），通過後 Claude 接排歌單 Phase 3（tag 篩選＋精準時間估算＋反推模式）。
 
 ## 推送紀律（兩邊都遵守）
 
