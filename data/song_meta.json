@@ -259,15 +259,15 @@
   },
   {
     "title": "Believe",
-    "artist": "玉置成実",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 236
+    "artist": "杉本竜一",
+    "tags": [],
+    "durationSec": null
   },
   {
     "title": "Believe",
-    "artist": "童謡",
-    "tags": [],
-    "durationSec": null
+    "artist": "玉置成実",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 236
   },
   {
     "title": "Believe again",
@@ -1322,9 +1322,7 @@
   {
     "title": "OnyXXX",
     "artist": "Black onyX",
-    "tags": [
-      "anime"
-    ],
+    "tags": ["anime"],
     "durationSec": null
   },
   {

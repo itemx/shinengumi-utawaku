@@ -94,10 +94,33 @@ def main():
         return
 
     out = sorted(meta.values(), key=lambda m: (m["title"], m.get("artist", "")))
-    META_PATH.write_text(
-        json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    META_PATH.write_text(_dumps(out), encoding="utf-8")
     print(f"✓ 寫入 {META_PATH}")
+
+
+def _dumps(items: list[dict]) -> str:
+    """序列化為與 Codex 一致的格式：每筆 4 行，tags 陣列緊湊成一行。
+
+    避免直接用 json.dumps(indent=2) —— 它會把 tags 陣列展開成多行，
+    對已有內容造成大量格式雜訊（曾造成 7000+ 行的無意義 diff）。
+    """
+    lines = ["["]
+    for i, m in enumerate(items):
+        tags = json.dumps(m.get("tags", []), ensure_ascii=False)
+        dur = "null" if m.get("durationSec") is None else str(m["durationSec"])
+        title = json.dumps(m["title"], ensure_ascii=False)
+        artist = json.dumps(m.get("artist", ""), ensure_ascii=False)
+        comma = "," if i < len(items) - 1 else ""
+        lines.append(
+            "  {\n"
+            f"    \"title\": {title},\n"
+            f"    \"artist\": {artist},\n"
+            f"    \"tags\": {tags},\n"
+            f"    \"durationSec\": {dur}\n"
+            f"  }}{comma}"
+        )
+    lines.append("]")
+    return "\n".join(lines) + "\n"
 
 
 if __name__ == "__main__":
