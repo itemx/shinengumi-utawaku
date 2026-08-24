@@ -1,0 +1,182 @@
+---
+import Base from "../layouts/Base.astro";
+import { getAllSongs, getSongMeta } from "../lib/data";
+
+const all = getAllSongs();
+const meta = getSongMeta();
+
+const pool = all.map((s) => {
+  const m = meta.get(`${s.title}\t${s.artist}`);
+  return {
+    title: s.title,
+    artist: s.artist,
+    count: s.count,
+    channels: [...new Set(s.appearances.map((a) => a.channelName))],
+    tags: m?.tags ?? [],
+    dur: m?.durationSec ?? null,
+  };
+});
+
+const durations = pool.map((s) => s.dur).filter((d): d is number => !!d);
+const avgDur = durations.length
+  ? Math.round(durations.reduce((a, b) => a + b, 0) / durations.length)
+  : 270;
+
+const allTags = [...new Set(pool.flatMap((s) => s.tags))].sort();
+const allChannels = [...new Set(pool.flatMap((s) => s.channels))].sort();
+const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
+---
+
+<Base title="排歌單" i18nTitleKey="plan.page_title">
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold text-primary mb-1" data-i18n="plan.title">排歌單</h1>
+    <p class="text-text-muted text-sm" data-i18n="plan.subtitle">
+      篩選、勾選想唱的歌，組成這次歌回的清單。
+    </p>
+    {metaFilled === 0 && (
+      <p class="text-xs mt-2 text-gold" data-i18n="plan.no_meta">
+        ⚠ 尚未補完曲目分類/長度，tag 篩選與時間估算暫不可用。
+      </p>
+    )}
+  </div>
+
+  <div class="grid md:grid-cols-[1fr_320px] gap-6 items-start">
+    <!-- 左：曲池 -->
+    <div>
+      <div class="flex flex-wrap gap-2 mb-3">
+        <input id="q" type="search" placeholder="搜尋曲名 / 歌手…" data-i18n-placeholder="plan.search"
+          class="flex-1 min-w-[180px] px-3 py-2 border border-border rounded-md text-sm" />
+        <select id="channel" class="px-3 py-2 border border-border rounded-md text-sm">
+          <option value="" data-i18n="plan.all_channels">全部頻道</option>
+          {allChannels.map((c) => <option value={c}>{c}</option>)}
+        </select>
+      </div>
+
+      {allTags.length > 0 && (
+        <div id="tagbar" class="flex flex-wrap gap-1.5 mb-3">
+          {allTags.map((t) => (
+            <button class="tag-chip px-2.5 py-1 rounded-full text-xs border border-border hover:border-primary" data-tag={t}>{t}</button>
+          ))}
+        </div>
+      )}
+
+      <p id="pool-count" class="text-xs text-text-muted mb-2"></p>
+      <ul id="pool" class="divide-y divide-border border border-border rounded-md max-h-[62vh] overflow-y-auto"></ul>
+    </div>
+
+    <!-- 右：已選清單 -->
+    <div class="md:sticky md:top-4 border border-border rounded-md p-3 bg-white">
+      <div class="flex items-baseline justify-between mb-2">
+        <h2 class="font-bold text-purple" data-i18n="plan.selected">已選</h2>
+        <button id="clear" class="text-xs text-text-muted hover:text-primary underline" data-i18n="plan.clear">清空</button>
+      </div>
+      <div class="text-sm mb-2">
+        <span id="sel-count" class="font-bold text-primary">0</span>
+        <span data-i18n="plan.songs_unit">首</span>
+        <span class="text-text-muted"> · ≈ </span>
+        <span id="sel-time" class="font-bold">0:00</span>
+      </div>
+      <div class="flex items-center gap-2 mb-3 text-xs text-text-muted">
+        <label data-i18n="plan.target">目標</label>
+        <input id="target" type="number" min="0" step="10" placeholder="分" class="w-16 px-2 py-1 border border-border rounded" />
+        <span data-i18n="plan.minutes">分鐘</span>
+        <span id="target-diff"></span>
+      </div>
+      <ol id="selected" class="text-sm space-y-1 mb-3 max-h-[36vh] overflow-y-auto list-decimal list-inside"></ol>
+      <textarea id="out" readonly rows="4" class="w-full text-xs border border-border rounded p-2 font-mono bg-gray-50"></textarea>
+      <button id="copy" class="btn-primary mt-2 w-full py-2 rounded-full text-sm text-white bg-primary hover:bg-primary-dark" data-i18n="plan.copy">複製清單</button>
+    </div>
+  </div>
+
+  <script is:inline define:vars={{ pool, avgDur }}>
+    var selected = []; // list of pool indices (click order)
+    var activeTags = new Set();
+    var poolEl = document.getElementById("pool");
+    var q = document.getElementById("q");
+    var channelSel = document.getElementById("channel");
+
+    function kana(s){ return s.replace(/[ァ-ヶ]/g, function(c){ return String.fromCharCode(c.charCodeAt(0)-0x60); }); }
+    function norm(s){ return kana((s||"").toLowerCase()); }
+    function fmt(sec){ var m=Math.floor(sec/60), h=Math.floor(m/60); m=m%60; return (h?h+":"+String(m).padStart(2,"0"):m+"")+ (h?"":":00"); }
+    function fmtHM(sec){ var m=Math.round(sec/60), h=Math.floor(m/60); m=m%60; return h+":"+String(m).padStart(2,"0"); }
+
+    function filtered(){
+      var text = norm(q.value.trim());
+      var ch = channelSel.value;
+      return pool.map(function(s,i){ return {s:s,i:i}; }).filter(function(o){
+        var s=o.s;
+        if (ch && s.channels.indexOf(ch)<0) return false;
+        if (activeTags.size){ var hit=false; s.tags.forEach(function(t){ if(activeTags.has(t)) hit=true; }); if(!hit) return false; }
+        if (text){ if (norm(s.title).indexOf(text)<0 && norm(s.artist).indexOf(text)<0) return false; }
+        return true;
+      });
+    }
+
+    function renderPool(){
+      var rows = filtered();
+      document.getElementById("pool-count").textContent = rows.length + " 曲";
+      poolEl.innerHTML = "";
+      rows.slice(0,600).forEach(function(o){
+        var s=o.s, i=o.i, on=selected.indexOf(i)>=0;
+        var li=document.createElement("li");
+        li.className="flex items-center gap-2 px-3 py-1.5 cursor-pointer hover:bg-pink-50"+(on?" bg-pink-50":"");
+        li.innerHTML='<input type="checkbox" '+(on?"checked":"")+' class="pointer-events-none">'+
+          '<span class="flex-1 text-sm"><span class="font-medium">'+esc(s.title)+'</span>'+
+          (s.artist?' <span class="text-text-muted">/ '+esc(s.artist)+'</span>':'')+
+          (s.dur?' <span class="text-xs text-text-muted">('+fmtHM(s.dur)+')</span>':'')+'</span>'+
+          (s.tags.length?'<span class="text-[10px] text-purple">'+s.tags.map(esc).join(" ")+'</span>':'');
+        li.onclick=function(){ toggle(i); };
+        poolEl.appendChild(li);
+      });
+    }
+
+    function toggle(i){
+      var idx=selected.indexOf(i);
+      if (idx>=0) selected.splice(idx,1); else selected.push(i);
+      renderPool(); renderSelected();
+    }
+
+    function renderSelected(){
+      var ol=document.getElementById("selected"); ol.innerHTML="";
+      var totalSec=0;
+      selected.forEach(function(i){
+        var s=pool[i]; totalSec += (s.dur||avgDur);
+        var li=document.createElement("li");
+        li.className="flex items-start gap-1";
+        li.innerHTML='<span class="flex-1">'+esc(s.title)+(s.artist?' <span class="text-text-muted">/ '+esc(s.artist)+'</span>':'')+'</span>'+
+          '<button class="text-text-muted hover:text-primary text-xs" title="移除">✕</button>';
+        li.querySelector("button").onclick=function(){ toggle(i); };
+        ol.appendChild(li);
+      });
+      document.getElementById("sel-count").textContent=selected.length;
+      document.getElementById("sel-time").textContent=fmtHM(totalSec);
+      document.getElementById("out").value=selected.map(function(i){ var s=pool[i]; return s.title+(s.artist?" / "+s.artist:""); }).join("\n");
+      // target
+      var t=parseInt(document.getElementById("target").value,10);
+      var diff=document.getElementById("target-diff");
+      if (t>0){ var d=Math.round(totalSec/60)-t; diff.textContent=(d>=0?"+":"")+d+"分"; diff.className=Math.abs(d)<=10?"text-green-600":"text-primary"; }
+      else diff.textContent="";
+    }
+
+    function esc(s){ return String(s).replace(/[&<>]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c];}); }
+
+    q.addEventListener("input", renderPool);
+    channelSel.addEventListener("change", renderPool);
+    document.getElementById("target").addEventListener("input", renderSelected);
+    document.querySelectorAll(".tag-chip").forEach(function(b){
+      b.onclick=function(){
+        var t=b.dataset.tag;
+        if(activeTags.has(t)){ activeTags.delete(t); b.classList.remove("bg-primary","text-white","border-primary"); }
+        else { activeTags.add(t); b.classList.add("bg-primary","text-white","border-primary"); }
+        renderPool();
+      };
+    });
+    document.getElementById("clear").onclick=function(){ selected=[]; renderPool(); renderSelected(); };
+    document.getElementById("copy").onclick=function(){
+      var out=document.getElementById("out"); out.select(); navigator.clipboard.writeText(out.value);
+      var b=document.getElementById("copy"); var o=b.textContent; b.textContent="✓"; setTimeout(function(){ b.textContent=o; },1000);
+    };
+
+    renderPool(); renderSelected();
+  </script>
+</Base>

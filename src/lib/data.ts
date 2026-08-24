@@ -177,3 +177,20 @@ export function getAllSongs() {
 
   return Array.from(songMap.values()).sort((a, b) => b.count - a.count);
 }
+
+export interface SongMeta {
+  title: string;
+  artist: string;
+  tags: string[];
+  durationSec: number | null;
+}
+
+/** 讀取 song_meta.json，回傳 key=`title\tartist` 的 Map */
+export function getSongMeta(): Map<string, SongMeta> {
+  const p = path.join(DATA_DIR, "song_meta.json");
+  const map = new Map<string, SongMeta>();
+  if (!fs.existsSync(p)) return map;
+  const arr: SongMeta[] = JSON.parse(fs.readFileSync(p, "utf-8"));
+  for (const m of arr) map.set(`${m.title}\t${m.artist}`, m);
+  return map;
+}
