@@ -63,7 +63,7 @@
     "title": "A Dream Is a Wish Your Heart Makes",
     "artist": "Ilene Woods",
     "tags": ["anime", "western"],
-    "durationSec": null
+    "durationSec": 150
   },
   {
     "title": "A Whole New World",
@@ -1322,7 +1322,9 @@
   {
     "title": "OnyXXX",
     "artist": "Black onyX",
-    "tags": [],
+    "tags": [
+      "anime"
+    ],
     "durationSec": null
   },
   {
