@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1514,
-  "uniqueTitles": 1470,
+  "totalEntries": 1513,
+  "uniqueTitles": 1469,
   "uniqueArtists": 679,
   "songs": [
     {
@@ -714,6 +714,11 @@
       "count": 9
     },
     {
+      "title": "とても素敵な六月でした",
+      "artist": "Eight",
+      "count": 9
+    },
+    {
       "title": "靴の花火",
       "artist": "ヨルシカ",
       "count": 9
@@ -886,11 +891,6 @@
     {
       "title": "ヤミタイガール",
       "artist": "れるりり",
-      "count": 8
-    },
-    {
-      "title": "とても素敵な六月でした",
-      "artist": "Eight",
       "count": 8
     },
     {
@@ -6481,11 +6481,6 @@
     {
       "title": "DAYBREAK'S BELL",
       "artist": "L'Arc-en-Ciel",
-      "count": 1
-    },
-    {
-      "title": "Totemo Suteki na Rokugatsu Deshita",
-      "artist": "Eight",
       "count": 1
     },
     {
