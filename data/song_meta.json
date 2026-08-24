@@ -2396,8 +2396,8 @@
   {
     "title": "「Q」",
     "artist": "Calliope Mori x Gawr Gura x DECO*27",
-    "tags": [],
-    "durationSec": null
+    "tags": ["original"],
+    "durationSec": 159
   },
   {
     "title": "「ねぇ。」",
@@ -5715,7 +5715,7 @@
     "title": "ループ",
     "artist": "坂本真綾",
     "tags": ["j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 324
   },
   {
     "title": "ルーマー",
@@ -5937,7 +5937,7 @@
     "title": "一触即発☆禅ガール",
     "artist": "れるりり",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 198
   },
   {
     "title": "一騎当千",
@@ -8163,7 +8163,7 @@
     "title": "真夏のSounds good !",
     "artist": "AKB48",
     "tags": ["idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 274
   },
   {
     "title": "真夏の果実",
