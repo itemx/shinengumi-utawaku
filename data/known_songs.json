@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1513,
-  "uniqueTitles": 1469,
-  "uniqueArtists": 679,
+  "totalEntries": 1510,
+  "uniqueTitles": 1468,
+  "uniqueArtists": 678,
   "songs": [
     {
       "title": "花に亡霊",
@@ -419,6 +419,11 @@
       "count": 12
     },
     {
+      "title": "心拍数♯0822",
+      "artist": "蝶々P",
+      "count": 12
+    },
+    {
       "title": "夜に駆ける",
       "artist": "YOASOBI",
       "count": 12
@@ -636,11 +641,6 @@
     {
       "title": "Snow halation",
       "artist": "μ's",
-      "count": 10
-    },
-    {
-      "title": "心拍数♯0822",
-      "artist": "蝶々P",
       "count": 10
     },
     {
@@ -1674,6 +1674,11 @@
       "count": 6
     },
     {
+      "title": "花筏",
+      "artist": "Orangestar",
+      "count": 6
+    },
+    {
       "title": "サイレント・マジョリティ",
       "artist": "Heavenz",
       "count": 6
@@ -2119,11 +2124,6 @@
       "count": 5
     },
     {
-      "title": "花筏",
-      "artist": "Orangestar",
-      "count": 5
-    },
-    {
       "title": "Os 宇宙人",
       "artist": "エリオをかまってちゃん",
       "count": 5
@@ -2466,6 +2466,11 @@
     {
       "title": "超跑情人夢",
       "artist": "卜學亮",
+      "count": 4
+    },
+    {
+      "title": "白金ディスコ",
+      "artist": "阿良々木月火 (井口裕香)",
       "count": 4
     },
     {
@@ -3136,11 +3141,6 @@
     {
       "title": "トリカゴ",
       "artist": "XX:me",
-      "count": 3
-    },
-    {
-      "title": "白金ディスコ",
-      "artist": "阿良々木月火 (井口裕香)",
       "count": 3
     },
     {
@@ -4621,11 +4621,6 @@
     {
       "title": "ラヴレター",
       "artist": "夏色まつり",
-      "count": 2
-    },
-    {
-      "title": "心拍数#0822",
-      "artist": "蝶々P",
       "count": 2
     },
     {
@@ -6629,11 +6624,6 @@
       "count": 1
     },
     {
-      "title": "白金ディスコ",
-      "artist": "阿良々木月火(井口裕香)",
-      "count": 1
-    },
-    {
       "title": "林檎花火とソーダの海",
       "artist": "まふまふ",
       "count": 1
@@ -7454,11 +7444,6 @@
       "count": 1
     },
     {
-      "title": "花筏",
-      "artist": "orangester",
-      "count": 1
-    },
-    {
       "title": "Hello,Worker",
       "artist": "ゆうゆ",
       "count": 1
@@ -8226,7 +8211,6 @@
     "銀サク",
     "阿肆",
     "阿良々木月火 (井口裕香)",
-    "阿良々木月火(井口裕香)",
     "陰陽座",
     "音田雅則",
     "音莉飴",

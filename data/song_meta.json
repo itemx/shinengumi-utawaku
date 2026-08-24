@@ -7080,12 +7080,6 @@
     "durationSec": 274
   },
   {
-    "title": "心拍数#0822",
-    "artist": "蝶々P",
-    "tags": ["vocaloid", "ballad"],
-    "durationSec": null
-  },
-  {
     "title": "心拍数♯0822",
     "artist": "蝶々P",
     "tags": ["vocaloid", "ballad"],
@@ -8178,12 +8172,6 @@
     "durationSec": null
   },
   {
-    "title": "白金ディスコ",
-    "artist": "阿良々木月火(井口裕香)",
-    "tags": ["anime", "j-pop"],
-    "durationSec": null
-  },
-  {
     "title": "白銀",
     "artist": "LiSA",
     "tags": ["anime", "j-pop"],
@@ -8600,12 +8588,6 @@
   {
     "title": "花筏",
     "artist": "Orangestar",
-    "tags": ["vocaloid", "ballad"],
-    "durationSec": null
-  },
-  {
-    "title": "花筏",
-    "artist": "orangester",
     "tags": ["vocaloid", "ballad"],
     "durationSec": null
   },
