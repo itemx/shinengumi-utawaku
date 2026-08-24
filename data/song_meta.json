@@ -200,7 +200,7 @@
   {
     "title": "BANG BANG BANG",
     "artist": "BIGBANG",
-    "tags": [],
+    "tags": ["k-pop"],
     "durationSec": 220
   },
   {
@@ -620,7 +620,7 @@
   {
     "title": "EX-otogibanashi",
     "artist": "ryo (supercell)",
-    "tags": [],
+    "tags": ["anime", "j-pop"],
     "durationSec": 217
   },
   {
@@ -638,7 +638,7 @@
   {
     "title": "EYES,NOSE,LIPS",
     "artist": "SOL (from BIGBANG)",
-    "tags": [],
+    "tags": ["k-pop"],
     "durationSec": 230
   },
   {
@@ -662,7 +662,7 @@
   {
     "title": "FANTASTIC BABY",
     "artist": "BIGBANG",
-    "tags": [],
+    "tags": ["k-pop"],
     "durationSec": 234
   },
   {
@@ -752,7 +752,7 @@
   {
     "title": "Gee",
     "artist": "少女時代",
-    "tags": [],
+    "tags": ["k-pop"],
     "durationSec": 202
   },
   {
@@ -1179,7 +1179,7 @@
     "title": "Make you hot!",
     "artist": "あたたかくなる × FAKE TYPE.",
     "tags": ["original", "j-pop"],
-    "durationSec": null
+    "durationSec": 220
   },
   {
     "title": "Masked bitcH",
@@ -1471,19 +1471,7 @@
   },
   {
     "title": "Q",
-    "artist": "DECO*27",
-    "tags": ["vocaloid"],
-    "durationSec": null
-  },
-  {
-    "title": "Q",
     "artist": "椎名もた (ぽわぽわP)",
-    "tags": ["vocaloid"],
-    "durationSec": 258
-  },
-  {
-    "title": "Q",
-    "artist": "椎名もた(ぽわぽわP)",
     "tags": ["vocaloid"],
     "durationSec": 258
   },
@@ -1982,7 +1970,7 @@
   {
     "title": "Why? (Keep Your Head Down)",
     "artist": "東方神起",
-    "tags": [],
+    "tags": ["k-pop"],
     "durationSec": 240
   },
   {
@@ -2404,6 +2392,12 @@
     "artist": "KOTOKO",
     "tags": ["anime", "j-pop"],
     "durationSec": 282
+  },
+  {
+    "title": "「Q」",
+    "artist": "Calliope Mori x Gawr Gura x DECO*27",
+    "tags": [],
+    "durationSec": null
   },
   {
     "title": "「ねぇ。」",
@@ -3656,7 +3650,7 @@
   {
     "title": "ガラガラGO!!",
     "artist": "BIGBANG",
-    "tags": [],
+    "tags": ["k-pop"],
     "durationSec": 199
   },
   {
@@ -6584,7 +6578,7 @@
   {
     "title": "声をきかせて",
     "artist": "BIGBANG",
-    "tags": [],
+    "tags": ["k-pop"],
     "durationSec": 253
   },
   {
