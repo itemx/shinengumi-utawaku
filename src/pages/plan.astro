@@ -82,6 +82,8 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
         <span data-i18n="plan.minutes">分鐘</span>
         <span id="target-diff"></span>
       </div>
+      <button id="autofill" class="w-full mb-3 py-1.5 rounded-full text-xs border border-primary text-primary hover:bg-pink-50"
+        data-i18n="plan.autofill">依目標自動組合</button>
       <ol id="selected" class="text-sm space-y-1 mb-3 max-h-[36vh] overflow-y-auto list-decimal list-inside"></ol>
       <textarea id="out" readonly rows="4" class="w-full text-xs border border-border rounded p-2 font-mono bg-gray-50"></textarea>
       <button id="copy" class="btn-primary mt-2 w-full py-2 rounded-full text-sm text-white bg-primary hover:bg-primary-dark" data-i18n="plan.copy">複製清單</button>
@@ -97,7 +99,9 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
 
     function kana(s){ return s.replace(/[ァ-ヶ]/g, function(c){ return String.fromCharCode(c.charCodeAt(0)-0x60); }); }
     function norm(s){ return kana((s||"").toLowerCase()); }
-    function fmt(sec){ var m=Math.floor(sec/60), h=Math.floor(m/60); m=m%60; return (h?h+":"+String(m).padStart(2,"0"):m+"")+ (h?"":":00"); }
+    // 單曲長度: 分:秒 (例 366 -> 6:06)
+    function fmtMS(sec){ var m=Math.floor(sec/60), s=sec%60; return m+":"+String(s).padStart(2,"0"); }
+    // 清單總長: 時:分 (例 7260 -> 2:01)
     function fmtHM(sec){ var m=Math.round(sec/60), h=Math.floor(m/60); m=m%60; return h+":"+String(m).padStart(2,"0"); }
 
     function filtered(){
@@ -123,7 +127,7 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
         li.innerHTML='<input type="checkbox" '+(on?"checked":"")+' class="pointer-events-none">'+
           '<span class="flex-1 text-sm"><span class="font-medium">'+esc(s.title)+'</span>'+
           (s.artist?' <span class="text-text-muted">/ '+esc(s.artist)+'</span>':'')+
-          (s.dur?' <span class="text-xs text-text-muted">('+fmtHM(s.dur)+')</span>':'')+'</span>'+
+          (s.dur?' <span class="text-xs text-text-muted">('+fmtMS(s.dur)+')</span>':'')+'</span>'+
           (s.tags.length?'<span class="text-[10px] text-purple">'+s.tags.map(esc).join(" ")+'</span>':'');
         li.onclick=function(){ toggle(i); };
         poolEl.appendChild(li);
@@ -172,6 +176,25 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
       };
     });
     document.getElementById("clear").onclick=function(){ selected=[]; renderPool(); renderSelected(); };
+
+    // 反推模式: 依目標分鐘數 + 目前篩選條件，從曲池隨機組合到接近目標
+    document.getElementById("autofill").onclick=function(){
+      var t=parseInt(document.getElementById("target").value,10);
+      if(!(t>0)){ alert("請先輸入目標分鐘數"); return; }
+      var targetSec=t*60;
+      // 候選 = 目前篩選結果，排除已選
+      var cand=filtered().map(function(o){return o.i;}).filter(function(i){return selected.indexOf(i)<0;});
+      // 洗牌 (Fisher-Yates)
+      for(var k=cand.length-1;k>0;k--){ var j=Math.floor(Math.random()*(k+1)); var tmp=cand[k]; cand[k]=cand[j]; cand[j]=tmp; }
+      var cur=selected.reduce(function(a,i){return a+(pool[i].dur||avgDur);},0);
+      for(var n=0;n<cand.length && cur<targetSec;n++){
+        var d=pool[cand[n]].dur||avgDur;
+        // 加了會超過目標一半以上的歌就跳過，讓總長更貼近目標
+        if(cur+d>targetSec+d/2) continue;
+        selected.push(cand[n]); cur+=d;
+      }
+      renderPool(); renderSelected();
+    };
     document.getElementById("copy").onclick=function(){
       var out=document.getElementById("out"); out.select(); navigator.clipboard.writeText(out.value);
       var b=document.getElementById("copy"); var o=b.textContent; b.textContent="✓"; setTimeout(function(){ b.textContent=o; },1000);

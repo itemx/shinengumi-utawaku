@@ -86,6 +86,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "plan.target": "目標",
     "plan.minutes": "分鐘",
     "plan.copy": "複製清單",
+    "plan.autofill": "依目標自動組合",
   },
   ja: {
     "nav.home": "ホーム",
@@ -156,6 +157,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "plan.target": "目標",
     "plan.minutes": "分",
     "plan.copy": "リストをコピー",
+    "plan.autofill": "目標に合わせて自動編成",
   },
 };
 
