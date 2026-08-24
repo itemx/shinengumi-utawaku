@@ -41,7 +41,13 @@ song_meta: COMPLETE
 ```
 
 Claude 有背景監看在輪詢 `origin/main`，看到這個標記會自動被喚醒並執行最終總驗收，
-**不需要使用者手動轉告**。所以請務必 push 後才算完成（只 commit 沒 push 不會被偵測到）。
+**不需要使用者手動轉告**。
+
+偵測條件（三者皆須成立，否則不會觸發）：
+
+1. 標記**必須自己獨立成一行**（行首開始）。寫在句子中間（例如 `... 標記 "song_meta: COMPLETE" ...`）**不會**被偵測到。
+2. 該 commit 必須有變更到 `data/song_meta.json`（純文件 commit 不觸發）。
+3. 必須 **push** 到 `origin/main`（只 commit 沒 push 偵測不到）。
 
 若中途需要 Claude 介入（例如發現規格衝突、驗證一直過不了），同樣可用 commit message 標記：
 
