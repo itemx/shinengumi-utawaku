@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-08-22T12:40:10.502491+00:00",
+  "lastFetched": "2026-08-24T07:51:55.316009+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -40249,6 +40249,24 @@
       ],
       "sourceCommentId": "",
       "type": "stream"
+    },
+    {
+      "videoId": "G_I1S-fvSXc",
+      "title": "【オリジナル曲】no face【EmbellirGift】",
+      "publishedAt": "2022-11-12T12:00:08Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "no face",
+          "titleRaw": "no face",
+          "artist": "EmbellirGift",
+          "artistRaw": "EmbellirGift",
+          "url": "https://youtu.be/G_I1S-fvSXc?t=0"
+        }
+      ],
+      "sourceCommentId": "issue#76",
+      "type": "original"
     }
   ]
 }
