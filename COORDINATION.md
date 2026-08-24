@@ -37,7 +37,7 @@ python scripts/build_stats.py && python scripts/build_known_songs.py
 - **只能填 `tags` 和 `durationSec`。**
 - **不可改 `title` / `artist`，不可增刪項目**（項目由 `scripts/build_song_meta.py` 從曲庫產生；改動會跟曲庫對不上、join 漏歌）。
 - `tags`：只能用下列英文受控字彙（完全一致的寫法），可複選（OR），不得自行增加類別：
-  `anime vocaloid game tokusatsu idol j-pop western touhou doujin original ballad`
+  `anime vocaloid game tokusatsu idol j-pop k-pop western touhou doujin original ballad`
 - `durationSec`：原曲正式錄音室標準版的整數秒數（30–3600）；不採現場、翻唱、short 或混音版。查不到或無法可靠確認時填 `null`。
 - 詳見 [data/SONG_META_GUIDE.md](data/SONG_META_GUIDE.md)。
 
@@ -59,6 +59,7 @@ python scripts/build_song_meta.py --validate
 | `tokusatsu` | `特撮` |
 | `idol` | `アイドル` |
 | `j-pop` | `J-POP` |
+| `k-pop` | 韓流（2026-08-24 新增） |
 | `western` | `洋楽` |
 | `touhou` | `東方` |
 | `doujin` | `同人` |
@@ -67,7 +68,7 @@ python scripts/build_song_meta.py --validate
 
 ### 分類與查證原則
 
-- 一首歌可以有多個 tag，但只能從上述 11 個選取。
+- 一首歌可以有多個 tag，但只能從上述 12 個選取。
 - 有明確作品來源時，加上對應來源 tag；一般日文流行曲加 `j-pop`，西洋歌曲加 `western`。
 - 資訊不明時寧可少加，不以推測補類別。
 - `durationSec` 查證優先順序：官方 YouTube Audio／官方藝人或唱片公司頁／正式串流平台頁。
@@ -87,7 +88,7 @@ Codex 可從目前進度（Alchemy 之後那批已完成，下一首 `Booo!` 之
 2. **分段 commit**：建議每 ~100 首一個 commit（不要憋成單一巨大 commit），commit message 標明範圍與是否有 null。
 3. **不變量（每次都要成立）**：
    - 只改 `tags` / `durationSec`；**不增刪項目、不改 `title` / `artist`**（項目數固定 1516）。
-   - tag 只用英文 11 類；`durationSec` 為 30–3600 整數，或 `null`。
+   - tag 只用英文 12 類；`durationSec` 為 30–3600 整數，或 `null`。
    - push 前 `git pull --rebase`。
 4. **時長衝突裁決**：使用者口頭給的粗估與官方查證不一致時，**以官方正式串流／發行標準版為準**（使用者已同意）。查不到官方版才用使用者給的粗估；都沒有就 `null`。
 5. **完成後**：用下面的「commit message 信號」通知 Claude（不需要使用者手動轉告）。Claude 會做最終總驗收（tag 合法性＋duration 範圍＋項目數 1516＋title/artist 零變動），通過後接排歌單 Phase 3（tag 篩選＋精準時間估算＋反推模式）。

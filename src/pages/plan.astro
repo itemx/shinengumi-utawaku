@@ -55,7 +55,7 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
       {allTags.length > 0 && (
         <div id="tagbar" class="flex flex-wrap gap-1.5 mb-3">
           {allTags.map((t) => (
-            <button class="tag-chip px-2.5 py-1 rounded-full text-xs border border-border hover:border-primary" data-tag={t}>{t}</button>
+            <button class="tag-chip px-2.5 py-1 rounded-full text-xs border border-border hover:border-primary" data-tag={t} data-i18n={`tag.${t}`}>{t}</button>
           ))}
         </div>
       )}
@@ -128,10 +128,14 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
           '<span class="flex-1 text-sm"><span class="font-medium">'+esc(s.title)+'</span>'+
           (s.artist?' <span class="text-text-muted">/ '+esc(s.artist)+'</span>':'')+
           (s.dur?' <span class="text-xs text-text-muted">('+fmtMS(s.dur)+')</span>':'')+'</span>'+
-          (s.tags.length?'<span class="text-[10px] text-purple">'+s.tags.map(esc).join(" ")+'</span>':'');
+          (s.tags.length?'<span class="text-[10px] text-purple">'+s.tags.map(function(t){
+            return '<span data-i18n="tag.'+esc(t)+'">'+esc(t)+'</span>';
+          }).join(" ")+'</span>':'');
         li.onclick=function(){ toggle(i); };
         poolEl.appendChild(li);
       });
+      // 動態產生的 tag 節點需重新套翻譯
+      if (window.__applyI18n) window.__applyI18n();
     }
 
     function toggle(i){
@@ -199,6 +203,9 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
       var out=document.getElementById("out"); out.select(); navigator.clipboard.writeText(out.value);
       var b=document.getElementById("copy"); var o=b.textContent; b.textContent="✓"; setTimeout(function(){ b.textContent=o; },1000);
     };
+
+    // 切換語言時重繪 (讓動態 tag 跟著換)
+    window.addEventListener("langchange", function(){ renderPool(); });
 
     renderPool(); renderSelected();
   </script>

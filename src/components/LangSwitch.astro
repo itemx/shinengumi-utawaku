@@ -47,6 +47,7 @@
     document.documentElement.lang = locale === "zh" ? "zh-Hant" : "ja";
     applyTranslations(locale);
     highlightActive(locale);
+    publishHooks(locale);
   }
 
   function applyTranslations(locale: Locale) {
@@ -64,6 +65,13 @@
     if (titleKey && dict[titleKey]) {
       document.title = dict[titleKey];
     }
+  }
+
+  // 通知動態渲染的頁面 (如 /plan) 重繪。__applyI18n 已於下方公開，
+  // 但動態產生的節點需在重繪後才補翻譯，故切換語言時額外發事件。
+  function publishHooks(locale: Locale) {
+    (window as any).__i18nLocale = locale;
+    window.dispatchEvent(new CustomEvent("langchange", { detail: { locale } }));
   }
 
   function highlightActive(locale: Locale) {

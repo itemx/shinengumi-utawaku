@@ -24,7 +24,7 @@ META_PATH = DATA_DIR / "song_meta.json"
 # 受控 tag 字彙 (英文，見 COORDINATION.md / SONG_META_GUIDE.md)
 ALLOWED_TAGS = [
     "anime", "vocaloid", "game", "tokusatsu", "idol",
-    "j-pop", "western", "touhou", "doujin", "original", "ballad",
+    "j-pop", "k-pop", "western", "touhou", "doujin", "original", "ballad",
 ]
 
 

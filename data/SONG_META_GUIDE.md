@@ -13,18 +13,18 @@
 只能用這些值（完全一致、小寫），不得自行增加類別：
 
 ```
-anime  vocaloid  game  tokusatsu  idol  j-pop  western  touhou  doujin  original  ballad
+anime  vocaloid  game  tokusatsu  idol  j-pop  k-pop  western  touhou  doujin  original  ballad
 ```
 
 對照：`anime`=動畫 · `vocaloid`=ボカロ · `game`=遊戲 · `tokusatsu`=特撮 · `idol`=偶像 ·
-`j-pop`=日文流行 · `western`=西洋 · `touhou`=東方 · `doujin`=同人 · `original`=原創 · `ballad`=抒情
+`j-pop`=日文流行 · `k-pop`=韓流 · `western`=西洋 · `touhou`=東方 · `doujin`=同人 · `original`=原創 · `ballad`=抒情
 
 規則：
 - 一首歌可同時屬多類，用 OR。例：某曲既是動畫 OP 又是流行曲 → `["anime", "j-pop"]`。
 - 動畫/遊戲/特撮主題歌 → 加對應 tag（`anime` / `game` / `tokusatsu`）。
 - VOCALOID／ボカロP 原曲 → `vocaloid`。
 - 偶像作品（ラブライブ、デレマス、うたプリ 等）角色曲 → `idol`。
-- 日文一般流行曲 → `j-pop`；西洋歌曲 → `western`。
+- 日文一般流行曲 → `j-pop`；韓國流行曲 → `k-pop`；西洋歌曲 → `western`。
 - 不確定就少加，寧缺勿錯。
 
 ## durationSec（原曲錄音室版長度，整數秒）

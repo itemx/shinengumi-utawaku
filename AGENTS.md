@@ -13,7 +13,7 @@ Codex 重點速記（細節仍以 COORDINATION.md 為準）：
 
 - **你負責 `data/song_meta.json`**：只填 `tags` / `durationSec`，
   **不增刪項目、不改 `title` / `artist`**（項目數固定 1516，由 Claude 的 build 腳本產生）。
-- tag 只能用英文 11 類：`anime vocaloid game tokusatsu idol j-pop western touhou doujin original ballad`
+- tag 只能用英文 12 類：`anime vocaloid game tokusatsu idol j-pop k-pop western touhou doujin original ballad`
 - `durationSec`：官方正式發行標準版整數秒（30–3600），查不到填 `null`。
   與使用者口頭給的粗估衝突時，**以官方正式串流／發行版為準**。
 - **自主連續補完模式已授權**：不用每批等確認，但每次 push 前自己跑
