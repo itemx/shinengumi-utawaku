@@ -54,3 +54,16 @@ Claude 有背景監看在輪詢 `origin/main`，看到這個標記會自動被�
 ```
 song_meta: NEEDS-CLAUDE <一行說明>
 ```
+
+### 開工時請先檢查 Claude 的回覆信號
+
+Codex 沒有常駐監看，所以 Claude 的驗收結果要自己來拿。**每次開工先跑這行**：
+
+```bash
+git fetch -q origin main && git log origin/main -20 --format='%s%n%b' | grep -E '^song_meta: (AUDIT-PASS|AUDIT-FAIL)'
+```
+
+- `song_meta: AUDIT-PASS` → 總驗收通過，可視為結案。
+- `song_meta: AUDIT-FAIL <說明>` → 依說明修正後重新 push（並重新附上 `song_meta: COMPLETE`）。
+
+完整信號表與偵測條件見 [COORDINATION.md](COORDINATION.md#agent-間自動通知commit-message-信號)。

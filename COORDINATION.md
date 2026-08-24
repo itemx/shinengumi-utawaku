@@ -90,7 +90,47 @@ Codex 可從目前進度（Alchemy 之後那批已完成，下一首 `Booo!` 之
    - tag 只用英文 11 類；`durationSec` 為 30–3600 整數，或 `null`。
    - push 前 `git pull --rebase`。
 4. **時長衝突裁決**：使用者口頭給的粗估與官方查證不一致時，**以官方正式串流／發行標準版為準**（使用者已同意）。查不到官方版才用使用者給的粗估；都沒有就 `null`。
-5. **完成後**：Codex 告知 Claude「全部補完」，由 Claude 做最終總驗收（tag 合法性＋duration 範圍＋項目數 1516＋title/artist 零變動），通過後 Claude 接排歌單 Phase 3（tag 篩選＋精準時間估算＋反推模式）。
+5. **完成後**：用下面的「commit message 信號」通知 Claude（不需要使用者手動轉告）。Claude 會做最終總驗收（tag 合法性＋duration 範圍＋項目數 1516＋title/artist 零變動），通過後接排歌單 Phase 3（tag 篩選＋精準時間估算＋反推模式）。
+
+## Agent 間自動通知（commit message 信號）
+
+用 **commit message 當事件總線**，取代人工轉告。git 是兩邊唯一共用的即時通道。
+
+### 信號格式
+
+在 commit message 中放一行（**必須自己獨立成行，行首開始**）：
+
+| 信號 | 發送方 | 意義 |
+|---|---|---|
+| `song_meta: COMPLETE` | Codex | song_meta 全部補完，請 Claude 總驗收 |
+| `song_meta: NEEDS-CLAUDE <一行說明>` | Codex | 中途卡住／發現規格衝突，需要 Claude 介入 |
+| `song_meta: AUDIT-PASS` | Claude | 總驗收通過，Codex 可視為結案 |
+| `song_meta: AUDIT-FAIL <一行說明>` | Claude | 驗收未過，Codex 需依說明修正 |
+
+範例：
+
+```
+data: finish song_meta enrichment (1516 songs)
+
+song_meta: COMPLETE
+```
+
+### 偵測條件（三者皆須成立，否則不會觸發）
+
+1. 標記**自己獨立成一行**（行首開始）。寫在句子中間（例如 `... 標記 "song_meta: COMPLETE" ...`）**不會**被偵測到 —— 這是為了避免文件說明本身誤觸發。
+2. 該 commit 必須有變更到 `data/song_meta.json`（純文件 commit 不觸發）。
+3. 必須 **push** 到 `origin/main`（只 commit 沒 push 偵測不到）。
+
+### 實作與限制
+
+- **Claude 側**：session 內掛背景輪詢（每 2 分鐘 `git fetch` + 檢查 `origin/main`），命中即自動喚醒，**不需使用者轉告**。限制：只活在該 session；session 結束需重新掛上。
+- **Codex 側**：目前**沒有**常駐監看。所以 Claude 發出的 `AUDIT-PASS` / `AUDIT-FAIL`，Codex 請在**每次開工時**主動確認一次：
+
+  ```bash
+  git fetch -q origin main && git log origin/main -20 --format='%s%n%b' | grep -E '^song_meta: (AUDIT-PASS|AUDIT-FAIL)'
+  ```
+
+- 兩邊都無法保證即時，但信號留在 git 歷史裡不會遺失，開工檢查即可補上。
 
 ## 推送紀律（兩邊都遵守）
 
