@@ -21,10 +21,10 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 SONGS_DIR = DATA_DIR / "songs"
 META_PATH = DATA_DIR / "song_meta.json"
 
-# 受控 tag 字彙 (ChatGPT 只能從這裡選；可自行增減)
+# 受控 tag 字彙 (英文，見 COORDINATION.md / SONG_META_GUIDE.md)
 ALLOWED_TAGS = [
-    "アニメ", "ボカロ", "ゲーム", "特撮", "アイドル",
-    "J-POP", "洋楽", "東方", "同人", "オリジナル", "バラード",
+    "anime", "vocaloid", "game", "tokusatsu", "idol",
+    "j-pop", "western", "touhou", "doujin", "original", "ballad",
 ]
 
 

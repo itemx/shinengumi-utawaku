@@ -36,9 +36,9 @@ python scripts/build_stats.py && python scripts/build_known_songs.py
 
 - **只能填 `tags` 和 `durationSec`。**
 - **不可改 `title` / `artist`，不可增刪項目**（項目由 `scripts/build_song_meta.py` 從曲庫產生；改動會跟曲庫對不上、join 漏歌）。
-- `tags`：只能用受控字彙（完全一致的寫法），可複選（OR）：
-  `アニメ ボカロ ゲーム 特撮 アイドル J-POP 洋楽 東方 同人 オリジナル バラード`
-- `durationSec`：原曲錄音室版長度（整數秒，30–3600），查不到填 `null`。
+- `tags`：只能用下列英文受控字彙（完全一致的寫法），可複選（OR），不得自行增加類別：
+  `anime vocaloid game tokusatsu idol j-pop western touhou doujin original ballad`
+- `durationSec`：原曲正式錄音室標準版的整數秒數（30–3600）；不採現場、翻唱、short 或混音版。查不到或無法可靠確認時填 `null`。
 - 詳見 [data/SONG_META_GUIDE.md](data/SONG_META_GUIDE.md)。
 
 補完後 Claude 會跑驗證：
@@ -46,6 +46,38 @@ python scripts/build_stats.py && python scripts/build_known_songs.py
 ```bash
 python scripts/build_song_meta.py --validate
 ```
+
+## song_meta 查證與分類規格（2026-08-24 起）
+
+### Tag 對照
+
+| English | 舊日文詞彙 |
+|---|---|
+| `anime` | `アニメ` |
+| `vocaloid` | `ボカロ` |
+| `game` | `ゲーム` |
+| `tokusatsu` | `特撮` |
+| `idol` | `アイドル` |
+| `j-pop` | `J-POP` |
+| `western` | `洋楽` |
+| `touhou` | `東方` |
+| `doujin` | `同人` |
+| `original` | `オリジナル` |
+| `ballad` | `バラード` |
+
+### 分類與查證原則
+
+- 一首歌可以有多個 tag，但只能從上述 11 個選取。
+- 有明確作品來源時，加上對應來源 tag；一般日文流行曲加 `j-pop`，西洋歌曲加 `western`。
+- 資訊不明時寧可少加，不以推測補類別。
+- `durationSec` 查證優先順序：官方 YouTube Audio／官方藝人或唱片公司頁／正式串流平台頁。
+- 有多個正式版本時，採最初正式發行的標準版。
+- Codex 依 `song_meta.json` 既有順序分批查證，保留每首歌的來源紀錄供複核。
+
+### 交接要求
+
+- **Claude** 必須將 `scripts/build_song_meta.py` 的 `ALLOWED_TAGS` 與 `data/SONG_META_GUIDE.md` 同步改為上述英文詞彙，之後再以 `python scripts/build_song_meta.py --validate` 驗證。
+- **Codex** 在驗證器同步前，不得將英文 tag 寫入 `data/song_meta.json`。
 
 ## 推送紀律（兩邊都遵守）
 
