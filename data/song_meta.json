@@ -357,7 +357,7 @@
     "title": "CH4NGE",
     "artist": "vocaloid",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 134
   },
   {
     "title": "CHAINSAW BLOOD",
@@ -783,7 +783,7 @@
     "title": "Girls",
     "artist": "GARNiDELiA",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 233
   },
   {
     "title": "God knows...",
@@ -795,7 +795,7 @@
     "title": "God knows...",
     "artist": "涼宮ハルヒ(平野綾)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 279
   },
   {
     "title": "Good-bye days",
@@ -1407,7 +1407,7 @@
     "title": "Petals",
     "artist": "orangester",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 173
   },
   {
     "title": "Phantom Minds",
@@ -1491,7 +1491,7 @@
     "title": "Q",
     "artist": "椎名もた(ぽわぽわP)",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 258
   },
   {
     "title": "QUEEN",
@@ -1623,7 +1623,7 @@
     "title": "S(mile)ING!",
     "artist": "島村卯月 (大橋彩香)",
     "tags": ["game", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 212
   },
   {
     "title": "SAKURA",
@@ -1719,7 +1719,7 @@
     "title": "Shooting Star Warrior",
     "artist": "Gulity Kiss",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 260
   },
   {
     "title": "Shout Baby",
@@ -1947,7 +1947,7 @@
     "title": "Ubiquitous dB",
     "artist": "ユナ (神田沙也加)",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 288
   },
   {
     "title": "Unhappy Light",
@@ -1989,7 +1989,7 @@
     "title": "Weight of the World / 壊レタ世界ノ歌",
     "artist": "河野万里奈",
     "tags": ["game", "j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 343
   },
   {
     "title": "Wherever you are",
@@ -2019,7 +2019,7 @@
     "title": "Wishing",
     "artist": "レム (水瀬いのり)",
     "tags": ["anime", "j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 360
   },
   {
     "title": "Wonderful Rush",
@@ -2517,7 +2517,7 @@
     "title": "あんずのうた",
     "artist": "双葉杏 (五十嵐裕美)",
     "tags": ["game", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 212
   },
   {
     "title": "あんなに一緒だったのに",
@@ -2607,13 +2607,13 @@
     "title": "うまぴょい伝説",
     "artist": "ウマ娘 プリティーダービー",
     "tags": ["game", "anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 270
   },
   {
     "title": "うまぴょい伝説",
     "artist": "プリティーダービー",
     "tags": ["game", "anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 270
   },
   {
     "title": "うみたがり",
@@ -2691,13 +2691,13 @@
     "title": "お願いマッスル",
     "artist": "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 221
   },
   {
     "title": "かくしん的☆めたまるふぉ〜ぜっ！",
     "artist": "土間うまる(田中あいみ)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 212
   },
   {
     "title": "かくれんぼ",
@@ -2829,7 +2829,7 @@
     "title": "すきっ!",
     "artist": "超ときめき宣伝部",
     "tags": ["idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 316
   },
   {
     "title": "すろぉもぉしょん",
@@ -3087,13 +3087,13 @@
     "title": "もってけ!セーラーふく",
     "artist": "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 258
   },
   {
     "title": "もってけ!セーラーふく",
     "artist": "泉こなた(平野綾)・柊かがみ(加藤英美里)・柊つかさ(福原香織)・高良みゆき(遠藤綾)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 258
   },
   {
     "title": "もっと...",
@@ -3111,7 +3111,7 @@
     "title": "やさしさに包まれたなら",
     "artist": "松任谷由実",
     "tags": ["j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 192
   },
   {
     "title": "やっぱり雨は降るんだね",
@@ -3135,7 +3135,7 @@
     "title": "ようこそジャパリパークへ",
     "artist": "大石昌良",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 204
   },
   {
     "title": "わたしのアール",
@@ -3291,7 +3291,7 @@
     "title": "アタシポンコツアンドロイド",
     "artist": "小日向美穂 (津田美波)、双葉杏 (五十嵐裕美)、前川みく (高森奈津美)",
     "tags": ["game", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 269
   },
   {
     "title": "アディオス",
@@ -3375,7 +3375,7 @@
     "title": "アンチ・クイーンオブハート",
     "artist": "Royal Scandal",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 200
   },
   {
     "title": "アンノウンマザーグース",
@@ -4515,7 +4515,7 @@
     "title": "ドーナツホール",
     "artist": "米津玄師",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 205
   },
   {
     "title": "ドーナツホール 2024",
@@ -4695,13 +4695,13 @@
     "title": "ハレ晴レユカイ",
     "artist": "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 215
   },
   {
     "title": "ハレ晴レユカイ",
     "artist": "涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 215
   },
   {
     "title": "ハロ/ハワユ",
@@ -4773,7 +4773,7 @@
     "title": "バトルフロンティア",
     "artist": "髙屋亜希那",
     "tags": ["anime", "game", "j-pop"],
-    "durationSec": null
+    "durationSec": 216
   },
   {
     "title": "バニー",
@@ -4839,7 +4839,7 @@
     "title": "パンダヒーロー",
     "artist": "米津玄師",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 227
   },
   {
     "title": "ヒアルロンリーガール",
@@ -4983,7 +4983,7 @@
     "title": "ファッとして桃源郷",
     "artist": "新庄かなえ (三森すずこ)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 236
   },
   {
     "title": "ファッションモンスター",
@@ -4995,19 +4995,19 @@
     "title": "ファンサ",
     "artist": "HoneyWorks",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 249
   },
   {
     "title": "ファンサ",
     "artist": "mona (夏川椎菜)",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 249
   },
   {
     "title": "ファンサ",
     "artist": "mona(夏川椎菜)",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 249
   },
   {
     "title": "ファーストレディ",
@@ -5157,7 +5157,7 @@
     "title": "プレパレード",
     "artist": "逢坂大河・櫛枝実乃梨・川嶋亜美",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 205
   },
   {
     "title": "プロトディスコ",
@@ -5289,7 +5289,7 @@
     "title": "マトリョシカ",
     "artist": "米津玄師",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 199
   },
   {
     "title": "マリーゴールド",
@@ -5361,13 +5361,13 @@
     "title": "メニメニマニマニ",
     "artist": "高宮なすの (鳴海杏子)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 269
   },
   {
     "title": "メニメニマニマニ",
     "artist": "高宮なすの(鳴海杏子)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 269
   },
   {
     "title": "メビウス",
@@ -5433,7 +5433,7 @@
     "title": "メルヘンデビュー!",
     "artist": "安部菜々 (三宅麻理恵)",
     "tags": ["game", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 272
   },
   {
     "title": "メロメラ",
@@ -5535,7 +5535,7 @@
     "title": "ユメヲカケル!",
     "artist": "スペシャルウィーク (CV. 和氣あず未)、サイレンススズカ (CV. 高野麻里佳)、トウカイテイオー (CV. Machico)、ウオッカ (CV. 大橋彩香)、ダイワスカーレット (CV. 木村千咲)、ゴールドシップ (CV. 上田 瞳)、メジロマックイーン (CV. 大西沙織)",
     "tags": ["anime", "game", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 284
   },
   {
     "title": "ヨンジュウナナ",
@@ -5697,7 +5697,7 @@
     "title": "リンネ",
     "artist": "米津玄師",
     "tags": ["vocaloid", "ballad"],
-    "durationSec": null
+    "durationSec": 261
   },
   {
     "title": "リードコントロール",
@@ -5757,7 +5757,7 @@
     "title": "レイメイ",
     "artist": "さユり×MY FIRST STORY",
     "tags": ["anime", "j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 316
   },
   {
     "title": "レクイエム",
@@ -5919,7 +5919,7 @@
     "title": "ヴァンパイア",
     "artist": "DECO*27, Rockwell",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 178
   },
   {
     "title": "ヴィーナス",
@@ -5961,7 +5961,7 @@
     "title": "一番の宝物",
     "artist": "Girls Dead Monster",
     "tags": ["anime", "j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 360
   },
   {
     "title": "一触即発☆禅ガール - れるりり",
@@ -6021,7 +6021,7 @@
     "title": "不死鳥のフランメ",
     "artist": "マリア×風鳴翼(日笠陽子×水樹奈々)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 284
   },
   {
     "title": "不確定性COSMIC MOVEMENT",
@@ -6231,7 +6231,7 @@
     "title": "冬がくれた予感",
     "artist": "BiBi (μ's)",
     "tags": ["anime", "idol", "j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 332
   },
   {
     "title": "凛として咲く花の如く",
@@ -6255,7 +6255,7 @@
     "title": "初めての恋が終わる時",
     "artist": "ryo (supercell)",
     "tags": ["vocaloid", "ballad"],
-    "durationSec": null
+    "durationSec": 316
   },
   {
     "title": "初夏、殺意は街を浸す病のように",
@@ -6513,7 +6513,7 @@
     "title": "咲いてJewel",
     "artist": "鷺沢文香 (M・A・O)、速水奏 (飯田友子)、橘ありす (佐藤亜美菜)、塩見周子 (ルゥティン)、二宮飛鳥 (青木志貴)",
     "tags": ["game", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 249
   },
   {
     "title": "咲かせや咲かせ",
@@ -6525,7 +6525,7 @@
     "title": "咲かせや咲かせ",
     "artist": "カバネリ",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 205
   },
   {
     "title": "唱",
@@ -7137,7 +7137,7 @@
     "title": "快晴",
     "artist": "orangester",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 264
   },
   {
     "title": "思想犯",
@@ -7623,7 +7623,7 @@
     "title": "最上級にかわいいの!",
     "artist": "超ときめき宣伝部",
     "tags": ["idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 190
   },
   {
     "title": "月が綺麗ねと言われたい!",
@@ -7851,7 +7851,7 @@
     "title": "死にゆく季節のきみへ",
     "artist": "麻枝准×やなぎなぎ",
     "tags": ["game", "j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 323
   },
   {
     "title": "死ぬにはいい日だった",
@@ -7929,7 +7929,7 @@
     "title": "決めたよHand in Hand",
     "artist": "Aqours",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 267
   },
   {
     "title": "泣き地蔵",
@@ -8487,7 +8487,7 @@
     "title": "美少女無罪パイレーツ",
     "artist": "宝鐘マリン",
     "tags": ["original", "j-pop"],
-    "durationSec": null
+    "durationSec": 219
   },
   {
     "title": "群青",
@@ -8517,7 +8517,7 @@
     "title": "聖槍爆裂ボーイ",
     "artist": "れるりり,もじゃ",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 206
   },
   {
     "title": "聖者の行進",
@@ -8553,7 +8553,7 @@
     "title": "自傷無色",
     "artist": "ねこぼーろ",
     "tags": ["vocaloid", "ballad"],
-    "durationSec": null
+    "durationSec": 217
   },
   {
     "title": "色彩",
@@ -8703,13 +8703,13 @@
     "title": "裏切りの夕焼け",
     "artist": "THEATRE BROOK",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 209
   },
   {
     "title": "裏切りの夕焼け",
     "artist": "Theatre Brook",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 209
   },
   {
     "title": "裏表ラバーズ",
@@ -8937,7 +8937,7 @@
     "title": "雪の音",
     "artist": "GRe4N BOYZ",
     "tags": ["j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 308
   },
   {
     "title": "雪の音",
@@ -9009,13 +9009,13 @@
     "title": "革命道中",
     "artist": "アイナ・ジ・エンド",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 198
   },
   {
     "title": "革命道中 On The Way",
     "artist": "AiNA THE END",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 198
   },
   {
     "title": "靴の花火",
