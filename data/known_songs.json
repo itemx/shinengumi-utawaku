@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1504,
-  "uniqueTitles": 1466,
+  "totalEntries": 1502,
+  "uniqueTitles": 1464,
   "uniqueArtists": 672,
   "songs": [
     {
@@ -1684,6 +1684,11 @@
       "count": 6
     },
     {
+      "title": "Hello, Worker",
+      "artist": "KEI",
+      "count": 6
+    },
+    {
       "title": "サイレント・マジョリティ",
       "artist": "Heavenz",
       "count": 6
@@ -1989,6 +1994,11 @@
       "count": 5
     },
     {
+      "title": "輝夜の城で踊りたい",
+      "artist": "μ's",
+      "count": 5
+    },
+    {
       "title": "くりてぃかる♡ぷりちー",
       "artist": "iLiFE!",
       "count": 5
@@ -2126,11 +2136,6 @@
     {
       "title": "Os 宇宙人",
       "artist": "エリオをかまってちゃん",
-      "count": 5
-    },
-    {
-      "title": "Hello, Worker",
-      "artist": "KEI",
       "count": 5
     },
     {
@@ -2446,11 +2451,6 @@
     {
       "title": "月光潤色ガール",
       "artist": "れるりり",
-      "count": 4
-    },
-    {
-      "title": "輝夜の城で踊りたい",
-      "artist": "μ's",
       "count": 4
     },
     {
@@ -7079,11 +7079,6 @@
       "count": 1
     },
     {
-      "title": "かぐやの城で踊りたい",
-      "artist": "μ's",
-      "count": 1
-    },
-    {
       "title": "CLEAR",
       "artist": "坂本真綾",
       "count": 1
@@ -7416,11 +7411,6 @@
     {
       "title": "蒼エーテル",
       "artist": "ランカ・リー",
-      "count": 1
-    },
-    {
-      "title": "Hello,Worker",
-      "artist": "ゆうゆ",
       "count": 1
     },
     {

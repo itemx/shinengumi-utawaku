@@ -900,12 +900,6 @@
     "durationSec": 236
   },
   {
-    "title": "Hello,Worker",
-    "artist": "ゆうゆ",
-    "tags": ["vocaloid"],
-    "durationSec": null
-  },
-  {
     "title": "Henceforth",
     "artist": "orangester",
     "tags": ["vocaloid"],
@@ -2674,12 +2668,6 @@
     "artist": "AliA",
     "tags": ["j-pop"],
     "durationSec": 302
-  },
-  {
-    "title": "かぐやの城で踊りたい",
-    "artist": "μ's",
-    "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
   },
   {
     "title": "からくりピエロ",
