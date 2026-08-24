@@ -40,10 +40,25 @@ for (const ch of channels) {
       class="w-10 h-10 rounded object-cover shrink-0 hidden"
     />
 
+    <!-- Prev -->
+    <button id="btn-prev" class="p-1.5 hover:bg-white/10 rounded-full transition-colors shrink-0 hidden" title="Previous">
+      <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+    </button>
+
     <!-- Play/Pause -->
     <button id="btn-play" class="p-2 hover:bg-white/10 rounded-full transition-colors shrink-0" title="Play/Pause">
       <svg id="icon-play" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
       <svg id="icon-pause" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+    </button>
+
+    <!-- Next -->
+    <button id="btn-next" class="p-1.5 hover:bg-white/10 rounded-full transition-colors shrink-0 hidden" title="Next">
+      <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M16 6h2v12h-2zm-1.5 6L6 18V6z"/></svg>
+    </button>
+
+    <!-- Auto-advance toggle -->
+    <button id="btn-auto" class="px-1.5 py-0.5 rounded text-[10px] font-bold border border-white/30 hover:bg-white/10 transition-colors shrink-0 hidden" title="連續再生">
+      AUTO
     </button>
 
     <!-- Song info -->
@@ -137,10 +152,17 @@ for (const ch of channels) {
   let isPlaying = false;
   let currentTrack = null;
   let progressTimer = null;
+  // 播放佇列 (點擊時由 DOM 收集) 與自動連續播放
+  let queue = [];
+  let queueIdx = -1;
+  let autoAdvance = true;
 
   // --- DOM ---
   const bar = document.getElementById("player-bar");
   const btnPlay = document.getElementById("btn-play");
+  const btnPrev = document.getElementById("btn-prev");
+  const btnNext = document.getElementById("btn-next");
+  const btnAuto = document.getElementById("btn-auto");
   const btnClose = document.getElementById("btn-close");
   const btnYoutube = document.getElementById("btn-youtube");
   const iconPlay = document.getElementById("icon-play");
@@ -235,6 +257,7 @@ for (const ch of channels) {
       isPlaying = false;
       updatePlayIcon();
       stopProgress();
+      if (autoAdvance && hasNext()) playNext();
     }
   }
 
@@ -341,10 +364,77 @@ for (const ch of channels) {
       if (!player || !isReady || !isPlaying) return;
       var current = player.getCurrentTime() || 0;
       var duration = player.getDuration() || 1;
-      var pct = (current / duration) * 100;
-      progressFill.style.width = pct + "%";
-      timeEl.textContent = formatTime(current) + " / " + formatTime(duration);
+
+      // 曲目片段模式: 有結束點時，進度條顯示「這首歌」的進度而非整部影片
+      var segStart = currentTrack ? currentTrack.start : 0;
+      var segEnd = currentTrack ? currentTrack.end : null;
+      if (segEnd && segEnd > segStart) {
+        var segLen = segEnd - segStart;
+        var segPos = Math.min(Math.max(current - segStart, 0), segLen);
+        progressFill.style.width = (segPos / segLen) * 100 + "%";
+        timeEl.textContent = formatTime(segPos) + " / " + formatTime(segLen);
+        // 到達結束點 → 自動跳下一首
+        if (autoAdvance && current >= segEnd - 0.5 && hasNext()) {
+          playNext();
+          return;
+        }
+      } else {
+        progressFill.style.width = (current / duration) * 100 + "%";
+        timeEl.textContent = formatTime(current) + " / " + formatTime(duration);
+      }
     }, 1000);
+  }
+
+  // --- 佇列 ---
+  function hasNext() { return queueIdx >= 0 && queueIdx + 1 < queue.length; }
+  function hasPrev() { return queueIdx > 0; }
+
+  function updateQueueUI() {
+    var show = queue.length > 1;
+    btnPrev.classList.toggle("hidden", !show);
+    btnNext.classList.toggle("hidden", !show);
+    btnAuto.classList.toggle("hidden", !show);
+    btnPrev.disabled = !hasPrev();
+    btnNext.disabled = !hasNext();
+    btnPrev.style.opacity = hasPrev() ? "1" : "0.35";
+    btnNext.style.opacity = hasNext() ? "1" : "0.35";
+    btnAuto.style.opacity = autoAdvance ? "1" : "0.4";
+    btnAuto.style.backgroundColor = autoAdvance ? "rgba(255,255,255,0.18)" : "transparent";
+  }
+
+  function playAt(i) {
+    if (i < 0 || i >= queue.length) return;
+    queueIdx = i;
+    playTrack(queue[i]);
+    updateQueueUI();
+  }
+  function playNext() { if (hasNext()) playAt(queueIdx + 1); }
+  function playPrev() { if (hasPrev()) playAt(queueIdx - 1); }
+
+  /** 從 DOM 收集所有 [data-play] 建立佇列，並算出每首的結束點。
+   *  同影片內下一首的 start 即為本首結束點；否則用 data-duration。 */
+  function buildQueue(clicked) {
+    var links = Array.prototype.slice.call(document.querySelectorAll("[data-play]"));
+    queue = links.map(function(el) {
+      return {
+        videoId: el.dataset.videoId || "",
+        start: parseInt(el.dataset.start || "0", 10),
+        title: el.dataset.title || "",
+        artist: el.dataset.artist || "",
+        date: el.dataset.date || "",
+        dur: parseInt(el.dataset.duration || "0", 10) || null,
+        end: null,
+      };
+    });
+    for (var i = 0; i < queue.length; i++) {
+      var cur = queue[i], nxt = queue[i + 1];
+      if (nxt && nxt.videoId === cur.videoId && nxt.start > cur.start) {
+        cur.end = nxt.start;              // 同影片：下一首開始即本首結束
+      } else if (cur.dur) {
+        cur.end = cur.start + cur.dur;    // 跨影片/最後一首：用歌曲長度
+      }
+    }
+    queueIdx = links.indexOf(clicked);
   }
 
   function stopProgress() {
@@ -398,14 +488,27 @@ for (const ch of channels) {
     if (!link) return;
     e.preventDefault();
 
-    var track = {
-      videoId: link.dataset.videoId || "",
-      start: parseInt(link.dataset.start || "0", 10),
-      title: link.dataset.title || "",
-      artist: link.dataset.artist || "",
-      date: link.dataset.date || "",
-    };
+    buildQueue(link);
+    if (queueIdx >= 0) {
+      playAt(queueIdx);
+    } else {
+      // 找不到 (理論上不會) → 退回單曲播放
+      playTrack({
+        videoId: link.dataset.videoId || "",
+        start: parseInt(link.dataset.start || "0", 10),
+        title: link.dataset.title || "",
+        artist: link.dataset.artist || "",
+        date: link.dataset.date || "",
+        end: null,
+      });
+    }
+  });
 
-    playTrack(track);
+  // --- 佇列控制按鈕 ---
+  btnNext.addEventListener("click", playNext);
+  btnPrev.addEventListener("click", playPrev);
+  btnAuto.addEventListener("click", function() {
+    autoAdvance = !autoAdvance;
+    updateQueueUI();
   });
 </script>

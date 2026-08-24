@@ -3,6 +3,7 @@
  * 歌曲表格 — 顯示不重複歌曲列表，可搜尋、展開演唱紀錄。
  */
 import { formatTimestamp, extractSeconds } from "../lib/format";
+import { getSongMeta } from "../lib/data";
 interface SongStat {
   title: string;
   artist: string;
@@ -21,6 +22,7 @@ interface Props {
 }
 
 const { songs, showSearch = true } = Astro.props;
+const songMeta = getSongMeta();
 ---
 
 {showSearch && (
@@ -79,6 +81,7 @@ const { songs, showSearch = true } = Astro.props;
                         data-title={song.title}
                         data-artist={song.artist}
                         data-date={app.date.slice(0, 10)}
+                        data-duration={String(songMeta.get(`${song.title}\t${song.artist}`)?.durationSec ?? "")}
                         class="text-primary hover:text-primary-dark truncate"
                       >
                         {app.videoTitle.slice(0, 40)}

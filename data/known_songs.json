@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1502,
+  "totalEntries": 1501,
   "uniqueTitles": 1464,
-  "uniqueArtists": 672,
+  "uniqueArtists": 671,
   "songs": [
     {
       "title": "花に亡霊",
@@ -314,6 +314,11 @@
       "count": 13
     },
     {
+      "title": "God knows...",
+      "artist": "平野綾",
+      "count": 13
+    },
+    {
       "title": "吉原ラメント",
       "artist": "亜沙",
       "count": 13
@@ -401,11 +406,6 @@
     {
       "title": "星座になれたら",
       "artist": "結束バンド",
-      "count": 12
-    },
-    {
-      "title": "God knows...",
-      "artist": "平野綾",
       "count": 12
     },
     {
@@ -6954,11 +6954,6 @@
       "count": 1
     },
     {
-      "title": "God knows...",
-      "artist": "涼宮ハルヒ(平野綾)",
-      "count": 1
-    },
-    {
       "title": "Dancing in the Moonlight",
       "artist": "ワルキューレ",
       "count": 1
@@ -8098,7 +8093,6 @@
     "泉こなた(平野綾)・柊かがみ(加藤英美里)・柊つかさ(福原香織)・高良みゆき(遠藤綾)",
     "流星P",
     "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
-    "涼宮ハルヒ(平野綾)",
     "涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)",
     "涼風しとら",
     "深淵組",

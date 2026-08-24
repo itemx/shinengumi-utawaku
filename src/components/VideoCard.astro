@@ -3,6 +3,7 @@
  * 配信カード — 單場直播的セトリ。
  */
 import type { VideoEntry } from "../lib/data";
+import { getSongMeta } from "../lib/data";
 
 interface Props {
   video: VideoEntry;
@@ -11,6 +12,7 @@ interface Props {
 const { video } = Astro.props;
 const date = video.publishedAt.slice(0, 10);
 const ytUrl = `https://www.youtube.com/watch?v=${video.videoId}`;
+const songMeta = getSongMeta();
 ---
 
 <div class="border border-border rounded-lg p-4 hover:shadow-sm transition-shadow">
@@ -40,6 +42,7 @@ const ytUrl = `https://www.youtube.com/watch?v=${video.videoId}`;
             data-title={song.title}
             data-artist={song.artist}
             data-date={date}
+            data-duration={String(songMeta.get(`${song.title}\t${song.artist}`)?.durationSec ?? "")}
             class="text-primary hover:text-primary-dark"
           >
             {song.title}
