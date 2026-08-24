@@ -1260,12 +1260,6 @@
     "durationSec": 234
   },
   {
-    "title": "Naisho no Hanashi",
-    "artist": "ClariS",
-    "tags": ["anime", "j-pop"],
-    "durationSec": null
-  },
-  {
     "title": "New Romantic Sailors",
     "artist": "Guilty Kiss",
     "tags": ["anime", "idol", "j-pop"],
@@ -4528,6 +4522,12 @@
     "artist": "なきそ",
     "tags": ["vocaloid"],
     "durationSec": 120
+  },
+  {
+    "title": "ナイショの話",
+    "artist": "ClariS",
+    "tags": ["anime", "j-pop"],
+    "durationSec": null
   },
   {
     "title": "ナイトルーティーン",
