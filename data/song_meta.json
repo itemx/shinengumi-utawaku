@@ -399,7 +399,7 @@
     "title": "Cagayake!GIRLS",
     "artist": "放課後ティータイム",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 250
   },
   {
     "title": "Calc.",
@@ -483,7 +483,7 @@
     "title": "DADDY ! DADDY ! DO !",
     "artist": "鈴木雅之",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 255
   },
   {
     "title": "DAN DAN 心魅かれてく",
@@ -573,7 +573,7 @@
     "title": "Deep in Abyss",
     "artist": "リコ (富田美憂),レグ (伊瀬茉莉也)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 224
   },
   {
     "title": "Departures ~あなたにおくるアイの歌~",
@@ -585,7 +585,7 @@
     "title": "Don't say \"lazy\"",
     "artist": "放課後ティータイム",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 264
   },
   {
     "title": "Donor Song",
@@ -711,7 +711,7 @@
     "title": "GETCHA!",
     "artist": "Giga,KIRA",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 231
   },
   {
     "title": "GHOST",
@@ -741,13 +741,13 @@
     "title": "GO! GO! MANIAC",
     "artist": "放課後ティータイム",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 251
   },
   {
     "title": "GO!!!",
     "artist": "FLOW",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 240
   },
   {
     "title": "Gee",
@@ -771,7 +771,7 @@
     "title": "Gimme×Gimme",
     "artist": "八王子P,Giga",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 221
   },
   {
     "title": "Girls",
@@ -825,7 +825,7 @@
     "title": "HALF",
     "artist": "女王蜂",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 238
   },
   {
     "title": "HAPPY PARTY TRAIN",
@@ -843,19 +843,19 @@
     "title": "HEAVEN",
     "artist": "HarryP(はりーP)",
     "tags": ["vocaloid", "ballad"],
-    "durationSec": null
+    "durationSec": 303
   },
   {
     "title": "HEAVEN",
     "artist": "はりーP",
     "tags": ["vocaloid", "ballad"],
-    "durationSec": null
+    "durationSec": 303
   },
   {
     "title": "HEAVEN",
     "artist": "伊東歌詞太郎",
     "tags": ["j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 276
   },
   {
     "title": "HELLO ~Paradise Kiss~",
@@ -867,7 +867,7 @@
     "title": "HELP!!",
     "artist": "Kobo Kanaeru",
     "tags": ["original", "j-pop"],
-    "durationSec": null
+    "durationSec": 188
   },
   {
     "title": "HOT LIMIT",
@@ -879,25 +879,25 @@
     "title": "Happiness",
     "artist": "嵐",
     "tags": ["idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 258
   },
   {
     "title": "Happiness Umbrella",
     "artist": "ロクデナシ",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 249
   },
   {
     "title": "Happy Halloween",
     "artist": "Junky",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 246
   },
   {
     "title": "Hello, Worker",
     "artist": "KEI",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 236
   },
   {
     "title": "Hello,Worker",
@@ -909,13 +909,13 @@
     "title": "Henceforth",
     "artist": "orangester",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 236
   },
   {
     "title": "Hey baby!",
     "artist": "倖田來未",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 155
   },
   {
     "title": "Hi FiVE!",
@@ -1065,7 +1065,7 @@
     "title": "LOML",
     "artist": "iLiFE!",
     "tags": ["idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 233
   },
   {
     "title": "LOSER",
@@ -1125,13 +1125,13 @@
     "title": "Los! Los! Los!",
     "artist": "ターニャ・デグレチャフ (悠木碧)",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 218
   },
   {
     "title": "Love so sweet",
     "artist": "嵐",
     "tags": ["idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 290
   },
   {
     "title": "Love wing bell",
@@ -1167,7 +1167,7 @@
     "title": "MOON PRIDE",
     "artist": "ももいろクローバーZ",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 224
   },
   {
     "title": "Magia",
@@ -1185,7 +1185,7 @@
     "title": "Masked bitcH",
     "artist": "ギガP",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 223
   },
   {
     "title": "Mela!",
@@ -1203,7 +1203,7 @@
     "title": "Meteor",
     "artist": "T.M.Revolution",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 251
   },
   {
     "title": "Meteor –ミーティア–",
@@ -1215,19 +1215,19 @@
     "title": "Monster",
     "artist": "嵐",
     "tags": ["idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 268
   },
   {
     "title": "Mr.Music",
     "artist": "れるりり,ロンチーノ=ペペ,かごめP",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 270
   },
   {
     "title": "Mrs.Pumpkinの滑稽な夢",
     "artist": "米津玄師",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 259
   },
   {
     "title": "My Clematis",
@@ -1245,7 +1245,7 @@
     "title": "My Song",
     "artist": "Girls Dead Monster",
     "tags": ["anime", "j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 294
   },
   {
     "title": "My Soul,Your Beats!",
@@ -1287,7 +1287,7 @@
     "title": "No title",
     "artist": "Reol",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 244
   },
   {
     "title": "ONE OFF MIND",
@@ -1353,19 +1353,19 @@
     "title": "PLATONIC GIRL",
     "artist": "みきとP",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 242
   },
   {
     "title": "PON PON PON",
     "artist": "きゃりーぱみゅぱみゅ",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 243
   },
   {
     "title": "PONPONPON",
     "artist": "きゃりーぱみゅぱみゅ",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 243
   },
   {
     "title": "POP IN 2",
@@ -1377,7 +1377,7 @@
     "title": "PRIDE",
     "artist": "女王蜂",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 210
   },
   {
     "title": "Paradise Lost",
@@ -1419,7 +1419,7 @@
     "title": "PiNK CAT",
     "artist": "GARNiDELiA",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 234
   },
   {
     "title": "Pillow Talk",
@@ -1473,7 +1473,7 @@
     "title": "Psychedelic Drive",
     "artist": "LiSA",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 251
   },
   {
     "title": "Q",
@@ -1497,7 +1497,7 @@
     "title": "QUEEN",
     "artist": "LiSA",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 188
   },
   {
     "title": "RADIANT FORCE",
@@ -1515,13 +1515,13 @@
     "title": "READY!!",
     "artist": "765PRO ALLSTARS",
     "tags": ["game", "anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 265
   },
   {
     "title": "REALiZE",
     "artist": "LiSA",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 190
   },
   {
     "title": "REASON",
@@ -1545,7 +1545,7 @@
     "title": "ROCK-mode'18",
     "artist": "LiSA",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 332
   },
   {
     "title": "RONDO",
@@ -1563,7 +1563,7 @@
     "title": "Ready Steady",
     "artist": "Giga",
     "tags": ["game", "vocaloid"],
-    "durationSec": null
+    "durationSec": 209
   },
   {
     "title": "Real Face",
@@ -1713,7 +1713,7 @@
     "title": "Shocking Party",
     "artist": "A-RISE",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 208
   },
   {
     "title": "Shooting Star Warrior",
@@ -1785,7 +1785,7 @@
     "title": "Star!!",
     "artist": "CINDERELLA PROJECT",
     "tags": ["game", "anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 252
   },
   {
     "title": "StarDust",
@@ -1863,7 +1863,7 @@
     "title": "Tell Your World",
     "artist": "kz (livetune)",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 256
   },
   {
     "title": "That Is How I Roll!",
@@ -1977,7 +1977,7 @@
     "title": "WAVE",
     "artist": "niki",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 193
   },
   {
     "title": "WWW",
@@ -2103,7 +2103,7 @@
     "title": "chocolate box",
     "artist": "dezzy (一億円P)",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 237
   },
   {
     "title": "courage",
@@ -2133,13 +2133,13 @@
     "title": "days",
     "artist": "じん feat.Lia",
     "tags": ["anime", "vocaloid", "j-pop"],
-    "durationSec": null
+    "durationSec": 346
   },
   {
     "title": "daze",
     "artist": "じん",
     "tags": ["anime", "vocaloid", "j-pop"],
-    "durationSec": null
+    "durationSec": 235
   },
   {
     "title": "departure!",
@@ -2187,7 +2187,7 @@
     "title": "from the edge",
     "artist": "FictionJunction",
     "tags": ["anime", "j-pop"],
-    "durationSec": null
+    "durationSec": 279
   },
   {
     "title": "give it back",
