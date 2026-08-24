@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1516,
-  "uniqueTitles": 1472,
-  "uniqueArtists": 680,
+  "totalEntries": 1514,
+  "uniqueTitles": 1470,
+  "uniqueArtists": 679,
   "songs": [
     {
       "title": "花に亡霊",
@@ -104,6 +104,11 @@
       "count": 18
     },
     {
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
+      "count": 18
+    },
+    {
       "title": "少女S",
       "artist": "SCANDAL",
       "count": 17
@@ -116,11 +121,6 @@
     {
       "title": "怪物",
       "artist": "YOASOBI",
-      "count": 17
-    },
-    {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
       "count": 17
     },
     {
@@ -644,6 +644,11 @@
       "count": 10
     },
     {
+      "title": "言って。",
+      "artist": "ヨルシカ",
+      "count": 10
+    },
+    {
       "title": "熱愛105°C的你",
       "artist": "阿肆",
       "count": 10
@@ -761,11 +766,6 @@
     {
       "title": "Booo!",
       "artist": "西沢さんP",
-      "count": 9
-    },
-    {
-      "title": "言って。",
-      "artist": "ヨルシカ",
       "count": 9
     },
     {
@@ -6489,16 +6489,6 @@
       "count": 1
     },
     {
-      "title": "Say It.",
-      "artist": "Yorushika",
-      "count": 1
-    },
-    {
-      "title": "That's Why I Gave Up on Music",
-      "artist": "Yorushika",
-      "count": 1
-    },
-    {
       "title": "あの夏に咲け",
       "artist": "ヨルシカ",
       "count": 1
@@ -7800,7 +7790,6 @@
     "YUI",
     "YUI for 雨音薫",
     "YURiKA",
-    "Yorushika",
     "Yunomi & nicamoq",
     "ZARD",
     "ZOC",
