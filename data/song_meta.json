@@ -1317,7 +1317,7 @@
     "title": "OnyXXX",
     "artist": "Black onyX",
     "tags": ["anime"],
-    "durationSec": null
+    "durationSec": 110
   },
   {
     "title": "Os 宇宙人",
@@ -4383,7 +4383,7 @@
     "title": "テイキョウ・ヘイセイ・ダイガク",
     "artist": "トウキョウ・シャンディ・ランデヴパロディ",
     "tags": ["j-pop"],
-    "durationSec": null
+    "durationSec": 90
   },
   {
     "title": "テオ",
@@ -4521,7 +4521,7 @@
     "title": "ニコニコ動画流星群",
     "artist": "しも",
     "tags": ["doujin", "j-pop"],
-    "durationSec": null
+    "durationSec": 845
   },
   {
     "title": "ネオネオン",
@@ -5713,7 +5713,7 @@
   },
   {
     "title": "ループ",
-    "artist": "ループ",
+    "artist": "坂本真綾",
     "tags": ["j-pop", "ballad"],
     "durationSec": null
   },
@@ -5847,13 +5847,13 @@
     "title": "ワールドイズマイン CPK! Remix",
     "artist": "ryo (supercell)",
     "tags": ["vocaloid"],
-    "durationSec": null
+    "durationSec": 226
   },
   {
     "title": "ワールドイズマイン(かぐや&月見ヤチヨ ver.)",
     "artist": "ryo (supercell), かぐや (CV.夏吉ゆうこ) & 月見ヤチヨ (CV.早見沙織)",
     "tags": ["vocaloid", "game"],
-    "durationSec": null
+    "durationSec": 226
   },
   {
     "title": "ワールド・ランプシェード",
@@ -5934,8 +5934,8 @@
     "durationSec": 360
   },
   {
-    "title": "一触即発☆禅ガール - れるりり",
-    "artist": "初音ミク・GUMI",
+    "title": "一触即発☆禅ガール",
+    "artist": "れるりり",
     "tags": ["vocaloid"],
     "durationSec": null
   },
@@ -6867,7 +6867,7 @@
     "title": "娘々スペシャルサービスメドレー(特盛り)",
     "artist": "シェリル・ノーム starring May'n,ランカ・リー=中島愛",
     "tags": ["anime", "idol", "j-pop"],
-    "durationSec": null
+    "durationSec": 744
   },
   {
     "title": "季節は次々死んでいく",
@@ -7323,7 +7323,7 @@
     "title": "愛・おぼえていますか",
     "artist": "飯島真理, ワルキューレ",
     "tags": ["anime", "idol", "j-pop", "ballad"],
-    "durationSec": null
+    "durationSec": 312
   },
   {
     "title": "愛包ダンスホール",
@@ -7437,7 +7437,7 @@
     "title": "旧支配者のキャロル",
     "artist": "クトゥルフ神話",
     "tags": ["western"],
-    "durationSec": null
+    "durationSec": 70
   },
   {
     "title": "明け星",
@@ -8161,8 +8161,8 @@
   },
   {
     "title": "真夏のSounds good !",
-    "artist": "MAY'S",
-    "tags": ["j-pop"],
+    "artist": "AKB48",
+    "tags": ["idol", "j-pop"],
     "durationSec": null
   },
   {
