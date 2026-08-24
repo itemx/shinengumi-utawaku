@@ -30,6 +30,7 @@ anime  vocaloid  game  tokusatsu  idol  j-pop  k-pop  western  touhou  doujin  o
 ## durationSec（原曲錄音室版長度，整數秒）
 
 - 填**原曲的標準版長度**（非現場、非 short），單位秒。例：4 分 21 秒 → `261`。
+- 同曲有多個可信正式錄音室標準版時間時，取最長秒數作為排歌 worst case；現場、翻唱、short、remix、instrumental、karaoke、TV/game size 不參與比較。
 - 查不到就填 `null`。
 - 合理範圍 30–3600 秒；超出視為錯誤。
 

@@ -73,7 +73,8 @@ python scripts/build_song_meta.py --validate
 - 資訊不明時寧可少加，不以推測補類別。
 - **刻意無 tag（已決議，不需再查）**：童謠／聖誕歌（`Believe / 童謡`、`あわてんぼうのサンタクロース / クリスマスソング`）與華語歌（`How哥宇宙 / 七月半 SevenFat`）在 12 類中無對應類別，維持空 `tags`；排歌時仍可用搜尋或歌手找到。
 - `durationSec` 查證優先順序：官方 YouTube Audio／官方藝人或唱片公司頁／正式串流平台頁。
-- 有多個正式版本時，採最初正式發行的標準版。
+- 同一首歌有多個可信的正式錄音室標準版時間時，取秒數最長者作為排歌 worst case。
+  現場、翻唱、short、remix、instrumental、karaoke、TV/game size 等不同版本仍須先排除，不參與最長值比較。
 - Codex 依 `song_meta.json` 既有順序分批查證，保留每首歌的來源紀錄供複核。
 
 ### 交接要求
@@ -92,6 +93,7 @@ Codex 可從目前進度（Alchemy 之後那批已完成，下一首 `Booo!` 之
    - tag 只用英文 12 類；`durationSec` 為 30–3600 整數，或 `null`。
    - push 前 `git pull --rebase`。
 4. **時長衝突裁決**：使用者口頭給的粗估與官方查證不一致時，**以官方正式串流／發行標準版為準**（使用者已同意）。查不到官方版才用使用者給的粗估；都沒有就 `null`。
+   同曲若有複數個可信正式標準版秒數，取最長者作為 worst case。
 5. **完成後**：用下面的「commit message 信號」通知 Claude（不需要使用者手動轉告）。Claude 會做最終總驗收（tag 合法性＋duration 範圍＋項目數 1516＋title/artist 零變動），通過後接排歌單 Phase 3（tag 篩選＋精準時間估算＋反推模式）。
 
 ## Agent 間自動通知（commit message 信號）
