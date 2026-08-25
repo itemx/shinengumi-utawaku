@@ -154,6 +154,11 @@ for (const ch of channels) {
   let progressTimer = null;
   // 播放佇列 (點擊時由 DOM 收集) 與自動連續播放
   let queue = [];
+  // 再生できない動画に当たったとき、次へ飛ばすか YouTube を開くか
+  // （連続再生中＝飛ばす／一覧から直接クリック＝開く）
+  let skipOnError = false;
+  let skipStreak = 0;              // 連続スキップ数（全滅時の暴走防止）
+  const MAX_SKIP_STREAK = 20;
   let queueIdx = -1;
   let autoAdvance = true;
 
@@ -246,6 +251,7 @@ for (const ch of channels) {
 
   function onStateChange(e) {
     if (e.data === YT.PlayerState.PLAYING) {
+      skipStreak = 0;   // 再生できたので連鎖リセット
       isPlaying = true;
       updatePlayIcon();
       startProgress();
@@ -261,12 +267,33 @@ for (const ch of channels) {
     }
   }
 
+  /** 再生できない動画のエラーコード
+   *  100 = 削除済み / 非公開、101・150 = 埋め込み不可、2/5 = パラメータ・プレイヤー異常 */
+  function isUnplayable(code) {
+    return code === 2 || code === 5 || code === 100 || code === 101 || code === 150;
+  }
+
   function onError(e) {
-    if (e.data === 150 || e.data === 101) {
-      if (currentTrack) {
-        const url = "https://youtu.be/" + currentTrack.videoId + "?t=" + currentTrack.start;
-        window.open(url, "_blank");
+    if (!isUnplayable(e.data)) return;
+
+    // 連続再生中（シャッフル・自動送り・前後ボタン）なら、止めずに次へ飛ばす。
+    // 一覧から直接クリックした場合は、問題に気づけるよう YouTube を開く。
+    if (skipOnError) {
+      skipStreak++;
+      if (skipStreak <= MAX_SKIP_STREAK && hasNext()) {
+        playNext();
+        return;
       }
+      // 全部再生できない等の暴走を防ぐため、ここで静かに停止
+      stopProgress();
+      isPlaying = false;
+      updatePlayIcon();
+      return;
+    }
+
+    if (currentTrack) {
+      const url = "https://youtu.be/" + currentTrack.videoId + "?t=" + currentTrack.start;
+      window.open(url, "_blank");
     }
   }
 
@@ -408,8 +435,8 @@ for (const ch of channels) {
     playTrack(queue[i]);
     updateQueueUI();
   }
-  function playNext() { if (hasNext()) playAt(queueIdx + 1); }
-  function playPrev() { if (hasPrev()) playAt(queueIdx - 1); }
+  function playNext() { if (hasNext()) { skipOnError = true; playAt(queueIdx + 1); } }
+  function playPrev() { if (hasPrev()) { skipOnError = true; playAt(queueIdx - 1); } }
 
   /** 從 DOM 收集所有 [data-play] 建立佇列，並算出每首的結束點。
    *  同影片內下一首的 start 即為本首結束點；否則用 data-duration。 */
@@ -488,6 +515,8 @@ for (const ch of channels) {
     if (!link) return;
     e.preventDefault();
 
+    skipOnError = false;  // 直接クリックされた曲は、問題に気づけるよう YouTube を開く
+    skipStreak = 0;
     buildQueue(link);
     if (queueIdx >= 0) {
       playAt(queueIdx);
@@ -516,6 +545,8 @@ for (const ch of channels) {
    *  tracks: [{videoId, start, title, artist, date, dur}]  */
   window.__playQueue = function(tracks, startIdx) {
     if (!tracks || !tracks.length) return;
+    skipOnError = true;   // シャッフル等の連続再生
+    skipStreak = 0;
     queue = tracks.map(function(t) {
       return {
         videoId: t.videoId, start: t.start || 0,
