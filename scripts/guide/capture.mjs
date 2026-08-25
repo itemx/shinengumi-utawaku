@@ -136,7 +136,7 @@ await evaluate(`
   sel.dispatchEvent(new Event('change'));
   await new Promise(r=>setTimeout(r,300));
 `);
-await shot("02-channel", "#channel", 60);
+await shot("02-channel", "#filters", 10);
 
 // ③ タグ絞り込み（アニメ）
 await evaluate(`

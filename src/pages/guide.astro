@@ -273,11 +273,32 @@ const shots = {
   @media print {
     header, footer, #player-bar { display: none !important; }
     .guide { max-width: 100%; font-size: 10.5pt; }
-    .guide h2, .guide h3 { break-after: avoid; }
-    .guide figure, .guide table, .guide pre { break-inside: avoid; }
+
+    /* 見出しは中で割らない＋直後で改ページしない（丸番号が切れるのを防ぐ） */
+    .guide h2, .guide h3 {
+      break-inside: avoid; page-break-inside: avoid;
+      break-after: avoid;  page-break-after: avoid;
+    }
+    .guide h3 .num { break-inside: avoid; page-break-inside: avoid; }
+
+    /* 見出しの直後の本文までは一緒に置く */
+    .guide h3 + p, .guide h3 + ol, .guide h3 + ul {
+      break-before: avoid; page-break-before: avoid;
+    }
+
+    .guide figure, .guide table, .guide pre, .guide .note, .guide .warn, .guide .tip,
+    .guide dt, .guide dd, .guide li {
+      break-inside: avoid; page-break-inside: avoid;
+    }
+    .guide p { orphans: 2; widows: 2; }
+
     /* 圖片限高，避免單張圖佔滿整頁、頁數與檔案暴增 */
     .guide figure img { max-height: 8.5cm; width: auto; margin: 0 auto; }
     .guide figure { text-align: center; box-shadow: none; }
+
+    /* 背景（丸番号のグラデーション等）を確実に出す */
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
     /* PDF 裡按鈕連結沒有意義 */
     .guide a[href="/plan"] { display: none !important; }
   }
