@@ -1,9 +1,16 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "generatedAt": "2026-08-22T12:40:10.716320+00:00",
+  "generatedAt": "2026-08-25T12:49:14.523206+00:00",
   "totalSearched": 173,
   "totalWithSetlist": 142,
-  "totalMissing": 0,
-  "missing": []
+  "totalMissing": 1,
+  "missing": [
+    {
+      "videoId": "d_7n_zvLZWg",
+      "title": "【歌枠】#FF47 ありがとうございました！あなたの魂を揺らすVsinger✨【VTuber/配信中】",
+      "publishedAt": "2026-08-24T11:07:35Z",
+      "url": "https://www.youtube.com/watch?v=d_7n_zvLZWg"
+    }
+  ]
 }

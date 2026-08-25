@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-08-24T09:20:56.750076+00:00",
+  "lastFetched": "2026-08-25T12:49:14.934002+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -16135,6 +16135,14 @@
         }
       ],
       "sourceCommentId": "issue#77",
+      "type": "stream"
+    },
+    {
+      "videoId": "AvaNWYZSmSU",
+      "title": "Loveit?/biz×ZERA feat LOLUET #shorts #cover #歌ってみた",
+      "publishedAt": "2026-08-24T09:06:10Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]

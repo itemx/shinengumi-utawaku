@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-08-24T07:51:55.316009+00:00",
+  "lastFetched": "2026-08-25T12:49:14.484713+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -40284,6 +40284,24 @@
       "sourceCommentId": "issue#76",
       "type": "original",
       "videoStatus": "unlisted"
+    },
+    {
+      "videoId": "U_9T0-pCHlM",
+      "title": "夜撫でるメノウ / Ayase 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-23T09:00:08Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "夜撫でるメノウ",
+          "titleRaw": "夜撫でるメノウ",
+          "artist": "Ayase",
+          "artistRaw": "Ayase",
+          "url": "https://youtu.be/U_9T0-pCHlM"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
