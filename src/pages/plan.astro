@@ -95,8 +95,12 @@ const msgs = Object.fromEntries(
         <span data-i18n="plan.minutes">分鐘</span>
         <span id="target-diff"></span>
       </div>
-      <button id="autofill" class="w-full py-1.5 rounded-full text-xs border border-primary text-primary hover:bg-pink-50"
-        data-i18n="plan.autofill">依目標自動組合</button>
+      <div class="flex gap-1.5">
+        <button id="autofill" class="flex-1 py-1.5 rounded-full text-xs border border-primary text-primary hover:bg-pink-50"
+          data-i18n="plan.autofill">補滿到目標</button>
+        <button id="reroll" class="flex-1 py-1.5 rounded-full text-xs border border-purple text-purple hover:bg-purple/5"
+          data-i18n="plan.reroll">重新隨機</button>
+      </div>
       <p id="autofill-msg" class="hidden text-[11px] text-primary mt-1 mb-1" role="alert"></p>
       <div class="mb-2"></div>
 
@@ -384,11 +388,15 @@ const msgs = Object.fromEntries(
     // 使用者一開始輸入目標就把錯誤訊息收掉
     document.getElementById("target").addEventListener("input", clearAutofillMsg);
 
-    document.getElementById("autofill").onclick=function(){
+    /** 依目標時長補歌。fresh=true 會先清空(重新隨機)，否則保留已選往上補。 */
+    function autofillToTarget(fresh){
       clearAutofillMsg();
       var t=parseInt(document.getElementById("target").value,10);
       if(!(t>0)){ showAutofillMsg("plan.need_target"); return; }
       var targetSec=t*60;
+
+      if (fresh) selected=[];
+
       // 候選 = 目前篩選結果，排除已選
       var cand=filtered().map(function(o){return o.i;}).filter(function(i){return selected.indexOf(i)<0;});
       // 洗牌 (Fisher-Yates)
@@ -404,7 +412,10 @@ const msgs = Object.fromEntries(
       }
       if (!added) showAutofillMsg("plan.autofill_none");
       renderPool(); renderSelected();
-    };
+    }
+
+    document.getElementById("autofill").onclick=function(){ autofillToTarget(false); };
+    document.getElementById("reroll").onclick=function(){ autofillToTarget(true); };
     document.getElementById("copy").onclick=function(){
       var out=document.getElementById("out"); out.select(); navigator.clipboard.writeText(out.value);
       var b=document.getElementById("copy"); var o=b.textContent; b.textContent="✓"; setTimeout(function(){ b.textContent=o; },1000);
