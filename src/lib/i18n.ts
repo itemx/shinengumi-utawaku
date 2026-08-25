@@ -72,6 +72,8 @@ export const translations: Record<Locale, Record<string, string>> = {
     // VideoCard
     "video.youtube": "在 YouTube 觀看",
     "video.songs_unit": "曲",
+    "video.status_unlisted": "限定公開",
+    "video.status_unavailable": "無法觀看",
     // Footer
     "footer.desc": "SEG-V UtaList — 深淵組成員非公式歌回曲目資料庫",
     "footer.contact": "聯絡管理人",
@@ -170,6 +172,8 @@ export const translations: Record<Locale, Record<string, string>> = {
     "type.original": "Original",
     "video.youtube": "YouTube で見る",
     "video.songs_unit": "曲",
+    "video.status_unlisted": "限定公開",
+    "video.status_unavailable": "視聴できません",
     "footer.desc": "SEG-V UtaList — 深淵組メンバー 非公式 セトリデータベース",
     "footer.contact": "管理人への連絡",
     "plan.page_title": "セトリ作成 | SEG-V UtaList",

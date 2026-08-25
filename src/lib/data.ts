@@ -23,6 +23,10 @@ export interface VideoEntry {
   songs: SongEntry[];
   sourceCommentId: string;
   type: "stream" | "short" | "cover" | "original";
+  /** 公開状態。公開（正常）のときは付与しない。
+   *  unlisted = 限定公開（再生は可能）／ unavailable = 視聴できません（非公開または削除済み。
+   *  YouTube API では両者を区別できないため統合） */
+  videoStatus?: "unlisted" | "unavailable";
 }
 
 export interface ChannelData {

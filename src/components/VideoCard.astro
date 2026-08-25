@@ -21,6 +21,15 @@ const songMeta = getSongMeta();
       <div class="flex items-center justify-between gap-2">
         <div class="flex-1 min-w-0">
           <span class="text-xs text-text-muted">{date}</span>
+          {video.videoStatus && (
+            <span class={`ml-1.5 shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold align-middle ${
+              video.videoStatus === "unavailable"
+                ? "bg-gray-200 text-gray-600"
+                : "bg-gold/20 text-[#a17a08]"
+            }`} data-i18n={`video.status_${video.videoStatus}`}>
+              {video.videoStatus === "unavailable" ? "視聴できません" : "限定公開"}
+            </span>
+          )}
           <h3 class="font-medium text-sm truncate mt-0.5">{video.title.slice(0, 60)}</h3>
         </div>
         <span class="shrink-0 inline-flex items-center justify-center px-2 h-6 rounded-full bg-primary/10 text-primary text-xs font-bold">

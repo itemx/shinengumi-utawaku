@@ -298,7 +298,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "X5Ik6dL9VOU",
@@ -604,7 +605,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "4YHunCUefgo",
@@ -26596,7 +26598,8 @@
         }
       ],
       "sourceCommentId": "issue#3",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "oqrdSTEPS0Y",
@@ -26920,7 +26923,8 @@
         }
       ],
       "sourceCommentId": "issue#6",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "CxD9N8T-EEA",
@@ -28531,7 +28535,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "ldgYu2Kbj-s",
@@ -28801,7 +28806,8 @@
         }
       ],
       "sourceCommentId": "issue#17",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "NwRnEmjJ7ak",
@@ -28999,7 +29005,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unavailable"
     },
     {
       "videoId": "DwjXC5GQUe0",
@@ -30070,7 +30077,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "y2TDXx7yl-w",
@@ -32293,7 +32301,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "Z3yBlQQbXi8",
@@ -35515,7 +35524,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "d5Xed-O9gIM",
@@ -36055,7 +36065,8 @@
         }
       ],
       "sourceCommentId": "issue#45",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "PxFDpcsKZTw",
@@ -36325,7 +36336,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "MiZ94sTcaRg",
@@ -37467,7 +37479,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "dWwNf68ILGU",
@@ -37728,7 +37741,8 @@
         }
       ],
       "sourceCommentId": "issue#56",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "YFW-DXJNCPY",
@@ -38583,7 +38597,8 @@
         }
       ],
       "sourceCommentId": "issue#60",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "nNslAn3YPHk",
@@ -39087,7 +39102,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "Cw7f_gnzoh4",
@@ -40266,7 +40282,8 @@
         }
       ],
       "sourceCommentId": "issue#76",
-      "type": "original"
+      "type": "original",
+      "videoStatus": "unlisted"
     }
   ]
 }

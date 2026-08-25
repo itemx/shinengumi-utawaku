@@ -50,6 +50,15 @@ const ytUrl = `https://www.youtube.com/watch?v=${video.videoId}`;
           <span class="text-xs text-text-muted">{song.artist}</span>
         )}
         <span class="text-xs text-text-muted">{date}</span>
+        {video.videoStatus && (
+            <span class={`ml-1.5 shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold align-middle ${
+              video.videoStatus === "unavailable"
+                ? "bg-gray-200 text-gray-600"
+                : "bg-gold/20 text-[#a17a08]"
+            }`} data-i18n={`video.status_${video.videoStatus}`}>
+              {video.videoStatus === "unavailable" ? "視聴できません" : "限定公開"}
+            </span>
+          )}
       </div>
     </div>
     <span class="text-primary text-lg shrink-0 opacity-0 group-hover:opacity-100 transition-opacity">

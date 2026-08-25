@@ -72,7 +72,7 @@ class YouTubeClient:
     def get_video_info(self, video_id: str) -> dict:
         """取得影片 metadata (1 unit)。含 duration 和直播狀態。"""
         resp = self._service.videos().list(
-            part="snippet,contentDetails,liveStreamingDetails", id=video_id
+            part="snippet,contentDetails,liveStreamingDetails,status", id=video_id
         ).execute()
         self._units += 1
         items = resp.get("items", [])
@@ -81,6 +81,7 @@ class YouTubeClient:
         snippet = items[0]["snippet"]
         content = items[0].get("contentDetails", {})
         live = items[0].get("liveStreamingDetails", {})
+        status = items[0].get("status", {})
         duration_iso = content.get("duration", "")  # e.g. "PT1M30S", "PT45S"
         broadcast = snippet.get("liveBroadcastContent", "none")  # "upcoming", "live", "none"
         return {
@@ -93,6 +94,8 @@ class YouTubeClient:
             "isShort": _is_short_duration(duration_iso),
             "isUpcoming": broadcast == "upcoming",
             "isLive": broadcast == "live",
+            # public / unlisted / private
+            "privacyStatus": status.get("privacyStatus", "public"),
         }
 
     def search_singing_streams(
@@ -202,3 +205,27 @@ class YouTubeClient:
                 break
 
         return comments
+
+    def check_availability(self, video_ids: list[str]) -> dict[str, str]:
+        """批次檢查影片可用性 (1 unit / 50 部)。
+
+        Returns:
+            {videoId: "public" | "unlisted" | "unavailable"}
+
+        注意: YouTube API 無法區分「非公開」與「已刪除」——
+        兩者都不會出現在回傳結果中，一律歸為 "unavailable"。
+        """
+        result: dict[str, str] = {}
+        for i in range(0, len(video_ids), 50):
+            batch = video_ids[i:i + 50]
+            resp = self._service.videos().list(
+                part="status", id=",".join(batch)
+            ).execute()
+            self._units += 1
+            found = {
+                item["id"]: item.get("status", {}).get("privacyStatus", "public")
+                for item in resp.get("items", [])
+            }
+            for vid in batch:
+                result[vid] = found.get(vid, "unavailable")
+        return result

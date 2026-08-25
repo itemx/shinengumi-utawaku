@@ -18,6 +18,7 @@ export const GET: APIRoute = () => {
     const data = getChannelData(ch.channelId);
     if (!data) continue;
     for (const v of data.videos) {
+      if (v.videoStatus === "unavailable") continue; // 再生できない動画は除外
       for (const s of v.songs) {
         if (!s.seconds || s.seconds <= 0) continue; // 跳過 0:00（單曲投稿/封面）
         const key = `${s.title}\t${s.artist}`;

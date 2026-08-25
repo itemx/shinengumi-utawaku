@@ -104,7 +104,8 @@ async function shot(name, selector, pad = 10) {
     el.scrollIntoView({block:'center'});
     await new Promise(r=>setTimeout(r,250));
     var r = el.getBoundingClientRect();
-    return {x:r.x, y:r.y, w:r.width, h:r.height};
+    // captureBeyondViewport はページ座標を使うため、スクロール量を足す
+    return {x:r.x + window.scrollX, y:r.y + window.scrollY, w:r.width, h:r.height};
   `);
   if (!box) { console.log(`  ⚠ ${name}: 找不到 ${selector}`); return; }
   const clip = {
