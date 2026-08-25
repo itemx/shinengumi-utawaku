@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { getAllSongs, getSongMeta } from "../lib/data";
+import { translations } from "../lib/i18n";
 
 const all = getAllSongs();
 const meta = getSongMeta();
@@ -25,6 +26,15 @@ const avgDur = durations.length
 const allTags = [...new Set(pool.flatMap((s) => s.tags))].sort();
 const allChannels = [...new Set(pool.flatMap((s) => s.channels))].sort();
 const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
+
+// 只在 inline script 需要的訊息（無對應 DOM 元素可讀，故直接帶兩種語言）
+const MSG_KEYS = ["plan.need_target", "plan.autofill_none"] as const;
+const msgs = Object.fromEntries(
+  (["zh", "ja"] as const).map((loc) => [
+    loc,
+    Object.fromEntries(MSG_KEYS.map((k) => [k, translations[loc][k]])),
+  ])
+);
 ---
 
 <Base title="排歌單" i18nTitleKey="plan.page_title">
@@ -83,8 +93,10 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
         <span data-i18n="plan.minutes">分鐘</span>
         <span id="target-diff"></span>
       </div>
-      <button id="autofill" class="w-full mb-2 py-1.5 rounded-full text-xs border border-primary text-primary hover:bg-pink-50"
+      <button id="autofill" class="w-full py-1.5 rounded-full text-xs border border-primary text-primary hover:bg-pink-50"
         data-i18n="plan.autofill">依目標自動組合</button>
+      <p id="autofill-msg" class="hidden text-[11px] text-primary mt-1 mb-1" role="alert"></p>
+      <div class="mb-2"></div>
 
       <!-- 排序控制 -->
       <div class="flex flex-wrap items-center gap-2 mb-2 text-xs">
@@ -124,7 +136,7 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
     </div>
   </div>
 
-  <script is:inline define:vars={{ pool, avgDur }}>
+  <script is:inline define:vars={{ pool, avgDur, msgs }}>
     var selected = []; // list of pool indices (click order)
     var activeTags = new Set();
     var poolEl = document.getElementById("pool");
@@ -297,21 +309,46 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
     document.getElementById("clear").onclick=function(){ selected=[]; renderPool(); renderSelected(); };
 
     // 反推模式: 依目標分鐘數 + 目前篩選條件，從曲池隨機組合到接近目標
+    var autofillMsg=document.getElementById("autofill-msg");
+    function msg(key){
+      var loc=(window.__i18nLocale==="ja"||window.__i18nLocale==="zh")
+        ? window.__i18nLocale
+        : (document.documentElement.lang==="ja" ? "ja" : "zh");
+      return (msgs[loc] && msgs[loc][key]) || (msgs.zh && msgs.zh[key]) || "";
+    }
+    var autofillMsgKey=null;
+    function showAutofillMsg(key){
+      autofillMsgKey=key;
+      autofillMsg.textContent=msg(key);
+      autofillMsg.classList.remove("hidden");
+    }
+    function clearAutofillMsg(){
+      autofillMsgKey=null;
+      autofillMsg.classList.add("hidden");
+      autofillMsg.textContent="";
+    }
+    // 使用者一開始輸入目標就把錯誤訊息收掉
+    document.getElementById("target").addEventListener("input", clearAutofillMsg);
+
     document.getElementById("autofill").onclick=function(){
+      clearAutofillMsg();
       var t=parseInt(document.getElementById("target").value,10);
-      if(!(t>0)){ alert("請先輸入目標分鐘數"); return; }
+      if(!(t>0)){ showAutofillMsg("plan.need_target"); return; }
       var targetSec=t*60;
       // 候選 = 目前篩選結果，排除已選
       var cand=filtered().map(function(o){return o.i;}).filter(function(i){return selected.indexOf(i)<0;});
       // 洗牌 (Fisher-Yates)
       for(var k=cand.length-1;k>0;k--){ var j=Math.floor(Math.random()*(k+1)); var tmp=cand[k]; cand[k]=cand[j]; cand[j]=tmp; }
       var cur=selected.reduce(function(a,i){return a+(pool[i].dur||avgDur);},0);
+      var added=0;
       for(var n=0;n<cand.length && cur<targetSec;n++){
         var d=pool[cand[n]].dur||avgDur;
         // 加了會超過目標一半以上的歌就跳過，讓總長更貼近目標
         if(cur+d>targetSec+d/2) continue;
         selected.push(cand[n]); cur+=d;
+        added++;
       }
+      if (!added) showAutofillMsg("plan.autofill_none");
       renderPool(); renderSelected();
     };
     document.getElementById("copy").onclick=function(){
@@ -336,7 +373,10 @@ const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
     document.addEventListener("keydown", function(e){ if (e.key==="Escape") closeOut(); });
 
     // 切換語言時重繪 (讓動態 tag 跟著換)
-    window.addEventListener("langchange", function(){ renderPool(); });
+    window.addEventListener("langchange", function(){
+      renderPool();
+      if (autofillMsgKey) autofillMsg.textContent=msg(autofillMsgKey);
+    });
 
     renderPool(); renderSelected();
   </script>
