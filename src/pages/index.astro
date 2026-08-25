@@ -68,13 +68,14 @@ const stats = getStats();
   {channels.length === 0 ? (
     <p class="text-center text-text-muted" data-i18n="index.no_channels">尚未登錄任何頻道</p>
   ) : (
-    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <!-- flex + justify-center：チャンネル数が列数に満たなくても中央に揃う -->
+    <div class="flex flex-wrap justify-center gap-6">
       {channels.map((ch) => {
         const s = stats[ch.channelId];
         return (
           <a
             href={`/${ch.channelId}`}
-            class="block rounded-lg border border-border bg-white p-6 shadow-sm hover:shadow-md transition-shadow group"
+            class="block w-full sm:w-[22rem] rounded-lg border border-border bg-white p-6 shadow-sm hover:shadow-md transition-shadow group"
           >
             <div class="flex items-center gap-4 mb-4">
               {ch.avatar && (
