@@ -97,8 +97,8 @@ const msgs = Object.fromEntries(
       </div>
       <div class="flex gap-1.5">
         <button id="autofill" class="flex-1 py-1.5 rounded-full text-xs border border-primary text-primary hover:bg-pink-50"
-          data-i18n="plan.autofill">補滿到目標</button>
-        <button id="reroll" class="flex-1 py-1.5 rounded-full text-xs border border-purple text-purple hover:bg-purple/5"
+          data-i18n="plan.autofill">補滿至指定時間</button>
+        <button id="reroll" class="hidden flex-1 py-1.5 rounded-full text-xs border border-purple text-purple hover:bg-purple/5"
           data-i18n="plan.reroll">重新隨機</button>
       </div>
       <p id="autofill-msg" class="hidden text-[11px] text-primary mt-1 mb-1" role="alert"></p>
@@ -303,6 +303,8 @@ const msgs = Object.fromEntries(
       });
 
       document.getElementById("sel-count").textContent=selected.length;
+      // 清單為空時沒有東西可「重新」隨機，隱藏該鈕（autofill 會自動撐滿寬度）
+      document.getElementById("reroll").classList.toggle("hidden", selected.length===0);
       document.getElementById("sel-time").textContent=fmtHM(totalSec);
       document.getElementById("out").value=view.map(function(i){
         var s=pool[i]; return s.title+(s.artist?" / "+s.artist:"");
