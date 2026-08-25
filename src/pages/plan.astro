@@ -78,7 +78,9 @@ const msgs = Object.fromEntries(
     <div class="md:sticky md:top-4 border border-border rounded-md p-3 bg-white">
       <div class="flex items-baseline justify-between mb-2">
         <h2 class="font-bold text-purple" data-i18n="plan.selected">已選</h2>
-        <button id="clear" class="text-xs text-text-muted hover:text-primary underline" data-i18n="plan.clear">清空</button>
+        <button id="clear"
+          class="px-2.5 py-1 rounded-full text-xs border border-primary/60 text-primary hover:bg-primary hover:text-white transition-colors"
+          data-i18n="plan.clear">清空</button>
       </div>
       <div class="text-sm mb-2">
         <span id="sel-count" class="font-bold text-primary">0</span>
@@ -111,7 +113,7 @@ const msgs = Object.fromEntries(
         </select>
       </div>
 
-      <ol id="selected" class="text-sm space-y-0.5 mb-3 max-h-[40vh] overflow-y-auto"></ol>
+      <ol id="selected" class="text-sm space-y-1 mb-3 max-h-[45vh] overflow-y-auto"></ol>
 
       <button id="open-out" class="w-full py-2 rounded-full text-sm text-white bg-primary hover:bg-primary-dark"
         data-i18n="plan.show_list">產生清單</button>
@@ -236,28 +238,61 @@ const msgs = Object.fromEntries(
           prevArtist=s.artist;
         }
 
+        var realIdx=selected.indexOf(i);
         var li=document.createElement("li");
-        li.className="flex items-center gap-1 group";
+        li.className="flex items-center gap-1 py-1 px-1 rounded border border-transparent hover:bg-pink-50/60";
+        li.dataset.idx=realIdx;
         li.innerHTML=
+          (mode==="manual"
+            ? '<span data-act="grip" class="shrink-0 cursor-grab select-none text-text-muted/50 hover:text-primary leading-none px-0.5" title="拖曳排序">⠿</span>'
+            : '<span class="shrink-0 w-3"></span>')+
           '<span class="w-5 shrink-0 text-right text-[10px] text-text-muted">'+(pos+1)+'</span>'+
-          '<span class="flex-1 leading-tight">'+esc(s.title)+
+          '<span class="flex-1 leading-snug">'+esc(s.title)+
             (s.artist?' <span class="text-text-muted text-xs">/ '+esc(s.artist)+'</span>':'')+
             (s.dur?' <span class="text-[10px] text-text-muted">('+fmtMS(s.dur)+')</span>':'')+
           '</span>'+
-          '<button data-act="up" class="px-0.5 text-text-muted hover:text-primary text-xs disabled:opacity-25" title="上移">▲</button>'+
-          '<button data-act="down" class="px-0.5 text-text-muted hover:text-primary text-xs disabled:opacity-25" title="下移">▼</button>'+
-          '<button data-act="del" class="px-0.5 text-text-muted hover:text-primary text-xs" title="移除">✕</button>';
+          '<button data-act="up" class="px-1 py-0.5 text-text-muted hover:text-primary text-xs disabled:opacity-25" title="上移">▲</button>'+
+          '<button data-act="down" class="px-1 py-0.5 text-text-muted hover:text-primary text-xs disabled:opacity-25" title="下移">▼</button>'+
+          '<button data-act="del" class="px-1 py-0.5 text-text-muted hover:text-primary text-xs" title="移除">✕</button>';
 
         var up=li.querySelector('[data-act="up"]');
         var down=li.querySelector('[data-act="down"]');
-        // 只有手動順序才能上下搬移
+        // 只有手動順序才能重新排序
         if (mode!=="manual"){ up.disabled=true; down.disabled=true; }
         else {
-          var realIdx=selected.indexOf(i);
           up.disabled = realIdx<=0;
           down.disabled = realIdx>=selected.length-1;
           up.onclick=function(){ move(realIdx,-1); };
           down.onclick=function(){ move(realIdx,1); };
+
+          // 拖曳排序：只有按住把手才可拖，避免誤觸
+          var grip=li.querySelector('[data-act="grip"]');
+          grip.addEventListener("mousedown", function(){ li.draggable=true; });
+          li.addEventListener("dragend", function(){ li.draggable=false; clearDropMarks(); });
+          li.addEventListener("dragstart", function(e){
+            dragFrom=realIdx;
+            e.dataTransfer.effectAllowed="move";
+            try { e.dataTransfer.setData("text/plain", String(realIdx)); } catch(_){}
+            li.classList.add("opacity-40");
+          });
+          li.addEventListener("dragover", function(e){
+            if (dragFrom===null || dragFrom===realIdx) return;
+            e.preventDefault();
+            e.dataTransfer.dropEffect="move";
+            clearDropMarks();
+            // 依游標在上下半部決定插入位置
+            var r=li.getBoundingClientRect();
+            li.classList.add(e.clientY < r.top + r.height/2 ? "border-t-primary" : "border-b-primary");
+          });
+          li.addEventListener("drop", function(e){
+            e.preventDefault();
+            if (dragFrom===null) return;
+            var r=li.getBoundingClientRect();
+            var before = e.clientY < r.top + r.height/2;
+            var to = realIdx + (before ? 0 : 1);
+            moveTo(dragFrom, to);
+            dragFrom=null;
+          });
         }
         li.querySelector('[data-act="del"]').onclick=function(){ toggle(i); };
         ol.appendChild(li);
@@ -279,11 +314,30 @@ const msgs = Object.fromEntries(
       else diff.textContent="";
     }
 
-    /** 手動搬移 selected 內的項目 */
+    /** 手動搬移 selected 內的項目 (上下鍵，相鄰互換) */
     function move(idx, delta){
       var to=idx+delta;
       if (to<0 || to>=selected.length) return;
       var tmp=selected[idx]; selected[idx]=selected[to]; selected[to]=tmp;
+      renderSelected();
+    }
+
+    // --- 拖曳排序 ---
+    var dragFrom=null;
+
+    function clearDropMarks(){
+      [].forEach.call(document.querySelectorAll("#selected li"), function(el){
+        el.classList.remove("border-t-primary","border-b-primary","opacity-40");
+      });
+    }
+
+    /** 把 from 位置的項目插入到 to 位置 (插入語意，非互換) */
+    function moveTo(from, to){
+      if (from===to || from===to-1) { clearDropMarks(); return; }
+      var item=selected.splice(from,1)[0];
+      if (from < to) to--;          // 移除後索引前移
+      selected.splice(to,0,item);
+      clearDropMarks();
       renderSelected();
     }
 
