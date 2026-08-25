@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1501,
-  "uniqueTitles": 1464,
-  "uniqueArtists": 671,
+  "totalEntries": 1489,
+  "uniqueTitles": 1460,
+  "uniqueArtists": 664,
   "songs": [
     {
       "title": "花に亡霊",
@@ -654,6 +654,11 @@
       "count": 10
     },
     {
+      "title": "Rolling star",
+      "artist": "YUI",
+      "count": 10
+    },
+    {
       "title": "熱愛105°C的你",
       "artist": "阿肆",
       "count": 10
@@ -739,6 +744,11 @@
       "count": 9
     },
     {
+      "title": "träumerei",
+      "artist": "LiSA",
+      "count": 9
+    },
+    {
       "title": "綺麗事",
       "artist": "星街すいせい",
       "count": 9
@@ -781,6 +791,11 @@
     {
       "title": "Don't say \"lazy\"",
       "artist": "放課後ティータイム",
+      "count": 9
+    },
+    {
+      "title": "This game",
+      "artist": "鈴木このみ",
       "count": 9
     },
     {
@@ -909,11 +924,6 @@
       "count": 8
     },
     {
-      "title": "träumerei",
-      "artist": "LiSA",
-      "count": 8
-    },
-    {
       "title": "ミカヅキ",
       "artist": "さユり",
       "count": 8
@@ -1024,11 +1034,6 @@
       "count": 8
     },
     {
-      "title": "This game",
-      "artist": "鈴木このみ",
-      "count": 8
-    },
-    {
       "title": "chAngE",
       "artist": "miwa",
       "count": 8
@@ -1056,6 +1061,16 @@
     {
       "title": "心に穴が空いた",
       "artist": "ヨルシカ",
+      "count": 8
+    },
+    {
+      "title": "ファンサ",
+      "artist": "mona (夏川椎菜)",
+      "count": 8
+    },
+    {
+      "title": "ハレ晴レユカイ",
+      "artist": "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
       "count": 8
     },
     {
@@ -1289,11 +1304,6 @@
       "count": 7
     },
     {
-      "title": "Rolling star",
-      "artist": "YUI",
-      "count": 7
-    },
-    {
       "title": "愛包ダンスホール",
       "artist": "HIMEHINA",
       "count": 7
@@ -1331,6 +1341,11 @@
     {
       "title": "シル・ヴ・プレジデント",
       "artist": "ナナホシ管弦楽団",
+      "count": 7
+    },
+    {
+      "title": "カブトムシ",
+      "artist": "aiko",
       "count": 7
     },
     {
@@ -1451,6 +1466,11 @@
     {
       "title": "ハルジオン",
       "artist": "YOASOBI",
+      "count": 6
+    },
+    {
+      "title": "YUME日和",
+      "artist": "島谷ひとみ",
       "count": 6
     },
     {
@@ -1584,18 +1604,8 @@
       "count": 6
     },
     {
-      "title": "ファンサ",
-      "artist": "mona (夏川椎菜)",
-      "count": 6
-    },
-    {
       "title": "ルージュの伝言",
       "artist": "松任谷由実",
-      "count": 6
-    },
-    {
-      "title": "ハレ晴レユカイ",
-      "artist": "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
       "count": 6
     },
     {
@@ -1611,11 +1621,6 @@
     {
       "title": "だってアタシのヒーロー。",
       "artist": "LiSA",
-      "count": 6
-    },
-    {
-      "title": "カブトムシ",
-      "artist": "aiko",
       "count": 6
     },
     {
@@ -1851,11 +1856,6 @@
     {
       "title": "キャットフード",
       "artist": "doriko",
-      "count": 5
-    },
-    {
-      "title": "YUME日和",
-      "artist": "島谷ひとみ",
       "count": 5
     },
     {
@@ -2759,6 +2759,11 @@
       "count": 3
     },
     {
+      "title": "スキスキ絶頂症",
+      "artist": "koyori (電ポルP)",
+      "count": 3
+    },
+    {
       "title": "あなたクランケン",
       "artist": "tamon",
       "count": 3
@@ -2981,6 +2986,11 @@
     {
       "title": "憂、燦々",
       "artist": "クリープハイプ",
+      "count": 3
+    },
+    {
+      "title": "メニメニマニマニ",
+      "artist": "高宮なすの (鳴海杏子)",
       "count": 3
     },
     {
@@ -3226,6 +3236,11 @@
     {
       "title": "JINGO JUNGLE",
       "artist": "MYTH & ROID",
+      "count": 3
+    },
+    {
+      "title": "裏切りの夕焼け",
+      "artist": "THEATRE BROOK",
       "count": 3
     },
     {
@@ -3489,11 +3504,6 @@
       "count": 3
     },
     {
-      "title": "Rolling Star",
-      "artist": "YUI",
-      "count": 3
-    },
-    {
       "title": "旧支配者のキャロル",
       "artist": "クトゥルフ神話",
       "count": 3
@@ -3649,11 +3659,6 @@
       "count": 2
     },
     {
-      "title": "スキスキ絶頂症",
-      "artist": "koyori (電ポルP)",
-      "count": 2
-    },
-    {
       "title": "三日月ステップ",
       "artist": "r-906",
       "count": 2
@@ -3769,6 +3774,11 @@
       "count": 2
     },
     {
+      "title": "kiss",
+      "artist": "みきーの (みきとP×keeno)",
+      "count": 2
+    },
+    {
       "title": "平行線",
       "artist": "さユり",
       "count": 2
@@ -3836,11 +3846,6 @@
     {
       "title": "アンヘル",
       "artist": "かいりきベア",
-      "count": 2
-    },
-    {
-      "title": "メニメニマニマニ",
-      "artist": "高宮なすの (鳴海杏子)",
       "count": 2
     },
     {
@@ -4304,6 +4309,11 @@
       "count": 2
     },
     {
+      "title": "PON PON PON",
+      "artist": "きゃりーぱみゅぱみゅ",
+      "count": 2
+    },
+    {
       "title": "PRIDE",
       "artist": "女王蜂",
       "count": 2
@@ -4589,16 +4599,6 @@
       "count": 2
     },
     {
-      "title": "ハレ晴レユカイ",
-      "artist": "涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)",
-      "count": 2
-    },
-    {
-      "title": "ファンサ",
-      "artist": "mona(夏川椎菜)",
-      "count": 2
-    },
-    {
       "title": "Girls",
       "artist": "Easy Pop",
       "count": 2
@@ -4611,11 +4611,6 @@
     {
       "title": "MOON PRIDE",
       "artist": "ももいろクローバーZ",
-      "count": 2
-    },
-    {
-      "title": "裏切りの夕焼け",
-      "artist": "THEATRE BROOK",
       "count": 2
     },
     {
@@ -5096,11 +5091,6 @@
     {
       "title": "スキャンダルなんかブッ飛ばせ",
       "artist": "SCANDAL",
-      "count": 1
-    },
-    {
-      "title": "kiss",
-      "artist": "みきーの (みきとP×keeno)",
       "count": 1
     },
     {
@@ -5684,11 +5674,6 @@
       "count": 1
     },
     {
-      "title": "裏切りの夕焼け",
-      "artist": "Theatre Brook",
-      "count": 1
-    },
-    {
       "title": "ビンクスの酒",
       "artist": "麦わらの一味 (田中真弓,中井和哉,岡村明美,山口勝平,平田広明,大谷育江,山口由里子,矢尾一樹,チョー)",
       "count": 1
@@ -5726,11 +5711,6 @@
     {
       "title": "じょいふる",
       "artist": "いきものがかり",
-      "count": 1
-    },
-    {
-      "title": "PON PON PON",
-      "artist": "きゃりーぱみゅぱみゅ",
       "count": 1
     },
     {
@@ -6146,11 +6126,6 @@
     {
       "title": "天樂",
       "artist": "ゆうゆ",
-      "count": 1
-    },
-    {
-      "title": "PONPONPON",
-      "artist": "きゃりーぱみゅぱみゅ",
       "count": 1
     },
     {
@@ -6679,11 +6654,6 @@
       "count": 1
     },
     {
-      "title": "メニメニマニマニ",
-      "artist": "高宮なすの(鳴海杏子)",
-      "count": 1
-    },
-    {
       "title": "ヒャダインのカカカタ☆カタオモイ-C",
       "artist": "ヒャダイン",
       "count": 1
@@ -6700,11 +6670,6 @@
     },
     {
       "title": "Hi FiVE!",
-      "artist": "LiSA",
-      "count": 1
-    },
-    {
-      "title": "traumerei",
       "artist": "LiSA",
       "count": 1
     },
@@ -6726,11 +6691,6 @@
     {
       "title": "雨上がりのアイリス",
       "artist": "Re;IRIS",
-      "count": 1
-    },
-    {
-      "title": "YUME日和",
-      "artist": "島谷 ひとみ",
       "count": 1
     },
     {
@@ -6801,11 +6761,6 @@
     {
       "title": "ウミユリ海底譚",
       "artist": "n-buna",
-      "count": 1
-    },
-    {
-      "title": "カブトムシ",
-      "artist": "Aiko",
       "count": 1
     },
     {
@@ -6979,11 +6934,6 @@
       "count": 1
     },
     {
-      "title": "kiss",
-      "artist": "みきーの(みきとP×keeno)",
-      "count": 1
-    },
-    {
       "title": "departure!",
       "artist": "小野正利",
       "count": 1
@@ -7060,11 +7010,6 @@
     },
     {
       "title": "サイノウサンプラー",
-      "artist": "koyori(電ポルP)",
-      "count": 1
-    },
-    {
-      "title": "スキスキ絶頂症",
       "artist": "koyori(電ポルP)",
       "count": 1
     },
@@ -7434,11 +7379,6 @@
       "count": 1
     },
     {
-      "title": "this game",
-      "artist": "鈴木このみ",
-      "count": 1
-    },
-    {
       "title": "特捜戦隊デカレンジャー",
       "artist": "サイキックラバー",
       "count": 1
@@ -7536,7 +7476,6 @@
     "Afterglow",
     "AiNA THE END",
     "AiScReam",
-    "Aiko",
     "Aimer",
     "Aiobahn",
     "Aiobahn +81",
@@ -7707,7 +7646,6 @@
     "TM NETWORK",
     "TOOBOE",
     "TRUE",
-    "Theatre Brook",
     "Tommy heavenly6",
     "TrySail",
     "UNDEAD",
@@ -7764,7 +7702,6 @@
     "miwa",
     "moja, rerulili",
     "mona (夏川椎菜)",
-    "mona(夏川椎菜)",
     "moricalliope",
     "mothy (悪ノP)",
     "n-buna",
@@ -7850,7 +7787,6 @@
     "まふまふ",
     "みきとP",
     "みきーの (みきとP×keeno)",
-    "みきーの(みきとP×keeno)",
     "めいちゃん",
     "めいちゃん, ナナホシ管弦楽団",
     "もじゃ",
@@ -8025,7 +7961,6 @@
     "岩崎良美",
     "島みやえい子",
     "島村卯月 (大橋彩香)",
-    "島谷 ひとみ",
     "島谷ひとみ",
     "嵐",
     "工藤真由",
@@ -8093,7 +8028,6 @@
     "泉こなた(平野綾)・柊かがみ(加藤英美里)・柊つかさ(福原香織)・高良みゆき(遠藤綾)",
     "流星P",
     "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
-    "涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)",
     "涼風しとら",
     "深淵組",
     "渉海よひら",
@@ -8167,7 +8101,6 @@
     "香椎モイミ",
     "髏々宮カルタ (花澤香菜)",
     "高宮なすの (鳴海杏子)",
-    "高宮なすの(鳴海杏子)",
     "高橋洋子",
     "髙屋亜希那",
     "鬼束ちひろ",

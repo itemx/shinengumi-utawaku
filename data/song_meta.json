@@ -1344,12 +1344,6 @@
     "durationSec": 243
   },
   {
-    "title": "PONPONPON",
-    "artist": "きゃりーぱみゅぱみゅ",
-    "tags": ["j-pop"],
-    "durationSec": 243
-  },
-  {
     "title": "POP IN 2",
     "artist": "B小町",
     "tags": ["anime", "idol", "j-pop"],
@@ -1576,12 +1570,6 @@
     "artist": "LiSA",
     "tags": ["anime", "j-pop"],
     "durationSec": 252
-  },
-  {
-    "title": "Rolling Star",
-    "artist": "YUI",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 190
   },
   {
     "title": "Rolling star",
@@ -1987,12 +1975,6 @@
   },
   {
     "title": "YUME日和",
-    "artist": "島谷 ひとみ",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 244
-  },
-  {
-    "title": "YUME日和",
     "artist": "島谷ひとみ",
     "tags": ["anime", "j-pop"],
     "durationSec": 244
@@ -2184,12 +2166,6 @@
     "durationSec": 282
   },
   {
-    "title": "kiss",
-    "artist": "みきーの(みきとP×keeno)",
-    "tags": ["vocaloid", "ballad"],
-    "durationSec": 282
-  },
-  {
     "title": "letter song",
     "artist": "doriko",
     "tags": ["vocaloid", "ballad"],
@@ -2308,18 +2284,6 @@
     "artist": "髏々宮カルタ (花澤香菜)",
     "tags": ["anime", "j-pop"],
     "durationSec": 240
-  },
-  {
-    "title": "this game",
-    "artist": "鈴木このみ",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 284
-  },
-  {
-    "title": "traumerei",
-    "artist": "LiSA",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 255
   },
   {
     "title": "truth",
@@ -3571,12 +3535,6 @@
   },
   {
     "title": "カブトムシ",
-    "artist": "Aiko",
-    "tags": ["j-pop", "ballad"],
-    "durationSec": 313
-  },
-  {
-    "title": "カブトムシ",
     "artist": "aiko",
     "tags": ["j-pop", "ballad"],
     "durationSec": 313
@@ -4106,12 +4064,6 @@
   {
     "title": "スキスキ絶頂症",
     "artist": "koyori (電ポルP)",
-    "tags": ["vocaloid"],
-    "durationSec": 214
-  },
-  {
-    "title": "スキスキ絶頂症",
-    "artist": "koyori(電ポルP)",
     "tags": ["vocaloid"],
     "durationSec": 214
   },
@@ -4656,12 +4608,6 @@
     "durationSec": 215
   },
   {
-    "title": "ハレ晴レユカイ",
-    "artist": "涼宮ハルヒ(平野綾)・長門有希(茅原実里)・朝比奈みくる(後藤邑子)",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 215
-  },
-  {
     "title": "ハロ/ハワユ",
     "artist": "ナノウ",
     "tags": ["vocaloid", "ballad"],
@@ -4958,12 +4904,6 @@
   {
     "title": "ファンサ",
     "artist": "mona (夏川椎菜)",
-    "tags": ["anime", "idol", "j-pop"],
-    "durationSec": 249
-  },
-  {
-    "title": "ファンサ",
-    "artist": "mona(夏川椎菜)",
     "tags": ["anime", "idol", "j-pop"],
     "durationSec": 249
   },
@@ -5318,12 +5258,6 @@
   {
     "title": "メニメニマニマニ",
     "artist": "高宮なすの (鳴海杏子)",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 269
-  },
-  {
-    "title": "メニメニマニマニ",
-    "artist": "高宮なすの(鳴海杏子)",
     "tags": ["anime", "j-pop"],
     "durationSec": 269
   },
@@ -8618,12 +8552,6 @@
   {
     "title": "裏切りの夕焼け",
     "artist": "THEATRE BROOK",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 209
-  },
-  {
-    "title": "裏切りの夕焼け",
-    "artist": "Theatre Brook",
     "tags": ["anime", "j-pop"],
     "durationSec": 209
   },

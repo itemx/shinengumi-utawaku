@@ -242,11 +242,41 @@
       "「ねぇ。」",
       "ねぇ。",
       "ねぇ"
+    ],
+    "träumerei": [
+      "träumerei",
+      "traumerei",
+      "Träumerei",
+      "Traumerei"
+    ],
+    "PON PON PON": [
+      "PON PON PON",
+      "PONPONPON",
+      "ponponpon"
+    ],
+    "Rolling star": [
+      "Rolling star",
+      "Rolling Star",
+      "rolling star"
+    ],
+    "This game": [
+      "This game",
+      "this game",
+      "THIS GAME"
     ]
   },
   "artists": {
-    "MI8k": ["MI8k", "MI8k (ナポリP)", "MI8k(ナポリP)"],
-    "鄧麗君 (テレサ・テン)": ["鄧麗君 (テレサ・テン)", "テレサ・テン", "鄧麗君", "鄧麗君(テレサ・テン)"],
+    "MI8k": [
+      "MI8k",
+      "MI8k (ナポリP)",
+      "MI8k(ナポリP)"
+    ],
+    "鄧麗君 (テレサ・テン)": [
+      "鄧麗君 (テレサ・テン)",
+      "テレサ・テン",
+      "鄧麗君",
+      "鄧麗君(テレサ・テン)"
+    ],
     "平野綾": [
       "平野綾",
       "涼宮ハルヒ(平野綾)",
@@ -347,47 +377,178 @@
       "ヒメヒナ",
       "幽世55番街"
     ],
-    "キズナアイ": ["キズナアイ", "Kizuna AI"],
-    "YUI": ["YUI", "yui"],
-    "SILENT SIREN": ["SILENT SIREN", "Silent Siren"],
-    "fhána": ["fhána", "fhana"],
-    "FLiP": ["FLiP", "FLip"],
-    "じん": ["じん", "じん (自然の敵P)", "じん(自然の敵P)"],
-    "n-buna": ["n-buna", "ナブナ"],
-    "Reol": ["Reol", "れをる", "Reol (れをる)", "Reol(れをる)", "Reol (れをる)・Reol"],
-    "sasakure.UK": ["sasakure.UK", "sasakure. UK"],
-    "koyori (電ポルP)": ["koyori (電ポルP)", "電ポルP"],
-    "ナノウ": ["ナノウ", "ナノウ (ほえほえP)"],
-    "Heavenz": ["Heavenz", "ヘブンズP"],
-    "猫虫P": ["猫虫P", "猫虫"],
-    "松任谷由実": ["松任谷由実", "荒井由実"],
-    "CHiCO with HoneyWorks": ["CHiCO with HoneyWorks"],
-    "HoneyWorks": ["HoneyWorks", "Honeyworks", "honeyworks", "shito・Gom", "shito・Gom (HoneyWorks)"],
-    "月見ヤチヨ": ["月見ヤチヨ", "月見ヤチヨ(cv.早見沙織)", "月見ヤチヨ (CV: 早見沙織)", "Aqu3ra 月見ヤチヨ (CV: 早見沙織)"],
-    "月村手毬": ["月村手毬", "月村手毬 (小鹿なお)"],
-    "DAOKO × 米津玄師": ["DAOKO × 米津玄師", "DAOKO×米津玄師"],
-    "Giga, Mitchie M": ["Giga, Mitchie M", "Giga,Mitchie M"],
-    "かいりきベア, まふまふ": ["かいりきベア, まふまふ", "かいりきベア,まふまふ", "かいりきベア・まふまふ"],
-    "DECO*27, Rockwell": ["DECO*27, Rockwell", "DECO*27,Rockwell"],
-    "DECO*27, Giga": ["DECO*27, Giga", "DECO*27,Giga"],
-    "MAISONdes": ["MAISONdes", "MAISONdes feat. 花譜,ツミキ"],
-    "米津玄師": ["米津玄師", "米津玄師 Kenshi Yonezu", "ハチ"],
-    "阿肆": ["阿肆", "阿肆 A Si"],
-    "卜學亮": ["卜學亮", "卜學亮 (阿亮)"],
-    "Embellir Gift": ["Embellir Gift", "EmbellirGift (苓吃エムリィ/間取かける/涼風しとら)", "EmbellirGift"],
-    "Choisauce (獅子志司)": ["Choisauce (獅子志司)", "Shishi Shishi"],
-    "千綿偉功": ["千綿偉功", "千綿ヒデノリ"],
-    "After the Rain": ["After the Rain", "After the Rain (そらる×まふまふ)"],
-    "マリア×風鳴翼": ["マリア×風鳴翼", "マリア×風鳴翼 (日笠陽子×水樹奈々)"],
-    "後ろから這いより隊G": ["後ろから這いより隊G", "後ろから這いより隊G (ニャル子,クー子,珠緒)"],
-    "ランカ・リー": ["ランカ・リー", "ランカ・リー=中島愛"],
-    "Girls Dead Monster": ["Girls Dead Monster", "Girls Dead Monster (LiSA)", "Girls Dead Monster STARRING LiSA"],
+    "キズナアイ": [
+      "キズナアイ",
+      "Kizuna AI"
+    ],
+    "YUI": [
+      "YUI",
+      "yui"
+    ],
+    "SILENT SIREN": [
+      "SILENT SIREN",
+      "Silent Siren"
+    ],
+    "fhána": [
+      "fhána",
+      "fhana"
+    ],
+    "FLiP": [
+      "FLiP",
+      "FLip"
+    ],
+    "じん": [
+      "じん",
+      "じん (自然の敵P)",
+      "じん(自然の敵P)"
+    ],
+    "n-buna": [
+      "n-buna",
+      "ナブナ"
+    ],
+    "Reol": [
+      "Reol",
+      "れをる",
+      "Reol (れをる)",
+      "Reol(れをる)",
+      "Reol (れをる)・Reol"
+    ],
+    "sasakure.UK": [
+      "sasakure.UK",
+      "sasakure. UK"
+    ],
+    "koyori (電ポルP)": [
+      "koyori (電ポルP)",
+      "電ポルP"
+    ],
+    "ナノウ": [
+      "ナノウ",
+      "ナノウ (ほえほえP)"
+    ],
+    "Heavenz": [
+      "Heavenz",
+      "ヘブンズP"
+    ],
+    "猫虫P": [
+      "猫虫P",
+      "猫虫"
+    ],
+    "松任谷由実": [
+      "松任谷由実",
+      "荒井由実"
+    ],
+    "CHiCO with HoneyWorks": [
+      "CHiCO with HoneyWorks"
+    ],
+    "HoneyWorks": [
+      "HoneyWorks",
+      "Honeyworks",
+      "honeyworks",
+      "shito・Gom",
+      "shito・Gom (HoneyWorks)"
+    ],
+    "月見ヤチヨ": [
+      "月見ヤチヨ",
+      "月見ヤチヨ(cv.早見沙織)",
+      "月見ヤチヨ (CV: 早見沙織)",
+      "Aqu3ra 月見ヤチヨ (CV: 早見沙織)"
+    ],
+    "月村手毬": [
+      "月村手毬",
+      "月村手毬 (小鹿なお)"
+    ],
+    "DAOKO × 米津玄師": [
+      "DAOKO × 米津玄師",
+      "DAOKO×米津玄師"
+    ],
+    "Giga, Mitchie M": [
+      "Giga, Mitchie M",
+      "Giga,Mitchie M"
+    ],
+    "かいりきベア, まふまふ": [
+      "かいりきベア, まふまふ",
+      "かいりきベア,まふまふ",
+      "かいりきベア・まふまふ"
+    ],
+    "DECO*27, Rockwell": [
+      "DECO*27, Rockwell",
+      "DECO*27,Rockwell"
+    ],
+    "DECO*27, Giga": [
+      "DECO*27, Giga",
+      "DECO*27,Giga"
+    ],
+    "MAISONdes": [
+      "MAISONdes",
+      "MAISONdes feat. 花譜,ツミキ"
+    ],
+    "米津玄師": [
+      "米津玄師",
+      "米津玄師 Kenshi Yonezu",
+      "ハチ"
+    ],
+    "阿肆": [
+      "阿肆",
+      "阿肆 A Si"
+    ],
+    "卜學亮": [
+      "卜學亮",
+      "卜學亮 (阿亮)"
+    ],
+    "Embellir Gift": [
+      "Embellir Gift",
+      "EmbellirGift (苓吃エムリィ/間取かける/涼風しとら)",
+      "EmbellirGift"
+    ],
+    "Choisauce (獅子志司)": [
+      "Choisauce (獅子志司)",
+      "Shishi Shishi"
+    ],
+    "千綿偉功": [
+      "千綿偉功",
+      "千綿ヒデノリ"
+    ],
+    "After the Rain": [
+      "After the Rain",
+      "After the Rain (そらる×まふまふ)"
+    ],
+    "マリア×風鳴翼": [
+      "マリア×風鳴翼",
+      "マリア×風鳴翼 (日笠陽子×水樹奈々)"
+    ],
+    "後ろから這いより隊G": [
+      "後ろから這いより隊G",
+      "後ろから這いより隊G (ニャル子,クー子,珠緒)"
+    ],
+    "ランカ・リー": [
+      "ランカ・リー",
+      "ランカ・リー=中島愛"
+    ],
+    "Girls Dead Monster": [
+      "Girls Dead Monster",
+      "Girls Dead Monster (LiSA)",
+      "Girls Dead Monster STARRING LiSA"
+    ],
     "涼風しとら": [
       "涼風しとら",
       "Suzukaze Shitora",
       "suzukaze shitora",
       "しとら",
       "Shitora ch. 涼風しとら"
+    ],
+    "aiko": [
+      "aiko",
+      "Aiko",
+      "AIKO"
+    ],
+    "THEATRE BROOK": [
+      "THEATRE BROOK",
+      "Theatre Brook",
+      "theatre brook"
+    ],
+    "島谷ひとみ": [
+      "島谷ひとみ",
+      "島谷 ひとみ"
     ]
   }
 }
