@@ -104,8 +104,9 @@ const msgs = Object.fromEntries(
       <p id="autofill-msg" class="hidden text-[11px] text-primary mt-1 mb-1" role="alert"></p>
       <div class="mb-2"></div>
 
-      <!-- 排序控制 -->
-      <div class="flex flex-wrap items-center gap-2 mb-2 text-xs">
+      <!-- 排序控制 — 暫時隱藏（保留元素，維持預設值：手動順序、不分組）。
+           要重新啟用只需移除下面的 hidden。 -->
+      <div class="hidden flex-wrap items-center gap-2 mb-2 text-xs">
         <label class="flex items-center gap-1 cursor-pointer text-text-muted">
           <input type="checkbox" id="group-artist" />
           <span data-i18n="plan.group_artist">同歌手集中</span>
