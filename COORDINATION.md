@@ -6,7 +6,7 @@
 
 | 區域 | 負責 | 備註 |
 |---|---|---|
-| `data/song_meta.json` | **Codex** | 只補 `tags` / `durationSec`，見下方規則 |
+| `data/song_meta.json` | 共用（少量 Claude／大量 Codex） | 只改 `tags` / `durationSec`，見下方規則 |
 | `data/aliases.json` | Claude | 正規化別名，迭代中 |
 | `scripts/lib/normalizer.py`, `comment_parser.py`, `title_parser.py` | Claude | 解析/正規化邏輯 |
 | `scripts/scan_new.py`, `ingest_issue.py`, `lib/review_issue.py`, `build_*.py` | Claude | 掃描/投稿/審核/建置 |
@@ -26,7 +26,7 @@
 python scripts/build_stats.py && python scripts/build_known_songs.py
 ```
 
-## Codex 的 song_meta.json 規則
+## song_meta.json 規則
 
 `data/song_meta.json` 是陣列，每首歌一項：
 
@@ -41,7 +41,18 @@ python scripts/build_stats.py && python scripts/build_known_songs.py
 - `durationSec`：原曲正式錄音室標準版的整數秒數（30–3600）；不採現場、翻唱、short 或混音版。查不到或無法可靠確認時填 `null`。
 - 詳見 [data/SONG_META_GUIDE.md](data/SONG_META_GUIDE.md)。
 
-補完後 Claude 會跑驗證：
+### 誰來補（2026-08-25 起）
+
+初期的大量補完已由 Codex 完成，之後改成依規模分工：
+
+- **少量（數首～十幾首）**：Claude 直接改。新曲零星進來、或使用者當場指定某首的
+  tag／長度，都走這條，不必經 Codex。
+- **大量 batch（需要逐首查證的規模）**：交給 Codex，並沿用下方 commit message 信號流程。
+
+兩邊都適用同一組規則與 `--validate`，也都**不可改 `title` / `artist`**。
+同時只會有一邊在動這個檔案 —— 要開大量 batch 前先在 commit message 講明。
+
+補完後跑驗證：
 
 ```bash
 python scripts/build_song_meta.py --validate
@@ -165,7 +176,7 @@ Claude 查證後會直接在 `data/songs/*` 合併／改標題（若確認）、
 **「未補完」的定義**：`data/song_meta.json` 裡還沒有這筆（新曲），或
 `durationSec` 是 `null`。
 
-`tags: []` **不算未補完**。項目存在就代表 Codex 看過了，「這首沒有適合的 tag」
+`tags: []` **不算未補完**。項目存在就代表已經有人看過了，「這首沒有適合的 tag」
 也是一種結論。所以要標記「已確認不打 tag」，只要讓項目帶著空陣列存在即可。
 
 ## Agent 間自動通知（commit message 信號）

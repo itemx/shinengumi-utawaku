@@ -11,7 +11,7 @@ VTuber 歌枠曲目資料庫（Astro SSG + Python 資料管線，部署於 GitHu
 
 重點速記（細節仍以 COORDINATION.md 為準）：
 
-- `data/song_meta.json` 是 **Codex** 的；Claude 只跑 `python scripts/build_song_meta.py --validate` 驗證與提交，**不編輯內容**。
+- `data/song_meta.json` 共用：**少量補完 Claude 直接改**，**大量 batch 交 Codex**。兩邊都只碰 `tags` / `durationSec`，改完跑 `python scripts/build_song_meta.py --validate`。
 - **絕不手改**衍生檔 `data/known_songs.json`、`data/_stats.json`；改完 `data/songs/*` 後用
   `python scripts/build_stats.py && python scripts/build_known_songs.py` 重生。
 - Claude 負責：normalizer / parser、scan 與 ingest 流程、workflows、`src/pages/plan.astro`、

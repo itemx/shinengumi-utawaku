@@ -147,8 +147,9 @@ def _report(meta: dict[str, dict], new_keys: set[str]) -> str:
         + "\n".join(rows)
         + tail
         + "\n\n---\n"
-        "補完は Codex 担当（`data/song_meta.json`）。"
-        "完了したらコミットメッセージ先頭に `song_meta: COMPLETE` を入れてください。\n"
+        "`data/song_meta.json` を直接編集してください（少量なら Claude、"
+        "一括調査が要る規模なら Codex）。Codex が一括で対応した場合は"
+        "コミットメッセージに `song_meta: COMPLETE` を入れてください。\n"
         "この issue は次回スキャン時に自動更新／自動クローズされます。\n"
     )
 
