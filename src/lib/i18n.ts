@@ -74,7 +74,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "video.songs_unit": "曲",
     // Footer
     "footer.desc": "SEG-V UtaList — 深淵組成員非公式歌回曲目資料庫",
-    "footer.contact": "管理人聯絡方式",
+    "footer.contact": "聯絡管理人",
     "plan.page_title": "排歌單 | SEG-V UtaList",
     "plan.title": "排歌單",
     "plan.subtitle": "篩選、勾選想唱的歌，組成這次歌回的清單。",

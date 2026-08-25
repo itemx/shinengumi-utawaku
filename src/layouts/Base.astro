@@ -39,12 +39,6 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
           SEG-V UtaList
         </a>
         <div class="flex items-center gap-3">
-          <a href="/plan" class="flex items-center gap-1 text-sm text-white/80 hover:text-white">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-            </svg>
-            <span data-i18n="plan.title">排歌單</span>
-          </a>
           <a href="/submit" class="flex items-center gap-1 text-sm text-white/80 hover:text-white">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
@@ -63,17 +57,29 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
     <footer class="bg-purple text-white/70 text-sm">
       <div class="max-w-6xl mx-auto px-4 py-6 text-center">
         <p data-i18n="footer.desc">SEG-V UtaList — 深淵組成員非公式歌回曲目資料庫</p>
-        <a
-          href="https://x.com/mkj_yoruko"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-1.5 mt-3 text-white/70 hover:text-white transition-colors"
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true" class="w-4 h-4 fill-current">
-            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-          </svg>
-          <span data-i18n="footer.contact">管理人聯絡方式</span>
-        </a>
+        <div class="flex items-center justify-center gap-4 mt-3">
+          <a
+            href="/plan"
+            class="inline-flex items-center gap-1.5 text-white/70 hover:text-white transition-colors"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+            </svg>
+            <span data-i18n="plan.title">排歌單</span>
+          </a>
+          <span class="text-white/30">·</span>
+          <a
+            href="https://x.com/mkj_yoruko"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-1.5 text-white/70 hover:text-white transition-colors"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="w-4 h-4 fill-current">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+            <span data-i18n="footer.contact">聯絡管理人</span>
+          </a>
+        </div>
       </div>
     </footer>
 
