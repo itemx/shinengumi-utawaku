@@ -252,9 +252,12 @@ const msgs = Object.fromEntries(
             ? '<span data-act="grip" class="shrink-0 cursor-grab select-none text-text-muted/50 hover:text-primary leading-none px-0.5" title="拖曳排序">⠿</span>'
             : '<span class="shrink-0 w-3"></span>')+
           '<span class="w-5 shrink-0 text-right text-[10px] text-text-muted">'+(pos+1)+'</span>'+
-          '<span class="flex-1 leading-snug">'+esc(s.title)+
-            (s.artist?' <span class="text-text-muted text-xs">/ '+esc(s.artist)+'</span>':'')+
-            (s.dur?' <span class="text-[10px] text-text-muted">('+fmtMS(s.dur)+')</span>':'')+
+          // 兩行顯示：曲名 (時間) / 換行 / 歌手 — 面板較窄，單行會被擠壓
+          '<span class="flex-1 min-w-0 leading-snug">'+
+            '<span class="block truncate">'+esc(s.title)+
+              (s.dur?' <span class="text-[10px] text-text-muted font-normal">('+fmtMS(s.dur)+')</span>':'')+
+            '</span>'+
+            (s.artist?'<span class="block truncate text-xs text-text-muted">'+esc(s.artist)+'</span>':'')+
           '</span>'+
           '<button data-act="up" class="px-1 py-0.5 text-text-muted hover:text-primary text-xs disabled:opacity-25" title="上移">▲</button>'+
           '<button data-act="down" class="px-1 py-0.5 text-text-muted hover:text-primary text-xs disabled:opacity-25" title="下移">▼</button>'+
