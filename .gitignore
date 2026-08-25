@@ -37,3 +37,6 @@ logs/
 task_plan.md
 findings.md
 progress.md
+
+# ローカル確認用の生成物（発布しない）
+local/

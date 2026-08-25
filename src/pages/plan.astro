@@ -43,6 +43,12 @@ const msgs = Object.fromEntries(
     <p class="text-text-muted text-sm" data-i18n="plan.subtitle">
       篩選、勾選想唱的歌，組成這次歌回的清單。
     </p>
+    <a href="/guide" class="inline-flex items-center gap-1 mt-2 text-sm text-primary hover:text-primary-dark underline">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      <span data-i18n="plan.guide">使用方法</span>
+    </a>
     {metaFilled === 0 && (
       <p class="text-xs mt-2 text-gold" data-i18n="plan.no_meta">
         ⚠ 尚未補完曲目分類/長度，tag 篩選與時間估算暫不可用。

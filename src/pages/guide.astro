@@ -1,0 +1,284 @@
+---
+import Base from "../layouts/Base.astro";
+
+/**
+ * セトリ作成ツールの使い方ガイド（日本語）。
+ * 内容の元原稿は docs/SETLIST_GUIDE_ja.md。
+ * スクリーンショットは scripts/guide/capture.mjs で再生成できる。
+ */
+const shots = {
+  overview: "/guide/01-overview.png",
+  channel: "/guide/02-channel.png",
+  tags: "/guide/03-tags.png",
+  search: "/guide/04-search.png",
+  selected: "/guide/05-selected.png",
+  autofill: "/guide/06-autofill.png",
+  exportShot: "/guide/07-export.png",
+  entry: "/guide/08-entry.png",
+};
+---
+
+<Base title="セトリ作成ツール 使い方" description="歌枠のセトリを組むためのツールの使い方ガイド">
+  <article class="guide max-w-3xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold text-primary mb-2">セトリ作成ツール 使い方ガイド</h1>
+      <p class="text-text-muted">
+        歌枠の前に「今日なに歌おう？」を決めるためのツールです。
+        <strong>SEG-V UtaList</strong> に登録されている曲の中から、条件で絞り込んで選ぶだけで
+        セトリの下書きが作れます。
+      </p>
+    </header>
+
+    <div class="note">
+      <p class="font-bold mb-1">選べる曲数は日々増減します</p>
+      <p>
+        新しい歌枠のセトリが登録されれば曲が<strong>増え</strong>、同じ曲が別表記で重複登録されていたと
+        判明した場合は<strong>まとめられて減る</strong>こともあります。
+      </p>
+    </div>
+
+    <h2>はじめに知っておいてほしいこと</h2>
+
+    <table>
+      <tbody>
+        <tr><th>入口</th><td>サイト<strong>一番下（フッター）</strong>の「<strong>セトリ作成</strong>」から</td></tr>
+        <tr><th>データの扱い</th><td>すべて<strong>お使いのブラウザ内だけ</strong>で処理されます。サーバーには何も送られません</td></tr>
+        <tr><th>保存</th><td><strong>過去のセトリは保存されません</strong>。ページを閉じると消えます</td></tr>
+        <tr><th>端末</th><td><strong>スマホでもPCでも</strong>使えます。移動中にスマホで組んでも OK</td></tr>
+        <tr><th>成果物</th><td>最後に<strong>コピーできるプレーンテキスト</strong>のリストが出ます</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warn">
+      保存されないので、作ったリストは<strong>必ず最後にコピーして</strong>
+      配信メモや概要欄の下書きなどに貼り付けてください。
+    </div>
+
+    <h2>入口</h2>
+    <p>サイトのどのページでも、一番下までスクロールすると「セトリ作成」があります。</p>
+    <figure><img src={shots.entry} alt="フッターのセトリ作成リンク" /></figure>
+
+    <h2>画面の見かた</h2>
+    <p>
+      画面は左右2つに分かれています。<strong>左</strong>で曲を探してクリックで選び、
+      <strong>右</strong>で順番を整えて書き出します（スマホでは上下に並びます）。
+    </p>
+    <figure><img src={shots.overview} alt="セトリ作成画面の全体" /></figure>
+
+    <h2>使いかた 6パターン</h2>
+
+    <h3><span class="num">1</span>自分のチャンネルの曲だけから選ぶ</h3>
+    <p>
+      他のメンバーが歌った曲も全部入っているので、まず自分の持ち歌だけに絞ります。
+      左上の「<strong>全チャンネル</strong>」から<strong>自分のチャンネル</strong>を選ぶと、
+      自分が歌ったことのある曲だけになります。
+    </p>
+    <figure><img src={shots.channel} alt="チャンネルで絞り込み" /></figure>
+    <p class="tip">
+      以降のすべてのパターンと組み合わせられます。「まずチャンネルを選ぶ」を基本にすると迷いません。
+    </p>
+
+    <h3><span class="num">2</span>とりあえず全部おまかせ（完全ランダム）</h3>
+    <ol>
+      <li>右の「<strong>目標</strong>」に歌枠の長さを入力（例：<code>60</code> 分）</li>
+      <li>「<strong>指定時間まで補充</strong>」を押す</li>
+    </ol>
+    <p>
+      その時間ぶん、ランダムに曲が入ります。気に入らなければ「<strong>引き直す</strong>」で
+      中身を全部入れ替えて引き直せます。好きな並びが出るまで何度でもどうぞ。
+    </p>
+    <div class="note">
+      <p class="font-bold mb-1">2つのボタンのちがい</p>
+      <ul>
+        <li><strong>指定時間まで補充</strong>＝今選んでいる曲は<strong>そのまま残して</strong>、足りないぶんを足す</li>
+        <li><strong>引き直す</strong>＝いったん<strong>全部消して</strong>、まるごと新しく引き直す</li>
+      </ul>
+    </div>
+
+    <h3><span class="num">3</span>「〇〇縛り」にする（アーティストで絞る）</h3>
+    <p>例：<strong>ヨルシカ縛り</strong>の歌枠にしたいとき。</p>
+    <ol>
+      <li>検索ボックスに <code>ヨルシカ</code> と入力</li>
+      <li>リストがヨルシカの曲だけになる</li>
+      <li>そのままクリックで選ぶ／またはパターン2で自動的に詰める</li>
+    </ol>
+    <figure><img src={shots.search} alt="アーティスト名で検索して絞り込み" /></figure>
+    <p class="tip">
+      検索は<strong>曲名でもアーティスト名でも</strong>引っかかります。
+      ひらがな・カタカナはどちらで打っても大丈夫です（<code>ヨルシカ</code> でも <code>よるしか</code> でも OK）。
+    </p>
+
+    <h3><span class="num">4</span>「アニメ縛り」にする（ジャンルで絞る）</h3>
+    <p>タグをクリックするだけです。もう一度クリックで解除できます。</p>
+    <figure><img src={shots.tags} alt="タグで絞り込み" /></figure>
+    <p>
+      使えるタグ：<code>アニメ</code> <code>ボカロ</code> <code>ゲーム</code> <code>特撮</code>
+      <code>アイドル</code> <code>J-POP</code> <code>K-POP</code> <code>洋楽</code>
+      <code>東方</code> <code>同人</code> <code>オリジナル</code> <code>バラード</code>
+    </p>
+    <p class="tip">
+      <strong>複数選ぶと「どれか1つでも当てはまる曲」</strong>が出ます。
+      例：<code>アニメ</code>＋<code>ボカロ</code> → アニメ<strong>または</strong>ボカロの曲。
+    </p>
+
+    <h3><span class="num">5</span>順番を整える</h3>
+    <p>選択中リストの中で、歌う順番を自由に入れ替えられます。</p>
+    <ul>
+      <li><strong>ドラッグ</strong>：行の左にある「<strong>⠿</strong>」をつかんで上下に動かす</li>
+      <li><strong>ボタン</strong>：右側の「<strong>▲</strong>」「<strong>▼</strong>」で1つずつ移動</li>
+      <li><strong>削除</strong>：「<strong>✕</strong>」でその曲だけ外す</li>
+      <li><strong>全部消す</strong>：右上の「<strong>クリア</strong>」</li>
+    </ul>
+    <figure><img src={shots.selected} alt="選択中リストの並べ替え" /></figure>
+    <p class="tip">
+      盛り上げ曲を最後に持ってくる、バラードを中盤にまとめる、など
+      実際の流れをイメージしながら並べ替えてください。
+    </p>
+
+    <h3><span class="num">6</span>時間を決めて自動で組む（1・3・4と組み合わせ）</h3>
+    <p>このツールの本命です。<strong>絞り込みと自動生成は組み合わせて使えます。</strong></p>
+    <p>例：<strong>「アニメ縛りで、自分の持ち歌から、90分ぶん」</strong></p>
+    <ol>
+      <li>チャンネル → <strong>自分のチャンネル</strong></li>
+      <li>タグ → <strong>アニメ</strong> をクリック</li>
+      <li>目標 → <code>90</code> 分</li>
+      <li>「<strong>指定時間まで補充</strong>」</li>
+    </ol>
+    <figure><img src={shots.autofill} alt="時間を指定して自動編成" /></figure>
+    <p class="tip">
+      <strong>「この曲は絶対歌いたい」がある場合</strong>は、先にその曲を選んでから
+      「指定時間まで補充」を押してください。選んだ曲は<strong>残したまま</strong>、残り時間ぶんが足されます。
+    </p>
+    <div class="warn">
+      表示される時間は<strong>原曲の長さの合計</strong>です。MC・雑談・曲間は含まれないので、
+      実際の配信はこれより長くなります。少なめに見積もっておくと安心です。
+    </div>
+
+    <h2>書き出し</h2>
+    <ol>
+      <li>「<strong>リストを作成</strong>」を押す</li>
+      <li>テキストが表示されるので「<strong>リストをコピー</strong>」</li>
+    </ol>
+    <figure><img src={shots.exportShot} alt="リストの書き出し" /></figure>
+    <pre>花に亡霊 / ヨルシカ
+ただ君に晴れ / ヨルシカ
+晴る / ヨルシカ</pre>
+    <p>そのまま配信メモ、概要欄、コメント欄などに貼り付けてお使いください。</p>
+    <p class="tip"><strong>並べ替えた順番のまま</strong>書き出されます。順番を整えてからコピーしてください。</p>
+
+    <h2>よくある質問</h2>
+
+    <dl>
+      <dt>作ったセトリは残りますか？</dt>
+      <dd>残りません。ページを閉じると消えます。<strong>必ずコピーして</strong>保存してください。</dd>
+
+      <dt>スマホでも使えますか？</dt>
+      <dd>使えます。ドラッグでの並べ替えもできますが、細かい操作は「▲▼」ボタンのほうが確実です。</dd>
+
+      <dt>新しく歌った曲はいつ入りますか？</dt>
+      <dd>その歌枠のセトリが登録されると、<strong>自動的にこのリストにも追加</strong>されます。次に開いたときから選べます。</dd>
+
+      <dt>前より曲数が減っている気がします</dt>
+      <dd>
+        同じ曲が<strong>別の表記で重複登録</strong>されていたと分かった場合、1曲にまとめているためです
+        （例：<code>traumerei</code> と <code>träumerei</code>、英語表記と日本語表記など）。
+        曲そのものが消えたわけではありません。
+      </dd>
+
+      <dt>曲が見つかりません／曲名やアーティストが違う気がします</dt>
+      <dd>データの誤りかもしれません。下記からご連絡ください。</dd>
+    </dl>
+
+    <h2>お問い合わせ</h2>
+    <p>
+      <strong>「ここが使いにくい」「こうなってると嬉しい」「データが間違っている」</strong>
+      ——どんなことでも構いませんので、お気軽にご連絡ください。改善のヒントになります。
+    </p>
+    <p>サイト下部の「<strong>管理人への連絡</strong>」から <strong>X（旧Twitter）</strong> に飛べます。連絡方法はどちらでも構いません：</p>
+    <ul>
+      <li><strong>DM</strong> … 直接送っていただければ確実に届きます</li>
+      <li><strong>ポスト（リプライ・メンション）</strong> … 気軽にひとことでも大歓迎です</li>
+    </ul>
+    <p class="text-text-muted text-sm">急ぎでなければ気づいたときにお返事します。</p>
+
+    <p class="mt-8 text-center">
+      <a href="/plan" class="inline-flex items-center gap-2 px-6 py-3 rounded-full text-white bg-primary hover:bg-primary-dark">
+        セトリ作成をひらく
+      </a>
+    </p>
+  </article>
+</Base>
+
+<style is:global>
+  .guide h2 {
+    font-size: 1.4rem; font-weight: 700; color: #5e2a89;
+    margin: 2.5rem 0 0.9rem; padding-bottom: 0.35rem;
+    border-bottom: 2px solid rgba(94, 42, 137, 0.15);
+  }
+  .guide h3 {
+    font-size: 1.1rem; font-weight: 700; margin: 2rem 0 0.6rem;
+    display: flex; align-items: center; gap: 0.55rem;
+  }
+  .guide h3 .num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 1.7rem; height: 1.7rem; border-radius: 9999px;
+    background: linear-gradient(135deg, #5e2a89, #e40079);
+    color: #fff; font-size: 0.85rem; flex-shrink: 0;
+  }
+  .guide p { margin: 0.6rem 0; line-height: 1.85; }
+  .guide ul, .guide ol { margin: 0.6rem 0 0.6rem 1.4rem; line-height: 1.9; }
+  .guide ul { list-style: disc; }
+  .guide ol { list-style: decimal; }
+  .guide code {
+    background: #f3f0f7; padding: 0.1em 0.4em; border-radius: 4px;
+    font-size: 0.9em; white-space: nowrap;
+  }
+  .guide pre {
+    background: #faf8fc; border: 1px solid #eee; border-radius: 6px;
+    padding: 0.9rem 1rem; margin: 0.8rem 0; font-size: 0.9rem;
+    line-height: 1.7; overflow-x: auto;
+  }
+  .guide table { width: 100%; border-collapse: collapse; margin: 0.8rem 0; }
+  .guide th, .guide td {
+    border: 1px solid #eee; padding: 0.55rem 0.8rem;
+    text-align: left; vertical-align: top; line-height: 1.7;
+  }
+  .guide th { background: #faf8fc; white-space: nowrap; width: 8.5rem; }
+  .guide figure {
+    margin: 1rem 0 1.4rem; border: 1px solid #e7e2ee; border-radius: 8px;
+    overflow: hidden; background: #fff;
+    box-shadow: 0 2px 8px rgba(94, 42, 137, 0.07);
+  }
+  .guide figure img { display: block; width: 100%; height: auto; }
+  .guide .tip {
+    background: #faf8fc; border-left: 3px solid #e9507a;
+    padding: 0.7rem 1rem; margin: 0.8rem 0; font-size: 0.92rem; line-height: 1.8;
+  }
+  .guide .note, .guide .warn {
+    border-radius: 6px; padding: 0.9rem 1.1rem; margin: 1.1rem 0;
+    font-size: 0.93rem; line-height: 1.8;
+  }
+  .guide .note { background: #f5f1fa; border: 1px solid #ddd2ec; }
+  .guide .warn { background: #fff7fb; border: 1px solid #f3cfe0; }
+  .guide .note ul { margin-bottom: 0; }
+  .guide dl { margin: 0.8rem 0; }
+  .guide dt {
+    font-weight: 700; margin-top: 1.1rem; color: #313131;
+  }
+  .guide dt::before { content: "Q. "; color: #e40079; }
+  .guide dd { margin: 0.3rem 0 0 1.6rem; line-height: 1.85; }
+  .guide dd::before { content: "A. "; color: #5e2a89; font-weight: 700; }
+
+  /* PDF / 印刷時 */
+  @media print {
+    header, footer, #player-bar { display: none !important; }
+    .guide { max-width: 100%; font-size: 10.5pt; }
+    .guide h2, .guide h3 { break-after: avoid; }
+    .guide figure, .guide table, .guide pre { break-inside: avoid; }
+    /* 圖片限高，避免單張圖佔滿整頁、頁數與檔案暴增 */
+    .guide figure img { max-height: 8.5cm; width: auto; margin: 0 auto; }
+    .guide figure { text-align: center; box-shadow: none; }
+    /* PDF 裡按鈕連結沒有意義 */
+    .guide a[href="/plan"] { display: none !important; }
+  }
+</style>
