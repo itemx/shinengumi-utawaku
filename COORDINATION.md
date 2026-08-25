@@ -153,6 +153,21 @@ Claude 查證後會直接在 `data/songs/*` 合併／改標題（若確認）、
 
 「哪個當標準標題」依「第一種標記」原則：以曲庫中既有慣例／較常出現的寫法為準，不硬性規定语言順序。
 
+## 新曲的 song_meta 未補完通知（GitHub issue）
+
+3 天一次的 `scan.yml` 抓進新曲後，會跑
+`python scripts/build_song_meta.py --report`，並維護**一張**標題為
+`song_meta 未補完` 的 issue：
+
+- 有缺 → 建立，或更新既有那張（**不會**每首歌開一張）。
+- 全補完 → 自動關閉。
+
+**「未補完」的定義**：`data/song_meta.json` 裡還沒有這筆（新曲），或
+`durationSec` 是 `null`。
+
+`tags: []` **不算未補完**。項目存在就代表 Codex 看過了，「這首沒有適合的 tag」
+也是一種結論。所以要標記「已確認不打 tag」，只要讓項目帶著空陣列存在即可。
+
 ## Agent 間自動通知（commit message 信號）
 
 用 **commit message 當事件總線**，取代人工轉告。git 是兩邊唯一共用的即時通道。
