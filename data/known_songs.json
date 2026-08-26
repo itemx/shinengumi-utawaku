@@ -49,12 +49,17 @@
       "count": 21
     },
     {
+      "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
+      "count": 21
+    },
+    {
       "title": "Calc.",
       "artist": "ジミーサムP",
       "count": 20
     },
     {
-      "title": "ただ君に晴れ",
+      "title": "アポリア",
       "artist": "ヨルシカ",
       "count": 20
     },
@@ -69,13 +74,13 @@
       "count": 19
     },
     {
-      "title": "Across the world !!",
-      "artist": "深淵組",
+      "title": "変わらないもの",
+      "artist": "奥華子",
       "count": 19
     },
     {
-      "title": "アポリア",
-      "artist": "ヨルシカ",
+      "title": "Across the world !!",
+      "artist": "深淵組",
       "count": 19
     },
     {
@@ -96,11 +101,6 @@
     {
       "title": "Stellar Stellar",
       "artist": "星街すいせい",
-      "count": 18
-    },
-    {
-      "title": "変わらないもの",
-      "artist": "奥華子",
       "count": 18
     },
     {
@@ -149,6 +149,11 @@
       "count": 17
     },
     {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
+      "count": 17
+    },
+    {
       "title": "Butter-Fly",
       "artist": "和田光司",
       "count": 16
@@ -164,6 +169,11 @@
       "count": 16
     },
     {
+      "title": "ウィアートル",
+      "artist": "rionos",
+      "count": 16
+    },
+    {
       "title": "残酷な天使のテーゼ",
       "artist": "高橋洋子",
       "count": 16
@@ -176,11 +186,6 @@
     {
       "title": "月のワルツ",
       "artist": "諫山実生",
-      "count": 16
-    },
-    {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
       "count": 16
     },
     {
@@ -201,11 +206,6 @@
     {
       "title": "IRIS OUT",
       "artist": "米津玄師",
-      "count": 15
-    },
-    {
-      "title": "ウィアートル",
-      "artist": "rionos",
       "count": 15
     },
     {
@@ -339,8 +339,23 @@
       "count": 13
     },
     {
+      "title": "夜に駆ける",
+      "artist": "YOASOBI",
+      "count": 13
+    },
+    {
       "title": "ヒバナ",
       "artist": "DECO*27",
+      "count": 13
+    },
+    {
+      "title": "花の塔",
+      "artist": "さユり",
+      "count": 13
+    },
+    {
+      "title": "心拍数♯0822",
+      "artist": "蝶々P",
       "count": 13
     },
     {
@@ -416,21 +431,6 @@
     {
       "title": "I beg you",
       "artist": "Aimer",
-      "count": 12
-    },
-    {
-      "title": "夜に駆ける",
-      "artist": "YOASOBI",
-      "count": 12
-    },
-    {
-      "title": "花の塔",
-      "artist": "さユり",
-      "count": 12
-    },
-    {
-      "title": "心拍数♯0822",
-      "artist": "蝶々P",
       "count": 12
     },
     {
@@ -524,8 +524,18 @@
       "count": 11
     },
     {
+      "title": "この世界で見つけたもの",
+      "artist": "EGOIST",
+      "count": 11
+    },
+    {
       "title": "あいのけもの",
       "artist": "古川本舗",
+      "count": 11
+    },
+    {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
       "count": 11
     },
     {
@@ -594,6 +604,11 @@
       "count": 10
     },
     {
+      "title": "鏡面の波",
+      "artist": "YURiKA",
+      "count": 10
+    },
+    {
       "title": "地球最後の告白を",
       "artist": "kemu",
       "count": 10
@@ -644,18 +659,13 @@
       "count": 10
     },
     {
-      "title": "この世界で見つけたもの",
-      "artist": "EGOIST",
-      "count": 10
-    },
-    {
       "title": "六兆年と一夜物語",
       "artist": "kemu",
       "count": 10
     },
     {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
       "count": 10
     },
     {
@@ -716,11 +726,6 @@
     {
       "title": "CHE.R.RY",
       "artist": "YUI",
-      "count": 9
-    },
-    {
-      "title": "鏡面の波",
-      "artist": "YURiKA",
       "count": 9
     },
     {
@@ -796,11 +801,6 @@
     {
       "title": "Don't say \"lazy\"",
       "artist": "放課後ティータイム",
-      "count": 9
-    },
-    {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
       "count": 9
     },
     {
@@ -934,6 +934,16 @@
       "count": 8
     },
     {
+      "title": "フクロウ ~フクロウが知らせる客が来たと~",
+      "artist": "KOKIA",
+      "count": 8
+    },
+    {
+      "title": "ワールド・ランプシェード",
+      "artist": "buzzG",
+      "count": 8
+    },
+    {
       "title": "Pray",
       "artist": "水樹奈々",
       "count": 8
@@ -1016,6 +1026,11 @@
     {
       "title": "メリッサ",
       "artist": "ポルノグラフィティ",
+      "count": 8
+    },
+    {
+      "title": "小夜子",
+      "artist": "みきとP",
       "count": 8
     },
     {
@@ -1154,16 +1169,6 @@
       "count": 7
     },
     {
-      "title": "フクロウ ~フクロウが知らせる客が来たと~",
-      "artist": "KOKIA",
-      "count": 7
-    },
-    {
-      "title": "ワールド・ランプシェード",
-      "artist": "buzzG",
-      "count": 7
-    },
-    {
       "title": "甲賀忍法帖",
       "artist": "陰陽座",
       "count": 7
@@ -1196,6 +1201,11 @@
     {
       "title": "POP IN 2",
       "artist": "B小町",
+      "count": 7
+    },
+    {
+      "title": "ダイアモンド クレバス",
+      "artist": "シェリル・ノーム starring May'n",
       "count": 7
     },
     {
@@ -1239,13 +1249,18 @@
       "count": 7
     },
     {
-      "title": "小夜子",
-      "artist": "みきとP",
+      "title": "-ERROR",
+      "artist": "niki",
       "count": 7
     },
     {
-      "title": "-ERROR",
-      "artist": "niki",
+      "title": "永遠のあくる日",
+      "artist": "Ado",
+      "count": 7
+    },
+    {
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
       "count": 7
     },
     {
@@ -1419,6 +1434,11 @@
       "count": 6
     },
     {
+      "title": "蜜月アン・ドゥ・トロワ",
+      "artist": "DATEKEN",
+      "count": 6
+    },
+    {
       "title": "ルマ",
       "artist": "かいりきベア",
       "count": 6
@@ -1469,13 +1489,13 @@
       "count": 6
     },
     {
-      "title": "ダイアモンド クレバス",
-      "artist": "シェリル・ノーム starring May'n",
+      "title": "回る空うさぎ",
+      "artist": "Orangestar",
       "count": 6
     },
     {
-      "title": "回る空うさぎ",
-      "artist": "Orangestar",
+      "title": "インタビュア",
+      "artist": "クワガタP",
       "count": 6
     },
     {
@@ -1531,16 +1551,6 @@
     {
       "title": "キミソラキセキ",
       "artist": "EGOIST",
-      "count": 6
-    },
-    {
-      "title": "永遠のあくる日",
-      "artist": "Ado",
-      "count": 6
-    },
-    {
-      "title": "花泡沫",
-      "artist": "ロクデナシ",
       "count": 6
     },
     {
@@ -1749,11 +1759,6 @@
       "count": 5
     },
     {
-      "title": "蜜月アン・ドゥ・トロワ",
-      "artist": "DATEKEN",
-      "count": 5
-    },
-    {
       "title": "ユキトキ",
       "artist": "やなぎなぎ",
       "count": 5
@@ -1819,11 +1824,6 @@
       "count": 5
     },
     {
-      "title": "インタビュア",
-      "artist": "クワガタP",
-      "count": 5
-    },
-    {
       "title": "Weight of the World / 壊レタ世界ノ歌",
       "artist": "河野万里奈",
       "count": 5
@@ -1874,13 +1874,28 @@
       "count": 5
     },
     {
+      "title": "トコハナ",
+      "artist": "やなぎなぎ",
+      "count": 5
+    },
+    {
       "title": "かくれんぼ",
       "artist": "AliA",
       "count": 5
     },
     {
+      "title": "輝く未来",
+      "artist": "畠中洋&小此木麻里",
+      "count": 5
+    },
+    {
       "title": "A Dream Is a Wish Your Heart Makes",
       "artist": "Ilene Woods",
+      "count": 5
+    },
+    {
+      "title": "雨景色",
+      "artist": "ロクデナシ",
       "count": 5
     },
     {
@@ -2336,21 +2351,6 @@
     {
       "title": "高嶺の花子さん",
       "artist": "back number",
-      "count": 4
-    },
-    {
-      "title": "トコハナ",
-      "artist": "やなぎなぎ",
-      "count": 4
-    },
-    {
-      "title": "輝く未来",
-      "artist": "畠中洋&小此木麻里",
-      "count": 4
-    },
-    {
-      "title": "雨景色",
-      "artist": "ロクデナシ",
       "count": 4
     },
     {
@@ -3859,6 +3859,11 @@
       "count": 2
     },
     {
+      "title": "letter song",
+      "artist": "doriko",
+      "count": 2
+    },
+    {
       "title": "ガランド",
       "artist": "ピコン",
       "count": 2
@@ -3874,8 +3879,18 @@
       "count": 2
     },
     {
+      "title": "櫂",
+      "artist": "ヨルシカ",
+      "count": 2
+    },
+    {
       "title": "Happiness Umbrella",
       "artist": "ロクデナシ",
+      "count": 2
+    },
+    {
+      "title": "へび",
+      "artist": "ヨルシカ",
       "count": 2
     },
     {
@@ -5284,11 +5299,6 @@
       "count": 1
     },
     {
-      "title": "letter song",
-      "artist": "doriko",
-      "count": 1
-    },
-    {
       "title": "One day",
       "artist": "THE ROOTLESS",
       "count": 1
@@ -5386,11 +5396,6 @@
     {
       "title": "a.m.3：21",
       "artist": "yama",
-      "count": 1
-    },
-    {
-      "title": "櫂",
-      "artist": "ヨルシカ",
       "count": 1
     },
     {
@@ -7376,11 +7381,6 @@
     {
       "title": "心よ原始に戻れ",
       "artist": "高橋洋子",
-      "count": 1
-    },
-    {
-      "title": "へび",
-      "artist": "ヨルシカ",
       "count": 1
     },
     {
