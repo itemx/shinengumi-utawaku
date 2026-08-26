@@ -40,7 +40,11 @@ def build():
 
     # 整理輸出格式
     songs = []
-    for key, count in song_counter.most_common():
+    # most_common() 的同票順序取決於插入順序，任何一首歌次數變動就會讓整份檔案
+    # 重排、產生數千行的無意義 diff。用 (次數降冪, 曲名, 歌手) 固定順序。
+    for key, count in sorted(
+        song_counter.items(), key=lambda kv: (-kv[1], kv[0])
+    ):
         title, artist = key.split("||", 1)
         songs.append({
             "title": title,
