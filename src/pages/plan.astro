@@ -433,7 +433,13 @@ const msgs = Object.fromEntries(
 
     document.getElementById("autofill").onclick=function(){ autofillToTarget(false); };
     document.getElementById("reroll").onclick=function(){ autofillToTarget(true); };
-    document.getElementById("out-title-only").addEventListener("change", renderSelected);
+    // 出力形式の好みは配信者ごとに固定しがちなので localStorage に覚えておく
+    var titleOnlyBox=document.getElementById("out-title-only");
+    try { titleOnlyBox.checked = localStorage.getItem("plan-title-only")==="1"; } catch(e){}
+    titleOnlyBox.addEventListener("change", function(){
+      try { localStorage.setItem("plan-title-only", titleOnlyBox.checked?"1":"0"); } catch(e){}
+      renderSelected();
+    });
     document.getElementById("copy").onclick=function(){
       var out=document.getElementById("out"); out.select(); navigator.clipboard.writeText(out.value);
       var b=document.getElementById("copy"); var o=b.textContent; b.textContent="✓"; setTimeout(function(){ b.textContent=o; },1000);
