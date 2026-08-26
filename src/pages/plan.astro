@@ -138,6 +138,10 @@ const msgs = Object.fromEntries(
         <h3 class="font-bold text-purple" data-i18n="plan.list_title">歌單</h3>
         <span id="out-summary" class="text-xs text-text-muted"></span>
       </div>
+      <label class="flex items-center gap-2 mb-2 text-xs text-text-muted cursor-pointer">
+        <input type="checkbox" id="out-title-only" class="accent-primary" />
+        <span data-i18n="plan.title_only">只顯示曲名（不含歌手）</span>
+      </label>
       <textarea id="out" readonly rows="14"
         class="w-full text-sm border border-border rounded p-2 font-mono bg-gray-50"></textarea>
       <div class="flex gap-2 mt-3">
@@ -316,8 +320,9 @@ const msgs = Object.fromEntries(
       // 清單為空時沒有東西可「重新」隨機，隱藏該鈕（autofill 會自動撐滿寬度）
       document.getElementById("reroll").classList.toggle("hidden", selected.length===0);
       document.getElementById("sel-time").textContent=fmtHM(totalSec);
+      var titleOnly=document.getElementById("out-title-only").checked;
       document.getElementById("out").value=view.map(function(i){
-        var s=pool[i]; return s.title+(s.artist?" / "+s.artist:"");
+        var s=pool[i]; return titleOnly ? s.title : s.title+(s.artist?" / "+s.artist:"");
       }).join("\n");
       document.getElementById("out-summary").textContent=
         selected.length+" "+txt("plan.songs_unit","首")+" · "+
@@ -428,6 +433,7 @@ const msgs = Object.fromEntries(
 
     document.getElementById("autofill").onclick=function(){ autofillToTarget(false); };
     document.getElementById("reroll").onclick=function(){ autofillToTarget(true); };
+    document.getElementById("out-title-only").addEventListener("change", renderSelected);
     document.getElementById("copy").onclick=function(){
       var out=document.getElementById("out"); out.select(); navigator.clipboard.writeText(out.value);
       var b=document.getElementById("copy"); var o=b.textContent; b.textContent="✓"; setTimeout(function(){ b.textContent=o; },1000);
