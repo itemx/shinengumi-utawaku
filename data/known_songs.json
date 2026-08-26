@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1489,
-  "uniqueTitles": 1461,
+  "totalEntries": 1488,
+  "uniqueTitles": 1460,
   "uniqueArtists": 662,
   "songs": [
     {
@@ -1474,6 +1474,11 @@
       "count": 6
     },
     {
+      "title": "say my nameの片想い",
+      "artist": "LiSA",
+      "count": 6
+    },
+    {
       "title": "secret base~君がくれたもの~",
       "artist": "ZONE",
       "count": 6
@@ -2896,16 +2901,6 @@
     {
       "title": "moreきゅん奴隷",
       "artist": "戦慄かなの",
-      "count": 3
-    },
-    {
-      "title": "say my nameの片思い",
-      "artist": "LiSA",
-      "count": 3
-    },
-    {
-      "title": "say my nameの片想い",
-      "artist": "LiSA",
       "count": 3
     },
     {
