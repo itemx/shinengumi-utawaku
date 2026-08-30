@@ -1,17 +1,17 @@
 {
-  "totalEntries": 1491,
-  "uniqueTitles": 1461,
+  "totalEntries": 1493,
+  "uniqueTitles": 1463,
   "uniqueArtists": 664,
   "songs": [
     {
       "title": "All Alone With You",
       "artist": "EGOIST",
-      "count": 28
+      "count": 29
     },
     {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
-      "count": 28
+      "count": 29
     },
     {
       "title": "少女レイ",
@@ -64,6 +64,11 @@
       "count": 20
     },
     {
+      "title": "夜明けと蛍",
+      "artist": "n-buna",
+      "count": 20
+    },
+    {
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 19
@@ -74,13 +79,23 @@
       "count": 19
     },
     {
-      "title": "変わらないもの",
-      "artist": "奥華子",
+      "title": "Stellar Stellar",
+      "artist": "星街すいせい",
       "count": 19
     },
     {
-      "title": "夜明けと蛍",
-      "artist": "n-buna",
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
+      "count": 19
+    },
+    {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 19
+    },
+    {
+      "title": "変わらないもの",
+      "artist": "奥華子",
       "count": 19
     },
     {
@@ -89,18 +104,8 @@
       "count": 19
     },
     {
-      "title": "Stellar Stellar",
+      "title": "ビビデバ",
       "artist": "星街すいせい",
-      "count": 18
-    },
-    {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
-      "count": 18
-    },
-    {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
       "count": 18
     },
     {
@@ -114,6 +119,11 @@
       "count": 18
     },
     {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
+      "count": 18
+    },
+    {
       "title": "アルジャーノン",
       "artist": "ヨルシカ",
       "count": 17
@@ -121,11 +131,6 @@
     {
       "title": "カラフル",
       "artist": "ClariS",
-      "count": 17
-    },
-    {
-      "title": "ビビデバ",
-      "artist": "星街すいせい",
       "count": 17
     },
     {
@@ -141,11 +146,6 @@
     {
       "title": "怪物",
       "artist": "YOASOBI",
-      "count": 17
-    },
-    {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
       "count": 17
     },
     {
@@ -189,6 +189,11 @@
       "count": 16
     },
     {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 16
+    },
+    {
       "title": "残酷な天使のテーゼ",
       "artist": "高橋洋子",
       "count": 16
@@ -224,13 +229,18 @@
       "count": 15
     },
     {
+      "title": "サリシノハラ",
+      "artist": "みきとP",
+      "count": 15
+    },
+    {
       "title": "フォニイ",
       "artist": "ツミキ",
       "count": 15
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
       "count": 15
     },
     {
@@ -264,13 +274,8 @@
       "count": 14
     },
     {
-      "title": "サリシノハラ",
-      "artist": "みきとP",
-      "count": 14
-    },
-    {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
+      "title": "トリノコシティ",
+      "artist": "40mP",
       "count": 14
     },
     {
@@ -294,6 +299,11 @@
       "count": 14
     },
     {
+      "title": "花の塔",
+      "artist": "さユり",
+      "count": 14
+    },
+    {
       "title": "Catch the Moment",
       "artist": "LiSA",
       "count": 13
@@ -309,6 +319,11 @@
       "count": 13
     },
     {
+      "title": "I beg you",
+      "artist": "Aimer",
+      "count": 13
+    },
+    {
       "title": "ぶっ飛びな!しとら流炒飯☆",
       "artist": "涼風しとら",
       "count": 13
@@ -319,8 +334,8 @@
       "count": 13
     },
     {
-      "title": "トリノコシティ",
-      "artist": "40mP",
+      "title": "シリウスの心臓",
+      "artist": "ヰ世界情緒",
       "count": 13
     },
     {
@@ -364,6 +379,11 @@
       "count": 13
     },
     {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
+      "count": 13
+    },
+    {
       "title": "春泥棒",
       "artist": "ヨルシカ",
       "count": 13
@@ -379,11 +399,6 @@
       "count": 13
     },
     {
-      "title": "花の塔",
-      "artist": "さユり",
-      "count": 13
-    },
-    {
       "title": "Brave Shine",
       "artist": "Aimer",
       "count": 12
@@ -391,11 +406,6 @@
     {
       "title": "GHOST",
       "artist": "星街すいせい",
-      "count": 12
-    },
-    {
-      "title": "I beg you",
-      "artist": "Aimer",
       "count": 12
     },
     {
@@ -411,11 +421,6 @@
     {
       "title": "crossing field",
       "artist": "LiSA",
-      "count": 12
-    },
-    {
-      "title": "シリウスの心臓",
-      "artist": "ヰ世界情緒",
       "count": 12
     },
     {
@@ -461,11 +466,6 @@
     {
       "title": "心という名の不可解",
       "artist": "Ado",
-      "count": 12
-    },
-    {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
       "count": 12
     },
     {
@@ -574,6 +574,11 @@
       "count": 11
     },
     {
+      "title": "独りんぼエンヴィー",
+      "artist": "koyori (電ポルP)",
+      "count": 11
+    },
+    {
       "title": "白銀",
       "artist": "LiSA",
       "count": 11
@@ -592,6 +597,11 @@
       "title": "青のすみか",
       "artist": "キタニタツヤ",
       "count": 11
+    },
+    {
+      "title": "Booo!",
+      "artist": "西沢さんP",
+      "count": 10
     },
     {
       "title": "Rolling star",
@@ -644,6 +654,11 @@
       "count": 10
     },
     {
+      "title": "ルミナス",
+      "artist": "ClariS",
+      "count": 10
+    },
+    {
       "title": "世界は恋に落ちている",
       "artist": "CHiCO with HoneyWorks",
       "count": 10
@@ -669,6 +684,11 @@
       "count": 10
     },
     {
+      "title": "奏(かなで)",
+      "artist": "スキマスイッチ",
+      "count": 10
+    },
+    {
       "title": "帝国少女",
       "artist": "R Sound Design",
       "count": 10
@@ -689,13 +709,13 @@
       "count": 10
     },
     {
-      "title": "熱愛105°C的你",
-      "artist": "阿肆",
+      "title": "愛が灯る",
+      "artist": "ロクデナシ",
       "count": 10
     },
     {
-      "title": "独りんぼエンヴィー",
-      "artist": "koyori (電ポルP)",
+      "title": "熱愛105°C的你",
+      "artist": "阿肆",
       "count": 10
     },
     {
@@ -729,11 +749,6 @@
       "count": 9
     },
     {
-      "title": "Booo!",
-      "artist": "西沢さんP",
-      "count": 9
-    },
-    {
       "title": "CHE.R.RY",
       "artist": "YUI",
       "count": 9
@@ -741,6 +756,11 @@
     {
       "title": "Don't say \"lazy\"",
       "artist": "放課後ティータイム",
+      "count": 9
+    },
+    {
+      "title": "EX-otogibanashi",
+      "artist": "ryo (supercell)",
       "count": 9
     },
     {
@@ -819,6 +839,11 @@
       "count": 9
     },
     {
+      "title": "バレリーコ",
+      "artist": "みきとP",
+      "count": 9
+    },
+    {
       "title": "パメラ",
       "artist": "バルーン",
       "count": 9
@@ -826,11 +851,6 @@
     {
       "title": "ブルーバード",
       "artist": "いきものがかり",
-      "count": 9
-    },
-    {
-      "title": "ルミナス",
-      "artist": "ClariS",
       "count": 9
     },
     {
@@ -854,18 +874,18 @@
       "count": 9
     },
     {
-      "title": "奏(かなで)",
-      "artist": "スキマスイッチ",
+      "title": "小夜子",
+      "artist": "みきとP",
+      "count": 9
+    },
+    {
+      "title": "少年よ我に帰れ",
+      "artist": "やくしまるえつこ",
       "count": 9
     },
     {
       "title": "思想犯",
       "artist": "ヨルシカ",
-      "count": 9
-    },
-    {
-      "title": "愛が灯る",
-      "artist": "ロクデナシ",
       "count": 9
     },
     {
@@ -914,11 +934,6 @@
       "count": 8
     },
     {
-      "title": "EX-otogibanashi",
-      "artist": "ryo (supercell)",
-      "count": 8
-    },
-    {
       "title": "PAPERMOON",
       "artist": "Tommy heavenly6",
       "count": 8
@@ -931,6 +946,11 @@
     {
       "title": "ROCK-mode'18",
       "artist": "LiSA",
+      "count": 8
+    },
+    {
+      "title": "Reply",
+      "artist": "kz",
       "count": 8
     },
     {
@@ -1004,6 +1024,11 @@
       "count": 8
     },
     {
+      "title": "ダーリンダンス",
+      "artist": "かいりきベア",
+      "count": 8
+    },
+    {
       "title": "テルーの唄",
       "artist": "手嶌葵",
       "count": 8
@@ -1071,16 +1096,6 @@
     {
       "title": "妄想感傷代償連盟",
       "artist": "DECO*27",
-      "count": 8
-    },
-    {
-      "title": "小夜子",
-      "artist": "みきとP",
-      "count": 8
-    },
-    {
-      "title": "少年よ我に帰れ",
-      "artist": "やくしまるえつこ",
       "count": 8
     },
     {
@@ -1204,8 +1219,8 @@
       "count": 7
     },
     {
-      "title": "Reply",
-      "artist": "kz",
+      "title": "Remember",
+      "artist": "月見ヤチヨ",
       "count": 7
     },
     {
@@ -1254,6 +1269,11 @@
       "count": 7
     },
     {
+      "title": "キミソラキセキ",
+      "artist": "EGOIST",
+      "count": 7
+    },
+    {
       "title": "クラクラ",
       "artist": "Ado",
       "count": 7
@@ -1261,6 +1281,11 @@
     {
       "title": "グリズリーに襲われたら♡",
       "artist": "神宿",
+      "count": 7
+    },
+    {
+      "title": "サイレント・マジョリティ",
+      "artist": "Heavenz",
       "count": 7
     },
     {
@@ -1279,11 +1304,6 @@
       "count": 7
     },
     {
-      "title": "ダーリンダンス",
-      "artist": "かいりきベア",
-      "count": 7
-    },
-    {
       "title": "ツキアカリのミチシルベ",
       "artist": "ステレオポニー",
       "count": 7
@@ -1294,18 +1314,23 @@
       "count": 7
     },
     {
+      "title": "ドライフラワー",
+      "artist": "優里",
+      "count": 7
+    },
+    {
       "title": "ハッピーラッキーチャッピー",
       "artist": "ano",
       "count": 7
     },
     {
-      "title": "バレリーコ",
-      "artist": "みきとP",
+      "title": "ヒトガタ",
+      "artist": "HIMEHINA",
       "count": 7
     },
     {
-      "title": "ヒトガタ",
-      "artist": "HIMEHINA",
+      "title": "ベノム",
+      "artist": "かいりきベア",
       "count": 7
     },
     {
@@ -1336,6 +1361,11 @@
     {
       "title": "レディメイド",
       "artist": "Ado",
+      "count": 7
+    },
+    {
+      "title": "乙女解剖",
+      "artist": "DECO*27",
       "count": 7
     },
     {
@@ -1399,6 +1429,11 @@
       "count": 7
     },
     {
+      "title": "白い雪のプリンセスは",
+      "artist": "のぼる↑",
+      "count": 7
+    },
+    {
       "title": "花泡沫",
       "artist": "ロクデナシ",
       "count": 7
@@ -1456,11 +1491,6 @@
     {
       "title": "Hysteric Bullet",
       "artist": "GARNiDELiA",
-      "count": 6
-    },
-    {
-      "title": "Remember",
-      "artist": "月見ヤチヨ",
       "count": 6
     },
     {
@@ -1554,28 +1584,18 @@
       "count": 6
     },
     {
-      "title": "キミソラキセキ",
-      "artist": "EGOIST",
-      "count": 6
-    },
-    {
-      "title": "サイレント・マジョリティ",
-      "artist": "Heavenz",
-      "count": 6
-    },
-    {
       "title": "シリウス",
       "artist": "藍井エイル",
       "count": 6
     },
     {
-      "title": "トライアングラー",
-      "artist": "坂本真綾",
+      "title": "ダダダダ天使",
+      "artist": "ナナヲアカリ",
       "count": 6
     },
     {
-      "title": "ドライフラワー",
-      "artist": "優里",
+      "title": "トライアングラー",
+      "artist": "坂本真綾",
       "count": 6
     },
     {
@@ -1599,11 +1619,6 @@
       "count": 6
     },
     {
-      "title": "ベノム",
-      "artist": "かいりきベア",
-      "count": 6
-    },
-    {
       "title": "メランコリック",
       "artist": "Junky",
       "count": 6
@@ -1619,13 +1634,13 @@
       "count": 6
     },
     {
-      "title": "ヴィーナスとジーザス",
-      "artist": "やくしまるえつこ",
+      "title": "ワンダーステラ",
+      "artist": "fhána",
       "count": 6
     },
     {
-      "title": "乙女解剖",
-      "artist": "DECO*27",
+      "title": "ヴィーナスとジーザス",
+      "artist": "やくしまるえつこ",
       "count": 6
     },
     {
@@ -1699,11 +1714,6 @@
       "count": 6
     },
     {
-      "title": "白い雪のプリンセスは",
-      "artist": "のぼる↑",
-      "count": 6
-    },
-    {
       "title": "空の箱",
       "artist": "トゲナシトゲアリ",
       "count": 6
@@ -1742,6 +1752,11 @@
       "title": "雑踏、僕らの街",
       "artist": "トゲナシトゲアリ",
       "count": 6
+    },
+    {
+      "title": "1/6 ー out of the gravity ー",
+      "artist": "ぼーかりおどP",
+      "count": 5
     },
     {
       "title": "A Dream Is a Wish Your Heart Makes",
@@ -1919,6 +1934,11 @@
       "count": 5
     },
     {
+      "title": "アサガオの散る頃に",
+      "artist": "じっぷす",
+      "count": 5
+    },
+    {
       "title": "アニマル",
       "artist": "DECO*27",
       "count": 5
@@ -1954,11 +1974,6 @@
       "count": 5
     },
     {
-      "title": "ダダダダ天使",
-      "artist": "ナナヲアカリ",
-      "count": 5
-    },
-    {
       "title": "ダーリン",
       "artist": "須田景凪",
       "count": 5
@@ -1966,6 +1981,11 @@
     {
       "title": "トコハナ",
       "artist": "やなぎなぎ",
+      "count": 5
+    },
+    {
+      "title": "ドーナツホール 2024",
+      "artist": "米津玄師",
       "count": 5
     },
     {
@@ -2006,11 +2026,6 @@
     {
       "title": "リードコントロール",
       "artist": "なるみや",
-      "count": 5
-    },
-    {
-      "title": "ワンダーステラ",
-      "artist": "fhána",
       "count": 5
     },
     {
@@ -2174,6 +2189,11 @@
       "count": 5
     },
     {
+      "title": "負け犬にアンコールはいらない",
+      "artist": "ヨルシカ",
+      "count": 5
+    },
+    {
       "title": "輝く未来",
       "artist": "畠中洋&小此木麻里",
       "count": 5
@@ -2202,11 +2222,6 @@
       "title": "響喜乱舞",
       "artist": "GARNiDELiA",
       "count": 5
-    },
-    {
-      "title": "1/6 ー out of the gravity ー",
-      "artist": "ぼーかりおどP",
-      "count": 4
     },
     {
       "title": "Alchemy",
@@ -2344,6 +2359,11 @@
       "count": 4
     },
     {
+      "title": "あぶく",
+      "artist": "ヨルシカ",
+      "count": 4
+    },
+    {
       "title": "おじゃま虫",
       "artist": "DECO*27",
       "count": 4
@@ -2351,6 +2371,11 @@
     {
       "title": "お勉強しといてよ",
       "artist": "ずっと真夜中でいいのに。",
+      "count": 4
+    },
+    {
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
       "count": 4
     },
     {
@@ -2376,11 +2401,6 @@
     {
       "title": "アイのシナリオ",
       "artist": "CHiCO with HoneyWorks",
-      "count": 4
-    },
-    {
-      "title": "アサガオの散る頃に",
-      "artist": "じっぷす",
       "count": 4
     },
     {
@@ -2491,11 +2511,6 @@
     {
       "title": "テレパシ",
       "artist": "DECO*27",
-      "count": 4
-    },
-    {
-      "title": "ドーナツホール 2024",
-      "artist": "米津玄師",
       "count": 4
     },
     {
@@ -2629,8 +2644,18 @@
       "count": 4
     },
     {
+      "title": "想像フォレスト",
+      "artist": "じん",
+      "count": 4
+    },
+    {
       "title": "憂、燦々",
       "artist": "クリープハイプ",
+      "count": 4
+    },
+    {
+      "title": "旧支配者のキャロル",
+      "artist": "クトゥルフ神話",
       "count": 4
     },
     {
@@ -2664,6 +2689,11 @@
       "count": 4
     },
     {
+      "title": "深愛",
+      "artist": "水樹奈々",
+      "count": 4
+    },
+    {
       "title": "深海少女",
       "artist": "ゆうゆ",
       "count": 4
@@ -2689,6 +2719,11 @@
       "count": 4
     },
     {
+      "title": "私は、わたしの事が好き。",
+      "artist": "HoneyWorks",
+      "count": 4
+    },
+    {
       "title": "空想メソロギヰ",
       "artist": "妖精帝國",
       "count": 4
@@ -2711,11 +2746,6 @@
     {
       "title": "負けないで",
       "artist": "ZARD",
-      "count": 4
-    },
-    {
-      "title": "負け犬にアンコールはいらない",
-      "artist": "ヨルシカ",
       "count": 4
     },
     {
@@ -2799,6 +2829,11 @@
       "count": 3
     },
     {
+      "title": "Happiness Umbrella",
+      "artist": "ロクデナシ",
+      "count": 3
+    },
+    {
       "title": "IGNITE",
       "artist": "藍井エイル",
       "count": 3
@@ -2841,6 +2876,11 @@
     {
       "title": "No title",
       "artist": "Reol",
+      "count": 3
+    },
+    {
+      "title": "OnyXXX",
+      "artist": "Black onyX",
       "count": 3
     },
     {
@@ -2964,11 +3004,6 @@
       "count": 3
     },
     {
-      "title": "あぶく",
-      "artist": "ヨルシカ",
-      "count": 3
-    },
-    {
       "title": "あんなに一緒だったのに",
       "artist": "See-Saw",
       "count": 3
@@ -2999,11 +3034,6 @@
       "count": 3
     },
     {
-      "title": "きゅうくらりん",
-      "artist": "いよわ",
-      "count": 3
-    },
-    {
       "title": "この夜を止めてよ",
       "artist": "JUJU",
       "count": 3
@@ -3021,6 +3051,11 @@
     {
       "title": "はなまるぴっぴはよいこだけ",
       "artist": "A応P",
+      "count": 3
+    },
+    {
+      "title": "へび",
+      "artist": "ヨルシカ",
       "count": 3
     },
     {
@@ -3046,6 +3081,11 @@
     {
       "title": "アヤノの幸福理論",
       "artist": "じん",
+      "count": 3
+    },
+    {
+      "title": "アルビレオ",
+      "artist": "ロクデナシ",
       "count": 3
     },
     {
@@ -3239,6 +3279,11 @@
       "count": 3
     },
     {
+      "title": "マーメイドシアター",
+      "artist": "奏音69",
+      "count": 3
+    },
+    {
       "title": "メニメニマニマニ",
       "artist": "高宮なすの (鳴海杏子)",
       "count": 3
@@ -3414,11 +3459,6 @@
       "count": 3
     },
     {
-      "title": "想像フォレスト",
-      "artist": "じん",
-      "count": 3
-    },
-    {
       "title": "愛をこめて花束を",
       "artist": "Superfly",
       "count": 3
@@ -3446,11 +3486,6 @@
     {
       "title": "敗北の少年",
       "artist": "kemu",
-      "count": 3
-    },
-    {
-      "title": "旧支配者のキャロル",
-      "artist": "クトゥルフ神話",
       "count": 3
     },
     {
@@ -3484,6 +3519,11 @@
       "count": 3
     },
     {
+      "title": "櫂",
+      "artist": "ヨルシカ",
+      "count": 3
+    },
+    {
       "title": "泣き地蔵",
       "artist": "Vaundy",
       "count": 3
@@ -3491,11 +3531,6 @@
     {
       "title": "海の幽霊",
       "artist": "米津玄師",
-      "count": 3
-    },
-    {
-      "title": "深愛",
-      "artist": "水樹奈々",
       "count": 3
     },
     {
@@ -3516,11 +3551,6 @@
     {
       "title": "神のまにまに",
       "artist": "れるりり",
-      "count": 3
-    },
-    {
-      "title": "私は、わたしの事が好き。",
-      "artist": "HoneyWorks",
       "count": 3
     },
     {
@@ -3546,6 +3576,11 @@
     {
       "title": "色彩",
       "artist": "坂本真綾",
+      "count": 3
+    },
+    {
+      "title": "花の唄",
+      "artist": "Aimer",
       "count": 3
     },
     {
@@ -3689,6 +3724,11 @@
       "count": 2
     },
     {
+      "title": "DANZEN!ふたりはプリキュア Ver.MaxHeart",
+      "artist": "五條真由美",
+      "count": 2
+    },
+    {
       "title": "Dancing stars on me!",
       "artist": "μ's",
       "count": 2
@@ -3754,11 +3794,6 @@
       "count": 2
     },
     {
-      "title": "Happiness Umbrella",
-      "artist": "ロクデナシ",
-      "count": 2
-    },
-    {
       "title": "Happy Halloween",
       "artist": "Junky",
       "count": 2
@@ -3821,11 +3856,6 @@
     {
       "title": "One Love",
       "artist": "嵐",
-      "count": 2
-    },
-    {
-      "title": "OnyXXX",
-      "artist": "Black onyX",
       "count": 2
     },
     {
@@ -4114,11 +4144,6 @@
       "count": 2
     },
     {
-      "title": "へび",
-      "artist": "ヨルシカ",
-      "count": 2
-    },
-    {
       "title": "もうどうなってもいいや",
       "artist": "星街すいせい",
       "count": 2
@@ -4166,11 +4191,6 @@
     {
       "title": "アルコーブ",
       "artist": "バルーン",
-      "count": 2
-    },
-    {
-      "title": "アルビレオ",
-      "artist": "ロクデナシ",
       "count": 2
     },
     {
@@ -4426,11 +4446,6 @@
     {
       "title": "マトリョシカ",
       "artist": "米津玄師",
-      "count": 2
-    },
-    {
-      "title": "マーメイドシアター",
-      "artist": "奏音69",
       "count": 2
     },
     {
@@ -4789,6 +4804,11 @@
       "count": 2
     },
     {
+      "title": "春はゆく",
+      "artist": "Aimer",
+      "count": 2
+    },
+    {
       "title": "春を待つ",
       "artist": "Islet",
       "count": 2
@@ -4831,11 +4851,6 @@
     {
       "title": "未来予想図II",
       "artist": "DREAMS COME TRUE",
-      "count": 2
-    },
-    {
-      "title": "櫂",
-      "artist": "ヨルシカ",
       "count": 2
     },
     {
@@ -4951,11 +4966,6 @@
     {
       "title": "花",
       "artist": "ORANGE RANGE",
-      "count": 2
-    },
-    {
-      "title": "花の唄",
-      "artist": "Aimer",
       "count": 2
     },
     {
@@ -5166,11 +5176,6 @@
     {
       "title": "DADDY ! DADDY ! DO !",
       "artist": "鈴木雅之",
-      "count": 1
-    },
-    {
-      "title": "DANZEN!ふたりはプリキュア Ver.MaxHeart",
-      "artist": "五條真由美",
       "count": 1
     },
     {
@@ -6974,6 +6979,11 @@
       "count": 1
     },
     {
+      "title": "少女s",
+      "artist": "SCANDAL",
+      "count": 1
+    },
+    {
       "title": "少年ブレイヴ",
       "artist": "じん",
       "count": 1
@@ -7119,11 +7129,6 @@
       "count": 1
     },
     {
-      "title": "春はゆく",
-      "artist": "Aimer",
-      "count": 1
-    },
-    {
       "title": "暁の車",
       "artist": "FictionJunction YUUKA",
       "count": 1
@@ -7256,6 +7261,11 @@
     {
       "title": "生リセットボタンぽちーw",
       "artist": "沙花叉クロヱ",
+      "count": 1
+    },
+    {
+      "title": "異星にいこうね",
+      "artist": "いよわ",
       "count": 1
     },
     {
