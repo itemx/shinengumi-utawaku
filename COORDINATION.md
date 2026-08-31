@@ -49,6 +49,10 @@ python scripts/build_stats.py && python scripts/build_known_songs.py
   tag／長度，都走這條，不必經 Codex。
 - **大量 batch（需要逐首查證的規模）**：交給 Codex，並沿用下方 commit message 信號流程。
 
+**可以預先登錄還沒被唱過的歌**（例如已知下次會唱）。這種項目在曲庫裡找不到對應
+演唱紀錄，`--validate` 會列在「尚無演唱紀錄的項目」，那是正常的，**不要當成孤兒刪掉**；
+等這首真的被唱到就會自動接上。網站上在被唱到之前不會顯示。
+
 兩邊都適用同一組規則與 `--validate`，也都**不可改 `title` / `artist`**。
 同時只會有一邊在動這個檔案 —— 要開大量 batch 前先在 commit message 講明。
 

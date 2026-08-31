@@ -92,6 +92,15 @@ def main():
     print(f"不重複曲目: {len(songs)}")
     print(f"song_meta 項目: {len(meta)} (新增 {added})")
     print(f"已補 (有 tag 或 duration): {filled}")
+
+    # 曲庫裡還沒有人唱過的項目。手動先登錄（等這首被唱到就自動接上）也算正常，
+    # 所以只列出來供確認，不當成錯誤，也不自動刪除。
+    song_keys = {_key(t, a) for t, a in songs}
+    orphans = [m for k, m in meta.items() if k not in song_keys]
+    if orphans:
+        print(f"ℹ 尚無演唱紀錄的項目 {len(orphans)} 筆（預先登錄，不會顯示在網站上）:")
+        for m in orphans[:20]:
+            print(f"   {m['title']} / {m.get('artist','')}")
     if errors:
         print(f"⚠ {len(errors)} 個問題:")
         for e in errors[:20]:
