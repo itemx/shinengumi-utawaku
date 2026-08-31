@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1492,
+  "totalEntries": 1493,
   "uniqueTitles": 1464,
-  "uniqueArtists": 663,
+  "uniqueArtists": 664,
   "songs": [
     {
       "title": "All Alone With You",
@@ -16,7 +16,7 @@
     {
       "title": "少女レイ",
       "artist": "みきとP",
-      "count": 27
+      "count": 28
     },
     {
       "title": "残響散歌",
@@ -144,6 +144,11 @@
       "count": 17
     },
     {
+      "title": "プロポーズ",
+      "artist": "なとり",
+      "count": 17
+    },
+    {
       "title": "初めての恋が終わる時",
       "artist": "ryo (supercell)",
       "count": 17
@@ -156,6 +161,11 @@
     {
       "title": "月光食堂",
       "artist": "ぬー (古川本舗)",
+      "count": 17
+    },
+    {
+      "title": "眠れぬ月夜のランデブー",
+      "artist": "涼風しとら",
       "count": 17
     },
     {
@@ -184,11 +194,6 @@
       "count": 16
     },
     {
-      "title": "プロポーズ",
-      "artist": "なとり",
-      "count": 16
-    },
-    {
       "title": "ロンリーユニバース",
       "artist": "Aqu3ra",
       "count": 16
@@ -206,11 +211,6 @@
     {
       "title": "残酷な天使のテーゼ",
       "artist": "高橋洋子",
-      "count": 16
-    },
-    {
-      "title": "眠れぬ月夜のランデブー",
-      "artist": "涼風しとら",
       "count": 16
     },
     {
@@ -834,6 +834,11 @@
       "count": 9
     },
     {
+      "title": "ガーネット",
+      "artist": "奥華子",
+      "count": 9
+    },
+    {
       "title": "ギターと孤独と蒼い惑星",
       "artist": "結束バンド",
       "count": 9
@@ -1039,11 +1044,6 @@
       "count": 8
     },
     {
-      "title": "ガーネット",
-      "artist": "奥華子",
-      "count": 8
-    },
-    {
       "title": "キミソラキセキ",
       "artist": "EGOIST",
       "count": 8
@@ -1226,6 +1226,11 @@
     {
       "title": "My Soul,Your Beats!",
       "artist": "Lia",
+      "count": 7
+    },
+    {
+      "title": "Overdose",
+      "artist": "なとり",
       "count": 7
     },
     {
@@ -1524,11 +1529,6 @@
       "count": 6
     },
     {
-      "title": "Overdose",
-      "artist": "なとり",
-      "count": 6
-    },
-    {
       "title": "YUME日和",
       "artist": "島谷ひとみ",
       "count": 6
@@ -1606,6 +1606,11 @@
     {
       "title": "ないない",
       "artist": "ReoNa",
+      "count": 6
+    },
+    {
+      "title": "アサガオの散る頃に",
+      "artist": "じっぷす",
       "count": 6
     },
     {
@@ -1946,11 +1951,6 @@
     {
       "title": "アゲハ蝶",
       "artist": "ポルノグラフィティ",
-      "count": 5
-    },
-    {
-      "title": "アサガオの散る頃に",
-      "artist": "じっぷす",
       "count": 5
     },
     {
@@ -2394,6 +2394,11 @@
       "count": 4
     },
     {
+      "title": "この夜を止めてよ",
+      "artist": "JUJU",
+      "count": 4
+    },
+    {
       "title": "それがあなたの幸せとしても",
       "artist": "Heavenz",
       "count": 4
@@ -2536,6 +2541,11 @@
     {
       "title": "テレパシ",
       "artist": "DECO*27",
+      "count": 4
+    },
+    {
+      "title": "ナイトルーティーン",
+      "artist": "キタニタツヤ",
       "count": 4
     },
     {
@@ -3069,11 +3079,6 @@
       "count": 3
     },
     {
-      "title": "この夜を止めてよ",
-      "artist": "JUJU",
-      "count": 3
-    },
-    {
       "title": "さよならメモリーズ",
       "artist": "ryo (supercell)",
       "count": 3
@@ -3206,11 +3211,6 @@
     {
       "title": "ドーナツホール",
       "artist": "米津玄師",
-      "count": 3
-    },
-    {
-      "title": "ナイトルーティーン",
-      "artist": "キタニタツヤ",
       "count": 3
     },
     {
@@ -6854,6 +6854,11 @@
       "count": 1
     },
     {
+      "title": "右肩の蝶",
+      "artist": "鏡音レン",
+      "count": 1
+    },
+    {
       "title": "名もなき何もかも",
       "artist": "トゲナシトゲアリ",
       "count": 1
@@ -8105,6 +8110,7 @@
     "鈴木瑛美子×亀田誠治",
     "鈴木雅之",
     "銀サク",
+    "鏡音レン",
     "阿肆",
     "阿良々木月火 (井口裕香)",
     "陰陽座",

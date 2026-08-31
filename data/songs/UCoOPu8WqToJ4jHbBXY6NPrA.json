@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-08-31T10:08:58.936524+00:00",
+  "lastFetched": "2026-08-31T18:54:09.486335+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -17240,6 +17240,14 @@
         }
       ],
       "sourceCommentId": "issue#92",
+      "type": "stream"
+    },
+    {
+      "videoId": "ucQKeXhLHv4",
+      "title": "背景、夏に溺れる/n-buna #shorts #cover #歌ってみた",
+      "publishedAt": "2026-08-31T09:03:35Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]

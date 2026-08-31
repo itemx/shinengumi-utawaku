@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-08-30T09:54:20.652206+00:00",
+  "lastFetched": "2026-08-31T18:54:08.847430+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -40950,6 +40950,123 @@
       ],
       "sourceCommentId": "issue#90",
       "type": "stream"
+    },
+    {
+      "videoId": "_OyurSUw9LM",
+      "title": "右肩の蝶 / 鏡音レン 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-31T09:00:02Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "右肩の蝶",
+          "titleRaw": "右肩の蝶",
+          "artist": "鏡音レン",
+          "artistRaw": "鏡音レン",
+          "url": "https://youtu.be/_OyurSUw9LM"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "_JCH5Xlvgjg",
+      "title": "【 #夜に溶ける歌枠リレー 】夜にまどろむ1曲を。あなたの魂を揺らすVsinger✨【VTuber/配信中】",
+      "publishedAt": "2026-08-30T12:11:26Z",
+      "songs": [
+        {
+          "timestamp": "05:14",
+          "seconds": 314,
+          "title": "眠れぬ月夜のランデブー",
+          "titleRaw": "眠れぬ月夜のランデブー",
+          "artist": "涼風しとら",
+          "artistRaw": "涼風しとら",
+          "url": "https://youtu.be/_JCH5Xlvgjg?t=314"
+        },
+        {
+          "timestamp": "09:40",
+          "seconds": 580,
+          "title": "ナイトルーティーン",
+          "titleRaw": "ナイトルーティーン feat. suis from ヨルシカ",
+          "artist": "キタニタツヤ",
+          "artistRaw": "キタニタツヤ",
+          "url": "https://youtu.be/_JCH5Xlvgjg?t=580"
+        },
+        {
+          "timestamp": "13:26",
+          "seconds": 806,
+          "title": "Overdose",
+          "titleRaw": "Overdose",
+          "artist": "なとり",
+          "artistRaw": "なとり",
+          "url": "https://youtu.be/_JCH5Xlvgjg?t=806"
+        },
+        {
+          "timestamp": "16:43",
+          "seconds": 1003,
+          "title": "ガーネット",
+          "titleRaw": "ガーネット",
+          "artist": "奥華子",
+          "artistRaw": "奥華子",
+          "url": "https://youtu.be/_JCH5Xlvgjg?t=1003"
+        },
+        {
+          "timestamp": "24:38",
+          "seconds": 1478,
+          "title": "この夜を止めてよ",
+          "titleRaw": "この夜を止めてよ",
+          "artist": "JUJU",
+          "artistRaw": "JUJU",
+          "url": "https://youtu.be/_JCH5Xlvgjg?t=1478"
+        },
+        {
+          "timestamp": "29:31",
+          "seconds": 1771,
+          "title": "アサガオの散る頃に",
+          "titleRaw": "アサガオの散る頃に",
+          "artist": "じっぷす",
+          "artistRaw": "じっぷす feat. 初音ミク",
+          "url": "https://youtu.be/_JCH5Xlvgjg?t=1771"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "ptgw7yM2fvI",
+      "title": "少女レイ / みきとP 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-30T09:00:26Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "少女レイ",
+          "titleRaw": "少女レイ",
+          "artist": "みきとP",
+          "artistRaw": "みきとP",
+          "url": "https://youtu.be/ptgw7yM2fvI"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "b_togz-I9GA",
+      "title": "プロポーズ / なとり 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-08-29T09:00:33Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "プロポーズ",
+          "titleRaw": "プロポーズ",
+          "artist": "なとり",
+          "artistRaw": "なとり",
+          "url": "https://youtu.be/b_togz-I9GA"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
