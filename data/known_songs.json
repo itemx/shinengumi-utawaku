@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1493,
-  "uniqueTitles": 1463,
-  "uniqueArtists": 664,
+  "totalEntries": 1494,
+  "uniqueTitles": 1464,
+  "uniqueArtists": 665,
   "songs": [
     {
       "title": "All Alone With You",
@@ -149,6 +149,11 @@
       "count": 17
     },
     {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 17
+    },
+    {
       "title": "深海のリトルクライ",
       "artist": "sasakure.UK",
       "count": 17
@@ -186,11 +191,6 @@
     {
       "title": "月のワルツ",
       "artist": "諫山実生",
-      "count": 16
-    },
-    {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
       "count": 16
     },
     {
@@ -654,6 +654,11 @@
       "count": 10
     },
     {
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
+      "count": 10
+    },
+    {
       "title": "ブラックロックシューター",
       "artist": "ryo (supercell)",
       "count": 10
@@ -831,11 +836,6 @@
     {
       "title": "セレナーデ",
       "artist": "なとり",
-      "count": 9
-    },
-    {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
       "count": 9
     },
     {
@@ -2534,6 +2534,11 @@
       "count": 4
     },
     {
+      "title": "マーメイドシアター",
+      "artist": "奏音69",
+      "count": 4
+    },
+    {
       "title": "ムーンライト伝説",
       "artist": "DALI",
       "count": 4
@@ -2581,6 +2586,11 @@
     {
       "title": "乱舞のメロディ",
       "artist": "シド",
+      "count": 4
+    },
+    {
+      "title": "人間みたいね",
+      "artist": "キタニタツヤ",
       "count": 4
     },
     {
@@ -3289,11 +3299,6 @@
       "count": 3
     },
     {
-      "title": "マーメイドシアター",
-      "artist": "奏音69",
-      "count": 3
-    },
-    {
       "title": "メニメニマニマニ",
       "artist": "高宮なすの (鳴海杏子)",
       "count": 3
@@ -3371,11 +3376,6 @@
     {
       "title": "人マニア",
       "artist": "原口沙輔",
-      "count": 3
-    },
-    {
-      "title": "人間みたいね",
-      "artist": "キタニタツヤ",
       "count": 3
     },
     {
@@ -4604,6 +4604,11 @@
       "count": 2
     },
     {
+      "title": "全部夢だった!",
+      "artist": "黒うさぎ",
+      "count": 2
+    },
+    {
       "title": "冬がくれた予感",
       "artist": "BiBi (μ's)",
       "count": 2
@@ -5591,6 +5596,11 @@
     {
       "title": "UFO",
       "artist": "ピンク・レディー",
+      "count": 1
+    },
+    {
+      "title": "U",
+      "artist": "Bella",
       "count": 1
     },
     {
@@ -6794,11 +6804,6 @@
       "count": 1
     },
     {
-      "title": "全部夢だった!",
-      "artist": "黒うさぎ",
-      "count": 1
-    },
-    {
       "title": "再会",
       "artist": "はるまきごはん",
       "count": 1
@@ -7512,6 +7517,7 @@
     "BON-BON BLANCO",
     "BUMP OF CHICKEN",
     "Base Ball Bear",
+    "Bella",
     "BiBi (μ's)",
     "Black onyX",
     "Buono!",
