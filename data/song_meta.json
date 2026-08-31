@@ -4104,6 +4104,12 @@
     "durationSec": 410
   },
   {
+    "title": "スピカ",
+    "artist": "ロクデナシ",
+    "tags": ["j-pop"],
+    "durationSec": 165
+  },
+  {
     "title": "スペシャルガール",
     "artist": "れるりり",
     "tags": ["vocaloid"],
@@ -4975,6 +4981,12 @@
   },
   {
     "title": "フロントメモリー",
+    "artist": "神聖かまってちゃん",
+    "tags": ["j-pop"],
+    "durationSec": 295
+  },
+  {
+    "title": "フロントメモリー",
     "artist": "鈴木瑛美子×亀田誠治",
     "tags": ["j-pop", "ballad"],
     "durationSec": 240
@@ -5398,6 +5410,12 @@
     "artist": "れるりり",
     "tags": ["vocaloid"],
     "durationSec": 244
+  },
+  {
+    "title": "ヤラララ",
+    "artist": "ABM",
+    "tags": ["vocaloid"],
+    "durationSec": 157
   },
   {
     "title": "ユキトキ",
@@ -8008,6 +8026,12 @@
     "artist": "陰陽座",
     "tags": ["anime", "j-pop"],
     "durationSec": 242
+  },
+  {
+    "title": "異星にいこうね",
+    "artist": "いよわ",
+    "tags": ["vocaloid"],
+    "durationSec": 171
   },
   {
     "title": "異邦人",

@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1492,
-  "uniqueTitles": 1464,
+  "totalEntries": 1491,
+  "uniqueTitles": 1463,
   "uniqueArtists": 663,
   "songs": [
     {
@@ -114,6 +114,11 @@
       "count": 18
     },
     {
+      "title": "少女S",
+      "artist": "SCANDAL",
+      "count": 18
+    },
+    {
       "title": "悪魔の子",
       "artist": "ヒグチアイ",
       "count": 18
@@ -136,11 +141,6 @@
     {
       "title": "初めての恋が終わる時",
       "artist": "ryo (supercell)",
-      "count": 17
-    },
-    {
-      "title": "少女S",
-      "artist": "SCANDAL",
       "count": 17
     },
     {
@@ -6971,11 +6971,6 @@
     {
       "title": "少女A",
       "artist": "椎名もた",
-      "count": 1
-    },
-    {
-      "title": "少女s",
-      "artist": "SCANDAL",
       "count": 1
     },
     {
