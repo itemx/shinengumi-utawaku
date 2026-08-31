@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-08-31T03:11:54.210899+00:00",
+  "lastFetched": "2026-08-31T10:08:58.936524+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -16988,6 +16988,258 @@
         }
       ],
       "sourceCommentId": "issue#91",
+      "type": "stream"
+    },
+    {
+      "videoId": "ZctsXA5XI7g",
+      "title": "【歌枠】リレー感想回 ≀ 一週間おつかれさまです🫧心が浄化される魅惑の歌声≀ Singing Stream【VTuber/配信中】",
+      "publishedAt": "2026-08-30T19:17:44Z",
+      "songs": [
+        {
+          "timestamp": "9:44",
+          "seconds": 584,
+          "title": "スピカ",
+          "titleRaw": "スピカ",
+          "artist": "ロクデナシ",
+          "artistRaw": "ロクデナシ",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=584"
+        },
+        {
+          "timestamp": "12:33",
+          "seconds": 753,
+          "title": "ただ声一つ",
+          "titleRaw": "ただ声一つ",
+          "artist": "ロクデナシ",
+          "artistRaw": "ロクデナシ",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=753"
+        },
+        {
+          "timestamp": "15:13",
+          "seconds": 913,
+          "title": "花泡沫",
+          "titleRaw": "花泡沫",
+          "artist": "ロクデナシ",
+          "artistRaw": "ロクデナシ",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=913"
+        },
+        {
+          "timestamp": "35:28",
+          "seconds": 2128,
+          "title": "Happiness Umbrella",
+          "titleRaw": "Happiness Umbrella",
+          "artist": "ロクデナシ",
+          "artistRaw": "ロクデナシ",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=2128"
+        },
+        {
+          "timestamp": "39:59",
+          "seconds": 2399,
+          "title": "星降る海",
+          "titleRaw": "星降る海",
+          "artist": "月見ヤチヨ",
+          "artistRaw": "月見ヤチヨ",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=2399"
+        },
+        {
+          "timestamp": "44:44",
+          "seconds": 2684,
+          "title": "ロンリーユニバース",
+          "titleRaw": "ロンリーユニバース",
+          "artist": "Aqu3ra",
+          "artistRaw": "Aqu3ra",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=2684"
+        },
+        {
+          "timestamp": "49:03",
+          "seconds": 2943,
+          "title": "異星にいこうね",
+          "titleRaw": "異星にいこうね",
+          "artist": "いよわ",
+          "artistRaw": "いよわ",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=2943"
+        },
+        {
+          "timestamp": "52:12",
+          "seconds": 3132,
+          "title": "アルビレオ",
+          "titleRaw": "アルビレオ",
+          "artist": "ロクデナシ",
+          "artistRaw": "ロクデナシ",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=3132"
+        },
+        {
+          "timestamp": "57:50",
+          "seconds": 3470,
+          "title": "浴槽とネオンテトラ",
+          "titleRaw": "浴槽とネオンテトラ",
+          "artist": "REISAI",
+          "artistRaw": "REISAI",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=3470"
+        },
+        {
+          "timestamp": "1:02:40",
+          "seconds": 3760,
+          "title": "1/6 ー out of the gravity ー",
+          "titleRaw": "1/6 ー out of the gravity ー",
+          "artist": "ぼーかりおどP",
+          "artistRaw": "ぼーかりおどP",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=3760"
+        },
+        {
+          "timestamp": "1:28:23",
+          "seconds": 5303,
+          "title": "ワールド・ランプシェード",
+          "titleRaw": "ワールド・ランプシェード",
+          "artist": "buzzG",
+          "artistRaw": "buzzG",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=5303"
+        },
+        {
+          "timestamp": "1:33:11",
+          "seconds": 5591,
+          "title": "キミソラキセキ",
+          "titleRaw": "キミソラキセキ",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=5591"
+        },
+        {
+          "timestamp": "1:38:44",
+          "seconds": 5924,
+          "title": "原罪の灯",
+          "titleRaw": "原罪の灯",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=5924"
+        },
+        {
+          "timestamp": "1:41:09",
+          "seconds": 6069,
+          "title": "エウテルペ",
+          "titleRaw": "エウテルペ",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=6069"
+        },
+        {
+          "timestamp": "1:44:56",
+          "seconds": 6296,
+          "title": "うたかた花火",
+          "titleRaw": "うたかた花火",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=6296"
+        },
+        {
+          "timestamp": "1:51:40",
+          "seconds": 6700,
+          "title": "LOVE & ROLL",
+          "titleRaw": "LOVE & ROLL",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=6700"
+        },
+        {
+          "timestamp": "2:16:52",
+          "seconds": 8212,
+          "title": "全部夢だった!",
+          "titleRaw": "全部夢だった!",
+          "artist": "黒うさぎ",
+          "artistRaw": "黒うさぎ",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=8212"
+        },
+        {
+          "timestamp": "2:19:16",
+          "seconds": 8356,
+          "title": "U",
+          "titleRaw": "U",
+          "artist": "Belle",
+          "artistRaw": "Belle",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=8356"
+        },
+        {
+          "timestamp": "2:22:41",
+          "seconds": 8561,
+          "title": "深海のリトルクライ",
+          "titleRaw": "深海のリトルクライ",
+          "artist": "sasakure.UK",
+          "artistRaw": "sasakure.UK",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=8561"
+        },
+        {
+          "timestamp": "2:27:09",
+          "seconds": 8829,
+          "title": "へび",
+          "titleRaw": "へび",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=8829"
+        },
+        {
+          "timestamp": "2:31:28",
+          "seconds": 9088,
+          "title": "Overdose",
+          "titleRaw": "Overdose",
+          "artist": "なとり",
+          "artistRaw": "なとり",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=9088"
+        },
+        {
+          "timestamp": "2:34:54",
+          "seconds": 9294,
+          "title": "幽霊東京",
+          "titleRaw": "幽霊東京",
+          "artist": "Ayase",
+          "artistRaw": "Ayase",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=9294"
+        },
+        {
+          "timestamp": "2:38:52",
+          "seconds": 9532,
+          "title": "斜陽",
+          "titleRaw": "斜陽",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=9532"
+        },
+        {
+          "timestamp": "2:43:22",
+          "seconds": 9802,
+          "title": "トリノコシティ",
+          "titleRaw": "トリノコシティ",
+          "artist": "40mP",
+          "artistRaw": "40mP",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=9802"
+        },
+        {
+          "timestamp": "2:47:24",
+          "seconds": 10044,
+          "title": "晩餐歌",
+          "titleRaw": "晩餐歌",
+          "artist": "tuki.",
+          "artistRaw": "tuki.",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=10044"
+        },
+        {
+          "timestamp": "2:52:27",
+          "seconds": 10347,
+          "title": "心做し",
+          "titleRaw": "心做し",
+          "artist": "majiko",
+          "artistRaw": "majiko",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=10347"
+        },
+        {
+          "timestamp": "2:59:44",
+          "seconds": 10784,
+          "title": "ハイドアンド・シーク",
+          "titleRaw": "ハイドアンド・シーク",
+          "artist": "19's Sound Factory",
+          "artistRaw": "19's Sound Factory",
+          "url": "https://youtu.be/ZctsXA5XI7g?t=10784"
+        }
+      ],
+      "sourceCommentId": "issue#92",
       "type": "stream"
     }
   ]
