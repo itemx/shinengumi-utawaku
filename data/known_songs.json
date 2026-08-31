@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1494,
+  "totalEntries": 1492,
   "uniqueTitles": 1464,
-  "uniqueArtists": 665,
+  "uniqueArtists": 663,
   "songs": [
     {
       "title": "All Alone With You",
@@ -349,6 +349,11 @@
       "count": 13
     },
     {
+      "title": "シンデレラ",
+      "artist": "DECO*27",
+      "count": 13
+    },
+    {
       "title": "ノーチラス",
       "artist": "ヨルシカ",
       "count": 13
@@ -431,11 +436,6 @@
     {
       "title": "crossing field",
       "artist": "LiSA",
-      "count": 12
-    },
-    {
-      "title": "シンデレラ",
-      "artist": "DECO*27",
       "count": 12
     },
     {
@@ -674,6 +674,11 @@
       "count": 10
     },
     {
+      "title": "ヴァンパイア",
+      "artist": "DECO*27",
+      "count": 10
+    },
+    {
       "title": "世界は恋に落ちている",
       "artist": "CHiCO with HoneyWorks",
       "count": 10
@@ -861,11 +866,6 @@
     {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
-      "count": 9
-    },
-    {
-      "title": "ヴァンパイア",
-      "artist": "DECO*27",
       "count": 9
     },
     {
@@ -6154,11 +6154,6 @@
       "count": 1
     },
     {
-      "title": "シンデレラ",
-      "artist": "DECO*27, Rockwell",
-      "count": 1
-    },
-    {
       "title": "ジレンマ",
       "artist": "ecosystem",
       "count": 1
@@ -6635,7 +6630,7 @@
     },
     {
       "title": "ライアーダンス",
-      "artist": "DECO*27,Naoki Itai",
+      "artist": "DECO*27",
       "count": 1
     },
     {
@@ -6736,11 +6731,6 @@
     {
       "title": "ヲズワルド",
       "artist": "煮ル果実",
-      "count": 1
-    },
-    {
-      "title": "ヴァンパイア",
-      "artist": "DECO*27, Rockwell",
       "count": 1
     },
     {
@@ -7537,8 +7527,6 @@
     "DAOKO × 米津玄師",
     "DATEKEN",
     "DECO*27",
-    "DECO*27, Rockwell",
-    "DECO*27,Naoki Itai",
     "DOES",
     "DREAMS COME TRUE",
     "Dixie Flatline",

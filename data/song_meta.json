@@ -5437,7 +5437,7 @@
   },
   {
     "title": "ライアーダンス",
-    "artist": "DECO*27,Naoki Itai",
+    "artist": "DECO*27",
     "tags": ["vocaloid"],
     "durationSec": 216
   },
@@ -5792,12 +5792,6 @@
   {
     "title": "ヴァンパイア",
     "artist": "DECO*27",
-    "tags": ["vocaloid"],
-    "durationSec": 178
-  },
-  {
-    "title": "ヴァンパイア",
-    "artist": "DECO*27, Rockwell",
     "tags": ["vocaloid"],
     "durationSec": 178
   },
