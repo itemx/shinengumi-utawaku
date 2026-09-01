@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-08-31T18:54:08.847430+00:00",
+  "lastFetched": "2026-09-01T16:12:43.246471+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -41063,6 +41063,24 @@
           "artist": "なとり",
           "artistRaw": "なとり",
           "url": "https://youtu.be/b_togz-I9GA"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "3JeZPzGB0bM",
+      "title": "mosi mosi?  / 楽音 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-09-01T09:00:23Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "mosi mosi?",
+          "titleRaw": "mosi mosi?",
+          "artist": "楽音",
+          "artistRaw": "楽音",
+          "url": "https://youtu.be/3JeZPzGB0bM"
         }
       ],
       "sourceCommentId": "",
