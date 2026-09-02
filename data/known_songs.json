@@ -1,22 +1,22 @@
 {
-  "totalEntries": 1494,
-  "uniqueTitles": 1465,
-  "uniqueArtists": 665,
+  "totalEntries": 1501,
+  "uniqueTitles": 1472,
+  "uniqueArtists": 668,
   "songs": [
+    {
+      "title": "花に亡霊",
+      "artist": "ヨルシカ",
+      "count": 30
+    },
     {
       "title": "All Alone With You",
       "artist": "EGOIST",
       "count": 29
     },
     {
-      "title": "花に亡霊",
-      "artist": "ヨルシカ",
-      "count": 29
-    },
-    {
       "title": "少女レイ",
       "artist": "みきとP",
-      "count": 28
+      "count": 29
     },
     {
       "title": "残響散歌",
@@ -54,6 +54,11 @@
       "count": 21
     },
     {
+      "title": "夜明けと蛍",
+      "artist": "n-buna",
+      "count": 21
+    },
+    {
       "title": "Calc.",
       "artist": "ジミーサムP",
       "count": 20
@@ -64,8 +69,18 @@
       "count": 20
     },
     {
-      "title": "夜明けと蛍",
-      "artist": "n-buna",
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 20
+    },
+    {
+      "title": "変わらないもの",
+      "artist": "奥華子",
+      "count": 20
+    },
+    {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
       "count": 20
     },
     {
@@ -89,24 +104,14 @@
       "count": 19
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 19
-    },
-    {
-      "title": "変わらないもの",
-      "artist": "奥華子",
-      "count": 19
-    },
-    {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
-      "count": 19
-    },
-    {
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 19
+    },
+    {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
+      "count": 18
     },
     {
       "title": "ビビデバ",
@@ -129,14 +134,14 @@
       "count": 18
     },
     {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
       "count": 18
     },
     {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
-      "count": 17
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 18
     },
     {
       "title": "カラフル",
@@ -146,6 +151,11 @@
     {
       "title": "プロポーズ",
       "artist": "なとり",
+      "count": 17
+    },
+    {
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
       "count": 17
     },
     {
@@ -159,8 +169,8 @@
       "count": 17
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
+      "title": "月のワルツ",
+      "artist": "諫山実生",
       "count": 17
     },
     {
@@ -194,18 +204,13 @@
       "count": 16
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
+      "title": "トリノコシティ",
+      "artist": "40mP",
       "count": 16
     },
     {
       "title": "忘れじの言の葉",
       "artist": "未来古代楽団",
-      "count": 16
-    },
-    {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
       "count": 16
     },
     {
@@ -239,13 +244,13 @@
       "count": 15
     },
     {
-      "title": "トリノコシティ",
-      "artist": "40mP",
+      "title": "フォニイ",
+      "artist": "ツミキ",
       "count": 15
     },
     {
-      "title": "フォニイ",
-      "artist": "ツミキ",
+      "title": "斜陽",
+      "artist": "ヨルシカ",
       "count": 15
     },
     {
@@ -301,11 +306,6 @@
     {
       "title": "恋愛裁判",
       "artist": "40mP",
-      "count": 14
-    },
-    {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
       "count": 14
     },
     {
@@ -414,6 +414,11 @@
       "count": 13
     },
     {
+      "title": "風になる",
+      "artist": "つじあやの",
+      "count": 13
+    },
+    {
       "title": "Brave Shine",
       "artist": "Aimer",
       "count": 12
@@ -499,11 +504,6 @@
       "count": 12
     },
     {
-      "title": "風になる",
-      "artist": "つじあやの",
-      "count": 12
-    },
-    {
       "title": "CHAINSAW BLOOD",
       "artist": "Vaundy",
       "count": 11
@@ -561,6 +561,11 @@
     {
       "title": "一度だけの恋なら",
       "artist": "ワルキューレ",
+      "count": 11
+    },
+    {
+      "title": "二息歩行",
+      "artist": "DECO*27",
       "count": 11
     },
     {
@@ -689,11 +694,6 @@
       "count": 10
     },
     {
-      "title": "二息歩行",
-      "artist": "DECO*27",
-      "count": 10
-    },
-    {
       "title": "八月の夜",
       "artist": "SILENT SIREN",
       "count": 10
@@ -741,6 +741,11 @@
     {
       "title": "愛が灯る",
       "artist": "ロクデナシ",
+      "count": 10
+    },
+    {
+      "title": "晩餐歌",
+      "artist": "tuki.",
       "count": 10
     },
     {
@@ -909,11 +914,6 @@
       "count": 9
     },
     {
-      "title": "晩餐歌",
-      "artist": "tuki.",
-      "count": 9
-    },
-    {
       "title": "死ぬにはいい日だった",
       "artist": "ピコン",
       "count": 9
@@ -1041,6 +1041,11 @@
     {
       "title": "ウタカタララバイ",
       "artist": "Ado",
+      "count": 8
+    },
+    {
+      "title": "カブトムシ",
+      "artist": "aiko",
       "count": 8
     },
     {
@@ -1274,6 +1279,11 @@
       "count": 7
     },
     {
+      "title": "アサガオの散る頃に",
+      "artist": "じっぷす",
+      "count": 7
+    },
+    {
       "title": "アメヲマツ、",
       "artist": "美波",
       "count": 7
@@ -1281,11 +1291,6 @@
     {
       "title": "カサブタ",
       "artist": "千綿偉功",
-      "count": 7
-    },
-    {
-      "title": "カブトムシ",
-      "artist": "aiko",
       "count": 7
     },
     {
@@ -1609,11 +1614,6 @@
       "count": 6
     },
     {
-      "title": "アサガオの散る頃に",
-      "artist": "じっぷす",
-      "count": 6
-    },
-    {
       "title": "インタビュア",
       "artist": "クワガタP",
       "count": 6
@@ -1929,6 +1929,11 @@
       "count": 5
     },
     {
+      "title": "へび",
+      "artist": "ヨルシカ",
+      "count": 5
+    },
+    {
       "title": "やさしさで溢れるように",
       "artist": "JUJU",
       "count": 5
@@ -2106,6 +2111,11 @@
     {
       "title": "愛言葉III",
       "artist": "DECO*27",
+      "count": 5
+    },
+    {
+      "title": "明日への手紙",
+      "artist": "手嶌葵",
       "count": 5
     },
     {
@@ -2409,11 +2419,6 @@
       "count": 4
     },
     {
-      "title": "へび",
-      "artist": "ヨルシカ",
-      "count": 4
-    },
-    {
       "title": "みむかゥわナイストライ",
       "artist": "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
       "count": 4
@@ -2689,6 +2694,11 @@
       "count": 4
     },
     {
+      "title": "幽霊東京",
+      "artist": "Ayase",
+      "count": 4
+    },
+    {
       "title": "恋は渾沌の隷也",
       "artist": "後ろから這いより隊G",
       "count": 4
@@ -2709,11 +2719,6 @@
       "count": 4
     },
     {
-      "title": "明日への手紙",
-      "artist": "手嶌葵",
-      "count": 4
-    },
-    {
       "title": "月光潤色ガール",
       "artist": "れるりり",
       "count": 4
@@ -2731,6 +2736,11 @@
     {
       "title": "檄!帝国華撃団",
       "artist": "帝国歌劇団",
+      "count": 4
+    },
+    {
+      "title": "櫂",
+      "artist": "ヨルシカ",
       "count": 4
     },
     {
@@ -3479,11 +3489,6 @@
       "count": 3
     },
     {
-      "title": "幽霊東京",
-      "artist": "Ayase",
-      "count": 3
-    },
-    {
       "title": "怪獣",
       "artist": "サカナクション",
       "count": 3
@@ -3556,11 +3561,6 @@
     {
       "title": "東京フラッシュ",
       "artist": "Vaundy",
-      "count": 3
-    },
-    {
-      "title": "櫂",
-      "artist": "ヨルシカ",
       "count": 3
     },
     {
@@ -3691,6 +3691,11 @@
     {
       "title": "01",
       "artist": "女王蜂",
+      "count": 2
+    },
+    {
+      "title": "366日",
+      "artist": "HY",
       "count": 2
     },
     {
@@ -5039,11 +5044,6 @@
       "count": 1
     },
     {
-      "title": "366日",
-      "artist": "HY",
-      "count": 1
-    },
-    {
       "title": "3月9日",
       "artist": "レミオロメン",
       "count": 1
@@ -5051,6 +5051,11 @@
     {
       "title": "7150日",
       "artist": "瀬名航",
+      "count": 1
+    },
+    {
+      "title": "8.32",
+      "artist": "*Luna",
       "count": 1
     },
     {
@@ -5544,6 +5549,11 @@
       "count": 1
     },
     {
+      "title": "SWEET MEMORIES",
+      "artist": "松田聖子",
+      "count": 1
+    },
+    {
       "title": "Shiny Smily Story",
       "artist": "hololive IDOL PROJECT",
       "count": 1
@@ -5586,6 +5596,11 @@
     {
       "title": "Strawberry Trapper",
       "artist": "Guilty Kiss",
+      "count": 1
+    },
+    {
+      "title": "Sweets Parade",
+      "artist": "髏々宮カルタ (花澤香菜)",
       "count": 1
     },
     {
@@ -6081,6 +6096,11 @@
     {
       "title": "グラーヴェ",
       "artist": "niki",
+      "count": 1
+    },
+    {
+      "title": "グレーテのいない星",
+      "artist": "傘村トータ",
       "count": 1
     },
     {
@@ -6774,6 +6794,11 @@
       "count": 1
     },
     {
+      "title": "三日月",
+      "artist": "絢香",
+      "count": 1
+    },
+    {
       "title": "不可解",
       "artist": "花譜",
       "count": 1
@@ -7364,6 +7389,11 @@
       "count": 1
     },
     {
+      "title": "背景、夏に溺れる",
+      "artist": "n-buna",
+      "count": 1
+    },
+    {
       "title": "脳内革命ガール",
       "artist": "MARETU",
       "count": 1
@@ -7429,6 +7459,11 @@
       "count": 1
     },
     {
+      "title": "邪教の秘術",
+      "artist": "陽介",
+      "count": 1
+    },
+    {
       "title": "銀河鉄道999",
       "artist": "ゴダイゴ",
       "count": 1
@@ -7475,6 +7510,7 @@
     }
   ],
   "artists": [
+    "*Luna",
     "10-FEET",
     "164",
     "1640mP (164x40mP)",
@@ -8086,6 +8122,7 @@
     "紫咲シオ",
     "紫咲シオン",
     "結束バンド",
+    "絢香",
     "緑黄色社会",
     "羊文学",
     "美波",
@@ -8120,6 +8157,7 @@
     "阿肆",
     "阿良々木月火 (井口裕香)",
     "陰陽座",
+    "陽介",
     "音田雅則",
     "音莉飴",
     "須田景凪",

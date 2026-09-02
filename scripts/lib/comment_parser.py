@@ -30,7 +30,8 @@ _RANGE_TIMESTAMP_RE = re.compile(
 )
 
 # 編號前綴: "01. " "1. " "1) " (帶點/括號)，或零補位曲序 "08 " (0X + 空白)
-_NUMBERING_RE = re.compile(r"^(?:\d{1,3}[\.\)]\s*|0\d\s+)")
+# 點後面緊接數字時不算編號 —— 曲名本身就是小數的情況 (例: "8.32 / *Luna")
+_NUMBERING_RE = re.compile(r"^(?:\d{1,3}[\.\)](?!\d)\s*|0\d\s+)")
 
 # 用於清理裝飾符號
 # 音樂/愛心 emoji: 無條件移除

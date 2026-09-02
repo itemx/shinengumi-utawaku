@@ -290,3 +290,19 @@ class TestNotationFiltering:
         assert "開幕" not in titles
         assert not any("トーク" in t for t in titles)
         assert {"鯨が落ちる街", "ただ声一つ", "愛が灯る"} <= titles
+
+    def test_decimal_title_is_not_a_track_number(self):
+        """曲名が小数の場合、点以降を編號前綴として剥がしてはいけない。
+
+        実際に "3:09:57 8.32 / *Luna" が "32" として取り込まれた。
+        通常の編號前綴 ("01. title") は従来どおり剥がす。
+        """
+        songs = parse_comment(
+            "3:09:57 8.32 / *Luna\n1:00:00 01. 花に亡霊 / ヨルシカ\n2:00:00 斜陽 / ヨルシカ",
+            min_songs=1,
+        )
+        assert songs is not None
+        by_ts = {s.timestamp: s for s in songs}
+        assert by_ts["3:09:57"].title_raw == "8.32"
+        assert by_ts["3:09:57"].artist_raw == "*Luna"
+        assert by_ts["1:00:00"].title_raw == "花に亡霊"
