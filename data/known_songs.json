@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1511,
-  "uniqueTitles": 1480,
-  "uniqueArtists": 672,
+  "totalEntries": 1514,
+  "uniqueTitles": 1483,
+  "uniqueArtists": 674,
   "songs": [
     {
       "title": "花に亡霊",
@@ -769,6 +769,11 @@
       "count": 10
     },
     {
+      "title": "春擬き",
+      "artist": "やなぎなぎ",
+      "count": 10
+    },
+    {
       "title": "晩餐歌",
       "artist": "tuki.",
       "count": 10
@@ -956,11 +961,6 @@
     {
       "title": "星が瞬くこんな夜に",
       "artist": "ryo (supercell)",
-      "count": 9
-    },
-    {
-      "title": "春擬き",
-      "artist": "やなぎなぎ",
       "count": 9
     },
     {
@@ -1624,6 +1624,11 @@
       "count": 6
     },
     {
+      "title": "ずうっといっしょ!",
+      "artist": "キタニタツヤ",
+      "count": 6
+    },
+    {
       "title": "それがあなたの幸せとしても",
       "artist": "Heavenz",
       "count": 6
@@ -1814,6 +1819,11 @@
       "count": 6
     },
     {
+      "title": "輝夜の城で踊りたい",
+      "artist": "μ's",
+      "count": 6
+    },
+    {
       "title": "阿修羅ちゃん",
       "artist": "Ado",
       "count": 6
@@ -1974,11 +1984,6 @@
       "count": 5
     },
     {
-      "title": "ずうっといっしょ!",
-      "artist": "キタニタツヤ",
-      "count": 5
-    },
-    {
       "title": "へび",
       "artist": "ヨルシカ",
       "count": 5
@@ -2041,6 +2046,11 @@
     {
       "title": "ダーリン",
       "artist": "須田景凪",
+      "count": 5
+    },
+    {
+      "title": "テレパシ",
+      "artist": "DECO*27",
       "count": 5
     },
     {
@@ -2174,6 +2184,11 @@
       "count": 5
     },
     {
+      "title": "桜日和",
+      "artist": "星村麻衣",
+      "count": 5
+    },
+    {
       "title": "残機",
       "artist": "ずっと真夜中でいいのに。",
       "count": 5
@@ -2251,11 +2266,6 @@
     {
       "title": "輝く未来",
       "artist": "畠中洋&小此木麻里",
-      "count": 5
-    },
-    {
-      "title": "輝夜の城で踊りたい",
-      "artist": "μ's",
       "count": 5
     },
     {
@@ -2371,6 +2381,11 @@
     {
       "title": "SAKURAグッバイ",
       "artist": "SCANDAL",
+      "count": 4
+    },
+    {
+      "title": "START:DASH!!",
+      "artist": "μ's",
       "count": 4
     },
     {
@@ -2559,11 +2574,6 @@
       "count": 4
     },
     {
-      "title": "テレパシ",
-      "artist": "DECO*27",
-      "count": 4
-    },
-    {
       "title": "ナイトルーティーン",
       "artist": "キタニタツヤ",
       "count": 4
@@ -2741,11 +2751,6 @@
     {
       "title": "桃源郷エイリアン",
       "artist": "serial TV drama",
-      "count": 4
-    },
-    {
-      "title": "桜日和",
-      "artist": "星村麻衣",
       "count": 4
     },
     {
@@ -2976,11 +2981,6 @@
     {
       "title": "SHINKIRO",
       "artist": "GuraMarine",
-      "count": 3
-    },
-    {
-      "title": "START:DASH!!",
-      "artist": "μ's",
       "count": 3
     },
     {
@@ -3304,6 +3304,11 @@
       "count": 3
     },
     {
+      "title": "プリキュア5、スマイル go go!",
+      "artist": "工藤真由",
+      "count": 3
+    },
+    {
       "title": "プレパレード",
       "artist": "逢坂大河・櫛枝実乃梨・川嶋亜美",
       "count": 3
@@ -3566,6 +3571,11 @@
     {
       "title": "敗北の少年",
       "artist": "kemu",
+      "count": 3
+    },
+    {
+      "title": "春はゆく",
+      "artist": "Aimer",
       "count": 3
     },
     {
@@ -4504,11 +4514,6 @@
       "count": 2
     },
     {
-      "title": "プリキュア5、スマイル go go!",
-      "artist": "工藤真由",
-      "count": 2
-    },
-    {
       "title": "プリズム",
       "artist": "池田綾子",
       "count": 2
@@ -4864,11 +4869,6 @@
       "count": 2
     },
     {
-      "title": "春はゆく",
-      "artist": "Aimer",
-      "count": 2
-    },
-    {
       "title": "春一番",
       "artist": "キャンディーズ",
       "count": 2
@@ -4951,6 +4951,11 @@
     {
       "title": "熱情のスペクトラム",
       "artist": "いきものがかり",
+      "count": 2
+    },
+    {
+      "title": "特捜戦隊デカレンジャー",
+      "artist": "サイキックラバー",
       "count": 2
     },
     {
@@ -5131,6 +5136,11 @@
     {
       "title": "Alright!ハートキャッチプリキュア!",
       "artist": "池田彩",
+      "count": 1
+    },
+    {
+      "title": "Anything Goes!",
+      "artist": "大黒摩季",
       "count": 1
     },
     {
@@ -6454,6 +6464,11 @@
       "count": 1
     },
     {
+      "title": "バスターズ レディーゴー!",
+      "artist": "高橋秀幸",
+      "count": 1
+    },
+    {
       "title": "バチモリーナ",
       "artist": "iON!",
       "count": 1
@@ -7329,11 +7344,6 @@
       "count": 1
     },
     {
-      "title": "特捜戦隊デカレンジャー",
-      "artist": "サイキックラバー",
-      "count": 1
-    },
-    {
       "title": "狂乱 Hey Ki/ds!!",
       "artist": "THE ORAL CIGARETTES",
       "count": 1
@@ -7386,6 +7396,11 @@
     {
       "title": "粉雪",
       "artist": "レミオロメン",
+      "count": 1
+    },
+    {
+      "title": "粛清!!ロリ神レクイエム",
+      "artist": "しぐれうい",
       "count": 1
     },
     {
@@ -8049,6 +8064,7 @@
     "大森靖子",
     "大沼パセリ",
     "大石昌良",
+    "大黒摩季",
     "太田裕美",
     "奏音69",
     "奥華子",
@@ -8220,6 +8236,7 @@
     "髏々宮カルタ (花澤香菜)",
     "高宮なすの (鳴海杏子)",
     "高橋洋子",
+    "高橋秀幸",
     "髙屋亜希那",
     "鬼束ちひろ",
     "鮎川麻弥",

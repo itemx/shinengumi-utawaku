@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-04T10:03:45.410997+00:00",
+  "lastFetched": "2026-09-04T10:04:06.706559+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -18499,6 +18499,123 @@
         }
       ],
       "sourceCommentId": "issue#82",
+      "type": "stream"
+    },
+    {
+      "videoId": "XptU8d5XwCk",
+      "title": "【 #歌枠 / karaoke 】Singing stream！初見さん大歓迎！【 #渉海よひら /深淵組】",
+      "publishedAt": "2025-04-17T11:23:40Z",
+      "songs": [
+        {
+          "timestamp": "14:28",
+          "seconds": 868,
+          "title": "テレパシ",
+          "titleRaw": "テレパシ",
+          "artist": "DECO*27",
+          "artistRaw": "DECO*27",
+          "url": "https://youtu.be/XptU8d5XwCk?t=868"
+        },
+        {
+          "timestamp": "19:45",
+          "seconds": 1185,
+          "title": "桜日和",
+          "titleRaw": "桜日和",
+          "artist": "星村麻衣",
+          "artistRaw": "星村麻衣",
+          "url": "https://youtu.be/XptU8d5XwCk?t=1185"
+        },
+        {
+          "timestamp": "27:09",
+          "seconds": 1629,
+          "title": "春はゆく",
+          "titleRaw": "春はゆく",
+          "artist": "Aimer",
+          "artistRaw": "Aimer",
+          "url": "https://youtu.be/XptU8d5XwCk?t=1629"
+        },
+        {
+          "timestamp": "36:43",
+          "seconds": 2203,
+          "title": "ずうっといっしょ!",
+          "titleRaw": "ずうっといっしょ!",
+          "artist": "キタニタツヤ",
+          "artistRaw": "キタニタツヤ",
+          "url": "https://youtu.be/XptU8d5XwCk?t=2203"
+        },
+        {
+          "timestamp": "44:11",
+          "seconds": 2651,
+          "title": "特捜戦隊デカレンジャー",
+          "titleRaw": "特捜戦隊デカレンジャー",
+          "artist": "サイキックラバー",
+          "artistRaw": "サイキックラバー",
+          "url": "https://youtu.be/XptU8d5XwCk?t=2651"
+        },
+        {
+          "timestamp": "55:02",
+          "seconds": 3302,
+          "title": "バスターズ レディーゴー!",
+          "titleRaw": "バスターズ レディーゴー!",
+          "artist": "高橋秀幸",
+          "artistRaw": "高橋秀幸(Project.R)",
+          "url": "https://youtu.be/XptU8d5XwCk?t=3302"
+        },
+        {
+          "timestamp": "1:02:45",
+          "seconds": 3765,
+          "title": "Anything Goes!",
+          "titleRaw": "Anything Goes!",
+          "artist": "大黒摩季",
+          "artistRaw": "大黒摩季",
+          "url": "https://youtu.be/XptU8d5XwCk?t=3765"
+        },
+        {
+          "timestamp": "1:12:04",
+          "seconds": 4324,
+          "title": "プリキュア5、スマイル go go!",
+          "titleRaw": "プリキュア5、スマイル go go!",
+          "artist": "工藤真由",
+          "artistRaw": "工藤真由",
+          "url": "https://youtu.be/XptU8d5XwCk?t=4324"
+        },
+        {
+          "timestamp": "1:18:53",
+          "seconds": 4733,
+          "title": "粛清!!ロリ神レクイエム",
+          "titleRaw": "粛清!!ロリ神レクイエム",
+          "artist": "しぐれうい",
+          "artistRaw": "しぐれうい",
+          "url": "https://youtu.be/XptU8d5XwCk?t=4733"
+        },
+        {
+          "timestamp": "1:35:48",
+          "seconds": 5748,
+          "title": "輝夜の城で踊りたい",
+          "titleRaw": "輝夜の城で踊りたい",
+          "artist": "μ's",
+          "artistRaw": "μ's",
+          "url": "https://youtu.be/XptU8d5XwCk?t=5748"
+        },
+        {
+          "timestamp": "1:43:36",
+          "seconds": 6216,
+          "title": "START:DASH!!",
+          "titleRaw": "START:DASH!!",
+          "artist": "μ's",
+          "artistRaw": "μ's",
+          "url": "https://youtu.be/XptU8d5XwCk?t=6216"
+        },
+        {
+          "timestamp": "1:51:10",
+          "seconds": 6670,
+          "title": "春擬き",
+          "titleRaw": "春擬き",
+          "artist": "やなぎなぎ",
+          "artistRaw": "やなぎなぎ",
+          "url": "https://youtu.be/XptU8d5XwCk?t=6670"
+        }
+      ],
+      "sourceCommentId": "issue#81",
       "type": "stream"
     }
   ]
