@@ -489,6 +489,11 @@
       "count": 12
     },
     {
+      "title": "ワールドイズマイン",
+      "artist": "ryo (supercell)",
+      "count": 12
+    },
+    {
       "title": "夏恋花火",
       "artist": "40mP",
       "count": 12
@@ -571,11 +576,6 @@
     {
       "title": "ミックスナッツ",
       "artist": "Official髭男dism",
-      "count": 11
-    },
-    {
-      "title": "ワールドイズマイン",
-      "artist": "ryo (supercell)",
       "count": 11
     },
     {
@@ -949,6 +949,11 @@
       "count": 9
     },
     {
+      "title": "星が瞬くこんな夜に",
+      "artist": "ryo (supercell)",
+      "count": 9
+    },
+    {
       "title": "春擬き",
       "artist": "やなぎなぎ",
       "count": 9
@@ -1139,6 +1144,11 @@
       "count": 8
     },
     {
+      "title": "ラヴィ",
+      "artist": "すりぃ",
+      "count": 8
+    },
+    {
       "title": "会いたくて",
       "artist": "Ado",
       "count": 8
@@ -1171,11 +1181,6 @@
     {
       "title": "新時代",
       "artist": "Ado",
-      "count": 8
-    },
-    {
-      "title": "星が瞬くこんな夜に",
-      "artist": "ryo (supercell)",
       "count": 8
     },
     {
@@ -1389,8 +1394,8 @@
       "count": 7
     },
     {
-      "title": "ラヴィ",
-      "artist": "すりぃ",
+      "title": "ルマ",
+      "artist": "かいりきベア",
       "count": 7
     },
     {
@@ -1614,6 +1619,11 @@
       "count": 6
     },
     {
+      "title": "それがあなたの幸せとしても",
+      "artist": "Heavenz",
+      "count": 6
+    },
+    {
       "title": "それを愛と呼ぶなら",
       "artist": "Uru",
       "count": 6
@@ -1641,6 +1651,16 @@
     {
       "title": "オリオンをなぞる",
       "artist": "UNISON SQUARE GARDEN",
+      "count": 6
+    },
+    {
+      "title": "キャットフード",
+      "artist": "doriko",
+      "count": 6
+    },
+    {
+      "title": "キャットラビング",
+      "artist": "香椎モイミ",
       "count": 6
     },
     {
@@ -1676,11 +1696,6 @@
     {
       "title": "ユキトキ",
       "artist": "やなぎなぎ",
-      "count": 6
-    },
-    {
-      "title": "ルマ",
-      "artist": "かいりきベア",
       "count": 6
     },
     {
@@ -1791,6 +1806,11 @@
     {
       "title": "花筏",
       "artist": "Orangestar",
+      "count": 6
+    },
+    {
+      "title": "負け犬にアンコールはいらない",
+      "artist": "ヨルシカ",
       "count": 6
     },
     {
@@ -1954,11 +1974,6 @@
       "count": 5
     },
     {
-      "title": "それがあなたの幸せとしても",
-      "artist": "Heavenz",
-      "count": 5
-    },
-    {
       "title": "へび",
       "artist": "ヨルシカ",
       "count": 5
@@ -2001,16 +2016,6 @@
     {
       "title": "キスキツネ",
       "artist": "HIMEHINA",
-      "count": 5
-    },
-    {
-      "title": "キャットフード",
-      "artist": "doriko",
-      "count": 5
-    },
-    {
-      "title": "キャットラビング",
-      "artist": "香椎モイミ",
       "count": 5
     },
     {
@@ -2236,11 +2241,6 @@
     {
       "title": "許婚っきゅん",
       "artist": "ano",
-      "count": 5
-    },
-    {
-      "title": "負け犬にアンコールはいらない",
-      "artist": "ヨルシカ",
       "count": 5
     },
     {
@@ -3249,6 +3249,11 @@
       "count": 3
     },
     {
+      "title": "ネコミミアーカイブ",
+      "artist": "糞田舎P",
+      "count": 3
+    },
+    {
       "title": "ノーザンクロス",
       "artist": "シェリル・ノーム starring May'n",
       "count": 3
@@ -3474,6 +3479,11 @@
       "count": 3
     },
     {
+      "title": "天才ロック",
+      "artist": "カラスヤサボウ",
+      "count": 3
+    },
+    {
       "title": "太陽曰く燃えよカオス",
       "artist": "後ろから這いより隊G",
       "count": 3
@@ -3556,6 +3566,11 @@
     {
       "title": "敗北の少年",
       "artist": "kemu",
+      "count": 3
+    },
+    {
+      "title": "春を待つ",
+      "artist": "Islet",
       "count": 3
     },
     {
@@ -4179,6 +4194,11 @@
       "count": 2
     },
     {
+      "title": "すーぱーぬこになりたい",
+      "artist": "まふまふ",
+      "count": 2
+    },
+    {
       "title": "だから、ひとりじゃない",
       "artist": "Little Glee Monster",
       "count": 2
@@ -4291,6 +4311,11 @@
     {
       "title": "エンゼルフィッシュ",
       "artist": "パトリチェフ",
+      "count": 2
+    },
+    {
+      "title": "エンヴィキャットウォーク",
+      "artist": "トーマ",
       "count": 2
     },
     {
@@ -4416,11 +4441,6 @@
     {
       "title": "ニコニコ動画流星群",
       "artist": "しも",
-      "count": 2
-    },
-    {
-      "title": "ネコミミアーカイブ",
-      "artist": "糞田舎P",
       "count": 2
     },
     {
@@ -4769,11 +4789,6 @@
       "count": 2
     },
     {
-      "title": "天才ロック",
-      "artist": "カラスヤサボウ",
-      "count": 2
-    },
-    {
       "title": "太陽系デスコ",
       "artist": "ナユタン星人",
       "count": 2
@@ -4851,11 +4866,6 @@
     {
       "title": "春はゆく",
       "artist": "Aimer",
-      "count": 2
-    },
-    {
-      "title": "春を待つ",
-      "artist": "Islet",
       "count": 2
     },
     {
@@ -5874,11 +5884,6 @@
       "count": 1
     },
     {
-      "title": "すーぱーぬこになりたい",
-      "artist": "まふまふ",
-      "count": 1
-    },
-    {
       "title": "だれかの心臓になれたなら",
       "artist": "ユリイ・カノン",
       "count": 1
@@ -6076,11 +6081,6 @@
     {
       "title": "エルの絵本【魔女とラフレンツェ】",
       "artist": "Sound Horizon",
-      "count": 1
-    },
-    {
-      "title": "エンヴィキャットウォーク",
-      "artist": "トーマ",
       "count": 1
     },
     {

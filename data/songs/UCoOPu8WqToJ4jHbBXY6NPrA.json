@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-04T10:03:00.498837+00:00",
+  "lastFetched": "2026-09-04T10:03:28.549854+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -18310,6 +18310,132 @@
         }
       ],
       "sourceCommentId": "issue#84",
+      "type": "stream"
+    },
+    {
+      "videoId": "_fCTEEfALZQ",
+      "title": "【 #歌枠 / #karaoke 】にゃんにゃんにゃんの日 🐈 おやすみまえ最後の歌枠 🫧１曲聴いていってください 🌟 SINGING STREAM！#初見歓迎【 #渉海よひら /深淵組】",
+      "publishedAt": "2026-02-22T11:24:29Z",
+      "songs": [
+        {
+          "timestamp": "18:01",
+          "seconds": 1081,
+          "title": "キャットラビング",
+          "titleRaw": "キャットラビング",
+          "artist": "香椎モイミ",
+          "artistRaw": "香椎モイミ",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=1081"
+        },
+        {
+          "timestamp": "22:18",
+          "seconds": 1338,
+          "title": "エンヴィキャットウォーク",
+          "titleRaw": "エンヴィキャットウォーク",
+          "artist": "トーマ",
+          "artistRaw": "トーマ",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=1338"
+        },
+        {
+          "timestamp": "31:49",
+          "seconds": 1909,
+          "title": "キャットフード",
+          "titleRaw": "キャットフード",
+          "artist": "doriko",
+          "artistRaw": "doriko",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=1909"
+        },
+        {
+          "timestamp": "39:49",
+          "seconds": 2389,
+          "title": "すーぱーぬこになりたい",
+          "titleRaw": "すーぱーぬこになりたい",
+          "artist": "まふまふ",
+          "artistRaw": "まふまふ",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=2389"
+        },
+        {
+          "timestamp": "46:24",
+          "seconds": 2784,
+          "title": "ルマ",
+          "titleRaw": "ルマ",
+          "artist": "かいりきベア",
+          "artistRaw": "かいりきベア",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=2784"
+        },
+        {
+          "timestamp": "57:34",
+          "seconds": 3454,
+          "title": "ラヴィ",
+          "titleRaw": "ラヴィ",
+          "artist": "すりぃ",
+          "artistRaw": "すりぃ",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=3454"
+        },
+        {
+          "timestamp": "1:03:22",
+          "seconds": 3802,
+          "title": "負け犬にアンコールはいらない",
+          "titleRaw": "負け犬にアンコールはいらない",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=3802"
+        },
+        {
+          "timestamp": "1:17:49",
+          "seconds": 4669,
+          "title": "ネコミミアーカイブ",
+          "titleRaw": "ネコミミアーカイブ",
+          "artist": "糞田舎P",
+          "artistRaw": "糞田舎P",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=4669"
+        },
+        {
+          "timestamp": "1:23:01",
+          "seconds": 4981,
+          "title": "ワールドイズマイン",
+          "titleRaw": "ワールドイズマイン",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=4981"
+        },
+        {
+          "timestamp": "1:30:28",
+          "seconds": 5428,
+          "title": "天才ロック",
+          "titleRaw": "天才ロック",
+          "artist": "カラスヤサボウ",
+          "artistRaw": "カラスヤサボウ",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=5428"
+        },
+        {
+          "timestamp": "1:38:42",
+          "seconds": 5922,
+          "title": "春を待つ",
+          "titleRaw": "春を待つ",
+          "artist": "Islet",
+          "artistRaw": "Islet",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=5922"
+        },
+        {
+          "timestamp": "1:49:53",
+          "seconds": 6593,
+          "title": "それがあなたの幸せとしても",
+          "titleRaw": "それがあなたの幸せとしても",
+          "artist": "Heavenz",
+          "artistRaw": "Heavenz",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=6593"
+        },
+        {
+          "timestamp": "1:57:05",
+          "seconds": 7025,
+          "title": "星が瞬くこんな夜に",
+          "titleRaw": "星が瞬くこんな夜に",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/_fCTEEfALZQ?t=7025"
+        }
+      ],
+      "sourceCommentId": "issue#83",
       "type": "stream"
     }
   ]
