@@ -162,6 +162,38 @@ def _split_title_artist(text: str) -> tuple[str, str]:
     return text, ""
 
 
+_JP_CHARS_RE = re.compile(r"[぀-ヿ㐀-鿿]")
+
+
+def _dedupe_by_timestamp(songs: list[SongEntry]) -> list[SongEntry]:
+    """同一時間に複数曲がある場合は 1 曲に絞る。
+
+    配信者が 1 つのコメントに日本語セトリとローマ字／英訳セトリを併記することがあり
+    (例: "00:35:15 ミカヅキ / さユり" の後に "00:35:15 Mikazuki / Sayuri")、
+    そのまま取り込むと同じ時間に 2 曲入って重複する。
+
+    日本語を含む方を原題として優先し、決まらなければ先に出てきた方を残す。
+    0:00 は配信開始マーカー等で複数あり得るので対象外。
+    """
+    def jp_score(s: SongEntry) -> int:
+        return bool(_JP_CHARS_RE.search(s.title_raw + (s.artist_raw or "")))
+
+    kept: dict[int, SongEntry] = {}
+    out: list[SongEntry] = []
+    for s in songs:
+        if s.seconds == 0:
+            out.append(s)
+            continue
+        prev = kept.get(s.seconds)
+        if prev is None:
+            kept[s.seconds] = s
+            out.append(s)
+        elif jp_score(s) > jp_score(prev):
+            out[out.index(prev)] = s
+            kept[s.seconds] = s
+    return out
+
+
 def parse_comment(
     text: str, min_songs: int = 3, skip_zero: bool = True,
     filter_chatter: bool = True,
@@ -235,6 +267,8 @@ def parse_comment(
             title_raw=title,
             artist_raw=artist,
         ))
+
+    songs = _dedupe_by_timestamp(songs)
 
     # 至少 min_songs 曲才視為有效 setlist
     if len(songs) < min_songs:

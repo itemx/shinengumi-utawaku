@@ -306,3 +306,31 @@ class TestNotationFiltering:
         assert by_ts["3:09:57"].title_raw == "8.32"
         assert by_ts["3:09:57"].artist_raw == "*Luna"
         assert by_ts["1:00:00"].title_raw == "花に亡霊"
+
+    def test_bilingual_setlist_keeps_japanese(self):
+        """日本語セトリとローマ字セトリが併記されたコメントを重複させない。
+
+        実例: scan-review issue #69 の本文は同じ時間で 2 回セトリを並べていた。
+        """
+        text = (
+            "00:18:43 ヒカリヘ / miwa\n"
+            "00:31:36 斜陽 / ヨルシカ\n"
+            "00:52:32 Brave Shine / Aimer\n"
+            "00:18:43 Hikari e / miwa\n"
+            "00:31:36 Setting Sun / Yorushika\n"
+            "00:52:32 Brave Shine / Aimer"
+        )
+        songs = parse_comment(text)
+        assert songs is not None
+        assert len(songs) == 3
+        assert [s.title_raw for s in songs] == ["ヒカリヘ", "斜陽", "Brave Shine"]
+
+    def test_bilingual_setlist_english_first_still_keeps_japanese(self):
+        """英訳が先に並んでいても、日本語のほうを原題として残す。"""
+        songs = parse_comment(
+            "00:18:43 Hikari e / miwa\n00:31:36 Setting Sun / Yorushika\n"
+            "00:18:43 ヒカリヘ / miwa\n00:31:36 斜陽 / ヨルシカ",
+            min_songs=1,
+        )
+        assert songs is not None
+        assert [s.title_raw for s in songs] == ["ヒカリヘ", "斜陽"]

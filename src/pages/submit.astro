@@ -295,7 +295,24 @@ for (const [k, v] of Object.entries(titleArtists)) {
         if (!ta[0] || SKIP_TITLES.indexOf(ta[0]) >= 0) continue;
         songs.push({ timestamp: ts, seconds: sec, title: ta[0], artist: ta[1] });
       }
-      return songs;
+      return dedupeByTimestamp(songs);
+    }
+
+    // 同じ時間に複数曲があるのは、日本語セトリとローマ字/英訳セトリの併記が原因。
+    // 日本語を含む方を原題として優先する。comment_parser.py の _dedupe_by_timestamp と同じ規則
+    var JP_CHARS_RE = /[぀-ヿ㐀-鿿]/;
+    function dedupeByTimestamp(songs) {
+      var kept = {}, out = [];
+      for (var i = 0; i < songs.length; i++) {
+        var s = songs[i], prev = kept[s.seconds];
+        var jp = JP_CHARS_RE.test(s.title + (s.artist || "")) ? 1 : 0;
+        if (!prev) {
+          kept[s.seconds] = s; out.push(s);
+        } else if (jp > (JP_CHARS_RE.test(prev.title + (prev.artist || "")) ? 1 : 0)) {
+          out[out.indexOf(prev)] = s; kept[s.seconds] = s;
+        }
+      }
+      return out;
     }
 
     // --- DOM ---
