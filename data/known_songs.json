@@ -1,16 +1,16 @@
 {
-  "totalEntries": 1509,
-  "uniqueTitles": 1478,
+  "totalEntries": 1510,
+  "uniqueTitles": 1479,
   "uniqueArtists": 671,
   "songs": [
     {
-      "title": "少女レイ",
-      "artist": "みきとP",
-      "count": 30
-    },
-    {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
+      "count": 31
+    },
+    {
+      "title": "少女レイ",
+      "artist": "みきとP",
       "count": 30
     },
     {
@@ -19,14 +19,14 @@
       "count": 29
     },
     {
-      "title": "残響散歌",
-      "artist": "Aimer",
+      "title": "晴る",
+      "artist": "ヨルシカ",
       "count": 25
     },
     {
-      "title": "晴る",
-      "artist": "ヨルシカ",
-      "count": 24
+      "title": "残響散歌",
+      "artist": "Aimer",
+      "count": 25
     },
     {
       "title": "Departures ~あなたにおくるアイの歌~",
@@ -46,12 +46,12 @@
     {
       "title": "ただ君に晴れ",
       "artist": "ヨルシカ",
-      "count": 21
+      "count": 22
     },
     {
       "title": "君の知らない物語",
       "artist": "ryo (supercell)",
-      "count": 21
+      "count": 22
     },
     {
       "title": "夜明けと蛍",
@@ -64,8 +64,18 @@
       "count": 21
     },
     {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 20
+    },
+    {
       "title": "Calc.",
       "artist": "ジミーサムP",
+      "count": 20
+    },
+    {
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
       "count": 20
     },
     {
@@ -89,18 +99,8 @@
       "count": 19
     },
     {
-      "title": "Across the world !!",
-      "artist": "深淵組",
-      "count": 19
-    },
-    {
       "title": "Stellar Stellar",
       "artist": "星街すいせい",
-      "count": 19
-    },
-    {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
       "count": 19
     },
     {
@@ -274,6 +274,11 @@
       "count": 15
     },
     {
+      "title": "Catch the Moment",
+      "artist": "LiSA",
+      "count": 14
+    },
+    {
       "title": "Cry Baby",
       "artist": "Official髭男dism",
       "count": 14
@@ -337,11 +342,6 @@
       "title": "花の塔",
       "artist": "さユり",
       "count": 14
-    },
-    {
-      "title": "Catch the Moment",
-      "artist": "LiSA",
-      "count": 13
     },
     {
       "title": "Ghost of a smile",
@@ -449,6 +449,11 @@
       "count": 12
     },
     {
+      "title": "アイネクライネ",
+      "artist": "米津玄師",
+      "count": 12
+    },
+    {
       "title": "アスノヨゾラ哨戒班",
       "artist": "Orangestar",
       "count": 12
@@ -461,6 +466,11 @@
     {
       "title": "ソワレ",
       "artist": "星街すいせい",
+      "count": 12
+    },
+    {
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
       "count": 12
     },
     {
@@ -499,6 +509,11 @@
       "count": 12
     },
     {
+      "title": "私は最強",
+      "artist": "Ado",
+      "count": 12
+    },
+    {
       "title": "藍二乗",
       "artist": "ヨルシカ",
       "count": 12
@@ -526,16 +541,6 @@
     {
       "title": "この世界で見つけたもの",
       "artist": "EGOIST",
-      "count": 11
-    },
-    {
-      "title": "アイネクライネ",
-      "artist": "米津玄師",
-      "count": 11
-    },
-    {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
       "count": 11
     },
     {
@@ -614,11 +619,6 @@
       "count": 11
     },
     {
-      "title": "私は最強",
-      "artist": "Ado",
-      "count": 11
-    },
-    {
       "title": "踊",
       "artist": "Ado",
       "count": 11
@@ -626,6 +626,11 @@
     {
       "title": "Booo!",
       "artist": "西沢さんP",
+      "count": 10
+    },
+    {
+      "title": "HARUKAZE",
+      "artist": "SCANDAL",
       "count": 10
     },
     {
@@ -666,6 +671,11 @@
     {
       "title": "カワキヲアメク",
       "artist": "美波",
+      "count": 10
+    },
+    {
+      "title": "ガーネット",
+      "artist": "奥華子",
       "count": 10
     },
     {
@@ -759,6 +769,11 @@
       "count": 10
     },
     {
+      "title": "盛れ!ミ・アモーレ",
+      "artist": "Juice=Juice",
+      "count": 10
+    },
+    {
       "title": "破滅の純情",
       "artist": "ワルキューレ",
       "count": 10
@@ -804,11 +819,6 @@
       "count": 9
     },
     {
-      "title": "HARUKAZE",
-      "artist": "SCANDAL",
-      "count": 9
-    },
-    {
       "title": "Mela!",
       "artist": "緑黄色社会",
       "count": 9
@@ -829,6 +839,11 @@
       "count": 9
     },
     {
+      "title": "ただ声一つ",
+      "artist": "ロクデナシ",
+      "count": 9
+    },
+    {
       "title": "とても素敵な六月でした",
       "artist": "Eight",
       "count": 9
@@ -841,11 +856,6 @@
     {
       "title": "エウテルペ",
       "artist": "EGOIST",
-      "count": 9
-    },
-    {
-      "title": "ガーネット",
-      "artist": "奥華子",
       "count": 9
     },
     {
@@ -944,11 +954,6 @@
       "count": 9
     },
     {
-      "title": "盛れ!ミ・アモーレ",
-      "artist": "Juice=Juice",
-      "count": 9
-    },
-    {
       "title": "神っぽいな",
       "artist": "ピノキオピー",
       "count": 9
@@ -999,6 +1004,11 @@
       "count": 8
     },
     {
+      "title": "Remember",
+      "artist": "月見ヤチヨ",
+      "count": 8
+    },
+    {
       "title": "Reply",
       "artist": "kz",
       "count": 8
@@ -1036,11 +1046,6 @@
     {
       "title": "そばかす",
       "artist": "JUDY AND MARY",
-      "count": 8
-    },
-    {
-      "title": "ただ声一つ",
-      "artist": "ロクデナシ",
       "count": 8
     },
     {
@@ -1254,11 +1259,6 @@
       "count": 7
     },
     {
-      "title": "Remember",
-      "artist": "月見ヤチヨ",
-      "count": 7
-    },
-    {
       "title": "Tot Musica",
       "artist": "Ado",
       "count": 7
@@ -1456,6 +1456,11 @@
     {
       "title": "打上花火",
       "artist": "DAOKO × 米津玄師",
+      "count": 7
+    },
+    {
+      "title": "月が綺麗ねと言われたい!",
+      "artist": "柿崎ユウタ",
       "count": 7
     },
     {
@@ -1731,11 +1736,6 @@
     {
       "title": "快晴",
       "artist": "Orangestar",
-      "count": 6
-    },
-    {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "柿崎ユウタ",
       "count": 6
     },
     {
@@ -3579,6 +3579,11 @@
       "count": 3
     },
     {
+      "title": "正解はひとつ!じゃない!!",
+      "artist": "ミルキィホームズ",
+      "count": 3
+    },
+    {
       "title": "泣き地蔵",
       "artist": "Vaundy",
       "count": 3
@@ -4899,11 +4904,6 @@
       "count": 2
     },
     {
-      "title": "正解はひとつ!じゃない!!",
-      "artist": "ミルキィホームズ",
-      "count": 2
-    },
-    {
       "title": "気まぐれメルシィ",
       "artist": "八王子P",
       "count": 2
@@ -6136,6 +6136,11 @@
     {
       "title": "クリスマスソング",
       "artist": "back number",
+      "count": 1
+    },
+    {
+      "title": "クリーム",
+      "artist": "yama",
       "count": 1
     },
     {
