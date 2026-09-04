@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1516,
-  "uniqueTitles": 1488,
+  "totalEntries": 1515,
+  "uniqueTitles": 1487,
   "uniqueArtists": 673,
   "songs": [
     {
@@ -699,6 +699,11 @@
       "count": 10
     },
     {
+      "title": "いのちの名前",
+      "artist": "木村弓",
+      "count": 10
+    },
+    {
       "title": "ただ声一つ",
       "artist": "ロクデナシ",
       "count": 10
@@ -871,11 +876,6 @@
     {
       "title": "träumerei",
       "artist": "LiSA",
-      "count": 9
-    },
-    {
-      "title": "いのちの名前",
-      "artist": "木村弓",
       "count": 9
     },
     {
@@ -5866,11 +5866,6 @@
     {
       "title": "いとしのエリー",
       "artist": "サザンオールスターズ",
-      "count": 1
-    },
-    {
-      "title": "いのちの歌",
-      "artist": "木村弓",
       "count": 1
     },
     {
