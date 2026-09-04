@@ -243,7 +243,9 @@ for (const [k, v] of Object.entries(titleArtists)) {
     // --- Setlist parser ---
     var TIMESTAMP_RE = /^\s*(\d{1,2}:\d{2}(?::\d{2})?)\s+(.+)$/;
     var RANGE_TS_RE = /^\s*(\d{1,2}:\d{2}(?::\d{2})?)\s*-\s*\d{1,2}:\d{2}(?::\d{2})?\s+(.+)$/;
-    var NUMBERING_RE = /^\d{1,3}[\.\)]\s*/;
+    // 點後面緊接數字時不算編號 —— 曲名本身就是小數的情況 (例: "8.32")
+    // scripts/lib/comment_parser.py の _NUMBERING_RE と同じ規則
+    var NUMBERING_RE = /^\d{1,3}[\.\)](?!\d)\s*/;
     var PREFIX_RE = /^(?:アンコール|encore|EN)[：:\s]+\s*/i;
     var SEPARATORS = [" / ", " ／ ", " - ", " − ", " ー "];
     var SKIP_TITLES = ["スタート","start","START","エンディング","ending","ENDING","雑談","トーク","休憩","配信開始","配信終了","開始","はじまり","始まり","オープニングトーク","エンディングトーク","MC"];
