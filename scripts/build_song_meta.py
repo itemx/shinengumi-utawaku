@@ -63,6 +63,11 @@ def validate(meta: dict[str, dict]) -> list[str]:
         d = m.get("durationSec")
         if d is not None and (not isinstance(d, int) or d <= 0 or d > 3600):
             errors.append(f"durationSec 異常 {d!r} @ {m['title']}")
+        ex = m.get("exempt")
+        if ex is not None and ex is not True:
+            errors.append(f"exempt は true のみ可 {ex!r} @ {m['title']}")
+        if ex and d is not None:
+            errors.append(f"exempt なのに durationSec がある @ {m['title']}")
     return errors
 
 
@@ -164,12 +169,17 @@ def _report(
     未補完 = song_meta.json 裡還沒有這筆（新曲）, 或 durationSec 是 null。
     tags 空陣列 **不算未補完** —— 項目已存在代表 Codex 看過了，
     「這首沒有適合的 tag」也是一種結論（例: 一般向 J-POP 以外的雜項）。
+
+    `"exempt": true` 的項目也不列 —— 查證過但公開資料查不到（同人／未發行原創曲等），
+    再列也只是每次都跳出來。排歌時長估算會 fallback 到平均值。
     """
     exclude = exclude or set()
     missing = [
         m
         for k, m in meta.items()
-        if (k in new_keys or m.get("durationSec") is None) and k not in exclude
+        if (k in new_keys or m.get("durationSec") is None)
+        and not m.get("exempt")
+        and k not in exclude
     ]
     if not missing:
         return ""
@@ -213,12 +223,14 @@ def _dumps(items: list[dict]) -> str:
         title = json.dumps(m["title"], ensure_ascii=False)
         artist = json.dumps(m.get("artist", ""), ensure_ascii=False)
         comma = "," if i < len(items) - 1 else ""
+        # exempt は稀なので、付いている項目だけ 5 行目として出す
+        exempt = ',\n    "exempt": true' if m.get("exempt") else ""
         lines.append(
             "  {\n"
             f"    \"title\": {title},\n"
             f"    \"artist\": {artist},\n"
             f"    \"tags\": {tags},\n"
-            f"    \"durationSec\": {dur}\n"
+            f"    \"durationSec\": {dur}{exempt}\n"
             f"  }}{comma}"
         )
     lines.append("]")

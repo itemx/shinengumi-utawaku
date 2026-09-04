@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1522,
-  "uniqueTitles": 1490,
-  "uniqueArtists": 675,
+  "totalEntries": 1516,
+  "uniqueTitles": 1488,
+  "uniqueArtists": 673,
   "songs": [
     {
       "title": "花に亡霊",
@@ -114,6 +114,16 @@
       "count": 19
     },
     {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 19
+    },
+    {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 19
+    },
+    {
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 19
@@ -144,14 +154,9 @@
       "count": 18
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 18
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
-      "count": 18
+      "title": "Tell Your World",
+      "artist": "kz (livetune)",
+      "count": 17
     },
     {
       "title": "カラフル",
@@ -196,11 +201,6 @@
     {
       "title": "Butter-Fly",
       "artist": "和田光司",
-      "count": 16
-    },
-    {
-      "title": "Tell Your World",
-      "artist": "kz (livetune)",
       "count": 16
     },
     {
@@ -654,6 +654,11 @@
       "count": 11
     },
     {
+      "title": "鏡面の波",
+      "artist": "YURiKA",
+      "count": 11
+    },
+    {
       "title": "青春コンプレックス",
       "artist": "結束バンド",
       "count": 11
@@ -821,11 +826,6 @@
     {
       "title": "言って。",
       "artist": "ヨルシカ",
-      "count": 10
-    },
-    {
-      "title": "鏡面の波",
-      "artist": "YURiKA",
       "count": 10
     },
     {
@@ -1519,6 +1519,11 @@
       "count": 7
     },
     {
+      "title": "粛聖!! ロリ神レクイエム",
+      "artist": "しぐれうい",
+      "count": 7
+    },
+    {
       "title": "蜜月アン・ドゥ・トロワ",
       "artist": "DATEKEN",
       "count": 7
@@ -1784,6 +1789,11 @@
       "count": 6
     },
     {
+      "title": "月陽 - ツキアカリ -",
+      "artist": "みきとP",
+      "count": 6
+    },
+    {
       "title": "気まぐれロマンティック",
       "artist": "いきものがかり",
       "count": 6
@@ -1811,11 +1821,6 @@
     {
       "title": "空の箱",
       "artist": "トゲナシトゲアリ",
-      "count": 6
-    },
-    {
-      "title": "粛聖!! ロリ神レクイエム",
-      "artist": "しぐれうい",
       "count": 6
     },
     {
@@ -2206,11 +2211,6 @@
     {
       "title": "曖昧劣情Lover",
       "artist": "koyori (電ポルP)",
-      "count": 5
-    },
-    {
-      "title": "月陽 - ツキアカリ -",
-      "artist": "みきとP",
       "count": 5
     },
     {
@@ -5119,7 +5119,7 @@
       "count": 1
     },
     {
-      "title": "1000年生きる",
+      "title": "1000年生きてる",
       "artist": "いよわ",
       "count": 1
     },
@@ -5706,11 +5706,6 @@
     {
       "title": "THIS ILLUSION",
       "artist": "乃藍",
-      "count": 1
-    },
-    {
-      "title": "Tell Your World",
-      "artist": "kz",
       "count": 1
     },
     {
@@ -7289,16 +7284,6 @@
       "count": 1
     },
     {
-      "title": "月光食堂",
-      "artist": "古川本舗",
-      "count": 1
-    },
-    {
-      "title": "月陽-ツキアカリ-",
-      "artist": "みきとP",
-      "count": 1
-    },
-    {
       "title": "木綿のハンカチーフ",
       "artist": "太田裕美",
       "count": 1
@@ -7374,11 +7359,6 @@
       "count": 1
     },
     {
-      "title": "深海のリトルクライ",
-      "artist": "sasakura.UK",
-      "count": 1
-    },
-    {
       "title": "深淵のデカダンス",
       "artist": "岡田梨央",
       "count": 1
@@ -7441,11 +7421,6 @@
     {
       "title": "粉雪",
       "artist": "レミオロメン",
-      "count": 1
-    },
-    {
-      "title": "粛清!!ロリ神レクイエム",
-      "artist": "しぐれうい",
       "count": 1
     },
     {
@@ -7566,11 +7541,6 @@
     {
       "title": "銀河鉄道999",
       "artist": "ゴダイゴ",
-      "count": 1
-    },
-    {
-      "title": "鏡面の波",
-      "artist": "YURIKA",
       "count": 1
     },
     {
@@ -7827,7 +7797,6 @@
     "YOASOBI",
     "YUI",
     "YUI for 雨音薫",
-    "YURIKA",
     "YURiKA",
     "Yunomi & nicamoq",
     "ZARD",
@@ -7884,7 +7853,6 @@
     "saiB",
     "samayuzame",
     "samfree",
-    "sasakura.UK",
     "sasakure.UK",
     "seiza",
     "serial TV drama",

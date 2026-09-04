@@ -39,6 +39,9 @@ python scripts/build_stats.py && python scripts/build_known_songs.py
 - `tags`：只能用下列英文受控字彙（完全一致的寫法），可複選（OR），不得自行增加類別：
   `anime vocaloid game tokusatsu idol j-pop k-pop western touhou doujin original ballad`
 - `durationSec`：原曲正式錄音室標準版的整數秒數（30–3600）；不採現場、翻唱、short 或混音版。查不到或無法可靠確認時填 `null`。
+- `exempt`：選填，只能是 `true`。意思是「查證過，但公開資料查不到正式尺」（同人／未發行原創曲等），
+  加上後不會再被列進未補完 issue。**必須同時 `durationSec: null`**，否則 `--validate` 會報錯。
+  排歌單的時長估算會 fallback 到全曲平均值。
 - 詳見 [data/SONG_META_GUIDE.md](data/SONG_META_GUIDE.md)。
 
 ### 誰來補（2026-08-25 起）

@@ -36,10 +36,10 @@
     "durationSec": 264
   },
   {
-    "title": "1000年生きる",
+    "title": "1000年生きてる",
     "artist": "いよわ",
-    "tags": [],
-    "durationSec": null
+    "tags": ["vocaloid"],
+    "durationSec": 204
   },
   {
     "title": "1・2・3",
@@ -1858,12 +1858,6 @@
     "artist": "虹ヶ咲学園スクールアイドル同好会",
     "tags": ["game", "anime", "idol", "j-pop"],
     "durationSec": 276
-  },
-  {
-    "title": "Tell Your World",
-    "artist": "kz",
-    "tags": [],
-    "durationSec": null
   },
   {
     "title": "Tell Your World",
@@ -7686,22 +7680,10 @@
     "durationSec": 282
   },
   {
-    "title": "月光食堂",
-    "artist": "古川本舗",
-    "tags": [],
-    "durationSec": null
-  },
-  {
     "title": "月陽 - ツキアカリ -",
     "artist": "みきとP",
     "tags": ["vocaloid"],
     "durationSec": 237
-  },
-  {
-    "title": "月陽-ツキアカリ-",
-    "artist": "みきとP",
-    "tags": [],
-    "durationSec": null
   },
   {
     "title": "有心論",
@@ -8008,12 +7990,6 @@
     "artist": "水樹奈々",
     "tags": ["anime", "game", "j-pop", "ballad"],
     "durationSec": 296
-  },
-  {
-    "title": "深海のリトルクライ",
-    "artist": "sasakura.UK",
-    "tags": [],
-    "durationSec": null
   },
   {
     "title": "深海のリトルクライ",
@@ -8398,12 +8374,6 @@
     "artist": "レミオロメン",
     "tags": ["j-pop", "ballad"],
     "durationSec": 322
-  },
-  {
-    "title": "粛清!!ロリ神レクイエム",
-    "artist": "しぐれうい",
-    "tags": [],
-    "durationSec": null
   },
   {
     "title": "粛聖!! ロリ神レクイエム",
@@ -8852,8 +8822,9 @@
   {
     "title": "邪教の秘術",
     "artist": "陽介",
-    "tags": [],
-    "durationSec": null
+    "tags": ["doujin"],
+    "durationSec": null,
+    "exempt": true
   },
   {
     "title": "邪魔",
@@ -8890,12 +8861,6 @@
     "artist": "TOOBOE",
     "tags": ["anime", "j-pop"],
     "durationSec": 205
-  },
-  {
-    "title": "鏡面の波",
-    "artist": "YURIKA",
-    "tags": [],
-    "durationSec": null
   },
   {
     "title": "鏡面の波",
