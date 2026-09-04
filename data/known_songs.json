@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1520,
-  "uniqueTitles": 1487,
+  "totalEntries": 1523,
+  "uniqueTitles": 1490,
   "uniqueArtists": 676,
   "songs": [
     {
@@ -21,7 +21,7 @@
     {
       "title": "晴る",
       "artist": "ヨルシカ",
-      "count": 25
+      "count": 26
     },
     {
       "title": "残響散歌",
@@ -59,6 +59,11 @@
       "count": 22
     },
     {
+      "title": "変わらないもの",
+      "artist": "奥華子",
+      "count": 21
+    },
+    {
       "title": "夜明けと蛍",
       "artist": "n-buna",
       "count": 21
@@ -91,11 +96,6 @@
     {
       "title": "グリグリメガネと月光蟲",
       "artist": "古川本舗",
-      "count": 20
-    },
-    {
-      "title": "変わらないもの",
-      "artist": "奥華子",
       "count": 20
     },
     {
@@ -309,8 +309,18 @@
       "count": 14
     },
     {
+      "title": "サマータイムレコード",
+      "artist": "じん",
+      "count": 14
+    },
+    {
       "title": "シリウスの心臓",
       "artist": "ヰ世界情緒",
+      "count": 14
+    },
+    {
+      "title": "ノーチラス",
+      "artist": "ヨルシカ",
       "count": 14
     },
     {
@@ -349,6 +359,11 @@
       "count": 14
     },
     {
+      "title": "Brave Shine",
+      "artist": "Aimer",
+      "count": 13
+    },
+    {
       "title": "Ghost of a smile",
       "artist": "EGOIST",
       "count": 13
@@ -359,8 +374,8 @@
       "count": 13
     },
     {
-      "title": "サマータイムレコード",
-      "artist": "じん",
+      "title": "アイネクライネ",
+      "artist": "米津玄師",
       "count": 13
     },
     {
@@ -371,11 +386,6 @@
     {
       "title": "ネクロネイディア",
       "artist": "渉海よひら",
-      "count": 13
-    },
-    {
-      "title": "ノーチラス",
-      "artist": "ヨルシカ",
       "count": 13
     },
     {
@@ -424,11 +434,6 @@
       "count": 13
     },
     {
-      "title": "Brave Shine",
-      "artist": "Aimer",
-      "count": 12
-    },
-    {
       "title": "GHOST",
       "artist": "星街すいせい",
       "count": 12
@@ -451,11 +456,6 @@
     {
       "title": "crossing field",
       "artist": "LiSA",
-      "count": 12
-    },
-    {
-      "title": "アイネクライネ",
-      "artist": "米津玄師",
       "count": 12
     },
     {
@@ -551,6 +551,16 @@
     {
       "title": "この世界で見つけたもの",
       "artist": "EGOIST",
+      "count": 11
+    },
+    {
+      "title": "カタオモイ",
+      "artist": "Aimer",
+      "count": 11
+    },
+    {
+      "title": "ガーネット",
+      "artist": "奥華子",
       "count": 11
     },
     {
@@ -679,18 +689,13 @@
       "count": 10
     },
     {
-      "title": "カタオモイ",
-      "artist": "Aimer",
-      "count": 10
-    },
-    {
-      "title": "ガーネット",
-      "artist": "奥華子",
-      "count": 10
-    },
-    {
       "title": "スーパー・ノヴァ",
       "artist": "古川本舗",
+      "count": 10
+    },
+    {
+      "title": "セレナーデ",
+      "artist": "なとり",
       "count": 10
     },
     {
@@ -766,6 +771,11 @@
     {
       "title": "想いを巡らす100の事象",
       "artist": "EGOIST",
+      "count": 10
+    },
+    {
+      "title": "明け星",
+      "artist": "LiSA",
       "count": 10
     },
     {
@@ -894,11 +904,6 @@
       "count": 9
     },
     {
-      "title": "セレナーデ",
-      "artist": "なとり",
-      "count": 9
-    },
-    {
       "title": "ノーダウト",
       "artist": "Official髭男dism",
       "count": 9
@@ -951,11 +956,6 @@
     {
       "title": "振り向いてGOD",
       "artist": "涼風しとら",
-      "count": 9
-    },
-    {
-      "title": "明け星",
-      "artist": "LiSA",
       "count": 9
     },
     {
@@ -1069,6 +1069,11 @@
       "count": 8
     },
     {
+      "title": "アサガオの散る頃に",
+      "artist": "じっぷす",
+      "count": 8
+    },
+    {
       "title": "インフェルノ",
       "artist": "Mrs. GREEN APPLE",
       "count": 8
@@ -1161,6 +1166,16 @@
     {
       "title": "千本桜",
       "artist": "黒うさP",
+      "count": 8
+    },
+    {
+      "title": "千鳥",
+      "artist": "ヨルシカ",
+      "count": 8
+    },
+    {
+      "title": "夕立のりぼん",
+      "artist": "みきとP",
       "count": 8
     },
     {
@@ -1304,11 +1319,6 @@
       "count": 7
     },
     {
-      "title": "アサガオの散る頃に",
-      "artist": "じっぷす",
-      "count": 7
-    },
-    {
       "title": "アメヲマツ、",
       "artist": "美波",
       "count": 7
@@ -1419,11 +1429,6 @@
       "count": 7
     },
     {
-      "title": "千鳥",
-      "artist": "ヨルシカ",
-      "count": 7
-    },
-    {
       "title": "君と夏フェス",
       "artist": "SHISHAMO",
       "count": 7
@@ -1446,11 +1451,6 @@
     {
       "title": "垂直落下",
       "artist": "傘村トータ",
-      "count": 7
-    },
-    {
-      "title": "夕立のりぼん",
-      "artist": "みきとP",
       "count": 7
     },
     {
@@ -1604,6 +1604,11 @@
       "count": 6
     },
     {
+      "title": "orion",
+      "artist": "米津玄師",
+      "count": 6
+    },
+    {
       "title": "rain stops, good-bye",
       "artist": "におP",
       "count": 6
@@ -1716,6 +1721,11 @@
     {
       "title": "ユキトキ",
       "artist": "やなぎなぎ",
+      "count": 6
+    },
+    {
+      "title": "ライラック",
+      "artist": "Mrs. GREEN APPLE",
       "count": 6
     },
     {
@@ -1934,11 +1944,6 @@
       "count": 5
     },
     {
-      "title": "orion",
-      "artist": "米津玄師",
-      "count": 5
-    },
-    {
       "title": "resonance",
       "artist": "T.M.Revolution",
       "count": 5
@@ -1961,6 +1966,11 @@
     {
       "title": "うまぴょい伝説",
       "artist": "ウマ娘 プリティーダービー",
+      "count": 5
+    },
+    {
+      "title": "お勉強しといてよ",
+      "artist": "ずっと真夜中でいいのに。",
       "count": 5
     },
     {
@@ -2044,6 +2054,11 @@
       "count": 5
     },
     {
+      "title": "ジェットロケット",
+      "artist": "LiSA",
+      "count": 5
+    },
+    {
       "title": "ダーリン",
       "artist": "須田景凪",
       "count": 5
@@ -2086,11 +2101,6 @@
     {
       "title": "メーベル",
       "artist": "バルーン",
-      "count": 5
-    },
-    {
-      "title": "ライラック",
-      "artist": "Mrs. GREEN APPLE",
       "count": 5
     },
     {
@@ -2151,6 +2161,11 @@
     {
       "title": "恋風邪にのせて",
       "artist": "Vaundy",
+      "count": 5
+    },
+    {
+      "title": "想像フォレスト",
+      "artist": "じん",
       "count": 5
     },
     {
@@ -2394,6 +2409,11 @@
       "count": 4
     },
     {
+      "title": "StaRt",
+      "artist": "Mrs. GREEN APPLE",
+      "count": 4
+    },
+    {
       "title": "TESTAMENT",
       "artist": "水樹奈々",
       "count": 4
@@ -2431,11 +2451,6 @@
     {
       "title": "おじゃま虫",
       "artist": "DECO*27",
-      "count": 4
-    },
-    {
-      "title": "お勉強しといてよ",
-      "artist": "ずっと真夜中でいいのに。",
       "count": 4
     },
     {
@@ -2531,11 +2546,6 @@
     {
       "title": "シネマ",
       "artist": "Ayase",
-      "count": 4
-    },
-    {
-      "title": "ジェットロケット",
-      "artist": "LiSA",
       "count": 4
     },
     {
@@ -2726,11 +2736,6 @@
     {
       "title": "恋は渾沌の隷也",
       "artist": "後ろから這いより隊G",
-      "count": 4
-    },
-    {
-      "title": "想像フォレスト",
-      "artist": "じん",
       "count": 4
     },
     {
@@ -2996,11 +3001,6 @@
     {
       "title": "Sincerely",
       "artist": "TRUE",
-      "count": 3
-    },
-    {
-      "title": "StaRt",
-      "artist": "Mrs. GREEN APPLE",
       "count": 3
     },
     {
@@ -3466,6 +3466,16 @@
     {
       "title": "夏色えがおで1,2,Jump!",
       "artist": "μ's",
+      "count": 3
+    },
+    {
+      "title": "夕景イエスタデイ",
+      "artist": "じん",
+      "count": 3
+    },
+    {
+      "title": "夜咄ディセイブ",
+      "artist": "じん",
       "count": 3
     },
     {
@@ -4759,16 +4769,6 @@
       "count": 2
     },
     {
-      "title": "夕景イエスタデイ",
-      "artist": "じん",
-      "count": 2
-    },
-    {
-      "title": "夜咄ディセイブ",
-      "artist": "じん",
-      "count": 2
-    },
-    {
       "title": "夜桜",
       "artist": "くじら",
       "count": 2
@@ -4831,6 +4831,11 @@
     {
       "title": "少女A",
       "artist": "中森明菜",
+      "count": 2
+    },
+    {
+      "title": "少年ブレイヴ",
+      "artist": "じん",
       "count": 2
     },
     {
@@ -5001,6 +5006,11 @@
     {
       "title": "絶え間なく藍色",
       "artist": "Choisauce (獅子志司)",
+      "count": 2
+    },
+    {
+      "title": "罪人",
+      "artist": "LiSA",
       "count": 2
     },
     {
@@ -5666,6 +5676,11 @@
     {
       "title": "Strawberry Trapper",
       "artist": "Guilty Kiss",
+      "count": 1
+    },
+    {
+      "title": "Sunflower",
+      "artist": "Orangestar",
       "count": 1
     },
     {
@@ -6379,6 +6394,11 @@
       "count": 1
     },
     {
+      "title": "チルドレンレコード",
+      "artist": "じん",
+      "count": 1
+    },
+    {
       "title": "ツギハギスタッカート",
       "artist": "とあ",
       "count": 1
@@ -6829,6 +6849,11 @@
       "count": 1
     },
     {
+      "title": "ロスタイムメモリー",
+      "artist": "じん",
+      "count": 1
+    },
+    {
       "title": "ロストワンの号哭",
       "artist": "Neru",
       "count": 1
@@ -7101,11 +7126,6 @@
     {
       "title": "少女A",
       "artist": "椎名もた",
-      "count": 1
-    },
-    {
-      "title": "少年ブレイヴ",
-      "artist": "じん",
       "count": 1
     },
     {
@@ -7471,11 +7491,6 @@
     {
       "title": "絶対零度θノヴァティック",
       "artist": "ワルキューレ",
-      "count": 1
-    },
-    {
-      "title": "罪人",
-      "artist": "LiSA",
       "count": 1
     },
     {
