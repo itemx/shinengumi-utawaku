@@ -36,6 +36,12 @@
     "durationSec": 264
   },
   {
+    "title": "1000年生きる",
+    "artist": "いよわ",
+    "tags": [],
+    "durationSec": null
+  },
+  {
     "title": "1・2・3",
     "artist": "After the Rain",
     "tags": ["anime", "j-pop"],
@@ -58,6 +64,12 @@
     "artist": "瀬名航",
     "tags": ["vocaloid"],
     "durationSec": 207
+  },
+  {
+    "title": "8.32",
+    "artist": "*Luna",
+    "tags": ["vocaloid", "ballad"],
+    "durationSec": 250
   },
   {
     "title": "A Dream Is a Wish Your Heart Makes",
@@ -190,6 +202,12 @@
     "artist": "μ's",
     "tags": ["anime", "idol", "j-pop"],
     "durationSec": 296
+  },
+  {
+    "title": "Anything Goes!",
+    "artist": "大黒摩季",
+    "tags": ["tokusatsu", "j-pop"],
+    "durationSec": 211
   },
   {
     "title": "BALALAIKA",
@@ -1014,6 +1032,12 @@
     "durationSec": 143
   },
   {
+    "title": "JANE DOE",
+    "artist": "米津玄師, 宇多田ヒカル",
+    "tags": ["anime", "j-pop", "ballad"],
+    "durationSec": 235
+  },
+  {
     "title": "JINGO JUNGLE",
     "artist": "MYTH & ROID",
     "tags": ["anime", "j-pop"],
@@ -1258,6 +1282,12 @@
     "artist": "ジミーサムP",
     "tags": ["vocaloid"],
     "durationSec": 258
+  },
+  {
+    "title": "No buts!",
+    "artist": "川田まみ",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 217
   },
   {
     "title": "No pain, No game",
@@ -1644,6 +1674,12 @@
     "durationSec": 210
   },
   {
+    "title": "SWEET MEMORIES",
+    "artist": "松田聖子",
+    "tags": ["idol", "j-pop", "ballad"],
+    "durationSec": 278
+  },
+  {
     "title": "Say!ファンファーレ!",
     "artist": "白上フブキ",
     "tags": ["original", "j-pop"],
@@ -1764,6 +1800,12 @@
     "durationSec": 235
   },
   {
+    "title": "Sunflower",
+    "artist": "Orangestar",
+    "tags": ["j-pop", "ballad"],
+    "durationSec": 213
+  },
+  {
     "title": "Super Driver",
     "artist": "平野綾",
     "tags": ["anime", "j-pop"],
@@ -1774,6 +1816,12 @@
     "artist": "BLUE ENCOUNT",
     "tags": ["anime", "j-pop"],
     "durationSec": 221
+  },
+  {
+    "title": "Sweets Parade",
+    "artist": "髏々宮カルタ (花澤香菜)",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 239
   },
   {
     "title": "Synchrogazer",
@@ -1810,6 +1858,12 @@
     "artist": "虹ヶ咲学園スクールアイドル同好会",
     "tags": ["game", "anime", "idol", "j-pop"],
     "durationSec": 276
+  },
+  {
+    "title": "Tell Your World",
+    "artist": "kz",
+    "tags": [],
+    "durationSec": null
   },
   {
     "title": "Tell Your World",
@@ -1882,6 +1936,12 @@
     "artist": "ピンク・レディー",
     "tags": ["idol", "j-pop"],
     "durationSec": 191
+  },
+  {
+    "title": "ULTRA C",
+    "artist": "Giga × TeddyLoid",
+    "tags": ["vocaloid", "game"],
+    "durationSec": 180
   },
   {
     "title": "UNDEAD",
@@ -2202,6 +2262,12 @@
     "durationSec": 218
   },
   {
+    "title": "mosi mosi?",
+    "artist": "楽音",
+    "tags": ["j-pop"],
+    "durationSec": 164
+  },
+  {
     "title": "no face",
     "artist": "Embellir Gift",
     "tags": ["idol", "original"],
@@ -2284,6 +2350,12 @@
     "artist": "髏々宮カルタ (花澤香菜)",
     "tags": ["anime", "j-pop"],
     "durationSec": 240
+  },
+  {
+    "title": "to the beginning",
+    "artist": "Kalafina",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 256
   },
   {
     "title": "truth",
@@ -2488,6 +2560,12 @@
     "artist": "木村弓",
     "tags": ["anime", "j-pop", "ballad"],
     "durationSec": 231
+  },
+  {
+    "title": "いのちの歌",
+    "artist": "木村弓",
+    "tags": [],
+    "durationSec": null
   },
   {
     "title": "いろは唄",
@@ -2974,6 +3052,12 @@
     "artist": "ZOC",
     "tags": ["idol", "j-pop"],
     "durationSec": 221
+  },
+  {
+    "title": "みちしるべ",
+    "artist": "茅原実里",
+    "tags": ["anime", "j-pop", "ballad"],
+    "durationSec": 287
   },
   {
     "title": "みむかゥわナイストライ",
@@ -3732,6 +3816,12 @@
     "durationSec": 341
   },
   {
+    "title": "クリーム",
+    "artist": "yama",
+    "tags": ["j-pop", "ballad"],
+    "durationSec": 218
+  },
+  {
     "title": "グッバイ宣言",
     "artist": "Chinozo",
     "tags": ["vocaloid"],
@@ -3754,6 +3844,12 @@
     "artist": "神宿",
     "tags": ["idol", "j-pop"],
     "durationSec": 247
+  },
+  {
+    "title": "グレーテのいない星",
+    "artist": "傘村トータ",
+    "tags": ["vocaloid", "ballad"],
+    "durationSec": 306
   },
   {
     "title": "ケッペキショウ",
@@ -3928,6 +4024,12 @@
     "artist": "みきとP",
     "tags": ["vocaloid", "ballad"],
     "durationSec": 273
+  },
+  {
+    "title": "シザーハンズ",
+    "artist": "Nem",
+    "tags": ["vocaloid", "ballad"],
+    "durationSec": 277
   },
   {
     "title": "シニカルナイトプラン",
@@ -4308,6 +4410,12 @@
     "durationSec": 226
   },
   {
+    "title": "チルドレンレコード",
+    "artist": "じん",
+    "tags": ["vocaloid"],
+    "durationSec": 182
+  },
+  {
     "title": "ツキアカリのミチシルベ",
     "artist": "ステレオポニー",
     "tags": ["anime", "j-pop", "ballad"],
@@ -4668,6 +4776,12 @@
     "durationSec": 172
   },
   {
+    "title": "バスターズ レディーゴー!",
+    "artist": "高橋秀幸",
+    "tags": ["tokusatsu", "j-pop"],
+    "durationSec": 238
+  },
+  {
     "title": "バチモリーナ",
     "artist": "iON!",
     "tags": ["idol", "j-pop"],
@@ -4864,6 +4978,12 @@
     "artist": "和田たけあき (くらげP)",
     "tags": ["vocaloid"],
     "durationSec": 200
+  },
+  {
+    "title": "ピエロ",
+    "artist": "KEI",
+    "tags": ["vocaloid", "ballad"],
+    "durationSec": 297
   },
   {
     "title": "ピンヒールサーファー",
@@ -5706,6 +5826,12 @@
     "durationSec": 231
   },
   {
+    "title": "ロスタイムメモリー",
+    "artist": "じん",
+    "tags": ["vocaloid"],
+    "durationSec": 289
+  },
+  {
     "title": "ロストワンの号哭",
     "artist": "Neru",
     "tags": ["vocaloid"],
@@ -5878,6 +6004,12 @@
     "artist": "YOASOBI",
     "tags": ["j-pop"],
     "durationSec": 224
+  },
+  {
+    "title": "三日月",
+    "artist": "絢香",
+    "tags": ["j-pop", "ballad"],
+    "durationSec": 283
   },
   {
     "title": "三日月ステップ",
@@ -6634,6 +6766,12 @@
     "artist": "こんにちは谷田さん",
     "tags": ["vocaloid", "ballad"],
     "durationSec": 263
+  },
+  {
+    "title": "大きな愛でもてなして",
+    "artist": "°C-ute",
+    "tags": ["idol", "j-pop"],
+    "durationSec": 194
   },
   {
     "title": "天ノ弱",
@@ -7548,10 +7686,22 @@
     "durationSec": 282
   },
   {
+    "title": "月光食堂",
+    "artist": "古川本舗",
+    "tags": [],
+    "durationSec": null
+  },
+  {
     "title": "月陽 - ツキアカリ -",
     "artist": "みきとP",
     "tags": ["vocaloid"],
     "durationSec": 237
+  },
+  {
+    "title": "月陽-ツキアカリ-",
+    "artist": "みきとP",
+    "tags": [],
+    "durationSec": null
   },
   {
     "title": "有心論",
@@ -7858,6 +8008,12 @@
     "artist": "水樹奈々",
     "tags": ["anime", "game", "j-pop", "ballad"],
     "durationSec": 296
+  },
+  {
+    "title": "深海のリトルクライ",
+    "artist": "sasakura.UK",
+    "tags": [],
+    "durationSec": null
   },
   {
     "title": "深海のリトルクライ",
@@ -8244,6 +8400,12 @@
     "durationSec": 322
   },
   {
+    "title": "粛清!!ロリ神レクイエム",
+    "artist": "しぐれうい",
+    "tags": [],
+    "durationSec": null
+  },
+  {
     "title": "粛聖!! ロリ神レクイエム",
     "artist": "しぐれうい",
     "tags": ["original", "j-pop"],
@@ -8398,6 +8560,12 @@
     "artist": "キタニタツヤ",
     "tags": ["anime", "j-pop"],
     "durationSec": 177
+  },
+  {
+    "title": "背景、夏に溺れる",
+    "artist": "n-buna",
+    "tags": ["vocaloid", "ballad"],
+    "durationSec": 314
   },
   {
     "title": "脳内革命ガール",
@@ -8682,6 +8850,12 @@
     "durationSec": 238
   },
   {
+    "title": "邪教の秘術",
+    "artist": "陽介",
+    "tags": [],
+    "durationSec": null
+  },
+  {
     "title": "邪魔",
     "artist": "syudou",
     "tags": ["vocaloid"],
@@ -8716,6 +8890,12 @@
     "artist": "TOOBOE",
     "tags": ["anime", "j-pop"],
     "durationSec": 205
+  },
+  {
+    "title": "鏡面の波",
+    "artist": "YURIKA",
+    "tags": [],
+    "durationSec": null
   },
   {
     "title": "鏡面の波",
