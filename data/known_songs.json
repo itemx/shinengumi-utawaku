@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1514,
-  "uniqueTitles": 1483,
-  "uniqueArtists": 674,
+  "totalEntries": 1520,
+  "uniqueTitles": 1487,
+  "uniqueArtists": 676,
   "songs": [
     {
       "title": "花に亡霊",
@@ -104,6 +104,16 @@
       "count": 19
     },
     {
+      "title": "ビビデバ",
+      "artist": "星街すいせい",
+      "count": 19
+    },
+    {
+      "title": "モニタリング",
+      "artist": "DECO*27",
+      "count": 19
+    },
+    {
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 19
@@ -114,18 +124,8 @@
       "count": 18
     },
     {
-      "title": "ビビデバ",
-      "artist": "星街すいせい",
-      "count": 18
-    },
-    {
       "title": "プロポーズ",
       "artist": "なとり",
-      "count": 18
-    },
-    {
-      "title": "モニタリング",
-      "artist": "DECO*27",
       "count": 18
     },
     {
@@ -314,6 +314,11 @@
       "count": 14
     },
     {
+      "title": "ヒバナ",
+      "artist": "DECO*27",
+      "count": 14
+    },
+    {
       "title": "一番の宝物",
       "artist": "Girls Dead Monster",
       "count": 14
@@ -381,11 +386,6 @@
     {
       "title": "ハロ/ハワユ",
       "artist": "ナノウ",
-      "count": 13
-    },
-    {
-      "title": "ヒバナ",
-      "artist": "DECO*27",
       "count": 13
     },
     {
@@ -461,6 +461,11 @@
     {
       "title": "アスノヨゾラ哨戒班",
       "artist": "Orangestar",
+      "count": 12
+    },
+    {
+      "title": "カワキヲアメク",
+      "artist": "美波",
       "count": 12
     },
     {
@@ -546,11 +551,6 @@
     {
       "title": "この世界で見つけたもの",
       "artist": "EGOIST",
-      "count": 11
-    },
-    {
-      "title": "カワキヲアメク",
-      "artist": "美波",
       "count": 11
     },
     {
@@ -1149,6 +1149,11 @@
       "count": 8
     },
     {
+      "title": "レクイエム",
+      "artist": "Kanaria",
+      "count": 8
+    },
+    {
       "title": "会いたくて",
       "artist": "Ado",
       "count": 8
@@ -1404,11 +1409,6 @@
       "count": 7
     },
     {
-      "title": "レクイエム",
-      "artist": "Kanaria",
-      "count": 7
-    },
-    {
       "title": "レディメイド",
       "artist": "Ado",
       "count": 7
@@ -1439,8 +1439,18 @@
       "count": 7
     },
     {
+      "title": "回る空うさぎ",
+      "artist": "Orangestar",
+      "count": 7
+    },
+    {
       "title": "垂直落下",
       "artist": "傘村トータ",
+      "count": 7
+    },
+    {
+      "title": "夕立のりぼん",
+      "artist": "みきとP",
       "count": 7
     },
     {
@@ -1486,6 +1496,11 @@
     {
       "title": "永遠のあくる日",
       "artist": "Ado",
+      "count": 7
+    },
+    {
+      "title": "浴槽とネオンテトラ",
+      "artist": "REISAI",
       "count": 7
     },
     {
@@ -1739,18 +1754,8 @@
       "count": 6
     },
     {
-      "title": "回る空うさぎ",
-      "artist": "Orangestar",
-      "count": 6
-    },
-    {
       "title": "回レ!雪月花",
       "artist": "歌組雪月花",
-      "count": 6
-    },
-    {
-      "title": "夕立のりぼん",
-      "artist": "みきとP",
       "count": 6
     },
     {
@@ -1771,11 +1776,6 @@
     {
       "title": "水平線",
       "artist": "back number",
-      "count": 6
-    },
-    {
-      "title": "浴槽とネオンテトラ",
-      "artist": "REISAI",
       "count": 6
     },
     {
@@ -2784,6 +2784,11 @@
       "count": 4
     },
     {
+      "title": "百花繚乱",
+      "artist": "幾田りら",
+      "count": 4
+    },
+    {
       "title": "瞬間ハートビート",
       "artist": "ReGLOSS",
       "count": 4
@@ -3631,11 +3636,6 @@
     {
       "title": "物語りのワルツ",
       "artist": "ヰ世界情緒",
-      "count": 3
-    },
-    {
-      "title": "百花繚乱",
-      "artist": "幾田りら",
       "count": 3
     },
     {
@@ -4754,6 +4754,11 @@
       "count": 2
     },
     {
+      "title": "夏に去りし君を想フ",
+      "artist": "baker",
+      "count": 2
+    },
+    {
       "title": "夕景イエスタデイ",
       "artist": "じん",
       "count": 2
@@ -5679,6 +5684,11 @@
       "count": 1
     },
     {
+      "title": "Tell Your World",
+      "artist": "kz",
+      "count": 1
+    },
+    {
       "title": "That Is How I Roll!",
       "artist": "Afterglow",
       "count": 1
@@ -5686,6 +5696,11 @@
     {
       "title": "UFO",
       "artist": "ピンク・レディー",
+      "count": 1
+    },
+    {
+      "title": "ULTRA C",
+      "artist": "Giga × TeddyLoid",
       "count": 1
     },
     {
@@ -5786,6 +5801,11 @@
     {
       "title": "sweets parade",
       "artist": "髏々宮カルタ (花澤香菜)",
+      "count": 1
+    },
+    {
+      "title": "to the beginning",
+      "artist": "Kalafina",
       "count": 1
     },
     {
@@ -7014,13 +7034,13 @@
       "count": 1
     },
     {
-      "title": "夏に去りし君を想フ",
-      "artist": "baker",
+      "title": "夜撫でるメノウ",
+      "artist": "Ayase",
       "count": 1
     },
     {
-      "title": "夜撫でるメノウ",
-      "artist": "Ayase",
+      "title": "大きな愛でもてなして",
+      "artist": "°C-ute",
       "count": 1
     },
     {
@@ -7251,6 +7271,16 @@
     {
       "title": "月光",
       "artist": "鬼束ちひろ",
+      "count": 1
+    },
+    {
+      "title": "月光食堂",
+      "artist": "古川本舗",
+      "count": 1
+    },
+    {
+      "title": "月陽-ツキアカリ-",
+      "artist": "みきとP",
       "count": 1
     },
     {
@@ -7661,6 +7691,7 @@
     "GRe4N BOYZ",
     "GReeeeN",
     "Giga",
+    "Giga × TeddyLoid",
     "Giga, Mitchie M",
     "Giga,KIRA",
     "Girls Dead Monster",
@@ -7857,6 +7888,7 @@
     "yama",
     "yamada",
     "yuigot",
+    "°C-ute",
     "μ's",
     "≠ME",
     "あいみょん",

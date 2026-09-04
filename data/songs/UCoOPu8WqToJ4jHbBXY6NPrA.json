@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-04T10:04:06.706559+00:00",
+  "lastFetched": "2026-09-04T10:05:12.358520+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -18616,6 +18616,159 @@
         }
       ],
       "sourceCommentId": "issue#81",
+      "type": "stream"
+    },
+    {
+      "videoId": "CwL8Ml__2JM",
+      "title": "【 #歌枠 / #karaoke 】SINGING STREAM！初見さん見つけてください✨ボカロ多め！深夜の歌枠！【 #渉海よひら /深淵組】",
+      "publishedAt": "2025-02-22T18:01:20Z",
+      "songs": [
+        {
+          "timestamp": "17:06",
+          "seconds": 1026,
+          "title": "レクイエム",
+          "titleRaw": "レクイエム",
+          "artist": "Kanaria",
+          "artistRaw": "Kanaria",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=1026"
+        },
+        {
+          "timestamp": "25:18",
+          "seconds": 1518,
+          "title": "月陽-ツキアカリ-",
+          "titleRaw": "月陽-ツキアカリ-",
+          "artist": "みきとP",
+          "artistRaw": "みきとP",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=1518"
+        },
+        {
+          "timestamp": "32:39",
+          "seconds": 1959,
+          "title": "夕立のりぼん",
+          "titleRaw": "夕立のりぼん",
+          "artist": "みきとP",
+          "artistRaw": "みきとP",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=1959"
+        },
+        {
+          "timestamp": "40:23",
+          "seconds": 2423,
+          "title": "ヒバナ",
+          "titleRaw": "ヒバナ",
+          "artist": "DECO*27",
+          "artistRaw": "DECO*27",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=2423"
+        },
+        {
+          "timestamp": "45:16",
+          "seconds": 2716,
+          "title": "Tell Your World",
+          "titleRaw": "Tell Your World",
+          "artist": "kz",
+          "artistRaw": "kz",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=2716"
+        },
+        {
+          "timestamp": "53:06",
+          "seconds": 3186,
+          "title": "夏に去りし君を想フ",
+          "titleRaw": "夏に去りし君を想フ",
+          "artist": "baker",
+          "artistRaw": "baker",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=3186"
+        },
+        {
+          "timestamp": "59:50",
+          "seconds": 3590,
+          "title": "月光食堂",
+          "titleRaw": "月光食堂",
+          "artist": "古川本舗",
+          "artistRaw": "古川本舗",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=3590"
+        },
+        {
+          "timestamp": "1:07:17",
+          "seconds": 4037,
+          "title": "回る空うさぎ",
+          "titleRaw": "回る空うさぎ",
+          "artist": "Orangestar",
+          "artistRaw": "Orangestar",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=4037"
+        },
+        {
+          "timestamp": "1:13:03",
+          "seconds": 4383,
+          "title": "浴槽とネオンテトラ",
+          "titleRaw": "浴槽とネオンテトラ",
+          "artist": "REISAI",
+          "artistRaw": "REISAI",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=4383"
+        },
+        {
+          "timestamp": "1:21:03",
+          "seconds": 4863,
+          "title": "カワキヲアメク",
+          "titleRaw": "カワキヲアメク",
+          "artist": "美波",
+          "artistRaw": "美波",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=4863"
+        },
+        {
+          "timestamp": "1:31:59",
+          "seconds": 5519,
+          "title": "ビビデバ",
+          "titleRaw": "ビビデバ",
+          "artist": "星街すいせい",
+          "artistRaw": "星街すいせい",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=5519"
+        },
+        {
+          "timestamp": "1:35:52",
+          "seconds": 5752,
+          "title": "ULTRA C",
+          "titleRaw": "ULTRA C",
+          "artist": "Giga × TeddyLoid",
+          "artistRaw": "Giga × TeddyLoid",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=5752"
+        },
+        {
+          "timestamp": "1:42:35",
+          "seconds": 6155,
+          "title": "百花繚乱",
+          "titleRaw": "百花繚乱",
+          "artist": "幾田りら",
+          "artistRaw": "幾田りら",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=6155"
+        },
+        {
+          "timestamp": "1:57:03",
+          "seconds": 7023,
+          "title": "to the beginning",
+          "titleRaw": "to the beginning",
+          "artist": "Kalafina",
+          "artistRaw": "Kalafina",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=7023"
+        },
+        {
+          "timestamp": "2:07:10",
+          "seconds": 7630,
+          "title": "大きな愛でもてなして",
+          "titleRaw": "大きな愛でもてなして",
+          "artist": "°C-ute",
+          "artistRaw": "°C-ute",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=7630"
+        },
+        {
+          "timestamp": "2:23:07",
+          "seconds": 8587,
+          "title": "モニタリング",
+          "titleRaw": "モニタリング",
+          "artist": "DECO*27",
+          "artistRaw": "DECO*27",
+          "url": "https://youtu.be/CwL8Ml__2JM?t=8587"
+        }
+      ],
+      "sourceCommentId": "issue#80",
       "type": "stream"
     }
   ]
