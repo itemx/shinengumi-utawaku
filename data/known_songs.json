@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1510,
-  "uniqueTitles": 1479,
-  "uniqueArtists": 671,
+  "totalEntries": 1511,
+  "uniqueTitles": 1480,
+  "uniqueArtists": 672,
   "songs": [
     {
       "title": "花に亡霊",
@@ -639,6 +639,11 @@
       "count": 10
     },
     {
+      "title": "Rising Hope",
+      "artist": "LiSA",
+      "count": 10
+    },
+    {
       "title": "Rolling star",
       "artist": "YUI",
       "count": 10
@@ -839,8 +844,8 @@
       "count": 9
     },
     {
-      "title": "Rising Hope",
-      "artist": "LiSA",
+      "title": "only my railgun",
+      "artist": "fripSide",
       "count": 9
     },
     {
@@ -1036,11 +1041,6 @@
     {
       "title": "give it back",
       "artist": "Cö shu Nie",
-      "count": 8
-    },
-    {
-      "title": "only my railgun",
-      "artist": "fripSide",
       "count": 8
     },
     {
@@ -1346,6 +1346,11 @@
     {
       "title": "ツキアカリのミチシルベ",
       "artist": "ステレオポニー",
+      "count": 7
+    },
+    {
+      "title": "トライアングラー",
+      "artist": "坂本真綾",
       "count": 7
     },
     {
@@ -1669,11 +1674,6 @@
       "count": 6
     },
     {
-      "title": "トライアングラー",
-      "artist": "坂本真綾",
-      "count": 6
-    },
-    {
       "title": "ハルジオン",
       "artist": "YOASOBI",
       "count": 6
@@ -1876,6 +1876,11 @@
     {
       "title": "Plazma",
       "artist": "米津玄師",
+      "count": 5
+    },
+    {
+      "title": "Rally Go Round",
+      "artist": "LiSA",
       "count": 5
     },
     {
@@ -2355,11 +2360,6 @@
     },
     {
       "title": "Psychedelic Drive",
-      "artist": "LiSA",
-      "count": 4
-    },
-    {
-      "title": "Rally Go Round",
       "artist": "LiSA",
       "count": 4
     },
@@ -4999,6 +4999,11 @@
       "count": 2
     },
     {
+      "title": "聖少女領域",
+      "artist": "ALI PROJECT",
+      "count": 2
+    },
+    {
       "title": "聖者の行進",
       "artist": "キタニタツヤ",
       "count": 2
@@ -5501,6 +5506,11 @@
     {
       "title": "No Logic",
       "artist": "ジミーサムP",
+      "count": 1
+    },
+    {
+      "title": "No buts!",
+      "artist": "川田まみ",
       "count": 1
     },
     {
@@ -7424,11 +7434,6 @@
       "count": 1
     },
     {
-      "title": "聖少女領域",
-      "artist": "ALI PROJECT",
-      "count": 1
-    },
-    {
       "title": "聖槍爆裂ボーイ",
       "artist": "れるりり,もじゃ",
       "count": 1
@@ -8069,6 +8074,7 @@
     "島村卯月 (大橋彩香)",
     "島谷ひとみ",
     "嵐",
+    "川田まみ",
     "工藤真由",
     "帝国歌劇団",
     "常闇トワ",

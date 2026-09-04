@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-04T10:03:28.549854+00:00",
+  "lastFetched": "2026-09-04T10:03:45.410997+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -18436,6 +18436,69 @@
         }
       ],
       "sourceCommentId": "issue#83",
+      "type": "stream"
+    },
+    {
+      "videoId": "VZk4ibizrrk",
+      "title": "【 #歌枠 / #karaoke 】寒くなってきましたね！歌であなたを温めます！ / SINGING STREAM 初見さん見つけてください✨【 #渉海よひら /深淵組】",
+      "publishedAt": "2025-10-23T23:14:48Z",
+      "songs": [
+        {
+          "timestamp": "14:48",
+          "seconds": 888,
+          "title": "トライアングラー",
+          "titleRaw": "トライアングラー",
+          "artist": "坂本真綾",
+          "artistRaw": "坂本真綾",
+          "url": "https://youtu.be/VZk4ibizrrk?t=888"
+        },
+        {
+          "timestamp": "25:21",
+          "seconds": 1521,
+          "title": "聖少女領域",
+          "titleRaw": "聖少女領域",
+          "artist": "ALI PROJECT",
+          "artistRaw": "ALI PROJECT",
+          "url": "https://youtu.be/VZk4ibizrrk?t=1521"
+        },
+        {
+          "timestamp": "38:26",
+          "seconds": 2306,
+          "title": "only my railgun",
+          "titleRaw": "only my railgun",
+          "artist": "fripSide",
+          "artistRaw": "fripSide",
+          "url": "https://youtu.be/VZk4ibizrrk?t=2306"
+        },
+        {
+          "timestamp": "49:16",
+          "seconds": 2956,
+          "title": "No buts!",
+          "titleRaw": "No buts!",
+          "artist": "川田まみ",
+          "artistRaw": "川田まみ",
+          "url": "https://youtu.be/VZk4ibizrrk?t=2956"
+        },
+        {
+          "timestamp": "1:03:00",
+          "seconds": 3780,
+          "title": "Rising Hope",
+          "titleRaw": "Rising Hope",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/VZk4ibizrrk?t=3780"
+        },
+        {
+          "timestamp": "1:18:59",
+          "seconds": 4739,
+          "title": "Rally Go Round",
+          "titleRaw": "Rally Go Round",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/VZk4ibizrrk?t=4739"
+        }
+      ],
+      "sourceCommentId": "issue#82",
       "type": "stream"
     }
   ]
