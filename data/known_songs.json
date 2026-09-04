@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1505,
-  "uniqueTitles": 1476,
-  "uniqueArtists": 669,
+  "totalEntries": 1509,
+  "uniqueTitles": 1478,
+  "uniqueArtists": 671,
   "songs": [
     {
       "title": "少女レイ",
@@ -41,7 +41,7 @@
     {
       "title": "おやすみ泣き声、さよなら歌姫",
       "artist": "クリープハイプ",
-      "count": 21
+      "count": 22
     },
     {
       "title": "ただ君に晴れ",
@@ -159,6 +159,11 @@
       "count": 17
     },
     {
+      "title": "トリノコシティ",
+      "artist": "40mP",
+      "count": 17
+    },
+    {
       "title": "初めての恋が終わる時",
       "artist": "ryo (supercell)",
       "count": 17
@@ -209,11 +214,6 @@
       "count": 16
     },
     {
-      "title": "トリノコシティ",
-      "artist": "40mP",
-      "count": 16
-    },
-    {
       "title": "フォニイ",
       "artist": "ツミキ",
       "count": 16
@@ -246,6 +246,11 @@
     {
       "title": "サリシノハラ",
       "artist": "みきとP",
+      "count": 15
+    },
+    {
+      "title": "命に嫌われている",
+      "artist": "カンザキイオリ",
       "count": 15
     },
     {
@@ -299,13 +304,18 @@
       "count": 14
     },
     {
+      "title": "シリウスの心臓",
+      "artist": "ヰ世界情緒",
+      "count": 14
+    },
+    {
       "title": "一番の宝物",
       "artist": "Girls Dead Monster",
       "count": 14
     },
     {
-      "title": "命に嫌われている",
-      "artist": "カンザキイオリ",
+      "title": "吉原ラメント",
+      "artist": "亜沙",
       "count": 14
     },
     {
@@ -349,11 +359,6 @@
       "count": 13
     },
     {
-      "title": "シリウスの心臓",
-      "artist": "ヰ世界情緒",
-      "count": 13
-    },
-    {
       "title": "シンデレラ",
       "artist": "DECO*27",
       "count": 13
@@ -376,11 +381,6 @@
     {
       "title": "ヒバナ",
       "artist": "DECO*27",
-      "count": 13
-    },
-    {
-      "title": "吉原ラメント",
-      "artist": "亜沙",
       "count": 13
     },
     {
@@ -446,6 +446,11 @@
     {
       "title": "crossing field",
       "artist": "LiSA",
+      "count": 12
+    },
+    {
+      "title": "アスノヨゾラ哨戒班",
+      "artist": "Orangestar",
       "count": 12
     },
     {
@@ -529,8 +534,8 @@
       "count": 11
     },
     {
-      "title": "アスノヨゾラ哨戒班",
-      "artist": "Orangestar",
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
       "count": 11
     },
     {
@@ -541,6 +546,11 @@
     {
       "title": "ピースサイン",
       "artist": "米津玄師",
+      "count": 11
+    },
+    {
+      "title": "ブラックロックシューター",
+      "artist": "ryo (supercell)",
       "count": 11
     },
     {
@@ -666,16 +676,6 @@
     {
       "title": "トウキョウ・シャンディ・ランデヴ",
       "artist": "MAISONdes",
-      "count": 10
-    },
-    {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
-      "count": 10
-    },
-    {
-      "title": "ブラックロックシューター",
-      "artist": "ryo (supercell)",
       "count": 10
     },
     {
@@ -889,6 +889,11 @@
       "count": 9
     },
     {
+      "title": "フクロウ ~フクロウが知らせる客が来たと~",
+      "artist": "KOKIA",
+      "count": 9
+    },
+    {
       "title": "ブルーバード",
       "artist": "いきものがかり",
       "count": 9
@@ -1096,11 +1101,6 @@
     {
       "title": "ファンサ",
       "artist": "mona (夏川椎菜)",
-      "count": 8
-    },
-    {
-      "title": "フクロウ ~フクロウが知らせる客が来たと~",
-      "artist": "KOKIA",
       "count": 8
     },
     {
@@ -1604,6 +1604,11 @@
       "count": 6
     },
     {
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
+      "count": 6
+    },
+    {
       "title": "それを愛と呼ぶなら",
       "artist": "Uru",
       "count": 6
@@ -1681,6 +1686,11 @@
     {
       "title": "ヴィーナスとジーザス",
       "artist": "やくしまるえつこ",
+      "count": 6
+    },
+    {
+      "title": "世界のつづき",
+      "artist": "Ado",
       "count": 6
     },
     {
@@ -1919,11 +1929,6 @@
       "count": 5
     },
     {
-      "title": "きゅうくらりん",
-      "artist": "いよわ",
-      "count": 5
-    },
-    {
       "title": "くらべられっ子",
       "artist": "ツユ",
       "count": 5
@@ -2079,11 +2084,6 @@
       "count": 5
     },
     {
-      "title": "世界のつづき",
-      "artist": "Ado",
-      "count": 5
-    },
-    {
       "title": "化けの花",
       "artist": "なきそ",
       "count": 5
@@ -2176,6 +2176,11 @@
     {
       "title": "海色",
       "artist": "AKINO from bless4",
+      "count": 5
+    },
+    {
+      "title": "片翼の鳥",
+      "artist": "志方あきこ",
       "count": 5
     },
     {
@@ -2764,11 +2769,6 @@
       "count": 4
     },
     {
-      "title": "片翼の鳥",
-      "artist": "志方あきこ",
-      "count": 4
-    },
-    {
       "title": "白金ディスコ",
       "artist": "阿良々木月火 (井口裕香)",
       "count": 4
@@ -3046,6 +3046,11 @@
     {
       "title": "you",
       "artist": "癒月",
+      "count": 3
+    },
+    {
+      "title": "→unfinished→",
+      "artist": "KOTOKO",
       "count": 3
     },
     {
@@ -4096,11 +4101,6 @@
     {
       "title": "Ζ・刻をこえて",
       "artist": "鮎川麻弥",
-      "count": 2
-    },
-    {
-      "title": "→unfinished→",
-      "artist": "KOTOKO",
       "count": 2
     },
     {
@@ -5799,6 +5799,11 @@
       "count": 1
     },
     {
+      "title": "いのちの歌",
+      "artist": "木村弓",
+      "count": 1
+    },
+    {
       "title": "うい麦畑でつかまえて",
       "artist": "しぐれうい",
       "count": 1
@@ -5931,6 +5936,11 @@
     {
       "title": "まろまろ浄土",
       "artist": "ZOC",
+      "count": 1
+    },
+    {
+      "title": "みちしるべ",
+      "artist": "茅原実里",
       "count": 1
     },
     {
@@ -7289,6 +7299,11 @@
       "count": 1
     },
     {
+      "title": "深海のリトルクライ",
+      "artist": "sasakura.UK",
+      "count": 1
+    },
+    {
       "title": "深淵のデカダンス",
       "artist": "岡田梨央",
       "count": 1
@@ -7486,6 +7501,11 @@
     {
       "title": "銀河鉄道999",
       "artist": "ゴダイゴ",
+      "count": 1
+    },
+    {
+      "title": "鏡面の波",
+      "artist": "YURIKA",
       "count": 1
     },
     {
@@ -7741,6 +7761,7 @@
     "YOASOBI",
     "YUI",
     "YUI for 雨音薫",
+    "YURIKA",
     "YURiKA",
     "Yunomi & nicamoq",
     "ZARD",
@@ -7797,6 +7818,7 @@
     "saiB",
     "samayuzame",
     "samfree",
+    "sasakura.UK",
     "sasakure.UK",
     "seiza",
     "serial TV drama",

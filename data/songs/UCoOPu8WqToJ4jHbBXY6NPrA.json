@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-04T10:00:36.998654+00:00",
+  "lastFetched": "2026-09-04T10:01:57.990349+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -17842,6 +17842,168 @@
         }
       ],
       "sourceCommentId": "issue#93",
+      "type": "stream"
+    },
+    {
+      "videoId": "W1A8ItmKAfc",
+      "title": "【歌枠】週の折り返し。深海からあなたを癒す歌枠 🫧1曲聴いていってください🌟 SINGING STREAM！【VTuber/配信中】",
+      "publishedAt": "2026-04-15T16:00:27Z",
+      "songs": [
+        {
+          "timestamp": "8:28",
+          "seconds": 508,
+          "title": "きゅうくらりん",
+          "titleRaw": "きゅうくらりん",
+          "artist": "いよわ",
+          "artistRaw": "いよわ",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=508"
+        },
+        {
+          "timestamp": "22:44",
+          "seconds": 1364,
+          "title": "おやすみ泣き声、さよなら歌姫",
+          "titleRaw": "おやすみ泣き声、さよなら歌姫",
+          "artist": "クリープハイプ",
+          "artistRaw": "クリープハイプ",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=1364"
+        },
+        {
+          "timestamp": "37:13",
+          "seconds": 2233,
+          "title": "→unfinished→",
+          "titleRaw": "→unfinished→",
+          "artist": "KOTOKO",
+          "artistRaw": "KOTOKO",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=2233"
+        },
+        {
+          "timestamp": "54:30",
+          "seconds": 3270,
+          "title": "深海のリトルクライ",
+          "titleRaw": "深海のリトルクライ",
+          "artist": "sasakura.UK",
+          "artistRaw": "sasakura.UK",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=3270"
+        },
+        {
+          "timestamp": "58:44",
+          "seconds": 3524,
+          "title": "シリウスの心臓",
+          "titleRaw": "シリウスの心臓",
+          "artist": "ヰ世界情緒",
+          "artistRaw": "ヰ世界情緒",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=3524"
+        },
+        {
+          "timestamp": "1:15:17",
+          "seconds": 4517,
+          "title": "鏡面の波",
+          "titleRaw": "鏡面の波",
+          "artist": "YURIKA",
+          "artistRaw": "YURIKA",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=4517"
+        },
+        {
+          "timestamp": "1:24:47",
+          "seconds": 5087,
+          "title": "ネクロネイディア",
+          "titleRaw": "ネクロネイディア",
+          "artist": "渉海よひら",
+          "artistRaw": "渉海よひら",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=5087"
+        },
+        {
+          "timestamp": "1:35:45",
+          "seconds": 5745,
+          "title": "片翼の鳥",
+          "titleRaw": "片翼の鳥",
+          "artist": "志方あきこ",
+          "artistRaw": "志方あきこ",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=5745"
+        },
+        {
+          "timestamp": "1:49:48",
+          "seconds": 6588,
+          "title": "いのちの歌",
+          "titleRaw": "いのちの歌",
+          "artist": "木村弓",
+          "artistRaw": "木村弓",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=6588"
+        },
+        {
+          "timestamp": "1:53:41",
+          "seconds": 6821,
+          "title": "フクロウ ~フクロウが知らせる客が来たと~",
+          "titleRaw": "フクロウ ~フクロウが知らせる客が来たと~",
+          "artist": "KOKIA",
+          "artistRaw": "KOKIA",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=6821"
+        },
+        {
+          "timestamp": "2:11:30",
+          "seconds": 7890,
+          "title": "命に嫌われている",
+          "titleRaw": "命に嫌われている",
+          "artist": "カンザキイオリ",
+          "artistRaw": "カンザキイオリ",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=7890"
+        },
+        {
+          "timestamp": "2:20:22",
+          "seconds": 8422,
+          "title": "アスノヨゾラ哨戒班",
+          "titleRaw": "アスノヨゾラ哨戒班",
+          "artist": "Orangestar",
+          "artistRaw": "Orangestar",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=8422"
+        },
+        {
+          "timestamp": "2:25:35",
+          "seconds": 8735,
+          "title": "吉原ラメント",
+          "titleRaw": "吉原ラメント",
+          "artist": "亜沙",
+          "artistRaw": "亜沙",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=8735"
+        },
+        {
+          "timestamp": "2:35:54",
+          "seconds": 9354,
+          "title": "ブラックロックシューター",
+          "titleRaw": "ブラックロックシューター",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=9354"
+        },
+        {
+          "timestamp": "2:53:09",
+          "seconds": 10389,
+          "title": "世界のつづき",
+          "titleRaw": "世界のつづき",
+          "artist": "Ado",
+          "artistRaw": "Ado",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=10389"
+        },
+        {
+          "timestamp": "3:08:00",
+          "seconds": 11280,
+          "title": "みちしるべ",
+          "titleRaw": "みちしるべ",
+          "artist": "茅原実里",
+          "artistRaw": "茅原実里",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=11280"
+        },
+        {
+          "timestamp": "3:16:28",
+          "seconds": 11788,
+          "title": "トリノコシティ",
+          "titleRaw": "トリノコシティ",
+          "artist": "40mP",
+          "artistRaw": "40mP",
+          "url": "https://youtu.be/W1A8ItmKAfc?t=11788"
+        }
+      ],
+      "sourceCommentId": "issue#86",
       "type": "stream"
     }
   ]
