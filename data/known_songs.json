@@ -26,7 +26,7 @@
     {
       "title": "残響散歌",
       "artist": "Aimer",
-      "count": 25
+      "count": 26
     },
     {
       "title": "Departures ~あなたにおくるアイの歌~",
@@ -224,6 +224,11 @@
       "count": 16
     },
     {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
+      "count": 16
+    },
+    {
       "title": "残酷な天使のテーゼ",
       "artist": "高橋洋子",
       "count": 16
@@ -234,6 +239,11 @@
       "count": 16
     },
     {
+      "title": "Cry Baby",
+      "artist": "Official髭男dism",
+      "count": 15
+    },
+    {
       "title": "IRIS OUT",
       "artist": "米津玄師",
       "count": 15
@@ -241,6 +251,11 @@
     {
       "title": "The Everlasting Guilty Crown",
       "artist": "EGOIST",
+      "count": 15
+    },
+    {
+      "title": "ぶっ飛びな!しとら流炒飯☆",
+      "artist": "涼風しとら",
       "count": 15
     },
     {
@@ -259,11 +274,6 @@
       "count": 15
     },
     {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
-      "count": 15
-    },
-    {
       "title": "逆光",
       "artist": "Ado",
       "count": 15
@@ -274,13 +284,13 @@
       "count": 15
     },
     {
-      "title": "Catch the Moment",
-      "artist": "LiSA",
+      "title": "Brave Shine",
+      "artist": "Aimer",
       "count": 14
     },
     {
-      "title": "Cry Baby",
-      "artist": "Official髭男dism",
+      "title": "Catch the Moment",
+      "artist": "LiSA",
       "count": 14
     },
     {
@@ -296,11 +306,6 @@
     {
       "title": "からくりピエロ",
       "artist": "40mP",
-      "count": 14
-    },
-    {
-      "title": "ぶっ飛びな!しとら流炒飯☆",
-      "artist": "涼風しとら",
       "count": 14
     },
     {
@@ -344,6 +349,11 @@
       "count": 14
     },
     {
+      "title": "春泥棒",
+      "artist": "ヨルシカ",
+      "count": 14
+    },
+    {
       "title": "極楽浄土",
       "artist": "GARNiDELiA",
       "count": 14
@@ -357,11 +367,6 @@
       "title": "花の塔",
       "artist": "さユり",
       "count": 14
-    },
-    {
-      "title": "Brave Shine",
-      "artist": "Aimer",
-      "count": 13
     },
     {
       "title": "Ghost of a smile",
@@ -409,6 +414,11 @@
       "count": 13
     },
     {
+      "title": "往け",
+      "artist": "LiSA",
+      "count": 13
+    },
+    {
       "title": "心拍数♯0822",
       "artist": "蝶々P",
       "count": 13
@@ -416,11 +426,6 @@
     {
       "title": "星座になれたら",
       "artist": "結束バンド",
-      "count": 13
-    },
-    {
-      "title": "春泥棒",
-      "artist": "ヨルシカ",
       "count": 13
     },
     {
@@ -504,11 +509,6 @@
       "count": 12
     },
     {
-      "title": "往け",
-      "artist": "LiSA",
-      "count": 12
-    },
-    {
       "title": "心という名の不可解",
       "artist": "Ado",
       "count": 12
@@ -536,6 +536,11 @@
     {
       "title": "CHAINSAW BLOOD",
       "artist": "Vaundy",
+      "count": 11
+    },
+    {
+      "title": "HARUKAZE",
+      "artist": "SCANDAL",
       "count": 11
     },
     {
@@ -599,6 +604,11 @@
       "count": 11
     },
     {
+      "title": "勇者",
+      "artist": "YOASOBI",
+      "count": 11
+    },
+    {
       "title": "夜のピエロ",
       "artist": "Ado",
       "count": 11
@@ -606,6 +616,11 @@
     {
       "title": "帝国少女",
       "artist": "R Sound Design",
+      "count": 11
+    },
+    {
+      "title": "忘れてください",
+      "artist": "ヨルシカ",
       "count": 11
     },
     {
@@ -639,13 +654,13 @@
       "count": 11
     },
     {
-      "title": "Booo!",
-      "artist": "西沢さんP",
-      "count": 10
+      "title": "青春コンプレックス",
+      "artist": "結束バンド",
+      "count": 11
     },
     {
-      "title": "HARUKAZE",
-      "artist": "SCANDAL",
+      "title": "Booo!",
+      "artist": "西沢さんP",
       "count": 10
     },
     {
@@ -686,6 +701,11 @@
     {
       "title": "アクアテラリウム",
       "artist": "やなぎなぎ",
+      "count": 10
+    },
+    {
+      "title": "ギターと孤独と蒼い惑星",
+      "artist": "結束バンド",
       "count": 10
     },
     {
@@ -744,11 +764,6 @@
       "count": 10
     },
     {
-      "title": "勇者",
-      "artist": "YOASOBI",
-      "count": 10
-    },
-    {
       "title": "地球最後の告白を",
       "artist": "kemu",
       "count": 10
@@ -756,11 +771,6 @@
     {
       "title": "奏(かなで)",
       "artist": "スキマスイッチ",
-      "count": 10
-    },
-    {
-      "title": "忘れてください",
-      "artist": "ヨルシカ",
       "count": 10
     },
     {
@@ -816,11 +826,6 @@
     {
       "title": "鏡面の波",
       "artist": "YURiKA",
-      "count": 10
-    },
-    {
-      "title": "青春コンプレックス",
-      "artist": "結束バンド",
       "count": 10
     },
     {
@@ -884,13 +889,13 @@
       "count": 9
     },
     {
-      "title": "エウテルペ",
-      "artist": "EGOIST",
+      "title": "ウタカタララバイ",
+      "artist": "Ado",
       "count": 9
     },
     {
-      "title": "ギターと孤独と蒼い惑星",
-      "artist": "結束バンド",
+      "title": "エウテルペ",
+      "artist": "EGOIST",
       "count": 9
     },
     {
@@ -934,6 +939,16 @@
       "count": 9
     },
     {
+      "title": "ミカヅキ",
+      "artist": "さユり",
+      "count": 9
+    },
+    {
+      "title": "千鳥",
+      "artist": "ヨルシカ",
+      "count": 9
+    },
+    {
       "title": "天ノ弱",
       "artist": "164",
       "count": 9
@@ -949,6 +964,11 @@
       "count": 9
     },
     {
+      "title": "心に穴が空いた",
+      "artist": "ヨルシカ",
+      "count": 9
+    },
+    {
       "title": "思想犯",
       "artist": "ヨルシカ",
       "count": 9
@@ -956,6 +976,11 @@
     {
       "title": "振り向いてGOD",
       "artist": "涼風しとら",
+      "count": 9
+    },
+    {
+      "title": "新時代",
+      "artist": "Ado",
       "count": 9
     },
     {
@@ -971,6 +996,11 @@
     {
       "title": "火星人",
       "artist": "ヨルシカ",
+      "count": 9
+    },
+    {
+      "title": "瞬間センチメンタル",
+      "artist": "SCANDAL",
       "count": 9
     },
     {
@@ -1079,11 +1109,6 @@
       "count": 8
     },
     {
-      "title": "ウタカタララバイ",
-      "artist": "Ado",
-      "count": 8
-    },
-    {
       "title": "カブトムシ",
       "artist": "aiko",
       "count": 8
@@ -1121,11 +1146,6 @@
     {
       "title": "ファンサ",
       "artist": "mona (夏川椎菜)",
-      "count": 8
-    },
-    {
-      "title": "ミカヅキ",
-      "artist": "さユり",
       "count": 8
     },
     {
@@ -1169,11 +1189,6 @@
       "count": 8
     },
     {
-      "title": "千鳥",
-      "artist": "ヨルシカ",
-      "count": 8
-    },
-    {
       "title": "夕立のりぼん",
       "artist": "みきとP",
       "count": 8
@@ -1189,28 +1204,18 @@
       "count": 8
     },
     {
-      "title": "心に穴が空いた",
-      "artist": "ヨルシカ",
-      "count": 8
-    },
-    {
       "title": "愛言葉IV",
       "artist": "DECO*27",
       "count": 8
     },
     {
-      "title": "新時代",
-      "artist": "Ado",
+      "title": "正しくなれない",
+      "artist": "ずっと真夜中でいいのに。",
       "count": 8
     },
     {
       "title": "白い雪のプリンセスは",
       "artist": "のぼる↑",
-      "count": 8
-    },
-    {
-      "title": "瞬間センチメンタル",
-      "artist": "SCANDAL",
       "count": 8
     },
     {
@@ -1259,6 +1264,11 @@
       "count": 7
     },
     {
+      "title": "GLAMOROUS SKY",
+      "artist": "NANA starring MIKA NAKASHIMA",
+      "count": 7
+    },
+    {
       "title": "Hello, Worker",
       "artist": "KEI",
       "count": 7
@@ -1296,6 +1306,11 @@
     {
       "title": "daze",
       "artist": "じん",
+      "count": 7
+    },
+    {
+      "title": "あの夢をなぞって",
+      "artist": "YOASOBI",
       "count": 7
     },
     {
@@ -1489,11 +1504,6 @@
       "count": 7
     },
     {
-      "title": "正しくなれない",
-      "artist": "ずっと真夜中でいいのに。",
-      "count": 7
-    },
-    {
       "title": "永遠のあくる日",
       "artist": "Ado",
       "count": 7
@@ -1554,11 +1564,6 @@
       "count": 6
     },
     {
-      "title": "GLAMOROUS SKY",
-      "artist": "NANA starring MIKA NAKASHIMA",
-      "count": 6
-    },
-    {
       "title": "HADASHi NO STEP",
       "artist": "LiSA",
       "count": 6
@@ -1566,6 +1571,11 @@
     {
       "title": "Hysteric Bullet",
       "artist": "GARNiDELiA",
+      "count": 6
+    },
+    {
+      "title": "INNOCENCE",
+      "artist": "藍井エイル",
       "count": 6
     },
     {
@@ -1621,11 +1631,6 @@
     {
       "title": "secret base~君がくれたもの~",
       "artist": "ZONE",
-      "count": 6
-    },
-    {
-      "title": "あの夢をなぞって",
-      "artist": "YOASOBI",
       "count": 6
     },
     {
@@ -1869,11 +1874,6 @@
       "count": 5
     },
     {
-      "title": "INNOCENCE",
-      "artist": "藍井エイル",
-      "count": 5
-    },
-    {
       "title": "INTERNET OVERDOSE",
       "artist": "KOTOKO",
       "count": 5
@@ -1911,6 +1911,11 @@
     {
       "title": "SAKURA",
       "artist": "いきものがかり",
+      "count": 5
+    },
+    {
+      "title": "Shouted Serenade",
+      "artist": "LiSA",
       "count": 5
     },
     {
@@ -2111,6 +2116,16 @@
     {
       "title": "ワールドイズマイン CPK! Remix",
       "artist": "ryo (supercell)",
+      "count": 5
+    },
+    {
+      "title": "乱舞のメロディ",
+      "artist": "シド",
+      "count": 5
+    },
+    {
+      "title": "佐賀事変",
+      "artist": "フランシュシュ",
       "count": 5
     },
     {
@@ -2404,11 +2419,6 @@
       "count": 4
     },
     {
-      "title": "Shouted Serenade",
-      "artist": "LiSA",
-      "count": 4
-    },
-    {
       "title": "StaRt",
       "artist": "Mrs. GREEN APPLE",
       "count": 4
@@ -2539,6 +2549,11 @@
       "count": 4
     },
     {
+      "title": "サラバ、愛しき悲しみたちよ",
+      "artist": "ももいろクローバーZ",
+      "count": 4
+    },
+    {
       "title": "サラマンダー",
       "artist": "DECO*27",
       "count": 4
@@ -2654,18 +2669,8 @@
       "count": 4
     },
     {
-      "title": "乱舞のメロディ",
-      "artist": "シド",
-      "count": 4
-    },
-    {
       "title": "人間みたいね",
       "artist": "キタニタツヤ",
-      "count": 4
-    },
-    {
-      "title": "佐賀事変",
-      "artist": "フランシュシュ",
       "count": 4
     },
     {
@@ -2984,6 +2989,11 @@
       "count": 3
     },
     {
+      "title": "Redo",
+      "artist": "鈴木このみ",
+      "count": 3
+    },
+    {
       "title": "S(mile)ING!",
       "artist": "島村卯月 (大橋彩香)",
       "count": 3
@@ -3199,11 +3209,6 @@
       "count": 3
     },
     {
-      "title": "サラバ、愛しき悲しみたちよ",
-      "artist": "ももいろクローバーZ",
-      "count": 3
-    },
-    {
       "title": "シャルル",
       "artist": "バルーン",
       "count": 3
@@ -3266,6 +3271,11 @@
     {
       "title": "ハッピーシンセサイザ",
       "artist": "EasyPop",
+      "count": 3
+    },
+    {
+      "title": "ハルカ",
+      "artist": "YOASOBI",
       "count": 3
     },
     {
@@ -4009,11 +4019,6 @@
       "count": 2
     },
     {
-      "title": "Redo",
-      "artist": "鈴木このみ",
-      "count": 2
-    },
-    {
       "title": "SCANDAL BABY",
       "artist": "SCANDAL",
       "count": 2
@@ -4479,11 +4484,6 @@
       "count": 2
     },
     {
-      "title": "ハルカ",
-      "artist": "YOASOBI",
-      "count": 2
-    },
-    {
       "title": "ハレンチ",
       "artist": "ちゃんみな",
       "count": 2
@@ -4501,6 +4501,11 @@
     {
       "title": "ヒアルロンリーガール",
       "artist": "ZOC",
+      "count": 2
+    },
+    {
+      "title": "ヒカリヘ",
+      "artist": "miwa",
       "count": 2
     },
     {
@@ -6545,11 +6550,6 @@
     },
     {
       "title": "ヒカリへ",
-      "artist": "miwa",
-      "count": 1
-    },
-    {
-      "title": "ヒカリヘ",
       "artist": "miwa",
       "count": 1
     },
