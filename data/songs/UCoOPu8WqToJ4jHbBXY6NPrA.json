@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-04T10:05:12.358520+00:00",
+  "lastFetched": "2026-09-04T15:54:54.367582+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -18769,6 +18769,14 @@
         }
       ],
       "sourceCommentId": "issue#80",
+      "type": "stream"
+    },
+    {
+      "videoId": "WZMJTbG5Mhk",
+      "title": "心予報/Eve #shorts #cover #歌ってみた",
+      "publishedAt": "2026-09-04T09:09:04Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]
