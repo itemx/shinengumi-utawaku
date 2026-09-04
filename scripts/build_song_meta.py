@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -73,6 +74,12 @@ def main():
         metavar="PATH",
         help="把未補完清單寫成 Markdown（給 CI 開 issue 用）。隱含 --validate，不寫入 song_meta.json",
     )
+    ap.add_argument(
+        "--exclude",
+        metavar="PATH",
+        help="已經在其他 issue 列過的曲目不再列入。"
+        "PATH 是那些 issue 內文的合併檔，直接解析本腳本自己產生的表格列",
+    )
     args = ap.parse_args()
 
     meta = load_meta()
@@ -107,8 +114,12 @@ def main():
             print("  ", e)
 
     if args.report:
-        Path(args.report).write_text(_report(meta, new_keys), encoding="utf-8")
-        print(f"✓ 報告寫入 {args.report}")
+        already = _parse_report_rows(Path(args.exclude)) if args.exclude else set()
+        if already:
+            print(f"既存 issue に掲載済みで除外: {len(already)} 筆")
+        text = _report(meta, new_keys, already)
+        Path(args.report).write_text(text, encoding="utf-8")
+        print(f"✓ 報告寫入 {args.report}" + ("" if text else "（未補完なし）"))
         return
 
     if args.validate:
@@ -122,17 +133,43 @@ def main():
 MAX_REPORT_ROWS = 100
 
 
-def _report(meta: dict[str, dict], new_keys: set[str]) -> str:
+_REPORT_ROW_RE = re.compile(r"^\|\s*(.+?)\s*\|\s*(.*?)\s*\|")
+
+
+def _parse_report_rows(path: Path) -> set[str]:
+    """本腳本產生過的 Markdown 表格，反解析回 (title, artist) key 集合。
+
+    CI 會把目前還開著的 song_meta issue 內文倒進一個檔，用這個排除已經列過的曲目，
+    這樣新開的 issue 只會是「這次新增的部分」，不會叫 Codex 重做。
+    """
+    if not path.exists():
+        return set()
+    keys: set[str] = set()
+    for line in path.read_text(encoding="utf-8").splitlines():
+        m = _REPORT_ROW_RE.match(line)
+        if not m:
+            continue
+        title, artist = m.group(1), m.group(2)
+        if title in ("曲名", "---") or set(title) <= {"-", " "}:
+            continue  # 表頭與区切り線
+        keys.add(_key(title, artist))
+    return keys
+
+
+def _report(
+    meta: dict[str, dict], new_keys: set[str], exclude: set[str] | None = None
+) -> str:
     """未補完曲目的 Markdown。全部補完時回傳空字串（CI 用 `test -s` 判斷）。
 
     未補完 = song_meta.json 裡還沒有這筆（新曲）, 或 durationSec 是 null。
     tags 空陣列 **不算未補完** —— 項目已存在代表 Codex 看過了，
     「這首沒有適合的 tag」也是一種結論（例: 一般向 J-POP 以外的雜項）。
     """
+    exclude = exclude or set()
     missing = [
         m
         for k, m in meta.items()
-        if k in new_keys or m.get("durationSec") is None
+        if (k in new_keys or m.get("durationSec") is None) and k not in exclude
     ]
     if not missing:
         return ""

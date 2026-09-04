@@ -61,6 +61,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # 投稿が入るたびに新曲の tags/duration 抜けをチェックする
+      - name: Report unfilled song_meta
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/ci/song_meta_issue.sh
+
       - name: Trigger deploy
         if: steps.commit.outputs.changed == 'true'
         run: gh workflow run deploy.yml

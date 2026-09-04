@@ -54,25 +54,10 @@ jobs:
           git pull --rebase --autostash origin main
           git push
 
-      # 新曲が入ると tags/duration が空のまま残るので、単一の issue で追跡する。
-      # 曲ごとに ticket を切ると通知が溢れるため、1 本を作成・更新・自動クローズする。
       - name: Report unfilled song_meta
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python scripts/build_song_meta.py --report /tmp/song_meta_todo.md
-          TITLE='song_meta 未補完'
-          NUM=$(gh issue list --state open --json number,title \
-                 -q ".[] | select(.title==\"$TITLE\") | .number" | head -1)
-          if [ -s /tmp/song_meta_todo.md ]; then
-            if [ -n "$NUM" ]; then
-              gh issue edit "$NUM" --body-file /tmp/song_meta_todo.md
-            else
-              gh issue create --title "$TITLE" --body-file /tmp/song_meta_todo.md
-            fi
-          elif [ -n "$NUM" ]; then
-            gh issue close "$NUM" --comment '全曲補完済み 🎉'
-          fi
+        run: ./scripts/ci/song_meta_issue.sh
 
       - name: Trigger deploy
         if: steps.changes.outputs.changed == 'true'
