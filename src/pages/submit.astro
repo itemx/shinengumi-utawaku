@@ -46,6 +46,31 @@ for (const [k, v] of Object.entries(titleArtists)) {
       貼上 YouTube 影片網址和曲目清單，預覽確認後提交。
     </p>
 
+    <!-- 熱心的觀眾開始投稿了。說明放在貼 URL 之前就看得到的位置，
+         但預設摺疊，免得每次投稿的老手都要滑過去。
+         i18n 用 textContent 套用，所以不放 inline HTML（切語言時會被洗掉）。 -->
+    <details class="mb-5 rounded-lg border border-border bg-border/10 text-xs text-text-muted">
+      <summary class="cursor-pointer px-3 py-2 font-medium text-text hover:text-primary"
+        data-i18n="submit.format_help">格式說明</summary>
+      <ul class="px-3 pb-2.5 space-y-1 leading-relaxed">
+        <li data-i18n="submit.format_time">
+          ・行首放時間，後面空一格。「0:03:25」「3:25」都可以。
+        </li>
+        <li data-i18n="submit.format_artist">
+          ・歌手可以省略。已收錄過的曲目會自動補上歌手，只寫「1:07:09 晩餐歌」也沒問題。
+        </li>
+        <li data-i18n="submit.format_sep">
+          ・要寫歌手時用「曲名 / 歌手」，斜線前後各空一格。
+        </li>
+        <li data-i18n="submit.format_number">
+          ・曲序編號「01.」或 🎵 之類的裝飾符號會自動去掉，留著也沒關係。
+        </li>
+        <li data-i18n="submit.format_preview">
+          ・按「預覽解析」可以看到實際會收錄的內容，有問題就先改再送出。
+        </li>
+      </ul>
+    </details>
+
     <!-- YouTube URL -->
     <div class="mb-4">
       <label class="block text-sm font-medium mb-1" data-i18n="submit.url_label">YouTube URL</label>
@@ -104,28 +129,6 @@ for (const [k, v] of Object.entries(titleArtists)) {
     <!-- Setlist text (for streams only) -->
     <div id="setlist-section" class="mb-4 hidden">
       <label class="block text-sm font-medium mb-1" data-i18n="submit.setlist_label">曲目清單（每行一曲）</label>
-      <!-- 熱心的觀眾開始投稿了，格式說明放在輸入框前面讓人直接看到（不摺疊）。
-           i18n 用 textContent 套用，所以不放 inline HTML（切語言時會被洗掉）。 -->
-      <div class="mb-2 px-3 py-2.5 rounded-lg border border-border bg-border/10 text-xs text-text-muted">
-        <p class="font-medium text-text mb-1.5" data-i18n="submit.format_help">格式說明</p>
-        <ul class="space-y-1 leading-relaxed">
-          <li data-i18n="submit.format_time">
-            ・行首放時間，後面空一格。「0:03:25」「3:25」都可以。
-          </li>
-          <li data-i18n="submit.format_artist">
-            ・歌手可以省略。已收錄過的曲目會自動補上歌手，只寫「1:07:09 晩餐歌」也沒問題。
-          </li>
-          <li data-i18n="submit.format_sep">
-            ・要寫歌手時用「曲名 / 歌手」，斜線前後各空一格。
-          </li>
-          <li data-i18n="submit.format_number">
-            ・曲序編號「01.」或 🎵 之類的裝飾符號會自動去掉，留著也沒關係。
-          </li>
-          <li data-i18n="submit.format_preview">
-            ・按「預覽解析」可以看到實際會收錄的內容，有問題就先改再送出。
-          </li>
-        </ul>
-      </div>
       <textarea
         id="input-setlist"
         rows="10"
