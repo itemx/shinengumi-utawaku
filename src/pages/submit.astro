@@ -110,6 +110,32 @@ for (const [k, v] of Object.entries(titleArtists)) {
         placeholder="00:03:25 曲名A / 歌手A&#10;00:08:12 曲名B / 歌手B&#10;00:15:40 曲名C / 歌手C"
         class="w-full px-4 py-2 border border-border rounded-lg text-sm font-mono focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
       ></textarea>
+
+      <!-- 熱心的觀眾開始投稿了，補一段格式說明。
+           i18n 用 textContent 套用，所以這裡不放 inline HTML（會被language switch 洗掉）。 -->
+      <details class="mt-2 text-xs text-text-muted">
+        <summary class="cursor-pointer hover:text-primary" data-i18n="submit.format_help">
+          格式說明
+        </summary>
+        <ul class="mt-2 ml-1 space-y-1.5 leading-relaxed">
+          <li data-i18n="submit.format_time">
+            ・行首放時間，後面空一格。「0:03:25」「3:25」都可以。
+          </li>
+          <li data-i18n="submit.format_artist">
+            ・歌手可以省略。已收錄過的曲目會自動補上歌手，只寫「1:07:09 晩餐歌」也沒問題。
+          </li>
+          <li data-i18n="submit.format_sep">
+            ・要寫歌手時用「曲名 / 歌手」，斜線前後各空一格。
+          </li>
+          <li data-i18n="submit.format_number">
+            ・曲序編號「01.」或 🎵 之類的裝飾符號會自動去掉，留著也沒關係。
+          </li>
+          <li data-i18n="submit.format_preview">
+            ・按「預覽解析」可以看到實際會收錄的內容，有問題就先改再送出。
+          </li>
+        </ul>
+      </details>
+
       <button
         id="btn-preview"
         class="mt-2 px-6 py-2 rounded-full text-sm font-medium text-white transition-colors"
