@@ -1,5 +1,5 @@
 {
-  "totalEntries": 1522,
+  "totalEntries": 1519,
   "uniqueTitles": 1491,
   "uniqueArtists": 676,
   "songs": [
@@ -69,6 +69,11 @@
       "count": 21
     },
     {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 21
+    },
+    {
       "title": "夜明けと蛍",
       "artist": "n-buna",
       "count": 21
@@ -91,11 +96,6 @@
     {
       "title": "アポリア",
       "artist": "ヨルシカ",
-      "count": 20
-    },
-    {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
       "count": 20
     },
     {
@@ -489,6 +489,11 @@
       "count": 12
     },
     {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
+      "count": 12
+    },
+    {
       "title": "この世界で見つけたもの",
       "artist": "EGOIST",
       "count": 12
@@ -556,11 +561,6 @@
     {
       "title": "again",
       "artist": "YUI",
-      "count": 11
-    },
-    {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
       "count": 11
     },
     {
@@ -879,6 +879,11 @@
       "count": 9
     },
     {
+      "title": "Alice",
+      "artist": "古川本舗",
+      "count": 9
+    },
+    {
       "title": "CHE.R.RY",
       "artist": "YUI",
       "count": 9
@@ -1071,11 +1076,6 @@
     {
       "title": "ADAMAS",
       "artist": "LiSA",
-      "count": 8
-    },
-    {
-      "title": "Alice",
-      "artist": "古川本舗",
       "count": 8
     },
     {
@@ -5204,11 +5204,6 @@
       "count": 1
     },
     {
-      "title": "Alice",
-      "artist": "ぬー (古川本舗)",
-      "count": 1
-    },
-    {
       "title": "Alright!ハートキャッチプリキュア!",
       "artist": "池田彩",
       "count": 1
@@ -5869,11 +5864,6 @@
       "count": 1
     },
     {
-      "title": "あいのけもの",
-      "artist": "ぬー (古川本舗)",
-      "count": 1
-    },
-    {
       "title": "あったかいんだからぁ",
       "artist": "クマムシ",
       "count": 1
@@ -6241,11 +6231,6 @@
     {
       "title": "グラーヴェ",
       "artist": "niki",
-      "count": 1
-    },
-    {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "ぬー (古川本舗)",
       "count": 1
     },
     {

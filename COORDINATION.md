@@ -7,7 +7,7 @@
 | 區域 | 負責 | 備註 |
 |---|---|---|
 | `data/song_meta.json` | 共用（少量 Claude／大量 Codex） | 只改 `tags` / `durationSec`，見下方規則 |
-| `data/aliases.json` | Claude | 正規化別名，迭代中 |
+| `data/aliases.json` | Claude | 正規化別名，迭代中。加之前先讀「alias 的陷阱」一節 |
 | `scripts/lib/normalizer.py`, `comment_parser.py`, `title_parser.py` | Claude | 解析/正規化邏輯 |
 | `scripts/scan_new.py`, `ingest_issue.py`, `lib/review_issue.py`, `build_*.py` | Claude | 掃描/投稿/審核/建置 |
 | `.github/workflows/*.yml` | Claude | CI 流程 |
@@ -113,6 +113,35 @@ Codex 可從目前進度（Alchemy 之後那批已完成，下一首 `Booo!` 之
 4. **時長衝突裁決**：使用者口頭給的粗估與官方查證不一致時，**以官方正式串流／發行標準版為準**（使用者已同意）。查不到官方版才用使用者給的粗估；都沒有就 `null`。
    同曲若有複數個可信正式標準版秒數，取最長者作為 worst case。
 5. **完成後**：用下面的「commit message 信號」通知 Claude（不需要使用者手動轉告）。Claude 會做最終總驗收（tag 合法性＋duration 範圍＋項目數 1516＋title/artist 零變動），通過後接排歌單 Phase 3（tag 篩選＋精準時間估算＋反推模式）。
+
+## alias 的陷阱（2026-09-07 起）
+
+`data/aliases.json` 的 **songs 只比對曲名、artists 只比對歌手名**，跟另一欄無關。
+所以「把 X 一律換成 Y」這種規則會**連帶改到所有 X 名義的曲目**，不只你想修的那一首。
+
+### 實際踩過的坑
+
+為了修 `月光食堂` 而加了 `古川本舗 → ぬー (古川本舗)`，結果同樣是 古川本舗 名義的
+`Alice`(7筆)、`あいのけもの`(10筆)、`グリグリメガネと月光蟲`(18筆) 在下次 ingest
+時全被改成 `ぬー (古川本舗)`，從既有曲目分離出去變成「新曲」。
+
+`ぬー` 只是 古川本舗 在 `月光食堂` 用的主唱名義，不等於 古川本舗 本人。
+
+### 判斷規則
+
+**不要**加 alias 的情況：
+
+1. **別名側還有自己的曲目** —— 例如 `kz` 名下有 `Reply`，就不能把 `kz` 一律換成
+   `kz (livetune)`。`scripts/tests/test_aliases.py` 會自動擋下這種。
+2. **別名是獨立身分**，只是恰好在某一首歌上等價 —— 音源名（`鏡音レン`）、
+   投稿頻道名（`音戯箱`）、主唱名義（`ぬー`）、同名異曲（`いのちの歌`）。
+   這些將來可能配到別的曲目。
+
+這兩種只改 `data/songs/*` 的資料，**不建規則**。commit message 註明原因。
+
+**可以**加 alias 的情況：純粹的表記差異 —— 大小寫（`YURIKA→YURiKA`）、
+錯字（`sasakura→sasakure.UK`）、空白與括號（`TOKOTOKO(西沢さんP)→西沢さんP`）、
+羅馬字轉寫（`Hoshimachi Suisei→星街すいせい`）。同一個身分的不同寫法才算。
 
 ## 羅馬拼音重複標題偵測（2026-08-25 起）
 
