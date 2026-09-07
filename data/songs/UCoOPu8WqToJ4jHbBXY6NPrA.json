@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-07T07:17:47.151881+00:00",
+  "lastFetched": "2026-09-07T17:26:35.575371+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -19344,6 +19344,14 @@
         }
       ],
       "sourceCommentId": "issue#98",
+      "type": "stream"
+    },
+    {
+      "videoId": "hbUbcWJyEOk",
+      "title": "チョコレートミルク/aqu3ra #shorts #cover #歌ってみた",
+      "publishedAt": "2026-09-07T08:53:56Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]
