@@ -7458,6 +7458,12 @@
     "durationSec": 180
   },
   {
+    "title": "撥条少女時計",
+    "artist": "音戯箱",
+    "tags": ["vocaloid", "game"],
+    "durationSec": 248
+  },
+  {
     "title": "放課後ストライド",
     "artist": "Last Note.",
     "tags": ["vocaloid"],
@@ -7636,6 +7642,12 @@
     "artist": "柿崎ユウタ",
     "tags": ["j-pop", "ballad"],
     "durationSec": 147
+  },
+  {
+    "title": "月に向かって撃て",
+    "artist": "星街すいせい",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 209
   },
   {
     "title": "月のワルツ",
