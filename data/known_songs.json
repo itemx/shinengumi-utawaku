@@ -1,22 +1,22 @@
 {
-  "totalEntries": 1519,
+  "totalEntries": 1522,
   "uniqueTitles": 1491,
   "uniqueArtists": 676,
   "songs": [
     {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
-      "count": 32
+      "count": 33
     },
     {
       "title": "All Alone With You",
       "artist": "EGOIST",
-      "count": 30
+      "count": 31
     },
     {
       "title": "少女レイ",
       "artist": "みきとP",
-      "count": 30
+      "count": 31
     },
     {
       "title": "晴る",
@@ -34,14 +34,24 @@
       "count": 23
     },
     {
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
+      "count": 23
+    },
+    {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
       "count": 23
     },
     {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
-      "count": 22
+      "title": "君の知らない物語",
+      "artist": "ryo (supercell)",
+      "count": 23
+    },
+    {
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
+      "count": 23
     },
     {
       "title": "ただ君に晴れ",
@@ -49,18 +59,13 @@
       "count": 22
     },
     {
-      "title": "君の知らない物語",
-      "artist": "ryo (supercell)",
-      "count": 22
-    },
-    {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
-      "count": 22
-    },
-    {
       "title": "変わらないもの",
       "artist": "奥華子",
+      "count": 22
+    },
+    {
+      "title": "Stellar Stellar",
+      "artist": "星街すいせい",
       "count": 21
     },
     {
@@ -76,11 +81,6 @@
     {
       "title": "Calc.",
       "artist": "ジミーサムP",
-      "count": 20
-    },
-    {
-      "title": "Stellar Stellar",
-      "artist": "星街すいせい",
       "count": 20
     },
     {
@@ -104,6 +104,16 @@
       "count": 20
     },
     {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 20
+    },
+    {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 20
+    },
+    {
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 19
@@ -114,13 +124,8 @@
       "count": 19
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 19
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
       "count": 19
     },
     {
@@ -139,18 +144,23 @@
       "count": 18
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
-      "count": 18
-    },
-    {
       "title": "少女S",
       "artist": "SCANDAL",
       "count": 18
     },
     {
+      "title": "忘れじの言の葉",
+      "artist": "未来古代楽団",
+      "count": 18
+    },
+    {
       "title": "悪魔の子",
       "artist": "ヒグチアイ",
+      "count": 18
+    },
+    {
+      "title": "月のワルツ",
+      "artist": "諫山実生",
       "count": 18
     },
     {
@@ -164,6 +174,11 @@
       "count": 17
     },
     {
+      "title": "サリシノハラ",
+      "artist": "みきとP",
+      "count": 17
+    },
+    {
       "title": "トリノコシティ",
       "artist": "40mP",
       "count": 17
@@ -174,18 +189,8 @@
       "count": 17
     },
     {
-      "title": "忘れじの言の葉",
-      "artist": "未来古代楽団",
-      "count": 17
-    },
-    {
       "title": "怪物",
       "artist": "YOASOBI",
-      "count": 17
-    },
-    {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
       "count": 17
     },
     {
@@ -216,11 +221,6 @@
     {
       "title": "ウィアートル",
       "artist": "rionos",
-      "count": 16
-    },
-    {
-      "title": "サリシノハラ",
-      "artist": "みきとP",
       "count": 16
     },
     {
@@ -271,6 +271,11 @@
     {
       "title": "ヒバナ",
       "artist": "DECO*27",
+      "count": 15
+    },
+    {
+      "title": "吉原ラメント",
+      "artist": "亜沙",
       "count": 15
     },
     {
@@ -339,11 +344,6 @@
       "count": 14
     },
     {
-      "title": "吉原ラメント",
-      "artist": "亜沙",
-      "count": 14
-    },
-    {
       "title": "星間飛行",
       "artist": "ランカ・リー",
       "count": 14
@@ -379,6 +379,11 @@
       "count": 13
     },
     {
+      "title": "Planetes",
+      "artist": "EGOIST",
+      "count": 13
+    },
+    {
       "title": "アイネクライネ",
       "artist": "米津玄師",
       "count": 13
@@ -406,6 +411,11 @@
     {
       "title": "ハロ/ハワユ",
       "artist": "ナノウ",
+      "count": 13
+    },
+    {
+      "title": "ロミオとシンデレラ",
+      "artist": "doriko",
       "count": 13
     },
     {
@@ -464,11 +474,6 @@
       "count": 12
     },
     {
-      "title": "Planetes",
-      "artist": "EGOIST",
-      "count": 12
-    },
-    {
       "title": "Shout Baby",
       "artist": "緑黄色社会",
       "count": 12
@@ -481,6 +486,11 @@
     {
       "title": "crossing field",
       "artist": "LiSA",
+      "count": 12
+    },
+    {
+      "title": "この世界で見つけたもの",
+      "artist": "EGOIST",
       "count": 12
     },
     {
@@ -506,11 +516,6 @@
     {
       "title": "ロウワー",
       "artist": "ぬゆり",
-      "count": 12
-    },
-    {
-      "title": "ロミオとシンデレラ",
-      "artist": "doriko",
       "count": 12
     },
     {
@@ -559,8 +564,8 @@
       "count": 11
     },
     {
-      "title": "この世界で見つけたもの",
-      "artist": "EGOIST",
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
       "count": 11
     },
     {
@@ -614,6 +619,11 @@
       "count": 11
     },
     {
+      "title": "六兆年と一夜物語",
+      "artist": "kemu",
+      "count": 11
+    },
+    {
       "title": "勇者",
       "artist": "YOASOBI",
       "count": 11
@@ -641,6 +651,11 @@
     {
       "title": "死にゆく季節のきみへ",
       "artist": "麻枝准×やなぎなぎ",
+      "count": 11
+    },
+    {
+      "title": "死ぬにはいい日だった",
+      "artist": "ピコン",
       "count": 11
     },
     {
@@ -714,13 +729,13 @@
       "count": 10
     },
     {
-      "title": "アクアテラリウム",
-      "artist": "やなぎなぎ",
+      "title": "ウタカタララバイ",
+      "artist": "Ado",
       "count": 10
     },
     {
-      "title": "ウタカタララバイ",
-      "artist": "Ado",
+      "title": "エウテルペ",
+      "artist": "EGOIST",
       "count": 10
     },
     {
@@ -741,6 +756,11 @@
     {
       "title": "トウキョウ・シャンディ・ランデヴ",
       "artist": "MAISONdes",
+      "count": 10
+    },
+    {
+      "title": "バレリーコ",
+      "artist": "みきとP",
       "count": 10
     },
     {
@@ -776,11 +796,6 @@
     {
       "title": "世界は恋に落ちている",
       "artist": "CHiCO with HoneyWorks",
-      "count": 10
-    },
-    {
-      "title": "六兆年と一夜物語",
-      "artist": "kemu",
       "count": 10
     },
     {
@@ -831,11 +846,6 @@
     {
       "title": "晩餐歌",
       "artist": "tuki.",
-      "count": 10
-    },
-    {
-      "title": "死ぬにはいい日だった",
-      "artist": "ピコン",
       "count": 10
     },
     {
@@ -904,6 +914,11 @@
       "count": 9
     },
     {
+      "title": "give it back",
+      "artist": "Cö shu Nie",
+      "count": 9
+    },
+    {
       "title": "only my railgun",
       "artist": "fripSide",
       "count": 9
@@ -929,7 +944,7 @@
       "count": 9
     },
     {
-      "title": "エウテルペ",
+      "title": "キミソラキセキ",
       "artist": "EGOIST",
       "count": 9
     },
@@ -951,11 +966,6 @@
     {
       "title": "ノーダウト",
       "artist": "Official髭男dism",
-      "count": 9
-    },
-    {
-      "title": "バレリーコ",
-      "artist": "みきとP",
       "count": 9
     },
     {
@@ -1049,6 +1059,11 @@
       "count": 9
     },
     {
+      "title": "-ERROR",
+      "artist": "niki",
+      "count": 8
+    },
+    {
       "title": "1・2・3",
       "artist": "After the Rain",
       "count": 8
@@ -1066,6 +1081,11 @@
     {
       "title": "G4L",
       "artist": "Giga",
+      "count": 8
+    },
+    {
+      "title": "Hello, Worker",
+      "artist": "KEI",
       "count": 8
     },
     {
@@ -1091,11 +1111,6 @@
     {
       "title": "chAngE",
       "artist": "miwa",
-      "count": 8
-    },
-    {
-      "title": "give it back",
-      "artist": "Cö shu Nie",
       "count": 8
     },
     {
@@ -1131,11 +1146,6 @@
     {
       "title": "カブトムシ",
       "artist": "aiko",
-      "count": 8
-    },
-    {
-      "title": "キミソラキセキ",
-      "artist": "EGOIST",
       "count": 8
     },
     {
@@ -1244,11 +1254,6 @@
       "count": 8
     },
     {
-      "title": "-ERROR",
-      "artist": "niki",
-      "count": 7
-    },
-    {
       "title": "BRAVE GROOVE",
       "artist": "iLiFE!",
       "count": 7
@@ -1276,11 +1281,6 @@
     {
       "title": "HADASHi NO STEP",
       "artist": "LiSA",
-      "count": 7
-    },
-    {
-      "title": "Hello, Worker",
-      "artist": "KEI",
       "count": 7
     },
     {
@@ -1324,6 +1324,11 @@
       "count": 7
     },
     {
+      "title": "rain stops, good-bye",
+      "artist": "におP",
+      "count": 7
+    },
+    {
       "title": "あの夢をなぞって",
       "artist": "YOASOBI",
       "count": 7
@@ -1331,6 +1336,11 @@
     {
       "title": "いけないボーダーライン",
       "artist": "ワルキューレ",
+      "count": 7
+    },
+    {
+      "title": "いろは唄",
+      "artist": "銀サク",
       "count": 7
     },
     {
@@ -1644,11 +1654,6 @@
       "count": 6
     },
     {
-      "title": "rain stops, good-bye",
-      "artist": "におP",
-      "count": 6
-    },
-    {
       "title": "say my nameの片想い",
       "artist": "LiSA",
       "count": 6
@@ -1661,11 +1666,6 @@
     {
       "title": "いかないで",
       "artist": "想太",
-      "count": 6
-    },
-    {
-      "title": "いろは唄",
-      "artist": "銀サク",
       "count": 6
     },
     {
@@ -5204,6 +5204,11 @@
       "count": 1
     },
     {
+      "title": "Alice",
+      "artist": "ぬー (古川本舗)",
+      "count": 1
+    },
+    {
       "title": "Alright!ハートキャッチプリキュア!",
       "artist": "池田彩",
       "count": 1
@@ -5864,6 +5869,11 @@
       "count": 1
     },
     {
+      "title": "あいのけもの",
+      "artist": "ぬー (古川本舗)",
+      "count": 1
+    },
+    {
       "title": "あったかいんだからぁ",
       "artist": "クマムシ",
       "count": 1
@@ -6231,6 +6241,11 @@
     {
       "title": "グラーヴェ",
       "artist": "niki",
+      "count": 1
+    },
+    {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "ぬー (古川本舗)",
       "count": 1
     },
     {
