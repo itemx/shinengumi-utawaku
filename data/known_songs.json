@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1518,
-  "uniqueTitles": 1490,
-  "uniqueArtists": 675,
+  "totalEntries": 1519,
+  "uniqueTitles": 1491,
+  "uniqueArtists": 676,
   "songs": [
     {
       "title": "花に亡霊",
@@ -334,11 +334,6 @@
       "count": 14
     },
     {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory",
-      "count": 14
-    },
-    {
       "title": "一番の宝物",
       "artist": "Girls Dead Monster",
       "count": 14
@@ -401,6 +396,11 @@
     {
       "title": "ネクロネイディア",
       "artist": "渉海よひら",
+      "count": 13
+    },
+    {
+      "title": "ハイドアンド・シーク",
+      "artist": "19's Sound Factory",
       "count": 13
     },
     {
@@ -6479,6 +6479,11 @@
       "count": 1
     },
     {
+      "title": "ハイド・アンド・シーク",
+      "artist": "NOMELON NOLEMON",
+      "count": 1
+    },
+    {
       "title": "ハウトゥー世界征服",
       "artist": "Neru",
       "count": 1
@@ -7749,6 +7754,7 @@
     "NANA starring MIKA NAKASHIMA",
     "NEE",
     "NEWS",
+    "NOMELON NOLEMON",
     "Nem",
     "Neru",
     "ONE OK ROCK",
