@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1521,
+  "totalEntries": 1518,
   "uniqueTitles": 1491,
-  "uniqueArtists": 679,
+  "uniqueArtists": 676,
   "songs": [
     {
       "title": "花に亡霊",
@@ -79,6 +79,11 @@
       "count": 22
     },
     {
+      "title": "Calc.",
+      "artist": "ジミーサムP",
+      "count": 21
+    },
+    {
       "title": "アポリア",
       "artist": "ヨルシカ",
       "count": 21
@@ -96,11 +101,6 @@
     {
       "title": "Across the world !!",
       "artist": "深淵組",
-      "count": 20
-    },
-    {
-      "title": "Calc.",
-      "artist": "ジミーサムP",
       "count": 20
     },
     {
@@ -1199,6 +1199,11 @@
       "count": 8
     },
     {
+      "title": "モザイクロール",
+      "artist": "DECO*27",
+      "count": 8
+    },
+    {
       "title": "ライオン",
       "artist": "May'n & 中島愛",
       "count": 8
@@ -1456,11 +1461,6 @@
     {
       "title": "メランコリック",
       "artist": "Junky",
-      "count": 7
-    },
-    {
-      "title": "モザイクロール",
-      "artist": "DECO*27",
       "count": 7
     },
     {
@@ -3524,6 +3524,11 @@
       "count": 3
     },
     {
+      "title": "冬がくれた予感",
+      "artist": "BiBi (μ's)",
+      "count": 3
+    },
+    {
       "title": "君のそばで~ヒカリのテーマ~",
       "artist": "グリン",
       "count": 3
@@ -4759,11 +4764,6 @@
       "count": 2
     },
     {
-      "title": "冬がくれた予感",
-      "artist": "BiBi (μ's)",
-      "count": 2
-    },
-    {
       "title": "刃渡り2億センチ",
       "artist": "マキシマム ザ ホルモン",
       "count": 2
@@ -5291,11 +5291,6 @@
     {
       "title": "Cagayake!GIRLS",
       "artist": "放課後ティータイム",
-      "count": 1
-    },
-    {
-      "title": "Calc.",
-      "artist": "ジミーサムP feat.初音ミク",
       "count": 1
     },
     {
@@ -6774,11 +6769,6 @@
       "count": 1
     },
     {
-      "title": "モザイクロール",
-      "artist": "DECO*27, Rockwell",
-      "count": 1
-    },
-    {
       "title": "ヤラララ",
       "artist": "ABM",
       "count": 1
@@ -6966,11 +6956,6 @@
     {
       "title": "再会",
       "artist": "はるまきごはん",
-      "count": 1
-    },
-    {
-      "title": "冬がくれた予感",
-      "artist": "BiBi",
       "count": 1
     },
     {
@@ -7654,7 +7639,6 @@
     "BUMP OF CHICKEN",
     "Base Ball Bear",
     "Belle",
-    "BiBi",
     "BiBi (μ's)",
     "Black onyX",
     "Buono!",
@@ -7674,7 +7658,6 @@
     "DAOKO × 米津玄師",
     "DATEKEN",
     "DECO*27",
-    "DECO*27, Rockwell",
     "DOES",
     "DREAMS COME TRUE",
     "Dannie May",
@@ -8003,7 +7986,6 @@
     "シド",
     "シブがき隊",
     "ジミーサムP",
-    "ジミーサムP feat.初音ミク",
     "スキマスイッチ",
     "スズム",
     "ステレオポニー",

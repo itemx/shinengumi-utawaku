@@ -361,8 +361,12 @@
     ],
     "DECO*27": [
       "DECO*27",
-      "deco27",
-      "DECO27"
+      "DECO*27, Giga",
+      "DECO*27, Rockwell",
+      "DECO*27,Giga",
+      "DECO*27,Rockwell",
+      "DECO27",
+      "deco27"
     ],
     "ryo (supercell)": [
       "ryo (supercell)",
@@ -490,14 +494,6 @@
       "かいりきベア, まふまふ",
       "かいりきベア,まふまふ",
       "かいりきベア・まふまふ"
-    ],
-    "DECO*27, Rockwell": [
-      "DECO*27, Rockwell",
-      "DECO*27,Rockwell"
-    ],
-    "DECO*27, Giga": [
-      "DECO*27, Giga",
-      "DECO*27,Giga"
     ],
     "MAISONdes": [
       "MAISONdes",

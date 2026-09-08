@@ -73,7 +73,7 @@ _MEDIA_PREFIX_RE = re.compile(
 
 # feat. 在曲名中的標記 (移到歌手欄或直接移除)
 _FEAT_IN_TITLE_RE = re.compile(
-    r"\s+feat\.?\s+.+$", re.IGNORECASE,
+    r"\s+feat(?:\.\s*|\s+).+$", re.IGNORECASE,
 )
 
 # feat. 括號形式: (feat. かぴ), (feat. xxx)
@@ -141,7 +141,7 @@ def _clean_text(text: str, is_title: bool = False) -> str:
     # 歌手欄清理
     if not is_title:
         # 先移除 feat. 及之後的內容 (Vocaloid 名等)
-        text = re.sub(r"\s+feat\.?\s+.+$", "", text, flags=re.IGNORECASE)
+        text = re.sub(r"\s+feat(?:\.\s*|\s+).+$", "", text, flags=re.IGNORECASE)
         # 再移除羅馬拼音括號 (feat. 移除後，尾部可能才暴露出拼音括號)
         if _HAS_JAPANESE_RE.search(text):
             text = _ROMANIZATION_PAREN_RE.sub("", text)

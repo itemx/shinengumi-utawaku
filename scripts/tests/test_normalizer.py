@@ -95,3 +95,19 @@ class TestNormalize:
         assert r.title == ""
         assert r.artist == ""
         assert r.matched is False
+
+
+def test_feat_without_space_after_period():
+    """"feat." の直後に空白が無い書き方も歌手欄から除去する。
+
+    実例: "ジミーサムP feat.初音ミク" が別歌手として取り込まれ、
+    既存 27 行の "ジミーサムP" から Calc. が分離した。
+    """
+    from scripts.lib.normalizer import normalize
+
+    aliases = {"songs": {}, "artists": {}}
+    assert normalize("Calc.", "ジミーサムP feat.初音ミク", aliases).artist == "ジミーサムP"
+    # 従来どおり空白ありも通る
+    assert normalize("X", "19's Sound Factory feat. 初音ミク", aliases).artist == "19's Sound Factory"
+    # "feature" で始まる語を誤って切り落とさない
+    assert normalize("X", "feature artist", aliases).artist == "feature artist"
