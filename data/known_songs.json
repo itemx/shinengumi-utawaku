@@ -16,7 +16,7 @@
     {
       "title": "少女レイ",
       "artist": "みきとP",
-      "count": 31
+      "count": 32
     },
     {
       "title": "晴る",
@@ -44,6 +44,11 @@
       "count": 23
     },
     {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 23
+    },
+    {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
       "count": 23
@@ -61,11 +66,6 @@
     {
       "title": "ただ君に晴れ",
       "artist": "ヨルシカ",
-      "count": 22
-    },
-    {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
       "count": 22
     },
     {
@@ -139,6 +139,11 @@
       "count": 19
     },
     {
+      "title": "悪魔の子",
+      "artist": "ヒグチアイ",
+      "count": 19
+    },
+    {
       "title": "月のワルツ",
       "artist": "諫山実生",
       "count": 19
@@ -151,6 +156,11 @@
     {
       "title": "Tell Your World",
       "artist": "kz (livetune)",
+      "count": 18
+    },
+    {
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
       "count": 18
     },
     {
@@ -167,16 +177,6 @@
       "title": "初めての恋が終わる時",
       "artist": "ryo (supercell)",
       "count": 18
-    },
-    {
-      "title": "悪魔の子",
-      "artist": "ヒグチアイ",
-      "count": 18
-    },
-    {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
-      "count": 17
     },
     {
       "title": "ウィアートル",
@@ -196,6 +196,11 @@
     {
       "title": "トリノコシティ",
       "artist": "40mP",
+      "count": 17
+    },
+    {
+      "title": "フォニイ",
+      "artist": "ツミキ",
       "count": 17
     },
     {
@@ -236,11 +241,6 @@
     {
       "title": "ヒバナ",
       "artist": "DECO*27",
-      "count": 16
-    },
-    {
-      "title": "フォニイ",
-      "artist": "ツミキ",
       "count": 16
     },
     {
@@ -319,6 +319,11 @@
       "count": 14
     },
     {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
+      "count": 14
+    },
+    {
       "title": "コネクト",
       "artist": "ClariS",
       "count": 14
@@ -389,11 +394,6 @@
       "count": 13
     },
     {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
-      "count": 13
-    },
-    {
       "title": "この世界で見つけたもの",
       "artist": "EGOIST",
       "count": 13
@@ -429,6 +429,11 @@
       "count": 13
     },
     {
+      "title": "プラチナ",
+      "artist": "坂本真綾",
+      "count": 13
+    },
+    {
       "title": "ロミオとシンデレラ",
       "artist": "doriko",
       "count": 13
@@ -456,6 +461,11 @@
     {
       "title": "心拍数♯0822",
       "artist": "蝶々P",
+      "count": 13
+    },
+    {
+      "title": "愛が灯る",
+      "artist": "ロクデナシ",
       "count": 13
     },
     {
@@ -514,11 +524,6 @@
       "count": 12
     },
     {
-      "title": "プラチナ",
-      "artist": "坂本真綾",
-      "count": 12
-    },
-    {
       "title": "ロウワー",
       "artist": "ぬゆり",
       "count": 12
@@ -539,11 +544,6 @@
       "count": 12
     },
     {
-      "title": "愛が灯る",
-      "artist": "ロクデナシ",
-      "count": 12
-    },
-    {
       "title": "桃源恋歌",
       "artist": "GARNiDELiA",
       "count": 12
@@ -556,6 +556,11 @@
     {
       "title": "私は最強",
       "artist": "Ado",
+      "count": 12
+    },
+    {
+      "title": "鏡面の波",
+      "artist": "YURiKA",
       "count": 12
     },
     {
@@ -689,11 +694,6 @@
       "count": 11
     },
     {
-      "title": "鏡面の波",
-      "artist": "YURiKA",
-      "count": 11
-    },
-    {
       "title": "青春コンプレックス",
       "artist": "結束バンド",
       "count": 11
@@ -776,6 +776,11 @@
     {
       "title": "トウキョウ・シャンディ・ランデヴ",
       "artist": "MAISONdes",
+      "count": 10
+    },
+    {
+      "title": "ヒステリックナイトガール",
+      "artist": "PSYQUI",
       "count": 10
     },
     {
@@ -994,11 +999,6 @@
       "count": 9
     },
     {
-      "title": "ヒステリックナイトガール",
-      "artist": "PSYQUI",
-      "count": 9
-    },
-    {
       "title": "フクロウ ~フクロウが知らせる客が来たと~",
       "artist": "KOKIA",
       "count": 9
@@ -1064,6 +1064,11 @@
       "count": 9
     },
     {
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
+      "count": 9
+    },
+    {
       "title": "靴の花火",
       "artist": "ヨルシカ",
       "count": 9
@@ -1121,6 +1126,11 @@
     {
       "title": "chAngE",
       "artist": "miwa",
+      "count": 8
+    },
+    {
+      "title": "flos",
+      "artist": "R Sound Design",
       "count": 8
     },
     {
@@ -1254,6 +1264,11 @@
       "count": 8
     },
     {
+      "title": "浴槽とネオンテトラ",
+      "artist": "REISAI",
+      "count": 8
+    },
+    {
       "title": "白い雪のプリンセスは",
       "artist": "のぼる↑",
       "count": 8
@@ -1261,11 +1276,6 @@
     {
       "title": "秒針を噛む",
       "artist": "ずっと真夜中でいいのに。",
-      "count": 8
-    },
-    {
-      "title": "花泡沫",
-      "artist": "ロクデナシ",
       "count": 8
     },
     {
@@ -1326,11 +1336,6 @@
     {
       "title": "daze",
       "artist": "じん",
-      "count": 7
-    },
-    {
-      "title": "flos",
-      "artist": "R Sound Design",
       "count": 7
     },
     {
@@ -1549,11 +1554,6 @@
       "count": 7
     },
     {
-      "title": "浴槽とネオンテトラ",
-      "artist": "REISAI",
-      "count": 7
-    },
-    {
       "title": "灼熱にて純情(wii-wii-woo)",
       "artist": "星街すいせい",
       "count": 7
@@ -1674,6 +1674,11 @@
       "count": 6
     },
     {
+      "title": "あぶく",
+      "artist": "ヨルシカ",
+      "count": 6
+    },
+    {
       "title": "いかないで",
       "artist": "想太",
       "count": 6
@@ -1706,6 +1711,11 @@
     {
       "title": "アイ・アイ・ア",
       "artist": "Ado",
+      "count": 6
+    },
+    {
+      "title": "アンノウン・マザーグース",
+      "artist": "wowaka",
       "count": 6
     },
     {
@@ -1904,6 +1914,11 @@
       "count": 5
     },
     {
+      "title": "Happiness Umbrella",
+      "artist": "ロクデナシ",
+      "count": 5
+    },
+    {
       "title": "INTERNET OVERDOSE",
       "artist": "KOTOKO",
       "count": 5
@@ -1999,11 +2014,6 @@
       "count": 5
     },
     {
-      "title": "あぶく",
-      "artist": "ヨルシカ",
-      "count": 5
-    },
-    {
       "title": "うっせぇわ",
       "artist": "Ado",
       "count": 5
@@ -2071,11 +2081,6 @@
     {
       "title": "アルビレオ",
       "artist": "ロクデナシ",
-      "count": 5
-    },
-    {
-      "title": "アンノウン・マザーグース",
-      "artist": "wowaka",
       "count": 5
     },
     {
@@ -2189,6 +2194,11 @@
       "count": 5
     },
     {
+      "title": "可愛くなりたい",
+      "artist": "HoneyWorks",
+      "count": 5
+    },
+    {
       "title": "君じゃなきゃダメみたい",
       "artist": "オーイシマサヨシ",
       "count": 5
@@ -2256,6 +2266,11 @@
     {
       "title": "桜日和",
       "artist": "星村麻衣",
+      "count": 5
+    },
+    {
+      "title": "櫂",
+      "artist": "ヨルシカ",
       "count": 5
     },
     {
@@ -2391,11 +2406,6 @@
     {
       "title": "HELP!!",
       "artist": "Kobo Kanaeru",
-      "count": 4
-    },
-    {
-      "title": "Happiness Umbrella",
-      "artist": "ロクデナシ",
       "count": 4
     },
     {
@@ -2764,11 +2774,6 @@
       "count": 4
     },
     {
-      "title": "可愛くなりたい",
-      "artist": "HoneyWorks",
-      "count": 4
-    },
-    {
       "title": "君の神話 ~アクエリオン第二章",
       "artist": "AKINO with bless4",
       "count": 4
@@ -2864,11 +2869,6 @@
       "count": 4
     },
     {
-      "title": "櫂",
-      "artist": "ヨルシカ",
-      "count": 4
-    },
-    {
       "title": "深愛",
       "artist": "水樹奈々",
       "count": 4
@@ -2944,8 +2944,18 @@
       "count": 4
     },
     {
+      "title": "鯨が落ちる街",
+      "artist": "ロクデナシ",
+      "count": 4
+    },
+    {
       "title": "1,000,000 TIMES feat.chelly(EGOIST)",
       "artist": "MY FIRST STORY",
+      "count": 3
+    },
+    {
+      "title": "8.32",
+      "artist": "*Luna",
       "count": 3
     },
     {
@@ -3279,6 +3289,11 @@
       "count": 3
     },
     {
+      "title": "ガランド",
+      "artist": "ピコン",
+      "count": 3
+    },
+    {
       "title": "キュンとクラフト",
       "artist": "iLiFE!",
       "count": 3
@@ -3306,6 +3321,11 @@
     {
       "title": "スキスキ絶頂症",
       "artist": "koyori (電ポルP)",
+      "count": 3
+    },
+    {
+      "title": "スピカ",
+      "artist": "ロクデナシ",
       "count": 3
     },
     {
@@ -3386,6 +3406,11 @@
     {
       "title": "ファタール",
       "artist": "GEMN",
+      "count": 3
+    },
+    {
+      "title": "フィクサー",
+      "artist": "ぬゆり",
       "count": 3
     },
     {
@@ -3476,6 +3501,11 @@
     {
       "title": "レイメイ",
       "artist": "さユり×MY FIRST STORY",
+      "count": 3
+    },
+    {
+      "title": "ローリンガール",
+      "artist": "wowaka",
       "count": 3
     },
     {
@@ -3799,23 +3829,18 @@
       "count": 3
     },
     {
-      "title": "鯨が落ちる街",
-      "artist": "ロクデナシ",
-      "count": 3
-    },
-    {
       "title": "01",
       "artist": "女王蜂",
       "count": 2
     },
     {
-      "title": "366日",
-      "artist": "HY",
+      "title": "1000年生きてる",
+      "artist": "いよわ",
       "count": 2
     },
     {
-      "title": "8.32",
-      "artist": "*Luna",
+      "title": "366日",
+      "artist": "HY",
       "count": 2
     },
     {
@@ -3949,6 +3974,11 @@
       "count": 2
     },
     {
+      "title": "Gimme×Gimme",
+      "artist": "八王子P,Giga",
+      "count": 2
+    },
+    {
       "title": "Girls",
       "artist": "Easy Pop",
       "count": 2
@@ -3981,6 +4011,11 @@
     {
       "title": "I’m Your Treasure Box *あなたは マリンせんちょうを たからばこからみつけた。",
       "artist": "宝鐘マリン",
+      "count": 2
+    },
+    {
+      "title": "JANE DOE",
+      "artist": "米津玄師, 宇多田ヒカル",
       "count": 2
     },
     {
@@ -4189,6 +4224,11 @@
       "count": 2
     },
     {
+      "title": "paranoia",
+      "artist": "つなまる (めざめP)",
+      "count": 2
+    },
+    {
       "title": "truth",
       "artist": "嵐",
       "count": 2
@@ -4226,6 +4266,11 @@
     {
       "title": "いつも何度でも",
       "artist": "木村弓",
+      "count": 2
+    },
+    {
+      "title": "うみたがり",
+      "artist": "MARETU",
       "count": 2
     },
     {
@@ -4414,11 +4459,6 @@
       "count": 2
     },
     {
-      "title": "ガランド",
-      "artist": "ピコン",
-      "count": 2
-    },
-    {
       "title": "キミと××××したいだけ",
       "artist": "ファントムシータ",
       "count": 2
@@ -4449,6 +4489,11 @@
       "count": 2
     },
     {
+      "title": "グレーテのいない星",
+      "artist": "傘村トータ",
+      "count": 2
+    },
+    {
       "title": "シュガーバイン",
       "artist": "Dixie Flatline",
       "count": 2
@@ -4466,11 +4511,6 @@
     {
       "title": "スキスキDieスキ超Ayeシテル",
       "artist": "宝鐘マリン",
-      "count": 2
-    },
-    {
-      "title": "スピカ",
-      "artist": "ロクデナシ",
       "count": 2
     },
     {
@@ -4569,13 +4609,13 @@
       "count": 2
     },
     {
-      "title": "ファンサ",
-      "artist": "HoneyWorks",
+      "title": "ピエロ",
+      "artist": "KEI",
       "count": 2
     },
     {
-      "title": "フィクサー",
-      "artist": "ぬゆり",
+      "title": "ファンサ",
+      "artist": "HoneyWorks",
       "count": 2
     },
     {
@@ -4696,11 +4736,6 @@
     {
       "title": "ロックな君とはお別れだ",
       "artist": "ツユ",
-      "count": 2
-    },
-    {
-      "title": "ローリンガール",
-      "artist": "wowaka",
       "count": 2
     },
     {
@@ -4949,6 +4984,11 @@
       "count": 2
     },
     {
+      "title": "撥条少女時計",
+      "artist": "Drop & 葉月ゆら",
+      "count": 2
+    },
+    {
       "title": "春一番",
       "artist": "キャンディーズ",
       "count": 2
@@ -5176,11 +5216,6 @@
     {
       "title": "*~アスタリスク~",
       "artist": "ORANGE RANGE",
-      "count": 1
-    },
-    {
-      "title": "1000年生きてる",
-      "artist": "いよわ",
       "count": 1
     },
     {
@@ -5424,11 +5459,6 @@
       "count": 1
     },
     {
-      "title": "Gimme×Gimme",
-      "artist": "八王子P,Giga",
-      "count": 1
-    },
-    {
       "title": "Guilty Eyes Fever",
       "artist": "Guilty Kiss",
       "count": 1
@@ -5501,11 +5531,6 @@
     {
       "title": "I♡",
       "artist": "リリぴ",
-      "count": 1
-    },
-    {
-      "title": "JANE DOE",
-      "artist": "米津玄師, 宇多田ヒカル",
       "count": 1
     },
     {
@@ -5854,11 +5879,6 @@
       "count": 1
     },
     {
-      "title": "paranoia",
-      "artist": "つなまる (めざめP)",
-      "count": 1
-    },
-    {
       "title": "sweets parade",
       "artist": "髏々宮カルタ (花澤香菜)",
       "count": 1
@@ -5916,11 +5936,6 @@
     {
       "title": "うまぴょい伝説",
       "artist": "プリティーダービー",
-      "count": 1
-    },
-    {
-      "title": "うみたがり",
-      "artist": "MARETU",
       "count": 1
     },
     {
@@ -6241,11 +6256,6 @@
     {
       "title": "グラーヴェ",
       "artist": "niki",
-      "count": 1
-    },
-    {
-      "title": "グレーテのいない星",
-      "artist": "傘村トータ",
       "count": 1
     },
     {
@@ -6601,11 +6611,6 @@
     {
       "title": "ビースト・ダンス",
       "artist": "和田たけあき (くらげP)",
-      "count": 1
-    },
-    {
-      "title": "ピエロ",
-      "artist": "KEI",
       "count": 1
     },
     {
@@ -7236,11 +7241,6 @@
     {
       "title": "拍手喝采歌合",
       "artist": "ryo (supercell)",
-      "count": 1
-    },
-    {
-      "title": "撥条少女時計",
-      "artist": "Drop & 葉月ゆら",
       "count": 1
     },
     {
