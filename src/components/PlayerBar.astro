@@ -107,7 +107,8 @@ for (const ch of channels) {
   </div>
 
   <!-- Hidden YouTube player mount -->
-  <div id="yt-player" class="absolute w-0 h-0 overflow-hidden"></div>
+  <!-- w-0/h-0 だと iOS が再生を拒むため、1px で残して視覚的にだけ消す -->
+  <div id="yt-player" class="absolute w-px h-px opacity-0 pointer-events-none overflow-hidden"></div>
 </div>
 
 <style>
@@ -240,6 +241,8 @@ for (const ch of channels) {
         disablekb: 1,
         modestbranding: 1,
         rel: 0,
+        // iOS Safari は playsinline が無いと原生の全画面プレイヤーに奪われる
+        playsinline: 1,
       },
       events: {
         onReady: function() { isReady = true; },

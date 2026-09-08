@@ -1,0 +1,522 @@
+---
+/**
+ * /player — YouTube Music 風の独立プレイヤー。
+ *
+ * 背景再生は**できない**。埋め込み YouTube はタブが背面に回る／画面が消えると
+ * ブラウザ側で止められ、Web 側から解除する手段は無い。
+ * Brave の「バックグラウンド再生」は youtube.com 直上では効くが、公式の説明では
+ * 埋め込み iframe は対象外とされている（= ここでは期待できない）。代わりに
+ *   ・Screen Wake Lock で再生中は画面を消さない（Android Chrome 等）
+ *   ・iOS は利用者が手動で PiP に入れれば継続する
+ * を用意し、その旨を画面上に明記している。
+ *
+ * 曲池は /shuffle-pool.json（1 曲 1 代表片段、視聴不可動画は除外）を実行時に取得。
+ * ページに埋め込むと HTML が 100KB 級に膨らむので分けてある。
+ */
+import Base from "../layouts/Base.astro";
+import { getAllSongs, getSongMeta, getChannels } from "../lib/data";
+import { translations } from "../lib/i18n";
+
+const meta = getSongMeta();
+const allTags = [...new Set([...meta.values()].flatMap((m) => m.tags))].sort();
+const channels = getChannels().map((c) => c.name);
+const songCount = new Set(getAllSongs().map((s) => `${s.title}\t${s.artist}`)).size;
+
+// inline script 内で出すメッセージ（対応する DOM が無いので両言語を持ち込む）
+const MSG_KEYS = [
+  "player.empty_result",
+  "player.load_failed",
+  "player.queue_empty",
+  "player.songs_unit",
+  "player.showing_first",
+] as const;
+const msgs = Object.fromEntries(
+  (["zh", "ja"] as const).map((loc) => [
+    loc,
+    Object.fromEntries(MSG_KEYS.map((k) => [k, translations[loc][k]])),
+  ])
+);
+---
+
+<Base title="播放器" i18nTitleKey="player.page_title" noPlayerBar>
+  <div class="max-w-6xl mx-auto">
+    <!-- md(768=タブレット縦) から 2 カラム。1 カラムのままだとジャケットが
+         700px 超に膨らんでライブラリが画面外に押し出される。 -->
+    <div class="grid gap-6 items-start
+                md:grid-cols-[minmax(0,340px)_minmax(0,1fr)]
+                lg:grid-cols-[minmax(0,420px)_minmax(0,1fr)]">
+      <!-- ===== Now playing ===== -->
+      <section class="md:sticky md:top-4">
+        <!-- YouTube プレイヤーそのものをジャケットとして見せる。
+             iOS は非表示や 0×0 の埋め込みを再生してくれないため、これが唯一の確実な形。 -->
+        <!-- YT.Player はマウント要素を iframe で「置き換える」ので、class は消える。
+             サイズと位置は親側の CSS（#yt-wrap iframe）で当てる。 -->
+        <div id="yt-wrap" class="relative rounded-xl overflow-hidden bg-black shadow-lg aspect-video">
+          <div id="yt-mount"></div>
+          <div id="art-placeholder" class="absolute inset-0 grid place-items-center text-white/50 text-sm"
+            style="background: linear-gradient(135deg, #5e2a89, #e40079);">
+            <span data-i18n="player.pick_something">選一首歌開始播放</span>
+          </div>
+        </div>
+
+        <div class="mt-3 min-h-[3.25rem]">
+          <h2 id="np-title" class="font-bold text-lg leading-snug break-words">—</h2>
+          <p class="text-sm text-text-muted break-words">
+            <span id="np-artist"></span>
+            <span id="np-date" class="text-xs"></span>
+          </p>
+        </div>
+
+        <!-- 進捗 -->
+        <div class="mt-2">
+          <div id="np-track" class="h-1.5 rounded-full bg-border cursor-pointer">
+            <div id="np-fill" class="h-full rounded-full bg-primary" style="width:0"></div>
+          </div>
+          <div class="flex justify-between text-[11px] text-text-muted mt-1">
+            <span id="np-elapsed">0:00</span>
+            <span id="np-total">0:00</span>
+          </div>
+        </div>
+
+        <!-- 操作 -->
+        <div class="mt-2 flex items-center justify-center gap-2">
+          <button id="btn-shuffle" title="Shuffle"
+            class="ctl p-2 rounded-full text-text-muted hover:text-primary hover:bg-primary/10">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" />
+            </svg>
+          </button>
+          <button id="btn-prev" title="Previous"
+            class="ctl p-2 rounded-full text-text hover:text-primary hover:bg-primary/10 disabled:opacity-30">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z" /></svg>
+          </button>
+          <button id="btn-play" title="Play"
+            class="p-3.5 rounded-full text-white shadow-md hover:opacity-90 disabled:opacity-40"
+            style="background: linear-gradient(135deg, #5e2a89, #e40079);">
+            <svg id="ic-play" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+            <svg id="ic-pause" class="w-6 h-6 hidden" fill="currentColor" viewBox="0 0 24 24"><path d="M6 5h4v14H6zm8 0h4v14h-4z" /></svg>
+          </button>
+          <button id="btn-next" title="Next"
+            class="ctl p-2 rounded-full text-text hover:text-primary hover:bg-primary/10 disabled:opacity-30">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z" /></svg>
+          </button>
+          <button id="btn-repeat" title="Repeat"
+            class="ctl p-2 rounded-full text-text-muted hover:text-primary hover:bg-primary/10">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 1l4 4-4 4M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4M21 13v2a4 4 0 01-4 4H3" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- 音量 -->
+        <div class="mt-2 flex items-center gap-2">
+          <svg class="w-4 h-4 text-text-muted shrink-0" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M3 10v4h3l4 4V6L6 10H3zm12.5 2a4.5 4.5 0 00-2.5-4v8a4.5 4.5 0 002.5-4z" />
+          </svg>
+          <input id="vol" type="range" min="0" max="100" value="70" class="w-full accent-primary" />
+        </div>
+
+        <!-- 背景再生の注意。期待とのズレを黙って放置しないため常時表示 -->
+        <p class="mt-3 text-[11px] leading-relaxed text-text-muted border-l-2 border-gold/60 pl-2"
+          data-i18n="player.bg_note">
+          由於是 YouTube 嵌入播放，切到其他 App 或關掉螢幕會停止（播放中會自動避免螢幕休眠）。Brave 等瀏覽器雖有「背景播放」設定，但官方說明指出不適用於嵌入式 iframe，可自行測試。
+        </p>
+      </section>
+
+      <!-- ===== 佇列 / 曲庫 ===== -->
+      <section class="min-w-0">
+        <div class="flex items-center gap-1 mb-3 border-b border-border">
+          <button data-tab="library"
+            class="tab px-3 py-2 text-sm font-medium border-b-2 border-primary text-primary"
+            data-i18n="player.tab_library">曲庫</button>
+          <button data-tab="queue"
+            class="tab px-3 py-2 text-sm font-medium border-b-2 border-transparent text-text-muted hover:text-text"
+            data-i18n="player.tab_queue">播放佇列</button>
+          <span id="queue-count" class="ml-auto text-xs text-text-muted"></span>
+        </div>
+
+        <!-- 曲庫 -->
+        <div id="pane-library">
+          <div class="flex flex-wrap gap-2 mb-2">
+            <input id="q" type="search" placeholder="搜尋曲名 / 歌手…" data-i18n-placeholder="player.search"
+              class="flex-1 min-w-[160px] px-3 py-2 border border-border rounded-md text-sm" />
+            <select id="ch" class="px-3 py-2 border border-border rounded-md text-sm">
+              <option value="" data-i18n="player.all_channels">全部頻道</option>
+              {channels.map((c) => <option value={c}>{c}</option>)}
+            </select>
+          </div>
+          <div id="tagbar" class="flex flex-wrap gap-1.5 mb-2">
+            {allTags.map((t) => (
+              <button class="tag-chip px-2.5 py-1 rounded-full text-xs border border-border hover:border-primary"
+                data-tag={t} data-i18n={`tag.${t}`}>{t}</button>
+            ))}
+          </div>
+          <div class="flex items-center gap-2 mb-2">
+            <button id="btn-play-all"
+              class="px-3 py-1.5 rounded-full text-xs font-medium text-white"
+              style="background: linear-gradient(135deg, #5e2a89, #e40079);"
+              data-i18n="player.play_filtered">隨機播放這些</button>
+            <span id="lib-count" class="text-xs text-text-muted"></span>
+          </div>
+          <ul id="library" class="divide-y divide-border border border-border rounded-md max-h-[60vh] overflow-y-auto"></ul>
+        </div>
+
+        <!-- 佇列 -->
+        <div id="pane-queue" class="hidden">
+          <ol id="queue" class="divide-y divide-border border border-border rounded-md max-h-[70vh] overflow-y-auto"></ol>
+          <p id="queue-hint" class="hidden text-xs text-text-muted mt-2" data-i18n="player.queue_empty">
+            佇列是空的。到「曲庫」挑歌或按「隨機播放這些」。
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script is:inline define:vars={{ msgs, songCount }}>
+    (function () {
+      // ---- state ----
+      var pool = [];          // {videoId,start,title,artist,dur,date,channel,tags}
+      var view = [];          // 現在の絞り込み結果（pool の index）
+      var queue = [];         // pool の index 列
+      var qi = -1;            // queue 内の現在位置
+      var player = null, ready = false, playing = false;
+      var timer = null, wakeLock = null;
+      var shuffleOn = true, repeatOn = false;
+      var activeTags = new Set();
+      var skipStreak = 0;
+      var MAX_SKIP = 20;
+
+      var $ = function (id) { return document.getElementById(id); };
+      function lang() { return (document.cookie.match(/vutalist-lang=(\w+)/) || [])[1] === "ja" ? "ja" : "zh"; }
+      function msg(k) { return (msgs[lang()] || {})[k] || k; }
+
+      // ---- utils ----
+      function fmt(sec) {
+        sec = Math.max(0, Math.floor(sec || 0));
+        var m = Math.floor(sec / 60), s = sec % 60;
+        return m + ":" + String(s).padStart(2, "0");
+      }
+      function kana(s) {
+        return s.replace(/[ァ-ヶ]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 0x60); });
+      }
+      function norm(s) { return kana((s || "").toLowerCase()); }
+      function trackOf(i) {
+        var s = pool[i];
+        return { videoId: s.videoId, start: s.start, end: s.dur ? s.start + s.dur : null, i: i };
+      }
+
+      // ---- pool ----
+      function loadPool() {
+        return fetch("/shuffle-pool.json").then(function (r) { return r.json(); }).then(function (rows) {
+          pool = rows.map(function (r) {
+            return {
+              videoId: r[0], start: r[1], title: r[2], artist: r[3],
+              dur: r[4] || null, date: r[5], channel: r[6] || "", tags: r[7] || [],
+            };
+          });
+        });
+      }
+
+      // ---- filtering ----
+      function filtered() {
+        var kw = norm($("q").value.trim());
+        var ch = $("ch").value;
+        var out = [];
+        for (var i = 0; i < pool.length; i++) {
+          var s = pool[i];
+          if (ch && s.channel !== ch) continue;
+          if (activeTags.size) {
+            // OR 判定（plan と同じ挙動）
+            var hit = false;
+            for (var t = 0; t < s.tags.length; t++) if (activeTags.has(s.tags[t])) { hit = true; break; }
+            if (!hit) continue;
+          }
+          if (kw && norm(s.title).indexOf(kw) < 0 && norm(s.artist).indexOf(kw) < 0) continue;
+          out.push(i);
+        }
+        return out;
+      }
+
+      function rowHtml(i, idx) {
+        var s = pool[i];
+        return '<li data-i="' + i + '" class="row flex items-center gap-2 px-2.5 py-2 text-sm cursor-pointer hover:bg-primary/5">'
+          + (idx != null ? '<span class="w-6 shrink-0 text-xs text-text-muted text-right">' + idx + '</span>' : "")
+          + '<span class="min-w-0 flex-1">'
+          + '<span class="block truncate">' + esc(s.title) + '</span>'
+          + '<span class="block truncate text-xs text-text-muted">' + esc(s.artist) + "</span>"
+          + "</span>"
+          + '<span class="shrink-0 text-xs text-text-muted tabular-nums">' + (s.dur ? fmt(s.dur) : "—") + "</span>"
+          + "</li>";
+      }
+      function esc(s) {
+        return String(s).replace(/[&<>"]/g, function (c) {
+          return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+        });
+      }
+
+      function renderLibrary() {
+        view = filtered();
+        var ul = $("library");
+        if (!view.length) {
+          ul.innerHTML = '<li class="px-3 py-6 text-center text-sm text-text-muted">' + esc(msg("player.empty_result")) + "</li>";
+        } else {
+          // 1500 件を一度に描くと重いので先頭 300 件だけ
+          ul.innerHTML = view.slice(0, 300).map(function (i) { return rowHtml(i, null); }).join("");
+        }
+        $("lib-count").textContent = view.length + " " + msg("player.songs_unit")
+          + (view.length > 300 ? " (" + msg("player.showing_first") + " 300)" : "");
+      }
+
+      function renderQueue() {
+        var ol = $("queue");
+        ol.innerHTML = queue.map(function (i, n) { return rowHtml(i, n + 1); }).join("");
+        [].forEach.call(ol.children, function (li, n) {
+          if (n === qi) li.className += " bg-primary/10 font-medium";
+        });
+        $("queue-count").textContent = queue.length ? queue.length + " " + msg("player.songs_unit") : "";
+        $("queue-hint").classList.toggle("hidden", queue.length > 0);
+      }
+
+      // ---- YouTube ----
+      function loadApi() {
+        if (document.getElementById("yt-api")) return;
+        var t = document.createElement("script");
+        t.id = "yt-api";
+        t.src = "https://www.youtube.com/iframe_api";
+        document.head.appendChild(t);
+      }
+      window.onYouTubeIframeAPIReady = function () {
+        player = new YT.Player("yt-mount", {
+          width: "100%", height: "100%",
+          playerVars: {
+            autoplay: 0, controls: 0, disablekb: 1, modestbranding: 1, rel: 0,
+            // iOS はこれが無いと原生の全画面プレイヤーに奪われる
+            playsinline: 1,
+          },
+          events: {
+            onReady: function () { ready = true; player.setVolume(parseInt($("vol").value, 10)); },
+            onStateChange: onState,
+            onError: onError,
+          },
+        });
+      };
+
+      function onState(e) {
+        if (e.data === YT.PlayerState.PLAYING) {
+          skipStreak = 0;
+          playing = true; syncPlayIcon(); startTick(); requestWakeLock();
+        } else if (e.data === YT.PlayerState.PAUSED) {
+          playing = false; syncPlayIcon(); stopTick(); releaseWakeLock();
+        } else if (e.data === YT.PlayerState.ENDED) {
+          playing = false; syncPlayIcon(); stopTick();
+          advance();
+        }
+      }
+
+      /** 100=削除/非公開、101・150=埋め込み不可、2/5=不正パラメータ等 */
+      function onError(e) {
+        var code = e.data;
+        if (code !== 2 && code !== 5 && code !== 100 && code !== 101 && code !== 150) return;
+        skipStreak++;
+        if (skipStreak <= MAX_SKIP && qi + 1 < queue.length) { playAt(qi + 1); return; }
+        stopTick(); playing = false; syncPlayIcon(); releaseWakeLock();
+      }
+
+      // ---- playback ----
+      function playAt(n) {
+        if (n < 0 || n >= queue.length) return;
+        qi = n;
+        var tr = trackOf(queue[n]);
+        var s = pool[tr.i];
+        loadApi();
+        $("art-placeholder").classList.add("hidden");
+        $("np-title").textContent = s.title;
+        $("np-artist").textContent = s.artist;
+        $("np-date").textContent = s.date ? " · " + s.date : "";
+        $("np-total").textContent = s.dur ? fmt(s.dur) : "—";
+        document.title = s.title + " · SEG-V UtaList";
+        renderQueue();
+        current = tr;
+
+        var go = function () {
+          player.loadVideoById({ videoId: tr.videoId, startSeconds: tr.start });
+          player.setVolume(parseInt($("vol").value, 10));
+        };
+        if (ready && player) go();
+        else {
+          var iv = setInterval(function () { if (ready && player) { clearInterval(iv); go(); } }, 200);
+        }
+        updateNav();
+      }
+      var current = null;
+
+      function advance() {
+        if (repeatOn && current) { playAt(qi); return; }
+        if (qi + 1 < queue.length) playAt(qi + 1);
+        else if (shuffleOn && queue.length) { playAt(0); }
+      }
+
+      function startTick() {
+        stopTick();
+        timer = setInterval(function () {
+          if (!player || !ready || !playing || !current) return;
+          var t = player.getCurrentTime() || 0;
+          var segStart = current.start, segEnd = current.end;
+          if (segEnd && segEnd > segStart) {
+            var len = segEnd - segStart;
+            var pos = Math.min(Math.max(t - segStart, 0), len);
+            $("np-fill").style.width = (pos / len) * 100 + "%";
+            $("np-elapsed").textContent = fmt(pos);
+            $("np-total").textContent = fmt(len);
+            if (t >= segEnd - 0.5) { advance(); return; }
+          } else {
+            var d = player.getDuration() || 1;
+            $("np-fill").style.width = (t / d) * 100 + "%";
+            $("np-elapsed").textContent = fmt(t);
+            $("np-total").textContent = fmt(d);
+          }
+        }, 500);
+      }
+      function stopTick() { if (timer) { clearInterval(timer); timer = null; } }
+
+      function syncPlayIcon() {
+        $("ic-play").classList.toggle("hidden", playing);
+        $("ic-pause").classList.toggle("hidden", !playing);
+      }
+      function updateNav() {
+        $("btn-prev").disabled = qi <= 0;
+        $("btn-next").disabled = qi < 0 || qi + 1 >= queue.length;
+      }
+
+      // ---- Screen Wake Lock ----
+      // 背景再生はできないので、せめて再生中に画面が消えないようにする。
+      // iOS Safari は未対応（例外を握りつぶすだけ）。
+      function requestWakeLock() {
+        if (!("wakeLock" in navigator) || wakeLock) return;
+        navigator.wakeLock.request("screen").then(function (l) {
+          wakeLock = l;
+          l.addEventListener("release", function () { wakeLock = null; });
+        }).catch(function () {});
+      }
+      function releaseWakeLock() {
+        if (wakeLock) { wakeLock.release().catch(function () {}); wakeLock = null; }
+      }
+      // タブに戻ってきたとき、再生中なら取り直す（release されている）
+      document.addEventListener("visibilitychange", function () {
+        if (document.visibilityState === "visible" && playing) requestWakeLock();
+      });
+
+      // ---- queue building ----
+      function shuffleInPlace(a) {
+        for (var i = a.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var t = a[i]; a[i] = a[j]; a[j] = t;
+        }
+        return a;
+      }
+
+      function playFiltered() {
+        var list = filtered();
+        if (!list.length) return;
+        queue = shuffleOn ? shuffleInPlace(list.slice()) : list.slice();
+        playAt(0);
+        showTab("queue");
+      }
+
+      // ---- tabs ----
+      function showTab(name) {
+        $("pane-library").classList.toggle("hidden", name !== "library");
+        $("pane-queue").classList.toggle("hidden", name !== "queue");
+        [].forEach.call(document.querySelectorAll(".tab"), function (b) {
+          var on = b.dataset.tab === name;
+          b.className = "tab px-3 py-2 text-sm font-medium border-b-2 "
+            + (on ? "border-primary text-primary" : "border-transparent text-text-muted hover:text-text");
+        });
+      }
+
+      // ---- wiring ----
+      $("q").addEventListener("input", renderLibrary);
+      $("ch").addEventListener("change", renderLibrary);
+      [].forEach.call(document.querySelectorAll(".tag-chip"), function (b) {
+        b.addEventListener("click", function () {
+          var t = b.dataset.tag;
+          if (activeTags.has(t)) { activeTags.delete(t); b.className = "tag-chip px-2.5 py-1 rounded-full text-xs border border-border hover:border-primary"; }
+          else { activeTags.add(t); b.className = "tag-chip px-2.5 py-1 rounded-full text-xs border border-primary bg-primary text-white"; }
+          renderLibrary();
+        });
+      });
+      [].forEach.call(document.querySelectorAll(".tab"), function (b) {
+        b.addEventListener("click", function () { showTab(b.dataset.tab); });
+      });
+      $("btn-play-all").addEventListener("click", playFiltered);
+
+      // 曲庫の行 → その 1 曲を今すぐ、続きは同じ絞り込みから
+      $("library").addEventListener("click", function (e) {
+        var li = e.target.closest("li[data-i]");
+        if (!li) return;
+        var i = parseInt(li.dataset.i, 10);
+        var rest = filtered().filter(function (x) { return x !== i; });
+        queue = [i].concat(shuffleOn ? shuffleInPlace(rest) : rest);
+        playAt(0);
+      });
+      $("queue").addEventListener("click", function (e) {
+        var li = e.target.closest("li[data-i]");
+        if (!li) return;
+        playAt([].indexOf.call(li.parentNode.children, li));
+      });
+
+      $("btn-play").addEventListener("click", function () {
+        if (!queue.length) { playFiltered(); return; }
+        if (!player || !ready) return;
+        if (playing) player.pauseVideo(); else player.playVideo();
+      });
+      $("btn-prev").addEventListener("click", function () { if (qi > 0) playAt(qi - 1); });
+      $("btn-next").addEventListener("click", function () { if (qi + 1 < queue.length) playAt(qi + 1); });
+
+      $("btn-shuffle").addEventListener("click", function () {
+        shuffleOn = !shuffleOn;
+        $("btn-shuffle").className = "ctl p-2 rounded-full hover:bg-primary/10 "
+          + (shuffleOn ? "text-primary bg-primary/10" : "text-text-muted hover:text-primary");
+      });
+      $("btn-repeat").addEventListener("click", function () {
+        repeatOn = !repeatOn;
+        $("btn-repeat").className = "ctl p-2 rounded-full hover:bg-primary/10 "
+          + (repeatOn ? "text-primary bg-primary/10" : "text-text-muted hover:text-primary");
+      });
+      $("vol").addEventListener("input", function () {
+        if (player && ready) player.setVolume(parseInt($("vol").value, 10));
+      });
+      $("np-track").addEventListener("click", function (e) {
+        if (!player || !ready || !current) return;
+        var r = $("np-track").getBoundingClientRect();
+        var ratio = Math.min(Math.max((e.clientX - r.left) / r.width, 0), 1);
+        var len = current.end && current.end > current.start ? current.end - current.start : (player.getDuration() || 0);
+        player.seekTo(current.start + len * ratio, true);
+      });
+
+      window.addEventListener("langchange", function () { renderLibrary(); renderQueue(); });
+
+      // shuffle は既定 ON。見た目を state に合わせる
+      $("btn-shuffle").className = "ctl p-2 rounded-full hover:bg-primary/10 text-primary bg-primary/10";
+
+      loadPool().then(function () {
+        renderLibrary();
+        renderQueue();
+      }).catch(function () {
+        $("library").innerHTML = '<li class="px-3 py-6 text-center text-sm text-primary">'
+          + esc(msg("player.load_failed")) + "</li>";
+      });
+    })();
+  </script>
+  <style>
+    /* YT.Player が #yt-mount を iframe に置き換えた後のサイズ指定 */
+    #yt-wrap > iframe,
+    #yt-wrap > #yt-mount {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+</Base>

@@ -6,9 +6,16 @@ interface Props {
   title?: string;
   description?: string;
   i18nTitleKey?: string;
+  /** /player は自前の再生器を持つので、下部の PlayerBar を出さない（2 つ同時に鳴る） */
+  noPlayerBar?: boolean;
 }
 
-const { title = "SEG-V UtaList", description = "深淵組成員非公式歌回曲目資料庫", i18nTitleKey = "" } = Astro.props;
+const {
+  title = "SEG-V UtaList",
+  description = "深淵組成員非公式歌回曲目資料庫",
+  i18nTitleKey = "",
+  noPlayerBar = false,
+} = Astro.props;
 const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`;
 ---
 
@@ -26,6 +33,9 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#5e2a89" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
     <title>{siteTitle}</title>
   </head>
   <body class="min-h-screen flex flex-col">
@@ -39,11 +49,17 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
           SEG-V UtaList
         </a>
         <div class="flex items-center gap-3">
+          <a href="/player" class="flex items-center gap-1 text-sm text-white/80 hover:text-white">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6l11-2v13M9 19a3 3 0 11-6 0 3 3 0 016 0zm11-2a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            <span class="hidden sm:inline" data-i18n="player.nav">播放器</span>
+          </a>
           <a href="/submit" class="flex items-center gap-1 text-sm text-white/80 hover:text-white">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
             </svg>
-            <span data-i18n="submit.title">投稿</span>
+            <span class="hidden sm:inline" data-i18n="submit.title">投稿</span>
           </a>
           <LangSwitch />
         </div>
@@ -83,7 +99,16 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
       </div>
     </footer>
 
-    <PlayerBar />
+    {!noPlayerBar && <PlayerBar />}
+
+    <script is:inline>
+      // PWA。失敗しても普通のサイトとして動くので、握りつぶして良い
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/sw.js").catch(function () {});
+        });
+      }
+    </script>
 
     <style is:global>
       @import "../styles/global.css";

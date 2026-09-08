@@ -1,0 +1,17 @@
+{
+  "name": "SEG-V UtaList Player",
+  "short_name": "UtaList",
+  "description": "深淵組メンバー 非公式セトリデータベースのプレイヤー",
+  "start_url": "/player",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#5e2a89",
+  "theme_color": "#5e2a89",
+  "lang": "ja",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

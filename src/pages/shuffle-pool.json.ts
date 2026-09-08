@@ -5,14 +5,18 @@
  * 前端在按下「全部隨機播放」時才 fetch。
  *
  * 格式為精簡陣列以縮小體積：
- *   [videoId, startSeconds, title, artist, durationSec, date]
+ *   [videoId, startSeconds, title, artist, durationSec, date, channelName, tags]
+ *
+ * 後半 2 個是 /player 的篩選用。首頁只讀前 6 個，所以追加不影響它。
  */
 import type { APIRoute } from "astro";
 import { getChannels, getChannelData, getSongMeta } from "../lib/data";
 
+type Row = [string, number, string, string, number, string, string, string[]];
+
 export const GET: APIRoute = () => {
   const meta = getSongMeta();
-  const seen = new Map<string, [string, number, string, string, number, string]>();
+  const seen = new Map<string, Row>();
 
   for (const ch of getChannels()) {
     const data = getChannelData(ch.channelId);
@@ -30,6 +34,8 @@ export const GET: APIRoute = () => {
           s.artist,
           meta.get(key)?.durationSec ?? 0,
           v.publishedAt.slice(0, 10),
+          ch.name,
+          meta.get(key)?.tags ?? [],
         ]);
       }
     }
