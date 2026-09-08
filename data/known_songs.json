@@ -1,5 +1,5 @@
 {
-  "totalEntries": 1522,
+  "totalEntries": 1521,
   "uniqueTitles": 1491,
   "uniqueArtists": 679,
   "songs": [
@@ -2764,6 +2764,11 @@
       "count": 4
     },
     {
+      "title": "可愛くなりたい",
+      "artist": "HoneyWorks",
+      "count": 4
+    },
+    {
       "title": "君の神話 ~アクエリオン第二章",
       "artist": "AKINO with bless4",
       "count": 4
@@ -3516,11 +3521,6 @@
     {
       "title": "全部夢だった!",
       "artist": "黒うさぎ",
-      "count": 3
-    },
-    {
-      "title": "可愛くなりたい",
-      "artist": "HoneyWorks",
       "count": 3
     },
     {
@@ -7001,11 +7001,6 @@
     {
       "title": "千本桜 feat.初音ミク",
       "artist": "黒うさP",
-      "count": 1
-    },
-    {
-      "title": "可愛くなりたい",
-      "artist": "CHiCO with HoneyWorks",
       "count": 1
     },
     {
