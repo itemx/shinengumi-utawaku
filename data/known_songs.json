@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1518,
-  "uniqueTitles": 1491,
+  "totalEntries": 1520,
+  "uniqueTitles": 1493,
   "uniqueArtists": 676,
   "songs": [
     {
@@ -11,7 +11,7 @@
     {
       "title": "All Alone With You",
       "artist": "EGOIST",
-      "count": 32
+      "count": 33
     },
     {
       "title": "少女レイ",
@@ -34,6 +34,11 @@
       "count": 24
     },
     {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 24
+    },
+    {
       "title": "君の知らない物語",
       "artist": "ryo (supercell)",
       "count": 24
@@ -41,11 +46,6 @@
     {
       "title": "おやすみ泣き声、さよなら歌姫",
       "artist": "クリープハイプ",
-      "count": 23
-    },
-    {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
       "count": 23
     },
     {
@@ -79,6 +79,16 @@
       "count": 22
     },
     {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 22
+    },
+    {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 22
+    },
+    {
       "title": "Calc.",
       "artist": "ジミーサムP",
       "count": 21
@@ -86,16 +96,6 @@
     {
       "title": "アポリア",
       "artist": "ヨルシカ",
-      "count": 21
-    },
-    {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 21
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
       "count": 21
     },
     {
@@ -169,6 +169,16 @@
       "count": 18
     },
     {
+      "title": "ウィアートル",
+      "artist": "rionos",
+      "count": 18
+    },
+    {
+      "title": "サリシノハラ",
+      "artist": "みきとP",
+      "count": 18
+    },
+    {
       "title": "プロポーズ",
       "artist": "なとり",
       "count": 18
@@ -179,18 +189,8 @@
       "count": 18
     },
     {
-      "title": "ウィアートル",
-      "artist": "rionos",
-      "count": 17
-    },
-    {
       "title": "カラフル",
       "artist": "ClariS",
-      "count": 17
-    },
-    {
-      "title": "サリシノハラ",
-      "artist": "みきとP",
       "count": 17
     },
     {
@@ -279,6 +279,11 @@
       "count": 15
     },
     {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
+      "count": 15
+    },
+    {
       "title": "からくりピエロ",
       "artist": "40mP",
       "count": 15
@@ -309,6 +314,11 @@
       "count": 14
     },
     {
+      "title": "Ghost of a smile",
+      "artist": "EGOIST",
+      "count": 14
+    },
+    {
       "title": "I beg you",
       "artist": "Aimer",
       "count": 14
@@ -316,11 +326,6 @@
     {
       "title": "oath sign",
       "artist": "LiSA",
-      "count": 14
-    },
-    {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
       "count": 14
     },
     {
@@ -346,6 +351,16 @@
     {
       "title": "ノーチラス",
       "artist": "ヨルシカ",
+      "count": 14
+    },
+    {
+      "title": "ハロ/ハワユ",
+      "artist": "ナノウ",
+      "count": 14
+    },
+    {
+      "title": "プラチナ",
+      "artist": "坂本真綾",
       "count": 14
     },
     {
@@ -377,11 +392,6 @@
       "title": "花の塔",
       "artist": "さユり",
       "count": 14
-    },
-    {
-      "title": "Ghost of a smile",
-      "artist": "EGOIST",
-      "count": 13
     },
     {
       "title": "God knows...",
@@ -421,16 +431,6 @@
     {
       "title": "ハイドアンド・シーク",
       "artist": "19's Sound Factory",
-      "count": 13
-    },
-    {
-      "title": "ハロ/ハワユ",
-      "artist": "ナノウ",
-      "count": 13
-    },
-    {
-      "title": "プラチナ",
-      "artist": "坂本真綾",
       "count": 13
     },
     {
@@ -534,6 +534,11 @@
       "count": 12
     },
     {
+      "title": "二息歩行",
+      "artist": "DECO*27",
+      "count": 12
+    },
+    {
       "title": "六兆年と一夜物語",
       "artist": "kemu",
       "count": 12
@@ -569,6 +574,11 @@
       "count": 12
     },
     {
+      "title": "Alice",
+      "artist": "古川本舗",
+      "count": 11
+    },
+    {
       "title": "CHAINSAW BLOOD",
       "artist": "Vaundy",
       "count": 11
@@ -596,6 +606,11 @@
     {
       "title": "ガーネット",
       "artist": "奥華子",
+      "count": 11
+    },
+    {
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
       "count": 11
     },
     {
@@ -636,11 +651,6 @@
     {
       "title": "一度だけの恋なら",
       "artist": "ワルキューレ",
-      "count": 11
-    },
-    {
-      "title": "二息歩行",
-      "artist": "DECO*27",
       "count": 11
     },
     {
@@ -697,11 +707,6 @@
       "title": "青春コンプレックス",
       "artist": "結束バンド",
       "count": 11
-    },
-    {
-      "title": "Alice",
-      "artist": "古川本舗",
-      "count": 10
     },
     {
       "title": "Booo!",
@@ -761,11 +766,6 @@
     {
       "title": "ギターと孤独と蒼い惑星",
       "artist": "結束バンド",
-      "count": 10
-    },
-    {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
       "count": 10
     },
     {
@@ -831,6 +831,11 @@
     {
       "title": "奏(かなで)",
       "artist": "スキマスイッチ",
+      "count": 10
+    },
+    {
+      "title": "小夜子",
+      "artist": "みきとP",
       "count": 10
     },
     {
@@ -1019,11 +1024,6 @@
       "count": 9
     },
     {
-      "title": "小夜子",
-      "artist": "みきとP",
-      "count": 9
-    },
-    {
       "title": "少年よ我に帰れ",
       "artist": "やくしまるえつこ",
       "count": 9
@@ -1134,8 +1134,18 @@
       "count": 8
     },
     {
+      "title": "rain stops, good-bye",
+      "artist": "におP",
+      "count": 8
+    },
+    {
       "title": "ray",
       "artist": "BUMP OF CHICKEN",
+      "count": 8
+    },
+    {
+      "title": "さようなら、花泥棒さん",
+      "artist": "メル",
       "count": 8
     },
     {
@@ -1339,11 +1349,6 @@
       "count": 7
     },
     {
-      "title": "rain stops, good-bye",
-      "artist": "におP",
-      "count": 7
-    },
-    {
       "title": "あの夢をなぞって",
       "artist": "YOASOBI",
       "count": 7
@@ -1356,11 +1361,6 @@
     {
       "title": "いろは唄",
       "artist": "銀サク",
-      "count": 7
-    },
-    {
-      "title": "さようなら、花泥棒さん",
-      "artist": "メル",
       "count": 7
     },
     {
@@ -1619,6 +1619,11 @@
       "count": 6
     },
     {
+      "title": "Happiness Umbrella",
+      "artist": "ロクデナシ",
+      "count": 6
+    },
+    {
       "title": "Hysteric Bullet",
       "artist": "GARNiDELiA",
       "count": 6
@@ -1824,6 +1829,11 @@
       "count": 6
     },
     {
+      "title": "櫂",
+      "artist": "ヨルシカ",
+      "count": 6
+    },
+    {
       "title": "気まぐれロマンティック",
       "artist": "いきものがかり",
       "count": 6
@@ -1911,11 +1921,6 @@
     {
       "title": "Empty MERMAiD",
       "artist": "LiSA",
-      "count": 5
-    },
-    {
-      "title": "Happiness Umbrella",
-      "artist": "ロクデナシ",
       "count": 5
     },
     {
@@ -2266,11 +2271,6 @@
     {
       "title": "桜日和",
       "artist": "星村麻衣",
-      "count": 5
-    },
-    {
-      "title": "櫂",
-      "artist": "ヨルシカ",
       "count": 5
     },
     {
@@ -3401,6 +3401,11 @@
     {
       "title": "ビターチョコデコレーション",
       "artist": "syudou",
+      "count": 3
+    },
+    {
+      "title": "ピエロ",
+      "artist": "KEI",
       "count": 3
     },
     {
@@ -4609,11 +4614,6 @@
       "count": 2
     },
     {
-      "title": "ピエロ",
-      "artist": "KEI",
-      "count": 2
-    },
-    {
       "title": "ファンサ",
       "artist": "HoneyWorks",
       "count": 2
@@ -5489,6 +5489,11 @@
       "count": 1
     },
     {
+      "title": "HOME",
+      "artist": "古川本舗",
+      "count": 1
+    },
+    {
       "title": "HOT LIMIT",
       "artist": "T.M.Revolution",
       "count": 1
@@ -5896,6 +5901,11 @@
     {
       "title": "あったかいんだからぁ",
       "artist": "クマムシ",
+      "count": 1
+    },
+    {
+      "title": "あの夏が飽和する。",
+      "artist": "カンザキイオリ",
       "count": 1
     },
     {
