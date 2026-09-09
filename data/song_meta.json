@@ -882,6 +882,12 @@
     "durationSec": 188
   },
   {
+    "title": "HOME",
+    "artist": "古川本舗",
+    "tags": ["j-pop"],
+    "durationSec": 333
+  },
+  {
     "title": "HOT LIMIT",
     "artist": "T.M.Revolution",
     "tags": ["j-pop"],
@@ -2464,6 +2470,12 @@
     "artist": "ツユ",
     "tags": ["j-pop"],
     "durationSec": 195
+  },
+  {
+    "title": "あの夏が飽和する。",
+    "artist": "カンザキイオリ",
+    "tags": ["vocaloid"],
+    "durationSec": 385
   },
   {
     "title": "あの夏に咲け",
