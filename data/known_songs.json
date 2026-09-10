@@ -19,14 +19,19 @@
       "count": 32
     },
     {
+      "title": "残響散歌",
+      "artist": "Aimer",
+      "count": 27
+    },
+    {
       "title": "晴る",
       "artist": "ヨルシカ",
       "count": 26
     },
     {
-      "title": "残響散歌",
-      "artist": "Aimer",
-      "count": 26
+      "title": "君の知らない物語",
+      "artist": "ryo (supercell)",
+      "count": 25
     },
     {
       "title": "Departures ~あなたにおくるアイの歌~",
@@ -36,11 +41,6 @@
     {
       "title": "グリグリメガネと月光蟲",
       "artist": "古川本舗",
-      "count": 24
-    },
-    {
-      "title": "君の知らない物語",
-      "artist": "ryo (supercell)",
       "count": 24
     },
     {
@@ -109,6 +109,11 @@
       "count": 20
     },
     {
+      "title": "ビビデバ",
+      "artist": "星街すいせい",
+      "count": 20
+    },
+    {
       "title": "モニタリング",
       "artist": "DECO*27",
       "count": 20
@@ -116,11 +121,6 @@
     {
       "title": "ANIMA",
       "artist": "ReoNa",
-      "count": 19
-    },
-    {
-      "title": "ビビデバ",
-      "artist": "星街すいせい",
       "count": 19
     },
     {
@@ -189,6 +189,11 @@
       "count": 18
     },
     {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
+      "count": 18
+    },
+    {
       "title": "カラフル",
       "artist": "ClariS",
       "count": 17
@@ -209,11 +214,6 @@
       "count": 17
     },
     {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
-      "count": 17
-    },
-    {
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
       "count": 17
@@ -231,6 +231,11 @@
     {
       "title": "Cry Baby",
       "artist": "Official髭男dism",
+      "count": 16
+    },
+    {
+      "title": "IRIS OUT",
+      "artist": "米津玄師",
       "count": 16
     },
     {
@@ -267,11 +272,6 @@
       "title": "雨とカプチーノ",
       "artist": "ヨルシカ",
       "count": 16
-    },
-    {
-      "title": "IRIS OUT",
-      "artist": "米津玄師",
-      "count": 15
     },
     {
       "title": "The Everlasting Guilty Crown",
@@ -509,6 +509,11 @@
       "count": 12
     },
     {
+      "title": "again",
+      "artist": "YUI",
+      "count": 12
+    },
+    {
       "title": "crossing field",
       "artist": "LiSA",
       "count": 12
@@ -574,6 +579,11 @@
       "count": 12
     },
     {
+      "title": "青春コンプレックス",
+      "artist": "結束バンド",
+      "count": 12
+    },
+    {
       "title": "Alice",
       "artist": "古川本舗",
       "count": 11
@@ -586,11 +596,6 @@
     {
       "title": "SOS",
       "artist": "黛冬優子",
-      "count": 11
-    },
-    {
-      "title": "again",
-      "artist": "YUI",
       "count": 11
     },
     {
@@ -701,11 +706,6 @@
     {
       "title": "踊",
       "artist": "Ado",
-      "count": 11
-    },
-    {
-      "title": "青春コンプレックス",
-      "artist": "結束バンド",
       "count": 11
     },
     {
@@ -1059,6 +1059,11 @@
       "count": 9
     },
     {
+      "title": "秒針を噛む",
+      "artist": "ずっと真夜中でいいのに。",
+      "count": 9
+    },
+    {
       "title": "綺麗事",
       "artist": "星街すいせい",
       "count": 9
@@ -1281,11 +1286,6 @@
     {
       "title": "白い雪のプリンセスは",
       "artist": "のぼる↑",
-      "count": 8
-    },
-    {
-      "title": "秒針を噛む",
-      "artist": "ずっと真夜中でいいのに。",
       "count": 8
     },
     {
@@ -1561,6 +1561,11 @@
     {
       "title": "甲賀忍法帖",
       "artist": "陰陽座",
+      "count": 7
+    },
+    {
+      "title": "空の箱",
+      "artist": "トゲナシトゲアリ",
       "count": 7
     },
     {
@@ -1856,11 +1861,6 @@
     {
       "title": "爆裂愛してる",
       "artist": "M!LK",
-      "count": 6
-    },
-    {
-      "title": "空の箱",
-      "artist": "トゲナシトゲアリ",
       "count": 6
     },
     {

@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-09-07T17:26:35.153636+00:00",
+  "lastFetched": "2026-09-10T03:42:44.867811+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -42299,6 +42299,96 @@
         }
       ],
       "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "87dhVof6WE4",
+      "title": "【歌枠】初！INARIちゃんとコラボ歌枠✨あなたの魂を揺らすVsinger✨【VTuber/配信中】",
+      "publishedAt": "2026-09-09T14:00:56Z",
+      "songs": [
+        {
+          "timestamp": "00:09:14",
+          "seconds": 554,
+          "title": "残響散歌",
+          "titleRaw": "残響散歌",
+          "artist": "Aimer",
+          "artistRaw": "Aimer",
+          "url": "https://youtu.be/87dhVof6WE4?t=554"
+        },
+        {
+          "timestamp": "00:19:05",
+          "seconds": 1145,
+          "title": "青春コンプレックス",
+          "titleRaw": "青春コンプレックス",
+          "artist": "結束バンド",
+          "artistRaw": "結束バンド",
+          "url": "https://youtu.be/87dhVof6WE4?t=1145"
+        },
+        {
+          "timestamp": "00:30:02",
+          "seconds": 1802,
+          "title": "秒針を噛む",
+          "titleRaw": "秒針を噛む",
+          "artist": "ずっと真夜中でいいのに。",
+          "artistRaw": "ずっと真夜中でいいのに。",
+          "url": "https://youtu.be/87dhVof6WE4?t=1802"
+        },
+        {
+          "timestamp": "00:36:53",
+          "seconds": 2213,
+          "title": "斜陽",
+          "titleRaw": "斜陽",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/87dhVof6WE4?t=2213"
+        },
+        {
+          "timestamp": "00:46:06",
+          "seconds": 2766,
+          "title": "IRIS OUT",
+          "titleRaw": "IRIS OUT",
+          "artist": "米津玄師",
+          "artistRaw": "米津玄師",
+          "url": "https://youtu.be/87dhVof6WE4?t=2766"
+        },
+        {
+          "timestamp": "00:59:10",
+          "seconds": 3550,
+          "title": "again",
+          "titleRaw": "again",
+          "artist": "YUI",
+          "artistRaw": "YUI",
+          "url": "https://youtu.be/87dhVof6WE4?t=3550"
+        },
+        {
+          "timestamp": "01:07:05",
+          "seconds": 4025,
+          "title": "ビビデバ",
+          "titleRaw": "ビビデバ",
+          "artist": "星街すいせい",
+          "artistRaw": "星街すいせい",
+          "url": "https://youtu.be/87dhVof6WE4?t=4025"
+        },
+        {
+          "timestamp": "01:16:08",
+          "seconds": 4568,
+          "title": "空の箱",
+          "titleRaw": "空の箱",
+          "artist": "トゲナシトゲアリ",
+          "artistRaw": "トゲナシトゲアリ",
+          "url": "https://youtu.be/87dhVof6WE4?t=4568"
+        },
+        {
+          "timestamp": "01:25:58",
+          "seconds": 5158,
+          "title": "君の知らない物語",
+          "titleRaw": "君の知らない物語",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/87dhVof6WE4?t=5158"
+        }
+      ],
+      "sourceCommentId": "issue#105",
       "type": "stream"
     }
   ]
