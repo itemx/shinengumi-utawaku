@@ -111,3 +111,24 @@ def test_feat_without_space_after_period():
     assert normalize("X", "19's Sound Factory feat. 初音ミク", aliases).artist == "19's Sound Factory"
     # "feature" で始まる語を誤って切り落とさない
     assert normalize("X", "feature artist", aliases).artist == "feature artist"
+
+
+def test_artist_paren_gets_a_space():
+    """歌手欄の「名前(補足)」は「名前 (補足)」に寄せる。
+
+    曲庫は 52 種が空白あり・12 種が空白なしで、同じ人物が 2 項目に割れていた
+    (koyori(電ポルP) / koyori (電ポルP) など)。
+    """
+    from scripts.lib.normalizer import normalize
+
+    aliases = {"songs": {}, "artists": {}}
+    assert normalize("X", "koyori(電ポルP)", aliases).artist == "koyori (電ポルP)"
+    # 全角括弧は半角に寄せたうえで空白が入る
+    assert normalize("X", "千石撫子（花澤香菜）", aliases).artist == "千石撫子 (花澤香菜)"
+    # すでに空白があるものは変えない
+    assert normalize("X", "ryo (supercell)", aliases).artist == "ryo (supercell)"
+    # 曲名側には掛けない（空白なしが正式表記のものがある）
+    assert (
+        normalize("我只在乎你(時の流れに身をまかせ)", "", aliases).title
+        == "我只在乎你(時の流れに身をまかせ)"
+    )

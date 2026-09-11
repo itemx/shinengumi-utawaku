@@ -853,7 +853,7 @@
   },
   {
     "title": "HEAVEN",
-    "artist": "HarryP(はりーP)",
+    "artist": "HarryP (はりーP)",
     "tags": ["vocaloid", "ballad"],
     "durationSec": 303
   },
@@ -934,6 +934,12 @@
     "artist": "LiSA",
     "tags": ["j-pop"],
     "durationSec": 275
+  },
+  {
+    "title": "Hi-Five",
+    "artist": "ME:I",
+    "tags": ["idol", "j-pop"],
+    "durationSec": 165
   },
   {
     "title": "How哥宇宙",
@@ -2695,7 +2701,7 @@
   },
   {
     "title": "かくしん的☆めたまるふぉ〜ぜっ！",
-    "artist": "土間うまる(田中あいみ)",
+    "artist": "土間うまる (田中あいみ)",
     "tags": ["anime", "j-pop"],
     "durationSec": 212
   },
@@ -3091,7 +3097,7 @@
   },
   {
     "title": "もってけ!セーラーふく",
-    "artist": "泉こなた(平野綾)・柊かがみ(加藤英美里)・柊つかさ(福原香織)・高良みゆき(遠藤綾)",
+    "artist": "泉こなた (平野綾)・柊かがみ (加藤英美里)・柊つかさ (福原香織)・高良みゆき (遠藤綾)",
     "tags": ["anime", "j-pop"],
     "durationSec": 258
   },
@@ -3943,7 +3949,7 @@
   },
   {
     "title": "サイノウサンプラー",
-    "artist": "koyori(電ポルP)",
+    "artist": "koyori (電ポルP)",
     "tags": ["vocaloid"],
     "durationSec": 209
   },
@@ -4507,7 +4513,7 @@
   },
   {
     "title": "ドキッ! こういうのが恋なの?",
-    "artist": "えり~な(キャナァーリ倶楽部)",
+    "artist": "えり~な (キャナァーリ倶楽部)",
     "tags": ["game", "idol", "j-pop"],
     "durationSec": 138
   },
@@ -4825,7 +4831,7 @@
   },
   {
     "title": "バラライカ",
-    "artist": "月島きらり starring 久住小春(モーニング娘。)",
+    "artist": "月島きらり starring 久住小春 (モーニング娘。)",
     "tags": ["anime", "idol", "j-pop"],
     "durationSec": 219
   },
@@ -6048,12 +6054,6 @@
     "durationSec": 281
   },
   {
-    "title": "不死鳥のフランメ",
-    "artist": "マリア×風鳴翼(日笠陽子×水樹奈々)",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 284
-  },
-  {
     "title": "不確定性COSMIC MOVEMENT",
     "artist": "ワルキューレ",
     "tags": ["anime", "idol", "j-pop"],
@@ -7003,7 +7003,7 @@
   },
   {
     "title": "少女A",
-    "artist": "椎名もた",
+    "artist": "椎名もた (ぽわぽわP)",
     "tags": ["vocaloid"],
     "durationSec": 244
   },
@@ -7243,7 +7243,7 @@
   },
   {
     "title": "恋カナ",
-    "artist": "月島きらり starring 久住小春(モーニング娘。)",
+    "artist": "月島きらり starring 久住小春 (モーニング娘。)",
     "tags": ["anime", "idol", "j-pop"],
     "durationSec": 211
   },
@@ -7255,7 +7255,7 @@
   },
   {
     "title": "恋愛サーキュレーション",
-    "artist": "千石撫子(花澤香菜)",
+    "artist": "千石撫子 (花澤香菜)",
     "tags": ["anime", "j-pop"],
     "durationSec": 255
   },

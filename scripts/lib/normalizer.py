@@ -71,6 +71,9 @@ _MEDIA_PREFIX_RE = re.compile(
     r"^(?:アニメ|TVアニメ|映画|劇場版|ゲーム)[『「].+?[』」].*?(?:OP|ED|挿入歌|主題歌)[　\s]+",
 )
 
+# 歌手欄の「名前(補足)」→「名前 (補足)」。全角括弧も対象
+_PAREN_SPACING_RE = re.compile(r"([^\s(（])([(（])")
+
 # feat. 在曲名中的標記 (移到歌手欄或直接移除)
 _FEAT_IN_TITLE_RE = re.compile(
     r"\s+feat(?:\.\s*|\s+).+$", re.IGNORECASE,
@@ -142,6 +145,11 @@ def _clean_text(text: str, is_title: bool = False) -> str:
     if not is_title:
         # 先移除 feat. 及之後的內容 (Vocaloid 名等)
         text = re.sub(r"\s+feat(?:\.\s*|\s+).+$", "", text, flags=re.IGNORECASE)
+        # 「キャラ(声優)」の括弧前に半角空白を入れる。曲庫は 52 種が空白あり、
+        # 12 種が空白なしで、同じ人物が 2 つに割れていた（koyori(電ポルP) 等）。
+        # 曲名側には掛けない —— 「我只在乎你(時の流れに身をまかせ)」のように
+        # 空白なしが正式表記のものがあるため。
+        text = _PAREN_SPACING_RE.sub(r"\1 \2", text)
         # 再移除羅馬拼音括號 (feat. 移除後，尾部可能才暴露出拼音括號)
         if _HAS_JAPANESE_RE.search(text):
             text = _ROMANIZATION_PAREN_RE.sub("", text)
