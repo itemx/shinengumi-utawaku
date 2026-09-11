@@ -110,11 +110,20 @@ def main():
     # cover/original/short 為單曲投稿: 允許 1 首、保留 0:00
     vid_type = metadata.get("type", "stream")
     if vid_type in ("cover", "original", "short"):
+        min_songs = 1
         songs = parse_comment(setlist_text, min_songs=1, skip_zero=False, filter_chatter=False)
     else:
-        songs = parse_comment(setlist_text)
+        # 3 曲の下限は「たまたま時間が書かれただけのコメント」を setlist と誤認しない
+        # ための保険。投稿ページから来たもの (source: manual) は人が見て出しているので
+        # 下限は要らない ——「歌雑で 2 曲だけ」のような配信が弾かれていた。
+        min_songs = 1 if metadata.get("source") == "manual" else 3
+        songs = parse_comment(setlist_text, min_songs=min_songs)
     if songs is None:
-        print("  ❌ 無法解析セトリ")
+        found = parse_comment(setlist_text, min_songs=1, filter_chatter=False) or []
+        print(
+            f"  ❌ 無法解析セトリ: 取得 {len(found)} 曲、需要至少 {min_songs} 曲。"
+            "請確認每行格式為「時間 曲名 / 歌手」，時間後面要有半形空白。"
+        )
         sys.exit(1)
 
     print(f"  解析: {len(songs)} 曲")

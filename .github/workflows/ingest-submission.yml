@@ -27,12 +27,32 @@ jobs:
 
       - name: Parse and ingest
         id: ingest
-        run: python scripts/ingest_issue.py ${{ github.event.issue.number }}
+        # 失敗理由が Actions のログにしか残らず、投稿者からは「何も起きない」ように
+        # 見えていた。出力を控えて、失敗時に issue へ貼る。
+        run: |
+          set -o pipefail
+          python scripts/ingest_issue.py ${{ github.event.issue.number }} 2>&1 | tee /tmp/ingest.log
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           ALLOWED_USERS: ${{ vars.ALLOWED_USERS }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: Explain failure on the issue
+        if: failure() && steps.ingest.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo '⚠️ 入庫に失敗しました。'
+            echo
+            echo '```'
+            tail -n 20 /tmp/ingest.log 2>/dev/null || echo '(ログなし)'
+            echo '```'
+            echo
+            echo '本文を直して `setlist-submission` label を付け直すと再実行されます。'
+          } > /tmp/comment.md
+          gh issue comment ${{ github.event.issue.number }} --body-file /tmp/comment.md
 
       - name: Rebuild stats
         run: python scripts/build_stats.py
