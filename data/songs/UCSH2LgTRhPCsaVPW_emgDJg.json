@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-09-10T15:58:43.377524+00:00",
+  "lastFetched": "2026-09-11T14:08:20.506158+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -42687,6 +42687,24 @@
       ],
       "sourceCommentId": "",
       "type": "short"
+    },
+    {
+      "videoId": "r17Wq63lKks",
+      "title": "【4th Original Song】振り向いてGOD / 涼風しとら Official MV",
+      "publishedAt": "2026-09-11T13:30:06Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "振り向いてGOD",
+          "titleRaw": "振り向いてGOD",
+          "artist": "涼風しとら",
+          "artistRaw": "涼風しとら",
+          "url": "https://youtu.be/r17Wq63lKks?t=0"
+        }
+      ],
+      "sourceCommentId": "issue#107",
+      "type": "original"
     }
   ]
 }
