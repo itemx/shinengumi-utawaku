@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-09-11T14:08:20.506158+00:00",
+  "lastFetched": "2026-09-11T15:00:42.724157+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -42705,6 +42705,33 @@
       ],
       "sourceCommentId": "issue#107",
       "type": "original"
+    },
+    {
+      "videoId": "lHX7AK2ffNM",
+      "title": "【歌枠】5周年カウントダウン歌雑！あなたの魂を揺らすVsinger✨【VTuber/配信中】",
+      "publishedAt": "2026-09-11T03:35:08Z",
+      "songs": [
+        {
+          "timestamp": "34:50",
+          "seconds": 2090,
+          "title": "愛言葉V",
+          "titleRaw": "愛言葉V",
+          "artist": "DECO*27",
+          "artistRaw": "DECO*27",
+          "url": "https://youtu.be/lHX7AK2ffNM?t=2090"
+        },
+        {
+          "timestamp": "48:05",
+          "seconds": 2885,
+          "title": "だってアタシのヒーロー。",
+          "titleRaw": "だってアタシのヒーロー。",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/lHX7AK2ffNM?t=2885"
+        }
+      ],
+      "sourceCommentId": "issue#108",
+      "type": "stream"
     }
   ]
 }
