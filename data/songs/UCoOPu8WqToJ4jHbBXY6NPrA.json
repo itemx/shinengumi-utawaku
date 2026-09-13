@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-09T04:48:10.760815+00:00",
+  "lastFetched": "2026-09-13T15:45:55.345453+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -20126,6 +20126,14 @@
         }
       ],
       "sourceCommentId": "issue#103",
+      "type": "stream"
+    },
+    {
+      "videoId": "BL6xfG6maM8",
+      "title": "SleepingAwake / Aqu3ra #shorts #cover #歌ってみた",
+      "publishedAt": "2026-09-11T09:00:38Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-09-11T15:00:42.724157+00:00",
+  "lastFetched": "2026-09-13T15:45:53.990644+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -42732,6 +42732,60 @@
       ],
       "sourceCommentId": "issue#108",
       "type": "stream"
+    },
+    {
+      "videoId": "rYS57RJEdT0",
+      "title": "コネクト / ClariS 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-09-13T09:00:29Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "コネクト",
+          "titleRaw": "コネクト",
+          "artist": "ClariS",
+          "artistRaw": "ClariS",
+          "url": "https://youtu.be/rYS57RJEdT0"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "xHKlaxJolKc",
+      "title": "甲賀忍法帖 / 陰陽座 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-09-12T09:00:17Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "甲賀忍法帖",
+          "titleRaw": "甲賀忍法帖",
+          "artist": "陰陽座",
+          "artistRaw": "陰陽座",
+          "url": "https://youtu.be/xHKlaxJolKc"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "CmVzXD83ynk",
+      "title": "破滅の純情  / ワルキューレ 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-09-11T09:00:37Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "破滅の純情",
+          "titleRaw": "破滅の純情",
+          "artist": "ワルキューレ",
+          "artistRaw": "ワルキューレ",
+          "url": "https://youtu.be/CmVzXD83ynk"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
