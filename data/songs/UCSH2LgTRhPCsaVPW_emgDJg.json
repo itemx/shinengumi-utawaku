@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-09-13T15:45:53.990644+00:00",
+  "lastFetched": "2026-09-15T01:08:30.544442+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -42786,6 +42786,105 @@
       ],
       "sourceCommentId": "",
       "type": "short"
+    },
+    {
+      "videoId": "OXp-Xgrde7w",
+      "title": "【 #涼風しとら5周年LIVE 】深淵組として最後の3DLIVE　すべてをあなたに。【VTuber/配信中】",
+      "publishedAt": "2026-09-11T13:27:52Z",
+      "songs": [
+        {
+          "timestamp": "00:05:16",
+          "seconds": 316,
+          "title": "Song of journey",
+          "titleRaw": "Song of journey",
+          "artist": "涼風しとら",
+          "artistRaw": "涼風しとら",
+          "url": "https://youtu.be/OXp-Xgrde7w?t=316"
+        },
+        {
+          "timestamp": "00:12:13",
+          "seconds": 733,
+          "title": "ぶっ飛びな!しとら流炒飯☆",
+          "titleRaw": "ぶっ飛びな!しとら流炒飯☆",
+          "artist": "涼風しとら",
+          "artistRaw": "涼風しとら",
+          "url": "https://youtu.be/OXp-Xgrde7w?t=733"
+        },
+        {
+          "timestamp": "00:16:04",
+          "seconds": 964,
+          "title": "おやすみ泣き声、さよなら歌姫",
+          "titleRaw": "おやすみ泣き声、さよなら歌姫",
+          "artist": "クリープハイプ",
+          "artistRaw": "クリープハイプ",
+          "url": "https://youtu.be/OXp-Xgrde7w?t=964"
+        },
+        {
+          "timestamp": "00:25:21",
+          "seconds": 1521,
+          "title": "眠れぬ月夜のランデブー",
+          "titleRaw": "眠れぬ月夜のランデブー",
+          "artist": "涼風しとら",
+          "artistRaw": "涼風しとら",
+          "url": "https://youtu.be/OXp-Xgrde7w?t=1521"
+        },
+        {
+          "timestamp": "00:28:33",
+          "seconds": 1713,
+          "title": "ray",
+          "titleRaw": "ray",
+          "artist": "BUMP OF CHICKEN",
+          "artistRaw": "BUMP OF CHICKEN",
+          "url": "https://youtu.be/OXp-Xgrde7w?t=1713"
+        },
+        {
+          "timestamp": "00:40:35",
+          "seconds": 2435,
+          "title": "ADAMAS",
+          "titleRaw": "ADAMAS",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/OXp-Xgrde7w?t=2435"
+        },
+        {
+          "timestamp": "00:44:22",
+          "seconds": 2662,
+          "title": "リベリオン",
+          "titleRaw": "リベリオン",
+          "artist": "Ado",
+          "artistRaw": "Ado",
+          "url": "https://youtu.be/OXp-Xgrde7w?t=2662"
+        },
+        {
+          "timestamp": "00:57:23",
+          "seconds": 3443,
+          "title": "振り向いてGOD",
+          "titleRaw": "振り向いてGOD",
+          "artist": "涼風しとら",
+          "artistRaw": "涼風しとら",
+          "url": "https://youtu.be/OXp-Xgrde7w?t=3443"
+        },
+        {
+          "timestamp": "01:00:24",
+          "seconds": 3624,
+          "title": "God knows...",
+          "titleRaw": "God knows...",
+          "artist": "平野綾",
+          "artistRaw": "平野綾",
+          "url": "https://youtu.be/OXp-Xgrde7w?t=3624"
+        },
+        {
+          "timestamp": "01:13:36",
+          "seconds": 4416,
+          "title": "Across the world !!",
+          "titleRaw": "Across the world !!",
+          "artist": "深淵組",
+          "artistRaw": "深淵組",
+          "url": "https://youtu.be/OXp-Xgrde7w?t=4416"
+        }
+      ],
+      "sourceCommentId": "issue#109",
+      "type": "stream"
     }
   ]
 }

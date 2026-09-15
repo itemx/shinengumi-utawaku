@@ -39,6 +39,11 @@
       "count": 24
     },
     {
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
+      "count": 24
+    },
+    {
       "title": "グリグリメガネと月光蟲",
       "artist": "古川本舗",
       "count": 24
@@ -47,11 +52,6 @@
       "title": "星降る海",
       "artist": "月見ヤチヨ",
       "count": 24
-    },
-    {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
-      "count": 23
     },
     {
       "title": "創聖のアクエリオン",
@@ -89,6 +89,11 @@
       "count": 22
     },
     {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 21
+    },
+    {
       "title": "Calc.",
       "artist": "ジミーサムP",
       "count": 21
@@ -97,11 +102,6 @@
       "title": "アポリア",
       "artist": "ヨルシカ",
       "count": 21
-    },
-    {
-      "title": "Across the world !!",
-      "artist": "深淵組",
-      "count": 20
     },
     {
       "title": "だから僕は音楽を辞めた",
@@ -159,6 +159,11 @@
       "count": 19
     },
     {
+      "title": "眠れぬ月夜のランデブー",
+      "artist": "涼風しとら",
+      "count": 19
+    },
+    {
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 19
@@ -171,6 +176,11 @@
     {
       "title": "うたかた花火",
       "artist": "ryo (supercell)",
+      "count": 18
+    },
+    {
+      "title": "ぶっ飛びな!しとら流炒飯☆",
+      "artist": "涼風しとら",
       "count": 18
     },
     {
@@ -194,18 +204,8 @@
       "count": 18
     },
     {
-      "title": "眠れぬ月夜のランデブー",
-      "artist": "涼風しとら",
-      "count": 18
-    },
-    {
       "title": "Butter-Fly",
       "artist": "和田光司",
-      "count": 17
-    },
-    {
-      "title": "ぶっ飛びな!しとら流炒飯☆",
-      "artist": "涼風しとら",
       "count": 17
     },
     {
@@ -339,6 +339,11 @@
       "count": 14
     },
     {
+      "title": "God knows...",
+      "artist": "平野綾",
+      "count": 14
+    },
+    {
       "title": "I beg you",
       "artist": "Aimer",
       "count": 14
@@ -399,13 +404,13 @@
       "count": 14
     },
     {
-      "title": "God knows...",
-      "artist": "平野綾",
+      "title": "Planetes",
+      "artist": "EGOIST",
       "count": 13
     },
     {
-      "title": "Planetes",
-      "artist": "EGOIST",
+      "title": "Song of journey",
+      "artist": "涼風しとら",
       "count": 13
     },
     {
@@ -514,11 +519,6 @@
       "count": 12
     },
     {
-      "title": "Song of journey",
-      "artist": "涼風しとら",
-      "count": 12
-    },
-    {
       "title": "again",
       "artist": "YUI",
       "count": 12
@@ -566,6 +566,11 @@
     {
       "title": "夏恋花火",
       "artist": "40mP",
+      "count": 12
+    },
+    {
+      "title": "振り向いてGOD",
+      "artist": "涼風しとら",
       "count": 12
     },
     {
@@ -706,11 +711,6 @@
     {
       "title": "忘れてください",
       "artist": "ヨルシカ",
-      "count": 11
-    },
-    {
-      "title": "振り向いてGOD",
-      "artist": "涼風しとら",
       "count": 11
     },
     {
@@ -924,6 +924,11 @@
       "count": 10
     },
     {
+      "title": "ADAMAS",
+      "artist": "LiSA",
+      "count": 9
+    },
+    {
       "title": "Ahoy!! 我ら宝鐘海賊団",
       "artist": "宝鐘マリン",
       "count": 9
@@ -966,6 +971,11 @@
     {
       "title": "only my railgun",
       "artist": "fripSide",
+      "count": 9
+    },
+    {
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
       "count": 9
     },
     {
@@ -1104,11 +1114,6 @@
       "count": 8
     },
     {
-      "title": "ADAMAS",
-      "artist": "LiSA",
-      "count": 8
-    },
-    {
       "title": "G4L",
       "artist": "Giga",
       "count": 8
@@ -1161,11 +1166,6 @@
     {
       "title": "rain stops, good-bye",
       "artist": "におP",
-      "count": 8
-    },
-    {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
       "count": 8
     },
     {
@@ -2744,6 +2744,11 @@
       "count": 4
     },
     {
+      "title": "リベリオン",
+      "artist": "Ado",
+      "count": 4
+    },
+    {
       "title": "ルンがピカッと光ったら",
       "artist": "ワルキューレ",
       "count": 4
@@ -3551,11 +3556,6 @@
     {
       "title": "ラブ&デストロイ",
       "artist": "MI8k",
-      "count": 3
-    },
-    {
-      "title": "リベリオン",
-      "artist": "Ado",
       "count": 3
     },
     {
