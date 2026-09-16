@@ -72,6 +72,12 @@
     "durationSec": 250
   },
   {
+    "title": "8番出口",
+    "artist": "EO",
+    "tags": ["vocaloid", "doujin"],
+    "durationSec": 179
+  },
+  {
     "title": "A Dream Is a Wish Your Heart Makes",
     "artist": "Ilene Woods",
     "tags": ["anime", "western"],
@@ -4126,6 +4132,12 @@
     "artist": "wotaku",
     "tags": ["vocaloid", "ballad"],
     "durationSec": 246
+  },
+  {
+    "title": "ジャンキーダウン",
+    "artist": "Fushi",
+    "tags": ["vocaloid"],
+    "durationSec": 205
   },
   {
     "title": "ジャンキーナイトタウンオーケストラ",
@@ -8626,6 +8638,12 @@
     "artist": "さユり",
     "tags": ["anime", "j-pop", "ballad"],
     "durationSec": 276
+  },
+  {
+    "title": "花ハ踊レヤいろはにほ",
+    "artist": "チーム\"ハナヤマタ\"",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 250
   },
   {
     "title": "花占い",
