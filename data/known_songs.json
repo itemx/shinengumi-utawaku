@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1551,
-  "uniqueTitles": 1523,
-  "uniqueArtists": 692,
+  "totalEntries": 1553,
+  "uniqueTitles": 1526,
+  "uniqueArtists": 695,
   "songs": [
     {
       "title": "All Alone With You",
@@ -42,6 +42,11 @@
       "title": "ビビデバ",
       "artist": "星街すいせい",
       "count": 26
+    },
+    {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 24
     },
     {
       "title": "Departures ~あなたにおくるアイの歌~",
@@ -94,14 +99,14 @@
       "count": 22
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
+      "title": "少女S",
+      "artist": "SCANDAL",
       "count": 22
     },
     {
-      "title": "Across the world !!",
-      "artist": "深淵組",
-      "count": 21
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 22
     },
     {
       "title": "Calc.",
@@ -126,11 +131,6 @@
     {
       "title": "ロンリーユニバース",
       "artist": "Aqu3ra",
-      "count": 20
-    },
-    {
-      "title": "少女S",
-      "artist": "SCANDAL",
       "count": 20
     },
     {
@@ -459,6 +459,11 @@
       "count": 13
     },
     {
+      "title": "一度だけの恋なら",
+      "artist": "ワルキューレ",
+      "count": 13
+    },
+    {
       "title": "夜に駆ける",
       "artist": "YOASOBI",
       "count": 13
@@ -691,11 +696,6 @@
     {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
-      "count": 11
-    },
-    {
-      "title": "一度だけの恋なら",
-      "artist": "ワルキューレ",
       "count": 11
     },
     {
@@ -1954,6 +1954,11 @@
       "count": 5
     },
     {
+      "title": "Deep in Abyss",
+      "artist": "リコ (富田美憂),レグ (伊瀬茉莉也)",
+      "count": 5
+    },
+    {
       "title": "ETERNAL WIND~ほほえみは光る風の中~",
       "artist": "森口博子",
       "count": 5
@@ -2101,6 +2106,11 @@
     {
       "title": "やさしさで溢れるように",
       "artist": "JUJU",
+      "count": 5
+    },
+    {
+      "title": "アイウエ",
+      "artist": "MAISONdes",
       "count": 5
     },
     {
@@ -2314,6 +2324,11 @@
       "count": 5
     },
     {
+      "title": "有點甜",
+      "artist": "汪蘇瀧",
+      "count": 5
+    },
+    {
       "title": "桜日和",
       "artist": "星村麻衣",
       "count": 5
@@ -2441,11 +2456,6 @@
     {
       "title": "Beat Eater",
       "artist": "ポリスピカデリー",
-      "count": 4
-    },
-    {
-      "title": "Deep in Abyss",
-      "artist": "リコ (富田美憂),レグ (伊瀬茉莉也)",
       "count": 4
     },
     {
@@ -2984,6 +2994,11 @@
       "count": 4
     },
     {
+      "title": "花ハ踊レヤいろはにほ",
+      "artist": "チーム\"ハナヤマタ\"",
+      "count": 4
+    },
+    {
       "title": "花瓶に触れた",
       "artist": "バルーン",
       "count": 4
@@ -3214,6 +3229,11 @@
       "count": 3
     },
     {
+      "title": "Thunder Seeker",
+      "artist": "小滝らいり",
+      "count": 3
+    },
+    {
       "title": "Touch off",
       "artist": "UVERworld",
       "count": 3
@@ -3346,11 +3366,6 @@
     {
       "title": "わたしのアール",
       "artist": "和田たけあき (くらげP)",
-      "count": 3
-    },
-    {
-      "title": "アイウエ",
-      "artist": "MAISONdes",
       "count": 3
     },
     {
@@ -3799,11 +3814,6 @@
       "count": 3
     },
     {
-      "title": "有點甜",
-      "artist": "汪蘇瀧",
-      "count": 3
-    },
-    {
       "title": "朝を呑む",
       "artist": "バルーン",
       "count": 3
@@ -3936,6 +3946,11 @@
     {
       "title": "3月9日",
       "artist": "レミオロメン",
+      "count": 2
+    },
+    {
+      "title": "8番出口",
+      "artist": "EO",
       "count": 2
     },
     {
@@ -4251,11 +4266,6 @@
     {
       "title": "The Beginning",
       "artist": "ONE OK ROCK",
-      "count": 2
-    },
-    {
-      "title": "Thunder Seeker",
-      "artist": "小滝らいり",
       "count": 2
     },
     {
@@ -4601,6 +4611,11 @@
     {
       "title": "シュガーバイン",
       "artist": "Dixie Flatline",
+      "count": 2
+    },
+    {
+      "title": "ジャンキーダウン",
+      "artist": "Fushi",
       "count": 2
     },
     {
@@ -5341,11 +5356,6 @@
     {
       "title": "Absolute 5",
       "artist": "ワルキューレ",
-      "count": 1
-    },
-    {
-      "title": "Across the world !!",
-      "artist": "涼風しとら",
       "count": 1
     },
     {
@@ -7831,6 +7841,7 @@
     "E-girls",
     "EGOIST",
     "ELLEGARDEN",
+    "EO",
     "Easy Pop",
     "EasyPop",
     "Eight",
@@ -7843,6 +7854,7 @@
     "FUNKIST",
     "FictionJunction",
     "FictionJunction YUUKA",
+    "Fushi",
     "GARNiDELiA",
     "GEMN",
     "GRe4N BOYZ",
@@ -8164,6 +8176,7 @@
     "タイナカサチ",
     "ターニャ・デグレチャフ (悠木碧)",
     "ダズビー",
+    "チーム\"ハナヤマタ\"",
     "ツミキ",
     "ツユ",
     "トウキョウ・シャンディ・ランデヴパロディ",

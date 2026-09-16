@@ -75,6 +75,14 @@ def parse_cover_title(video_title: str) -> CoverInfo | None:
                 artist = parts[1].strip()
                 song = parts[0].strip()
 
+    # 模式 3.5: 「{曲名} / covered by {VTuber}…」
+    # 右側は「歌った人」であって原唱ではないので、歌手としては採らない。
+    # 例: "ジャンキーダウン / covered by 小滝らいり　#shorts #cover"
+    if not song:
+        m = re.match(r"^(?:【[^】]*】\s*)?([^/【】]+?)\s*/\s*[Cc]overed\s+by\b", title)
+        if m:
+            song = _clean_song_name(m.group(1))
+
     # 模式 4: 「{曲名} / {歌手} Covered by VTuber【歌ってみた】」
     # 或 「{曲名} / {歌手} Covered」(不帶歌ってみた)
     if not song:
@@ -134,6 +142,16 @@ def parse_original_song(
     # 排除已經是 cover/歌ってみた 的影片
     if re.search(r"歌ってみた|cover\b", title, re.IGNORECASE):
         return None
+
+    # 「… Original Song『曲名』…」— 【】の外に書かれる形
+    # 例: "【Official MV】1st Original Song『Thunder Seeker』- 小滝らいり"
+    #     "深淵組 - Original Song『Across the world !!』小滝らいりsolo ver."
+    m = re.search(r"[Oo]riginal\s*[Ss]ong\s*[『「]\s*(.+?)\s*[』」]", title)
+    if m:
+        return CoverInfo(
+            title=m.group(1).strip(), artist="",
+            is_short=bool(re.search(r"#shorts|#Shorts", title)),
+        )
 
     # 標題直接含 Original Song
     m = re.match(r"^【[^】]*[Oo]riginal\s*[Ss]ong[^】]*】\s*(.+?)(?:\s*/\s*.+)?$", title)
@@ -200,13 +218,16 @@ def _extract_artist_from_hashtags(title: str, song_title: str = "") -> str:
     """
     # 排除的 hashtag (非歌手)
     exclude = {
-        "歌ってみた", "shorts", "cover", "新人vtuber", "vtuber", "vsinger",
-        "ボカロ", "karaoke", "歌枠", "渉海よひら", "深淵組", "超かぐや姫",
+        "歌ってみた", "shorts", "short", "cover", "covered", "新人vtuber",
+        "vtuber", "vsinger", "ボカロ", "karaoke", "歌枠", "深淵組", "超かぐや姫",
         "プロセカ", "シャニマス", "学マス", "初見歓迎",
+        # 演者本人の名前。原唱ではないので歌手として拾わない
+        "渉海よひら", "涼風しとら", "小滝らいり", "春雨ゆに", "社ねる",
     }
 
-    # 提取所有 hashtag
-    tags = re.findall(r"#(\S+)", title)
+    # 提取所有 hashtag。\S+ だと「【#歌ってみた】曲名」で 】 を跨いで
+    # 「歌ってみた】曲名」を歌手として拾ってしまうため、区切り文字で止める
+    tags = re.findall(r"#([^\s#【】（）()、,／]+)", title)
 
     candidates = []
     exclude_lower = {e.lower() for e in exclude}
@@ -246,6 +267,12 @@ if __name__ == "__main__":
         ("一体いつから/月村手毬 #歌ってみた #shorts #cover", "一体いつから", "月村手毬"),
         ("アイ・アイ・ア/ Ado #歌ってみた #shorts #cover", "アイ・アイ・ア", "Ado"),
         ("セレナーデ/なとり 歌ってみた【涼風しとら】#vsinger #cover", "セレナーデ", "なとり"),
+        # 【#歌ってみた】付き。hashtag 抽出が 】 を跨がないこと
+        ("【#歌ってみた】ジャンキーダウン / covered by 小滝らいり【深淵組/Vtuber】",
+         "ジャンキーダウン", ""),
+        # Shorts。covered by の右側は歌い手なので歌手にしない
+        ("ジャンキーダウン / covered by 小滝らいり\u3000#shorts #short #cover #歌ってみた #vtuber",
+         "ジャンキーダウン", ""),
     ]
     for title, want_song, want_artist in cases:
         r = parse_cover_title(title)

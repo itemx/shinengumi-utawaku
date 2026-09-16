@@ -184,6 +184,24 @@
       "type": "stream"
     },
     {
+      "videoId": "tSo3MkUuQQI",
+      "title": "【歌ってみた】Deep in Abyss / covered by 小滝らいり【深淵組/メイドインアビス】",
+      "publishedAt": "2023-11-21T11:00:09Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "Deep in Abyss",
+          "titleRaw": "Deep in Abyss",
+          "artist": "リコ (富田美憂),レグ (伊瀬茉莉也)",
+          "artistRaw": "",
+          "url": "https://youtu.be/tSo3MkUuQQI"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "cover"
+    },
+    {
       "videoId": "bSxH9wGm2UM",
       "title": "【歌枠】デビュー半年？！一緒にお祝いして💕🎤⚡【小滝らいり/深淵組】",
       "publishedAt": "2023-11-21T15:06:27Z",
@@ -517,6 +535,24 @@
       "type": "stream"
     },
     {
+      "videoId": "aPC8z8hxUjc",
+      "title": "【歌ってみた】アイウエ / covered by 小滝らいり【深淵組/うる星やつら】",
+      "publishedAt": "2024-06-14T11:59:07Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "アイウエ",
+          "titleRaw": "アイウエ",
+          "artist": "MAISONdes",
+          "artistRaw": "",
+          "url": "https://youtu.be/aPC8z8hxUjc"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "cover"
+    },
+    {
       "videoId": "MzAhxBEG0v8",
       "title": "【#縦型配信 】雨の日に聴きたい癒し歌枠🎤⚡【小滝らいり/深淵組】#shorts #short #歌枠 #新人vtuber #vtuber",
       "publishedAt": "2024-06-29T02:38:38Z",
@@ -605,6 +641,24 @@
       ],
       "sourceCommentId": "scan-rairi",
       "type": "stream"
+    },
+    {
+      "videoId": "AEq99uwqePI",
+      "title": "【中文で歌ってみた】有點甜 / covered by 小滝らいり【深淵組】",
+      "publishedAt": "2024-07-07T13:58:26Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "有點甜",
+          "titleRaw": "有點甜",
+          "artist": "汪蘇瀧",
+          "artistRaw": "",
+          "url": "https://youtu.be/AEq99uwqePI"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "cover"
     },
     {
       "videoId": "q7mv8Ft12PU",
@@ -749,6 +803,24 @@
       ],
       "sourceCommentId": "scan-rairi",
       "type": "stream"
+    },
+    {
+      "videoId": "--JA_EO3b9g",
+      "title": "【歌ってみた】8番出口 / covered by 小滝らいり【深淵組/Vtuber】",
+      "publishedAt": "2024-08-31T10:58:07Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "8番出口",
+          "titleRaw": "8番出口",
+          "artist": "EO",
+          "artistRaw": "",
+          "url": "https://youtu.be/--JA_EO3b9g"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "cover"
     },
     {
       "videoId": "jzbbtIe8It8",
@@ -931,6 +1003,24 @@
       "type": "stream"
     },
     {
+      "videoId": "A3WOajq35Bk",
+      "title": "深淵組 - Original Song『Across the world !!』小滝らいりsolo ver.",
+      "publishedAt": "2025-01-02T10:59:06Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "Across the world !!",
+          "titleRaw": "Across the world !!",
+          "artist": "深淵組",
+          "artistRaw": "",
+          "url": "https://youtu.be/A3WOajq35Bk"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "original"
+    },
+    {
       "videoId": "zNtWXPRzGn8",
       "title": "【#歌枠レイド】雷の使い手、歌の力で邪神討伐に挑む！⚔【小滝らいり(超能力者・サイキッカー)】",
       "publishedAt": "2025-01-11T08:19:45Z",
@@ -1039,6 +1129,24 @@
       "type": "stream"
     },
     {
+      "videoId": "2g607-9TEsk",
+      "title": "【#歌ってみた】ジャンキーダウン / covered by 小滝らいり【深淵組/Vtuber】",
+      "publishedAt": "2025-08-02T10:59:06Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "ジャンキーダウン",
+          "titleRaw": "ジャンキーダウン",
+          "artist": "Fushi",
+          "artistRaw": "",
+          "url": "https://youtu.be/2g607-9TEsk"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "cover"
+    },
+    {
       "videoId": "LfmZ5RfK1qU",
       "title": "【#歌枠】#小滝らいり 誕生祭2025🎆誕生日を祝して歌うぞ～⚡⏳#初見さん大歓迎【深淵組/Vtuber】",
       "publishedAt": "2025-08-02T14:48:33Z",
@@ -1075,6 +1183,42 @@
       "type": "stream"
     },
     {
+      "videoId": "IjYaCydLWdM",
+      "title": "【#歌ってみた】花ハ踊レヤいろはにほ / covered by 小滝らいり×春雨ゆに×社ねる【深淵組/Vtuber】",
+      "publishedAt": "2025-08-21T10:59:06Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "花ハ踊レヤいろはにほ",
+          "titleRaw": "花ハ踊レヤいろはにほ",
+          "artist": "チーム\"ハナヤマタ\"",
+          "artistRaw": "",
+          "url": "https://youtu.be/IjYaCydLWdM"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "cover"
+    },
+    {
+      "videoId": "GZ1kXmeAW2A",
+      "title": "【#歌ってみた】一度だけの恋なら / covered by 深淵組【小滝らいり×涼風しとら×春雨ゆに×社ねる×渉海よひら/Vtuber】",
+      "publishedAt": "2025-09-13T11:59:06Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "一度だけの恋なら",
+          "titleRaw": "一度だけの恋なら",
+          "artist": "ワルキューレ",
+          "artistRaw": "",
+          "url": "https://youtu.be/GZ1kXmeAW2A"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "cover"
+    },
+    {
       "videoId": "BHBLv7K43Ow",
       "title": "【#台日友好國際歌回接力】歌枠リレーで台湾と日本を繋ぐ！💙#歌枠【小滝らいり/深淵組】",
       "publishedAt": "2025-10-19T19:37:18Z",
@@ -1109,6 +1253,204 @@
       ],
       "sourceCommentId": "scan-rairi",
       "type": "stream"
+    },
+    {
+      "videoId": "pmlddJLtm2g",
+      "title": "【#歌ってみた】花ハ踊レヤいろはにほ / covered by 小滝らいり【深淵組/Vtuber】",
+      "publishedAt": "2025-11-21T10:59:06Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "花ハ踊レヤいろはにほ",
+          "titleRaw": "花ハ踊レヤいろはにほ",
+          "artist": "チーム\"ハナヤマタ\"",
+          "artistRaw": "",
+          "url": "https://youtu.be/pmlddJLtm2g"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "cover"
+    },
+    {
+      "videoId": "bz5hy_KgLPA",
+      "title": "ジャンキーダウン / covered by 小滝らいり　#shorts #short #cover #歌ってみた #vtuber",
+      "publishedAt": "2026-01-13T11:01:21Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "ジャンキーダウン",
+          "titleRaw": "ジャンキーダウン",
+          "artist": "Fushi",
+          "artistRaw": "",
+          "url": "https://youtu.be/bz5hy_KgLPA"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "M8KDTvgM08s",
+      "title": "8番出口 / covered by 小滝らいり　#shorts #short #cover #歌ってみた #vtuber",
+      "publishedAt": "2026-01-15T11:20:00Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "8番出口",
+          "titleRaw": "8番出口",
+          "artist": "EO",
+          "artistRaw": "",
+          "url": "https://youtu.be/M8KDTvgM08s"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "UBUjZkG8lYQ",
+      "title": "アイウエ / covered by 小滝らいり　#shorts #short #cover #歌ってみた #vtuber",
+      "publishedAt": "2026-01-17T11:10:00Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "アイウエ",
+          "titleRaw": "アイウエ",
+          "artist": "MAISONdes",
+          "artistRaw": "",
+          "url": "https://youtu.be/UBUjZkG8lYQ"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "652q9HcCF3Y",
+      "title": "有點甜 / covered by 小滝らいり　#shorts #short #cover #歌ってみた #vtuber",
+      "publishedAt": "2026-01-19T11:00:18Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "有點甜",
+          "titleRaw": "有點甜",
+          "artist": "汪蘇瀧",
+          "artistRaw": "",
+          "url": "https://youtu.be/652q9HcCF3Y"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "ioqi9iF9yHU",
+      "title": "Original Song『Across the world !!』小滝らいりsolo ver.　#shorts #short #小滝らいり #vtuber #おすすめ",
+      "publishedAt": "2026-01-21T11:15:05Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "Across the world !!",
+          "titleRaw": "Across the world !!",
+          "artist": "深淵組",
+          "artistRaw": "",
+          "url": "https://youtu.be/ioqi9iF9yHU"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "G0bjFwkBUKw",
+      "title": "一度だけの恋なら / covered by 深淵組　#shorts #short #cover #歌ってみた #vtuber",
+      "publishedAt": "2026-05-18T11:00:21Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "一度だけの恋なら",
+          "titleRaw": "一度だけの恋なら",
+          "artist": "ワルキューレ",
+          "artistRaw": "",
+          "url": "https://youtu.be/G0bjFwkBUKw"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "OjFKej6xZho",
+      "title": "花ハ踊レヤいろはにほ / covered by 深淵組　#shorts #short #cover #歌ってみた #vtuber",
+      "publishedAt": "2026-06-04T11:00:32Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "花ハ踊レヤいろはにほ",
+          "titleRaw": "花ハ踊レヤいろはにほ",
+          "artist": "チーム\"ハナヤマタ\"",
+          "artistRaw": "",
+          "url": "https://youtu.be/OjFKej6xZho"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "bQkZ1FTCv3s",
+      "title": "【#歌ってみた】少女S / covered by 小滝らいり×涼風しとら×渉海よひら【深淵組/Vtuber】",
+      "publishedAt": "2026-06-09T11:00:06Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "少女S",
+          "titleRaw": "少女S",
+          "artist": "SCANDAL",
+          "artistRaw": "",
+          "url": "https://youtu.be/bQkZ1FTCv3s"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "cover"
+    },
+    {
+      "videoId": "rLsebZbDdW4",
+      "title": "花ハ踊レヤいろはにほ / covered by 小滝らいり　#shorts #short #cover #歌ってみた #vtuber",
+      "publishedAt": "2026-06-29T11:00:09Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "花ハ踊レヤいろはにほ",
+          "titleRaw": "花ハ踊レヤいろはにほ",
+          "artist": "チーム\"ハナヤマタ\"",
+          "artistRaw": "",
+          "url": "https://youtu.be/rLsebZbDdW4"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "0j2IMF8HKso",
+      "title": "少女S / covered by 小滝らいり×涼風しとら×渉海よひら　#shorts #short #cover #歌ってみた #vtuber",
+      "publishedAt": "2026-06-30T11:00:04Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "少女S",
+          "titleRaw": "少女S",
+          "artist": "SCANDAL",
+          "artistRaw": "",
+          "url": "https://youtu.be/0j2IMF8HKso"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     },
     {
       "videoId": "NlAhg3-vS9I",
@@ -1208,6 +1550,24 @@
       ],
       "sourceCommentId": "scan-rairi",
       "type": "stream"
+    },
+    {
+      "videoId": "cQOcgqlts14",
+      "title": "【Official MV】1st Original Song『Thunder Seeker』- 小滝らいり",
+      "publishedAt": "2026-08-02T11:00:06Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "Thunder Seeker",
+          "titleRaw": "Thunder Seeker",
+          "artist": "小滝らいり",
+          "artistRaw": "",
+          "url": "https://youtu.be/cQOcgqlts14"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "original"
     },
     {
       "videoId": "y25k7cdrTKA",
