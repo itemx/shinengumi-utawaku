@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-16T13:05:16.537342+00:00",
+  "lastFetched": "2026-09-16T16:19:49.103425+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -20602,6 +20602,14 @@
         }
       ],
       "sourceCommentId": "issue#111",
+      "type": "stream"
+    },
+    {
+      "videoId": "jOmOWpMQJcc",
+      "title": "アイラ/n-buna #shorts #cover #歌ってみた",
+      "publishedAt": "2026-09-14T09:35:18Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]
