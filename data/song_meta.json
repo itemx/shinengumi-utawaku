@@ -768,10 +768,22 @@
     "durationSec": 240
   },
   {
+    "title": "GOLDFINGER '99",
+    "artist": "郷ひろみ",
+    "tags": ["j-pop"],
+    "durationSec": 249
+  },
+  {
     "title": "Gee",
     "artist": "少女時代",
     "tags": ["k-pop"],
     "durationSec": 202
+  },
+  {
+    "title": "Get No Satisfaction!",
+    "artist": "坂本真綾",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 254
   },
   {
     "title": "Get Wild",
@@ -802,6 +814,12 @@
     "artist": "GARNiDELiA",
     "tags": ["j-pop"],
     "durationSec": 233
+  },
+  {
+    "title": "Go Tight!",
+    "artist": "AKINO",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 282
   },
   {
     "title": "God knows...",
@@ -1554,6 +1572,12 @@
     "durationSec": 332
   },
   {
+    "title": "ROLL",
+    "artist": "ポルノグラフィティ",
+    "tags": ["j-pop"],
+    "durationSec": 293
+  },
+  {
     "title": "RONDO",
     "artist": "龍宮城",
     "tags": ["idol", "j-pop"],
@@ -1608,6 +1632,12 @@
     "durationSec": 269
   },
   {
+    "title": "Ring of Fortune",
+    "artist": "佐々木恵梨",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 262
+  },
+  {
     "title": "Rising Hope",
     "artist": "LiSA",
     "tags": ["anime", "j-pop"],
@@ -1618,6 +1648,12 @@
     "artist": "YUI",
     "tags": ["anime", "j-pop"],
     "durationSec": 190
+  },
+  {
+    "title": "Rose",
+    "artist": "Kaco",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 378
   },
   {
     "title": "S(mile)ING!",
@@ -1800,6 +1836,12 @@
     "durationSec": 268
   },
   {
+    "title": "Stay Alive",
+    "artist": "高橋李依",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 267
+  },
+  {
     "title": "Stellar Stellar",
     "artist": "星街すいせい",
     "tags": ["original", "j-pop"],
@@ -1906,6 +1948,12 @@
     "artist": "LiSA",
     "tags": ["game", "j-pop"],
     "durationSec": 254
+  },
+  {
+    "title": "Thunder Seeker",
+    "artist": "小滝らいり",
+    "tags": ["original"],
+    "durationSec": 139
   },
   {
     "title": "Together",
@@ -2358,6 +2406,12 @@
     "durationSec": 240
   },
   {
+    "title": "talking",
+    "artist": "KANA-BOON",
+    "tags": ["j-pop"],
+    "durationSec": 273
+  },
+  {
     "title": "to the beginning",
     "artist": "Kalafina",
     "tags": ["anime", "j-pop"],
@@ -2784,6 +2838,12 @@
     "durationSec": 226
   },
   {
+    "title": "さいごの果実",
+    "artist": "坂本真綾",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 296
+  },
+  {
     "title": "さくらんぼ",
     "artist": "大塚愛",
     "tags": ["j-pop"],
@@ -3000,6 +3060,12 @@
     "durationSec": 211
   },
   {
+    "title": "ねむるまち",
+    "artist": "くじら",
+    "tags": ["j-pop"],
+    "durationSec": 197
+  },
+  {
     "title": "はなまるぴっぴはよいこだけ",
     "artist": "A応P",
     "tags": ["anime", "j-pop"],
@@ -3046,6 +3112,12 @@
     "artist": "ヨルシカ",
     "tags": ["anime", "j-pop"],
     "durationSec": 260
+  },
+  {
+    "title": "ぼなぺてぃーと▽S",
+    "artist": "ブレンド・A",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 255
   },
   {
     "title": "ぽっぴっぽー",
@@ -4110,6 +4182,12 @@
     "durationSec": 193
   },
   {
+    "title": "シンクロマニカ",
+    "artist": "ねごと",
+    "tags": ["j-pop"],
+    "durationSec": 200
+  },
+  {
     "title": "シンデレラ",
     "artist": "DECO*27",
     "tags": ["vocaloid"],
@@ -4156,6 +4234,12 @@
     "artist": "Junky",
     "tags": ["vocaloid"],
     "durationSec": 215
+  },
+  {
+    "title": "スイートマジック",
+    "artist": "ろん×Junky",
+    "tags": ["vocaloid"],
+    "durationSec": 218
   },
   {
     "title": "スカー",
@@ -5736,6 +5820,12 @@
     "durationSec": 169
   },
   {
+    "title": "リンク",
+    "artist": "ポルノグラフィティ",
+    "tags": ["j-pop"],
+    "durationSec": 242
+  },
+  {
     "title": "リンネ",
     "artist": "米津玄師",
     "tags": ["vocaloid", "ballad"],
@@ -6210,6 +6300,12 @@
     "durationSec": 275
   },
   {
+    "title": "光",
+    "artist": "宇多田ヒカル",
+    "tags": ["game", "j-pop"],
+    "durationSec": 301
+  },
+  {
     "title": "光るなら",
     "artist": "Goose house",
     "tags": ["anime", "j-pop", "ballad"],
@@ -6322,6 +6418,12 @@
     "artist": "RADWIMPS",
     "tags": ["anime", "j-pop"],
     "durationSec": 275
+  },
+  {
+    "title": "割れたリンゴ",
+    "artist": "種田梨沙",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 253
   },
   {
     "title": "創傷イノセンス",
@@ -6978,6 +7080,12 @@
     "durationSec": 258
   },
   {
+    "title": "寝起きヤシの木",
+    "artist": "ゆこぴ",
+    "tags": ["vocaloid"],
+    "durationSec": 117
+  },
+  {
     "title": "射手座午後九時Don't be late",
     "artist": "シェリル・ノーム starring May'n",
     "tags": ["anime", "idol", "j-pop"],
@@ -7062,6 +7170,12 @@
     "durationSec": 254
   },
   {
+    "title": "帰り道",
+    "artist": "加藤英美里",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 247
+  },
+  {
     "title": "常夜リペイント",
     "artist": "秘密結社holoX",
     "tags": ["original", "j-pop"],
@@ -7102,6 +7216,12 @@
     "artist": "DECO*27",
     "tags": ["vocaloid"],
     "durationSec": 240
+  },
+  {
+    "title": "強風オールバック",
+    "artist": "ゆこぴ",
+    "tags": ["vocaloid"],
+    "durationSec": 137
   },
   {
     "title": "往け",
@@ -7722,6 +7842,12 @@
     "durationSec": 215
   },
   {
+    "title": "有點甜",
+    "artist": "汪蘇瀧",
+    "tags": [],
+    "durationSec": 235
+  },
+  {
     "title": "朝が来る",
     "artist": "Aimer",
     "tags": ["anime", "j-pop", "ballad"],
@@ -7956,6 +8082,12 @@
     "durationSec": 285
   },
   {
+    "title": "水流のロック",
+    "artist": "日食なつこ",
+    "tags": ["j-pop"],
+    "durationSec": 201
+  },
+  {
     "title": "永遠のあくる日",
     "artist": "Ado",
     "tags": ["j-pop", "ballad"],
@@ -8001,6 +8133,12 @@
     "title": "海色",
     "artist": "AKINO from bless4",
     "tags": ["anime", "game", "j-pop"],
+    "durationSec": 256
+  },
+  {
+    "title": "消せない罪",
+    "artist": "北出菜奈",
+    "tags": ["anime", "j-pop"],
     "durationSec": 256
   },
   {
@@ -8568,6 +8706,12 @@
     "durationSec": 314
   },
   {
+    "title": "能動的三分間",
+    "artist": "東京事変",
+    "tags": ["j-pop"],
+    "durationSec": 180
+  },
+  {
     "title": "脳内革命ガール",
     "artist": "MARETU",
     "tags": ["vocaloid"],
@@ -8760,6 +8904,12 @@
     "durationSec": 202
   },
   {
+    "title": "解読不能",
+    "artist": "ジン",
+    "tags": ["j-pop"],
+    "durationSec": 186
+  },
+  {
     "title": "言い訳Maybe",
     "artist": "AKB48",
     "tags": ["idol", "j-pop"],
@@ -8893,6 +9043,12 @@
     "durationSec": 209
   },
   {
+    "title": "銀猫",
+    "artist": "天野月子",
+    "tags": ["j-pop"],
+    "durationSec": 272
+  },
+  {
     "title": "錠剤",
     "artist": "TOOBOE",
     "tags": ["anime", "j-pop"],
@@ -8935,6 +9091,12 @@
     "durationSec": 184
   },
   {
+    "title": "雨が降る",
+    "artist": "坂本真綾",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 323
+  },
+  {
     "title": "雨き声残響",
     "artist": "Orangestar",
     "tags": ["vocaloid", "ballad"],
@@ -8965,6 +9127,12 @@
     "durationSec": 181
   },
   {
+    "title": "雪に咲く花",
+    "artist": "花澤香菜",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 296
+  },
+  {
     "title": "雪の華",
     "artist": "中島美嘉",
     "tags": ["j-pop", "ballad"],
@@ -8989,10 +9157,22 @@
     "durationSec": 197
   },
   {
+    "title": "雷音",
+    "artist": "ジン",
+    "tags": ["j-pop"],
+    "durationSec": 273
+  },
+  {
     "title": "青いベンチ",
     "artist": "サスケ",
     "tags": ["j-pop", "ballad"],
     "durationSec": 244
+  },
+  {
+    "title": "青い栞",
+    "artist": "Galileo Galilei",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 340
   },
   {
     "title": "青い珊瑚礁",
@@ -9029,6 +9209,12 @@
     "artist": "Aqours",
     "tags": ["anime", "idol", "j-pop"],
     "durationSec": 284
+  },
+  {
+    "title": "青空のナミダ",
+    "artist": "高橋瞳",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 274
   },
   {
     "title": "青空のラプソディ",
