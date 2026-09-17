@@ -2922,6 +2922,12 @@
     "durationSec": 268
   },
   {
+    "title": "それは内緒にしておいて",
+    "artist": "瀬名航",
+    "tags": ["vocaloid"],
+    "durationSec": 187
+  },
+  {
     "title": "それを愛と呼ぶなら",
     "artist": "Uru",
     "tags": ["j-pop", "ballad"],
@@ -6324,6 +6330,12 @@
     "durationSec": 134
   },
   {
+    "title": "八月のレイニー",
+    "artist": "はるまきごはん",
+    "tags": ["vocaloid"],
+    "durationSec": 200
+  },
+  {
     "title": "八月の夜",
     "artist": "SILENT SIREN",
     "tags": ["j-pop"],
@@ -7594,6 +7606,12 @@
     "artist": "涼風しとら",
     "tags": ["original", "j-pop"],
     "durationSec": 180
+  },
+  {
+    "title": "携帯恋話",
+    "artist": "まふまふ",
+    "tags": ["j-pop"],
+    "durationSec": 256
   },
   {
     "title": "撥条少女時計",
