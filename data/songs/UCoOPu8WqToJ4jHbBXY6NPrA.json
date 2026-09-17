@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-16T16:19:49.103425+00:00",
+  "lastFetched": "2026-09-17T01:48:51.139077+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -20610,6 +20610,231 @@
       "publishedAt": "2026-09-14T09:35:18Z",
       "songs": [],
       "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "c4rCsSFc5ys",
+      "title": "【歌枠】月がきれいですね ≀ 眠れない夜、深い海へ🧊◦°  心が浄化される魅惑の歌声 ≀ Singing Stream【VTuber/配信中】",
+      "publishedAt": "2026-09-15T19:35:50Z",
+      "songs": [
+        {
+          "timestamp": "10:04",
+          "seconds": 604,
+          "title": "それは内緒にしておいて",
+          "titleRaw": "それは内緒にしておいて",
+          "artist": "瀬名航",
+          "artistRaw": "瀬名航",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=604"
+        },
+        {
+          "timestamp": "13:32",
+          "seconds": 812,
+          "title": "月が綺麗ねと言われたい!",
+          "titleRaw": "月が綺麗ねと言われたい!",
+          "artist": "柿崎ユウタ",
+          "artistRaw": "柿崎ユウタ",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=812"
+        },
+        {
+          "timestamp": "16:00",
+          "seconds": 960,
+          "title": "ハロ/ハワユ",
+          "titleRaw": "ハロ/ハワユ",
+          "artist": "ナノウ",
+          "artistRaw": "ナノウ",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=960"
+        },
+        {
+          "timestamp": "40:03",
+          "seconds": 2403,
+          "title": "Ghost of a smile",
+          "titleRaw": "Ghost of a smile",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=2403"
+        },
+        {
+          "timestamp": "45:56",
+          "seconds": 2756,
+          "title": "-ERROR",
+          "titleRaw": "-ERROR",
+          "artist": "niki",
+          "artistRaw": "niki",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=2756"
+        },
+        {
+          "timestamp": "49:58",
+          "seconds": 2998,
+          "title": "水流のロック",
+          "titleRaw": "水流のロック",
+          "artist": "日食なつこ",
+          "artistRaw": "日食なつこ",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=2998"
+        },
+        {
+          "timestamp": "53:21",
+          "seconds": 3201,
+          "title": "ワールド・ランプシェード",
+          "titleRaw": "ワールド・ランプシェード",
+          "artist": "buzzG",
+          "artistRaw": "buzzG",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=3201"
+        },
+        {
+          "timestamp": "58:15",
+          "seconds": 3495,
+          "title": "アルジャーノン",
+          "titleRaw": "アルジャーノン",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=3495"
+        },
+        {
+          "timestamp": "1:02:38",
+          "seconds": 3758,
+          "title": "櫂",
+          "titleRaw": "櫂",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=3758"
+        },
+        {
+          "timestamp": "1:37:06",
+          "seconds": 5826,
+          "title": "JANE DOE",
+          "titleRaw": "JANE DOE",
+          "artist": "米津玄師, 宇多田ヒカル",
+          "artistRaw": "米津玄師, 宇多田ヒカル",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=5826"
+        },
+        {
+          "timestamp": "1:41:45",
+          "seconds": 6105,
+          "title": "躍動",
+          "titleRaw": "躍動",
+          "artist": "坂本真綾",
+          "artistRaw": "坂本真綾",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=6105"
+        },
+        {
+          "timestamp": "1:45:59",
+          "seconds": 6359,
+          "title": "paranoia",
+          "titleRaw": "paranoia",
+          "artist": "つなまる (めざめP)",
+          "artistRaw": "つなまる (めざめP)",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=6359"
+        },
+        {
+          "timestamp": "1:49:53",
+          "seconds": 6593,
+          "title": "Hello, Worker",
+          "titleRaw": "Hello, Worker",
+          "artist": "KEI",
+          "artistRaw": "KEI",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=6593"
+        },
+        {
+          "timestamp": "1:53:59",
+          "seconds": 6839,
+          "title": "携帯恋話",
+          "titleRaw": "携帯恋話",
+          "artist": "まふまふ",
+          "artistRaw": "まふまふ",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=6839"
+        },
+        {
+          "timestamp": "1:59:02",
+          "seconds": 7142,
+          "title": "帝国少女",
+          "titleRaw": "帝国少女",
+          "artist": "R Sound Design",
+          "artistRaw": "R Sound Design",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=7142"
+        },
+        {
+          "timestamp": "2:04:05",
+          "seconds": 7445,
+          "title": "Just Be Friends",
+          "titleRaw": "Just Be Friends",
+          "artist": "Dixie Flatline",
+          "artistRaw": "Dixie Flatline",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=7445"
+        },
+        {
+          "timestamp": "2:11:10",
+          "seconds": 7870,
+          "title": "プロポーズ",
+          "titleRaw": "プロポーズ",
+          "artist": "なとり",
+          "artistRaw": "なとり",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=7870"
+        },
+        {
+          "timestamp": "2:15:37",
+          "seconds": 8137,
+          "title": "Overdose",
+          "titleRaw": "Overdose",
+          "artist": "なとり",
+          "artistRaw": "なとり",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=8137"
+        },
+        {
+          "timestamp": "2:19:05",
+          "seconds": 8345,
+          "title": "トリノコシティ",
+          "titleRaw": "トリノコシティ",
+          "artist": "40mP",
+          "artistRaw": "40mP",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=8345"
+        },
+        {
+          "timestamp": "2:23:00",
+          "seconds": 8580,
+          "title": "それがあなたの幸せとしても",
+          "titleRaw": "それがあなたの幸せとしても",
+          "artist": "Heavenz",
+          "artistRaw": "Heavenz",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=8580"
+        },
+        {
+          "timestamp": "2:58:27",
+          "seconds": 10707,
+          "title": "Rose",
+          "titleRaw": "Rose",
+          "artist": "Kaco",
+          "artistRaw": "Kaco",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=10707"
+        },
+        {
+          "timestamp": "3:05:40",
+          "seconds": 11140,
+          "title": "アイロニ",
+          "titleRaw": "アイロニ",
+          "artist": "すこっぷ",
+          "artistRaw": "すこっぷ",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=11140"
+        },
+        {
+          "timestamp": "3:10:34",
+          "seconds": 11434,
+          "title": "あいのけもの",
+          "titleRaw": "あいのけもの",
+          "artist": "古川本舗",
+          "artistRaw": "古川本舗",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=11434"
+        },
+        {
+          "timestamp": "3:15:51",
+          "seconds": 11751,
+          "title": "HOME",
+          "titleRaw": "HOME",
+          "artist": "古川本舗",
+          "artistRaw": "古川本舗",
+          "url": "https://youtu.be/c4rCsSFc5ys?t=11751"
+        }
+      ],
+      "sourceCommentId": "issue#115",
       "type": "stream"
     }
   ]

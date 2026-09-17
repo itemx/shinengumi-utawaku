@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1554,
-  "uniqueTitles": 1527,
+  "totalEntries": 1556,
+  "uniqueTitles": 1529,
   "uniqueArtists": 695,
   "songs": [
     {
@@ -124,6 +124,11 @@
       "count": 20
     },
     {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
+      "count": 20
+    },
+    {
       "title": "サリシノハラ",
       "artist": "みきとP",
       "count": 20
@@ -159,13 +164,13 @@
       "count": 19
     },
     {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
+      "title": "ウィアートル",
+      "artist": "rionos",
       "count": 19
     },
     {
-      "title": "ウィアートル",
-      "artist": "rionos",
+      "title": "プロポーズ",
+      "artist": "なとり",
       "count": 19
     },
     {
@@ -209,13 +214,13 @@
       "count": 18
     },
     {
-      "title": "フォニイ",
-      "artist": "ツミキ",
+      "title": "トリノコシティ",
+      "artist": "40mP",
       "count": 18
     },
     {
-      "title": "プロポーズ",
-      "artist": "なとり",
+      "title": "フォニイ",
+      "artist": "ツミキ",
       "count": 18
     },
     {
@@ -234,13 +239,13 @@
       "count": 17
     },
     {
-      "title": "カラフル",
-      "artist": "ClariS",
+      "title": "あいのけもの",
+      "artist": "古川本舗",
       "count": 17
     },
     {
-      "title": "トリノコシティ",
-      "artist": "40mP",
+      "title": "カラフル",
+      "artist": "ClariS",
       "count": 17
     },
     {
@@ -264,8 +269,8 @@
       "count": 16
     },
     {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
+      "title": "Ghost of a smile",
+      "artist": "EGOIST",
       "count": 16
     },
     {
@@ -309,11 +314,6 @@
       "count": 15
     },
     {
-      "title": "Ghost of a smile",
-      "artist": "EGOIST",
-      "count": 15
-    },
-    {
       "title": "God knows...",
       "artist": "平野綾",
       "count": 15
@@ -331,6 +331,11 @@
     {
       "title": "コネクト",
       "artist": "ClariS",
+      "count": 15
+    },
+    {
+      "title": "ハロ/ハワユ",
+      "artist": "ナノウ",
       "count": 15
     },
     {
@@ -381,11 +386,6 @@
     {
       "title": "ノーチラス",
       "artist": "ヨルシカ",
-      "count": 14
-    },
-    {
-      "title": "ハロ/ハワユ",
-      "artist": "ナノウ",
       "count": 14
     },
     {
@@ -456,6 +456,11 @@
     {
       "title": "ロミオとシンデレラ",
       "artist": "doriko",
+      "count": 13
+    },
+    {
+      "title": "ワールド・ランプシェード",
+      "artist": "buzzG",
       "count": 13
     },
     {
@@ -574,11 +579,6 @@
       "count": 12
     },
     {
-      "title": "ワールド・ランプシェード",
-      "artist": "buzzG",
-      "count": 12
-    },
-    {
       "title": "二息歩行",
       "artist": "DECO*27",
       "count": 12
@@ -591,6 +591,11 @@
     {
       "title": "夏恋花火",
       "artist": "40mP",
+      "count": 12
+    },
+    {
+      "title": "帝国少女",
+      "artist": "R Sound Design",
       "count": 12
     },
     {
@@ -629,8 +634,18 @@
       "count": 12
     },
     {
+      "title": "-ERROR",
+      "artist": "niki",
+      "count": 11
+    },
+    {
       "title": "CHAINSAW BLOOD",
       "artist": "Vaundy",
+      "count": 11
+    },
+    {
+      "title": "Overdose",
+      "artist": "なとり",
       "count": 11
     },
     {
@@ -724,11 +739,6 @@
       "count": 11
     },
     {
-      "title": "帝国少女",
-      "artist": "R Sound Design",
-      "count": 11
-    },
-    {
       "title": "死にゆく季節のきみへ",
       "artist": "麻枝准×やなぎなぎ",
       "count": 11
@@ -749,11 +759,6 @@
       "count": 11
     },
     {
-      "title": "-ERROR",
-      "artist": "niki",
-      "count": 10
-    },
-    {
       "title": "Booo!",
       "artist": "西沢さんP",
       "count": 10
@@ -766,11 +771,6 @@
     {
       "title": "Mela!",
       "artist": "緑黄色社会",
-      "count": 10
-    },
-    {
-      "title": "Overdose",
-      "artist": "なとり",
       "count": 10
     },
     {
@@ -984,6 +984,11 @@
       "count": 9
     },
     {
+      "title": "Hello, Worker",
+      "artist": "KEI",
+      "count": 9
+    },
+    {
       "title": "ROCK-mode'18",
       "artist": "LiSA",
       "count": 9
@@ -1139,11 +1144,6 @@
       "count": 8
     },
     {
-      "title": "Hello, Worker",
-      "artist": "KEI",
-      "count": 8
-    },
-    {
       "title": "PAPERMOON",
       "artist": "Tommy heavenly6",
       "count": 8
@@ -1191,6 +1191,11 @@
     {
       "title": "そばかす",
       "artist": "JUDY AND MARY",
+      "count": 8
+    },
+    {
+      "title": "それがあなたの幸せとしても",
+      "artist": "Heavenz",
       "count": 8
     },
     {
@@ -1296,6 +1301,16 @@
     {
       "title": "愛言葉IV",
       "artist": "DECO*27",
+      "count": 8
+    },
+    {
+      "title": "月が綺麗ねと言われたい!",
+      "artist": "柿崎ユウタ",
+      "count": 8
+    },
+    {
+      "title": "櫂",
+      "artist": "ヨルシカ",
       "count": 8
     },
     {
@@ -1421,11 +1436,6 @@
     {
       "title": "ずうっといっしょ!",
       "artist": "キタニタツヤ",
-      "count": 7
-    },
-    {
-      "title": "それがあなたの幸せとしても",
-      "artist": "Heavenz",
       "count": 7
     },
     {
@@ -1606,16 +1616,6 @@
     {
       "title": "打上花火",
       "artist": "DAOKO × 米津玄師",
-      "count": 7
-    },
-    {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "柿崎ユウタ",
-      "count": 7
-    },
-    {
-      "title": "櫂",
-      "artist": "ヨルシカ",
       "count": 7
     },
     {
@@ -2554,6 +2554,11 @@
       "count": 4
     },
     {
+      "title": "paranoia",
+      "artist": "つなまる (めざめP)",
+      "count": 4
+    },
+    {
       "title": "sweet timer",
       "artist": "iLiFE!",
       "count": 4
@@ -2606,6 +2611,11 @@
     {
       "title": "アイのシナリオ",
       "artist": "CHiCO with HoneyWorks",
+      "count": 4
+    },
+    {
+      "title": "アイロニ",
+      "artist": "すこっぷ",
       "count": 4
     },
     {
@@ -3049,6 +3059,11 @@
       "count": 4
     },
     {
+      "title": "躍動",
+      "artist": "坂本真綾",
+      "count": 4
+    },
+    {
       "title": "金曜日のおはよう",
       "artist": "HoneyWorks",
       "count": 4
@@ -3146,6 +3161,11 @@
     {
       "title": "INVOKE",
       "artist": "T.M.Revolution",
+      "count": 3
+    },
+    {
+      "title": "JANE DOE",
+      "artist": "米津玄師, 宇多田ヒカル",
       "count": 3
     },
     {
@@ -3314,11 +3334,6 @@
       "count": 3
     },
     {
-      "title": "paranoia",
-      "artist": "つなまる (めざめP)",
-      "count": 3
-    },
-    {
       "title": "you",
       "artist": "癒月",
       "count": 3
@@ -3401,11 +3416,6 @@
     {
       "title": "わたしのアール",
       "artist": "和田たけあき (くらげP)",
-      "count": 3
-    },
-    {
-      "title": "アイロニ",
-      "artist": "すこっぷ",
       "count": 3
     },
     {
@@ -3909,11 +3919,6 @@
       "count": 3
     },
     {
-      "title": "躍動",
-      "artist": "坂本真綾",
-      "count": 3
-    },
-    {
       "title": "邪魔",
       "artist": "syudou",
       "count": 3
@@ -4114,6 +4119,11 @@
       "count": 2
     },
     {
+      "title": "HOME",
+      "artist": "古川本舗",
+      "count": 2
+    },
+    {
       "title": "Happy Halloween",
       "artist": "Junky",
       "count": 2
@@ -4139,8 +4149,8 @@
       "count": 2
     },
     {
-      "title": "JANE DOE",
-      "artist": "米津玄師, 宇多田ヒカル",
+      "title": "Just Be Friends",
+      "artist": "Dixie Flatline",
       "count": 2
     },
     {
@@ -4236,6 +4246,11 @@
     {
       "title": "Ring of Fortune",
       "artist": "佐々木恵梨",
+      "count": 2
+    },
+    {
+      "title": "Rose",
+      "artist": "Kaco",
       "count": 2
     },
     {
@@ -5189,6 +5204,11 @@
       "count": 2
     },
     {
+      "title": "水流のロック",
+      "artist": "日食なつこ",
+      "count": 2
+    },
+    {
       "title": "泥の分際で私だけの大切を奪おうだなんて",
       "artist": "ツユ",
       "count": 2
@@ -5619,11 +5639,6 @@
       "count": 1
     },
     {
-      "title": "HOME",
-      "artist": "古川本舗",
-      "count": 1
-    },
-    {
       "title": "HOT LIMIT",
       "artist": "T.M.Revolution",
       "count": 1
@@ -5671,11 +5686,6 @@
     {
       "title": "I♡",
       "artist": "リリぴ",
-      "count": 1
-    },
-    {
-      "title": "Just Be Friends",
-      "artist": "Dixie Flatline",
       "count": 1
     },
     {
@@ -5831,11 +5841,6 @@
     {
       "title": "Real Face",
       "artist": "KAT-TUN",
-      "count": 1
-    },
-    {
-      "title": "Rose",
-      "artist": "Kaco",
       "count": 1
     },
     {
@@ -6136,6 +6141,11 @@
     {
       "title": "すろぉもぉしょん",
       "artist": "ピノキオピー",
+      "count": 1
+    },
+    {
+      "title": "それは内緒にしておいて",
+      "artist": "瀬名航",
       "count": 1
     },
     {
@@ -7379,6 +7389,11 @@
       "count": 1
     },
     {
+      "title": "携帯恋話",
+      "artist": "まふまふ",
+      "count": 1
+    },
+    {
       "title": "放課後ストライド",
       "artist": "Last Note.",
       "count": 1
@@ -7486,11 +7501,6 @@
     {
       "title": "気分上々↑↑",
       "artist": "mihimaru GT",
-      "count": 1
-    },
-    {
-      "title": "水流のロック",
-      "artist": "日食なつこ",
       "count": 1
     },
     {
