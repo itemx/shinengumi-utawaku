@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-17T01:48:51.139077+00:00",
+  "lastFetched": "2026-09-19T15:31:39.426383+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -20835,6 +20835,194 @@
         }
       ],
       "sourceCommentId": "issue#115",
+      "type": "stream"
+    },
+    {
+      "videoId": "a8UT9kS4zMg",
+      "title": "Day＆Night / Aqu3ra #shorts #cover #歌ってみた",
+      "publishedAt": "2026-09-18T10:03:36Z",
+      "songs": [],
+      "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "_BHyM9lP5cg",
+      "title": "【歌枠】同時観測300人⇧ありがと┊深海からあなたを癒す🪼◦° 心が浄化される魅惑の歌声┊Singing Stream【VTuber/配信中】",
+      "publishedAt": "2026-09-17T19:14:05Z",
+      "songs": [
+        {
+          "timestamp": "43:29",
+          "seconds": 2609,
+          "title": "あぶく",
+          "titleRaw": "あぶく",
+          "artist": "ヨルシカ",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=2609"
+        },
+        {
+          "timestamp": "47:39",
+          "seconds": 2859,
+          "title": "フィクサー",
+          "titleRaw": "フィクサー",
+          "artist": "ぬゆり",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=2859"
+        },
+        {
+          "timestamp": "52:14",
+          "seconds": 3134,
+          "title": "シザーハンズ",
+          "titleRaw": "シザーハンズ",
+          "artist": "Nem",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=3134"
+        },
+        {
+          "timestamp": "56:57",
+          "seconds": 3417,
+          "title": "少女レイ",
+          "titleRaw": "少女レイ",
+          "artist": "みきとP",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=3417"
+        },
+        {
+          "timestamp": "1:01:50",
+          "seconds": 3710,
+          "title": "サリシノハラ",
+          "titleRaw": "サリシノハラ",
+          "artist": "みきとP",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=3710"
+        },
+        {
+          "timestamp": "1:25:05",
+          "seconds": 5105,
+          "title": "斜陽",
+          "titleRaw": "斜陽",
+          "artist": "ヨルシカ",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=5105"
+        },
+        {
+          "timestamp": "1:28:39",
+          "seconds": 5319,
+          "title": "深海のリトルクライ",
+          "titleRaw": "深海のリトルクライ",
+          "artist": "sasakure.UK",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=5319"
+        },
+        {
+          "timestamp": "1:32:52",
+          "seconds": 5572,
+          "title": "Happiness Umbrella",
+          "titleRaw": "Happiness Umbrella",
+          "artist": "ロクデナシ",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=5572"
+        },
+        {
+          "timestamp": "1:37:02",
+          "seconds": 5822,
+          "title": "花泡沫",
+          "titleRaw": "花泡沫",
+          "artist": "ロクデナシ",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=5822"
+        },
+        {
+          "timestamp": "1:40:00",
+          "seconds": 6000,
+          "title": "unravel",
+          "titleRaw": "unravel",
+          "artist": "TK from 凛として時雨",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=6000"
+        },
+        {
+          "timestamp": "2:10:59",
+          "seconds": 7859,
+          "title": "キミソラキセキ",
+          "titleRaw": "キミソラキセキ",
+          "artist": "EGOIST",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=7859"
+        },
+        {
+          "timestamp": "2:16:17",
+          "seconds": 8177,
+          "title": "アクアテラリウム",
+          "titleRaw": "アクアテラリウム",
+          "artist": "やなぎなぎ",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=8177"
+        },
+        {
+          "timestamp": "2:21:18",
+          "seconds": 8478,
+          "title": "ケッペキショウ",
+          "titleRaw": "ケッペキショウ",
+          "artist": "すこっぷ",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=8478"
+        },
+        {
+          "timestamp": "2:29:56",
+          "seconds": 8996,
+          "title": "BALALAIKA",
+          "titleRaw": "BALALAIKA",
+          "artist": "9Lana",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=8996"
+        },
+        {
+          "timestamp": "2:34:31",
+          "seconds": 9271,
+          "title": "-ERROR",
+          "titleRaw": "-ERROR",
+          "artist": "niki",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=9271"
+        },
+        {
+          "timestamp": "2:38:34",
+          "seconds": 9514,
+          "title": "ローリンガール",
+          "titleRaw": "ローリンガール",
+          "artist": "wowaka",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=9514"
+        },
+        {
+          "timestamp": "2:42:50",
+          "seconds": 9770,
+          "title": "Burn My Universe",
+          "titleRaw": "Burn My Universe",
+          "artist": "麻枝准×やなぎなぎ",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=9770"
+        },
+        {
+          "timestamp": "2:48:39",
+          "seconds": 10119,
+          "title": "へび",
+          "titleRaw": "へび",
+          "artist": "ヨルシカ",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=10119"
+        },
+        {
+          "timestamp": "2:54:56",
+          "seconds": 10496,
+          "title": "ロンリーユニバース",
+          "titleRaw": "ロンリーユニバース",
+          "artist": "Aqu3ra",
+          "artistRaw": "",
+          "url": "https://youtu.be/_BHyM9lP5cg?t=10496"
+        }
+      ],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]
