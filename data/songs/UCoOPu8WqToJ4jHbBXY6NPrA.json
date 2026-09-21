@@ -21031,6 +21031,15 @@
       "publishedAt": "2026-09-19T19:27:20Z",
       "songs": [
         {
+          "timestamp": "10:40",
+          "seconds": 640,
+          "title": "いえない",
+          "titleRaw": "いえない",
+          "artist": "ひらぎ",
+          "artistRaw": "ひらぎ",
+          "url": "https://youtu.be/KeoTiC8mp1I?t=640"
+        },
+        {
           "timestamp": "14:47",
           "seconds": 887,
           "title": "天国",

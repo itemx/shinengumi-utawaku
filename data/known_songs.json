@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1560,
-  "uniqueTitles": 1534,
+  "totalEntries": 1561,
+  "uniqueTitles": 1535,
   "uniqueArtists": 697,
   "songs": [
     {
@@ -6101,6 +6101,11 @@
     {
       "title": "いい日旅立ち",
       "artist": "山口百恵",
+      "count": 1
+    },
+    {
+      "title": "いえない",
+      "artist": "ひらぎ",
       "count": 1
     },
     {
