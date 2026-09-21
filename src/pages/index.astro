@@ -4,6 +4,13 @@ import { getChannels, getStats } from "../lib/data";
 
 const channels = getChannels();
 const stats = getStats();
+
+// 深淵組のオリジナル曲 MV。曲庫の演唱記録とは別枠なので、ここに直接書く。
+// dur は渡さない —— MV は曲そのものなので、動画の尺いっぱいまで再生させる。
+const originals = [
+  { videoId: "KMAhIKpDAv0", title: "Across the world !!", artist: "深淵組", date: "2024-09-15", start: 0 },
+  { videoId: "Tug67ohsUi4", title: "ときのしおり", artist: "深淵組", date: "2026-09-20", start: 0 },
+];
 ---
 
 <Base title="SEG-V UtaList" description="深淵組 VTuber 歌回曲目索引" i18nTitleKey="index.page_title">
@@ -118,4 +125,48 @@ const stats = getStats();
       })}
     </div>
   )}
+
+  <!-- 深淵組のオリジナル曲。クリックで PlayerBar に流す（ページ遷移しない） -->
+  <section class="mt-10">
+    <h2 class="text-center text-sm font-medium text-text-muted mb-4" data-i18n="index.originals">
+      深淵組 原創曲
+    </h2>
+    <div class="flex flex-wrap justify-center gap-6">
+      {originals.map((o) => (
+        <button
+          type="button"
+          data-original={JSON.stringify(o)}
+          class="original-card block w-full sm:w-[22rem] text-left rounded-lg border border-border bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow group"
+        >
+          <div class="relative aspect-video bg-black">
+            <img
+              src={`https://img.youtube.com/vi/${o.videoId}/hqdefault.jpg`}
+              alt={o.title}
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
+            <span class="absolute inset-0 grid place-items-center bg-black/25 group-hover:bg-black/10 transition-colors">
+              <span class="grid place-items-center w-14 h-14 rounded-full text-white shadow-lg"
+                style="background: linear-gradient(135deg, #5e2a89, #e40079);">
+                <svg class="w-7 h-7 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+              </span>
+            </span>
+          </div>
+          <div class="p-4">
+            <p class="font-bold group-hover:text-primary transition-colors">{o.title}</p>
+            <p class="text-sm text-text-muted">{o.artist} · {o.date}</p>
+          </div>
+        </button>
+      ))}
+    </div>
+  </section>
+
+  <script is:inline>
+    document.querySelectorAll("[data-original]").forEach(function (el) {
+      el.addEventListener("click", function () {
+        // dur を渡さないと PlayerBar は動画の尺いっぱいまで再生する（MV は 1 曲そのもの）
+        if (window.__playQueue) window.__playQueue([JSON.parse(el.dataset.original)], 0);
+      });
+    });
+  </script>
 </Base>
