@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1564,
-  "uniqueTitles": 1537,
+  "totalEntries": 1562,
+  "uniqueTitles": 1535,
   "uniqueArtists": 697,
   "songs": [
     {
@@ -799,6 +799,11 @@
       "count": 10
     },
     {
+      "title": "ROCK-mode'18",
+      "artist": "LiSA",
+      "count": 10
+    },
+    {
       "title": "Rising Hope",
       "artist": "LiSA",
       "count": 10
@@ -1006,11 +1011,6 @@
     {
       "title": "Hello, Worker",
       "artist": "KEI",
-      "count": 9
-    },
-    {
-      "title": "ROCK-mode'18",
-      "artist": "LiSA",
       "count": 9
     },
     {
@@ -4799,6 +4799,11 @@
       "count": 2
     },
     {
+      "title": "ハートキャッチ☆パラダイス!",
+      "artist": "工藤真由",
+      "count": 2
+    },
+    {
       "title": "パンダヒーロー",
       "artist": "米津玄師",
       "count": 2
@@ -5844,11 +5849,6 @@
       "count": 1
     },
     {
-      "title": "ROCK-mode’18",
-      "artist": "LiSA",
-      "count": 1
-    },
-    {
       "title": "ROLL",
       "artist": "ポルノグラフィティ",
       "count": 1
@@ -6696,16 +6696,6 @@
     {
       "title": "ハングリーニコル",
       "artist": "煮ル果実",
-      "count": 1
-    },
-    {
-      "title": "ハートキャッチ☆パラダイス!",
-      "artist": "工藤真由",
-      "count": 1
-    },
-    {
-      "title": "ハートキャッチパラダイス!",
-      "artist": "工藤真由",
       "count": 1
     },
     {

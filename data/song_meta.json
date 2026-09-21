@@ -1656,6 +1656,12 @@
     "durationSec": 378
   },
   {
+    "title": "Run With Wolves",
+    "artist": "Girls Dead Monster",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 245
+  },
+  {
     "title": "S(mile)ING!",
     "artist": "島村卯月 (大橋彩香)",
     "tags": ["game", "idol", "j-pop"],
@@ -2526,6 +2532,12 @@
     "durationSec": 215
   },
   {
+    "title": "あのバンド",
+    "artist": "結束バンド",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 214
+  },
+  {
     "title": "あの世行きのバスに乗ってさらば。",
     "artist": "ツユ",
     "tags": ["j-pop"],
@@ -3004,6 +3016,12 @@
     "artist": "ハムちゃんず",
     "tags": ["anime", "j-pop"],
     "durationSec": 227
+  },
+  {
+    "title": "ときのしおり",
+    "artist": "深淵組",
+    "tags": ["original", "j-pop"],
+    "durationSec": 216
   },
   {
     "title": "とても素敵な六月でした",
@@ -4566,6 +4584,12 @@
     "durationSec": 138
   },
   {
+    "title": "トゥントゥントゥンサフールに恋している",
+    "artist": "ザビャン",
+    "tags": ["j-pop"],
+    "durationSec": 162
+  },
+  {
     "title": "トウキョウト・ロック・シティ",
     "artist": "はいのことん,えこ。",
     "tags": ["vocaloid"],
@@ -4848,7 +4872,7 @@
     "durationSec": 183
   },
   {
-    "title": "ハートキャッチパラダイス!",
+    "title": "ハートキャッチ☆パラダイス!",
     "artist": "工藤真由",
     "tags": ["anime", "j-pop"],
     "durationSec": 247
@@ -8530,6 +8554,12 @@
     "artist": "妖精帝國",
     "tags": ["anime", "j-pop"],
     "durationSec": 240
+  },
+  {
+    "title": "空白とカタルシス",
+    "artist": "トゲナシトゲアリ",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 192
   },
   {
     "title": "空色デイズ",
