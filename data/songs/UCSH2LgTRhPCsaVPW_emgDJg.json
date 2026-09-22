@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-09-21T06:08:59.672285+00:00",
+  "lastFetched": "2026-09-22T16:28:40.899510+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -43812,6 +43812,60 @@
       ],
       "sourceCommentId": "issue#118",
       "type": "stream"
+    },
+    {
+      "videoId": "yTsUjcdQudo",
+      "title": "ANIMA / ReoNa 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-09-22T09:00:16Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "ANIMA",
+          "titleRaw": "ANIMA",
+          "artist": "ReoNa",
+          "artistRaw": "ReoNa",
+          "url": "https://youtu.be/yTsUjcdQudo"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "KuXIpAbxEi0",
+      "title": "disillusion / タイナカサチ 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-09-21T09:00:20Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "disillusion",
+          "titleRaw": "disillusion",
+          "artist": "タイナカサチ",
+          "artistRaw": "タイナカサチ",
+          "url": "https://youtu.be/KuXIpAbxEi0"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "cNfH8bCCRuA",
+      "title": "ray / BUMP OF CHICKEN 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-09-20T09:00:07Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "ray",
+          "titleRaw": "ray",
+          "artist": "BUMP OF CHICKEN",
+          "artistRaw": "BUMP OF CHICKEN",
+          "url": "https://youtu.be/cNfH8bCCRuA"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }

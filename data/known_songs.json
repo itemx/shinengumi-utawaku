@@ -129,6 +129,11 @@
       "count": 21
     },
     {
+      "title": "ANIMA",
+      "artist": "ReoNa",
+      "count": 20
+    },
+    {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
       "count": 20
@@ -162,11 +167,6 @@
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
       "count": 20
-    },
-    {
-      "title": "ANIMA",
-      "artist": "ReoNa",
-      "count": 19
     },
     {
       "title": "Butter-Fly",
@@ -829,6 +829,11 @@
       "count": 10
     },
     {
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
+      "count": 10
+    },
+    {
       "title": "träumerei",
       "artist": "LiSA",
       "count": 10
@@ -1016,11 +1021,6 @@
     {
       "title": "UNDEAD",
       "artist": "YOASOBI",
-      "count": 9
-    },
-    {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
       "count": 9
     },
     {
@@ -3354,6 +3354,11 @@
       "count": 3
     },
     {
+      "title": "disillusion",
+      "artist": "タイナカサチ",
+      "count": 3
+    },
+    {
       "title": "don't cry anymore",
       "artist": "miwa",
       "count": 3
@@ -4421,11 +4426,6 @@
     {
       "title": "best day, best way",
       "artist": "LiSA",
-      "count": 2
-    },
-    {
-      "title": "disillusion",
-      "artist": "タイナカサチ",
       "count": 2
     },
     {
