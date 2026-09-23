@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1561,
-  "uniqueTitles": 1535,
+  "totalEntries": 1564,
+  "uniqueTitles": 1538,
   "uniqueArtists": 697,
   "songs": [
     {
@@ -119,6 +119,11 @@
       "count": 22
     },
     {
+      "title": "ANIMA",
+      "artist": "ReoNa",
+      "count": 21
+    },
+    {
       "title": "Calc.",
       "artist": "ジミーサムP",
       "count": 21
@@ -127,11 +132,6 @@
       "title": "サリシノハラ",
       "artist": "みきとP",
       "count": 21
-    },
-    {
-      "title": "ANIMA",
-      "artist": "ReoNa",
-      "count": 20
     },
     {
       "title": "だから僕は音楽を辞めた",
@@ -389,6 +389,11 @@
       "count": 14
     },
     {
+      "title": "一度だけの恋なら",
+      "artist": "ワルキューレ",
+      "count": 14
+    },
+    {
       "title": "愛が灯る",
       "artist": "ロクデナシ",
       "count": 14
@@ -466,11 +471,6 @@
     {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
-      "count": 13
-    },
-    {
-      "title": "一度だけの恋なら",
-      "artist": "ワルキューレ",
       "count": 13
     },
     {
@@ -669,6 +669,11 @@
       "count": 11
     },
     {
+      "title": "Rising Hope",
+      "artist": "LiSA",
+      "count": 11
+    },
+    {
       "title": "SOS",
       "artist": "黛冬優子",
       "count": 11
@@ -681,6 +686,11 @@
     {
       "title": "give it back",
       "artist": "Cö shu Nie",
+      "count": 11
+    },
+    {
+      "title": "träumerei",
+      "artist": "LiSA",
       "count": 11
     },
     {
@@ -789,6 +799,11 @@
       "count": 11
     },
     {
+      "title": "ADAMAS",
+      "artist": "LiSA",
+      "count": 10
+    },
+    {
       "title": "Booo!",
       "artist": "西沢さんP",
       "count": 10
@@ -800,11 +815,6 @@
     },
     {
       "title": "ROCK-mode'18",
-      "artist": "LiSA",
-      "count": 10
-    },
-    {
-      "title": "Rising Hope",
       "artist": "LiSA",
       "count": 10
     },
@@ -831,11 +841,6 @@
     {
       "title": "ray",
       "artist": "BUMP OF CHICKEN",
-      "count": 10
-    },
-    {
-      "title": "träumerei",
-      "artist": "LiSA",
       "count": 10
     },
     {
@@ -992,11 +997,6 @@
       "title": "言って。",
       "artist": "ヨルシカ",
       "count": 10
-    },
-    {
-      "title": "ADAMAS",
-      "artist": "LiSA",
-      "count": 9
     },
     {
       "title": "Ahoy!! 我ら宝鐘海賊団",
@@ -1224,6 +1224,11 @@
       "count": 8
     },
     {
+      "title": "いけないボーダーライン",
+      "artist": "ワルキューレ",
+      "count": 8
+    },
+    {
       "title": "それがあなたの幸せとしても",
       "artist": "Heavenz",
       "count": 8
@@ -1374,6 +1379,11 @@
       "count": 8
     },
     {
+      "title": "AXIA ~ダイスキでダイキライ~",
+      "artist": "ワルキューレ",
+      "count": 7
+    },
+    {
       "title": "BRAVE GROOVE",
       "artist": "iLiFE!",
       "count": 7
@@ -1451,11 +1461,6 @@
     {
       "title": "あの夢をなぞって",
       "artist": "YOASOBI",
-      "count": 7
-    },
-    {
-      "title": "いけないボーダーライン",
-      "artist": "ワルキューレ",
       "count": 7
     },
     {
@@ -1589,6 +1594,11 @@
       "count": 7
     },
     {
+      "title": "僕らの戦場",
+      "artist": "ワルキューレ",
+      "count": 7
+    },
+    {
       "title": "君と夏フェス",
       "artist": "SHISHAMO",
       "count": 7
@@ -1699,11 +1709,6 @@
       "count": 6
     },
     {
-      "title": "AXIA ~ダイスキでダイキライ~",
-      "artist": "ワルキューレ",
-      "count": 6
-    },
-    {
       "title": "Alchemy",
       "artist": "Girls Dead Monster",
       "count": 6
@@ -1721,6 +1726,11 @@
     {
       "title": "DAN DAN 心魅かれてく",
       "artist": "FIELD OF VIEW",
+      "count": 6
+    },
+    {
+      "title": "Empty MERMAiD",
+      "artist": "LiSA",
       "count": 6
     },
     {
@@ -1879,11 +1889,6 @@
       "count": 6
     },
     {
-      "title": "僕らの戦場",
-      "artist": "ワルキューレ",
-      "count": 6
-    },
-    {
       "title": "再会",
       "artist": "LiSA×Uru",
       "count": 6
@@ -2019,6 +2024,11 @@
       "count": 5
     },
     {
+      "title": "BALALAIKA",
+      "artist": "9Lana",
+      "count": 5
+    },
+    {
       "title": "DOLL",
       "artist": "SCANDAL",
       "count": 5
@@ -2031,11 +2041,6 @@
     {
       "title": "ETERNAL WIND~ほほえみは光る風の中~",
       "artist": "森口博子",
-      "count": 5
-    },
-    {
-      "title": "Empty MERMAiD",
-      "artist": "LiSA",
       "count": 5
     },
     {
@@ -2479,13 +2484,13 @@
       "count": 4
     },
     {
-      "title": "Angelic Angel",
-      "artist": "μ's",
+      "title": "ASH",
+      "artist": "LiSA",
       "count": 4
     },
     {
-      "title": "BALALAIKA",
-      "artist": "9Lana",
+      "title": "Angelic Angel",
+      "artist": "μ's",
       "count": 4
     },
     {
@@ -2676,6 +2681,11 @@
     {
       "title": "アディショナルメモリー",
       "artist": "じん",
+      "count": 4
+    },
+    {
+      "title": "エクストラ・マジック・アワー",
+      "artist": "AKINO with bless4",
       "count": 4
     },
     {
@@ -2896,6 +2906,11 @@
     {
       "title": "ローリンガール",
       "artist": "wowaka",
+      "count": 4
+    },
+    {
+      "title": "ワルキューレがとまらない",
+      "artist": "ワルキューレ",
       "count": 4
     },
     {
@@ -3159,11 +3174,6 @@
       "count": 3
     },
     {
-      "title": "ASH",
-      "artist": "LiSA",
-      "count": 3
-    },
-    {
       "title": "BEYOND THE TIME (メビウスの宇宙を越えて)",
       "artist": "TM NETWORK",
       "count": 3
@@ -3231,6 +3241,11 @@
     {
       "title": "KING",
       "artist": "Kanaria",
+      "count": 3
+    },
+    {
+      "title": "L.Miranic",
+      "artist": "LiSA",
       "count": 3
     },
     {
@@ -3326,6 +3341,11 @@
     {
       "title": "Survivor",
       "artist": "BLUE ENCOUNT",
+      "count": 3
+    },
+    {
+      "title": "Sweets Parade",
+      "artist": "髏々宮カルタ (花澤香菜)",
       "count": 3
     },
     {
@@ -3491,11 +3511,6 @@
     {
       "title": "ウキヨバナレディー",
       "artist": "buzzG",
-      "count": 3
-    },
-    {
-      "title": "エクストラ・マジック・アワー",
-      "artist": "AKINO with bless4",
       "count": 3
     },
     {
@@ -3701,11 +3716,6 @@
     {
       "title": "ルーマー",
       "artist": "ポリスピカデリー",
-      "count": 3
-    },
-    {
-      "title": "ワルキューレがとまらない",
-      "artist": "ワルキューレ",
       "count": 3
     },
     {
@@ -3941,6 +3951,11 @@
     {
       "title": "異星にいこうね",
       "artist": "いよわ",
+      "count": 3
+    },
+    {
+      "title": "瞬間、シンフォニー。",
+      "artist": "40mP",
       "count": 3
     },
     {
@@ -4224,11 +4239,6 @@
       "count": 2
     },
     {
-      "title": "L.Miranic",
-      "artist": "LiSA",
-      "count": 2
-    },
-    {
       "title": "LOVEずっきゅん",
       "artist": "相対性理論",
       "count": 2
@@ -4344,6 +4354,11 @@
       "count": 2
     },
     {
+      "title": "Sleeping Awake",
+      "artist": "Aqu3ra",
+      "count": 2
+    },
+    {
       "title": "Snow fairy",
       "artist": "FUNKIST",
       "count": 2
@@ -4351,11 +4366,6 @@
     {
       "title": "Stay Alive",
       "artist": "エミリア (高橋李依)",
-      "count": 2
-    },
-    {
-      "title": "Sweets Parade",
-      "artist": "髏々宮カルタ (花澤香菜)",
       "count": 2
     },
     {
@@ -5209,6 +5219,11 @@
       "count": 2
     },
     {
+      "title": "月に向かって撃て",
+      "artist": "星街すいせい",
+      "count": 2
+    },
+    {
       "title": "月亮代表我的心",
       "artist": "鄧麗君 (テレサ・テン)",
       "count": 2
@@ -5304,13 +5319,13 @@
       "count": 2
     },
     {
-      "title": "瞬間、シンフォニー。",
-      "artist": "40mP",
+      "title": "純情Midnight伝説",
+      "artist": "向井拓海 (原優子)、藤本里奈 (金子真由美)、松永涼 (千菅春香)、大和亜季 (村中知)、木村夏樹 (安野希世乃)",
       "count": 2
     },
     {
-      "title": "純情Midnight伝説",
-      "artist": "向井拓海 (原優子)、藤本里奈 (金子真由美)、松永涼 (千菅春香)、大和亜季 (村中知)、木村夏樹 (安野希世乃)",
+      "title": "絶対零度θノヴァティック",
+      "artist": "ワルキューレ",
       "count": 2
     },
     {
@@ -5849,6 +5864,11 @@
       "count": 1
     },
     {
+      "title": "REVOLVER",
+      "artist": "Royal Scandal",
+      "count": 1
+    },
+    {
       "title": "ROLL",
       "artist": "ポルノグラフィティ",
       "count": 1
@@ -5901,11 +5921,6 @@
     {
       "title": "Singing!",
       "artist": "放課後ティータイム",
-      "count": 1
-    },
-    {
-      "title": "Sleeping Awake",
-      "artist": "Aqu3ra",
       "count": 1
     },
     {
@@ -6609,6 +6624,11 @@
       "count": 1
     },
     {
+      "title": "チェリーハント",
+      "artist": "Royal Scandal",
+      "count": 1
+    },
+    {
       "title": "チカっとチカ千花っ♡",
       "artist": "藤原千花 (小原好美)",
       "count": 1
@@ -6941,6 +6961,11 @@
     {
       "title": "ヤラララ",
       "artist": "ABM",
+      "count": 1
+    },
+    {
+      "title": "ユニバーサル・バニー",
+      "artist": "シェリル・ノーム starring May'n",
       "count": 1
     },
     {
@@ -7449,11 +7474,6 @@
       "count": 1
     },
     {
-      "title": "月に向かって撃て",
-      "artist": "星街すいせい",
-      "count": 1
-    },
-    {
       "title": "月光",
       "artist": "鬼束ちひろ",
       "count": 1
@@ -7641,11 +7661,6 @@
     {
       "title": "絶対零度",
       "artist": "なとり",
-      "count": 1
-    },
-    {
-      "title": "絶対零度θノヴァティック",
-      "artist": "ワルキューレ",
       "count": 1
     },
     {
