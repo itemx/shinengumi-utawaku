@@ -199,7 +199,10 @@ const msgs = Object.fromEntries(
       function kana(s) {
         return s.replace(/[ァ-ヶ]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 0x60); });
       }
-      function norm(s) { return kana((s || "").toLowerCase()); }
+      // 発音記号を落として traumerei でも träumerei に当たるようにする。
+      // 日本語の濁点・半濁点は U+3099/309A でこの範囲外なので、が→か にはならない
+      function deaccent(s) { return s.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+      function norm(s) { return deaccent(kana((s || "").toLowerCase())); }
       function trackOf(i) {
         var s = pool[i];
         return { videoId: s.videoId, start: s.start, end: s.dur ? s.start + s.dur : null, i: i };

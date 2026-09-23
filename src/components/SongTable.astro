@@ -116,15 +116,19 @@ const songMeta = getSongMeta();
       stripZW(s).replace(/[\u30A1-\u30F6]/g, (c) =>
         String.fromCharCode(c.charCodeAt(0) - 0x60)
       );
+    // Drop diacritics so "traumerei" matches "träumerei". Japanese dakuten is
+    // U+3099/309A, outside this range, so \u304C stays distinct from \u304B.
+    const deaccent = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const norm = (s: string) => deaccent(kana(s));
 
     input?.addEventListener("input", () => {
       clearTimeout(timer);
       timer = window.setTimeout(() => {
-        const q = kana(input.value.toLowerCase().trim());
+        const q = norm(input.value.toLowerCase().trim());
         let visible = 0;
         rows.forEach((row) => {
-          const title = kana(row.dataset.title || "");
-          const artist = kana(row.dataset.artist || "");
+          const title = norm(row.dataset.title || "");
+          const artist = norm(row.dataset.artist || "");
           const match = !q || title.includes(q) || artist.includes(q);
           row.style.display = match ? "" : "none";
           if (match) visible++;

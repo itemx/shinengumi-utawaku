@@ -161,7 +161,10 @@ const msgs = Object.fromEntries(
     var channelSel = document.getElementById("channel");
 
     function kana(s){ return s.replace(/[ァ-ヶ]/g, function(c){ return String.fromCharCode(c.charCodeAt(0)-0x60); }); }
-    function norm(s){ return kana((s||"").toLowerCase()); }
+    // 発音記号を落として traumerei でも träumerei に当たるようにする。
+    // 日本語の濁点・半濁点は U+3099/309A でこの範囲外なので、が→か にはならない
+    function deaccent(s){ return s.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+    function norm(s){ return deaccent(kana((s||"").toLowerCase())); }
     // 單曲長度: 分:秒 (例 366 -> 6:06)
     function fmtMS(sec){ var m=Math.floor(sec/60), s=sec%60; return m+":"+String(s).padStart(2,"0"); }
     // 清單總長: 時:分 (例 7260 -> 2:01)
