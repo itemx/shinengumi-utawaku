@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-23T04:17:18.829399+00:00",
+  "lastFetched": "2026-09-25T16:45:50.275525+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -21544,6 +21544,14 @@
         }
       ],
       "sourceCommentId": "issue#123",
+      "type": "stream"
+    },
+    {
+      "videoId": "6Cx5hKcl0X4",
+      "title": "私は、わたしの事が好き。– HoneyWorks / かぐや（cv.夏吉ゆうこ）from 超かぐや姫！ #shorts #cover #歌ってみた",
+      "publishedAt": "2026-09-25T10:09:57Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]
