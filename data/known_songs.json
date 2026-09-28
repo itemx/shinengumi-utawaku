@@ -1,22 +1,22 @@
 {
-  "totalEntries": 1569,
-  "uniqueTitles": 1540,
+  "totalEntries": 1573,
+  "uniqueTitles": 1542,
   "uniqueArtists": 701,
   "songs": [
+    {
+      "title": "花に亡霊",
+      "artist": "ヨルシカ",
+      "count": 35
+    },
     {
       "title": "All Alone With You",
       "artist": "EGOIST",
       "count": 34
     },
     {
-      "title": "花に亡霊",
-      "artist": "ヨルシカ",
-      "count": 34
-    },
-    {
       "title": "少女レイ",
       "artist": "みきとP",
-      "count": 33
+      "count": 34
     },
     {
       "title": "君の知らない物語",
@@ -139,6 +139,11 @@
       "count": 21
     },
     {
+      "title": "眠れぬ月夜のランデブー",
+      "artist": "涼風しとら",
+      "count": 21
+    },
+    {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
       "count": 20
@@ -166,11 +171,6 @@
     {
       "title": "月のワルツ",
       "artist": "諫山実生",
-      "count": 20
-    },
-    {
-      "title": "眠れぬ月夜のランデブー",
-      "artist": "涼風しとら",
       "count": 20
     },
     {
@@ -289,6 +289,11 @@
       "count": 16
     },
     {
+      "title": "からくりピエロ",
+      "artist": "40mP",
+      "count": 16
+    },
+    {
       "title": "ギラギラ",
       "artist": "Ado",
       "count": 16
@@ -326,11 +331,6 @@
     {
       "title": "The Everlasting Guilty Crown",
       "artist": "EGOIST",
-      "count": 15
-    },
-    {
-      "title": "からくりピエロ",
-      "artist": "40mP",
       "count": 15
     },
     {
@@ -436,6 +436,11 @@
     {
       "title": "Song of journey",
       "artist": "涼風しとら",
+      "count": 13
+    },
+    {
+      "title": "crossing field",
+      "artist": "LiSA",
       "count": 13
     },
     {
@@ -571,11 +576,6 @@
     {
       "title": "again",
       "artist": "YUI",
-      "count": 12
-    },
-    {
-      "title": "crossing field",
-      "artist": "LiSA",
       "count": 12
     },
     {
@@ -769,6 +769,11 @@
       "count": 11
     },
     {
+      "title": "千鳥",
+      "artist": "ヨルシカ",
+      "count": 11
+    },
+    {
       "title": "少年よ我に帰れ",
       "artist": "やくしまるえつこ",
       "count": 11
@@ -919,11 +924,6 @@
       "count": 10
     },
     {
-      "title": "千鳥",
-      "artist": "ヨルシカ",
-      "count": 10
-    },
-    {
       "title": "地球最後の告白を",
       "artist": "kemu",
       "count": 10
@@ -979,6 +979,11 @@
       "count": 10
     },
     {
+      "title": "月が綺麗ねと言われたい!",
+      "artist": "柿崎ユウタ",
+      "count": 10
+    },
+    {
       "title": "熱愛105°C的你",
       "artist": "阿肆",
       "count": 10
@@ -986,6 +991,11 @@
     {
       "title": "盛れ!ミ・アモーレ",
       "artist": "Juice=Juice",
+      "count": 10
+    },
+    {
+      "title": "瞬間センチメンタル",
+      "artist": "SCANDAL",
       "count": 10
     },
     {
@@ -1129,11 +1139,6 @@
       "count": 9
     },
     {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "柿崎ユウタ",
-      "count": 9
-    },
-    {
       "title": "浴槽とネオンテトラ",
       "artist": "REISAI",
       "count": 9
@@ -1151,11 +1156,6 @@
     {
       "title": "甲賀忍法帖",
       "artist": "陰陽座",
-      "count": 9
-    },
-    {
-      "title": "瞬間センチメンタル",
-      "artist": "SCANDAL",
       "count": 9
     },
     {
@@ -1344,6 +1344,11 @@
       "count": 8
     },
     {
+      "title": "愛を伝えたいだとか",
+      "artist": "あいみょん",
+      "count": 8
+    },
+    {
       "title": "愛包ダンスホール",
       "artist": "HIMEHINA",
       "count": 8
@@ -1354,6 +1359,11 @@
       "count": 8
     },
     {
+      "title": "打上花火",
+      "artist": "DAOKO × 米津玄師",
+      "count": 8
+    },
+    {
       "title": "櫂",
       "artist": "ヨルシカ",
       "count": 8
@@ -1361,6 +1371,11 @@
     {
       "title": "正しくなれない",
       "artist": "ずっと真夜中でいいのに。",
+      "count": 8
+    },
+    {
+      "title": "灼熱にて純情(wii-wii-woo)",
+      "artist": "星街すいせい",
       "count": 8
     },
     {
@@ -1644,16 +1659,6 @@
       "count": 7
     },
     {
-      "title": "愛を伝えたいだとか",
-      "artist": "あいみょん",
-      "count": 7
-    },
-    {
-      "title": "打上花火",
-      "artist": "DAOKO × 米津玄師",
-      "count": 7
-    },
-    {
       "title": "曖昧劣情Lover",
       "artist": "koyori (電ポルP)",
       "count": 7
@@ -1661,11 +1666,6 @@
     {
       "title": "永遠のあくる日",
       "artist": "Ado",
-      "count": 7
-    },
-    {
-      "title": "灼熱にて純情(wii-wii-woo)",
-      "artist": "星街すいせい",
       "count": 7
     },
     {
@@ -1909,6 +1909,11 @@
       "count": 6
     },
     {
+      "title": "君じゃなきゃダメみたい",
+      "artist": "オーイシマサヨシ",
+      "count": 6
+    },
+    {
       "title": "嘘",
       "artist": "シド",
       "count": 6
@@ -2074,6 +2079,11 @@
       "count": 5
     },
     {
+      "title": "MILABO",
+      "artist": "ずっと真夜中でいいのに。",
+      "count": 5
+    },
+    {
       "title": "Os 宇宙人",
       "artist": "エリオをかまってちゃん",
       "count": 5
@@ -2224,6 +2234,11 @@
       "count": 5
     },
     {
+      "title": "ギミー!レボリューション",
+      "artist": "内田真礼",
+      "count": 5
+    },
+    {
       "title": "サウダージ",
       "artist": "ポルノグラフィティ",
       "count": 5
@@ -2236,6 +2251,11 @@
     {
       "title": "スピカ",
       "artist": "ロクデナシ",
+      "count": 5
+    },
+    {
+      "title": "セブンティーン",
+      "artist": "YOASOBI",
       "count": 5
     },
     {
@@ -2339,8 +2359,8 @@
       "count": 5
     },
     {
-      "title": "君じゃなきゃダメみたい",
-      "artist": "オーイシマサヨシ",
+      "title": "夢のまた夢",
+      "artist": "まふまふ",
       "count": 5
     },
     {
@@ -2569,11 +2589,6 @@
       "count": 4
     },
     {
-      "title": "MILABO",
-      "artist": "ずっと真夜中でいいのに。",
-      "count": 4
-    },
-    {
       "title": "My Dearest",
       "artist": "ryo (supercell)",
       "count": 4
@@ -2611,6 +2626,11 @@
     {
       "title": "dawn",
       "artist": "LiSA",
+      "count": 4
+    },
+    {
+      "title": "don't cry anymore",
+      "artist": "miwa",
       "count": 4
     },
     {
@@ -2719,11 +2739,6 @@
       "count": 4
     },
     {
-      "title": "ギミー!レボリューション",
-      "artist": "内田真礼",
-      "count": 4
-    },
-    {
       "title": "コイスルオトメ",
       "artist": "いきものがかり",
       "count": 4
@@ -2769,6 +2784,11 @@
       "count": 4
     },
     {
+      "title": "シンメトリー",
+      "artist": "ReGLOSS",
+      "count": 4
+    },
+    {
       "title": "スキスキ絶頂症",
       "artist": "koyori (電ポルP)",
       "count": 4
@@ -2776,11 +2796,6 @@
     {
       "title": "スペシャルガール",
       "artist": "れるりり",
-      "count": 4
-    },
-    {
-      "title": "セブンティーン",
-      "artist": "YOASOBI",
       "count": 4
     },
     {
@@ -2996,11 +3011,6 @@
     {
       "title": "夜明けの流星群",
       "artist": "SCANDAL",
-      "count": 4
-    },
-    {
-      "title": "夢のまた夢",
-      "artist": "まふまふ",
       "count": 4
     },
     {
@@ -3299,6 +3309,11 @@
       "count": 3
     },
     {
+      "title": "PiNK CAT",
+      "artist": "GARNiDELiA",
+      "count": 3
+    },
+    {
       "title": "RADIANT FORCE",
       "artist": "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
       "count": 3
@@ -3389,8 +3404,8 @@
       "count": 3
     },
     {
-      "title": "don't cry anymore",
-      "artist": "miwa",
+      "title": "kiss",
+      "artist": "みきーの (みきとP×keeno)",
       "count": 3
     },
     {
@@ -3571,11 +3586,6 @@
     {
       "title": "シャルル",
       "artist": "バルーン",
-      "count": 3
-    },
-    {
-      "title": "シンメトリー",
-      "artist": "ReGLOSS",
       "count": 3
     },
     {
@@ -3929,6 +3939,11 @@
       "count": 3
     },
     {
+      "title": "欲望に満ちた青年団",
+      "artist": "ONE OK ROCK",
+      "count": 3
+    },
+    {
       "title": "正解はひとつ!じゃない!!",
       "artist": "ミルキィホームズ",
       "count": 3
@@ -4269,6 +4284,11 @@
       "count": 2
     },
     {
+      "title": "Masked bitcH",
+      "artist": "ギガP",
+      "count": 2
+    },
+    {
       "title": "Mrs.Pumpkinの滑稽な夢",
       "artist": "米津玄師",
       "count": 2
@@ -4276,6 +4296,11 @@
     {
       "title": "NIPPON",
       "artist": "椎名林檎",
+      "count": 2
+    },
+    {
+      "title": "No Logic",
+      "artist": "ジミーサムP",
       "count": 2
     },
     {
@@ -4309,8 +4334,8 @@
       "count": 2
     },
     {
-      "title": "PiNK CAT",
-      "artist": "GARNiDELiA",
+      "title": "Pray",
+      "artist": "Tommy heavenly6",
       "count": 2
     },
     {
@@ -4446,11 +4471,6 @@
     {
       "title": "if",
       "artist": "西野カナ",
-      "count": 2
-    },
-    {
-      "title": "kiss",
-      "artist": "みきーの (みきとP×keeno)",
       "count": 2
     },
     {
@@ -5189,6 +5209,11 @@
       "count": 2
     },
     {
+      "title": "恋愛フィロソフィア",
+      "artist": "黒うさP",
+      "count": 2
+    },
+    {
       "title": "悪ノ召使",
       "artist": "mothy (悪ノP)",
       "count": 2
@@ -5254,6 +5279,11 @@
       "count": 2
     },
     {
+      "title": "未完成婚姻論",
+      "artist": "Dannie May",
+      "count": 2
+    },
+    {
       "title": "未来の僕らは知ってるよ",
       "artist": "Aqours",
       "count": 2
@@ -5261,11 +5291,6 @@
     {
       "title": "未来予想図II",
       "artist": "DREAMS COME TRUE",
-      "count": 2
-    },
-    {
-      "title": "欲望に満ちた青年団",
-      "artist": "ONE OK ROCK",
       "count": 2
     },
     {
@@ -5412,6 +5437,11 @@
       "title": "革命道中 On The Way",
       "artist": "AiNA THE END",
       "count": 2
+    },
+    {
+      "title": "&ME (ME:I Ver.)",
+      "artist": "ME:I",
+      "count": 1
     },
     {
       "title": "&ME",
@@ -5774,11 +5804,6 @@
       "count": 1
     },
     {
-      "title": "Masked bitcH",
-      "artist": "ギガP",
-      "count": 1
-    },
-    {
       "title": "Melody in the Dark",
       "artist": "UNDEAD",
       "count": 1
@@ -5811,11 +5836,6 @@
     {
       "title": "New Romantic Sailors",
       "artist": "Guilty Kiss",
-      "count": 1
-    },
-    {
-      "title": "No Logic",
-      "artist": "ジミーサムP",
       "count": 1
     },
     {
@@ -5856,11 +5876,6 @@
     {
       "title": "Poison (日本語版)",
       "artist": "Angel Dust (Blake Roman)",
-      "count": 1
-    },
-    {
-      "title": "Pray",
-      "artist": "Tommy heavenly6",
       "count": 1
     },
     {
@@ -6056,6 +6071,11 @@
     {
       "title": "from the edge",
       "artist": "FictionJunction",
+      "count": 1
+    },
+    {
+      "title": "ignited -イグナイテッド-",
+      "artist": "T.M.Revolution",
       "count": 1
     },
     {
@@ -6634,6 +6654,11 @@
       "count": 1
     },
     {
+      "title": "タイムマシン",
+      "artist": "40mP",
+      "count": 1
+    },
+    {
       "title": "ターミナル",
       "artist": "ぬゆり",
       "count": 1
@@ -7115,6 +7140,11 @@
     },
     {
       "title": "一心不乱",
+      "artist": "Reol",
+      "count": 1
+    },
+    {
+      "title": "一心不乱",
       "artist": "梅とら",
       "count": 1
     },
@@ -7414,11 +7444,6 @@
       "count": 1
     },
     {
-      "title": "恋愛フィロソフィア",
-      "artist": "黒うさP",
-      "count": 1
-    },
-    {
       "title": "恋愛勇者",
       "artist": "Last Note.",
       "count": 1
@@ -7511,11 +7536,6 @@
     {
       "title": "未体験HORIZON",
       "artist": "Aqours",
-      "count": 1
-    },
-    {
-      "title": "未完成婚姻論",
-      "artist": "Dannie May",
       "count": 1
     },
     {
