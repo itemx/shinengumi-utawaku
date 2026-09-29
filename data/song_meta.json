@@ -6,6 +6,12 @@
     "durationSec": 177
   },
   {
+    "title": "&ME (ME:I Ver.)",
+    "artist": "ME:I",
+    "tags": ["idol", "j-pop"],
+    "durationSec": 176
+  },
+  {
     "title": "*~アスタリスク~",
     "artist": "ORANGE RANGE",
     "tags": ["anime", "j-pop"],
@@ -406,6 +412,12 @@
     "artist": "坂本真綾",
     "tags": ["anime", "j-pop"],
     "durationSec": 255
+  },
+  {
+    "title": "CULT",
+    "artist": "DUSTCELL",
+    "tags": ["j-pop"],
+    "durationSec": 202
   },
   {
     "title": "CUTTING EDGE",
@@ -1242,16 +1254,10 @@
     "durationSec": 268
   },
   {
-    "title": "Meteor",
+    "title": "Meteor -ミーティア-",
     "artist": "T.M.Revolution",
     "tags": ["anime", "j-pop"],
     "durationSec": 251
-  },
-  {
-    "title": "Meteor –ミーティア–",
-    "artist": "T.M.Revolution",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 250
   },
   {
     "title": "Monster",
@@ -1558,6 +1564,12 @@
     "artist": "ASCA",
     "tags": ["anime", "j-pop"],
     "durationSec": 227
+  },
+  {
+    "title": "REVOLVER",
+    "artist": "Royal Scandal",
+    "tags": ["j-pop"],
+    "durationSec": 281
   },
   {
     "title": "ROCK-mode",
@@ -2268,7 +2280,7 @@
     "durationSec": 283
   },
   {
-    "title": "ignited –イグナイテッド–",
+    "title": "ignited -イグナイテッド-",
     "artist": "T.M.Revolution",
     "tags": ["anime", "j-pop"],
     "durationSec": 199
@@ -2572,6 +2584,12 @@
     "artist": "ヨルシカ",
     "tags": ["j-pop"],
     "durationSec": 235
+  },
+  {
+    "title": "あやふや",
+    "artist": "ロクデナシ",
+    "tags": ["j-pop"],
+    "durationSec": 222
   },
   {
     "title": "ありがとう",
@@ -3262,6 +3280,12 @@
     "artist": "FRUITS ZIPPER",
     "tags": ["idol", "j-pop"],
     "durationSec": 255
+  },
+  {
+    "title": "アイ to アイ",
+    "artist": "超時空歌姫オーディション2025",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 85
   },
   {
     "title": "アイのシナリオ",
@@ -4494,6 +4518,12 @@
     "durationSec": 261
   },
   {
+    "title": "チェリーハント",
+    "artist": "Royal Scandal",
+    "tags": ["j-pop"],
+    "durationSec": 238
+  },
+  {
     "title": "チェリーポップ",
     "artist": "DECO*27",
     "tags": ["vocaloid"],
@@ -5686,6 +5716,12 @@
     "artist": "やなぎなぎ",
     "tags": ["anime", "j-pop", "ballad"],
     "durationSec": 270
+  },
+  {
+    "title": "ユニバーサル・バニー",
+    "artist": "シェリル・ノーム starring May'n",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 360
   },
   {
     "title": "ユメクライミング",
@@ -8886,6 +8922,12 @@
     "durationSec": 284
   },
   {
+    "title": "草々不一",
+    "artist": "ロクデナシ",
+    "tags": ["j-pop"],
+    "durationSec": 194
+  },
+  {
     "title": "蒼のエーテル",
     "artist": "ランカ・リー",
     "tags": ["anime", "idol", "j-pop", "ballad"],
@@ -8926,6 +8968,12 @@
     "artist": "Aimer",
     "tags": ["j-pop", "ballad"],
     "durationSec": 307
+  },
+  {
+    "title": "螺旋",
+    "artist": "9Lana",
+    "tags": ["original", "j-pop"],
+    "durationSec": 190
   },
   {
     "title": "行くぜっ!怪盗少女",

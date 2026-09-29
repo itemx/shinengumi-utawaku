@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1576,
-  "uniqueTitles": 1545,
-  "uniqueArtists": 701,
+  "totalEntries": 1569,
+  "uniqueTitles": 1543,
+  "uniqueArtists": 699,
   "songs": [
     {
       "title": "All Alone With You",
@@ -1234,6 +1234,11 @@
       "count": 8
     },
     {
+      "title": "daze",
+      "artist": "じん",
+      "count": 8
+    },
+    {
       "title": "flos",
       "artist": "R Sound Design",
       "count": 8
@@ -1471,11 +1476,6 @@
     {
       "title": "YUME日和",
       "artist": "島谷ひとみ",
-      "count": 7
-    },
-    {
-      "title": "daze",
-      "artist": "じん",
       "count": 7
     },
     {
@@ -3234,6 +3234,11 @@
       "count": 3
     },
     {
+      "title": "Cutie Panther",
+      "artist": "BiBi (μ's)",
+      "count": 3
+    },
+    {
       "title": "DANZEN!ふたりはプリキュア",
       "artist": "五條真由美",
       "count": 3
@@ -3604,6 +3609,11 @@
       "count": 3
     },
     {
+      "title": "タイムマシン",
+      "artist": "1640mP (164x40mP)",
+      "count": 3
+    },
+    {
       "title": "テトリス",
       "artist": "柊マグネタイト",
       "count": 3
@@ -3884,6 +3894,11 @@
       "count": 3
     },
     {
+      "title": "小悪魔だってかまわない!",
+      "artist": "めいちゃん",
+      "count": 3
+    },
+    {
       "title": "怪獣",
       "artist": "サカナクション",
       "count": 3
@@ -4154,11 +4169,6 @@
       "count": 2
     },
     {
-      "title": "Cutie Panther",
-      "artist": "BiBi (μ's)",
-      "count": 2
-    },
-    {
       "title": "DANZEN!ふたりはプリキュア Ver.MaxHeart",
       "artist": "五條真由美",
       "count": 2
@@ -4296,6 +4306,11 @@
     {
       "title": "Masked bitcH",
       "artist": "ギガP",
+      "count": 2
+    },
+    {
+      "title": "Meteor -ミーティア-",
+      "artist": "T.M.Revolution",
       "count": 2
     },
     {
@@ -4481,6 +4496,11 @@
     {
       "title": "if",
       "artist": "西野カナ",
+      "count": 2
+    },
+    {
+      "title": "ignited -イグナイテッド-",
+      "artist": "T.M.Revolution",
       "count": 2
     },
     {
@@ -4779,11 +4799,6 @@
       "count": 2
     },
     {
-      "title": "タイムマシン",
-      "artist": "1640mP (164x40mP)",
-      "count": 2
-    },
-    {
       "title": "チェリボム",
       "artist": "SILENT SIREN",
       "count": 2
@@ -5009,6 +5024,11 @@
       "count": 2
     },
     {
+      "title": "一心不乱",
+      "artist": "梅とら",
+      "count": 2
+    },
+    {
       "title": "七転八起☆至上主義!",
       "artist": "KOTOKO",
       "count": 2
@@ -5171,11 +5191,6 @@
     {
       "title": "完璧ぐ~のね",
       "artist": "渡り廊下走り隊",
-      "count": 2
-    },
-    {
-      "title": "小悪魔だってかまわない!",
-      "artist": "めいちゃん",
       "count": 2
     },
     {
@@ -5599,11 +5614,6 @@
       "count": 1
     },
     {
-      "title": "Cutie Panther",
-      "artist": "BiBi",
-      "count": 1
-    },
-    {
       "title": "D/N/A",
       "artist": "Azari",
       "count": 1
@@ -5816,16 +5826,6 @@
     {
       "title": "Melody in the Dark",
       "artist": "UNDEAD",
-      "count": 1
-    },
-    {
-      "title": "Meteor –ミーティア–",
-      "artist": "T.M.Revolution",
-      "count": 1
-    },
-    {
-      "title": "Meteor",
-      "artist": "T.M.Revolution",
       "count": 1
     },
     {
@@ -6064,11 +6064,6 @@
       "count": 1
     },
     {
-      "title": "daze",
-      "artist": "じん ft.メイリア from GARNiDELiA",
-      "count": 1
-    },
-    {
       "title": "departure!",
       "artist": "小野正利",
       "count": 1
@@ -6081,16 +6076,6 @@
     {
       "title": "from the edge",
       "artist": "FictionJunction",
-      "count": 1
-    },
-    {
-      "title": "ignited -イグナイテッド-",
-      "artist": "T.M.Revolution",
-      "count": 1
-    },
-    {
-      "title": "ignited –イグナイテッド–",
-      "artist": "T.M.Revolution",
       "count": 1
     },
     {
@@ -6664,11 +6649,6 @@
       "count": 1
     },
     {
-      "title": "タイムマシン",
-      "artist": "40mP",
-      "count": 1
-    },
-    {
       "title": "ターミナル",
       "artist": "ぬゆり",
       "count": 1
@@ -7149,16 +7129,6 @@
       "count": 1
     },
     {
-      "title": "一心不乱",
-      "artist": "Reol",
-      "count": 1
-    },
-    {
-      "title": "一心不乱",
-      "artist": "梅とら",
-      "count": 1
-    },
-    {
       "title": "一斉ノ喝采",
       "artist": "LiSA",
       "count": 1
@@ -7371,11 +7341,6 @@
     {
       "title": "小さな恋のうた",
       "artist": "MONGOL800",
-      "count": 1
-    },
-    {
-      "title": "小悪魔だってかまわない!",
-      "artist": "HoneyWorks",
       "count": 1
     },
     {
@@ -7929,7 +7894,6 @@
     "BUMP OF CHICKEN",
     "Base Ball Bear",
     "Belle",
-    "BiBi",
     "BiBi (μ's)",
     "Black onyX",
     "Buono!",
@@ -8203,7 +8167,6 @@
     "じっぷす",
     "じん",
     "じん feat.Lia",
-    "じん ft.メイリア from GARNiDELiA",
     "じーざすP",
     "すこっぷ",
     "すりぃ",

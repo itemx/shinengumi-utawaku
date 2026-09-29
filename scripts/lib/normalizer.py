@@ -76,7 +76,7 @@ _PAREN_SPACING_RE = re.compile(r"([^\s(（])([(（])")
 
 # feat. 在曲名中的標記 (移到歌手欄或直接移除)
 _FEAT_IN_TITLE_RE = re.compile(
-    r"\s+feat(?:\.\s*|\s+).+$", re.IGNORECASE,
+    r"\s+(?:feat|ft)(?:\.\s*|\s+).+$", re.IGNORECASE,
 )
 
 # feat. 括號形式: (feat. かぴ), (feat. xxx)
@@ -144,7 +144,7 @@ def _clean_text(text: str, is_title: bool = False) -> str:
     # 歌手欄清理
     if not is_title:
         # 先移除 feat. 及之後的內容 (Vocaloid 名等)
-        text = re.sub(r"\s+feat(?:\.\s*|\s+).+$", "", text, flags=re.IGNORECASE)
+        text = re.sub(r"\s+(?:feat|ft)(?:\.\s*|\s+).+$", "", text, flags=re.IGNORECASE)
         # 「キャラ(声優)」の括弧前に半角空白を入れる。曲庫は 52 種が空白あり、
         # 12 種が空白なしで、同じ人物が 2 つに割れていた（koyori(電ポルP) 等）。
         # 曲名側には掛けない —— 「我只在乎你(時の流れに身をまかせ)」のように
