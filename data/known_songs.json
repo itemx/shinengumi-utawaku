@@ -1,17 +1,17 @@
 {
-  "totalEntries": 1575,
-  "uniqueTitles": 1544,
+  "totalEntries": 1576,
+  "uniqueTitles": 1545,
   "uniqueArtists": 701,
   "songs": [
+    {
+      "title": "All Alone With You",
+      "artist": "EGOIST",
+      "count": 35
+    },
     {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
       "count": 35
-    },
-    {
-      "title": "All Alone With You",
-      "artist": "EGOIST",
-      "count": 34
     },
     {
       "title": "少女レイ",
@@ -29,14 +29,19 @@
       "count": 30
     },
     {
+      "title": "晴る",
+      "artist": "ヨルシカ",
+      "count": 29
+    },
+    {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
       "count": 28
     },
     {
-      "title": "晴る",
-      "artist": "ヨルシカ",
-      "count": 28
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 26
     },
     {
       "title": "ビビデバ",
@@ -49,8 +54,13 @@
       "count": 25
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 25
+    },
+    {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
       "count": 25
     },
     {
@@ -66,16 +76,6 @@
     {
       "title": "星降る海",
       "artist": "月見ヤチヨ",
-      "count": 24
-    },
-    {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 24
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
       "count": 24
     },
     {
@@ -149,6 +149,16 @@
       "count": 20
     },
     {
+      "title": "ウィアートル",
+      "artist": "rionos",
+      "count": 20
+    },
+    {
+      "title": "トリノコシティ",
+      "artist": "40mP",
+      "count": 20
+    },
+    {
       "title": "フォニイ",
       "artist": "ツミキ",
       "count": 20
@@ -181,16 +191,6 @@
     {
       "title": "Butter-Fly",
       "artist": "和田光司",
-      "count": 19
-    },
-    {
-      "title": "ウィアートル",
-      "artist": "rionos",
-      "count": 19
-    },
-    {
-      "title": "トリノコシティ",
-      "artist": "40mP",
       "count": 19
     },
     {
@@ -239,6 +239,11 @@
       "count": 18
     },
     {
+      "title": "Ghost of a smile",
+      "artist": "EGOIST",
+      "count": 17
+    },
+    {
       "title": "IRIS OUT",
       "artist": "米津玄師",
       "count": 17
@@ -279,11 +284,6 @@
       "count": 16
     },
     {
-      "title": "Ghost of a smile",
-      "artist": "EGOIST",
-      "count": 16
-    },
-    {
       "title": "God knows...",
       "artist": "平野綾",
       "count": 16
@@ -301,6 +301,11 @@
     {
       "title": "コネクト",
       "artist": "ClariS",
+      "count": 16
+    },
+    {
+      "title": "ハロ/ハワユ",
+      "artist": "ナノウ",
       "count": 16
     },
     {
@@ -331,11 +336,6 @@
     {
       "title": "The Everlasting Guilty Crown",
       "artist": "EGOIST",
-      "count": 15
-    },
-    {
-      "title": "ハロ/ハワユ",
-      "artist": "ナノウ",
       "count": 15
     },
     {
@@ -829,6 +829,11 @@
       "count": 10
     },
     {
+      "title": "Happiness Umbrella",
+      "artist": "ロクデナシ",
+      "count": 10
+    },
+    {
       "title": "ROCK-mode'18",
       "artist": "LiSA",
       "count": 10
@@ -856,6 +861,11 @@
     {
       "title": "ray",
       "artist": "BUMP OF CHICKEN",
+      "count": 10
+    },
+    {
+      "title": "あぶく",
+      "artist": "ヨルシカ",
       "count": 10
     },
     {
@@ -1024,11 +1034,6 @@
       "count": 9
     },
     {
-      "title": "Happiness Umbrella",
-      "artist": "ロクデナシ",
-      "count": 9
-    },
-    {
       "title": "Hello, Worker",
       "artist": "KEI",
       "count": 9
@@ -1046,11 +1051,6 @@
     {
       "title": "unlasting",
       "artist": "LiSA",
-      "count": 9
-    },
-    {
-      "title": "あぶく",
-      "artist": "ヨルシカ",
       "count": 9
     },
     {
@@ -1146,6 +1146,11 @@
     {
       "title": "星が瞬くこんな夜に",
       "artist": "ryo (supercell)",
+      "count": 9
+    },
+    {
+      "title": "櫂",
+      "artist": "ヨルシカ",
       "count": 9
     },
     {
@@ -1366,11 +1371,6 @@
     {
       "title": "打上花火",
       "artist": "DAOKO × 米津玄師",
-      "count": 8
-    },
-    {
-      "title": "櫂",
-      "artist": "ヨルシカ",
       "count": 8
     },
     {
@@ -1859,6 +1859,11 @@
       "count": 6
     },
     {
+      "title": "スピカ",
+      "artist": "ロクデナシ",
+      "count": 6
+    },
+    {
       "title": "ダダダダ天使",
       "artist": "ナナヲアカリ",
       "count": 6
@@ -2079,6 +2084,11 @@
       "count": 5
     },
     {
+      "title": "Gimme×Gimme",
+      "artist": "八王子P,Giga",
+      "count": 5
+    },
+    {
       "title": "INTERNET OVERDOSE",
       "artist": "KOTOKO",
       "count": 5
@@ -2256,11 +2266,6 @@
     {
       "title": "ジェットロケット",
       "artist": "LiSA",
-      "count": 5
-    },
-    {
-      "title": "スピカ",
-      "artist": "ロクデナシ",
       "count": 5
     },
     {
@@ -2559,11 +2564,6 @@
       "count": 4
     },
     {
-      "title": "Gimme×Gimme",
-      "artist": "八王子P,Giga",
-      "count": 4
-    },
-    {
       "title": "Good-bye days",
       "artist": "YUI for 雨音薫",
       "count": 4
@@ -2571,6 +2571,11 @@
     {
       "title": "HELP!!",
       "artist": "Kobo Kanaeru",
+      "count": 4
+    },
+    {
+      "title": "HOME",
+      "artist": "古川本舗",
       "count": 4
     },
     {
@@ -3244,11 +3249,6 @@
       "count": 3
     },
     {
-      "title": "HOME",
-      "artist": "古川本舗",
-      "count": 3
-    },
-    {
       "title": "IGNITE",
       "artist": "藍井エイル",
       "count": 3
@@ -3451,6 +3451,11 @@
     {
       "title": "あんなに一緒だったのに",
       "artist": "See-Saw",
+      "count": 3
+    },
+    {
+      "title": "いえない",
+      "artist": "ひらぎ",
       "count": 3
     },
     {
@@ -4514,11 +4519,6 @@
       "count": 2
     },
     {
-      "title": "いえない",
-      "artist": "ひらぎ",
-      "count": 2
-    },
-    {
       "title": "いつも何度でも",
       "artist": "木村弓",
       "count": 2
@@ -5404,6 +5404,11 @@
       "count": 2
     },
     {
+      "title": "螺旋",
+      "artist": "9Lana",
+      "count": 2
+    },
+    {
       "title": "被害妄想携帯女子(笑)",
       "artist": "スズム",
       "count": 2
@@ -6141,6 +6146,11 @@
     {
       "title": "あの夏に咲け",
       "artist": "ヨルシカ",
+      "count": 1
+    },
+    {
+      "title": "あやふや",
+      "artist": "ロクデナシ",
       "count": 1
     },
     {
@@ -7766,11 +7776,6 @@
     {
       "title": "虎視眈々",
       "artist": "梅とら",
-      "count": 1
-    },
-    {
-      "title": "螺旋",
-      "artist": "9Lana",
       "count": 1
     },
     {

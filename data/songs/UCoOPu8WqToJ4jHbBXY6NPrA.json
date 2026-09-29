@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-09-29T09:54:29.246331+00:00",
+  "lastFetched": "2026-09-29T09:56:07.180672+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -21795,6 +21795,177 @@
         }
       ],
       "sourceCommentId": "issue#127",
+      "type": "stream"
+    },
+    {
+      "videoId": "LeAz50z8_sA",
+      "title": "【歌枠】Vack-ON!! 感想回┊夢からもう帰れない🪼◦° 海底から響く魅惑の歌声┊Singing Stream【VTuber/配信中】",
+      "publishedAt": "2026-09-24T19:19:29Z",
+      "songs": [
+        {
+          "timestamp": "08:31",
+          "seconds": 511,
+          "title": "螺旋",
+          "titleRaw": "螺旋",
+          "artist": "9Lana",
+          "artistRaw": "9Lana",
+          "url": "https://youtu.be/LeAz50z8_sA?t=511"
+        },
+        {
+          "timestamp": "16:17",
+          "seconds": 977,
+          "title": "いえない",
+          "titleRaw": "いえない",
+          "artist": "ひらぎ",
+          "artistRaw": "ひらぎ",
+          "url": "https://youtu.be/LeAz50z8_sA?t=977"
+        },
+        {
+          "timestamp": "18:48",
+          "seconds": 1128,
+          "title": "Gimme×Gimme",
+          "titleRaw": "Gimme×Gimme",
+          "artist": "八王子P,Giga",
+          "artistRaw": "八王子P,Giga",
+          "url": "https://youtu.be/LeAz50z8_sA?t=1128"
+        },
+        {
+          "timestamp": "1:23:36",
+          "seconds": 5016,
+          "title": "Happiness Umbrella",
+          "titleRaw": "Happiness Umbrella",
+          "artist": "ロクデナシ",
+          "artistRaw": "ロクデナシ",
+          "url": "https://youtu.be/LeAz50z8_sA?t=5016"
+        },
+        {
+          "timestamp": "1:27:45",
+          "seconds": 5265,
+          "title": "櫂",
+          "titleRaw": "櫂",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/LeAz50z8_sA?t=5265"
+        },
+        {
+          "timestamp": "1:31:44",
+          "seconds": 5504,
+          "title": "あぶく",
+          "titleRaw": "あぶく",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/LeAz50z8_sA?t=5504"
+        },
+        {
+          "timestamp": "1:39:21",
+          "seconds": 5961,
+          "title": "深海のリトルクライ",
+          "titleRaw": "深海のリトルクライ",
+          "artist": "sasakure.UK",
+          "artistRaw": "sasakure.UK",
+          "url": "https://youtu.be/LeAz50z8_sA?t=5961"
+        },
+        {
+          "timestamp": "1:43:36",
+          "seconds": 6216,
+          "title": "ハロ/ハワユ",
+          "titleRaw": "ハロ/ハワユ",
+          "artist": "ナノウ",
+          "artistRaw": "ナノウ",
+          "url": "https://youtu.be/LeAz50z8_sA?t=6216"
+        },
+        {
+          "timestamp": "1:48:31",
+          "seconds": 6511,
+          "title": "Ghost of a smile",
+          "titleRaw": "Ghost of a smile",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/LeAz50z8_sA?t=6511"
+        },
+        {
+          "timestamp": "1:56:52",
+          "seconds": 7012,
+          "title": "トリノコシティ",
+          "titleRaw": "トリノコシティ",
+          "artist": "40mP",
+          "artistRaw": "40mP",
+          "url": "https://youtu.be/LeAz50z8_sA?t=7012"
+        },
+        {
+          "timestamp": "2:00:28",
+          "seconds": 7228,
+          "title": "All Alone With You",
+          "titleRaw": "All Alone With You",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/LeAz50z8_sA?t=7228"
+        },
+        {
+          "timestamp": "2:06:21",
+          "seconds": 7581,
+          "title": "晴る",
+          "titleRaw": "晴る",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/LeAz50z8_sA?t=7581"
+        },
+        {
+          "timestamp": "2:12:31",
+          "seconds": 7951,
+          "title": "スピカ",
+          "titleRaw": "スピカ",
+          "artist": "ロクデナシ",
+          "artistRaw": "ロクデナシ",
+          "url": "https://youtu.be/LeAz50z8_sA?t=7951"
+        },
+        {
+          "timestamp": "2:19:52",
+          "seconds": 8392,
+          "title": "HOME",
+          "titleRaw": "HOME",
+          "artist": "古川本舗",
+          "artistRaw": "古川本舗",
+          "url": "https://youtu.be/LeAz50z8_sA?t=8392"
+        },
+        {
+          "timestamp": "2:47:13",
+          "seconds": 10033,
+          "title": "あやふや",
+          "titleRaw": "あやふや",
+          "artist": "ロクデナシ",
+          "artistRaw": "ロクデナシ",
+          "url": "https://youtu.be/LeAz50z8_sA?t=10033"
+        },
+        {
+          "timestamp": "2:51:08",
+          "seconds": 10268,
+          "title": "グリグリメガネと月光蟲",
+          "titleRaw": "グリグリメガネと月光蟲",
+          "artist": "古川本舗",
+          "artistRaw": "古川本舗",
+          "url": "https://youtu.be/LeAz50z8_sA?t=10268"
+        },
+        {
+          "timestamp": "2:56:13",
+          "seconds": 10573,
+          "title": "月光食堂",
+          "titleRaw": "月光食堂",
+          "artist": "ぬー (古川本舗)",
+          "artistRaw": "ぬー (古川本舗)",
+          "url": "https://youtu.be/LeAz50z8_sA?t=10573"
+        },
+        {
+          "timestamp": "3:02:03",
+          "seconds": 10923,
+          "title": "ウィアートル",
+          "titleRaw": "ウィアートル",
+          "artist": "rionos",
+          "artistRaw": "rionos",
+          "url": "https://youtu.be/LeAz50z8_sA?t=10923"
+        }
+      ],
+      "sourceCommentId": "issue#125",
       "type": "stream"
     }
   ]
