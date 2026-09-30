@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1572,
-  "uniqueTitles": 1546,
+  "totalEntries": 1571,
+  "uniqueTitles": 1545,
   "uniqueArtists": 700,
   "songs": [
     {
@@ -879,6 +879,11 @@
       "count": 10
     },
     {
+      "title": "アンノウン・マザーグース",
+      "artist": "wowaka",
+      "count": 10
+    },
+    {
       "title": "ウタカタララバイ",
       "artist": "Ado",
       "count": 10
@@ -1076,11 +1081,6 @@
     {
       "title": "アイドル",
       "artist": "YOASOBI",
-      "count": 9
-    },
-    {
-      "title": "アンノウン・マザーグース",
-      "artist": "wowaka",
       "count": 9
     },
     {
@@ -6386,11 +6386,6 @@
     {
       "title": "アディオス",
       "artist": "ダズビー",
-      "count": 1
-    },
-    {
-      "title": "アンノウンマザーグース",
-      "artist": "wowaka",
       "count": 1
     },
     {
