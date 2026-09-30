@@ -2520,6 +2520,12 @@
     "durationSec": 305
   },
   {
+    "title": "あちこちデートさん",
+    "artist": "駄菓子O型",
+    "tags": ["vocaloid"],
+    "durationSec": 271
+  },
+  {
     "title": "あったかいんだからぁ",
     "artist": "クマムシ",
     "tags": ["j-pop"],
@@ -4690,6 +4696,12 @@
     "artist": "Eve",
     "tags": ["j-pop"],
     "durationSec": 238
+  },
+  {
+    "title": "ドリームレス・ドリームス",
+    "artist": "はるまきごはん",
+    "tags": ["vocaloid"],
+    "durationSec": 230
   },
   {
     "title": "ドーナツホール",
@@ -8920,6 +8932,12 @@
     "artist": "ロクデナシ",
     "tags": ["j-pop"],
     "durationSec": 194
+  },
+  {
+    "title": "落日",
+    "artist": "東京事変",
+    "tags": ["j-pop"],
+    "durationSec": 286
   },
   {
     "title": "蒼のエーテル",
