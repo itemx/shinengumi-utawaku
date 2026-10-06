@@ -9,14 +9,14 @@
       "count": 36
     },
     {
-      "title": "花に亡霊",
-      "artist": "ヨルシカ",
+      "title": "少女レイ",
+      "artist": "みきとP",
       "count": 35
     },
     {
-      "title": "少女レイ",
-      "artist": "みきとP",
-      "count": 34
+      "title": "花に亡霊",
+      "artist": "ヨルシカ",
+      "count": 35
     },
     {
       "title": "君の知らない物語",
@@ -24,14 +24,14 @@
       "count": 31
     },
     {
-      "title": "残響散歌",
-      "artist": "Aimer",
+      "title": "晴る",
+      "artist": "ヨルシカ",
       "count": 30
     },
     {
-      "title": "晴る",
-      "artist": "ヨルシカ",
-      "count": 29
+      "title": "残響散歌",
+      "artist": "Aimer",
+      "count": 30
     },
     {
       "title": "創聖のアクエリオン",
@@ -44,13 +44,23 @@
       "count": 27
     },
     {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 27
+    },
+    {
+      "title": "Departures ~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
+      "count": 26
+    },
+    {
       "title": "ビビデバ",
       "artist": "星街すいせい",
       "count": 26
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
       "count": 26
     },
     {
@@ -59,13 +69,8 @@
       "count": 25
     },
     {
-      "title": "Departures ~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
-      "count": 25
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
+      "title": "星降る海",
+      "artist": "月見ヤチヨ",
       "count": 25
     },
     {
@@ -74,14 +79,19 @@
       "count": 24
     },
     {
-      "title": "星降る海",
-      "artist": "月見ヤチヨ",
-      "count": 24
-    },
-    {
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 24
+    },
+    {
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
+      "count": 23
+    },
+    {
+      "title": "変わらないもの",
+      "artist": "奥華子",
+      "count": 23
     },
     {
       "title": "少女S",
@@ -109,16 +119,6 @@
       "count": 22
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
-      "count": 22
-    },
-    {
-      "title": "変わらないもの",
-      "artist": "奥華子",
-      "count": 22
-    },
-    {
       "title": "夜明けと蛍",
       "artist": "n-buna",
       "count": 22
@@ -134,8 +134,23 @@
       "count": 21
     },
     {
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
+      "count": 21
+    },
+    {
+      "title": "ウィアートル",
+      "artist": "rionos",
+      "count": 21
+    },
+    {
       "title": "サリシノハラ",
       "artist": "みきとP",
+      "count": 21
+    },
+    {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
       "count": 21
     },
     {
@@ -147,16 +162,6 @@
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
       "count": 21
-    },
-    {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
-      "count": 20
-    },
-    {
-      "title": "ウィアートル",
-      "artist": "rionos",
-      "count": 20
     },
     {
       "title": "トリノコシティ",
@@ -189,11 +194,6 @@
       "count": 20
     },
     {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
-      "count": 20
-    },
-    {
       "title": "星間飛行",
       "artist": "ランカ・リー",
       "count": 20
@@ -201,6 +201,11 @@
     {
       "title": "Butter-Fly",
       "artist": "和田光司",
+      "count": 19
+    },
+    {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
       "count": 19
     },
     {
@@ -216,11 +221,6 @@
     {
       "title": "oath sign",
       "artist": "LiSA",
-      "count": 18
-    },
-    {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
       "count": 18
     },
     {
@@ -251,6 +251,11 @@
     {
       "title": "カラフル",
       "artist": "ClariS",
+      "count": 17
+    },
+    {
+      "title": "ハロ/ハワユ",
+      "artist": "ナノウ",
       "count": 17
     },
     {
@@ -304,11 +309,6 @@
       "count": 16
     },
     {
-      "title": "ハロ/ハワユ",
-      "artist": "ナノウ",
-      "count": 16
-    },
-    {
       "title": "ヒバナ",
       "artist": "DECO*27",
       "count": 16
@@ -344,6 +344,11 @@
       "count": 15
     },
     {
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
+      "count": 15
+    },
+    {
       "title": "プラチナ",
       "artist": "坂本真綾",
       "count": 15
@@ -372,6 +377,11 @@
       "title": "破滅の純情",
       "artist": "ワルキューレ",
       "count": 15
+    },
+    {
+      "title": "Alice",
+      "artist": "古川本舗",
+      "count": 14
     },
     {
       "title": "Catch the Moment",
@@ -404,13 +414,13 @@
       "count": 14
     },
     {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
+      "title": "ノーチラス",
+      "artist": "ヨルシカ",
       "count": 14
     },
     {
-      "title": "ノーチラス",
-      "artist": "ヨルシカ",
+      "title": "ハイドアンド・シーク",
+      "artist": "19's Sound Factory",
       "count": 14
     },
     {
@@ -436,11 +446,6 @@
     {
       "title": "-ERROR",
       "artist": "niki",
-      "count": 13
-    },
-    {
-      "title": "Alice",
-      "artist": "古川本舗",
       "count": 13
     },
     {
@@ -484,11 +489,6 @@
       "count": 13
     },
     {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory",
-      "count": 13
-    },
-    {
       "title": "ヒステリックナイトガール",
       "artist": "PSYQUI",
       "count": 13
@@ -506,6 +506,11 @@
     {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
+      "count": 13
+    },
+    {
+      "title": "二息歩行",
+      "artist": "DECO*27",
       "count": 13
     },
     {
@@ -619,11 +624,6 @@
       "count": 12
     },
     {
-      "title": "二息歩行",
-      "artist": "DECO*27",
-      "count": 12
-    },
-    {
       "title": "六兆年と一夜物語",
       "artist": "kemu",
       "count": 12
@@ -646,6 +646,11 @@
     {
       "title": "振り向いてGOD",
       "artist": "涼風しとら",
+      "count": 12
+    },
+    {
+      "title": "死にゆく季節のきみへ",
+      "artist": "麻枝准×やなぎなぎ",
       "count": 12
     },
     {
@@ -794,8 +799,8 @@
       "count": 11
     },
     {
-      "title": "死にゆく季節のきみへ",
-      "artist": "麻枝准×やなぎなぎ",
+      "title": "想いを巡らす100の事象",
+      "artist": "EGOIST",
       "count": 11
     },
     {
@@ -979,11 +984,6 @@
       "count": 10
     },
     {
-      "title": "想いを巡らす100の事象",
-      "artist": "EGOIST",
-      "count": 10
-    },
-    {
       "title": "明け星",
       "artist": "LiSA",
       "count": 10
@@ -1001,6 +1001,11 @@
     {
       "title": "月が綺麗ねと言われたい!",
       "artist": "柿崎ユウタ",
+      "count": 10
+    },
+    {
+      "title": "櫂",
+      "artist": "ヨルシカ",
       "count": 10
     },
     {
@@ -1041,6 +1046,11 @@
     {
       "title": "Hello, Worker",
       "artist": "KEI",
+      "count": 9
+    },
+    {
+      "title": "Remember",
+      "artist": "月見ヤチヨ",
       "count": 9
     },
     {
@@ -1109,6 +1119,11 @@
       "count": 9
     },
     {
+      "title": "テルーの唄",
+      "artist": "手嶌葵",
+      "count": 9
+    },
+    {
       "title": "ノーダウト",
       "artist": "Official髭男dism",
       "count": 9
@@ -1154,11 +1169,6 @@
       "count": 9
     },
     {
-      "title": "櫂",
-      "artist": "ヨルシカ",
-      "count": 9
-    },
-    {
       "title": "浴槽とネオンテトラ",
       "artist": "REISAI",
       "count": 9
@@ -1181,6 +1191,11 @@
     {
       "title": "秒針を噛む",
       "artist": "ずっと真夜中でいいのに。",
+      "count": 9
+    },
+    {
+      "title": "蜜月アン・ドゥ・トロワ",
+      "artist": "DATEKEN",
       "count": 9
     },
     {
@@ -1224,11 +1239,6 @@
       "count": 8
     },
     {
-      "title": "Remember",
-      "artist": "月見ヤチヨ",
-      "count": 8
-    },
-    {
       "title": "Reply",
       "artist": "kz",
       "count": 8
@@ -1246,6 +1256,11 @@
     {
       "title": "flos",
       "artist": "R Sound Design",
+      "count": 8
+    },
+    {
+      "title": "from Y to Y",
+      "artist": "ジミーサムP",
       "count": 8
     },
     {
@@ -1291,11 +1306,6 @@
     {
       "title": "ダイアモンド クレバス",
       "artist": "シェリル・ノーム starring May'n",
-      "count": 8
-    },
-    {
-      "title": "テルーの唄",
-      "artist": "手嶌葵",
       "count": 8
     },
     {
@@ -1394,11 +1404,6 @@
       "count": 8
     },
     {
-      "title": "蜜月アン・ドゥ・トロワ",
-      "artist": "DATEKEN",
-      "count": 8
-    },
-    {
       "title": "裸の勇者",
       "artist": "Vaundy",
       "count": 8
@@ -1481,11 +1486,6 @@
     {
       "title": "YUME日和",
       "artist": "島谷ひとみ",
-      "count": 7
-    },
-    {
-      "title": "from Y to Y",
-      "artist": "ジミーサムP",
       "count": 7
     },
     {
@@ -2659,6 +2659,11 @@
       "count": 4
     },
     {
+      "title": "letter song",
+      "artist": "doriko",
+      "count": 4
+    },
+    {
       "title": "milk boy",
       "artist": "SILENT SIREN",
       "count": 4
@@ -3429,11 +3434,6 @@
       "count": 3
     },
     {
-      "title": "letter song",
-      "artist": "doriko",
-      "count": 3
-    },
-    {
       "title": "magnet —recall—",
       "artist": "流星P",
       "count": 3
@@ -3461,6 +3461,11 @@
     {
       "title": "あなたの夜が明けるまで",
       "artist": "傘村トータ",
+      "count": 3
+    },
+    {
+      "title": "あの夏が飽和する。",
+      "artist": "カンザキイオリ",
       "count": 3
     },
     {
@@ -4531,11 +4536,6 @@
     {
       "title": "あの世行きのバスに乗ってさらば。",
       "artist": "ツユ",
-      "count": 2
-    },
-    {
-      "title": "あの夏が飽和する。",
-      "artist": "カンザキイオリ",
       "count": 2
     },
     {
