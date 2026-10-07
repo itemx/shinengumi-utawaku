@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1571,
-  "uniqueTitles": 1545,
+  "totalEntries": 1572,
+  "uniqueTitles": 1546,
   "uniqueArtists": 700,
   "songs": [
     {
@@ -9,13 +9,13 @@
       "count": 36
     },
     {
-      "title": "少女レイ",
-      "artist": "みきとP",
-      "count": 35
-    },
-    {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
+      "count": 36
+    },
+    {
+      "title": "少女レイ",
+      "artist": "みきとP",
       "count": 35
     },
     {
@@ -39,13 +39,13 @@
       "count": 28
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 27
-    },
-    {
       "title": "月光食堂",
       "artist": "ぬー (古川本舗)",
+      "count": 28
+    },
+    {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
       "count": 27
     },
     {
@@ -124,6 +124,11 @@
       "count": 22
     },
     {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
+      "count": 22
+    },
+    {
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 21
@@ -149,11 +154,6 @@
       "count": 21
     },
     {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
-      "count": 21
-    },
-    {
       "title": "月のワルツ",
       "artist": "諫山実生",
       "count": 21
@@ -162,6 +162,11 @@
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
       "count": 21
+    },
+    {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
+      "count": 20
     },
     {
       "title": "トリノコシティ",
@@ -201,11 +206,6 @@
     {
       "title": "Butter-Fly",
       "artist": "和田光司",
-      "count": 19
-    },
-    {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
       "count": 19
     },
     {
@@ -259,8 +259,18 @@
       "count": 17
     },
     {
+      "title": "ヒバナ",
+      "artist": "DECO*27",
+      "count": 17
+    },
+    {
       "title": "名前のない怪物",
       "artist": "EGOIST",
+      "count": 17
+    },
+    {
+      "title": "命に嫌われている",
+      "artist": "カンザキイオリ",
       "count": 17
     },
     {
@@ -309,13 +319,13 @@
       "count": 16
     },
     {
-      "title": "ヒバナ",
-      "artist": "DECO*27",
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
       "count": 16
     },
     {
-      "title": "命に嫌われている",
-      "artist": "カンザキイオリ",
+      "title": "吉原ラメント",
+      "artist": "亜沙",
       "count": 16
     },
     {
@@ -344,8 +354,8 @@
       "count": 15
     },
     {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
+      "title": "ハイドアンド・シーク",
+      "artist": "19's Sound Factory",
       "count": 15
     },
     {
@@ -356,11 +366,6 @@
     {
       "title": "一番の宝物",
       "artist": "Girls Dead Monster",
-      "count": 15
-    },
-    {
-      "title": "吉原ラメント",
-      "artist": "亜沙",
       "count": 15
     },
     {
@@ -416,11 +421,6 @@
     {
       "title": "ノーチラス",
       "artist": "ヨルシカ",
-      "count": 14
-    },
-    {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory",
       "count": 14
     },
     {
@@ -559,6 +559,11 @@
       "count": 13
     },
     {
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
+      "count": 13
+    },
+    {
       "title": "藍二乗",
       "artist": "ヨルシカ",
       "count": 13
@@ -661,11 +666,6 @@
     {
       "title": "神っぽいな",
       "artist": "ピノキオピー",
-      "count": 12
-    },
-    {
-      "title": "花泡沫",
-      "artist": "ロクデナシ",
       "count": 12
     },
     {
@@ -801,6 +801,16 @@
     {
       "title": "想いを巡らす100の事象",
       "artist": "EGOIST",
+      "count": 11
+    },
+    {
+      "title": "春擬き",
+      "artist": "やなぎなぎ",
+      "count": 11
+    },
+    {
+      "title": "櫂",
+      "artist": "ヨルシカ",
       "count": 11
     },
     {
@@ -989,11 +999,6 @@
       "count": 10
     },
     {
-      "title": "春擬き",
-      "artist": "やなぎなぎ",
-      "count": 10
-    },
-    {
       "title": "晩餐歌",
       "artist": "tuki.",
       "count": 10
@@ -1001,11 +1006,6 @@
     {
       "title": "月が綺麗ねと言われたい!",
       "artist": "柿崎ユウタ",
-      "count": 10
-    },
-    {
-      "title": "櫂",
-      "artist": "ヨルシカ",
       "count": 10
     },
     {
@@ -1026,6 +1026,11 @@
     {
       "title": "綺麗事",
       "artist": "星街すいせい",
+      "count": 10
+    },
+    {
+      "title": "蜜月アン・ドゥ・トロワ",
+      "artist": "DATEKEN",
       "count": 10
     },
     {
@@ -1076,6 +1081,11 @@
     {
       "title": "そばかす",
       "artist": "JUDY AND MARY",
+      "count": 9
+    },
+    {
+      "title": "それがあなたの幸せとしても",
+      "artist": "Heavenz",
       "count": 9
     },
     {
@@ -1194,11 +1204,6 @@
       "count": 9
     },
     {
-      "title": "蜜月アン・ドゥ・トロワ",
-      "artist": "DATEKEN",
-      "count": 9
-    },
-    {
       "title": "靴の花火",
       "artist": "ヨルシカ",
       "count": 9
@@ -1271,11 +1276,6 @@
     {
       "title": "いけないボーダーライン",
       "artist": "ワルキューレ",
-      "count": 8
-    },
-    {
-      "title": "それがあなたの幸せとしても",
-      "artist": "Heavenz",
       "count": 8
     },
     {
@@ -1386,6 +1386,11 @@
     {
       "title": "打上花火",
       "artist": "DAOKO × 米津玄師",
+      "count": 8
+    },
+    {
+      "title": "曖昧劣情Lover",
+      "artist": "koyori (電ポルP)",
       "count": 8
     },
     {
@@ -1564,6 +1569,11 @@
       "count": 7
     },
     {
+      "title": "スピカ",
+      "artist": "ロクデナシ",
+      "count": 7
+    },
+    {
       "title": "トライアングラー",
       "artist": "坂本真綾",
       "count": 7
@@ -1601,6 +1611,11 @@
     {
       "title": "メランコリック",
       "artist": "Junky",
+      "count": 7
+    },
+    {
+      "title": "ユキトキ",
+      "artist": "やなぎなぎ",
       "count": 7
     },
     {
@@ -1671,11 +1686,6 @@
     {
       "title": "心做し",
       "artist": "majiko",
-      "count": 7
-    },
-    {
-      "title": "曖昧劣情Lover",
-      "artist": "koyori (電ポルP)",
       "count": 7
     },
     {
@@ -1751,6 +1761,11 @@
     {
       "title": "Fallen",
       "artist": "EGOIST",
+      "count": 6
+    },
+    {
+      "title": "HOME",
+      "artist": "古川本舗",
       "count": 6
     },
     {
@@ -1869,11 +1884,6 @@
       "count": 6
     },
     {
-      "title": "スピカ",
-      "artist": "ロクデナシ",
-      "count": 6
-    },
-    {
       "title": "ダダダダ天使",
       "artist": "ナナヲアカリ",
       "count": 6
@@ -1894,11 +1904,6 @@
       "count": 6
     },
     {
-      "title": "ユキトキ",
-      "artist": "やなぎなぎ",
-      "count": 6
-    },
-    {
       "title": "ライラック",
       "artist": "Mrs. GREEN APPLE",
       "count": 6
@@ -1906,6 +1911,11 @@
     {
       "title": "ルージュの伝言",
       "artist": "松任谷由実",
+      "count": 6
+    },
+    {
+      "title": "ローリンガール",
+      "artist": "wowaka",
       "count": 6
     },
     {
@@ -2089,11 +2099,6 @@
       "count": 5
     },
     {
-      "title": "HOME",
-      "artist": "古川本舗",
-      "count": 5
-    },
-    {
       "title": "INTERNET OVERDOSE",
       "artist": "KOTOKO",
       "count": 5
@@ -2191,6 +2196,11 @@
     {
       "title": "you are my curse",
       "artist": "nyamura",
+      "count": 5
+    },
+    {
+      "title": "いえない",
+      "artist": "ひらぎ",
       "count": 5
     },
     {
@@ -2349,11 +2359,6 @@
       "count": 5
     },
     {
-      "title": "ローリンガール",
-      "artist": "wowaka",
-      "count": 5
-    },
-    {
       "title": "ワールドイズマイン CPK! Remix",
       "artist": "ryo (supercell)",
       "count": 5
@@ -2361,6 +2366,11 @@
     {
       "title": "乱舞のメロディ",
       "artist": "シド",
+      "count": 5
+    },
+    {
+      "title": "人間みたいね",
+      "artist": "キタニタツヤ",
       "count": 5
     },
     {
@@ -2704,11 +2714,6 @@
       "count": 4
     },
     {
-      "title": "いえない",
-      "artist": "ひらぎ",
-      "count": 4
-    },
-    {
       "title": "おじゃま虫",
       "artist": "DECO*27",
       "count": 4
@@ -2979,11 +2984,6 @@
       "count": 4
     },
     {
-      "title": "人間みたいね",
-      "artist": "キタニタツヤ",
-      "count": 4
-    },
-    {
       "title": "僕らは今のなかで",
       "artist": "μ's",
       "count": 4
@@ -3126,6 +3126,11 @@
     {
       "title": "泣き地蔵",
       "artist": "Vaundy",
+      "count": 4
+    },
+    {
+      "title": "海の幽霊",
+      "artist": "米津玄師",
       "count": 4
     },
     {
@@ -3466,6 +3471,11 @@
     {
       "title": "あの夏が飽和する。",
       "artist": "カンザキイオリ",
+      "count": 3
+    },
+    {
+      "title": "あやふや",
+      "artist": "ロクデナシ",
       "count": 3
     },
     {
@@ -3979,11 +3989,6 @@
       "count": 3
     },
     {
-      "title": "海の幽霊",
-      "artist": "米津玄師",
-      "count": 3
-    },
-    {
       "title": "消せない罪",
       "artist": "北出菜奈",
       "count": 3
@@ -4241,6 +4246,11 @@
     {
       "title": "Gee",
       "artist": "少女時代",
+      "count": 2
+    },
+    {
+      "title": "Get No Satisfaction!",
+      "artist": "坂本真綾",
       "count": 2
     },
     {
@@ -4534,6 +4544,11 @@
       "count": 2
     },
     {
+      "title": "あちこちデートさん",
+      "artist": "駄菓子O型",
+      "count": 2
+    },
+    {
       "title": "あの世行きのバスに乗ってさらば。",
       "artist": "ツユ",
       "count": 2
@@ -4541,11 +4556,6 @@
     {
       "title": "あの娘シークレット",
       "artist": "Eve",
-      "count": 2
-    },
-    {
-      "title": "あやふや",
-      "artist": "ロクデナシ",
       "count": 2
     },
     {
@@ -5724,11 +5734,6 @@
       "count": 1
     },
     {
-      "title": "Get No Satisfaction!",
-      "artist": "坂本真綾",
-      "count": 1
-    },
-    {
       "title": "Get Wild",
       "artist": "TM NETWORK",
       "count": 1
@@ -6129,11 +6134,6 @@
       "count": 1
     },
     {
-      "title": "あちこちデートさん",
-      "artist": "駄菓子O型",
-      "count": 1
-    },
-    {
       "title": "あったかいんだからぁ",
       "artist": "クマムシ",
       "count": 1
@@ -6496,6 +6496,11 @@
     {
       "title": "グラーヴェ",
       "artist": "niki",
+      "count": 1
+    },
+    {
+      "title": "グレゴリオ",
+      "artist": "古川本舗",
       "count": 1
     },
     {
