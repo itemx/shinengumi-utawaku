@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1577,
-  "uniqueTitles": 1550,
-  "uniqueArtists": 701,
+  "totalEntries": 1579,
+  "uniqueTitles": 1551,
+  "uniqueArtists": 702,
   "songs": [
     {
       "title": "All Alone With You",
@@ -84,6 +84,11 @@
       "count": 24
     },
     {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
+      "count": 23
+    },
+    {
       "title": "ロンリーユニバース",
       "artist": "Aqu3ra",
       "count": 23
@@ -115,11 +120,6 @@
     },
     {
       "title": "アポリア",
-      "artist": "ヨルシカ",
-      "count": 22
-    },
-    {
-      "title": "アルジャーノン",
       "artist": "ヨルシカ",
       "count": 22
     },
@@ -209,6 +209,11 @@
       "count": 19
     },
     {
+      "title": "初めての恋が終わる時",
+      "artist": "ryo (supercell)",
+      "count": 19
+    },
+    {
       "title": "紅蓮華",
       "artist": "LiSA",
       "count": 19
@@ -231,11 +236,6 @@
     {
       "title": "ぶっ飛びな!しとら流炒飯☆",
       "artist": "涼風しとら",
-      "count": 18
-    },
-    {
-      "title": "初めての恋が終わる時",
-      "artist": "ryo (supercell)",
       "count": 18
     },
     {
@@ -281,6 +281,11 @@
     {
       "title": "怪物",
       "artist": "YOASOBI",
+      "count": 17
+    },
+    {
+      "title": "恋愛裁判",
+      "artist": "40mP",
       "count": 17
     },
     {
@@ -334,11 +339,6 @@
       "count": 16
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP",
-      "count": 16
-    },
-    {
       "title": "愛が灯る",
       "artist": "ロクデナシ",
       "count": 16
@@ -359,6 +359,11 @@
       "count": 15
     },
     {
+      "title": "I beg you",
+      "artist": "Aimer",
+      "count": 15
+    },
+    {
       "title": "The Everlasting Guilty Crown",
       "artist": "EGOIST",
       "count": 15
@@ -371,6 +376,11 @@
     {
       "title": "一番の宝物",
       "artist": "Girls Dead Monster",
+      "count": 15
+    },
+    {
+      "title": "帝国少女",
+      "artist": "R Sound Design",
       "count": 15
     },
     {
@@ -391,11 +401,6 @@
     {
       "title": "Catch the Moment",
       "artist": "LiSA",
-      "count": 14
-    },
-    {
-      "title": "I beg you",
-      "artist": "Aimer",
       "count": 14
     },
     {
@@ -426,11 +431,6 @@
     {
       "title": "一度だけの恋なら",
       "artist": "ワルキューレ",
-      "count": 14
-    },
-    {
-      "title": "帝国少女",
-      "artist": "R Sound Design",
       "count": 14
     },
     {
@@ -521,6 +521,11 @@
     {
       "title": "二息歩行",
       "artist": "DECO*27",
+      "count": 13
+    },
+    {
+      "title": "六兆年と一夜物語",
+      "artist": "kemu",
       "count": 13
     },
     {
@@ -629,6 +634,11 @@
       "count": 12
     },
     {
+      "title": "ピースサイン",
+      "artist": "米津玄師",
+      "count": 12
+    },
+    {
       "title": "ホタルノヒカリ",
       "artist": "いきものがかり",
       "count": 12
@@ -646,11 +656,6 @@
     {
       "title": "世界は恋に落ちている",
       "artist": "CHiCO with HoneyWorks",
-      "count": 12
-    },
-    {
-      "title": "六兆年と一夜物語",
-      "artist": "kemu",
       "count": 12
     },
     {
@@ -769,11 +774,6 @@
       "count": 11
     },
     {
-      "title": "ピースサイン",
-      "artist": "米津玄師",
-      "count": 11
-    },
-    {
       "title": "ブラックロックシューター",
       "artist": "ryo (supercell)",
       "count": 11
@@ -781,6 +781,11 @@
     {
       "title": "ブルーバード",
       "artist": "いきものがかり",
+      "count": 11
+    },
+    {
+      "title": "プライド革命",
+      "artist": "CHiCO with HoneyWorks",
       "count": 11
     },
     {
@@ -949,11 +954,6 @@
       "count": 10
     },
     {
-      "title": "プライド革命",
-      "artist": "CHiCO with HoneyWorks",
-      "count": 10
-    },
-    {
       "title": "メイジ・オブ・ヴァイオレット",
       "artist": "紫咲シオン",
       "count": 10
@@ -1066,6 +1066,16 @@
     {
       "title": "UNDEAD",
       "artist": "YOASOBI",
+      "count": 9
+    },
+    {
+      "title": "chAngE",
+      "artist": "miwa",
+      "count": 9
+    },
+    {
+      "title": "daze",
+      "artist": "じん",
       "count": 9
     },
     {
@@ -1256,16 +1266,6 @@
     {
       "title": "Reply",
       "artist": "kz",
-      "count": 8
-    },
-    {
-      "title": "chAngE",
-      "artist": "miwa",
-      "count": 8
-    },
-    {
-      "title": "daze",
-      "artist": "じん",
       "count": 8
     },
     {
@@ -1674,6 +1674,11 @@
       "count": 7
     },
     {
+      "title": "回レ!雪月花",
+      "artist": "歌組雪月花",
+      "count": 7
+    },
+    {
       "title": "垂直落下",
       "artist": "傘村トータ",
       "count": 7
@@ -1691,6 +1696,11 @@
     {
       "title": "心做し",
       "artist": "majiko",
+      "count": 7
+    },
+    {
+      "title": "水の星へ愛をこめて",
+      "artist": "森口博子",
       "count": 7
     },
     {
@@ -1804,6 +1814,11 @@
       "count": 6
     },
     {
+      "title": "Rally Go Round",
+      "artist": "LiSA",
+      "count": 6
+    },
+    {
       "title": "SAKURA",
       "artist": "いきものがかり",
       "count": 6
@@ -1914,6 +1929,11 @@
       "count": 6
     },
     {
+      "title": "チェリーポップ",
+      "artist": "DECO*27",
+      "count": 6
+    },
+    {
       "title": "ハルジオン",
       "artist": "YOASOBI",
       "count": 6
@@ -1974,11 +1994,6 @@
       "count": 6
     },
     {
-      "title": "回レ!雪月花",
-      "artist": "歌組雪月花",
-      "count": 6
-    },
-    {
       "title": "失敗作少女",
       "artist": "かいりきベア",
       "count": 6
@@ -2014,11 +2029,6 @@
       "count": 6
     },
     {
-      "title": "水の星へ愛をこめて",
-      "artist": "森口博子",
-      "count": 6
-    },
-    {
       "title": "水平線",
       "artist": "back number",
       "count": 6
@@ -2031,6 +2041,11 @@
     {
       "title": "爆裂愛してる",
       "artist": "M!LK",
+      "count": 6
+    },
+    {
+      "title": "琥珀の身体",
+      "artist": "HIMEHINA",
       "count": 6
     },
     {
@@ -2160,11 +2175,6 @@
     },
     {
       "title": "Psychedelic Drive",
-      "artist": "LiSA",
-      "count": 5
-    },
-    {
-      "title": "Rally Go Round",
       "artist": "LiSA",
       "count": 5
     },
@@ -2299,6 +2309,11 @@
       "count": 5
     },
     {
+      "title": "シンメトリー",
+      "artist": "ReGLOSS",
+      "count": 5
+    },
+    {
       "title": "ジェットロケット",
       "artist": "LiSA",
       "count": 5
@@ -2311,11 +2326,6 @@
     {
       "title": "ダーリン",
       "artist": "須田景凪",
-      "count": 5
-    },
-    {
-      "title": "チェリーポップ",
-      "artist": "DECO*27",
       "count": 5
     },
     {
@@ -2366,6 +2376,11 @@
     {
       "title": "メーベル",
       "artist": "バルーン",
+      "count": 5
+    },
+    {
+      "title": "ラプンツェル",
+      "artist": "n-buna",
       "count": 5
     },
     {
@@ -2479,6 +2494,11 @@
       "count": 5
     },
     {
+      "title": "月光花",
+      "artist": "Janne Da Arc",
+      "count": 5
+    },
+    {
       "title": "有點甜",
       "artist": "汪蘇瀧",
       "count": 5
@@ -2494,6 +2514,11 @@
       "count": 5
     },
     {
+      "title": "泣き地蔵",
+      "artist": "Vaundy",
+      "count": 5
+    },
+    {
       "title": "準透明少年",
       "artist": "ヨルシカ",
       "count": 5
@@ -2506,11 +2531,6 @@
     {
       "title": "現状ディストラクション",
       "artist": "SPYAIR",
-      "count": 5
-    },
-    {
-      "title": "琥珀の身体",
-      "artist": "HIMEHINA",
       "count": 5
     },
     {
@@ -2594,6 +2614,11 @@
       "count": 4
     },
     {
+      "title": "Bling-Bang-Bang-Born",
+      "artist": "Creepy Nuts",
+      "count": 4
+    },
+    {
       "title": "Endless Story",
       "artist": "田村ゆかり",
       "count": 4
@@ -2616,6 +2641,11 @@
     {
       "title": "JINGO JUNGLE",
       "artist": "MYTH & ROID",
+      "count": 4
+    },
+    {
+      "title": "L.Miranic",
+      "artist": "LiSA",
       "count": 4
     },
     {
@@ -2854,11 +2884,6 @@
       "count": 4
     },
     {
-      "title": "シンメトリー",
-      "artist": "ReGLOSS",
-      "count": 4
-    },
-    {
       "title": "スキスキ絶頂症",
       "artist": "koyori (電ポルP)",
       "count": 4
@@ -2981,11 +3006,6 @@
     {
       "title": "ライラック",
       "artist": "美波",
-      "count": 4
-    },
-    {
-      "title": "ラプンツェル",
-      "artist": "n-buna",
       "count": 4
     },
     {
@@ -3119,6 +3139,11 @@
       "count": 4
     },
     {
+      "title": "敗北の少年",
+      "artist": "kemu",
+      "count": 4
+    },
+    {
       "title": "旧支配者のキャロル",
       "artist": "クトゥルフ神話",
       "count": 4
@@ -3126,11 +3151,6 @@
     {
       "title": "月光潤色ガール",
       "artist": "れるりり",
-      "count": 4
-    },
-    {
-      "title": "月光花",
-      "artist": "Janne Da Arc",
       "count": 4
     },
     {
@@ -3151,11 +3171,6 @@
     {
       "title": "水流のロック",
       "artist": "日食なつこ",
-      "count": 4
-    },
-    {
-      "title": "泣き地蔵",
-      "artist": "Vaundy",
       "count": 4
     },
     {
@@ -3244,6 +3259,11 @@
       "count": 4
     },
     {
+      "title": "雨とペトラ",
+      "artist": "バルーン",
+      "count": 4
+    },
+    {
       "title": "青空Jumping Heart",
       "artist": "Aqours",
       "count": 4
@@ -3261,11 +3281,6 @@
     {
       "title": "BEYOND THE TIME (メビウスの宇宙を越えて)",
       "artist": "TM NETWORK",
-      "count": 3
-    },
-    {
-      "title": "Bling-Bang-Bang-Born",
-      "artist": "Creepy Nuts",
       "count": 3
     },
     {
@@ -3331,11 +3346,6 @@
     {
       "title": "KING",
       "artist": "Kanaria",
-      "count": 3
-    },
-    {
-      "title": "L.Miranic",
-      "artist": "LiSA",
       "count": 3
     },
     {
@@ -3529,6 +3539,11 @@
       "count": 3
     },
     {
+      "title": "うみたがり",
+      "artist": "MARETU",
+      "count": 3
+    },
+    {
       "title": "おねがいダーリン",
       "artist": "ナナホシ管弦楽団",
       "count": 3
@@ -3596,6 +3611,11 @@
     {
       "title": "ウキヨバナレディー",
       "artist": "buzzG",
+      "count": 3
+    },
+    {
+      "title": "エンゼルフィッシュ",
+      "artist": "パトリチェフ",
       "count": 3
     },
     {
@@ -3944,6 +3964,11 @@
       "count": 3
     },
     {
+      "title": "少年ブレイヴ",
+      "artist": "じん",
+      "count": 3
+    },
+    {
       "title": "平行線",
       "artist": "さユり",
       "count": 3
@@ -3966,11 +3991,6 @@
     {
       "title": "我只在乎你(時の流れに身をまかせ)",
       "artist": "鄧麗君 (テレサ・テン)",
-      "count": 3
-    },
-    {
-      "title": "敗北の少年",
-      "artist": "kemu",
       "count": 3
     },
     {
@@ -4111,11 +4131,6 @@
     {
       "title": "閃光",
       "artist": "[Alexandros]",
-      "count": 3
-    },
-    {
-      "title": "雨とペトラ",
-      "artist": "バルーン",
       "count": 3
     },
     {
@@ -4609,11 +4624,6 @@
       "count": 2
     },
     {
-      "title": "うみたがり",
-      "artist": "MARETU",
-      "count": 2
-    },
-    {
       "title": "えれくとりっく・えんじぇぅ",
       "artist": "ヤスオ",
       "count": 2
@@ -4784,11 +4794,6 @@
       "count": 2
     },
     {
-      "title": "エンゼルフィッシュ",
-      "artist": "パトリチェフ",
-      "count": 2
-    },
-    {
       "title": "エンヴィキャットウォーク",
       "artist": "トーマ",
       "count": 2
@@ -4811,6 +4816,11 @@
     {
       "title": "ガチ百合の女王",
       "artist": "それっぽいP",
+      "count": 2
+    },
+    {
+      "title": "ガラスを割れ!",
+      "artist": "欅坂46",
       "count": 2
     },
     {
@@ -4981,6 +4991,16 @@
     {
       "title": "ファンサ",
       "artist": "HoneyWorks",
+      "count": 2
+    },
+    {
+      "title": "フタリボシ",
+      "artist": "40mP",
+      "count": 2
+    },
+    {
+      "title": "フレンズ",
+      "artist": "REBECCA",
       "count": 2
     },
     {
@@ -5284,11 +5304,6 @@
       "count": 2
     },
     {
-      "title": "少年ブレイヴ",
-      "artist": "じん",
-      "count": 2
-    },
-    {
       "title": "強風オールバック",
       "artist": "ゆこぴ",
       "count": 2
@@ -5486,6 +5501,11 @@
     {
       "title": "花",
       "artist": "ORANGE RANGE",
+      "count": 2
+    },
+    {
+      "title": "虎視眈々",
+      "artist": "梅とら",
       "count": 2
     },
     {
@@ -5705,6 +5725,11 @@
     },
     {
       "title": "DESIRE - 情熱 -",
+      "artist": "中森明菜",
+      "count": 1
+    },
+    {
+      "title": "DESIRE -情熱-",
       "artist": "中森明菜",
       "count": 1
     },
@@ -6489,11 +6514,6 @@
       "count": 1
     },
     {
-      "title": "ガラスを割れ!",
-      "artist": "欅坂46",
-      "count": 1
-    },
-    {
       "title": "ガンバッテンダー",
       "artist": "iLiFE!",
       "count": 1
@@ -6909,18 +6929,8 @@
       "count": 1
     },
     {
-      "title": "フタリボシ",
-      "artist": "40mP",
-      "count": 1
-    },
-    {
       "title": "フライングゲット",
       "artist": "AKB48",
-      "count": 1
-    },
-    {
-      "title": "フレンズ",
-      "artist": "REBECCA",
       "count": 1
     },
     {
@@ -7544,6 +7554,11 @@
       "count": 1
     },
     {
+      "title": "月が綺麗ねと言われたい!",
+      "artist": "カササギ",
+      "count": 1
+    },
+    {
       "title": "月光",
       "artist": "鬼束ちひろ",
       "count": 1
@@ -7786,11 +7801,6 @@
     {
       "title": "藍の華",
       "artist": "HIMEHINA",
-      "count": 1
-    },
-    {
-      "title": "虎視眈々",
-      "artist": "梅とら",
       "count": 1
     },
     {
@@ -8260,6 +8270,7 @@
     "エリオをかまってちゃん",
     "オワタP",
     "オーイシマサヨシ",
+    "カササギ",
     "カバネリ",
     "カラスヤサボウ",
     "カンザキイオリ",
