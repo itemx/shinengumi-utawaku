@@ -540,7 +540,7 @@
     "durationSec": 252
   },
   {
-    "title": "DESIRE - 情熱 -",
+    "title": "DESIRE -情熱-",
     "artist": "中森明菜",
     "tags": ["idol", "j-pop"],
     "durationSec": 265
@@ -5454,7 +5454,7 @@
     "durationSec": 152
   },
   {
-    "title": "ポジティブダンスタイム",
+    "title": "ポジティブ☆ダンスタイム",
     "artist": "キノシタ",
     "tags": ["vocaloid"],
     "durationSec": 240
@@ -7452,6 +7452,12 @@
     "durationSec": 181
   },
   {
+    "title": "恋のヒメヒメぺったんこ",
+    "artist": "姫野湖鳥 (田村ゆかり)",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 236
+  },
+  {
     "title": "恋は渾沌の隷也",
     "artist": "後ろから這いより隊G",
     "tags": ["anime", "j-pop"],
@@ -7762,6 +7768,12 @@
     "artist": "flumpool",
     "tags": ["j-pop", "ballad"],
     "durationSec": 259
+  },
+  {
+    "title": "星を巡る",
+    "artist": "ロクデナシ",
+    "tags": ["j-pop"],
+    "durationSec": 190
   },
   {
     "title": "星座になれたら",
@@ -8308,6 +8320,12 @@
     "artist": "女王蜂",
     "tags": ["anime", "j-pop"],
     "durationSec": 216
+  },
+  {
+    "title": "火種",
+    "artist": "キタニタツヤ",
+    "tags": ["j-pop"],
+    "durationSec": 205
   },
   {
     "title": "灼熱にて純情(wii-wii-woo)",

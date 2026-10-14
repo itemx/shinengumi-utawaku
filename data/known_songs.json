@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1580,
-  "uniqueTitles": 1552,
-  "uniqueArtists": 702,
+  "totalEntries": 1575,
+  "uniqueTitles": 1549,
+  "uniqueArtists": 701,
   "songs": [
     {
       "title": "All Alone With You",
@@ -839,6 +839,11 @@
       "count": 11
     },
     {
+      "title": "月が綺麗ねと言われたい!",
+      "artist": "柿崎ユウタ",
+      "count": 11
+    },
+    {
       "title": "独りんぼエンヴィー",
       "artist": "koyori (電ポルP)",
       "count": 11
@@ -1011,11 +1016,6 @@
     {
       "title": "晩餐歌",
       "artist": "tuki.",
-      "count": 10
-    },
-    {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "柿崎ユウタ",
       "count": 10
     },
     {
@@ -3334,6 +3334,11 @@
       "count": 3
     },
     {
+      "title": "I'm a mess",
+      "artist": "MY FIRST STORY",
+      "count": 3
+    },
+    {
       "title": "IGNITE",
       "artist": "藍井エイル",
       "count": 3
@@ -4239,6 +4244,11 @@
       "count": 2
     },
     {
+      "title": "DESIRE -情熱-",
+      "artist": "中森明菜",
+      "count": 2
+    },
+    {
       "title": "Dancing stars on me!",
       "artist": "μ's",
       "count": 2
@@ -4331,11 +4341,6 @@
     {
       "title": "How哥宇宙",
       "artist": "七月半 SevenFat",
-      "count": 2
-    },
-    {
-      "title": "I'm a mess",
-      "artist": "MY FIRST STORY",
       "count": 2
     },
     {
@@ -5044,6 +5049,11 @@
       "count": 2
     },
     {
+      "title": "ポジティブ☆ダンスタイム",
+      "artist": "キノシタ",
+      "count": 2
+    },
+    {
       "title": "マオ",
       "artist": "かいりきベア, まふまふ",
       "count": 2
@@ -5371,6 +5381,11 @@
     {
       "title": "晴天を穿つ",
       "artist": "傘村トータ",
+      "count": 2
+    },
+    {
+      "title": "暁の車",
+      "artist": "FictionJunction YUUKA",
       "count": 2
     },
     {
@@ -5729,16 +5744,6 @@
       "count": 1
     },
     {
-      "title": "DESIRE - 情熱 -",
-      "artist": "中森明菜",
-      "count": 1
-    },
-    {
-      "title": "DESIRE -情熱-",
-      "artist": "中森明菜",
-      "count": 1
-    },
-    {
       "title": "Dancing in the Moonlight",
       "artist": "ワルキューレ",
       "count": 1
@@ -5886,11 +5891,6 @@
     {
       "title": "It's My Life",
       "artist": "YUI",
-      "count": 1
-    },
-    {
-      "title": "I’m a mess",
-      "artist": "MY FIRST STORY",
       "count": 1
     },
     {
@@ -6974,16 +6974,6 @@
       "count": 1
     },
     {
-      "title": "ポジティブ☆ダンスタイム",
-      "artist": "キノシタ",
-      "count": 1
-    },
-    {
-      "title": "ポジティブダンスタイム",
-      "artist": "キノシタ",
-      "count": 1
-    },
-    {
       "title": "マジLOVE1000%",
       "artist": "ST☆RISH",
       "count": 1
@@ -7534,16 +7524,6 @@
       "count": 1
     },
     {
-      "title": "暁の車",
-      "artist": "FictionJunction",
-      "count": 1
-    },
-    {
-      "title": "暁の車",
-      "artist": "FictionJunction YUUKA",
-      "count": 1
-    },
-    {
       "title": "暗く黒く",
       "artist": "ずっと真夜中でいいのに。",
       "count": 1
@@ -7556,11 +7536,6 @@
     {
       "title": "最上級にかわいいの!",
       "artist": "超ときめき宣伝部",
-      "count": 1
-    },
-    {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "カササギ",
       "count": 1
     },
     {
@@ -8275,7 +8250,6 @@
     "エリオをかまってちゃん",
     "オワタP",
     "オーイシマサヨシ",
-    "カササギ",
     "カバネリ",
     "カラスヤサボウ",
     "カンザキイオリ",
