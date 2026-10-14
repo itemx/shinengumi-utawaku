@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1579,
-  "uniqueTitles": 1551,
+  "totalEntries": 1580,
+  "uniqueTitles": 1552,
   "uniqueArtists": 702,
   "songs": [
     {
@@ -34,13 +34,13 @@
       "count": 30
     },
     {
-      "title": "創聖のアクエリオン",
-      "artist": "AKINO",
-      "count": 28
-    },
-    {
       "title": "月光食堂",
       "artist": "ぬー (古川本舗)",
+      "count": 29
+    },
+    {
+      "title": "創聖のアクエリオン",
+      "artist": "AKINO",
       "count": 28
     },
     {
@@ -79,6 +79,11 @@
       "count": 24
     },
     {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
+      "count": 24
+    },
+    {
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 24
@@ -104,17 +109,17 @@
       "count": 23
     },
     {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
-      "count": 23
-    },
-    {
       "title": "Stellar Stellar",
       "artist": "星街すいせい",
       "count": 22
     },
     {
       "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
+      "count": 22
+    },
+    {
+      "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
       "count": 22
     },
@@ -136,11 +141,6 @@
     {
       "title": "Calc.",
       "artist": "ジミーサムP",
-      "count": 21
-    },
-    {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
       "count": 21
     },
     {
@@ -259,6 +259,16 @@
       "count": 17
     },
     {
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
+      "count": 17
+    },
+    {
+      "title": "ハイドアンド・シーク",
+      "artist": "19's Sound Factory",
+      "count": 17
+    },
+    {
       "title": "ハロ/ハワユ",
       "artist": "ナノウ",
       "count": 17
@@ -321,16 +331,6 @@
     {
       "title": "コネクト",
       "artist": "ClariS",
-      "count": 16
-    },
-    {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
-      "count": 16
-    },
-    {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory",
       "count": 16
     },
     {
@@ -454,6 +454,11 @@
       "count": 14
     },
     {
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
+      "count": 14
+    },
+    {
       "title": "-ERROR",
       "artist": "niki",
       "count": 13
@@ -569,11 +574,6 @@
       "count": 13
     },
     {
-      "title": "花泡沫",
-      "artist": "ロクデナシ",
-      "count": 13
-    },
-    {
       "title": "藍二乗",
       "artist": "ヨルシカ",
       "count": 13
@@ -606,6 +606,11 @@
     {
       "title": "again",
       "artist": "YUI",
+      "count": 12
+    },
+    {
+      "title": "あぶく",
+      "artist": "ヨルシカ",
       "count": 12
     },
     {
@@ -670,6 +675,16 @@
     },
     {
       "title": "忘れてください",
+      "artist": "ヨルシカ",
+      "count": 12
+    },
+    {
+      "title": "想いを巡らす100の事象",
+      "artist": "EGOIST",
+      "count": 12
+    },
+    {
+      "title": "櫂",
       "artist": "ヨルシカ",
       "count": 12
     },
@@ -749,11 +764,6 @@
       "count": 11
     },
     {
-      "title": "あぶく",
-      "artist": "ヨルシカ",
-      "count": 11
-    },
-    {
       "title": "ただ声一つ",
       "artist": "ロクデナシ",
       "count": 11
@@ -824,18 +834,8 @@
       "count": 11
     },
     {
-      "title": "想いを巡らす100の事象",
-      "artist": "EGOIST",
-      "count": 11
-    },
-    {
       "title": "春擬き",
       "artist": "やなぎなぎ",
-      "count": 11
-    },
-    {
-      "title": "櫂",
-      "artist": "ヨルシカ",
       "count": 11
     },
     {
@@ -886,6 +886,11 @@
     {
       "title": "ambiguous",
       "artist": "GARNiDELiA",
+      "count": 10
+    },
+    {
+      "title": "from Y to Y",
+      "artist": "ジミーサムP",
       "count": 10
     },
     {
@@ -1079,11 +1084,6 @@
       "count": 9
     },
     {
-      "title": "from Y to Y",
-      "artist": "ジミーサムP",
-      "count": 9
-    },
-    {
       "title": "secret base~君がくれたもの~",
       "artist": "ZONE",
       "count": 9
@@ -1199,6 +1199,11 @@
       "count": 9
     },
     {
+      "title": "曖昧劣情Lover",
+      "artist": "koyori (電ポルP)",
+      "count": 9
+    },
+    {
       "title": "浴槽とネオンテトラ",
       "artist": "REISAI",
       "count": 9
@@ -1294,6 +1299,11 @@
       "count": 8
     },
     {
+      "title": "アルビレオ",
+      "artist": "ロクデナシ",
+      "count": 8
+    },
+    {
       "title": "カブトムシ",
       "artist": "aiko",
       "count": 8
@@ -1306,6 +1316,11 @@
     {
       "title": "シリウス",
       "artist": "藍井エイル",
+      "count": 8
+    },
+    {
+      "title": "スピカ",
+      "artist": "ロクデナシ",
       "count": 8
     },
     {
@@ -1391,11 +1406,6 @@
     {
       "title": "打上花火",
       "artist": "DAOKO × 米津玄師",
-      "count": 8
-    },
-    {
-      "title": "曖昧劣情Lover",
-      "artist": "koyori (電ポルP)",
       "count": 8
     },
     {
@@ -1534,6 +1544,11 @@
       "count": 7
     },
     {
+      "title": "へび",
+      "artist": "ヨルシカ",
+      "count": 7
+    },
+    {
       "title": "アイディスマイル",
       "artist": "とあ",
       "count": 7
@@ -1541,11 +1556,6 @@
     {
       "title": "アメヲマツ、",
       "artist": "美波",
-      "count": 7
-    },
-    {
-      "title": "アルビレオ",
-      "artist": "ロクデナシ",
       "count": 7
     },
     {
@@ -1576,11 +1586,6 @@
     {
       "title": "シル・ヴ・プレジデント",
       "artist": "ナナホシ管弦楽団",
-      "count": 7
-    },
-    {
-      "title": "スピカ",
-      "artist": "ロクデナシ",
       "count": 7
     },
     {
@@ -1881,11 +1886,6 @@
     {
       "title": "ないない",
       "artist": "ReoNa",
-      "count": 6
-    },
-    {
-      "title": "へび",
-      "artist": "ヨルシカ",
       "count": 6
     },
     {
@@ -2769,6 +2769,11 @@
       "count": 4
     },
     {
+      "title": "あの夏が飽和する。",
+      "artist": "カンザキイオリ",
+      "count": 4
+    },
+    {
       "title": "おじゃま虫",
       "artist": "DECO*27",
       "count": 4
@@ -3511,11 +3516,6 @@
     {
       "title": "あなたの夜が明けるまで",
       "artist": "傘村トータ",
-      "count": 3
-    },
-    {
-      "title": "あの夏が飽和する。",
-      "artist": "カンザキイオリ",
       "count": 3
     },
     {
@@ -4846,6 +4846,11 @@
     {
       "title": "グッバイ宣言",
       "artist": "Chinozo",
+      "count": 2
+    },
+    {
+      "title": "グレゴリオ",
+      "artist": "古川本舗",
       "count": 2
     },
     {
@@ -6549,11 +6554,6 @@
       "count": 1
     },
     {
-      "title": "グレゴリオ",
-      "artist": "古川本舗",
-      "count": 1
-    },
-    {
       "title": "ケロッ!とマーチ",
       "artist": "角田信朗&いはたじゅり",
       "count": 1
@@ -7526,6 +7526,11 @@
     {
       "title": "明星ギャラクティカ",
       "artist": "ナユタン星人",
+      "count": 1
+    },
+    {
+      "title": "星を巡る",
+      "artist": "ロクデナシ",
       "count": 1
     },
     {
