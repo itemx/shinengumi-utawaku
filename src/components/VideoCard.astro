@@ -59,6 +59,10 @@ const songMeta = getSongMeta();
           {song.artist && (
             <span class="text-text-muted text-xs">/ {song.artist}</span>
           )}
+          <button type="button" data-copy={song.title} title="複製 / コピー"
+            class="copy-btn shrink-0 p-0.5 rounded text-text-muted/50 hover:text-primary hover:bg-primary/10">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2" /><path d="M5 15V5a2 2 0 012-2h10" /></svg>
+          </button>
         </div>
       ))}
       <div class="pt-2 text-xs">

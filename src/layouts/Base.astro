@@ -106,6 +106,25 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
     {!noPlayerBar && <PlayerBar />}
 
     <script is:inline>
+      // 曲名の横の複製ボタン（VideoCard / SongTable）。<summary> の中にもあるので
+      // preventDefault で開閉を止める。押したら一瞬 ✓ にして効いたことを見せる
+      document.addEventListener("click", function (e) {
+        var b = e.target.closest && e.target.closest("[data-copy]");
+        if (!b) return;
+        e.preventDefault();
+        e.stopPropagation();
+        if (b.dataset.busy) return;   // ✓ 表示中の連打で ✓ を元アイコンとして覚えないように
+        b.dataset.busy = "1";
+        navigator.clipboard.writeText(b.dataset.copy).then(function () {
+          var svg = b.innerHTML;
+          b.textContent = "✓";
+          b.classList.add("text-primary");
+          setTimeout(function () { b.innerHTML = svg; b.classList.remove("text-primary"); delete b.dataset.busy; }, 900);
+        }).catch(function () { delete b.dataset.busy; });
+      });
+    </script>
+
+    <script is:inline>
       // PWA。失敗しても普通のサイトとして動くので、握りつぶして良い
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
