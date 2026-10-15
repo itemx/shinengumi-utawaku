@@ -37,6 +37,10 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
     <meta name="theme-color" content="#5e2a89" />
     <link rel="apple-touch-icon" href="/icons/icon-192.png" />
     <title>{siteTitle}</title>
+    <!-- Cloudflare Web Analytics（cookie なし・同意バナー不要）。
+         seg-uta.i3x.tw は DNS only なので自動注入されず、手で貼る -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "2b26bda59926411990bddd9857d96aa2"}'></script>
   </head>
   <body class="min-h-screen flex flex-col">
     <header class="bg-gradient-to-r from-purple to-primary text-white">
