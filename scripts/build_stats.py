@@ -22,14 +22,8 @@ def build_channel_stats(data: dict) -> dict:
     videos = data.get("videos", [])
     song_counter: Counter = Counter()
     artist_counter: Counter = Counter()
-    monthly: Counter = Counter()
-    all_appearances: dict[str, list] = {}  # title → appearances
 
     for video in videos:
-        published = video.get("publishedAt", "")[:7]  # YYYY-MM
-        if published:
-            monthly[published] += 1
-
         for song in video.get("songs", []):
             title = song.get("title", song.get("titleRaw", ""))
             artist = song.get("artist", song.get("artistRaw", ""))
@@ -39,59 +33,16 @@ def build_channel_stats(data: dict) -> dict:
             if artist:
                 artist_counter[artist] += 1
 
-            if key not in all_appearances:
-                all_appearances[key] = []
-            all_appearances[key].append({
-                "videoId": video["videoId"],
-                "channelId": data["channelId"],
-                "date": video.get("publishedAt", ""),
-                "title": video.get("title", ""),
-                "url": song.get("url", ""),
-            })
-
-    # Top songs
+    # Top songs（サイトは title/count しか読まない）
     top_songs = []
-    for key, count in song_counter.most_common(50):
+    for key, count in song_counter.most_common(20):
         title, artist = key.split("||", 1)
-        appearances = all_appearances.get(key, [])
-        dates = [a["date"] for a in appearances if a["date"]]
-        top_songs.append({
-            "title": title,
-            "artist": artist,
-            "count": count,
-            "appearances": appearances,
-            "firstSung": min(dates) if dates else "",
-            "lastSung": max(dates) if dates else "",
-        })
+        top_songs.append({"title": title, "artist": artist, "count": count})
 
     # Top artists
     top_artists = [
         {"artist": a, "count": c}
-        for a, c in artist_counter.most_common(30)
-    ]
-
-    # Monthly activity
-    monthly_activity = [
-        {"month": m, "count": c}
-        for m, c in sorted(monthly.items())
-    ]
-
-    # Unique songs
-    unique_songs = len(song_counter)
-    total_songs = sum(song_counter.values())
-
-    # Recent videos
-    sorted_videos = sorted(
-        videos, key=lambda v: v.get("publishedAt", ""), reverse=True
-    )
-    recent_videos = [
-        {
-            "videoId": v["videoId"],
-            "title": v["title"],
-            "publishedAt": v.get("publishedAt", ""),
-            "songCount": len(v.get("songs", [])),
-        }
-        for v in sorted_videos[:10]
+        for a, c in artist_counter.most_common(15)
     ]
 
     # 分類計數
@@ -103,17 +54,13 @@ def build_channel_stats(data: dict) -> dict:
     return {
         "channelId": data["channelId"],
         "channelName": data.get("channelName", ""),
-        "uniqueSongs": unique_songs,
-        "totalSongs": total_songs,
-        "totalVideos": len(videos),
+        "uniqueSongs": len(song_counter),
+        "totalSongs": sum(song_counter.values()),
         "streamCount": len(streams),
         "shortCount": len(shorts),
         "coverCount": len(covers) + len(originals),
-        "originalCount": len(originals),
         "topSongs": top_songs,
         "topArtists": top_artists,
-        "monthlyActivity": monthly_activity,
-        "recentVideos": recent_videos,
     }
 
 
@@ -167,7 +114,6 @@ def main():
                     m for m in mdata.get("missing", [])
                     if m["videoId"] not in existing_ids
                 ]
-                mdata["totalMissing"] = len(mdata["missing"])
                 after = len(mdata["missing"])
 
                 if before != after:

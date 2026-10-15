@@ -30,6 +30,12 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python scripts/scan_new.py --days 7
 
+      # 削除・非公開になった動画を player の曲池から外す（1 unit / 50 本）
+      - name: Check video availability
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/check_availability.py
+
       - name: Build stats
         run: |
           python scripts/build_stats.py

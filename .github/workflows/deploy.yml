@@ -30,6 +30,10 @@ jobs:
       - name: Build stats
         run: python scripts/build_stats.py
 
+      # tag の綴り間違いなどを本番に出さない
+      - name: Validate song_meta
+        run: python scripts/build_song_meta.py --validate
+
       - uses: actions/setup-node@v5
         with:
           node-version: 22

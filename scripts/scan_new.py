@@ -73,20 +73,14 @@ def load_missing(channel_id: str) -> dict:
     path = MISSING_DIR / f"{channel_id}.json"
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
-    return {
-        "channelId": channel_id,
-        "channelName": "",
-        "generatedAt": "",
-        "totalSearched": 0,
-        "totalWithSetlist": 0,
-        "totalMissing": 0,
-        "missing": [],
-    }
+    return {"channelId": channel_id, "channelName": "", "missing": []}
 
 
 def save_missing(channel_id: str, data: dict):
     """儲存 missing 資料。"""
     MISSING_DIR.mkdir(parents=True, exist_ok=True)
+    for k in ("generatedAt", "totalSearched", "totalWithSetlist", "totalMissing"):
+        data.pop(k, None)   # 書くだけで誰も読まない欄
     path = MISSING_DIR / f"{channel_id}.json"
     path.write_text(
         json.dumps(data, ensure_ascii=False, indent=2),
@@ -148,13 +142,21 @@ def main():
         existing = get_existing_video_ids(channel_id)
         ch_data_raw = read_channel_data(channel_id)
         existing_with_songs = set()
+        stub_titles: dict[str, str] = {}   # 非歌枠と判定済みの空レコード
         if ch_data_raw:
-            existing_with_songs = {
-                v["videoId"] for v in ch_data_raw.get("videos", [])
-                if v.get("songs")
-            }
+            for v in ch_data_raw.get("videos", []):
+                if v.get("songs"):
+                    existing_with_songs.add(v["videoId"])
+                else:
+                    stub_titles[v["videoId"]] = v.get("title", "")
 
         vid_ids = [v for v in vid_ids if v not in existing_with_songs]
+        # 前回「非歌枠」と判定した動画は、タイトルが歌枠らしくなっていなければ
+        # 動画情報もコメントも取りに行かない（毎回 2〜3 units 捨てていた）
+        vid_ids = [
+            v for v in vid_ids
+            if v not in stub_titles or _UTAWAKU_PATTERNS.search(stub_titles[v])
+        ]
         if not vid_ids:
             print(f"   ✓ 全部已有セトリ")
             continue
@@ -322,9 +324,6 @@ def main():
         # 寫入
         write_channel_data(ch_data)
 
-        # 更新 missing
-        missing_data["generatedAt"] = datetime.now(timezone.utc).isoformat()
-        missing_data["totalMissing"] = len(missing_data.get("missing", []))
         save_missing(channel_id, missing_data)
 
     # 記錄已開 review 的 videoId

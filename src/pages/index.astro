@@ -41,28 +41,17 @@ const originals = [
       var label = btn.querySelector("span");
       var tracks = null;
 
-      /** 「全部隨機播放」は演唱単位で混ぜる。同じ曲でも日付が違えば別の 1 曲として扱う。
-       *  shuffle-pool は 1 曲 1 行しか持たないので、performances.json の全演唱と
-       *  突き合わせて展開する（1 回しか歌われていない曲は pool の行をそのまま使う）。 */
+      /** 「全演唱隨機播放」は演唱単位で混ぜる。同じ曲でも日付が違えば別の 1 曲として扱う。 */
       async function build() {
-        var res = await Promise.all([
-          fetch("/shuffle-pool.json").then(function (r) { return r.json(); }),
-          fetch("/performances.json").then(function (r) { return r.json(); }),
-        ]);
-        var pool = res[0], perf = res[1];
+        var perf = await fetch("/performances.json").then(function (r) { return r.json(); });
         var out = [];
-        pool.forEach(function (r) {
-          var takes = perf.s[r[2] + "\t" + r[3]];
-          if (takes && takes.length) {
-            takes.forEach(function (t) {
-              var info = perf.v[t[0]];
-              out.push({ videoId: t[0], start: t[1], title: r[2], artist: r[3],
-                         dur: r[4] || null, date: info ? info[1] : r[5] });
-            });
-          } else {
-            out.push({ videoId: r[0], start: r[1], title: r[2], artist: r[3],
-                       dur: r[4] || null, date: r[5] });
-          }
+        Object.keys(perf.s).forEach(function (key) {
+          var kv = key.split("\t"), m = perf.m[key] || [];
+          perf.s[key].forEach(function (t) {
+            var info = perf.v[t[0]];
+            out.push({ videoId: t[0], start: t[1], title: kv[0], artist: kv[1] || "",
+                       dur: m[0] || null, date: info ? info[1] : "" });
+          });
         });
         return out;
       }

@@ -102,9 +102,10 @@ def main():
             print(f"   ⚠ 頻道處理失敗: {e}")
 
     # 4. 處理單獨影片 (需先取得 channelId)
+    infos: dict[str, dict] = {}   # step 5 で同じ動画をもう一度引かないため
     for vid_id in videos:
         try:
-            info = yt.get_video_info(vid_id)
+            info = infos[vid_id] = yt.get_video_info(vid_id)
             channel_id = info["channelId"]
             if channel_id not in channel_video_map:
                 channel_video_map[channel_id] = []
@@ -148,7 +149,7 @@ def main():
         for vid_id in vid_ids:
             try:
                 # 取得影片資訊
-                vid_info = yt.get_video_info(vid_id)
+                vid_info = infos.get(vid_id) or yt.get_video_info(vid_id)
 
                 # 跳過排定中/直播中的影片 (尚未結束)
                 if vid_info.get("isUpcoming") or vid_info.get("isLive"):

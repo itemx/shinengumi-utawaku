@@ -50,36 +50,23 @@ export interface ChannelStats {
   channelName: string;
   uniqueSongs: number;
   totalSongs: number;
-  totalVideos: number;
   streamCount: number;
   shortCount: number;
   coverCount: number;
-  topSongs: {
-    title: string;
-    artist: string;
-    count: number;
-    appearances: {
-      videoId: string;
-      channelId: string;
-      date: string;
-      title: string;
-      url: string;
-    }[];
-    firstSung: string;
-    lastSung: string;
-  }[];
+  topSongs: { title: string; artist: string; count: number }[];
   topArtists: { artist: string; count: number }[];
-  monthlyActivity: { month: string; count: number }[];
-  recentVideos: {
-    videoId: string;
-    title: string;
-    publishedAt: string;
-    songCount: number;
-  }[];
 }
 
+// build 中は同じファイルを何百回も読む（VideoCard ごとに getSongMeta 等）ので
+// 1 回だけ parse する。dev server で data/ を直接いじったら再起動が要る。
+const cache = new Map<string, unknown>();
 function readJSON<T>(filePath: string): T {
-  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  let v = cache.get(filePath);
+  if (v === undefined) {
+    v = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    cache.set(filePath, v);
+  }
+  return v as T;
 }
 
 export function getChannels(): ChannelConfig[] {
@@ -190,11 +177,12 @@ export interface SongMeta {
 }
 
 /** 讀取 song_meta.json，回傳 key=`title\tartist` 的 Map */
+let metaMap: Map<string, SongMeta> | null = null;
 export function getSongMeta(): Map<string, SongMeta> {
+  if (metaMap) return metaMap;
+  metaMap = new Map();
   const p = path.join(DATA_DIR, "song_meta.json");
-  const map = new Map<string, SongMeta>();
-  if (!fs.existsSync(p)) return map;
-  const arr: SongMeta[] = JSON.parse(fs.readFileSync(p, "utf-8"));
-  for (const m of arr) map.set(`${m.title}\t${m.artist}`, m);
-  return map;
+  if (!fs.existsSync(p)) return metaMap;
+  for (const m of readJSON<SongMeta[]>(p)) metaMap.set(`${m.title}\t${m.artist}`, m);
+  return metaMap;
 }

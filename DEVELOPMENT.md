@@ -165,7 +165,7 @@ python3 scripts/fetch.py "https://www.youtube.com/watch?v=VIDEO_ID"
 4. Maintainer adds `setlist-submission` label
 5. GitHub Action (`ingest-submission.yml`) triggers:
    - `ingest_issue.py` parses Issue body
-   - Checks `ALLOWED_USERS` whitelist (GitHub repo variable)
+   - Validates `video_id` / `channel_id` / `type` in the frontmatter
    - Fetches `publishedAt` from YouTube API
    - Normalizes + writes to data
    - `build_stats.py` + `build_known_songs.py`
@@ -376,12 +376,8 @@ Client-side switching between Traditional Chinese (`zh`) and Japanese (`ja`).
 ### Secrets (Settings → Secrets → Actions)
 - `YOUTUBE_API_KEY` — YouTube Data API v3 key
 
-### Variables (Settings → Variables → Actions)
-- `ALLOWED_USERS` — comma-separated GitHub usernames for auto-approved submissions
-
 ### Labels
 - `setlist-submission` — triggers ingest workflow
-- `approved` — for non-whitelisted users (manual approval)
 
 ### Pages
 - Source: GitHub Actions
@@ -393,7 +389,7 @@ Client-side switching between Traditional Chinese (`zh`) and Japanese (`ja`).
 ## Security Model
 
 - **Submit page:** validates YouTube URL against registered channels in `channels.json`
-- **Ingest workflow:** `ALLOWED_USERS` whitelist — whitelisted users auto-processed, others need `approved` label
+- **Ingest workflow:** only collaborators can add the `setlist-submission` label, so labeling is the approval step. `ingest_issue.py` still validates `video_id` (11-char ID), `channel_id` (must be in `channels.json` — it becomes a file name) and `type` before touching any file
 - **Issue label injection:** `setlist-submission` label only triggers on `issues.labeled` event; adding it via Issue body doesn't trigger the workflow
 - **Duplicate detection:** `merge_video()` deduplicates by `videoId`; same timestamp songs are merged, not duplicated
 

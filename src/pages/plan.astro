@@ -365,7 +365,7 @@ const msgs = Object.fromEntries(
       renderSelected();
     }
 
-    function esc(s){ return String(s).replace(/[&<>]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c];}); }
+    function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
 
     /** 取已套用翻譯的文字（從頁面上帶該 data-i18n 的元素讀，語言切換後自動跟著變） */
     function txt(key, fallback){

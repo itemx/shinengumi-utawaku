@@ -277,45 +277,6 @@ def parse_comment(
     return songs
 
 
-def pick_best_comment(comments: list[dict]) -> list[SongEntry] | None:
-    """從多則留言中選出最佳セトリ。
-
-    Args:
-        comments: YouTube commentThreads API 回傳的留言清單。
-            每則需含 snippet.topLevelComment.snippet:
-                - textOriginal: str
-                - likeCount: int
-                - authorChannelId.value: str
-
-    Returns:
-        最佳留言解析出的歌曲列表，若無有效留言則返回 None。
-    """
-    best_songs: list[SongEntry] | None = None
-    best_score = -1
-
-    for comment in comments:
-        snippet = comment.get("snippet", {}).get("topLevelComment", {}).get("snippet", {})
-        text = snippet.get("textOriginal", "")
-        like_count = snippet.get("likeCount", 0)
-        author_channel = snippet.get("authorChannelId", {}).get("value", "")
-
-        songs = parse_comment(text)
-        if songs is None:
-            continue
-
-        # 評分
-        score = len(songs) * 2 + like_count
-        # 頻道擁有者留言加分 (需外部傳入 channel_id 比對，此處預留)
-        # if author_channel == channel_owner_id:
-        #     score += 10
-
-        if score > best_score:
-            best_score = score
-            best_songs = songs
-
-    return best_songs
-
-
 def pick_best_comment_with_owner(
     comments: list[dict], channel_owner_id: str = ""
 ) -> list[SongEntry] | None:

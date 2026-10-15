@@ -10,17 +10,16 @@
  *   ・iOS は利用者が手動で PiP に入れれば継続する
  * を用意し、その旨を画面上に明記している。
  *
- * 曲池は /shuffle-pool.json（1 曲 1 代表片段、視聴不可動画は除外）を実行時に取得。
+ * 曲庫は /performances.json（全演唱、視聴不可動画は除外）を実行時に取得。
  * ページに埋め込むと HTML が 100KB 級に膨らむので分けてある。
  */
 import Base from "../layouts/Base.astro";
-import { getAllSongs, getSongMeta, getChannels } from "../lib/data";
+import { getSongMeta, getChannels } from "../lib/data";
 import { translations } from "../lib/i18n";
 
 const meta = getSongMeta();
 const allTags = [...new Set([...meta.values()].flatMap((m) => m.tags))].sort();
 const channels = getChannels().map((c) => c.name);
-const songCount = new Set(getAllSongs().map((s) => `${s.title}\t${s.artist}`)).size;
 
 // inline script 内で出すメッセージ（対応する DOM が無いので両言語を持ち込む）
 const MSG_KEYS = [
@@ -182,7 +181,7 @@ const msgs = Object.fromEntries(
     </div>
   </div>
 
-  <script is:inline define:vars={{ msgs, songCount }}>
+  <script is:inline define:vars={{ msgs }}>
     (function () {
       // ---- state ----
       var pool = [];          // {title,artist,dur,tags,takes}（1 曲 1 行）
@@ -223,32 +222,18 @@ const msgs = Object.fromEntries(
       function deaccent(s) { return s.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
       function norm(s) { return deaccent(kana((s || "").toLowerCase())); }
 
-      // ---- pool ----
-      function loadPool() {
-        return fetch("/shuffle-pool.json").then(function (r) { return r.json(); }).then(function (rows) {
-          pool = rows.map(function (r) {
-            return {
-              videoId: r[0], start: r[1], title: r[2], artist: r[3],
-              dur: r[4] || null, date: r[5], channel: r[6] || "", tags: r[7] || [],
-              takes: r[8] || 1,
-            };
+      // ---- data ----
+      // performances.json 1 本で曲庫（s のキー）も各回の情報（v）も持つ
+      var takesData = null;
+      function loadData() {
+        return fetch("/performances.json").then(function (r) { return r.json(); }).then(function (j) {
+          takesData = j;
+          pool = Object.keys(j.s).map(function (key) {
+            var kv = key.split("\t"), m = j.m[key] || [];
+            return { key: key, title: kv[0], artist: kv[1] || "", dur: m[0] || null,
+                     tags: m[1] || [], takes: j.s[key].length };
           });
         });
-      }
-
-      // ---- 他の演唱（同じ曲の別の回）----
-      // /shuffle-pool.json は 1 曲 1 回しか持たないので、別の回を指定したり
-      // シャッフルで当てたりするための一覧を、使うときだけ取りに行く。
-      var takesData = null, takesLoading = null;
-      function loadTakes() {
-        if (takesData) return Promise.resolve(takesData);
-        if (!takesLoading) {
-          takesLoading = fetch("/performances.json")
-            .then(function (r) { return r.json(); })
-            .then(function (j) { takesData = j; return j; })
-            .catch(function () { takesData = { c: [], s: {} }; return takesData; });
-        }
-        return takesLoading;
       }
       /** その回の配信情報（日付・タイトル）。performances.json を読んでいれば引ける */
       function videoInfo(videoId) {
@@ -262,11 +247,7 @@ const msgs = Object.fromEntries(
         $("np-video").textContent = info ? info[0] : "";
         $("np-video").title = info ? info[0] : "";
       }
-      function takesOf(i) {
-        var s = pool[i];
-        var list = takesData && takesData.s[s.title + "\t" + s.artist];
-        return list || [[s.videoId, s.start]];   // performances.json が取れなかったときは代表で代用
-      }
+      function takesOf(i) { return takesData.s[pool[i].key]; }
 
       // ---- filtering ----
       function entry(i, t) { return { i: i, videoId: t[0], start: t[1] }; }
@@ -298,7 +279,7 @@ const msgs = Object.fromEntries(
         if (mode === "perfs") {
           // 新しい配信から。同じ配信の中はセトリ順
           out.sort(function (a, b) {
-            var da = (videoInfo(a.videoId) || "  ")[1], db = (videoInfo(b.videoId) || "  ")[1];
+            var da = videoInfo(a.videoId)[1], db = videoInfo(b.videoId)[1];
             return da < db ? 1 : da > db ? -1 : a.videoId < b.videoId ? -1 : a.videoId > b.videoId ? 1 : a.start - b.start;
           });
         }
@@ -354,15 +335,15 @@ const msgs = Object.fromEntries(
         var open = li.nextElementSibling && li.nextElementSibling.dataset.takelist === String(i);
         closeTakes();
         if (open) return;
-        loadTakes().then(function () {
-          var list = takesOf(i), s = pool[i];
-          var vids = (takesData && takesData.v) || {}, chs = (takesData && takesData.c) || [];
+        {
+          var list = takesOf(i);
+          var vids = takesData.v, chs = takesData.c;
           // 印は「いま鳴っている回」にだけ付ける（代表は内部都合の選択なので出さない）
           var playing = current || {};
           var html = list.map(function (t) {
             var info = vids[t[0]] || ["", "", 0];
             var cur = t[0] === playing.videoId && t[1] === playing.start;
-            return '<button type="button" data-take="' + i + "|" + t[0] + "|" + t[1] + '"'
+            return '<button type="button" data-take="' + i + "|" + esc(t[0]) + "|" + t[1] + '"'
               + ' class="w-full flex items-start gap-2 px-2.5 py-1.5 text-xs text-left hover:bg-primary/10'
               + (cur ? " bg-primary/10" : "") + '">'
               + '<span class="shrink-0 w-4 text-primary">' + (cur ? "▶" : "") + "</span>"
@@ -379,22 +360,30 @@ const msgs = Object.fromEntries(
           wrap.className = "bg-border/20 border-y border-border divide-y divide-border/60";
           wrap.innerHTML = html;
           li.parentNode.insertBefore(wrap, li.nextSibling);
-        });
+        }
       }
       function closeTakes() {
         [].forEach.call(document.querySelectorAll("[data-takelist]"), function (el) { el.remove(); });
       }
 
+      /** キューの描画。6000 行を曲が変わるたびに描き直すと重いので、
+       *  中身が変わったときだけ呼ぶ。現在曲の印は highlightQueue で付け替える */
       function renderQueue() {
         var ol = $("queue");
         ol.innerHTML = queue.map(function (e, n) {
           return rowHtml(e, 'data-i="' + e.i + '" data-qi="' + n + '"', n + 1, true);
         }).join("");
-        [].forEach.call(ol.children, function (li, n) {
-          if (n === qi) li.className += " bg-primary/10 font-medium";
-        });
+        hiAt = -1;
+        highlightQueue();
         $("queue-count").textContent = queue.length ? queue.length + " " + msg("player.perfs_unit") : "";
         $("queue-hint").classList.toggle("hidden", queue.length > 0);
+      }
+      var hiAt = -1;
+      function highlightQueue() {
+        var rows = $("queue").children;
+        if (rows[hiAt]) rows[hiAt].classList.remove("bg-primary/10", "font-medium");
+        if (rows[qi]) rows[qi].classList.add("bg-primary/10", "font-medium");
+        hiAt = qi;
       }
 
       // ---- YouTube ----
@@ -455,7 +444,7 @@ const msgs = Object.fromEntries(
         showTake(tr.videoId);
         $("np-total").textContent = s.dur ? fmt(s.dur) : "—";
         document.title = s.title + " · SEG-V UtaList";
-        renderQueue();
+        highlightQueue();
         current = tr;
 
         var go = function () {
@@ -543,9 +532,11 @@ const msgs = Object.fromEntries(
           var rest = list.slice();
           var head = first != null ? rest.splice(first, 1) : [];
           queue = head.concat(shuffleInPlace(rest));
+          renderQueue();
           playAt(0);
         } else {
           queue = list.slice();
+          renderQueue();
           playAt(first || 0);
         }
       }
@@ -607,6 +598,7 @@ const msgs = Object.fromEntries(
           var pi = parseInt(parts[0], 10);
           // 選ばれた回だけのキューにする
           queue = [{ i: pi, videoId: parts[1], start: parseInt(parts[2], 10) }];
+          renderQueue();
           playAt(0);
           closeTakes();
           return;
@@ -670,8 +662,7 @@ const msgs = Object.fromEntries(
       setToggle("btn-repeat", repeatOn, "Repeat");
 
       setMode(mode);
-      // 一覧の各行が「どの回か」を持つので、performances.json も揃ってから描く
-      Promise.all([loadPool(), loadTakes()]).then(function () {
+      loadData().then(function () {
         renderLibrary();
         renderQueue();
       }).catch(function () {

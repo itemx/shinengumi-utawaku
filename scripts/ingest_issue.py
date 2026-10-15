@@ -22,6 +22,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 import requests
 
 from scripts.lib.comment_parser import parse_comment
+from scripts.lib.url_parser import _VIDEO_ID_RE
 from scripts.lib.normalizer import load_aliases, normalize, load_known_songs, fill_missing_artist
 from scripts.lib.data_store import (
     read_channel_data,
@@ -77,31 +78,19 @@ def main():
     print(f"處理 Issue #{issue_number}")
 
     # 取得 Issue
+    # 信任境界は「setlist-submission label を付けられる人」= collaborator だけ。
+    # それでも frontmatter はレビュー対象外なので、ファイル名・属性に入る値だけ検証する
     issue = fetch_issue(issue_number)
     body = issue.get("body", "")
-    author = issue.get("user", {}).get("login", "")
-    print(f"  作者: {author}")
-
-    # 安全檢查: 允許清單
-    allowed_users_str = os.environ.get("ALLOWED_USERS", "")
-    allowed_users = [u.strip() for u in allowed_users_str.split(",") if u.strip()]
-
-    if allowed_users and author not in allowed_users:
-        print(f"  ⚠ 作者 {author} 不在允許清單中，需手動加 approved label")
-        # 檢查是否有 approved label
-        labels = [l["name"] for l in issue.get("labels", [])]
-        if "approved" not in labels:
-            print("  ❌ 未經批准，跳過")
-            sys.exit(0)
-        print("  ✓ 已有 approved label，繼續處理")
+    print(f"  作者: {issue.get('user', {}).get('login', '')}")
 
     # 解析 frontmatter
     metadata, setlist_text = parse_frontmatter(body)
     video_id = metadata.get("video_id", "")
     video_title = metadata.get("video_title", "")
 
-    if not video_id:
-        print("  ❌ 找不到 video_id")
+    if not _VIDEO_ID_RE.match(video_id):
+        print(f"  ❌ video_id の形式が不正: {video_id!r}")
         sys.exit(1)
 
     print(f"  影片: {video_title} ({video_id})")
@@ -109,6 +98,9 @@ def main():
     # 解析セトリ
     # cover/original/short 為單曲投稿: 允許 1 首、保留 0:00
     vid_type = metadata.get("type", "stream")
+    if vid_type not in ("stream", "cover", "original", "short"):
+        print(f"  ❌ type が不正: {vid_type!r}")
+        sys.exit(1)
     if vid_type in ("cover", "original", "short"):
         min_songs = 1
         songs = parse_comment(setlist_text, min_songs=1, skip_zero=False, filter_chatter=False)
@@ -150,6 +142,11 @@ def main():
     # 嘗試所有已註冊頻道
     channels = json.loads((DATA_DIR / "channels.json").read_text(encoding="utf-8"))
     channel_id = metadata.get("channel_id", "")
+    # channel_id はそのまま data/songs/{id}.json のファイル名になる。
+    # 登録済みの ID 以外は受けない（../channels 等でほかのファイルを潰されないように）
+    if channel_id and channel_id not in {c["channelId"] for c in channels}:
+        print(f"  ❌ 未登録の channel_id: {channel_id!r}")
+        sys.exit(1)
 
     if not channel_id and len(channels) == 1:
         channel_id = channels[0]["channelId"]
@@ -186,10 +183,6 @@ def main():
         existing_video = next(v for v in ch_data["videos"] if v["videoId"] == video_id)
         existing_songs = len(existing_video.get("songs", []))
         print(f"  ⚠ 此影片已收錄 ({existing_songs} 曲)")
-        # 設定環境變數讓 workflow 知道是重複
-        with open(os.environ.get("GITHUB_OUTPUT", "/dev/null"), "a") as f:
-            f.write(f"duplicate=true\n")
-            f.write(f"existing_songs={existing_songs}\n")
 
     # 取得影片發布日期
     published_at = ""
@@ -219,14 +212,9 @@ def main():
 
     print(f"  ✓ 已寫入 {channel_id}.json: {len(song_entries)} 曲")
 
-    # 記錄未匹配的曲名
-    unmatched = [s for s in song_entries if not s["artist"]]
+    unmatched = [s["title"] for s in song_entries if not s["artist"]]
     if unmatched:
-        log_path = DATA_DIR / "unmatched.log"
-        with open(log_path, "a", encoding="utf-8") as f:
-            for s in unmatched:
-                f.write(f"[issue#{issue_number}] {s['title']}\n")
-        print(f"  ⚠ {len(unmatched)} 曲未匹配歌手 → unmatched.log")
+        print(f"  ⚠ 歌手未匹配 {len(unmatched)} 曲: " + "、".join(unmatched))
 
 
 if __name__ == "__main__":

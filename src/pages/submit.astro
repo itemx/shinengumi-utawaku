@@ -342,6 +342,12 @@ for (const [k, v] of Object.entries(titleArtists)) {
       return out;
     }
 
+    function esc(s) {
+      return String(s).replace(/[&<>"]/g, function (c) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+      });
+    }
+
     // --- DOM ---
     var inputUrl = document.getElementById("input-url");
     var inputSetlist = document.getElementById("input-setlist");
@@ -515,13 +521,13 @@ for (const [k, v] of Object.entries(titleArtists)) {
         if (!s.artist) {
           artistHtml = '<span class="text-[#eab010]" data-i18n="submit.artist_unknown">未指定</span>';
         } else if (s.autoFilled) {
-          artistHtml = '<span class="text-blue-500" title="自動補完">' + s.artist + '</span>';
+          artistHtml = '<span class="text-blue-500" title="自動補完">' + esc(s.artist) + '</span>';
         } else {
-          artistHtml = s.artist;
+          artistHtml = esc(s.artist);
         }
         tr.innerHTML =
-          '<td class="py-1 px-2 font-mono text-text-muted">' + s.timestamp + '</td>' +
-          '<td class="py-1 px-2 font-medium">' + s.title + '</td>' +
+          '<td class="py-1 px-2 font-mono text-text-muted">' + esc(s.timestamp) + '</td>' +
+          '<td class="py-1 px-2 font-medium">' + esc(s.title) + '</td>' +
           '<td class="py-1 px-2 text-text-muted">' + artistHtml + '</td>';
         previewTbody.appendChild(tr);
       }

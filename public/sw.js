@@ -7,8 +7,8 @@
  * 対象は同一オリジンの GET だけ。YouTube の iframe API や動画ストリームには
  * 一切触らない（触ると再生が壊れる）。
  */
-const CACHE = "utalist-v1";
-const SHELL = ["/player", "/shuffle-pool.json", "/icons/icon-192.png"];
+const CACHE = "utalist-v2";
+const SHELL = ["/player", "/performances.json", "/icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
   // 失敗しても install は通す（shell が 1 本欠けただけで PWA 全体を壊さない）

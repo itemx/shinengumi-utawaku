@@ -5,7 +5,6 @@ import VideoCard from "../components/VideoCard.astro";
 import CoverCard from "../components/CoverCard.astro";
 import StatsBar from "../components/StatsBar.astro";
 import { getChannels, getChannelData, getStats, getVideosByType, getMissingSetlists, getSongMeta } from "../lib/data";
-import { slugify } from "../lib/slugify";
 
 export function getStaticPaths() {
   const channels = getChannels();

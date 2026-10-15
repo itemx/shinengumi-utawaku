@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -128,7 +129,7 @@ def main():
         return
 
     if args.validate:
-        return
+        sys.exit(1 if errors else 0)
 
     out = sorted(meta.values(), key=lambda m: (m["title"], m.get("artist", "")))
     META_PATH.write_text(_dumps(out), encoding="utf-8")

@@ -126,10 +126,6 @@ def main():
     output_data = {
         "channelId": channel_id,
         "channelName": ch_info["name"],
-        "generatedAt": __import__("datetime").datetime.now().isoformat(),
-        "totalSearched": len(all_videos),
-        "totalWithSetlist": len(existing),
-        "totalMissing": len(missing_utawaku),
         "missing": missing_utawaku,
     }
 
