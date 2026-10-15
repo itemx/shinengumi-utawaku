@@ -288,7 +288,8 @@ const msgs = Object.fromEntries(
 
       function rowHtml(i, idx) {
         var s = pool[i];
-        return '<li data-i="' + i + '" class="row flex items-center gap-2 px-2.5 py-2 text-sm cursor-pointer hover:bg-primary/5">'
+        return '<li data-i="' + i + '"' + (idx != null ? ' data-qi="' + (idx - 1) + '"' : "")
+          + ' class="row flex items-center gap-2 px-2.5 py-2 text-sm cursor-pointer hover:bg-primary/5">'
           + (idx != null ? '<span class="w-6 shrink-0 text-xs text-text-muted text-right">' + idx + '</span>' : "")
           + '<span class="min-w-0 flex-1">'
           + '<span class="block truncate">' + esc(s.title) + '</span>'
@@ -567,8 +568,9 @@ const msgs = Object.fromEntries(
       });
       $("btn-play-all").addEventListener("click", playFiltered);
 
-      // 曲庫の行 → その 1 曲を今すぐ、続きは同じ絞り込みから
-      $("library").addEventListener("click", function (e) {
+      // 曲庫・キュー共通のクリック処理。
+      // ×N バッジと take 一覧はどちらのリストでも同じように効く
+      function onListClick(e, isQueue) {
         var badge = e.target.closest("[data-takes]");
         if (badge) {
           e.stopPropagation();
@@ -579,7 +581,6 @@ const msgs = Object.fromEntries(
         if (takeBtn) {
           var parts = takeBtn.dataset.take.split("|");
           var pi = parseInt(parts[0], 10);
-          // 選ばれた回だけを再生する。pool の代表は書き換えない
           // 選ばれた回だけのキューにする。expanded に入れておかないと
           // 曲が終わって先頭に戻ったときに代表の回へ化けてしまう
           expanded = [{ i: pi, videoId: parts[1], start: parseInt(parts[2], 10) }];
@@ -590,17 +591,18 @@ const msgs = Object.fromEntries(
         }
         var li = e.target.closest("li[data-i]");
         if (!li) return;
+        if (isQueue) {
+          playAt(parseInt(li.dataset.qi, 10));   // DOM 位置ではなく自前の番号で引く
+          return;
+        }
         var i = parseInt(li.dataset.i, 10);
         var rest = filtered().filter(function (x) { return x !== i; });
         expanded = null;
         queue = [i].concat(shuffleOn ? shuffleInPlace(rest) : rest);
         playAt(0);
-      });
-      $("queue").addEventListener("click", function (e) {
-        var li = e.target.closest("li[data-i]");
-        if (!li) return;
-        playAt([].indexOf.call(li.parentNode.children, li));
-      });
+      }
+      $("library").addEventListener("click", function (e) { onListClick(e, false); });
+      $("queue").addEventListener("click", function (e) { onListClick(e, true); });
 
       $("btn-play").addEventListener("click", function () {
         if (!queue.length) { playFiltered(); return; }
@@ -652,6 +654,7 @@ const msgs = Object.fromEntries(
       loadPool().then(function () {
         renderLibrary();
         renderQueue();
+        loadTakes();   // 配信名の表示にも使うので、裏で取っておく
       }).catch(function () {
         $("library").innerHTML = '<li class="px-3 py-6 text-center text-sm text-primary">'
           + esc(msg("player.load_failed")) + "</li>";
