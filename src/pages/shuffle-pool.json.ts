@@ -5,9 +5,10 @@
  * 前端在按下「全部隨機播放」時才 fetch。
  *
  * 格式為精簡陣列以縮小體積：
- *   [videoId, startSeconds, title, artist, durationSec, date, channelName, tags]
+ *   [videoId, startSeconds, title, artist, durationSec, date, channelName, tags, takeCount]
  *
- * 後半 2 個是 /player 的篩選用。首頁只讀前 6 個，所以追加不影響它。
+ * 後半 3 個是 /player 用（篩選と「他の演唱が何回あるか」）。
+ * 首頁只讀前 6 個，所以追加不影響它。
  *
  * 代表の選び方（2026-09-08 変更）:
  *   以前は「最初に見つけた 1 件」だったが、走査順が channels.json の順なので
@@ -18,7 +19,7 @@
 import type { APIRoute } from "astro";
 import { getChannels, getChannelData, getSongMeta } from "../lib/data";
 
-type Row = [string, number, string, string, number, string, string, string[]];
+type Row = [string, number, string, string, number, string, string, string[], number];
 
 /** djb2。曲ごとに固定の代表を選ぶためだけのもので、暗号用途ではない */
 function hash(s: string): number {
@@ -49,6 +50,7 @@ export const GET: APIRoute = () => {
           v.publishedAt.slice(0, 10),
           ch.name,
           m?.tags ?? [],
+          0,          // 演唱回数。候補を数え終わってから入れる
         ];
         const list = candidates.get(key);
         if (list) list.push(row);
@@ -59,7 +61,9 @@ export const GET: APIRoute = () => {
 
   const out: Row[] = [];
   for (const [key, rows] of candidates) {
-    out.push(rows[hash(key) % rows.length]);
+    const pick = rows[hash(key) % rows.length];
+    pick[8] = rows.length;          // 同じ曲が何回歌われたか
+    out.push(pick);
   }
 
   return new Response(JSON.stringify(out), {

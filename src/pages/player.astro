@@ -29,6 +29,7 @@ const MSG_KEYS = [
   "player.queue_empty",
   "player.songs_unit",
   "player.showing_first",
+  "player.other_takes",
 ] as const;
 const msgs = Object.fromEntries(
   (["zh", "ja"] as const).map((loc) => [
@@ -156,6 +157,10 @@ const msgs = Object.fromEntries(
               class="px-3 py-1.5 rounded-full text-xs font-medium text-white"
               style="background: linear-gradient(135deg, #5e2a89, #e40079);"
               data-i18n="player.play_filtered">隨機播放這些</button>
+            <label class="flex items-center gap-1.5 text-xs text-text-muted cursor-pointer">
+              <input type="checkbox" id="all-takes" class="accent-primary" />
+              <span data-i18n="player.all_takes">包含同曲的所有演唱</span>
+            </label>
             <span id="lib-count" class="text-xs text-text-muted"></span>
           </div>
           <ul id="library" class="divide-y divide-border border border-border rounded-md max-h-[60vh] overflow-y-auto"></ul>
@@ -196,6 +201,12 @@ const msgs = Object.fromEntries(
         var m = Math.floor(sec / 60), s = sec % 60;
         return m + ":" + String(s).padStart(2, "0");
       }
+      /** 配信内の位置。1 時間を超えるので h:mm:ss で出す（fmt は曲の長さ用） */
+      function fmtPos(sec) {
+        sec = Math.max(0, Math.floor(sec || 0));
+        var h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s2 = sec % 60;
+        return (h ? h + ":" + String(m).padStart(2, "0") : m) + ":" + String(s2).padStart(2, "0");
+      }
       function kana(s) {
         return s.replace(/[ァ-ヶ]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 0x60); });
       }
@@ -215,9 +226,30 @@ const msgs = Object.fromEntries(
             return {
               videoId: r[0], start: r[1], title: r[2], artist: r[3],
               dur: r[4] || null, date: r[5], channel: r[6] || "", tags: r[7] || [],
+              takes: r[8] || 1,
             };
           });
         });
+      }
+
+      // ---- 他の演唱（同じ曲の別の回）----
+      // /shuffle-pool.json は 1 曲 1 回しか持たないので、別の回を指定したり
+      // シャッフルで当てたりするための一覧を、使うときだけ取りに行く。
+      var takesData = null, takesLoading = null;
+      function loadTakes() {
+        if (takesData) return Promise.resolve(takesData);
+        if (!takesLoading) {
+          takesLoading = fetch("/performances.json")
+            .then(function (r) { return r.json(); })
+            .then(function (j) { takesData = j; return j; })
+            .catch(function () { takesData = { c: [], s: {} }; return takesData; });
+        }
+        return takesLoading;
+      }
+      function takesOf(i) {
+        var s = pool[i];
+        var list = takesData && takesData.s[s.title + "\t" + s.artist];
+        return list || [];
       }
 
       // ---- filtering ----
@@ -248,6 +280,11 @@ const msgs = Object.fromEntries(
           + '<span class="block truncate">' + esc(s.title) + '</span>'
           + '<span class="block truncate text-xs text-text-muted">' + esc(s.artist) + "</span>"
           + "</span>"
+          + (s.takes > 1
+              ? '<button type="button" data-takes="' + i + '" title="' + esc(msg("player.other_takes")) + '"'
+                + ' class="shrink-0 px-1.5 py-0.5 rounded text-[11px] text-primary border border-primary/40 hover:bg-primary hover:text-white">×'
+                + s.takes + "</button>"
+              : "")
           + '<span class="shrink-0 text-xs text-text-muted tabular-nums">' + (s.dur ? fmt(s.dur) : "—") + "</span>"
           + "</li>";
       }
@@ -258,6 +295,7 @@ const msgs = Object.fromEntries(
       }
 
       function renderLibrary() {
+        closeTakes();
         view = filtered();
         var ul = $("library");
         if (!view.length) {
@@ -268,6 +306,42 @@ const msgs = Object.fromEntries(
         }
         $("lib-count").textContent = view.length + " " + msg("player.songs_unit")
           + (view.length > 300 ? " (" + msg("player.showing_first") + " 300)" : "");
+      }
+
+      /** ×N バッジ → その曲の全演唱を行の下に出す。選ぶとその回を再生する */
+      function toggleTakes(i, li) {
+        var open = li.nextElementSibling && li.nextElementSibling.dataset.takelist === String(i);
+        closeTakes();
+        if (open) return;
+        loadTakes().then(function () {
+          var list = takesOf(i), s = pool[i];
+          var vids = (takesData && takesData.v) || {}, chs = (takesData && takesData.c) || [];
+          // 再生中の回に印を付ける。まだ再生していなければ代表の回を指す
+          var playing = current && current.i === i ? current : { videoId: s.videoId, start: s.start };
+          var html = list.map(function (t) {
+            var info = vids[t[0]] || ["", "", 0];
+            var cur = t[0] === playing.videoId && t[1] === playing.start;
+            return '<button type="button" data-take="' + i + "|" + t[0] + "|" + t[1] + '"'
+              + ' class="w-full flex items-start gap-2 px-2.5 py-1.5 text-xs text-left hover:bg-primary/10'
+              + (cur ? " bg-primary/10" : "") + '">'
+              + '<span class="shrink-0 w-4 text-primary">' + (cur ? "▶" : "") + "</span>"
+              + '<span class="shrink-0 tabular-nums ' + (cur ? "text-primary font-medium" : "text-text-muted") + '">'
+              + esc(info[1]) + "</span>"
+              + '<span class="min-w-0 flex-1">'
+              + '<span class="block truncate ' + (cur ? "text-primary" : "") + '">' + esc(info[0]) + "</span>"
+              + '<span class="block truncate text-[11px] text-text-muted">' + esc(chs[info[2]] || "")
+              + " · " + fmtPos(t[1]) + "</span>"
+              + "</span></button>";
+          }).join("");
+          var wrap = document.createElement("li");
+          wrap.dataset.takelist = String(i);
+          wrap.className = "bg-border/20 border-y border-border divide-y divide-border/60";
+          wrap.innerHTML = html;
+          li.parentNode.insertBefore(wrap, li.nextSibling);
+        });
+      }
+      function closeTakes() {
+        [].forEach.call(document.querySelectorAll("[data-takelist]"), function (el) { el.remove(); });
       }
 
       function renderQueue() {
@@ -330,6 +404,11 @@ const msgs = Object.fromEntries(
         if (n < 0 || n >= queue.length) return;
         qi = n;
         var tr = trackOf(queue[n]);
+        if (expanded && expanded[n]) {          // 全演唱モード：その回の videoId/start を使う
+          tr.videoId = expanded[n].videoId;
+          tr.start = expanded[n].start;
+          tr.end = pool[tr.i].dur ? tr.start + pool[tr.i].dur : null;
+        }
         var s = pool[tr.i];
         loadApi();
         $("art-placeholder").classList.add("hidden");
@@ -352,6 +431,28 @@ const msgs = Object.fromEntries(
         updateNav();
       }
       var current = null;
+
+      /** 同じ曲の「別の回」を再生する。代表（pool）は触らない */
+      function playTake(i, videoId, start) {
+        var s = pool[i];
+        var tr = { videoId: videoId, start: start, end: s.dur ? start + s.dur : null, i: i };
+        loadApi();
+        $("art-placeholder").classList.add("hidden");
+        $("np-title").textContent = s.title;
+        $("np-artist").textContent = s.artist;
+        $("np-date").textContent = "";
+        $("np-total").textContent = s.dur ? fmt(s.dur) : "—";
+        document.title = s.title + " · SEG-V UtaList";
+        current = tr;
+        renderQueue();
+        var go = function () {
+          player.loadVideoById({ videoId: videoId, startSeconds: start });
+          player.setVolume(parseInt($("vol").value, 10));
+        };
+        if (ready && player) go();
+        else { var iv = setInterval(function () { if (ready && player) { clearInterval(iv); go(); } }, 200); }
+        updateNav();
+      }
 
       function advance() {
         if (repeatOn && current) { playAt(qi); return; }
@@ -418,12 +519,33 @@ const msgs = Object.fromEntries(
         return a;
       }
 
+      // 「すべての演唱から」が ON のときは、1 曲 = 1 エントリではなく
+      // その曲が歌われた回ぶんキューに入れる
+      var expanded = null;   // playAt が参照する {poolIndex, videoId, start} の列
+
       function playFiltered() {
         var list = filtered();
         if (!list.length) return;
-        queue = shuffleOn ? shuffleInPlace(list.slice()) : list.slice();
-        playAt(0);
-        showTab("queue");
+        if (!$("all-takes").checked) {
+          expanded = null;
+          queue = shuffleOn ? shuffleInPlace(list.slice()) : list.slice();
+          playAt(0);
+          showTab("queue");
+          return;
+        }
+        loadTakes().then(function () {
+          var ex = [];
+          list.forEach(function (i) {
+            var takes = takesOf(i);
+            if (takes.length) takes.forEach(function (t) { ex.push({ i: i, videoId: t[0], start: t[1] }); });
+            else ex.push({ i: i, videoId: pool[i].videoId, start: pool[i].start });
+          });
+          if (shuffleOn) shuffleInPlace(ex);
+          expanded = ex;
+          queue = ex.map(function (e) { return e.i; });
+          playAt(0);
+          showTab("queue");
+        });
       }
 
       // ---- tabs ----
@@ -455,10 +577,28 @@ const msgs = Object.fromEntries(
 
       // 曲庫の行 → その 1 曲を今すぐ、続きは同じ絞り込みから
       $("library").addEventListener("click", function (e) {
+        var badge = e.target.closest("[data-takes]");
+        if (badge) {
+          e.stopPropagation();
+          toggleTakes(parseInt(badge.dataset.takes, 10), badge.closest("li[data-i]"));
+          return;
+        }
+        var takeBtn = e.target.closest("[data-take]");
+        if (takeBtn) {
+          var parts = takeBtn.dataset.take.split("|");
+          var pi = parseInt(parts[0], 10);
+          // 選ばれた回だけを再生する。pool の代表は書き換えない
+          expanded = null;
+          queue = [pi]; qi = 0;
+          playTake(pi, parts[1], parseInt(parts[2], 10));
+          closeTakes();
+          return;
+        }
         var li = e.target.closest("li[data-i]");
         if (!li) return;
         var i = parseInt(li.dataset.i, 10);
         var rest = filtered().filter(function (x) { return x !== i; });
+        expanded = null;
         queue = [i].concat(shuffleOn ? shuffleInPlace(rest) : rest);
         playAt(0);
       });
