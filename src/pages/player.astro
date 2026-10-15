@@ -616,15 +616,22 @@ const msgs = Object.fromEntries(
       $("btn-prev").addEventListener("click", function () { if (qi > 0) playAt(qi - 1); });
       $("btn-next").addEventListener("click", function () { if (qi + 1 < queue.length) playAt(qi + 1); });
 
+      // ON を bg-primary/10 だけで示していたら薄すぎて押せたか分からなかったので、
+      // ON は塗りつぶし + 白抜き、OFF は灰色にしてはっきり差を付ける
+      function setToggle(id, on, label) {
+        var el = $(id);
+        el.className = "ctl p-2 rounded-full transition-colors "
+          + (on ? "bg-primary text-white shadow-sm" : "text-text-muted hover:text-primary hover:bg-primary/10");
+        el.setAttribute("aria-pressed", on ? "true" : "false");
+        el.title = label + ": " + (on ? "ON" : "OFF");
+      }
       $("btn-shuffle").addEventListener("click", function () {
         shuffleOn = !shuffleOn;
-        $("btn-shuffle").className = "ctl p-2 rounded-full hover:bg-primary/10 "
-          + (shuffleOn ? "text-primary bg-primary/10" : "text-text-muted hover:text-primary");
+        setToggle("btn-shuffle", shuffleOn, "Shuffle");
       });
       $("btn-repeat").addEventListener("click", function () {
         repeatOn = !repeatOn;
-        $("btn-repeat").className = "ctl p-2 rounded-full hover:bg-primary/10 "
-          + (repeatOn ? "text-primary bg-primary/10" : "text-text-muted hover:text-primary");
+        setToggle("btn-repeat", repeatOn, "Repeat");
       });
       $("vol").addEventListener("input", function () {
         if (player && ready) player.setVolume(parseInt($("vol").value, 10));
@@ -644,8 +651,9 @@ const msgs = Object.fromEntries(
 
       window.addEventListener("langchange", function () { renderLibrary(); renderQueue(); });
 
-      // shuffle は既定 ON。見た目を state に合わせる
-      $("btn-shuffle").className = "ctl p-2 rounded-full hover:bg-primary/10 text-primary bg-primary/10";
+      // 初期状態を見た目に反映（shuffle は既定 ON、repeat は OFF）
+      setToggle("btn-shuffle", shuffleOn, "Shuffle");
+      setToggle("btn-repeat", repeatOn, "Repeat");
 
       loadPool().then(function () {
         renderLibrary();
