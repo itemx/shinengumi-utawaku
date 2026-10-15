@@ -331,8 +331,8 @@ const msgs = Object.fromEntries(
         loadTakes().then(function () {
           var list = takesOf(i), s = pool[i];
           var vids = (takesData && takesData.v) || {}, chs = (takesData && takesData.c) || [];
-          // 再生中の回に印を付ける。まだ再生していなければ代表の回を指す
-          var playing = current && current.i === i ? current : { videoId: s.videoId, start: s.start };
+          // 印は「いま鳴っている回」にだけ付ける（代表は内部都合の選択なので出さない）
+          var playing = current && current.i === i ? current : {};
           var html = list.map(function (t) {
             var info = vids[t[0]] || ["", "", 0];
             var cur = t[0] === playing.videoId && t[1] === playing.start;
@@ -516,14 +516,16 @@ const msgs = Object.fromEntries(
       // その曲が歌われた回ぶんキューに入れる
       var expanded = null;   // playAt が参照する {poolIndex, videoId, start} の列
 
-      /** その曲のどの回を鳴らすか。シャッフル ON なら毎回ランダムに選ぶ
-       *  （代表はハッシュ固定なので、そのままだと何度押しても同じ演唱になる） */
+      /** その曲のどの回を鳴らすか。
+       *  シャッフル ON → ランダム、OFF → 最新の回。
+       *  shuffle-pool の「代表」はハッシュで決めた内部都合の選択で、
+       *  利用者から見て意味のある回ではないので再生には使わない。 */
       function pickTake(i) {
         var takes = takesOf(i);
-        if (!shuffleOn || takes.length < 2) {
-          return { i: i, videoId: pool[i].videoId, start: pool[i].start };
-        }
-        var t = takes[Math.floor(Math.random() * takes.length)];
+        if (!takes.length) return { i: i, videoId: pool[i].videoId, start: pool[i].start };
+        var t = shuffleOn
+          ? takes[Math.floor(Math.random() * takes.length)]
+          : takes[takes.length - 1];        // performances.json は古い順
         return { i: i, videoId: t[0], start: t[1] };
       }
 
