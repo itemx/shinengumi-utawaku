@@ -66,6 +66,8 @@ const msgs = Object.fromEntries(
             <span id="np-artist"></span>
             <span id="np-date" class="text-xs"></span>
           </p>
+          <!-- どの配信の演唱かを出す。日付とチャンネルだけでは区別が付かないため -->
+          <p id="np-video" class="text-[11px] text-text-muted truncate"></p>
         </div>
 
         <!-- 進捗 -->
@@ -246,6 +248,18 @@ const msgs = Object.fromEntries(
         }
         return takesLoading;
       }
+      /** その回の配信情報（日付・タイトル）。performances.json を読んでいれば引ける */
+      function videoInfo(videoId) {
+        return (takesData && takesData.v && takesData.v[videoId]) || null;
+      }
+      /** now playing の「どの回か」の行を更新する */
+      function showTake(videoId, fallbackDate) {
+        var info = videoInfo(videoId);
+        var date = info ? info[1] : fallbackDate;
+        $("np-date").textContent = date ? " · " + date : "";
+        $("np-video").textContent = info ? info[0] : "";
+        $("np-video").title = info ? info[0] : "";
+      }
       function takesOf(i) {
         var s = pool[i];
         var list = takesData && takesData.s[s.title + "\t" + s.artist];
@@ -414,7 +428,7 @@ const msgs = Object.fromEntries(
         $("art-placeholder").classList.add("hidden");
         $("np-title").textContent = s.title;
         $("np-artist").textContent = s.artist;
-        $("np-date").textContent = s.date ? " · " + s.date : "";
+        showTake(tr.videoId, s.date);
         $("np-total").textContent = s.dur ? fmt(s.dur) : "—";
         document.title = s.title + " · SEG-V UtaList";
         renderQueue();
@@ -431,28 +445,6 @@ const msgs = Object.fromEntries(
         updateNav();
       }
       var current = null;
-
-      /** 同じ曲の「別の回」を再生する。代表（pool）は触らない */
-      function playTake(i, videoId, start) {
-        var s = pool[i];
-        var tr = { videoId: videoId, start: start, end: s.dur ? start + s.dur : null, i: i };
-        loadApi();
-        $("art-placeholder").classList.add("hidden");
-        $("np-title").textContent = s.title;
-        $("np-artist").textContent = s.artist;
-        $("np-date").textContent = "";
-        $("np-total").textContent = s.dur ? fmt(s.dur) : "—";
-        document.title = s.title + " · SEG-V UtaList";
-        current = tr;
-        renderQueue();
-        var go = function () {
-          player.loadVideoById({ videoId: videoId, startSeconds: start });
-          player.setVolume(parseInt($("vol").value, 10));
-        };
-        if (ready && player) go();
-        else { var iv = setInterval(function () { if (ready && player) { clearInterval(iv); go(); } }, 200); }
-        updateNav();
-      }
 
       function advance() {
         if (repeatOn && current) { playAt(qi); return; }
@@ -588,9 +580,11 @@ const msgs = Object.fromEntries(
           var parts = takeBtn.dataset.take.split("|");
           var pi = parseInt(parts[0], 10);
           // 選ばれた回だけを再生する。pool の代表は書き換えない
-          expanded = null;
-          queue = [pi]; qi = 0;
-          playTake(pi, parts[1], parseInt(parts[2], 10));
+          // 選ばれた回だけのキューにする。expanded に入れておかないと
+          // 曲が終わって先頭に戻ったときに代表の回へ化けてしまう
+          expanded = [{ i: pi, videoId: parts[1], start: parseInt(parts[2], 10) }];
+          queue = [pi];
+          playAt(0);
           closeTakes();
           return;
         }
