@@ -478,9 +478,17 @@ for (const ch of channels) {
   progressTrack.addEventListener("click", function(e) {
     if (!player || !isReady) return;
     var rect = progressTrack.getBoundingClientRect();
-    var pct = (e.clientX - rect.left) / rect.width;
-    var duration = player.getDuration() || 0;
-    player.seekTo(pct * duration, true);
+    var pct = Math.min(Math.max((e.clientX - rect.left) / rect.width, 0), 1);
+
+    // 進度條畫的是「這首歌」的片段（見 startProgress），所以跳轉也要用同一套座標。
+    // 用整部影片的長度換算會跳到完全無關的位置。
+    var segStart = currentTrack ? currentTrack.start : 0;
+    var segEnd = currentTrack ? currentTrack.end : null;
+    if (segEnd && segEnd > segStart) {
+      player.seekTo(segStart + (segEnd - segStart) * pct, true);
+    } else {
+      player.seekTo(pct * (player.getDuration() || 0), true);
+    }
   });
 
   // --- Button events ---
