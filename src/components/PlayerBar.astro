@@ -458,8 +458,11 @@ for (const ch of channels) {
     });
     for (var i = 0; i < queue.length; i++) {
       var cur = queue[i], nxt = queue[i + 1];
+      // 以「歌曲長度」與「下一首開始」兩者較早者為結束點。
+      // 只看下一首時間軸的話，歌後有長串雜談時進度條會顯示離譜的長度
+      // （例：221 秒的歌顯示成 64 分鐘），自動跳下一首也要空等那段。
       if (nxt && nxt.videoId === cur.videoId && nxt.start > cur.start) {
-        cur.end = nxt.start;              // 同影片：下一首開始即本首結束
+        cur.end = cur.dur ? Math.min(nxt.start, cur.start + cur.dur) : nxt.start;
       } else if (cur.dur) {
         cur.end = cur.start + cur.dur;    // 跨影片/最後一首：用歌曲長度
       }

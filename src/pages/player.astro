@@ -493,8 +493,13 @@ const msgs = Object.fromEntries(
         if (!player || !ready || !current) return;
         var r = $("np-track").getBoundingClientRect();
         var ratio = Math.min(Math.max((e.clientX - r.left) / r.width, 0), 1);
-        var len = current.end && current.end > current.start ? current.end - current.start : (player.getDuration() || 0);
-        player.seekTo(current.start + len * ratio, true);
+        if (current.end && current.end > current.start) {
+          player.seekTo(current.start + (current.end - current.start) * ratio, true);
+        } else {
+          // 終点が不明なときは startTick 側も動画全体で描いているので、同じ座標で飛ぶ。
+          // start を足すと動画の終端を飛び越えてしまう
+          player.seekTo((player.getDuration() || 0) * ratio, true);
+        }
       });
 
       window.addEventListener("langchange", function () { renderLibrary(); renderQueue(); });
