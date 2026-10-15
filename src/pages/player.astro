@@ -28,6 +28,7 @@ const MSG_KEYS = [
   "player.load_failed",
   "player.queue_empty",
   "player.songs_unit",
+  "player.perfs_unit",
   "player.showing_first",
   "player.other_takes",
 ] as const;
@@ -154,11 +155,17 @@ const msgs = Object.fromEntries(
                 data-tag={t} data-i18n={`tag.${t}`}>{t}</button>
             ))}
           </div>
-          <div class="flex items-center gap-2 mb-2">
+          <div class="flex flex-wrap items-center gap-2 mb-2">
+            <!-- 1 行の単位。曲目 = 1 曲 1 行（最新の回）、演唱 = 1 回 1 行。
+                 見えている一覧がそのままキューになり、シャッフルは順番を変えるだけ -->
+            <div class="inline-flex rounded-full border border-border p-0.5 text-xs" role="group">
+              <button data-mode="songs" class="mode px-3 py-1 rounded-full" data-i18n="player.mode_songs">曲目</button>
+              <button data-mode="perfs" class="mode px-3 py-1 rounded-full" data-i18n="player.mode_perfs">演唱</button>
+            </div>
             <button id="btn-play-all"
               class="px-3 py-1.5 rounded-full text-xs font-medium text-white"
               style="background: linear-gradient(135deg, #5e2a89, #e40079);"
-              data-i18n="player.play_filtered">隨機播放這些</button>
+              data-i18n="player.play_filtered">播放這些</button>
             <span id="lib-count" class="text-xs text-text-muted"></span>
           </div>
           <ul id="library" class="divide-y divide-border border border-border rounded-md max-h-[60vh] overflow-y-auto"></ul>
@@ -168,7 +175,7 @@ const msgs = Object.fromEntries(
         <div id="pane-queue" class="hidden">
           <ol id="queue" class="divide-y divide-border border border-border rounded-md max-h-[70vh] overflow-y-auto"></ol>
           <p id="queue-hint" class="hidden text-xs text-text-muted mt-2" data-i18n="player.queue_empty">
-            佇列是空的。到「曲庫」挑歌或按「隨機播放這些」。
+            佇列是空的。到「曲庫」挑歌或按「播放這些」。
           </p>
         </div>
       </section>
@@ -178,10 +185,13 @@ const msgs = Object.fromEntries(
   <script is:inline define:vars={{ msgs, songCount }}>
     (function () {
       // ---- state ----
-      var pool = [];          // {videoId,start,title,artist,dur,date,channel,tags}
-      var view = [];          // 現在の絞り込み結果（pool の index）
-      var queue = [];         // pool の index 列
+      var pool = [];          // {title,artist,dur,tags,takes}（1 曲 1 行）
+      // 一覧もキューも「演唱」 {i: pool index, videoId, start} の列で持つ。
+      // 曲目表示でも中身は「その曲の最新の回」なので、見えている行 = 鳴る回になる
+      var view = [];          // 現在の絞り込み結果
+      var queue = [];
       var qi = -1;            // queue 内の現在位置
+      var mode = "songs";     // "songs" = 1 曲 1 行 / "perfs" = 1 回 1 行
       var player = null, ready = false, playing = false;
       var timer = null, wakeLock = null;
       var shuffleOn = true, repeatOn = false;
@@ -212,10 +222,6 @@ const msgs = Object.fromEntries(
       // 日本語の濁点・半濁点は U+3099/309A でこの範囲外なので、が→か にはならない
       function deaccent(s) { return s.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
       function norm(s) { return deaccent(kana((s || "").toLowerCase())); }
-      function trackOf(i) {
-        var s = pool[i];
-        return { videoId: s.videoId, start: s.start, end: s.dur ? s.start + s.dur : null, i: i };
-      }
 
       // ---- pool ----
       function loadPool() {
@@ -249,9 +255,9 @@ const msgs = Object.fromEntries(
         return (takesData && takesData.v && takesData.v[videoId]) || null;
       }
       /** now playing の「どの回か」の行を更新する */
-      function showTake(videoId, fallbackDate) {
+      function showTake(videoId) {
         var info = videoInfo(videoId);
-        var date = info ? info[1] : fallbackDate;
+        var date = info ? info[1] : "";
         $("np-date").textContent = date ? " · " + date : "";
         $("np-video").textContent = info ? info[0] : "";
         $("np-video").title = info ? info[0] : "";
@@ -259,17 +265,23 @@ const msgs = Object.fromEntries(
       function takesOf(i) {
         var s = pool[i];
         var list = takesData && takesData.s[s.title + "\t" + s.artist];
-        return list || [];
+        return list || [[s.videoId, s.start]];   // performances.json が取れなかったときは代表で代用
       }
 
       // ---- filtering ----
+      function entry(i, t) { return { i: i, videoId: t[0], start: t[1] }; }
+      function chOf(videoId) {
+        var info = videoInfo(videoId);
+        return info ? takesData.c[info[2]] || "" : "";
+      }
+      /** 見えている一覧。曲目 → 各曲の最新の回、演唱 → 全部の回（新しい配信順）。
+       *  頻道の絞り込みは回ごとに判定する（曲目なら「その頻道で歌った最新の回」） */
       function filtered() {
         var kw = norm($("q").value.trim());
         var ch = $("ch").value;
         var out = [];
         for (var i = 0; i < pool.length; i++) {
           var s = pool[i];
-          if (ch && s.channel !== ch) continue;
           if (activeTags.size) {
             // OR 判定（plan と同じ挙動）
             var hit = false;
@@ -277,22 +289,38 @@ const msgs = Object.fromEntries(
             if (!hit) continue;
           }
           if (kw && norm(s.title).indexOf(kw) < 0 && norm(s.artist).indexOf(kw) < 0) continue;
-          out.push(i);
+          var takes = takesOf(i);
+          if (ch) takes = takes.filter(function (t) { return chOf(t[0]) === ch; });
+          if (!takes.length) continue;
+          if (mode === "songs") out.push(entry(i, takes[takes.length - 1]));   // 古い順なので末尾が最新
+          else takes.forEach(function (t) { out.push(entry(i, t)); });
+        }
+        if (mode === "perfs") {
+          // 新しい配信から。同じ配信の中はセトリ順
+          out.sort(function (a, b) {
+            var da = (videoInfo(a.videoId) || "  ")[1], db = (videoInfo(b.videoId) || "  ")[1];
+            return da < db ? 1 : da > db ? -1 : a.videoId < b.videoId ? -1 : a.videoId > b.videoId ? 1 : a.start - b.start;
+          });
         }
         return out;
       }
 
-      function rowHtml(i, idx) {
-        var s = pool[i];
-        return '<li data-i="' + i + '"' + (idx != null ? ' data-qi="' + (idx - 1) + '"' : "")
-          + ' class="row flex items-center gap-2 px-2.5 py-2 text-sm cursor-pointer hover:bg-primary/5">'
-          + (idx != null ? '<span class="w-6 shrink-0 text-xs text-text-muted text-right">' + idx + '</span>' : "")
+      /** detail = その回の日付・配信名も出す（演唱表示とキュー） */
+      function rowHtml(e, attr, num, detail) {
+        var s = pool[e.i];
+        var sub = esc(s.artist);
+        if (detail) {
+          var info = videoInfo(e.videoId) || ["", ""];
+          sub = '<span class="tabular-nums">' + esc(info[1]) + "</span> · " + esc(info[0]) + " · " + esc(s.artist);
+        }
+        return "<li " + attr + ' class="row flex items-center gap-2 px-2.5 py-2 text-sm cursor-pointer hover:bg-primary/5">'
+          + (num != null ? '<span class="w-6 shrink-0 text-xs text-text-muted text-right">' + num + '</span>' : "")
           + '<span class="min-w-0 flex-1">'
           + '<span class="block truncate">' + esc(s.title) + '</span>'
-          + '<span class="block truncate text-xs text-text-muted">' + esc(s.artist) + "</span>"
+          + '<span class="block truncate text-xs text-text-muted">' + sub + "</span>"
           + "</span>"
-          + (s.takes > 1
-              ? '<button type="button" data-takes="' + i + '" title="' + esc(msg("player.other_takes")) + '"'
+          + (!detail && s.takes > 1
+              ? '<button type="button" data-takes="' + e.i + '" title="' + esc(msg("player.other_takes")) + '"'
                 + ' class="shrink-0 px-1.5 py-0.5 rounded text-[11px] text-primary border border-primary/40 hover:bg-primary hover:text-white">×'
                 + s.takes + "</button>"
               : "")
@@ -313,9 +341,11 @@ const msgs = Object.fromEntries(
           ul.innerHTML = '<li class="px-3 py-6 text-center text-sm text-text-muted">' + esc(msg("player.empty_result")) + "</li>";
         } else {
           // 1500 件を一度に描くと重いので先頭 300 件だけ
-          ul.innerHTML = view.slice(0, 300).map(function (i) { return rowHtml(i, null); }).join("");
+          ul.innerHTML = view.slice(0, 300).map(function (e, k) {
+            return rowHtml(e, 'data-i="' + e.i + '" data-k="' + k + '"', null, mode === "perfs");
+          }).join("");
         }
-        $("lib-count").textContent = view.length + " " + msg("player.songs_unit")
+        $("lib-count").textContent = view.length + " " + msg(mode === "songs" ? "player.songs_unit" : "player.perfs_unit")
           + (view.length > 300 ? " (" + msg("player.showing_first") + " 300)" : "");
       }
 
@@ -328,7 +358,7 @@ const msgs = Object.fromEntries(
           var list = takesOf(i), s = pool[i];
           var vids = (takesData && takesData.v) || {}, chs = (takesData && takesData.c) || [];
           // 印は「いま鳴っている回」にだけ付ける（代表は内部都合の選択なので出さない）
-          var playing = current && current.i === i ? current : {};
+          var playing = current || {};
           var html = list.map(function (t) {
             var info = vids[t[0]] || ["", "", 0];
             var cur = t[0] === playing.videoId && t[1] === playing.start;
@@ -357,11 +387,13 @@ const msgs = Object.fromEntries(
 
       function renderQueue() {
         var ol = $("queue");
-        ol.innerHTML = queue.map(function (i, n) { return rowHtml(i, n + 1); }).join("");
+        ol.innerHTML = queue.map(function (e, n) {
+          return rowHtml(e, 'data-i="' + e.i + '" data-qi="' + n + '"', n + 1, true);
+        }).join("");
         [].forEach.call(ol.children, function (li, n) {
           if (n === qi) li.className += " bg-primary/10 font-medium";
         });
-        $("queue-count").textContent = queue.length ? queue.length + " " + msg("player.songs_unit") : "";
+        $("queue-count").textContent = queue.length ? queue.length + " " + msg("player.perfs_unit") : "";
         $("queue-hint").classList.toggle("hidden", queue.length > 0);
       }
 
@@ -414,18 +446,13 @@ const msgs = Object.fromEntries(
       function playAt(n) {
         if (n < 0 || n >= queue.length) return;
         qi = n;
-        var tr = trackOf(queue[n]);
-        if (expanded && expanded[n]) {          // 全演唱モード：その回の videoId/start を使う
-          tr.videoId = expanded[n].videoId;
-          tr.start = expanded[n].start;
-          tr.end = pool[tr.i].dur ? tr.start + pool[tr.i].dur : null;
-        }
-        var s = pool[tr.i];
+        var e = queue[n], s = pool[e.i];
+        var tr = { i: e.i, videoId: e.videoId, start: e.start, end: s.dur ? e.start + s.dur : null };
         loadApi();
         $("art-placeholder").classList.add("hidden");
         $("np-title").textContent = s.title;
         $("np-artist").textContent = s.artist;
-        showTake(tr.videoId, s.date);
+        showTake(tr.videoId);
         $("np-total").textContent = s.dur ? fmt(s.dur) : "—";
         document.title = s.title + " · SEG-V UtaList";
         renderQueue();
@@ -508,58 +535,23 @@ const msgs = Object.fromEntries(
         return a;
       }
 
-      // キューの各エントリが「どの回か」。queue と同じ長さで並ぶ
-      var expanded = null;   // playAt が参照する {poolIndex, videoId, start} の列
-
-      /** その曲のどの回を鳴らすか。
-       *  シャッフル ON → ランダム、OFF → 最新の回。
-       *  shuffle-pool の「代表」はハッシュで決めた内部都合の選択で、
-       *  利用者から見て意味のある回ではないので再生には使わない。 */
-      function pickTake(i) {
-        var takes = takesOf(i);
-        if (!takes.length) return { i: i, videoId: pool[i].videoId, start: pool[i].start };
-        var t = shuffleOn
-          ? takes[Math.floor(Math.random() * takes.length)]
-          : takes[takes.length - 1];        // performances.json は古い順
-        return { i: i, videoId: t[0], start: t[1] };
-      }
-
-      /** 曲のリストからキューを作る。首頁の「全部隨機播放」と同じ考え方:
-       *  シャッフル ON → 演唱単位。同じ曲でも日付が違えば別の 1 曲として混ぜる。
-       *  シャッフル OFF → リストの順に 1 曲 1 回、各曲は最新の回。
-       *  （OFF で全演唱を並べると、同じ曲が数十回続けて流れてしまう）
-       *  first を渡すと、その曲を先頭に置く（曲名クリック用）。 */
-      function buildQueue(list, first) {
-        var head = first != null ? pickTake(first) : null;
-        var ex;
-        if (shuffleOn) {
-          // 演唱単位。クリックした曲の「他の日付の回」も別の 1 曲として残す
-          ex = [];
-          list.forEach(function (i) {
-            var takes = takesOf(i);
-            if (!takes.length) takes = [[pool[i].videoId, pool[i].start]];
-            takes.forEach(function (t) {
-              if (head && i === head.i && t[0] === head.videoId && t[1] === head.start) return;
-              ex.push({ i: i, videoId: t[0], start: t[1] });
-            });
-          });
-          shuffleInPlace(ex);
-        } else {
-          ex = list.filter(function (i) { return i !== first; }).map(pickTake);
-        }
-        if (head) ex.unshift(head);
-        expanded = ex;
-        queue = ex.map(function (e) { return e.i; });
-      }
-
-      function playFiltered() {
-        var list = filtered();
+      /** 見えている一覧をそのままキューにする。シャッフルは順番を変えるだけで、
+       *  曲目 / 演唱の単位はいじらない。first = 一覧上の位置（そこから / それを先頭に） */
+      function playList(list, first) {
         if (!list.length) return;
-        loadTakes().then(function () {
-          buildQueue(list, null);
+        if (shuffleOn) {
+          var rest = list.slice();
+          var head = first != null ? rest.splice(first, 1) : [];
+          queue = head.concat(shuffleInPlace(rest));
           playAt(0);
-          showTab("queue");
-        });
+        } else {
+          queue = list.slice();
+          playAt(first || 0);
+        }
+      }
+      function playFiltered() {
+        playList(view, null);
+        showTab("queue");
       }
 
       // ---- tabs ----
@@ -588,6 +580,17 @@ const msgs = Object.fromEntries(
         b.addEventListener("click", function () { showTab(b.dataset.tab); });
       });
       $("btn-play-all").addEventListener("click", playFiltered);
+      function setMode(m) {
+        mode = m;
+        [].forEach.call(document.querySelectorAll(".mode"), function (b) {
+          var on = b.dataset.mode === m;
+          b.className = "mode px-3 py-1 rounded-full " + (on ? "bg-primary text-white" : "text-text-muted hover:text-text");
+          b.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+      }
+      [].forEach.call(document.querySelectorAll(".mode"), function (b) {
+        b.addEventListener("click", function () { setMode(b.dataset.mode); renderLibrary(); });
+      });
 
       // 曲庫・キュー共通のクリック処理。
       // ×N バッジと take 一覧はどちらのリストでも同じように効く
@@ -602,10 +605,8 @@ const msgs = Object.fromEntries(
         if (takeBtn) {
           var parts = takeBtn.dataset.take.split("|");
           var pi = parseInt(parts[0], 10);
-          // 選ばれた回だけのキューにする。expanded に入れておかないと
-          // 曲が終わって先頭に戻ったときに代表の回へ化けてしまう
-          expanded = [{ i: pi, videoId: parts[1], start: parseInt(parts[2], 10) }];
-          queue = [pi];
+          // 選ばれた回だけのキューにする
+          queue = [{ i: pi, videoId: parts[1], start: parseInt(parts[2], 10) }];
           playAt(0);
           closeTakes();
           return;
@@ -616,11 +617,7 @@ const msgs = Object.fromEntries(
           playAt(parseInt(li.dataset.qi, 10));   // DOM 位置ではなく自前の番号で引く
           return;
         }
-        var i = parseInt(li.dataset.i, 10);
-        loadTakes().then(function () {
-          buildQueue(filtered(), i);
-          playAt(0);
-        });
+        playList(view, parseInt(li.dataset.k, 10));
       }
       $("library").addEventListener("click", function (e) { onListClick(e, false); });
       $("queue").addEventListener("click", function (e) { onListClick(e, true); });
@@ -672,10 +669,11 @@ const msgs = Object.fromEntries(
       setToggle("btn-shuffle", shuffleOn, "Shuffle");
       setToggle("btn-repeat", repeatOn, "Repeat");
 
-      loadPool().then(function () {
+      setMode(mode);
+      // 一覧の各行が「どの回か」を持つので、performances.json も揃ってから描く
+      Promise.all([loadPool(), loadTakes()]).then(function () {
         renderLibrary();
         renderQueue();
-        loadTakes();   // 配信名の表示にも使うので、裏で取っておく
       }).catch(function () {
         $("library").innerHTML = '<li class="px-3 py-6 text-center text-sm text-primary">'
           + esc(msg("player.load_failed")) + "</li>";

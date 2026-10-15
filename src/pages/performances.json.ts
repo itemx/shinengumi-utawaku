@@ -14,7 +14,8 @@
  *     "v": { videoId: [配信タイトル, "YYYY-MM-DD", チャンネル番号] },
  *     "s": { "曲名\t歌手": [[videoId, startSeconds], ...] } }
  *
- * 2 回以上歌われた曲だけを載せる（1 回だけの曲は shuffle-pool で足りる）。
+ * 1 回だけの曲も載せる。/player の「演唱」表示は全演唱を 1 行ずつ並べるので、
+ * どの回にも配信タイトルと日付が要る。
  */
 import type { APIRoute } from "astro";
 import { getChannels, getChannelData } from "../lib/data";
@@ -43,17 +44,13 @@ export const GET: APIRoute = () => {
   });
 
   const songs: Record<string, Take[]> = {};
-  const used = new Set<string>();
   for (const [key, list] of takes) {
-    if (list.length < 2) continue;
     list.sort((a, b) => {
       const da = videos[a[0]][1], db = videos[b[0]][1];
       return da < db ? -1 : da > db ? 1 : a[1] - b[1];   // 古い順
     });
     songs[key] = list;
-    for (const t of list) used.add(t[0]);
   }
-  for (const id of Object.keys(videos)) if (!used.has(id)) delete videos[id];
 
   return new Response(
     JSON.stringify({ c: channels.map((c) => c.name), v: videos, s: songs }),
