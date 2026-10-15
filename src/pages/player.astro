@@ -516,14 +516,27 @@ const msgs = Object.fromEntries(
       // その曲が歌われた回ぶんキューに入れる
       var expanded = null;   // playAt が参照する {poolIndex, videoId, start} の列
 
+      /** その曲のどの回を鳴らすか。シャッフル ON なら毎回ランダムに選ぶ
+       *  （代表はハッシュ固定なので、そのままだと何度押しても同じ演唱になる） */
+      function pickTake(i) {
+        var takes = takesOf(i);
+        if (!shuffleOn || takes.length < 2) {
+          return { i: i, videoId: pool[i].videoId, start: pool[i].start };
+        }
+        var t = takes[Math.floor(Math.random() * takes.length)];
+        return { i: i, videoId: t[0], start: t[1] };
+      }
+
       function playFiltered() {
         var list = filtered();
         if (!list.length) return;
         if (!$("all-takes").checked) {
-          expanded = null;
-          queue = shuffleOn ? shuffleInPlace(list.slice()) : list.slice();
-          playAt(0);
-          showTab("queue");
+          loadTakes().then(function () {
+            queue = shuffleOn ? shuffleInPlace(list.slice()) : list.slice();
+            expanded = queue.map(pickTake);
+            playAt(0);
+            showTab("queue");
+          });
           return;
         }
         loadTakes().then(function () {
@@ -597,9 +610,11 @@ const msgs = Object.fromEntries(
         }
         var i = parseInt(li.dataset.i, 10);
         var rest = filtered().filter(function (x) { return x !== i; });
-        expanded = null;
-        queue = [i].concat(shuffleOn ? shuffleInPlace(rest) : rest);
-        playAt(0);
+        loadTakes().then(function () {
+          queue = [i].concat(shuffleOn ? shuffleInPlace(rest) : rest);
+          expanded = queue.map(pickTake);
+          playAt(0);
+        });
       }
       $("library").addEventListener("click", function (e) { onListClick(e, false); });
       $("queue").addEventListener("click", function (e) { onListClick(e, true); });
