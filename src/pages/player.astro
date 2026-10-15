@@ -159,10 +159,6 @@ const msgs = Object.fromEntries(
               class="px-3 py-1.5 rounded-full text-xs font-medium text-white"
               style="background: linear-gradient(135deg, #5e2a89, #e40079);"
               data-i18n="player.play_filtered">隨機播放這些</button>
-            <label class="flex items-center gap-1.5 text-xs text-text-muted cursor-pointer">
-              <input type="checkbox" id="all-takes" class="accent-primary" />
-              <span data-i18n="player.all_takes">包含同曲的所有演唱</span>
-            </label>
             <span id="lib-count" class="text-xs text-text-muted"></span>
           </div>
           <ul id="library" class="divide-y divide-border border border-border rounded-md max-h-[60vh] overflow-y-auto"></ul>
@@ -512,8 +508,7 @@ const msgs = Object.fromEntries(
         return a;
       }
 
-      // 「すべての演唱から」が ON のときは、1 曲 = 1 エントリではなく
-      // その曲が歌われた回ぶんキューに入れる
+      // キューの各エントリが「どの回か」。queue と同じ長さで並ぶ
       var expanded = null;   // playAt が参照する {poolIndex, videoId, start} の列
 
       /** その曲のどの回を鳴らすか。
@@ -529,28 +524,39 @@ const msgs = Object.fromEntries(
         return { i: i, videoId: t[0], start: t[1] };
       }
 
+      /** 曲のリストからキューを作る。首頁の「全部隨機播放」と同じ考え方:
+       *  シャッフル ON → 演唱単位。同じ曲でも日付が違えば別の 1 曲として混ぜる。
+       *  シャッフル OFF → リストの順に 1 曲 1 回、各曲は最新の回。
+       *  （OFF で全演唱を並べると、同じ曲が数十回続けて流れてしまう）
+       *  first を渡すと、その曲を先頭に置く（曲名クリック用）。 */
+      function buildQueue(list, first) {
+        var head = first != null ? pickTake(first) : null;
+        var ex;
+        if (shuffleOn) {
+          // 演唱単位。クリックした曲の「他の日付の回」も別の 1 曲として残す
+          ex = [];
+          list.forEach(function (i) {
+            var takes = takesOf(i);
+            if (!takes.length) takes = [[pool[i].videoId, pool[i].start]];
+            takes.forEach(function (t) {
+              if (head && i === head.i && t[0] === head.videoId && t[1] === head.start) return;
+              ex.push({ i: i, videoId: t[0], start: t[1] });
+            });
+          });
+          shuffleInPlace(ex);
+        } else {
+          ex = list.filter(function (i) { return i !== first; }).map(pickTake);
+        }
+        if (head) ex.unshift(head);
+        expanded = ex;
+        queue = ex.map(function (e) { return e.i; });
+      }
+
       function playFiltered() {
         var list = filtered();
         if (!list.length) return;
-        if (!$("all-takes").checked) {
-          loadTakes().then(function () {
-            queue = shuffleOn ? shuffleInPlace(list.slice()) : list.slice();
-            expanded = queue.map(pickTake);
-            playAt(0);
-            showTab("queue");
-          });
-          return;
-        }
         loadTakes().then(function () {
-          var ex = [];
-          list.forEach(function (i) {
-            var takes = takesOf(i);
-            if (takes.length) takes.forEach(function (t) { ex.push({ i: i, videoId: t[0], start: t[1] }); });
-            else ex.push({ i: i, videoId: pool[i].videoId, start: pool[i].start });
-          });
-          if (shuffleOn) shuffleInPlace(ex);
-          expanded = ex;
-          queue = ex.map(function (e) { return e.i; });
+          buildQueue(list, null);
           playAt(0);
           showTab("queue");
         });
@@ -611,10 +617,8 @@ const msgs = Object.fromEntries(
           return;
         }
         var i = parseInt(li.dataset.i, 10);
-        var rest = filtered().filter(function (x) { return x !== i; });
         loadTakes().then(function () {
-          queue = [i].concat(shuffleOn ? shuffleInPlace(rest) : rest);
-          expanded = queue.map(pickTake);
+          buildQueue(filtered(), i);
           playAt(0);
         });
       }
