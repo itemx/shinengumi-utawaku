@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-10-14T02:16:26.672253+00:00",
+  "lastFetched": "2026-10-16T16:14:21.351670+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -1345,7 +1345,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "S0HTnJrb0cA",
@@ -5098,7 +5099,8 @@
         }
       ],
       "sourceCommentId": "issue#18",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "tt98htnrlg4",
@@ -5377,7 +5379,8 @@
         }
       ],
       "sourceCommentId": "issue#19",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "NgJIqquCM4Q",
@@ -6343,7 +6346,8 @@
         }
       ],
       "sourceCommentId": "issue#23",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "JzPmUsXCcno",
@@ -6667,7 +6671,8 @@
         }
       ],
       "sourceCommentId": "issue#24",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "1bO8zFLMVNc",
@@ -6928,7 +6933,8 @@
         }
       ],
       "sourceCommentId": "issue#25",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "du4a0RXLAPs",
@@ -8543,7 +8549,8 @@
         }
       ],
       "sourceCommentId": "issue#35",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "XhYhpKWA2f0",
@@ -8759,7 +8766,8 @@
         }
       ],
       "sourceCommentId": "issue#36",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "Zzgr7Gg5pgI",
@@ -8993,7 +9001,8 @@
         }
       ],
       "sourceCommentId": "issue#37",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "kVt8aQVEsYU",
@@ -9643,7 +9652,8 @@
         }
       ],
       "sourceCommentId": "issue#41",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "LuCIrVyXVZk",
@@ -10582,7 +10592,8 @@
         }
       ],
       "sourceCommentId": "issue#46",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "0bUz-OT3KsU",
@@ -11979,7 +11990,8 @@
         }
       ],
       "sourceCommentId": "issue#53",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "_k84hZa35fc",
@@ -14428,7 +14440,8 @@
         }
       ],
       "sourceCommentId": "issue#64",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "vhXeGUbTVFs",
@@ -18004,7 +18017,8 @@
         }
       ],
       "sourceCommentId": "issue#86",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "gwrM_yfWoQA",
@@ -18175,7 +18189,8 @@
         }
       ],
       "sourceCommentId": "issue#85",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "xGzlVo6BvHw",
@@ -18310,7 +18325,8 @@
         }
       ],
       "sourceCommentId": "issue#84",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "_fCTEEfALZQ",
@@ -18436,7 +18452,8 @@
         }
       ],
       "sourceCommentId": "issue#83",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "VZk4ibizrrk",
@@ -18499,7 +18516,8 @@
         }
       ],
       "sourceCommentId": "issue#82",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "XptU8d5XwCk",
@@ -18616,7 +18634,8 @@
         }
       ],
       "sourceCommentId": "issue#81",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "CwL8Ml__2JM",
@@ -18769,7 +18788,8 @@
         }
       ],
       "sourceCommentId": "issue#80",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "WZMJTbG5Mhk",
@@ -22890,6 +22910,14 @@
         }
       ],
       "sourceCommentId": "issue#137",
+      "type": "stream"
+    },
+    {
+      "videoId": "Tbe2PMwYnQ8",
+      "title": "アイロニーナ/煮ル果実 #shorts #歌ってみた #cover",
+      "publishedAt": "2026-10-16T09:33:42Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]

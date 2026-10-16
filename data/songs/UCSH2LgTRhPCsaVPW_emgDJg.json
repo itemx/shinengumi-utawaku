@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-10-13T18:59:25.324206+00:00",
+  "lastFetched": "2026-10-16T16:14:20.697066+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -39490,7 +39490,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "I7myptnfwnw",
@@ -39760,7 +39761,8 @@
         }
       ],
       "sourceCommentId": "issue#71",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "yCrYlYL_di8",
@@ -42731,7 +42733,8 @@
         }
       ],
       "sourceCommentId": "issue#108",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "rYS57RJEdT0",
@@ -45392,6 +45395,375 @@
           "artist": "n-buna",
           "artistRaw": "n-buna feat. 初音ミク",
           "url": "https://youtu.be/Zrm5T10rMMU?t=10249"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "lxDfaKZ-iSE",
+      "title": "ETERNAL WIND〜ほほえみは光る風の中〜 / 森口博子 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-10-16T09:00:14Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "ETERNAL WIND~ほほえみは光る風の中~",
+          "titleRaw": "ETERNAL WIND〜ほほえみは光る風の中〜",
+          "artist": "森口博子",
+          "artistRaw": "森口博子",
+          "url": "https://youtu.be/lxDfaKZ-iSE"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "G7FA4XCfJco",
+      "title": "嵐の中で輝いて / 米倉千尋 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-10-15T09:00:10Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "嵐の中で輝いて",
+          "titleRaw": "嵐の中で輝いて",
+          "artist": "米倉千尋",
+          "artistRaw": "米倉千尋",
+          "url": "https://youtu.be/G7FA4XCfJco"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "4BiVkgwIeV0",
+      "title": "Reason / 玉置成実 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-10-14T09:00:16Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "Reason",
+          "titleRaw": "Reason",
+          "artist": "玉置成実",
+          "artistRaw": "玉置成実",
+          "url": "https://youtu.be/4BiVkgwIeV0"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "mo42f7rl0IA",
+      "title": "🐥【縦型歌枠】おうち3D✨1曲聴いていって！ SINGING STREAM【VTuber/配信中】#縦型配信 #shorts #vtuber",
+      "publishedAt": "2026-10-14T08:19:47Z",
+      "songs": [
+        {
+          "timestamp": "00:05:14",
+          "seconds": 314,
+          "title": "トウキョウ・シャンディ・ランデヴ",
+          "titleRaw": "トウキョウ・シャンディ・ランデヴ feat. 花譜, ツミキ",
+          "artist": "MAISONdes",
+          "artistRaw": "MAISONdes",
+          "url": "https://youtu.be/mo42f7rl0IA?t=314"
+        },
+        {
+          "timestamp": "00:13:02",
+          "seconds": 782,
+          "title": "だってアタシのヒーロー。",
+          "titleRaw": "だってアタシのヒーロー。",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/mo42f7rl0IA?t=782"
+        },
+        {
+          "timestamp": "00:16:54",
+          "seconds": 1014,
+          "title": "01",
+          "titleRaw": "01",
+          "artist": "女王蜂",
+          "artistRaw": "女王蜂",
+          "url": "https://youtu.be/mo42f7rl0IA?t=1014"
+        },
+        {
+          "timestamp": "00:20:02",
+          "seconds": 1202,
+          "title": "悪魔の踊り方",
+          "titleRaw": "悪魔の踊り方",
+          "artist": "キタニタツヤ",
+          "artistRaw": "キタニタツヤ",
+          "url": "https://youtu.be/mo42f7rl0IA?t=1202"
+        },
+        {
+          "timestamp": "00:27:17",
+          "seconds": 1637,
+          "title": "テオ",
+          "titleRaw": "テオ",
+          "artist": "Omoi",
+          "artistRaw": "Omoi feat. 初音ミク",
+          "url": "https://youtu.be/mo42f7rl0IA?t=1637"
+        },
+        {
+          "timestamp": "00:30:45",
+          "seconds": 1845,
+          "title": "リモコン",
+          "titleRaw": "リモコン",
+          "artist": "じーざすP",
+          "artistRaw": "じーざすP feat. 鏡音リン,鏡音レン",
+          "url": "https://youtu.be/mo42f7rl0IA?t=1845"
+        },
+        {
+          "timestamp": "00:35:52",
+          "seconds": 2152,
+          "title": "Q",
+          "titleRaw": "Q",
+          "artist": "椎名もた (ぽわぽわP)",
+          "artistRaw": "椎名もた（ぽわぽわP） feat. 鏡音リン",
+          "url": "https://youtu.be/mo42f7rl0IA?t=2152"
+        },
+        {
+          "timestamp": "00:43:21",
+          "seconds": 2601,
+          "title": "NIPPON",
+          "titleRaw": "NIPPON",
+          "artist": "椎名林檎",
+          "artistRaw": "椎名林檎",
+          "url": "https://youtu.be/mo42f7rl0IA?t=2601"
+        },
+        {
+          "timestamp": "00:47:18",
+          "seconds": 2838,
+          "title": "フェイキング・オブ・コメディ",
+          "titleRaw": "フェイキング・オブ・コメディ",
+          "artist": "jon-YAKITORY",
+          "artistRaw": "jon-YAKITORY feat. v flower",
+          "url": "https://youtu.be/mo42f7rl0IA?t=2838"
+        },
+        {
+          "timestamp": "00:50:45",
+          "seconds": 3045,
+          "title": "アゲハ蝶",
+          "titleRaw": "アゲハ蝶",
+          "artist": "ポルノグラフィティ",
+          "artistRaw": "ポルノグラフィティ",
+          "url": "https://youtu.be/mo42f7rl0IA?t=3045"
+        },
+        {
+          "timestamp": "00:59:26",
+          "seconds": 3566,
+          "title": "Together",
+          "titleRaw": "Together",
+          "artist": "あきよしふみえ",
+          "artistRaw": "あきよしふみえ",
+          "url": "https://youtu.be/mo42f7rl0IA?t=3566"
+        },
+        {
+          "timestamp": "01:03:22",
+          "seconds": 3802,
+          "title": "化けの花",
+          "titleRaw": "化けの花",
+          "artist": "なきそ",
+          "artistRaw": "なきそ feat. 初音ミク",
+          "url": "https://youtu.be/mo42f7rl0IA?t=3802"
+        },
+        {
+          "timestamp": "01:05:17",
+          "seconds": 3917,
+          "title": "カトレア",
+          "titleRaw": "カトレア",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/mo42f7rl0IA?t=3917"
+        },
+        {
+          "timestamp": "01:13:41",
+          "seconds": 4421,
+          "title": "イマジネーション",
+          "titleRaw": "イマジネーション",
+          "artist": "SPYAIR",
+          "artistRaw": "SPYAIR",
+          "url": "https://youtu.be/mo42f7rl0IA?t=4421"
+        },
+        {
+          "timestamp": "01:16:38",
+          "seconds": 4598,
+          "title": "そばかす",
+          "titleRaw": "そばかす",
+          "artist": "JUDY AND MARY",
+          "artistRaw": "JUDY AND MARY",
+          "url": "https://youtu.be/mo42f7rl0IA?t=4598"
+        },
+        {
+          "timestamp": "01:20:54",
+          "seconds": 4854,
+          "title": "パレード",
+          "titleRaw": "パレード",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/mo42f7rl0IA?t=4854"
+        },
+        {
+          "timestamp": "01:33:30",
+          "seconds": 5610,
+          "title": "桜の木になろう",
+          "titleRaw": "桜の木になろう",
+          "artist": "AKB48",
+          "artistRaw": "AKB48",
+          "url": "https://youtu.be/mo42f7rl0IA?t=5610"
+        },
+        {
+          "timestamp": "01:39:02",
+          "seconds": 5942,
+          "title": "少女A",
+          "titleRaw": "少女A",
+          "artist": "中森明菜",
+          "artistRaw": "中森明菜",
+          "url": "https://youtu.be/mo42f7rl0IA?t=5942"
+        },
+        {
+          "timestamp": "01:42:37",
+          "seconds": 6157,
+          "title": "About me",
+          "titleRaw": "About me",
+          "artist": "蝶々P",
+          "artistRaw": "蝶々P feat. GUMI",
+          "url": "https://youtu.be/mo42f7rl0IA?t=6157"
+        },
+        {
+          "timestamp": "01:52:49",
+          "seconds": 6769,
+          "title": "キャットアイメイク",
+          "titleRaw": "キャットアイメイク",
+          "artist": "奏音69",
+          "artistRaw": "奏音69 feat. 巡音ルカ",
+          "url": "https://youtu.be/mo42f7rl0IA?t=6769"
+        },
+        {
+          "timestamp": "01:57:32",
+          "seconds": 7052,
+          "title": "心という名の不可解",
+          "titleRaw": "心という名の不可解",
+          "artist": "Ado",
+          "artistRaw": "Ado",
+          "url": "https://youtu.be/mo42f7rl0IA?t=7052"
+        },
+        {
+          "timestamp": "02:02:06",
+          "seconds": 7326,
+          "title": "ケロッ!とマーチ",
+          "titleRaw": "ケロッ!とマーチ",
+          "artist": "角田信朗&いはたじゅり",
+          "artistRaw": "角田信朗＆いはたじゅり",
+          "url": "https://youtu.be/mo42f7rl0IA?t=7326"
+        },
+        {
+          "timestamp": "02:09:38",
+          "seconds": 7778,
+          "title": "響喜乱舞",
+          "titleRaw": "響喜乱舞",
+          "artist": "GARNiDELiA",
+          "artistRaw": "GARNiDELiA",
+          "url": "https://youtu.be/mo42f7rl0IA?t=7778"
+        },
+        {
+          "timestamp": "02:13:55",
+          "seconds": 8035,
+          "title": "LOSER",
+          "titleRaw": "LOSER",
+          "artist": "米津玄師",
+          "artistRaw": "米津玄師",
+          "url": "https://youtu.be/mo42f7rl0IA?t=8035"
+        },
+        {
+          "timestamp": "02:17:58",
+          "seconds": 8278,
+          "title": "脳漿炸裂ガール",
+          "titleRaw": "脳漿炸裂ガール",
+          "artist": "れるりり",
+          "artistRaw": "れるりり feat. 初音ミク・GUMI",
+          "url": "https://youtu.be/mo42f7rl0IA?t=8278"
+        },
+        {
+          "timestamp": "02:24:09",
+          "seconds": 8649,
+          "title": "猪突猛進ガール",
+          "titleRaw": "猪突猛進ガール",
+          "artist": "れるりり",
+          "artistRaw": "れるりり feat. 初音ミク・GUMI",
+          "url": "https://youtu.be/mo42f7rl0IA?t=8649"
+        },
+        {
+          "timestamp": "02:27:31",
+          "seconds": 8851,
+          "title": "厨病激発ボーイ",
+          "titleRaw": "厨病激発ボーイ",
+          "artist": "れるりり",
+          "artistRaw": "れるりり feat. 鏡音レン",
+          "url": "https://youtu.be/mo42f7rl0IA?t=8851"
+        },
+        {
+          "timestamp": "02:30:55",
+          "seconds": 9055,
+          "title": "乱躁滅裂ガール",
+          "titleRaw": "乱躁滅裂ガール",
+          "artist": "れるりり",
+          "artistRaw": "れるりり feat. 初音ミク・GUMI",
+          "url": "https://youtu.be/mo42f7rl0IA?t=9055"
+        },
+        {
+          "timestamp": "02:37:36",
+          "seconds": 9456,
+          "title": "ノーダウト",
+          "titleRaw": "ノーダウト",
+          "artist": "Official髭男dism",
+          "artistRaw": "Official髭男dism",
+          "url": "https://youtu.be/mo42f7rl0IA?t=9456"
+        },
+        {
+          "timestamp": "02:40:55",
+          "seconds": 9655,
+          "title": "スカー",
+          "titleRaw": "スカー",
+          "artist": "キタニタツヤ",
+          "artistRaw": "キタニタツヤ",
+          "url": "https://youtu.be/mo42f7rl0IA?t=9655"
+        },
+        {
+          "timestamp": "02:45:17",
+          "seconds": 9917,
+          "title": "さようなら、花泥棒さん",
+          "titleRaw": "さようなら、花泥棒さん",
+          "artist": "メル",
+          "artistRaw": "メル feat. 初音ミク",
+          "url": "https://youtu.be/mo42f7rl0IA?t=9917"
+        },
+        {
+          "timestamp": "02:52:14",
+          "seconds": 10334,
+          "title": "夏恋花火",
+          "titleRaw": "夏恋花火",
+          "artist": "40mP",
+          "artistRaw": "40mP feat. 初音ミク",
+          "url": "https://youtu.be/mo42f7rl0IA?t=10334"
+        },
+        {
+          "timestamp": "02:56:51",
+          "seconds": 10611,
+          "title": "一心不乱",
+          "titleRaw": "一心不乱",
+          "artist": "梅とら",
+          "artistRaw": "梅とら feat. 巡音ルカ・初音ミク・GUMI",
+          "url": "https://youtu.be/mo42f7rl0IA?t=10611"
+        },
+        {
+          "timestamp": "03:00:09",
+          "seconds": 10809,
+          "title": "思想犯",
+          "titleRaw": "思想犯",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/mo42f7rl0IA?t=10809"
         }
       ],
       "sourceCommentId": "",

@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1575,
-  "uniqueTitles": 1549,
+  "totalEntries": 1578,
+  "uniqueTitles": 1551,
   "uniqueArtists": 701,
   "songs": [
     {
@@ -424,6 +424,11 @@
       "count": 14
     },
     {
+      "title": "スカー",
+      "artist": "キタニタツヤ",
+      "count": 14
+    },
+    {
       "title": "ノーチラス",
       "artist": "ヨルシカ",
       "count": 14
@@ -431,6 +436,11 @@
     {
       "title": "一度だけの恋なら",
       "artist": "ワルキューレ",
+      "count": 14
+    },
+    {
+      "title": "心という名の不可解",
+      "artist": "Ado",
       "count": 14
     },
     {
@@ -494,13 +504,13 @@
       "count": 13
     },
     {
-      "title": "スカー",
-      "artist": "キタニタツヤ",
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
       "count": 13
     },
     {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
+      "title": "パレード",
+      "artist": "ヨルシカ",
       "count": 13
     },
     {
@@ -534,6 +544,11 @@
       "count": 13
     },
     {
+      "title": "夏恋花火",
+      "artist": "40mP",
+      "count": 13
+    },
+    {
       "title": "夜に駆ける",
       "artist": "YOASOBI",
       "count": 13
@@ -541,11 +556,6 @@
     {
       "title": "往け",
       "artist": "LiSA",
-      "count": 13
-    },
-    {
-      "title": "心という名の不可解",
-      "artist": "Ado",
       "count": 13
     },
     {
@@ -634,11 +644,6 @@
       "count": 12
     },
     {
-      "title": "パレード",
-      "artist": "ヨルシカ",
-      "count": 12
-    },
-    {
       "title": "ピースサイン",
       "artist": "米津玄師",
       "count": 12
@@ -661,11 +666,6 @@
     {
       "title": "世界は恋に落ちている",
       "artist": "CHiCO with HoneyWorks",
-      "count": 12
-    },
-    {
-      "title": "夏恋花火",
-      "artist": "40mP",
       "count": 12
     },
     {
@@ -764,6 +764,11 @@
       "count": 11
     },
     {
+      "title": "さようなら、花泥棒さん",
+      "artist": "メル",
+      "count": 11
+    },
+    {
       "title": "ただ声一つ",
       "artist": "ロクデナシ",
       "count": 11
@@ -781,6 +786,11 @@
     {
       "title": "キミソラキセキ",
       "artist": "EGOIST",
+      "count": 11
+    },
+    {
+      "title": "トウキョウ・シャンディ・ランデヴ",
+      "artist": "MAISONdes",
       "count": 11
     },
     {
@@ -830,6 +840,11 @@
     },
     {
       "title": "心に穴が空いた",
+      "artist": "ヨルシカ",
+      "count": 11
+    },
+    {
+      "title": "思想犯",
       "artist": "ヨルシカ",
       "count": 11
     },
@@ -914,8 +929,8 @@
       "count": 10
     },
     {
-      "title": "さようなら、花泥棒さん",
-      "artist": "メル",
+      "title": "そばかす",
+      "artist": "JUDY AND MARY",
       "count": 10
     },
     {
@@ -954,8 +969,8 @@
       "count": 10
     },
     {
-      "title": "トウキョウ・シャンディ・ランデヴ",
-      "artist": "MAISONdes",
+      "title": "ノーダウト",
+      "artist": "Official髭男dism",
       "count": 10
     },
     {
@@ -996,11 +1011,6 @@
     {
       "title": "小夜子",
       "artist": "みきとP",
-      "count": 10
-    },
-    {
-      "title": "思想犯",
-      "artist": "ヨルシカ",
       "count": 10
     },
     {
@@ -1099,11 +1109,6 @@
       "count": 9
     },
     {
-      "title": "そばかす",
-      "artist": "JUDY AND MARY",
-      "count": 9
-    },
-    {
       "title": "とても素敵な六月でした",
       "artist": "Eight",
       "count": 9
@@ -1146,11 +1151,6 @@
     {
       "title": "テルーの唄",
       "artist": "手嶌葵",
-      "count": 9
-    },
-    {
-      "title": "ノーダウト",
-      "artist": "Official髭男dism",
       "count": 9
     },
     {
@@ -1286,6 +1286,11 @@
     {
       "title": "いけないボーダーライン",
       "artist": "ワルキューレ",
+      "count": 8
+    },
+    {
+      "title": "だってアタシのヒーロー。",
+      "artist": "LiSA",
       "count": 8
     },
     {
@@ -1454,6 +1459,11 @@
       "count": 7
     },
     {
+      "title": "ETERNAL WIND~ほほえみは光る風の中~",
+      "artist": "森口博子",
+      "count": 7
+    },
+    {
       "title": "Empty MERMAiD",
       "artist": "LiSA",
       "count": 7
@@ -1536,11 +1546,6 @@
     {
       "title": "たぶん",
       "artist": "YOASOBI",
-      "count": 7
-    },
-    {
-      "title": "だってアタシのヒーロー。",
-      "artist": "LiSA",
       "count": 7
     },
     {
@@ -1754,6 +1759,11 @@
       "count": 7
     },
     {
+      "title": "響喜乱舞",
+      "artist": "GARNiDELiA",
+      "count": 7
+    },
+    {
       "title": "1/6 ー out of the gravity ー",
       "artist": "ぼーかりおどP",
       "count": 6
@@ -1781,11 +1791,6 @@
     {
       "title": "DAN DAN 心魅かれてく",
       "artist": "FIELD OF VIEW",
-      "count": 6
-    },
-    {
-      "title": "ETERNAL WIND~ほほえみは光る風の中~",
-      "artist": "森口博子",
       "count": 6
     },
     {
@@ -1831,6 +1836,11 @@
     {
       "title": "SAKURAグッバイ",
       "artist": "SCANDAL",
+      "count": 6
+    },
+    {
+      "title": "Together",
+      "artist": "あきよしふみえ",
       "count": 6
     },
     {
@@ -1899,8 +1909,23 @@
       "count": 6
     },
     {
+      "title": "アゲハ蝶",
+      "artist": "ポルノグラフィティ",
+      "count": 6
+    },
+    {
+      "title": "イマジネーション",
+      "artist": "SPYAIR",
+      "count": 6
+    },
+    {
       "title": "インタビュア",
       "artist": "クワガタP",
+      "count": 6
+    },
+    {
+      "title": "カトレア",
+      "artist": "ヨルシカ",
       "count": 6
     },
     {
@@ -1976,6 +2001,11 @@
     {
       "title": "再会",
       "artist": "LiSA×Uru",
+      "count": 6
+    },
+    {
+      "title": "化けの花",
+      "artist": "なきそ",
       "count": 6
     },
     {
@@ -2104,11 +2134,6 @@
       "count": 6
     },
     {
-      "title": "響喜乱舞",
-      "artist": "GARNiDELiA",
-      "count": 6
-    },
-    {
       "title": "高嶺の花子さん",
       "artist": "back number",
       "count": 6
@@ -2194,11 +2219,6 @@
       "count": 5
     },
     {
-      "title": "Together",
-      "artist": "あきよしふみえ",
-      "count": 5
-    },
-    {
       "title": "V",
       "artist": "HIMEHINA",
       "count": 5
@@ -2269,28 +2289,13 @@
       "count": 5
     },
     {
-      "title": "アゲハ蝶",
-      "artist": "ポルノグラフィティ",
-      "count": 5
-    },
-    {
       "title": "アニマル",
       "artist": "DECO*27",
       "count": 5
     },
     {
-      "title": "イマジネーション",
-      "artist": "SPYAIR",
-      "count": 5
-    },
-    {
       "title": "エゴロック",
       "artist": "すりぃ",
-      "count": 5
-    },
-    {
-      "title": "カトレア",
-      "artist": "ヨルシカ",
       "count": 5
     },
     {
@@ -2419,11 +2424,6 @@
       "count": 5
     },
     {
-      "title": "化けの花",
-      "artist": "なきそ",
-      "count": 5
-    },
-    {
       "title": "可愛いあの子が気にゐらない",
       "artist": "なるみや",
       "count": 5
@@ -2446,6 +2446,11 @@
     {
       "title": "射手座午後九時Don't be late",
       "artist": "シェリル・ノーム starring May'n",
+      "count": 5
+    },
+    {
+      "title": "嵐の中で輝いて",
+      "artist": "米倉千尋",
       "count": 5
     },
     {
@@ -2646,6 +2651,11 @@
     {
       "title": "L.Miranic",
       "artist": "LiSA",
+      "count": 4
+    },
+    {
+      "title": "LOSER",
+      "artist": "米津玄師",
       "count": 4
     },
     {
@@ -3044,6 +3054,11 @@
       "count": 4
     },
     {
+      "title": "乱躁滅裂ガール",
+      "artist": "れるりり",
+      "count": 4
+    },
+    {
       "title": "僕らは今のなかで",
       "artist": "μ's",
       "count": 4
@@ -3106,11 +3121,6 @@
     {
       "title": "完全感覚Dreamer",
       "artist": "ONE OK ROCK",
-      "count": 4
-    },
-    {
-      "title": "嵐の中で輝いて",
-      "artist": "米倉千尋",
       "count": 4
     },
     {
@@ -3279,8 +3289,18 @@
       "count": 4
     },
     {
+      "title": "01",
+      "artist": "女王蜂",
+      "count": 3
+    },
+    {
       "title": "1,000,000 TIMES feat.chelly(EGOIST)",
       "artist": "MY FIRST STORY",
+      "count": 3
+    },
+    {
+      "title": "About me",
+      "artist": "蝶々P",
       "count": 3
     },
     {
@@ -3364,11 +3384,6 @@
       "count": 3
     },
     {
-      "title": "LOSER",
-      "artist": "米津玄師",
-      "count": 3
-    },
-    {
       "title": "LOVE SURVIVE",
       "artist": "SCANDAL",
       "count": 3
@@ -3381,6 +3396,11 @@
     {
       "title": "MOON PRIDE",
       "artist": "ももいろクローバーZ",
+      "count": 3
+    },
+    {
+      "title": "NIPPON",
+      "artist": "椎名林檎",
       "count": 3
     },
     {
@@ -3404,6 +3424,11 @@
       "count": 3
     },
     {
+      "title": "Q",
+      "artist": "椎名もた (ぽわぽわP)",
+      "count": 3
+    },
+    {
       "title": "RADIANT FORCE",
       "artist": "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
       "count": 3
@@ -3411,6 +3436,11 @@
     {
       "title": "REALiZE",
       "artist": "LiSA",
+      "count": 3
+    },
+    {
+      "title": "Reason",
+      "artist": "玉置成実",
       "count": 3
     },
     {
@@ -3824,6 +3854,11 @@
       "count": 3
     },
     {
+      "title": "一心不乱",
+      "artist": "梅とら",
+      "count": 3
+    },
+    {
       "title": "不可幸力",
       "artist": "Vaundy",
       "count": 3
@@ -3841,11 +3876,6 @@
     {
       "title": "丸ノ内サディスティック",
       "artist": "椎名林檎",
-      "count": 3
-    },
-    {
-      "title": "乱躁滅裂ガール",
-      "artist": "れるりり",
       "count": 3
     },
     {
@@ -3966,6 +3996,11 @@
     {
       "title": "小悪魔だってかまわない!",
       "artist": "めいちゃん",
+      "count": 3
+    },
+    {
+      "title": "少女A",
+      "artist": "中森明菜",
       "count": 3
     },
     {
@@ -4164,11 +4199,6 @@
       "count": 3
     },
     {
-      "title": "01",
-      "artist": "女王蜂",
-      "count": 2
-    },
-    {
       "title": "366日",
       "artist": "HY",
       "count": 2
@@ -4201,11 +4231,6 @@
     {
       "title": "ALIVE",
       "artist": "ClariS",
-      "count": 2
-    },
-    {
-      "title": "About me",
-      "artist": "蝶々P",
       "count": 2
     },
     {
@@ -4394,11 +4419,6 @@
       "count": 2
     },
     {
-      "title": "NIPPON",
-      "artist": "椎名林檎",
-      "count": 2
-    },
-    {
       "title": "No Logic",
       "artist": "ジミーサムP",
       "count": 2
@@ -4439,11 +4459,6 @@
       "count": 2
     },
     {
-      "title": "Q",
-      "artist": "椎名もた (ぽわぽわP)",
-      "count": 2
-    },
-    {
       "title": "RAGE OF DUST",
       "artist": "SPYAIR",
       "count": 2
@@ -4451,11 +4466,6 @@
     {
       "title": "ROCK-mode",
       "artist": "LiSA",
-      "count": 2
-    },
-    {
-      "title": "Reason",
-      "artist": "玉置成実",
       "count": 2
     },
     {
@@ -4839,6 +4849,11 @@
       "count": 2
     },
     {
+      "title": "キャットアイメイク",
+      "artist": "奏音69",
+      "count": 2
+    },
+    {
       "title": "クイーンオブハート",
       "artist": "奏音69",
       "count": 2
@@ -4856,6 +4871,11 @@
     {
       "title": "グレゴリオ",
       "artist": "古川本舗",
+      "count": 2
+    },
+    {
+      "title": "ケロッ!とマーチ",
+      "artist": "角田信朗&いはたじゅり",
       "count": 2
     },
     {
@@ -4926,6 +4946,11 @@
     {
       "title": "ツギハギスタッカート",
       "artist": "とあ",
+      "count": 2
+    },
+    {
+      "title": "テオ",
+      "artist": "Omoi",
       "count": 2
     },
     {
@@ -5001,6 +5026,11 @@
     {
       "title": "ファンサ",
       "artist": "HoneyWorks",
+      "count": 2
+    },
+    {
+      "title": "フェイキング・オブ・コメディ",
+      "artist": "jon-YAKITORY",
       "count": 2
     },
     {
@@ -5119,6 +5149,11 @@
       "count": 2
     },
     {
+      "title": "リモコン",
+      "artist": "じーざすP",
+      "count": 2
+    },
+    {
       "title": "リンネ",
       "artist": "米津玄師",
       "count": 2
@@ -5141,11 +5176,6 @@
     {
       "title": "ヴィーナス",
       "artist": "女王蜂",
-      "count": 2
-    },
-    {
-      "title": "一心不乱",
-      "artist": "梅とら",
       "count": 2
     },
     {
@@ -5310,11 +5340,6 @@
     },
     {
       "title": "少女A",
-      "artist": "中森明菜",
-      "count": 2
-    },
-    {
-      "title": "少女A",
       "artist": "椎名もた (ぽわぽわP)",
       "count": 2
     },
@@ -5429,6 +5454,11 @@
       "count": 2
     },
     {
+      "title": "桜の木になろう",
+      "artist": "AKB48",
+      "count": 2
+    },
+    {
       "title": "気まぐれメルシィ",
       "artist": "八王子P",
       "count": 2
@@ -5506,6 +5536,11 @@
     {
       "title": "聖少女領域",
       "artist": "ALI PROJECT",
+      "count": 2
+    },
+    {
+      "title": "脳漿炸裂ガール",
+      "artist": "れるりり",
       "count": 2
     },
     {
@@ -6524,11 +6559,6 @@
       "count": 1
     },
     {
-      "title": "キャットアイメイク",
-      "artist": "奏音69",
-      "count": 1
-    },
-    {
       "title": "キューティーハニー",
       "artist": "倖田來未",
       "count": 1
@@ -6551,11 +6581,6 @@
     {
       "title": "グラーヴェ",
       "artist": "niki",
-      "count": 1
-    },
-    {
-      "title": "ケロッ!とマーチ",
-      "artist": "角田信朗&いはたじゅり",
       "count": 1
     },
     {
@@ -6749,11 +6774,6 @@
       "count": 1
     },
     {
-      "title": "テオ",
-      "artist": "Omoi",
-      "count": 1
-    },
-    {
       "title": "トゥントゥントゥンサフールに恋している",
       "artist": "ザビャン",
       "count": 1
@@ -6924,11 +6944,6 @@
       "count": 1
     },
     {
-      "title": "フェイキング・オブ・コメディ",
-      "artist": "jon-YAKITORY",
-      "count": 1
-    },
-    {
       "title": "フライングゲット",
       "artist": "AKB48",
       "count": 1
@@ -7076,11 +7091,6 @@
     {
       "title": "ラヴァーズ",
       "artist": "7!!",
-      "count": 1
-    },
-    {
-      "title": "リモコン",
-      "artist": "じーざすP",
       "count": 1
     },
     {
@@ -7256,6 +7266,11 @@
     {
       "title": "千本桜 feat.初音ミク",
       "artist": "黒うさP",
+      "count": 1
+    },
+    {
+      "title": "厨病激発ボーイ",
+      "artist": "れるりり",
       "count": 1
     },
     {
@@ -7474,6 +7489,11 @@
       "count": 1
     },
     {
+      "title": "悪魔の踊り方",
+      "artist": "キタニタツヤ",
+      "count": 1
+    },
+    {
       "title": "悲しみの向こうへ",
       "artist": "いとうかなこ",
       "count": 1
@@ -7579,11 +7599,6 @@
       "count": 1
     },
     {
-      "title": "桜の木になろう",
-      "artist": "AKB48",
-      "count": 1
-    },
-    {
       "title": "次回予告",
       "artist": "キタニタツヤ",
       "count": 1
@@ -7641,6 +7656,11 @@
     {
       "title": "狙いうち",
       "artist": "山本リンダ",
+      "count": 1
+    },
+    {
+      "title": "猪突猛進ガール",
+      "artist": "れるりり",
       "count": 1
     },
     {
@@ -7741,11 +7761,6 @@
     {
       "title": "脳内革命ガール",
       "artist": "MARETU",
-      "count": 1
-    },
-    {
-      "title": "脳漿炸裂ガール",
-      "artist": "れるりり",
       "count": 1
     },
     {

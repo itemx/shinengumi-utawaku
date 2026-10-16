@@ -1,9 +1,12 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "generatedAt": "2026-10-13T18:59:25.366048+00:00",
-  "totalSearched": 173,
-  "totalWithSetlist": 142,
-  "totalMissing": 0,
-  "missing": []
+  "missing": [
+    {
+      "videoId": "LgYCxSCPT-A",
+      "title": "【歌枠】聴いていって！あなたの魂を揺らすVsinger―【VTuber/配信中】",
+      "publishedAt": "2026-10-16T11:01:34Z",
+      "url": "https://www.youtube.com/watch?v=LgYCxSCPT-A"
+    }
+  ]
 }
