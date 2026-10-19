@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-10-16T16:14:21.351670+00:00",
+  "lastFetched": "2026-10-19T18:26:58.625646+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -22910,12 +22910,21 @@
         }
       ],
       "sourceCommentId": "issue#137",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "Tbe2PMwYnQ8",
       "title": "アイロニーナ/煮ル果実 #shorts #歌ってみた #cover",
       "publishedAt": "2026-10-16T09:33:42Z",
+      "songs": [],
+      "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "Wxk3sLqqYjE",
+      "title": "ウタカタララバイ / ウタ(Ado) #shorts #歌ってみた #cover",
+      "publishedAt": "2026-10-19T08:50:47Z",
       "songs": [],
       "sourceCommentId": "",
       "type": "stream"

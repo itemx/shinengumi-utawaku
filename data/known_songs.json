@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1578,
-  "uniqueTitles": 1551,
-  "uniqueArtists": 701,
+  "totalEntries": 1583,
+  "uniqueTitles": 1556,
+  "uniqueArtists": 702,
   "songs": [
     {
       "title": "All Alone With You",
@@ -369,6 +369,11 @@
       "count": 15
     },
     {
+      "title": "ノーチラス",
+      "artist": "ヨルシカ",
+      "count": 15
+    },
+    {
       "title": "プラチナ",
       "artist": "坂本真綾",
       "count": 15
@@ -429,11 +434,6 @@
       "count": 14
     },
     {
-      "title": "ノーチラス",
-      "artist": "ヨルシカ",
-      "count": 14
-    },
-    {
       "title": "一度だけの恋なら",
       "artist": "ワルキューレ",
       "count": 14
@@ -441,6 +441,11 @@
     {
       "title": "心という名の不可解",
       "artist": "Ado",
+      "count": 14
+    },
+    {
+      "title": "振り向いてGOD",
+      "artist": "涼風しとら",
       "count": 14
     },
     {
@@ -466,6 +471,11 @@
     {
       "title": "花泡沫",
       "artist": "ロクデナシ",
+      "count": 14
+    },
+    {
+      "title": "風になる",
+      "artist": "つじあやの",
       "count": 14
     },
     {
@@ -564,11 +574,6 @@
       "count": 13
     },
     {
-      "title": "振り向いてGOD",
-      "artist": "涼風しとら",
-      "count": 13
-    },
-    {
       "title": "桃源恋歌",
       "artist": "GARNiDELiA",
       "count": 13
@@ -586,11 +591,6 @@
     {
       "title": "藍二乗",
       "artist": "ヨルシカ",
-      "count": 13
-    },
-    {
-      "title": "風になる",
-      "artist": "つじあやの",
       "count": 13
     },
     {
@@ -701,6 +701,11 @@
     {
       "title": "炎",
       "artist": "LiSA",
+      "count": 12
+    },
+    {
+      "title": "独りんぼエンヴィー",
+      "artist": "koyori (電ポルP)",
       "count": 12
     },
     {
@@ -834,6 +839,11 @@
       "count": 11
     },
     {
+      "title": "地球最後の告白を",
+      "artist": "kemu",
+      "count": 11
+    },
+    {
       "title": "少年よ我に帰れ",
       "artist": "やくしまるえつこ",
       "count": 11
@@ -856,11 +866,6 @@
     {
       "title": "月が綺麗ねと言われたい!",
       "artist": "柿崎ユウタ",
-      "count": 11
-    },
-    {
-      "title": "独りんぼエンヴィー",
-      "artist": "koyori (電ポルP)",
       "count": 11
     },
     {
@@ -994,11 +999,6 @@
       "count": 10
     },
     {
-      "title": "地球最後の告白を",
-      "artist": "kemu",
-      "count": 10
-    },
-    {
       "title": "夕立のりぼん",
       "artist": "みきとP",
       "count": 10
@@ -1029,6 +1029,11 @@
       "count": 10
     },
     {
+      "title": "曖昧劣情Lover",
+      "artist": "koyori (電ポルP)",
+      "count": 10
+    },
+    {
       "title": "熱愛105°C的你",
       "artist": "阿肆",
       "count": 10
@@ -1052,6 +1057,16 @@
       "title": "蜜月アン・ドゥ・トロワ",
       "artist": "DATEKEN",
       "count": 10
+    },
+    {
+      "title": "靴の花火",
+      "artist": "ヨルシカ",
+      "count": 10
+    },
+    {
+      "title": "1・2・3",
+      "artist": "After the Rain",
+      "count": 9
     },
     {
       "title": "Ahoy!! 我ら宝鐘海賊団",
@@ -1199,11 +1214,6 @@
       "count": 9
     },
     {
-      "title": "曖昧劣情Lover",
-      "artist": "koyori (電ポルP)",
-      "count": 9
-    },
-    {
       "title": "浴槽とネオンテトラ",
       "artist": "REISAI",
       "count": 9
@@ -1229,16 +1239,6 @@
       "count": 9
     },
     {
-      "title": "靴の花火",
-      "artist": "ヨルシカ",
-      "count": 9
-    },
-    {
-      "title": "1・2・3",
-      "artist": "After the Rain",
-      "count": 8
-    },
-    {
       "title": "Crow Song",
       "artist": "Girls Dead Monster",
       "count": 8
@@ -1251,6 +1251,11 @@
     {
       "title": "GIRAFFE BLUES",
       "artist": "ワルキューレ",
+      "count": 8
+    },
+    {
+      "title": "HADASHi NO STEP",
+      "artist": "LiSA",
       "count": 8
     },
     {
@@ -1479,11 +1484,6 @@
       "count": 7
     },
     {
-      "title": "HADASHi NO STEP",
-      "artist": "LiSA",
-      "count": 7
-    },
-    {
       "title": "Hysteric Bullet",
       "artist": "GARNiDELiA",
       "count": 7
@@ -1664,6 +1664,11 @@
       "count": 7
     },
     {
+      "title": "再会",
+      "artist": "LiSA×Uru",
+      "count": 7
+    },
+    {
       "title": "君と夏フェス",
       "artist": "SHISHAMO",
       "count": 7
@@ -1706,6 +1711,11 @@
     {
       "title": "心做し",
       "artist": "majiko",
+      "count": 7
+    },
+    {
+      "title": "月陽 - ツキアカリ -",
+      "artist": "みきとP",
       "count": 7
     },
     {
@@ -1999,11 +2009,6 @@
       "count": 6
     },
     {
-      "title": "再会",
-      "artist": "LiSA×Uru",
-      "count": 6
-    },
-    {
       "title": "化けの花",
       "artist": "なきそ",
       "count": 6
@@ -2049,11 +2054,6 @@
       "count": 6
     },
     {
-      "title": "月陽 - ツキアカリ -",
-      "artist": "みきとP",
-      "count": 6
-    },
-    {
       "title": "気まぐれロマンティック",
       "artist": "いきものがかり",
       "count": 6
@@ -2071,6 +2071,11 @@
     {
       "title": "爆裂愛してる",
       "artist": "M!LK",
+      "count": 6
+    },
+    {
+      "title": "現状ディストラクション",
+      "artist": "SPYAIR",
       "count": 6
     },
     {
@@ -2164,8 +2169,18 @@
       "count": 5
     },
     {
+      "title": "HELP!!",
+      "artist": "Kobo Kanaeru",
+      "count": 5
+    },
+    {
       "title": "INTERNET OVERDOSE",
       "artist": "KOTOKO",
+      "count": 5
+    },
+    {
+      "title": "L.Miranic",
+      "artist": "LiSA",
       "count": 5
     },
     {
@@ -2534,11 +2549,6 @@
       "count": 5
     },
     {
-      "title": "現状ディストラクション",
-      "artist": "SPYAIR",
-      "count": 5
-    },
-    {
       "title": "白い雪のプリンセスは-Re:incarnation-",
       "artist": "のぼる↑",
       "count": 5
@@ -2624,6 +2634,11 @@
       "count": 4
     },
     {
+      "title": "Bravely You",
+      "artist": "Lia",
+      "count": 4
+    },
+    {
       "title": "Endless Story",
       "artist": "田村ゆかり",
       "count": 4
@@ -2631,11 +2646,6 @@
     {
       "title": "Good-bye days",
       "artist": "YUI for 雨音薫",
-      "count": 4
-    },
-    {
-      "title": "HELP!!",
-      "artist": "Kobo Kanaeru",
       "count": 4
     },
     {
@@ -2649,11 +2659,6 @@
       "count": 4
     },
     {
-      "title": "L.Miranic",
-      "artist": "LiSA",
-      "count": 4
-    },
-    {
       "title": "LOSER",
       "artist": "米津玄師",
       "count": 4
@@ -2661,6 +2666,11 @@
     {
       "title": "Lamb.",
       "artist": "GARNiDELiA",
+      "count": 4
+    },
+    {
+      "title": "Los! Los! Los!",
+      "artist": "ターニャ・デグレチャフ (悠木碧)",
       "count": 4
     },
     {
@@ -2681,6 +2691,11 @@
     {
       "title": "Overfly",
       "artist": "春奈るな",
+      "count": 4
+    },
+    {
+      "title": "REALiZE",
+      "artist": "LiSA",
       "count": 4
     },
     {
@@ -2846,6 +2861,11 @@
     {
       "title": "キュートなカノジョ",
       "artist": "syudou",
+      "count": 4
+    },
+    {
+      "title": "キルマー",
+      "artist": "煮ル果実",
       "count": 4
     },
     {
@@ -3309,8 +3329,8 @@
       "count": 3
     },
     {
-      "title": "Bravely You",
-      "artist": "Lia",
+      "title": "BONBON GiRL",
+      "artist": "SARM",
       "count": 3
     },
     {
@@ -3389,11 +3409,6 @@
       "count": 3
     },
     {
-      "title": "Los! Los! Los!",
-      "artist": "ターニャ・デグレチャフ (悠木碧)",
-      "count": 3
-    },
-    {
       "title": "MOON PRIDE",
       "artist": "ももいろクローバーZ",
       "count": 3
@@ -3431,11 +3446,6 @@
     {
       "title": "RADIANT FORCE",
       "artist": "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
-      "count": 3
-    },
-    {
-      "title": "REALiZE",
-      "artist": "LiSA",
       "count": 3
     },
     {
@@ -3584,6 +3594,11 @@
       "count": 3
     },
     {
+      "title": "お後がよろしくって...よ!",
+      "artist": "極・落女会:防波亭手寅 (山本希望),蕪羅亭魔梨威 (佐倉綾音),空琉美遊亭丸京 (南條愛乃),波浪浮亭木胡桃 (小岩井ことり),暗落亭苦来 (後藤沙緒里)",
+      "count": 3
+    },
+    {
       "title": "お気に召すまま",
       "artist": "Eve",
       "count": 3
@@ -3684,11 +3699,6 @@
       "count": 3
     },
     {
-      "title": "キルマー",
-      "artist": "煮ル果実",
-      "count": 3
-    },
-    {
       "title": "サインはB",
       "artist": "B小町",
       "count": 3
@@ -3701,6 +3711,11 @@
     {
       "title": "ジェヘナ",
       "artist": "wotaku",
+      "count": 3
+    },
+    {
+      "title": "スキスキDieスキ超Ayeシテル",
+      "artist": "宝鐘マリン",
       "count": 3
     },
     {
@@ -3729,6 +3744,11 @@
       "count": 3
     },
     {
+      "title": "ド屑",
+      "artist": "なきそ",
+      "count": 3
+    },
+    {
       "title": "ネオネオン",
       "artist": "DECO*27",
       "count": 3
@@ -3736,6 +3756,11 @@
     {
       "title": "ネコミミアーカイブ",
       "artist": "糞田舎P",
+      "count": 3
+    },
+    {
+      "title": "ノーポイッ!",
+      "artist": "Petit Rabbit's",
       "count": 3
     },
     {
@@ -3926,6 +3951,11 @@
     {
       "title": "境界の彼方",
       "artist": "茅原実里",
+      "count": 3
+    },
+    {
+      "title": "夏に去りし君を想フ",
+      "artist": "baker",
       "count": 3
     },
     {
@@ -4184,6 +4214,11 @@
       "count": 3
     },
     {
+      "title": "青い珊瑚礁",
+      "artist": "松田聖子",
+      "count": 3
+    },
+    {
       "title": "風のメッセージ",
       "artist": "水橋舞",
       "count": 3
@@ -4244,11 +4279,6 @@
       "count": 2
     },
     {
-      "title": "BONBON GiRL",
-      "artist": "SARM",
-      "count": 2
-    },
-    {
       "title": "Believe again",
       "artist": "Saint Snow",
       "count": 2
@@ -4276,6 +4306,11 @@
     {
       "title": "DESIRE -情熱-",
       "artist": "中森明菜",
+      "count": 2
+    },
+    {
+      "title": "Dancing in the Moonlight",
+      "artist": "ワルキューレ",
       "count": 2
     },
     {
@@ -4654,11 +4689,6 @@
       "count": 2
     },
     {
-      "title": "お後がよろしくって...よ!",
-      "artist": "極・落女会:防波亭手寅 (山本希望),蕪羅亭魔梨威 (佐倉綾音),空琉美遊亭丸京 (南條愛乃),波浪浮亭木胡桃 (小岩井ことり),暗落亭苦来 (後藤沙緒里)",
-      "count": 2
-    },
-    {
       "title": "かくしん的☆めたまるふぉ〜ぜっ！",
       "artist": "土間うまる (田中あいみ)",
       "count": 2
@@ -4701,6 +4731,11 @@
     {
       "title": "てをつなごう",
       "artist": "ハムちゃんず",
+      "count": 2
+    },
+    {
+      "title": "どりーみんチュチュ",
+      "artist": "emon (Tes.)",
       "count": 2
     },
     {
@@ -4914,11 +4949,6 @@
       "count": 2
     },
     {
-      "title": "スキスキDieスキ超Ayeシテル",
-      "artist": "宝鐘マリン",
-      "count": 2
-    },
-    {
       "title": "ソングオブザデッド",
       "artist": "KANA-BOON",
       "count": 2
@@ -4969,11 +4999,6 @@
       "count": 2
     },
     {
-      "title": "ド屑",
-      "artist": "なきそ",
-      "count": 2
-    },
-    {
       "title": "ニコニコ動画流星群",
       "artist": "しも",
       "count": 2
@@ -4986,11 +5011,6 @@
     {
       "title": "ノンブレス・オブリージュ",
       "artist": "ピノキオピー",
-      "count": 2
-    },
-    {
-      "title": "ノーポイッ!",
-      "artist": "Petit Rabbit's",
       "count": 2
     },
     {
@@ -5289,11 +5309,6 @@
       "count": 2
     },
     {
-      "title": "夏に去りし君を想フ",
-      "artist": "baker",
-      "count": 2
-    },
-    {
       "title": "夜桜",
       "artist": "くじら",
       "count": 2
@@ -5346,6 +5361,11 @@
     {
       "title": "強風オールバック",
       "artist": "ゆこぴ",
+      "count": 2
+    },
+    {
+      "title": "心象カスケード",
+      "artist": "koyori (電ポルP)",
       "count": 2
     },
     {
@@ -5484,6 +5504,11 @@
       "count": 2
     },
     {
+      "title": "火種",
+      "artist": "キタニタツヤ",
+      "count": 2
+    },
+    {
       "title": "炉心融解",
       "artist": "iroha",
       "count": 2
@@ -5596,11 +5621,6 @@
     {
       "title": "錠剤",
       "artist": "TOOBOE",
-      "count": 2
-    },
-    {
-      "title": "青い珊瑚礁",
-      "artist": "松田聖子",
       "count": 2
     },
     {
@@ -5784,11 +5804,6 @@
       "count": 1
     },
     {
-      "title": "Dancing in the Moonlight",
-      "artist": "ワルキューレ",
-      "count": 1
-    },
-    {
       "title": "Daydream Warrior",
       "artist": "Aqours",
       "count": 1
@@ -5914,6 +5929,11 @@
       "count": 1
     },
     {
+      "title": "I I I",
+      "artist": "宝鐘マリン & Kobo Kanaeru",
+      "count": 1
+    },
+    {
       "title": "I'm Your Treasure Box *あなたは マリンせんちょうを たからばこからみつけた。",
       "artist": "宝鐘マリン",
       "count": 1
@@ -5941,6 +5961,11 @@
     {
       "title": "LET'S GO OUT",
       "artist": "AMOYAMO",
+      "count": 1
+    },
+    {
+      "title": "LiMiT STRiKER!",
+      "artist": "iLiFE!",
       "count": 1
     },
     {
@@ -6229,6 +6254,11 @@
       "count": 1
     },
     {
+      "title": "play the world!",
+      "artist": "LiSA",
+      "count": 1
+    },
+    {
       "title": "sweets parade",
       "artist": "髏々宮カルタ (花澤香菜)",
       "count": 1
@@ -6361,11 +6391,6 @@
     {
       "title": "となりのトトロ",
       "artist": "井上あずみ",
-      "count": 1
-    },
-    {
-      "title": "どりーみんチュチュ",
-      "artist": "emon (Tes.)",
       "count": 1
     },
     {
@@ -6776,6 +6801,11 @@
     {
       "title": "テイキョウ・ヘイセイ・ダイガク",
       "artist": "トウキョウ・シャンディ・ランデヴパロディ",
+      "count": 1
+    },
+    {
+      "title": "デビットビット",
+      "artist": "アボガド6",
       "count": 1
     },
     {
@@ -7429,8 +7459,8 @@
       "count": 1
     },
     {
-      "title": "心象カスケード",
-      "artist": "koyori (電ポルP)",
+      "title": "忘れてやらない",
+      "artist": "結束バンド",
       "count": 1
     },
     {
@@ -7641,11 +7671,6 @@
     {
       "title": "深淵のデカダンス",
       "artist": "岡田梨央",
-      "count": 1
-    },
-    {
-      "title": "火種",
-      "artist": "キタニタツヤ",
       "count": 1
     },
     {
@@ -8260,6 +8285,7 @@
     "ろん×Junky",
     "アイオン",
     "アイナ・ジ・エンド",
+    "アボガド6",
     "ウマ娘 プリティーダービー",
     "エミリア (高橋李依)",
     "エリオをかまってちゃん",
