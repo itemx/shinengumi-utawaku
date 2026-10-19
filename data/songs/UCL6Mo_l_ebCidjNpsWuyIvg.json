@@ -1,7 +1,7 @@
 {
   "channelId": "UCL6Mo_l_ebCidjNpsWuyIvg",
   "channelName": "Rairi ch. 小滝らいり",
-  "lastFetched": "2026-09-16T12:07:18.975049+00:00",
+  "lastFetched": "2026-10-19T01:48:15.898454+00:00",
   "videos": [
     {
       "videoId": "08U27OrwU-0",
@@ -1621,6 +1621,51 @@
         }
       ],
       "sourceCommentId": "scan-rairi",
+      "type": "stream"
+    },
+    {
+      "videoId": "qcvGy_jTUco",
+      "title": "【#夜を巡るハロウィン歌枠リレー】素敵な一夜をお姉さんと…🌃🍸歌声の透明度◎✨【小滝らいり/#歌枠/#singing/#歌枠リレー】",
+      "publishedAt": "2026-10-19T01:35:09Z",
+      "songs": [
+        {
+          "timestamp": "4:17",
+          "seconds": 257,
+          "title": "丸の内サディスティック",
+          "titleRaw": "丸の内サディスティック",
+          "artist": "椎名林檎",
+          "artistRaw": "椎名林檎",
+          "url": "https://youtu.be/qcvGy_jTUco?t=257"
+        },
+        {
+          "timestamp": "9:27",
+          "seconds": 567,
+          "title": "銀猫",
+          "titleRaw": "銀猫",
+          "artist": "天野月子",
+          "artistRaw": "天野月子",
+          "url": "https://youtu.be/qcvGy_jTUco?t=567"
+        },
+        {
+          "timestamp": "17:12",
+          "seconds": 1032,
+          "title": "三日月",
+          "titleRaw": "三日月",
+          "artist": "絢香",
+          "artistRaw": "絢香",
+          "url": "https://youtu.be/qcvGy_jTUco?t=1032"
+        },
+        {
+          "timestamp": "24:45",
+          "seconds": 1485,
+          "title": "give it back",
+          "titleRaw": "give it back",
+          "artist": "Cö shu Nie",
+          "artistRaw": "Cö shu Nie",
+          "url": "https://youtu.be/qcvGy_jTUco?t=1485"
+        }
+      ],
+      "sourceCommentId": "issue#140",
       "type": "stream"
     }
   ]
