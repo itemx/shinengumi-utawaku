@@ -1629,40 +1629,40 @@
       "publishedAt": "2026-10-19T01:35:09Z",
       "songs": [
         {
-          "timestamp": "4:17",
-          "seconds": 257,
+          "timestamp": "4:14",
+          "seconds": 254,
           "title": "丸の内サディスティック",
           "titleRaw": "丸の内サディスティック",
           "artist": "椎名林檎",
           "artistRaw": "椎名林檎",
-          "url": "https://youtu.be/qcvGy_jTUco?t=257"
+          "url": "https://youtu.be/qcvGy_jTUco?t=254"
         },
         {
-          "timestamp": "9:27",
-          "seconds": 567,
+          "timestamp": "9:40",
+          "seconds": 580,
           "title": "銀猫",
           "titleRaw": "銀猫",
           "artist": "天野月子",
           "artistRaw": "天野月子",
-          "url": "https://youtu.be/qcvGy_jTUco?t=567"
+          "url": "https://youtu.be/qcvGy_jTUco?t=580"
         },
         {
-          "timestamp": "17:12",
-          "seconds": 1032,
+          "timestamp": "17:13",
+          "seconds": 1033,
           "title": "三日月",
           "titleRaw": "三日月",
           "artist": "絢香",
           "artistRaw": "絢香",
-          "url": "https://youtu.be/qcvGy_jTUco?t=1032"
+          "url": "https://youtu.be/qcvGy_jTUco?t=1033"
         },
         {
-          "timestamp": "24:45",
-          "seconds": 1485,
+          "timestamp": "24:50",
+          "seconds": 1490,
           "title": "give it back",
           "titleRaw": "give it back",
           "artist": "Cö shu Nie",
           "artistRaw": "Cö shu Nie",
-          "url": "https://youtu.be/qcvGy_jTUco?t=1485"
+          "url": "https://youtu.be/qcvGy_jTUco?t=1490"
         }
       ],
       "sourceCommentId": "issue#140",
