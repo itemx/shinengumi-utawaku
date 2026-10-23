@@ -8,11 +8,18 @@ const meta = getSongMeta();
 
 const pool = all.map((s) => {
   const m = meta.get(`${s.title}\t${s.artist}`);
+  // チャンネルごとの最後に歌った日。キーがそのまま「歌ったことのあるチャンネル」になる
+  const last: Record<string, string> = {};
+  for (const a of s.appearances) {
+    const d = a.date.slice(0, 10);
+    if (!last[a.channelName] || d > last[a.channelName]) last[a.channelName] = d;
+  }
   return {
     title: s.title,
     artist: s.artist,
     count: s.count,
-    channels: [...new Set(s.appearances.map((a) => a.channelName))],
+    last,
+    lastAll: Object.values(last).reduce((x, y) => (y > x ? y : x), ""),
     tags: m?.tags ?? [],
     dur: m?.durationSec ?? null,
   };
@@ -24,7 +31,7 @@ const avgDur = durations.length
   : 270;
 
 const allTags = [...new Set(pool.flatMap((s) => s.tags))].sort();
-const allChannels = [...new Set(pool.flatMap((s) => s.channels))].sort();
+const allChannels = [...new Set(pool.flatMap((s) => Object.keys(s.last)))].sort();
 const metaFilled = pool.filter((s) => s.tags.length || s.dur).length;
 
 // 只在 inline script 需要的訊息（無對應 DOM 元素可讀，故直接帶兩種語言）
@@ -65,6 +72,15 @@ const msgs = Object.fromEntries(
         <select id="channel" class="px-3 py-2 border border-border rounded-md text-sm">
           <option value="" data-i18n="plan.all_channels">全部頻道</option>
           {allChannels.map((c) => <option value={c}>{c}</option>)}
+        </select>
+        <!-- 最近歌った曲を外す。頻道を選んでいればそのチャンネルで最後に歌った日で判定する。
+             補滿／重新抽選も filtered() を使うので、この条件がそのまま効く -->
+        <select id="since" class="px-3 py-2 border border-border rounded-md text-sm">
+          <option value="" data-i18n="plan.since_any">不限演唱時間</option>
+          <option value="1" data-i18n="plan.since_1m">1 個月以上沒唱</option>
+          <option value="3" data-i18n="plan.since_3m">3 個月以上沒唱</option>
+          <option value="6" data-i18n="plan.since_6m">半年以上沒唱</option>
+          <option value="12" data-i18n="plan.since_12m">1 年以上沒唱</option>
         </select>
       </div>
 
@@ -159,6 +175,7 @@ const msgs = Object.fromEntries(
     var poolEl = document.getElementById("pool");
     var q = document.getElementById("q");
     var channelSel = document.getElementById("channel");
+    var sinceSel = document.getElementById("since");
 
     function kana(s){ return s.replace(/[ァ-ヶ]/g, function(c){ return String.fromCharCode(c.charCodeAt(0)-0x60); }); }
     // 発音記号を落として traumerei でも träumerei に当たるようにする。
@@ -170,12 +187,24 @@ const msgs = Object.fromEntries(
     // 清單總長: 時:分 (例 7260 -> 2:01)
     function fmtHM(sec){ var m=Math.round(sec/60), h=Math.floor(m/60); m=m%60; return h+":"+String(m).padStart(2,"0"); }
 
+    /** 最後に歌った日。頻道を選んでいればそのチャンネルでの日付 */
+    function lastOf(s){ var ch=channelSel.value; return ch ? (s.last[ch]||"") : s.lastAll; }
+    /** 「N ヶ月以上歌っていない」の境目（YYYY-MM-DD）。これより後に歌った曲は外す */
+    function sinceCutoff(){
+      var m=parseInt(sinceSel.value,10);
+      if (!m) return "";
+      var d=new Date(); d.setMonth(d.getMonth()-m);
+      return d.toISOString().slice(0,10);
+    }
+
     function filtered(){
       var text = norm(q.value.trim());
       var ch = channelSel.value;
+      var cutoff = sinceCutoff();
       return pool.map(function(s,i){ return {s:s,i:i}; }).filter(function(o){
         var s=o.s;
-        if (ch && s.channels.indexOf(ch)<0) return false;
+        if (ch && !s.last[ch]) return false;
+        if (cutoff && lastOf(s) > cutoff) return false;
         if (activeTags.size){ var hit=false; s.tags.forEach(function(t){ if(activeTags.has(t)) hit=true; }); if(!hit) return false; }
         if (text){ if (norm(s.title).indexOf(text)<0 && norm(s.artist).indexOf(text)<0) return false; }
         return true;
@@ -191,12 +220,16 @@ const msgs = Object.fromEntries(
         var li=document.createElement("li");
         li.className="flex items-center gap-2 px-3 py-1.5 cursor-pointer hover:bg-pink-50"+(on?" bg-pink-50":"");
         li.innerHTML='<input type="checkbox" '+(on?"checked":"")+' class="pointer-events-none">'+
-          '<span class="flex-1 text-sm"><span class="font-medium">'+esc(s.title)+'</span>'+
+          '<span class="flex-1 min-w-0 text-sm"><span class="font-medium">'+esc(s.title)+'</span>'+
           (s.artist?' <span class="text-text-muted">/ '+esc(s.artist)+'</span>':'')+
           (s.dur?' <span class="text-xs text-text-muted">('+fmtMS(s.dur)+')</span>':'')+'</span>'+
-          (s.tags.length?'<span class="text-[10px] text-purple">'+s.tags.map(function(t){
-            return '<span data-i18n="tag.'+esc(t)+'">'+esc(t)+'</span>';
-          }).join(" ")+'</span>':'');
+          // tag と最後に歌った日は右端に縦に積む（横に並べるとスマホで日付が画面外に出た）
+          '<span class="shrink-0 flex flex-col items-end leading-tight">'+
+            (s.tags.length?'<span class="text-[10px] text-purple">'+s.tags.map(function(t){
+              return '<span data-i18n="tag.'+esc(t)+'">'+esc(t)+'</span>';
+            }).join(" ")+'</span>':'')+
+            '<span class="text-[11px] text-text-muted tabular-nums" title="'+esc(txt("plan.last_sung","最後演唱"))+'">'+esc(lastOf(s))+'</span>'+
+          '</span>';
         li.onclick=function(){ toggle(i); };
         poolEl.appendChild(li);
       });
@@ -270,7 +303,8 @@ const msgs = Object.fromEntries(
             '<span class="block truncate">'+esc(s.title)+
               (s.dur?' <span class="text-[10px] text-text-muted font-normal">('+fmtMS(s.dur)+')</span>':'')+
             '</span>'+
-            (s.artist?'<span class="block truncate text-xs text-text-muted">'+esc(s.artist)+'</span>':'')+
+            '<span class="block truncate text-xs text-text-muted">'+esc(s.artist)+
+              (s.artist?' · ':'')+'<span class="tabular-nums">'+esc(lastOf(s))+'</span></span>'+
           '</span>'+
           '<button data-act="up" class="px-1 py-0.5 text-text-muted hover:text-primary text-xs disabled:opacity-25" title="上移">▲</button>'+
           '<button data-act="down" class="px-1 py-0.5 text-text-muted hover:text-primary text-xs disabled:opacity-25" title="下移">▼</button>'+
@@ -374,7 +408,8 @@ const msgs = Object.fromEntries(
     }
 
     q.addEventListener("input", renderPool);
-    channelSel.addEventListener("change", renderPool);
+    channelSel.addEventListener("change", function(){ renderPool(); renderSelected(); });
+    sinceSel.addEventListener("change", renderPool);
     document.getElementById("target").addEventListener("input", renderSelected);
     document.querySelectorAll(".tag-chip").forEach(function(b){
       b.onclick=function(){
