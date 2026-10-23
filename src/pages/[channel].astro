@@ -4,7 +4,7 @@ import SongTable from "../components/SongTable.astro";
 import VideoCard from "../components/VideoCard.astro";
 import CoverCard from "../components/CoverCard.astro";
 import StatsBar from "../components/StatsBar.astro";
-import { getChannels, getChannelData, getStats, getVideosByType, getMissingSetlists, getSongMeta } from "../lib/data";
+import { getChannels, getChannelData, getStats, getVideosByType, getMissingSetlists } from "../lib/data";
 
 export function getStaticPaths() {
   const channels = getChannels();
@@ -23,7 +23,6 @@ const config = channels.find((c) => c.channelId === channelId);
 
 const { streams, shorts, covers } = getVideosByType(data);
 const missing = getMissingSetlists(channelId);
-const songMeta = getSongMeta();
 
 // 歌曲統計 (用於曲目 tab)
 const songMap = new Map<string, {
@@ -88,19 +87,105 @@ const sortedCovers = [...covers].sort((a, b) => b.publishedAt.localeCompare(a.pu
     </button>
   </div>
 
-  <!-- Shuffle data -->
-  <script is:inline define:vars={{ allSongs: data.videos.flatMap(v => v.songs.filter(s => s.seconds > 0).map(s => ({ videoId: v.videoId, start: s.seconds, title: s.title, artist: s.artist, date: v.publishedAt.slice(0, 10), dur: songMeta.get(`${s.title}\t${s.artist}`)?.durationSec ?? null }))) }}>
-    document.getElementById('btn-shuffle')?.addEventListener('click', () => {
-      if (!allSongs.length) return;
-      // Fisher-Yates（sort(() => Math.random() - 0.5) 分佈不均）
-      const tracks = allSongs.slice();
-      for (let i = tracks.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [tracks[i], tracks[j]] = [tracks[j], tracks[i]];
+  <!-- セトリと演唱紀錄は HTML に書かず、/ch/{id}.json を 1 回取って開いたときに描く。
+       全部書くと 1 ページ 9 MB を超えていた（ほとんど閉じた <details> の中身） -->
+  <script is:inline define:vars={{ channelId }}>
+    (function () {
+      var dataP = fetch("/ch/" + channelId + ".json").then(function (r) { return r.json(); });
+      var byVideo = null, bySong = null;
+
+      function esc(s) {
+        return String(s).replace(/[&<>"]/g, function (c) {
+          return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+        });
       }
-      // 播整個洗好的佇列，而非只播一首
-      if (window.__playQueue) window.__playQueue(tracks, 0);
-    });
+      /** 配信内の位置。lib/format.ts の formatTimestamp と同じ表記 */
+      function fmtTs(sec) {
+        if (!sec) return "";
+        var h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60;
+        var ss = String(s).padStart(2, "0");
+        return h ? h + ":" + String(m).padStart(2, "0") + ":" + ss : m + ":" + ss;
+      }
+      /** PlayerBar が拾う再生リンク（data-play）。JS が無くても YouTube に飛べる */
+      function playLink(j, vid, sec, title, artist, date, text, cls) {
+        var dur = j.d[title + "\t" + artist] || "";
+        return '<a href="https://youtu.be/' + esc(vid) + (sec ? "?t=" + sec : "") + '" target="_blank" rel="noopener" data-play'
+          + ' data-video-id="' + esc(vid) + '" data-start="' + sec + '" data-title="' + esc(title) + '"'
+          + ' data-artist="' + esc(artist) + '" data-date="' + esc(date) + '" data-duration="' + dur + '"'
+          + ' class="' + cls + '">' + esc(text) + "</a>";
+      }
+      function copyBtn(title) {
+        return '<button type="button" data-copy="' + esc(title) + '" title="複製 / コピー" aria-label="Copy" class="copy-btn"></button>';
+      }
+
+      function renderSetlist(j, box) {
+        if (!byVideo) { byVideo = {}; j.v.forEach(function (v) { byVideo[v[0]] = v; }); }
+        var v = byVideo[box.dataset.setlist];
+        if (!v) return;
+        box.innerHTML = v[3].map(function (s) {
+          return '<div class="flex items-center gap-2 text-sm">'
+            + '<span class="w-14 text-text-muted text-xs shrink-0 text-right">' + esc(s[0]) + "</span>"
+            + playLink(j, v[0], s[1], s[2], s[3], v[2], s[2], "text-primary hover:text-primary-dark")
+            + (s[3] ? '<span class="text-text-muted text-xs">/ ' + esc(s[3]) + "</span>" : "")
+            + copyBtn(s[2]) + "</div>";
+        }).join("");
+      }
+
+      function renderApps(j, box) {
+        if (!bySong) {
+          bySong = {};
+          j.v.forEach(function (v) {
+            v[3].forEach(function (s) {
+              var k = s[2] + "\t" + s[3];
+              (bySong[k] = bySong[k] || []).push([v[0], v[1], v[2], s[1]]);
+            });
+          });
+          for (var k in bySong) bySong[k].sort(function (a, b) { return a[2] < b[2] ? 1 : a[2] > b[2] ? -1 : 0; });
+        }
+        var key = box.closest("[data-key]").dataset.key, kv = key.split("\t");
+        box.innerHTML = (bySong[key] || []).map(function (a) {
+          var ts = fmtTs(a[3]);
+          return '<div class="flex items-center gap-2 text-xs text-text-muted">'
+            + '<span class="w-20 shrink-0">' + esc(a[2]) + "</span>"
+            + playLink(j, a[0], a[3], kv[0], kv[1], a[2], a[1].slice(0, 40), "text-primary hover:text-primary-dark truncate")
+            + (ts ? '<span class="shrink-0 font-mono text-text-muted/60">' + ts + "</span>" : "")
+            + "</div>";
+        }).join("");
+      }
+
+      // <details> の toggle は泡立たないので capture で拾う
+      document.addEventListener("toggle", function (e) {
+        var d = e.target;
+        if (!d.open) return;
+        var box = d.querySelector("[data-setlist], [data-apps]");
+        if (!box || box.dataset.done) return;
+        box.dataset.done = "1";
+        box.innerHTML = '<span class="text-xs text-text-muted">…</span>';
+        dataP.then(function (j) {
+          if (box.hasAttribute("data-setlist")) renderSetlist(j, box); else renderApps(j, box);
+        }).catch(function () { box.textContent = "⚠"; delete box.dataset.done; });
+      }, true);
+
+      document.getElementById("btn-shuffle").addEventListener("click", function () {
+        dataP.then(function (j) {
+          var tracks = [];
+          j.v.forEach(function (v) {
+            v[3].forEach(function (s) {
+              if (s[1] > 0) tracks.push({ videoId: v[0], start: s[1], title: s[2], artist: s[3],
+                                          date: v[2], dur: j.d[s[2] + "\t" + s[3]] || null });
+            });
+          });
+          if (!tracks.length) return;
+          // Fisher-Yates（sort(() => Math.random() - 0.5) 分佈不均）
+          for (var i = tracks.length - 1; i > 0; i--) {
+            var r = Math.floor(Math.random() * (i + 1));
+            var t = tracks[i]; tracks[i] = tracks[r]; tracks[r] = t;
+          }
+          // 播整個洗好的佇列，而非只播一首
+          if (window.__playQueue) window.__playQueue(tracks, 0);
+        });
+      });
+    })();
   </script>
 
   <!-- Tabs -->
@@ -148,7 +233,8 @@ const sortedCovers = [...covers].sort((a, b) => b.publishedAt.localeCompare(a.pu
   </div>
 
   <!-- Tab: 直播 -->
-  <section id="tab-streams" class="tab-content">
+  <!-- data-queue: 曲をクリックしたとき、連続再生はこのタブの中だけで続ける -->
+  <section id="tab-streams" class="tab-content" data-queue>
     <div class="space-y-3">
       {sortedStreams.map((video) => (
         <VideoCard video={video} />
@@ -157,7 +243,7 @@ const sortedCovers = [...covers].sort((a, b) => b.publishedAt.localeCompare(a.pu
   </section>
 
   <!-- Tab: 投稿動畫 -->
-  <section id="tab-covers" class="tab-content hidden">
+  <section id="tab-covers" class="tab-content hidden" data-queue>
     <div class="space-y-2">
       {sortedCovers.map((video) => (
         <CoverCard video={video} />
@@ -166,7 +252,7 @@ const sortedCovers = [...covers].sort((a, b) => b.publishedAt.localeCompare(a.pu
   </section>
 
   <!-- Tab: Short -->
-  <section id="tab-shorts" class="tab-content hidden">
+  <section id="tab-shorts" class="tab-content hidden" data-queue>
     <div class="grid gap-2 sm:grid-cols-2">
       {sortedShorts.map((video) => (
         <CoverCard video={video} />
@@ -175,7 +261,7 @@ const sortedCovers = [...covers].sort((a, b) => b.publishedAt.localeCompare(a.pu
   </section>
 
   <!-- Tab: 全曲目 -->
-  <section id="tab-songs" class="tab-content hidden">
+  <section id="tab-songs" class="tab-content hidden" data-queue>
     <SongTable songs={songStats} />
   </section>
 

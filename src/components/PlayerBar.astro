@@ -441,10 +441,12 @@ for (const ch of channels) {
   function playNext() { if (hasNext()) { skipOnError = true; playAt(queueIdx + 1); } }
   function playPrev() { if (hasPrev()) { skipOnError = true; playAt(queueIdx - 1); } }
 
-  /** 從 DOM 收集所有 [data-play] 建立佇列，並算出每首的結束點。
-   *  同影片內下一首的 start 即為本首結束點；否則用 data-duration。 */
+  /** 從 DOM 收集 [data-play] 建立佇列，並算出每首的結束點。
+   *  同影片內下一首的 start 即為本首結束點；否則用 data-duration。
+   *  [data-queue] の中で押されたらその範囲だけ（チャンネルページのタブ単位）。 */
   function buildQueue(clicked) {
-    var links = Array.prototype.slice.call(document.querySelectorAll("[data-play]"));
+    var scope = clicked.closest("[data-queue]") || document;
+    var links = Array.prototype.slice.call(scope.querySelectorAll("[data-play]"));
     queue = links.map(function(el) {
       return {
         videoId: el.dataset.videoId || "",

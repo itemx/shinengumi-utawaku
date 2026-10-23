@@ -1,9 +1,8 @@
 ---
 /**
  * 歌曲表格 — 顯示不重複歌曲列表，可搜尋、展開演唱紀錄。
+ * 演唱紀錄は開いたときに /ch/{channelId}.json から描く（[channel].astro の script）。
  */
-import { formatTimestamp, extractSeconds } from "../lib/format";
-import { getSongMeta } from "../lib/data";
 interface SongStat {
   title: string;
   artist: string;
@@ -22,15 +21,11 @@ interface Props {
 }
 
 const { songs, showSearch = true } = Astro.props;
-const songMeta = getSongMeta();
 
 // 最後に歌った日。並べ替えキーと表示の両方に使う
 const lastSung = (s: SongStat) =>
   s.appearances.reduce((m, a) => (a.date > m ? a.date : m), "").slice(0, 10);
 
-// 見出しと各行の summary で同じ列幅を使う（行は colspan の 1 セルなので table の列では揃わない）
-// スマホでは曲名が潰れるので、歌手を細くして日付は年の上 2 桁を省く
-const COLS = "grid grid-cols-[minmax(0,1fr)_minmax(0,0.5fr)_3.75rem_2.25rem] sm:grid-cols-[minmax(0,1fr)_minmax(0,0.7fr)_5.5rem_2.5rem] gap-2 items-center";
 ---
 
 {showSearch && (
@@ -52,7 +47,7 @@ const COLS = "grid grid-cols-[minmax(0,1fr)_minmax(0,0.5fr)_3.75rem_2.25rem] sm:
       <tr class="border-b-2 border-primary/20 text-left">
         <th class="py-2 px-2 font-medium">
           <!-- 押すと並べ替え。同じ列をもう一度押すと昇順/降順が入れ替わる -->
-          <div class={COLS} id="song-sort">
+          <div class="st-grid" id="song-sort">
             <button type="button" data-sort="title" class="sort-btn cursor-pointer text-left hover:text-primary"><span data-i18n="table.song">曲名</span><span class="sort-ind"></span></button>
             <button type="button" data-sort="artist" class="sort-btn cursor-pointer text-left hover:text-primary"><span data-i18n="table.artist">歌手</span><span class="sort-ind"></span></button>
             <button type="button" data-sort="last" class="sort-btn cursor-pointer text-left hover:text-primary text-xs"><span data-i18n="table.last_sung">最後演唱</span><span class="sort-ind"></span></button>
@@ -62,65 +57,26 @@ const COLS = "grid grid-cols-[minmax(0,1fr)_minmax(0,0.5fr)_3.75rem_2.25rem] sm:
       </tr>
     </thead>
     <tbody id="song-tbody">
-      {songs.map((song) => (
-        <tr
-          class="border-b border-border hover:bg-primary/5 song-row"
-          data-title={song.title.toLowerCase()}
-          data-artist={song.artist.toLowerCase()}
-          data-last={lastSung(song)}
-          data-count={song.count}
-        >
-          <td class="py-2 px-2">
-            <details>
-              <summary class="cursor-pointer flex">
-                <div class={`flex-1 ${COLS}`}>
-                  <span class="flex items-center gap-1 min-w-0">
-                    <span class="font-medium truncate">{song.title}</span>
-                    <button type="button" data-copy={song.title} title="複製 / コピー"
-                      class="copy-btn shrink-0 p-0.5 rounded text-text-muted/50 hover:text-primary hover:bg-primary/10">
-                      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2" /><path d="M5 15V5a2 2 0 012-2h10" /></svg>
-                    </button>
-                  </span>
-                  <span class="text-text-muted truncate text-xs">{song.artist}</span>
-                  <span class="text-text-muted text-xs tabular-nums"><span class="hidden sm:inline">{lastSung(song).slice(0, 2)}</span>{lastSung(song).slice(2)}</span>
-                  <span class="justify-self-center inline-flex items-center justify-center w-8 h-6 rounded-full bg-primary/10 text-primary text-xs font-bold">
-                    {song.count}
-                  </span>
-                </div>
-              </summary>
-              <div class="mt-2 ml-4 mb-2 space-y-1">
-                {song.appearances
-                  .sort((a, b) => b.date.localeCompare(a.date))
-                  .map((app) => (
-                    <div class="flex items-center gap-2 text-xs text-text-muted">
-                      <span class="w-20 shrink-0">{app.date.slice(0, 10)}</span>
-                      <a
-                        href={app.url}
-                        target="_blank"
-                        rel="noopener"
-                        data-play
-                        data-video-id={app.videoId}
-                        data-start={new URL(app.url).searchParams.get("t") || "0"}
-                        data-title={song.title}
-                        data-artist={song.artist}
-                        data-date={app.date.slice(0, 10)}
-                        data-duration={String(songMeta.get(`${song.title}\t${song.artist}`)?.durationSec ?? "")}
-                        class="text-primary hover:text-primary-dark truncate"
-                      >
-                        {app.videoTitle.slice(0, 40)}
-                      </a>
-                      {(() => {
-                        const secs = extractSeconds(app.url);
-                        const ts = formatTimestamp(secs);
-                        return ts ? <span class="shrink-0 font-mono text-text-muted/60">{ts}</span> : null;
-                      })()}
-                    </div>
-                  ))}
-              </div>
-            </details>
-          </td>
-        </tr>
-      ))}
+      {songs.map((song) => {
+        // 1 チャンネル 1000 行を超えるので、行の中身は短い class にして下の <style> で当てる
+        // （Tailwind の class を各行に書くと 1 行 1 KB、1 ページ 1.3 MB になっていた）
+        const last = lastSung(song);
+        return (
+          <tr class="song-row" data-key={`${song.title}\t${song.artist}`} data-last={last} data-count={song.count}>
+            <td>
+              <details>
+                <summary class="st-grid">
+                  <span class="st-t"><b>{song.title}</b><button type="button" data-copy={song.title} title="複製 / コピー" class="copy-btn"></button></span>
+                  <span class="st-a">{song.artist}</span>
+                  <span class="st-d"><span>{last.slice(0, 2)}</span>{last.slice(2)}</span>
+                  <span class="st-n">{song.count}</span>
+                </summary>
+                <div data-apps class="st-apps"></div>
+              </details>
+            </td>
+          </tr>
+        );
+      })}
     </tbody>
   </table>
 </div>
@@ -129,6 +85,12 @@ const COLS = "grid grid-cols-[minmax(0,1fr)_minmax(0,0.5fr)_3.75rem_2.25rem] sm:
   // 並べ替え。初期表示は回数の多い順（getAllSongs / [channel] の並びと同じ）
   const tbody = document.getElementById("song-tbody")!;
   const all = Array.from(tbody.querySelectorAll<HTMLElement>(".song-row"));
+  // 曲名・歌手の比較用キーは data-key から作る（行ごとに属性で持つと HTML が膨らむ）
+  all.forEach((r) => {
+    const [t, a = ""] = r.dataset.key!.split("\t");
+    r.dataset.title = t.toLowerCase();
+    r.dataset.artist = a.toLowerCase();
+  });
   // 初めて押した列の向き。文字列は昇順、日付と回数は「新しい / 多い」順から
   const FIRST_DIR: Record<string, 1 | -1> = { title: 1, artist: 1, last: -1, count: -1 };
   let key = "count", dir: 1 | -1 = -1;
@@ -204,3 +166,35 @@ const COLS = "grid grid-cols-[minmax(0,1fr)_minmax(0,0.5fr)_3.75rem_2.25rem] sm:
     });
   </script>
 )}
+
+<style is:global>
+  /* 見出しと各行で同じ列幅（行は 1 セルの中の grid なので table の列では揃わない）。
+     スマホでは曲名が潰れるので、歌手を細くして日付は年の上 2 桁を省く */
+  .st-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.5fr) 3.75rem 2.25rem;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  @media (min-width: 40rem) {
+    .st-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 0.7fr) 5.5rem 2.5rem; }
+  }
+  .song-row { border-bottom: 1px solid var(--color-border); }
+  .song-row:hover { background: color-mix(in srgb, var(--color-primary) 5%, transparent); }
+  .song-row > td { padding: 0.5rem; }
+  .song-row summary { cursor: pointer; list-style: none; }
+  .song-row summary::-webkit-details-marker { display: none; }
+  .st-t { display: flex; align-items: center; gap: 0.25rem; min-width: 0; }
+  .st-t b { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .st-a, .st-d { color: var(--color-text-muted); font-size: 0.75rem; }
+  .st-a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .st-d { font-variant-numeric: tabular-nums; }
+  .st-d > span { display: none; }
+  @media (min-width: 40rem) { .st-d > span { display: inline; } }
+  .st-n {
+    justify-self: center; display: inline-flex; align-items: center; justify-content: center;
+    width: 2rem; height: 1.5rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 700;
+    color: var(--color-primary); background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+  }
+  .st-apps { margin: 0.5rem 0 0.5rem 1rem; display: grid; gap: 0.25rem; }
+</style>
