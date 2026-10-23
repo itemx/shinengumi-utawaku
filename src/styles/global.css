@@ -39,10 +39,13 @@
   .copy-btn {
     --ic-copy: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2'%3E%3Crect x='9' y='9' width='11' height='11' rx='2'/%3E%3Cpath d='M5 15V5a2 2 0 012-2h10'/%3E%3C/svg%3E");
     --ic-check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5'%3E%3Cpath d='M5 13l4 4L19 7'/%3E%3C/svg%3E");
+    --ic-x: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5'%3E%3Cpath d='M6 6l12 12M18 6L6 18'/%3E%3C/svg%3E");
     display: inline-grid;
     place-items: center;
     flex-shrink: 0;
-    padding: 0.125rem;
+    /* アイコン 14px に対して押せる範囲は 22px。小さすぎて曲名を押してしまうことがあった */
+    padding: 0.25rem;
+    margin: -0.125rem 0;
     border-radius: 0.25rem;
     cursor: pointer;
     color: color-mix(in srgb, var(--color-text-muted) 50%, transparent);
@@ -60,6 +63,11 @@
     mask: var(--ic-copy) center / contain no-repeat;
   }
   .copy-btn.copied { color: var(--color-primary); }
+  .copy-btn.copy-failed { color: #dc2626; }
+  .copy-btn.copy-failed::before {
+    -webkit-mask-image: var(--ic-x);
+    mask-image: var(--ic-x);
+  }
   .copy-btn.copied::before {
     -webkit-mask-image: var(--ic-check);
     mask-image: var(--ic-check);

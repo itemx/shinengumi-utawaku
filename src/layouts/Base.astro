@@ -107,17 +107,39 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
 
     <script is:inline>
       // 曲名の横の複製ボタン（VideoCard / SongTable）。<summary> の中にもあるので
-      // preventDefault で開閉を止める。押したら一瞬 ✓ にして効いたことを見せる（見た目は global.css）
+      // preventDefault で開閉を止める。結果は一瞬 ✓（成功）/ ✕（失敗）で見せる（見た目は global.css）。
+      // 失敗を黙って握りつぶすと、剪貼簿に前の文字が残ったまま「別の曲がコピーされた」ように見える
+      function legacyCopy(text) {
+        // navigator.clipboard が無い（http の LAN IP 等）か拒否されたときの代替
+        var ta = document.createElement("textarea");
+        ta.value = text;
+        ta.setAttribute("readonly", "");
+        ta.style.cssText = "position:fixed;top:0;left:0;opacity:0";
+        document.body.appendChild(ta);
+        ta.select();
+        var ok = false;
+        try { ok = document.execCommand("copy"); } catch (_) {}
+        ta.remove();
+        return ok;
+      }
+      function flash(b, cls) {
+        b.classList.remove("copied", "copy-failed");
+        b.classList.add(cls);
+        clearTimeout(b._t);
+        b._t = setTimeout(function () { b.classList.remove(cls); }, cls === "copied" ? 900 : 1600);
+      }
       document.addEventListener("click", function (e) {
         var b = e.target.closest && e.target.closest("[data-copy]");
         if (!b) return;
         e.preventDefault();
         e.stopPropagation();
-        navigator.clipboard.writeText(b.dataset.copy).then(function () {
-          b.classList.add("copied");
-          clearTimeout(b._t);
-          b._t = setTimeout(function () { b.classList.remove("copied"); }, 900);
-        }).catch(function () {});
+        var text = b.dataset.copy;
+        var fallback = function () { flash(b, legacyCopy(text) ? "copied" : "copy-failed"); };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(function () { flash(b, "copied"); }, fallback);
+        } else {
+          fallback();
+        }
       });
     </script>
 
