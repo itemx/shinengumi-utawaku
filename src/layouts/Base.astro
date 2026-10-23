@@ -107,7 +107,7 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
 
     <script is:inline>
       // 曲名の横の複製ボタン（VideoCard / SongTable）。<summary> の中にもあるので
-      // preventDefault で開閉を止める。結果はアイコンの右横に「已複製 / 複製失敗」と出す（見た目は global.css）。
+      // preventDefault で開閉を止める。結果はアイコンの上に吹き出しで出す（見た目は global.css）。
       // 失敗を黙って握りつぶすと、剪貼簿に前の文字が残ったまま「別の曲がコピーされた」ように見える
       function legacyCopy(text) {
         // navigator.clipboard が無い（http の LAN IP 等）か拒否されたときの代替
@@ -123,6 +123,7 @@ const siteTitle = title === "SEG-V UtaList" ? title : `${title} | SEG-V UtaList`
         return ok;
       }
       function flash(b, cls) {
+        if (!b.querySelector(".copy-tip")) b.insertAdjacentHTML("beforeend", '<span class="copy-tip" aria-live="polite"></span>');
         b.classList.remove("copied", "copy-failed");
         b.classList.add(cls);
         clearTimeout(b._t);

@@ -35,8 +35,7 @@
 
 /* 曲名の横の複製ボタン。アイコンを行ごとに <svg> で埋めると 1 ページ 2850 個・0.5 MB に
    なっていたので、CSS の mask で 1 回だけ定義する。
-   押した結果（.copied / .copy-failed）はアイコンを替えずに、右横に小さく文字で出す。
-   absolute なので行の並びは動かない */
+   押した結果（.copied / .copy-failed）はアイコンを替えずに、上に吹き出しで出す */
 @layer components {
   .copy-btn {
     --ic-copy: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2'%3E%3Crect x='9' y='9' width='11' height='11' rx='2'/%3E%3Cpath d='M5 15V5a2 2 0 012-2h10'/%3E%3C/svg%3E");
@@ -63,32 +62,40 @@
     -webkit-mask: var(--ic-copy) center / contain no-repeat;
     mask: var(--ic-copy) center / contain no-repeat;
   }
-  .copy-btn.copied::after,
-  .copy-btn.copy-failed::after {
+  /* 結果の吹き出し。<span class="copy-tip"> は押したときに JS が 1 個だけ足す。
+     アイコンの真上に浮かせるので、同じ行の歌手や日付の幅を取らない */
+  .copy-tip {
+    display: none;
     position: absolute;
-    left: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 0.25rem;
-    padding: 0 0.375rem;
-    border-radius: 9999px;
+    bottom: calc(100% + 6px);
+    left: -0.375rem;              /* 左端を揃える（中央寄せだと短い曲名でスマホの画面外に出る） */
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.375rem;
     font-size: 0.6875rem;
     line-height: 1.25rem;
     font-weight: 500;
     white-space: nowrap;
+    color: #fff;
+    background: var(--color-primary);
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.15);
     pointer-events: none;
-    z-index: 1;
+    z-index: 20;
   }
-  .copy-btn.copied::after {
-    content: "✓ 已複製";
-    color: var(--color-primary);
-    background: #fde7f2;
+  .copy-tip::after {              /* 下向きの小さな三角 */
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0.75rem;                /* アイコンの中心を指す */
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: var(--color-primary);
   }
-  .copy-btn.copy-failed::after {
-    content: "✕ 複製失敗";
-    color: #b91c1c;
-    background: #fee2e2;
-  }
-  html[lang="ja"] .copy-btn.copied::after { content: "✓ コピーしました"; }
-  html[lang="ja"] .copy-btn.copy-failed::after { content: "✕ コピー失敗"; }
+  .copy-tip::before { content: "✓ 已複製"; }
+  .copy-btn.copied .copy-tip,
+  .copy-btn.copy-failed .copy-tip { display: block; }
+  .copy-btn.copy-failed .copy-tip { background: #dc2626; }
+  .copy-btn.copy-failed .copy-tip::after { border-top-color: #dc2626; }
+  .copy-btn.copy-failed .copy-tip::before { content: "✕ 複製失敗"; }
+  html[lang="ja"] .copy-tip::before { content: "✓ コピーしました"; }
+  html[lang="ja"] .copy-btn.copy-failed .copy-tip::before { content: "✕ コピー失敗"; }
 }
