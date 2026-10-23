@@ -53,10 +53,10 @@ const COLS = "grid grid-cols-[minmax(0,1fr)_minmax(0,0.5fr)_3.75rem_2.25rem] sm:
         <th class="py-2 px-2 font-medium">
           <!-- 押すと並べ替え。同じ列をもう一度押すと昇順/降順が入れ替わる -->
           <div class={COLS} id="song-sort">
-            <button type="button" data-sort="title" class="sort-btn text-left hover:text-primary"><span data-i18n="table.song">曲名</span><span class="sort-ind"></span></button>
-            <button type="button" data-sort="artist" class="sort-btn text-left hover:text-primary"><span data-i18n="table.artist">歌手</span><span class="sort-ind"></span></button>
-            <button type="button" data-sort="last" class="sort-btn text-left hover:text-primary text-xs"><span data-i18n="table.last_sung">最後演唱</span><span class="sort-ind"></span></button>
-            <button type="button" data-sort="count" class="sort-btn text-center hover:text-primary text-xs"><span data-i18n="table.count">次數</span><span class="sort-ind"></span></button>
+            <button type="button" data-sort="title" class="sort-btn cursor-pointer text-left hover:text-primary"><span data-i18n="table.song">曲名</span><span class="sort-ind"></span></button>
+            <button type="button" data-sort="artist" class="sort-btn cursor-pointer text-left hover:text-primary"><span data-i18n="table.artist">歌手</span><span class="sort-ind"></span></button>
+            <button type="button" data-sort="last" class="sort-btn cursor-pointer text-left hover:text-primary text-xs"><span data-i18n="table.last_sung">最後演唱</span><span class="sort-ind"></span></button>
+            <button type="button" data-sort="count" class="sort-btn cursor-pointer text-center hover:text-primary text-xs"><span data-i18n="table.count">次數</span><span class="sort-ind"></span></button>
           </div>
         </th>
       </tr>
@@ -146,7 +146,10 @@ const COLS = "grid grid-cols-[minmax(0,1fr)_minmax(0,0.5fr)_3.75rem_2.25rem] sm:
     document.querySelectorAll<HTMLElement>("#song-sort .sort-btn").forEach((b) => {
       const on = b.dataset.sort === key;
       b.classList.toggle("text-primary", on);
-      b.querySelector(".sort-ind")!.textContent = on ? (dir > 0 ? " ▲" : " ▼") : "";
+      // 未選択の列にも薄い ↕ を出して、押せる見出しだと分かるようにする
+      const ind = b.querySelector<HTMLElement>(".sort-ind")!;
+      ind.textContent = on ? (dir > 0 ? " ▲" : " ▼") : " ↕";
+      ind.classList.toggle("opacity-30", !on);
     });
   }
   document.getElementById("song-sort")!.addEventListener("click", (e) => {
