@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1586,
-  "uniqueTitles": 1556,
-  "uniqueArtists": 704,
+  "totalEntries": 1585,
+  "uniqueTitles": 1555,
+  "uniqueArtists": 702,
   "songs": [
     {
       "title": "All Alone With You",
@@ -1019,6 +1019,11 @@
       "count": 10
     },
     {
+      "title": "千本桜",
+      "artist": "黒うさP",
+      "count": 10
+    },
+    {
       "title": "夕立のりぼん",
       "artist": "みきとP",
       "count": 10
@@ -1196,11 +1201,6 @@
     {
       "title": "ライオン",
       "artist": "May'n & 中島愛",
-      "count": 9
-    },
-    {
-      "title": "千本桜",
-      "artist": "黒うさP",
       "count": 9
     },
     {
@@ -3359,7 +3359,7 @@
       "count": 3
     },
     {
-      "title": "1,000,000 TIMES feat.chelly(EGOIST)",
+      "title": "1,000,000 TIMES",
       "artist": "MY FIRST STORY",
       "count": 3
     },
@@ -5890,7 +5890,7 @@
     },
     {
       "title": "ELECT",
-      "artist": "niki feat.Lily",
+      "artist": "niki",
       "count": 1
     },
     {
@@ -6270,7 +6270,7 @@
     },
     {
       "title": "days",
-      "artist": "じん feat.Lia",
+      "artist": "じん",
       "count": 1
     },
     {
@@ -6584,7 +6584,7 @@
       "count": 1
     },
     {
-      "title": "インスタントヘヴン feat.Eve",
+      "title": "インスタントヘヴン",
       "artist": "ナナヲアカリ",
       "count": 1
     },
@@ -7324,11 +7324,6 @@
       "count": 1
     },
     {
-      "title": "千本桜 feat.初音ミク",
-      "artist": "黒うさP",
-      "count": 1
-    },
-    {
       "title": "厨病激発ボーイ",
       "artist": "れるりり",
       "count": 1
@@ -7634,7 +7629,7 @@
       "count": 1
     },
     {
-      "title": "東京サマーセッション feat.CHICO",
+      "title": "東京サマーセッション",
       "artist": "HoneyWorks",
       "count": 1
     },
@@ -8199,7 +8194,6 @@
     "mothy (悪ノP)",
     "n-buna",
     "niki",
-    "niki feat.Lily",
     "nobodyknows+",
     "nyamura",
     "orangester",
@@ -8251,7 +8245,6 @@
     "しも",
     "じっぷす",
     "じん",
-    "じん feat.Lia",
     "じーざすP",
     "すこっぷ",
     "すりぃ",

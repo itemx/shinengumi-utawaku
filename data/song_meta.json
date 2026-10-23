@@ -30,7 +30,7 @@
     "durationSec": 189
   },
   {
-    "title": "1,000,000 TIMES feat.chelly(EGOIST)",
+    "title": "1,000,000 TIMES",
     "artist": "MY FIRST STORY",
     "tags": ["j-pop"],
     "durationSec": 315
@@ -637,7 +637,7 @@
   },
   {
     "title": "ELECT",
-    "artist": "niki feat.Lily",
+    "artist": "niki",
     "tags": ["vocaloid"],
     "durationSec": 194
   },
@@ -2203,7 +2203,7 @@
   },
   {
     "title": "days",
-    "artist": "じん feat.Lia",
+    "artist": "じん",
     "tags": ["anime", "vocaloid", "j-pop"],
     "durationSec": 346
   },
@@ -3582,7 +3582,7 @@
     "durationSec": 194
   },
   {
-    "title": "インスタントヘヴン feat.Eve",
+    "title": "インスタントヘヴン",
     "artist": "ナナヲアカリ",
     "tags": ["j-pop"],
     "durationSec": 227
@@ -6570,12 +6570,6 @@
     "durationSec": 244
   },
   {
-    "title": "千本桜 feat.初音ミク",
-    "artist": "黒うさP",
-    "tags": ["vocaloid"],
-    "durationSec": 252
-  },
-  {
     "title": "千鳥",
     "artist": "ヨルシカ",
     "tags": ["j-pop", "ballad"],
@@ -8016,7 +8010,7 @@
     "durationSec": 255
   },
   {
-    "title": "東京サマーセッション feat.CHICO",
+    "title": "東京サマーセッション",
     "artist": "HoneyWorks",
     "tags": ["j-pop", "ballad"],
     "durationSec": 227
