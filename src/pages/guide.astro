@@ -13,6 +13,7 @@ const shots = {
   search: "/guide/04-search.png",
   selected: "/guide/05-selected.png",
   autofill: "/guide/06-autofill.png",
+  since: "/guide/09-since.png",
   exportShot: "/guide/07-export.png",
   entry: "/guide/08-entry.png",
 };
@@ -63,9 +64,13 @@ const shots = {
       画面は左右2つに分かれています。<strong>左</strong>で曲を探してクリックで選び、
       <strong>右</strong>で順番を整えて書き出します（スマホでは上下に並びます）。
     </p>
+    <p>
+      各曲の右端の日付は<strong>最後に歌った日</strong>です。チャンネルを選んでいるときは、
+      <strong>そのチャンネルで</strong>最後に歌った日になります。
+    </p>
     <figure><img src={shots.overview} alt="セトリ作成画面の全体" /></figure>
 
-    <h2>使いかた 6パターン</h2>
+    <h2>使いかた 7パターン</h2>
 
     <h3><span class="num">1</span>自分のチャンネルの曲だけから選ぶ</h3>
     <p>
@@ -152,6 +157,24 @@ const shots = {
     <div class="warn">
       表示される時間は<strong>原曲の長さの合計</strong>です。MC・雑談・曲間は含まれないので、
       実際の配信はこれより長くなります。少なめに見積もっておくと安心です。
+    </div>
+
+    <h3><span class="num">7</span>しばらく歌っていない曲で組む</h3>
+    <p>「最近と同じ曲ばかりになっちゃう」というときに。</p>
+    <ol>
+      <li>チャンネル → <strong>自分のチャンネル</strong>（1）</li>
+      <li>その右の「<strong>歌唱時期：指定なし</strong>」から、たとえば「<strong>半年以上歌っていない</strong>」を選ぶ</li>
+      <li>左のリストが、半年以上歌っていない曲だけになる</li>
+    </ol>
+    <figure><img src={shots.since} alt="しばらく歌っていない曲だけに絞り込み" /></figure>
+    <p>選べる期間：<code>1ヶ月</code> <code>3ヶ月</code> <code>半年</code> <code>1年</code></p>
+    <p class="tip">
+      「<strong>指定時間まで補充</strong>」「<strong>引き直す</strong>」もこの条件のまま動きます。
+      6と組み合わせれば「久しぶりの曲だけで60分」のようなセトリもすぐ作れます。
+    </p>
+    <div class="note">
+      チャンネルを選んでいないときは、<strong>全メンバーの中で最後に歌った日</strong>で判定します。
+      自分の持ち歌で判定したいときは、先にチャンネルを選んでください。
     </div>
 
     <h2>書き出し</h2>

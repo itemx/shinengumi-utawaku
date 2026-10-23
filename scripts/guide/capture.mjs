@@ -120,6 +120,24 @@ async function shot(name, selector, pad = 10) {
   console.log(`  ✓ ${name}.png  (${Math.round(clip.width)}×${Math.round(clip.height)})`);
 }
 
+/** top の要素の上端から bottom の要素の下端までを 1 枚で撮る（絞り込み欄＋結果の数行など） */
+async function shotSpan(name, topSel, bottomSel, pad = 10) {
+  const box = await evaluate(`
+    var a = document.querySelector(${JSON.stringify(topSel)}), b = document.querySelector(${JSON.stringify(bottomSel)});
+    if (!a || !b) return null;
+    a.scrollIntoView({block:'start'});
+    await new Promise(r=>setTimeout(r,250));
+    var ra = a.getBoundingClientRect(), rb = b.getBoundingClientRect(), rp = b.parentElement.getBoundingClientRect();
+    var left = Math.min(ra.left, rp.left), right = Math.max(ra.right, rp.right);
+    return {x:left + window.scrollX, y:ra.top + window.scrollY, w:right - left, h:rb.bottom - ra.top};
+  `);
+  if (!box) { console.log(`  ⚠ ${name}: 找不到 ${topSel} / ${bottomSel}`); return; }
+  const clip = { x: Math.max(0, box.x - pad), y: Math.max(0, box.y - pad), width: box.w + pad * 2, height: box.h + pad * 2, scale: 1.5 };
+  const { data } = await send("Page.captureScreenshot", { format: "png", clip, captureBeyondViewport: true });
+  writeFileSync(`${OUT}/${name}.png`, Buffer.from(data, "base64"));
+  console.log(`  ✓ ${name}.png  (${Math.round(clip.width)}×${Math.round(clip.height)})`);
+}
+
 // 日本語表示に固定
 await goto(`${BASE}/plan`);
 await evaluate(`document.cookie = "vutalist-lang=ja;path=/;max-age=31536000";`);
@@ -181,6 +199,18 @@ await evaluate(`
   await new Promise(r=>setTimeout(r,400));
 `);
 await shot("07-export", "#out-modal > div", 8);
+
+// ⑨ しばらく歌っていない曲（チャンネル + 半年以上）。書き出しの後に撮る（clear で選択が消えるため）
+await evaluate(`
+  document.getElementById('close-out').click();
+  document.getElementById('clear').click();
+  var sel=document.getElementById('channel');
+  sel.value=[...sel.options].find(o=>o.textContent.includes('渉海'))?.value || sel.value;
+  sel.dispatchEvent(new Event('change'));
+  var s=document.getElementById('since'); s.value='6'; s.dispatchEvent(new Event('change'));
+  await new Promise(r=>setTimeout(r,300));
+`);
+await shotSpan("09-since", "#filters", "#pool li:nth-child(5)", 10);
 
 // ⑧ フッターの入口
 await goto(`${BASE}/`);
