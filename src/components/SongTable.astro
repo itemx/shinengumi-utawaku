@@ -23,6 +23,14 @@ interface Props {
 
 const { songs, showSearch = true } = Astro.props;
 const songMeta = getSongMeta();
+
+// 最後に歌った日。並べ替えキーと表示の両方に使う
+const lastSung = (s: SongStat) =>
+  s.appearances.reduce((m, a) => (a.date > m ? a.date : m), "").slice(0, 10);
+
+// 見出しと各行の summary で同じ列幅を使う（行は colspan の 1 セルなので table の列では揃わない）
+// スマホでは曲名が潰れるので、歌手を細くして日付は年の上 2 桁を省く
+const COLS = "grid grid-cols-[minmax(0,1fr)_minmax(0,0.5fr)_3.75rem_2.25rem] sm:grid-cols-[minmax(0,1fr)_minmax(0,0.7fr)_5.5rem_2.5rem] gap-2 items-center";
 ---
 
 {showSearch && (
@@ -42,22 +50,30 @@ const songMeta = getSongMeta();
   <table class="w-full text-sm">
     <thead>
       <tr class="border-b-2 border-primary/20 text-left">
-        <th class="py-2 px-2 font-medium" data-i18n="table.song">曲名</th>
-        <th class="py-2 px-2 font-medium" data-i18n="table.artist">歌手</th>
-        <th class="py-2 px-2 font-medium text-center w-16" data-i18n="table.count">次數</th>
+        <th class="py-2 px-2 font-medium">
+          <!-- 押すと並べ替え。同じ列をもう一度押すと昇順/降順が入れ替わる -->
+          <div class={COLS} id="song-sort">
+            <button type="button" data-sort="title" class="sort-btn text-left hover:text-primary"><span data-i18n="table.song">曲名</span><span class="sort-ind"></span></button>
+            <button type="button" data-sort="artist" class="sort-btn text-left hover:text-primary"><span data-i18n="table.artist">歌手</span><span class="sort-ind"></span></button>
+            <button type="button" data-sort="last" class="sort-btn text-left hover:text-primary text-xs"><span data-i18n="table.last_sung">最後演唱</span><span class="sort-ind"></span></button>
+            <button type="button" data-sort="count" class="sort-btn text-center hover:text-primary text-xs"><span data-i18n="table.count">次數</span><span class="sort-ind"></span></button>
+          </div>
+        </th>
       </tr>
     </thead>
-    <tbody>
+    <tbody id="song-tbody">
       {songs.map((song) => (
         <tr
           class="border-b border-border hover:bg-primary/5 song-row"
           data-title={song.title.toLowerCase()}
           data-artist={song.artist.toLowerCase()}
+          data-last={lastSung(song)}
+          data-count={song.count}
         >
-          <td class="py-2 px-2" colspan="3">
+          <td class="py-2 px-2">
             <details>
-              <summary class="cursor-pointer flex items-center gap-2">
-                <div class="flex-1 grid grid-cols-[1fr_auto_auto] gap-2 items-center">
+              <summary class="cursor-pointer flex">
+                <div class={`flex-1 ${COLS}`}>
                   <span class="flex items-center gap-1 min-w-0">
                     <span class="font-medium truncate">{song.title}</span>
                     <button type="button" data-copy={song.title} title="複製 / コピー"
@@ -66,7 +82,8 @@ const songMeta = getSongMeta();
                     </button>
                   </span>
                   <span class="text-text-muted truncate text-xs">{song.artist}</span>
-                  <span class="inline-flex items-center justify-center w-8 h-6 rounded-full bg-primary/10 text-primary text-xs font-bold">
+                  <span class="text-text-muted text-xs tabular-nums"><span class="hidden sm:inline">{lastSung(song).slice(0, 2)}</span>{lastSung(song).slice(2)}</span>
+                  <span class="justify-self-center inline-flex items-center justify-center w-8 h-6 rounded-full bg-primary/10 text-primary text-xs font-bold">
                     {song.count}
                   </span>
                 </div>
@@ -107,6 +124,41 @@ const songMeta = getSongMeta();
     </tbody>
   </table>
 </div>
+
+<script>
+  // 並べ替え。初期表示は回数の多い順（getAllSongs / [channel] の並びと同じ）
+  const tbody = document.getElementById("song-tbody")!;
+  const all = Array.from(tbody.querySelectorAll<HTMLElement>(".song-row"));
+  // 初めて押した列の向き。文字列は昇順、日付と回数は「新しい / 多い」順から
+  const FIRST_DIR: Record<string, 1 | -1> = { title: 1, artist: 1, last: -1, count: -1 };
+  let key = "count", dir: 1 | -1 = -1;
+  const coll = new Intl.Collator("ja");
+
+  function cmp(a: HTMLElement, b: HTMLElement): number {
+    const A = a.dataset[key] || "", B = b.dataset[key] || "";
+    if (key === "count") return (Number(A) - Number(B)) * dir;
+    if (!A !== !B) return A ? -1 : 1;          // 空欄（歌手不明など）は向きに関係なく末尾
+    return coll.compare(A, B) * dir;
+  }
+  function apply() {
+    // 同順位は元の並び（回数順）を保つ。Array.sort は安定
+    tbody.append(...all.slice().sort(cmp));
+    document.querySelectorAll<HTMLElement>("#song-sort .sort-btn").forEach((b) => {
+      const on = b.dataset.sort === key;
+      b.classList.toggle("text-primary", on);
+      b.querySelector(".sort-ind")!.textContent = on ? (dir > 0 ? " ▲" : " ▼") : "";
+    });
+  }
+  document.getElementById("song-sort")!.addEventListener("click", (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLElement>(".sort-btn");
+    if (!b) return;
+    const k = b.dataset.sort!;
+    if (k === key) dir = dir > 0 ? -1 : 1;
+    else { key = k; dir = FIRST_DIR[k]; }
+    apply();
+  });
+  apply();
+</script>
 
 {showSearch && (
   <script>

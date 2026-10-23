@@ -49,6 +49,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "table.song": "曲名",
     "table.artist": "歌手",
     "table.count": "次數",
+    "table.last_sung": "最後演唱",
     "btn.shuffle": "隨機播放",
     "search.placeholder": "以曲名或歌手搜尋...",
     // Stats
@@ -182,6 +183,7 @@ export const translations: Record<Locale, Record<string, string>> = {
     "table.song": "曲名",
     "table.artist": "アーティスト",
     "table.count": "回数",
+    "table.last_sung": "最終歌唱日",
     "btn.shuffle": "シャッフル",
     "search.placeholder": "曲名・アーティストで検索...",
     "stats.top_songs": "Top 楽曲",
