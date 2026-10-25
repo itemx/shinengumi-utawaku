@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-10-22T16:46:55.616460+00:00",
+  "lastFetched": "2026-10-25T15:41:47.764036+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -46772,6 +46772,348 @@
           "artist": "LiSA",
           "artistRaw": "LiSA",
           "url": "https://youtu.be/iD13UBEjstw"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "XZaogH3Ll2g",
+      "title": "RESISTER / ASCA 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-10-25T09:00:02Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "RESISTER",
+          "titleRaw": "RESISTER",
+          "artist": "ASCA",
+          "artistRaw": "ASCA",
+          "url": "https://youtu.be/XZaogH3Ll2g"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "YlAM97nsse4",
+      "title": "不可解 / 花譜 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-10-24T09:00:14Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "不可解",
+          "titleRaw": "不可解",
+          "artist": "花譜",
+          "artistRaw": "花譜",
+          "url": "https://youtu.be/YlAM97nsse4"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "hUtWO2v4bXQ",
+      "title": "【歌枠】リクエスト歌枠！アニソン、ボカロ、J-POPなんでもこい！あなたの魂を揺らすVsinger―【VTuber/配信中】",
+      "publishedAt": "2026-10-23T13:08:42Z",
+      "songs": [
+        {
+          "timestamp": "00:08:55",
+          "seconds": 535,
+          "title": "雑踏、僕らの街",
+          "titleRaw": "雑踏、僕らの街",
+          "artist": "トゲナシトゲアリ",
+          "artistRaw": "トゲナシトゲアリ",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=535"
+        },
+        {
+          "timestamp": "00:12:10",
+          "seconds": 730,
+          "title": "名もなき何もかも",
+          "titleRaw": "名もなき何もかも",
+          "artist": "トゲナシトゲアリ",
+          "artistRaw": "トゲナシトゲアリ",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=730"
+        },
+        {
+          "timestamp": "00:15:31",
+          "seconds": 931,
+          "title": "departure!",
+          "titleRaw": "departure!",
+          "artist": "小野正利",
+          "artistRaw": "小野正利",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=931"
+        },
+        {
+          "timestamp": "00:26:26",
+          "seconds": 1586,
+          "title": "Mrs.Pumpkinの滑稽な夢",
+          "titleRaw": "Mrs.Pumpkinの滑稽な夢",
+          "artist": "米津玄師",
+          "artistRaw": "ハチ feat. 初音ミク",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=1586"
+        },
+        {
+          "timestamp": "00:30:45",
+          "seconds": 1845,
+          "title": "Brave Freak Out",
+          "titleRaw": "Brave Freak Out",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=1845"
+        },
+        {
+          "timestamp": "00:35:03",
+          "seconds": 2103,
+          "title": "A・RA・SHI",
+          "titleRaw": "A・RA・SHI",
+          "artist": "嵐",
+          "artistRaw": "嵐",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=2103"
+        },
+        {
+          "timestamp": "00:43:29",
+          "seconds": 2609,
+          "title": "携帯恋話",
+          "titleRaw": "携帯恋話",
+          "artist": "まふまふ",
+          "artistRaw": "まふまふ feat. 東雲絵名（CV.鈴木みのり）・暁山瑞希（CV.佐藤日向）・初音ミク",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=2609"
+        },
+        {
+          "timestamp": "00:47:42",
+          "seconds": 2862,
+          "title": "Redo",
+          "titleRaw": "Redo",
+          "artist": "鈴木このみ",
+          "artistRaw": "鈴木このみ",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=2862"
+        },
+        {
+          "timestamp": "00:52:00",
+          "seconds": 3120,
+          "title": "明け星",
+          "titleRaw": "明け星",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=3120"
+        },
+        {
+          "timestamp": "01:01:14",
+          "seconds": 3674,
+          "title": "こちら、幸福安心委員会です。",
+          "titleRaw": "こちら、幸福安心委員会です。",
+          "artist": "うたたP",
+          "artistRaw": "うたたP feat. 鏡音リン",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=3674"
+        },
+        {
+          "timestamp": "01:05:54",
+          "seconds": 3954,
+          "title": "Hey baby!",
+          "titleRaw": "Hey baby!",
+          "artist": "倖田來未",
+          "artistRaw": "倖田來未",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=3954"
+        },
+        {
+          "timestamp": "01:08:33",
+          "seconds": 4113,
+          "title": "生きてこそ",
+          "titleRaw": "生きてこそ",
+          "artist": "Kiroro",
+          "artistRaw": "Kiroro",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=4113"
+        },
+        {
+          "timestamp": "01:17:15",
+          "seconds": 4635,
+          "title": "ホタルノヒカリ",
+          "titleRaw": "ホタルノヒカリ",
+          "artist": "いきものがかり",
+          "artistRaw": "いきものがかり",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=4635"
+        },
+        {
+          "timestamp": "01:21:18",
+          "seconds": 4878,
+          "title": "トリカゴ",
+          "titleRaw": "トリカゴ",
+          "artist": "XX:me",
+          "artistRaw": "XX:me",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=4878"
+        },
+        {
+          "timestamp": "01:25:27",
+          "seconds": 5127,
+          "title": "好きすぎて滅!",
+          "titleRaw": "好きすぎて滅！",
+          "artist": "M!LK",
+          "artistRaw": "M!LK",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=5127"
+        },
+        {
+          "timestamp": "01:35:31",
+          "seconds": 5731,
+          "title": "表裏一体",
+          "titleRaw": "表裏一体",
+          "artist": "ゆず",
+          "artistRaw": "ゆず",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=5731"
+        },
+        {
+          "timestamp": "01:41:23",
+          "seconds": 6083,
+          "title": "トライアングラー",
+          "titleRaw": "トライアングラー",
+          "artist": "坂本真綾",
+          "artistRaw": "坂本真綾",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=6083"
+        },
+        {
+          "timestamp": "01:46:05",
+          "seconds": 6365,
+          "title": "劣等上等",
+          "titleRaw": "劣等上等",
+          "artist": "Giga",
+          "artistRaw": "Giga feat. 鏡音リン,鏡音レン",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=6365"
+        },
+        {
+          "timestamp": "01:54:54",
+          "seconds": 6894,
+          "title": "たばこ",
+          "titleRaw": "たばこ",
+          "artist": "コレサワ",
+          "artistRaw": "コレサワ",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=6894"
+        },
+        {
+          "timestamp": "02:00:58",
+          "seconds": 7258,
+          "title": "革命道中",
+          "titleRaw": "革命道中",
+          "artist": "アイナ・ジ・エンド",
+          "artistRaw": "アイナ・ジ・エンド",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=7258"
+        },
+        {
+          "timestamp": "02:04:21",
+          "seconds": 7461,
+          "title": "星間飛行",
+          "titleRaw": "星間飛行",
+          "artist": "ランカ・リー",
+          "artistRaw": "ランカ・リー＝中島愛",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=7461"
+        },
+        {
+          "timestamp": "02:11:28",
+          "seconds": 7888,
+          "title": "Meteor -ミーティア-",
+          "titleRaw": "Meteor –ミーティア–",
+          "artist": "T.M.Revolution",
+          "artistRaw": "T.M.Revolution",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=7888"
+        },
+        {
+          "timestamp": "02:15:29",
+          "seconds": 8129,
+          "title": "太陽曰く燃えよカオス",
+          "titleRaw": "太陽曰く燃えよカオス",
+          "artist": "後ろから這いより隊G",
+          "artistRaw": "後ろから這いより隊G",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=8129"
+        },
+        {
+          "timestamp": "02:19:34",
+          "seconds": 8374,
+          "title": "Rolling star",
+          "titleRaw": "Rolling star",
+          "artist": "YUI",
+          "artistRaw": "Yui",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=8374"
+        },
+        {
+          "timestamp": "02:24:54",
+          "seconds": 8694,
+          "title": "風になる",
+          "titleRaw": "風になる",
+          "artist": "つじあやの",
+          "artistRaw": "つじあやの",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=8694"
+        },
+        {
+          "timestamp": "02:29:25",
+          "seconds": 8965,
+          "title": "Run With Wolves",
+          "titleRaw": "Run With Wolves",
+          "artist": "Girls Dead Monster",
+          "artistRaw": "Girls Dead Monster",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=8965"
+        },
+        {
+          "timestamp": "02:33:23",
+          "seconds": 9203,
+          "title": "Brave Shine",
+          "titleRaw": "Brave Shine",
+          "artist": "Aimer",
+          "artistRaw": "Aimer",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=9203"
+        },
+        {
+          "timestamp": "02:40:35",
+          "seconds": 9635,
+          "title": "ヒカリヘ",
+          "titleRaw": "ヒカリヘ",
+          "artist": "miwa",
+          "artistRaw": "miwa",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=9635"
+        },
+        {
+          "timestamp": "02:45:27",
+          "seconds": 9927,
+          "title": "東京テディベア",
+          "titleRaw": "東京テディベア",
+          "artist": "Neru",
+          "artistRaw": "Neru feat. 鏡音リン",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=9927"
+        },
+        {
+          "timestamp": "02:48:49",
+          "seconds": 10129,
+          "title": "ファンサ",
+          "titleRaw": "ファンサ",
+          "artist": "mona (夏川椎菜)",
+          "artistRaw": "mona(夏川椎菜)",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=10129"
+        },
+        {
+          "timestamp": "02:53:02",
+          "seconds": 10382,
+          "title": "振り向いてGOD",
+          "titleRaw": "振り向いてGOD",
+          "artist": "涼風しとら",
+          "artistRaw": "涼風しとら",
+          "url": "https://youtu.be/hUtWO2v4bXQ?t=10382"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "-ph4autMjA4",
+      "title": "ミカヅキ / さユり 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-10-23T09:00:27Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "ミカヅキ",
+          "titleRaw": "ミカヅキ",
+          "artist": "さユり",
+          "artistRaw": "さユり",
+          "url": "https://youtu.be/-ph4autMjA4"
         }
       ],
       "sourceCommentId": "",
