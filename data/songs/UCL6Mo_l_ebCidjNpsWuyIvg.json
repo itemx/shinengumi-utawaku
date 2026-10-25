@@ -1,7 +1,7 @@
 {
   "channelId": "UCL6Mo_l_ebCidjNpsWuyIvg",
   "channelName": "Rairi ch. 小滝らいり",
-  "lastFetched": "2026-10-19T01:48:15.898454+00:00",
+  "lastFetched": "2026-10-25T11:23:33.636323+00:00",
   "videos": [
     {
       "videoId": "08U27OrwU-0",
@@ -1666,6 +1666,51 @@
         }
       ],
       "sourceCommentId": "issue#140",
+      "type": "stream"
+    },
+    {
+      "videoId": "hBjzvgqk1ek",
+      "title": "【#ショートヘアV歌枠リレー3】元気なお姉さんが爽やかな歌をお届け!🫧✨歌声の透明度◎✨【小滝らいり】#歌枠 #singing #歌枠リレー",
+      "publishedAt": "2026-10-25T10:34:40Z",
+      "songs": [
+        {
+          "timestamp": "4:52",
+          "seconds": 292,
+          "title": "海色",
+          "titleRaw": "海色",
+          "artist": "AKINO from bless4",
+          "artistRaw": "AKINO from bless4",
+          "url": "https://youtu.be/hBjzvgqk1ek?t=292"
+        },
+        {
+          "timestamp": "11:15",
+          "seconds": 675,
+          "title": "サリシノハラ",
+          "titleRaw": "サリシノハラ",
+          "artist": "みきとP",
+          "artistRaw": "みきとP",
+          "url": "https://youtu.be/hBjzvgqk1ek?t=675"
+        },
+        {
+          "timestamp": "20:28",
+          "seconds": 1228,
+          "title": "Thunder Seeker",
+          "titleRaw": "Thunder Seeker",
+          "artist": "小滝らいり",
+          "artistRaw": "小滝らいり",
+          "url": "https://youtu.be/hBjzvgqk1ek?t=1228"
+        },
+        {
+          "timestamp": "24:31",
+          "seconds": 1471,
+          "title": "シュガーソングとビターステップ",
+          "titleRaw": "シュガーソングとビターステップ",
+          "artist": "UNISON SQUARE GARDEN",
+          "artistRaw": "UNISON SQUARE GARDEN",
+          "url": "https://youtu.be/hBjzvgqk1ek?t=1471"
+        }
+      ],
+      "sourceCommentId": "issue#144",
       "type": "stream"
     }
   ]
