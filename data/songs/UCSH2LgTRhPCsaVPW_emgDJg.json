@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-10-25T15:41:47.764036+00:00",
+  "lastFetched": "2026-10-28T17:59:28.812299+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -29825,7 +29825,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "XtKJs8N_wMM",
@@ -32554,7 +32555,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "R55pnysTxwc",
@@ -32806,7 +32808,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "fvWg717KqTQ",
@@ -33337,7 +33340,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "qN7MsHS_mOI",
@@ -33940,7 +33944,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "UK67wUpSes8",
@@ -34894,7 +34899,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "JQGwMjyzs4s",
@@ -36931,7 +36937,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "vxRAdB-etwM",
@@ -38030,7 +38037,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "mhaHGkCMSN0",
@@ -38318,7 +38326,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "eeQTHwde0K4",
@@ -38940,7 +38949,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "moiYOWRrHy8",
@@ -39933,7 +39943,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "61Yw0hqq7GA",
@@ -40266,7 +40277,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "G_I1S-fvSXc",
@@ -40951,7 +40963,8 @@
         }
       ],
       "sourceCommentId": "issue#90",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "_OyurSUw9LM",
@@ -41329,7 +41342,8 @@
         }
       ],
       "sourceCommentId": "issue#74",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "W8WIMPp-n_c",
@@ -41599,7 +41613,8 @@
         }
       ],
       "sourceCommentId": "issue#69",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "l1AGJyDpUCk",
@@ -46100,7 +46115,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "lAuY-Jr68Fs",
@@ -46757,7 +46773,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "iD13UBEjstw",
@@ -47114,6 +47131,366 @@
           "artist": "さユり",
           "artistRaw": "さユり",
           "url": "https://youtu.be/-ph4autMjA4"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "5J-M__S5jdY",
+      "title": "雫 / スキマスイッチ 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-10-28T09:00:16Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "雫",
+          "titleRaw": "雫",
+          "artist": "スキマスイッチ",
+          "artistRaw": "スキマスイッチ",
+          "url": "https://youtu.be/5J-M__S5jdY"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "fWCgXj7FiWw",
+      "title": "イエスタデイ / Official髭男dism 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-10-27T09:00:34Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "イエスタデイ",
+          "titleRaw": "イエスタデイ",
+          "artist": "Official髭男dism",
+          "artistRaw": "Official髭男dism",
+          "url": "https://youtu.be/fWCgXj7FiWw"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "xm0w53DAbgE",
+      "title": "【歌枠】響く歌今週も歌います！あなたの魂を揺らすVsinger―【VTuber/配信中】",
+      "publishedAt": "2026-10-26T13:21:59Z",
+      "songs": [
+        {
+          "timestamp": "00:04:05",
+          "seconds": 245,
+          "title": "サイサキ",
+          "titleRaw": "サイサキ",
+          "artist": "Reol",
+          "artistRaw": "Reol",
+          "url": "https://youtu.be/xm0w53DAbgE?t=245"
+        },
+        {
+          "timestamp": "00:12:19",
+          "seconds": 739,
+          "title": "君と夏フェス",
+          "titleRaw": "君と夏フェス",
+          "artist": "SHISHAMO",
+          "artistRaw": "SHISHAMO",
+          "url": "https://youtu.be/xm0w53DAbgE?t=739"
+        },
+        {
+          "timestamp": "00:16:03",
+          "seconds": 963,
+          "title": "リベリオン",
+          "titleRaw": "リベリオン",
+          "artist": "Ado",
+          "artistRaw": "Ado",
+          "url": "https://youtu.be/xm0w53DAbgE?t=963"
+        },
+        {
+          "timestamp": "00:19:04",
+          "seconds": 1144,
+          "title": "エイリアンエイリアン",
+          "titleRaw": "エイリアンエイリアン",
+          "artist": "ナユタン星人",
+          "artistRaw": "ナユタン星人 feat. 初音ミク",
+          "url": "https://youtu.be/xm0w53DAbgE?t=1144"
+        },
+        {
+          "timestamp": "00:25:01",
+          "seconds": 1501,
+          "title": "スペシャルガール",
+          "titleRaw": "スペシャルガール",
+          "artist": "れるりり",
+          "artistRaw": "れるりり feat. 鳴花ヒメ・ミコト",
+          "url": "https://youtu.be/xm0w53DAbgE?t=1501"
+        },
+        {
+          "timestamp": "00:28:39",
+          "seconds": 1719,
+          "title": "メリュー",
+          "titleRaw": "メリュー",
+          "artist": "n-buna",
+          "artistRaw": "n-buna feat. 初音ミク",
+          "url": "https://youtu.be/xm0w53DAbgE?t=1719"
+        },
+        {
+          "timestamp": "00:32:13",
+          "seconds": 1933,
+          "title": "Corruption",
+          "titleRaw": "Corruption",
+          "artist": "大沼パセリ",
+          "artistRaw": "大沼パセリ feat. 初音ミク",
+          "url": "https://youtu.be/xm0w53DAbgE?t=1933"
+        },
+        {
+          "timestamp": "00:38:20",
+          "seconds": 2300,
+          "title": "忘れてやらない",
+          "titleRaw": "忘れてやらない",
+          "artist": "結束バンド",
+          "artistRaw": "結束バンド",
+          "url": "https://youtu.be/xm0w53DAbgE?t=2300"
+        },
+        {
+          "timestamp": "00:42:00",
+          "seconds": 2520,
+          "title": "世界は恋に落ちている",
+          "titleRaw": "世界は恋に落ちている",
+          "artist": "CHiCO with HoneyWorks",
+          "artistRaw": "CHiCO with HoneyWorks",
+          "url": "https://youtu.be/xm0w53DAbgE?t=2520"
+        },
+        {
+          "timestamp": "00:47:13",
+          "seconds": 2833,
+          "title": "サリシノハラ",
+          "titleRaw": "サリシノハラ",
+          "artist": "みきとP",
+          "artistRaw": "みきとP feat. 初音ミク",
+          "url": "https://youtu.be/xm0w53DAbgE?t=2833"
+        },
+        {
+          "timestamp": "00:58:21",
+          "seconds": 3501,
+          "title": "百花繚乱",
+          "titleRaw": "百花繚乱",
+          "artist": "幾田りら",
+          "artistRaw": "幾田りら",
+          "url": "https://youtu.be/xm0w53DAbgE?t=3501"
+        },
+        {
+          "timestamp": "01:01:29",
+          "seconds": 3689,
+          "title": "アタシは問題作",
+          "titleRaw": "アタシは問題作",
+          "artist": "Ado",
+          "artistRaw": "Ado",
+          "url": "https://youtu.be/xm0w53DAbgE?t=3689"
+        },
+        {
+          "timestamp": "01:04:42",
+          "seconds": 3882,
+          "title": "オリオンをなぞる",
+          "titleRaw": "オリオンをなぞる",
+          "artist": "UNISON SQUARE GARDEN",
+          "artistRaw": "UNISON SQUARE GARDEN",
+          "url": "https://youtu.be/xm0w53DAbgE?t=3882"
+        },
+        {
+          "timestamp": "01:13:55",
+          "seconds": 4435,
+          "title": "CH4NGE",
+          "titleRaw": "CH4NGE",
+          "artist": "Giga",
+          "artistRaw": "Giga feat. 可不",
+          "url": "https://youtu.be/xm0w53DAbgE?t=4435"
+        },
+        {
+          "timestamp": "01:16:11",
+          "seconds": 4571,
+          "title": "熱情のスペクトラム",
+          "titleRaw": "熱情のスペクトラム",
+          "artist": "いきものがかり",
+          "artistRaw": "いきものがかり",
+          "url": "https://youtu.be/xm0w53DAbgE?t=4571"
+        },
+        {
+          "timestamp": "01:19:54",
+          "seconds": 4794,
+          "title": "アイデンティティ",
+          "titleRaw": "アイデンティティ",
+          "artist": "Kanaria",
+          "artistRaw": "Kanaria feat. 初音ミク,GUMI",
+          "url": "https://youtu.be/xm0w53DAbgE?t=4794"
+        },
+        {
+          "timestamp": "01:30:23",
+          "seconds": 5423,
+          "title": "ハイドアンド・シーク",
+          "titleRaw": "ハイドアンド・シーク",
+          "artist": "19's Sound Factory",
+          "artistRaw": "19's Sound Factory feat. 初音ミク",
+          "url": "https://youtu.be/xm0w53DAbgE?t=5423"
+        },
+        {
+          "timestamp": "01:34:55",
+          "seconds": 5695,
+          "title": "太陽系デスコ",
+          "titleRaw": "太陽系デスコ",
+          "artist": "ナユタン星人",
+          "artistRaw": "ナユタン星人 feat. 初音ミク",
+          "url": "https://youtu.be/xm0w53DAbgE?t=5695"
+        },
+        {
+          "timestamp": "01:38:15",
+          "seconds": 5895,
+          "title": "カブトムシ",
+          "titleRaw": "カブトムシ",
+          "artist": "aiko",
+          "artistRaw": "Aiko",
+          "url": "https://youtu.be/xm0w53DAbgE?t=5895"
+        },
+        {
+          "timestamp": "01:48:02",
+          "seconds": 6482,
+          "title": "RESISTER",
+          "titleRaw": "RESISTER",
+          "artist": "ASCA",
+          "artistRaw": "ASCA",
+          "url": "https://youtu.be/xm0w53DAbgE?t=6482"
+        },
+        {
+          "timestamp": "01:51:48",
+          "seconds": 6708,
+          "title": "ハングリーモンスター",
+          "titleRaw": "ハングリーモンスター",
+          "artist": "西沢さんP",
+          "artistRaw": "西沢さんP feat. 初音ミク",
+          "url": "https://youtu.be/xm0w53DAbgE?t=6708"
+        },
+        {
+          "timestamp": "01:54:52",
+          "seconds": 6892,
+          "title": "Flamingo",
+          "titleRaw": "Flamingo",
+          "artist": "米津玄師",
+          "artistRaw": "米津玄師",
+          "url": "https://youtu.be/xm0w53DAbgE?t=6892"
+        },
+        {
+          "timestamp": "02:01:26",
+          "seconds": 7286,
+          "title": "不可解",
+          "titleRaw": "不可解",
+          "artist": "花譜",
+          "artistRaw": "花譜",
+          "url": "https://youtu.be/xm0w53DAbgE?t=7286"
+        },
+        {
+          "timestamp": "02:06:07",
+          "seconds": 7567,
+          "title": "courage",
+          "titleRaw": "courage",
+          "artist": "戸松遥",
+          "artistRaw": "戸松遥",
+          "url": "https://youtu.be/xm0w53DAbgE?t=7567"
+        },
+        {
+          "timestamp": "02:10:12",
+          "seconds": 7812,
+          "title": "ちゅ、多様性。",
+          "titleRaw": "ちゅ、多様性。",
+          "artist": "ano",
+          "artistRaw": "ano",
+          "url": "https://youtu.be/xm0w53DAbgE?t=7812"
+        },
+        {
+          "timestamp": "02:16:19",
+          "seconds": 8179,
+          "title": "アイドルライフメガパック",
+          "titleRaw": "アイドルライフメガパック",
+          "artist": "iLiFE!",
+          "artistRaw": "iLiFE!",
+          "url": "https://youtu.be/xm0w53DAbgE?t=8179"
+        },
+        {
+          "timestamp": "02:20:03",
+          "seconds": 8403,
+          "title": "空想メソロギヰ",
+          "titleRaw": "空想メソロギヰ",
+          "artist": "妖精帝國",
+          "artistRaw": "妖精帝國",
+          "url": "https://youtu.be/xm0w53DAbgE?t=8403"
+        },
+        {
+          "timestamp": "02:24:02",
+          "seconds": 8642,
+          "title": "ヲズワルド",
+          "titleRaw": "ヲズワルド",
+          "artist": "煮ル果実",
+          "artistRaw": "煮ル果実 feat. v flower",
+          "url": "https://youtu.be/xm0w53DAbgE?t=8642"
+        },
+        {
+          "timestamp": "02:32:48",
+          "seconds": 9168,
+          "title": "Another Great Day!!",
+          "titleRaw": "Another Great Day!!",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/xm0w53DAbgE?t=9168"
+        },
+        {
+          "timestamp": "02:37:45",
+          "seconds": 9465,
+          "title": "とても素敵な六月でした",
+          "titleRaw": "とても素敵な六月でした",
+          "artist": "Eight",
+          "artistRaw": "Eight feat. 初音ミク",
+          "url": "https://youtu.be/xm0w53DAbgE?t=9465"
+        },
+        {
+          "timestamp": "02:42:19",
+          "seconds": 9739,
+          "title": "月が綺麗ねと言われたい!",
+          "titleRaw": "月が綺麗ねと言われたい！",
+          "artist": "カササギ",
+          "artistRaw": "カササギ feat. 初音ミク",
+          "url": "https://youtu.be/xm0w53DAbgE?t=9739"
+        },
+        {
+          "timestamp": "02:47:52",
+          "seconds": 10072,
+          "title": "蜜月アン・ドゥ・トロワ",
+          "titleRaw": "蜜月アン・ドゥ・トロワ",
+          "artist": "DATEKEN",
+          "artistRaw": "DATEKEN feat. 鏡音リン",
+          "url": "https://youtu.be/xm0w53DAbgE?t=10072"
+        },
+        {
+          "timestamp": "02:51:59",
+          "seconds": 10319,
+          "title": "夜明けと蛍",
+          "titleRaw": "夜明けと蛍",
+          "artist": "n-buna",
+          "artistRaw": "n-buna feat. 初音ミク",
+          "url": "https://youtu.be/xm0w53DAbgE?t=10319"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "N8Wmb5iTfdc",
+      "title": "GHOST / 星街すいせい 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-10-26T09:00:33Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "GHOST",
+          "titleRaw": "GHOST",
+          "artist": "星街すいせい",
+          "artistRaw": "星街すいせい",
+          "url": "https://youtu.be/N8Wmb5iTfdc"
         }
       ],
       "sourceCommentId": "",
