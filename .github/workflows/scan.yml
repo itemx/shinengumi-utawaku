@@ -65,6 +65,12 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./scripts/ci/song_meta_issue.sh
 
+      # 同じ曲が別表記で 2 曲に割れていないか（丸の内／丸ノ内 等）
+      - name: Report suspected duplicate songs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/ci/duplicates_issue.sh
+
       - name: Trigger deploy
         if: steps.changes.outputs.changed == 'true'
         env:

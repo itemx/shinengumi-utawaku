@@ -23,6 +23,7 @@ VTuber 歌枠曲目資料庫（Astro SSG + Python 資料管線，部署於 GitHu
 ```bash
 python scripts/build_stats.py && python scripts/build_known_songs.py  # 重生衍生檔
 python scripts/build_song_meta.py --validate                          # 驗證 song_meta
+python scripts/find_duplicates.py                                     # 重複曲目の疑い（scan.yml が 3 日ごとに issue 化）
 python -m pytest scripts/tests/ -q                                    # 測試
 npx astro build                                                       # 建置
 ./scripts/admin.sh                                                    # 本機資料編輯 GUI
