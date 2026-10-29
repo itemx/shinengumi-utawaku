@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1592,
-  "uniqueTitles": 1561,
-  "uniqueArtists": 704,
+  "totalEntries": 1574,
+  "uniqueTitles": 1553,
+  "uniqueArtists": 696,
   "songs": [
     {
       "title": "All Alone With You",
@@ -854,6 +854,11 @@
       "count": 11
     },
     {
+      "title": "丸の内サディスティック",
+      "artist": "椎名林檎",
+      "count": 11
+    },
+    {
       "title": "八月の夜",
       "artist": "SILENT SIREN",
       "count": 11
@@ -917,6 +922,11 @@
       "title": "踊",
       "artist": "Ado",
       "count": 11
+    },
+    {
+      "title": "Ahoy!! 我ら宝鐘海賊団",
+      "artist": "宝鐘マリン",
+      "count": 10
     },
     {
       "title": "CHE.R.RY",
@@ -1101,11 +1111,6 @@
     {
       "title": "1・2・3",
       "artist": "After the Rain",
-      "count": 9
-    },
-    {
-      "title": "Ahoy!! 我ら宝鐘海賊団",
-      "artist": "宝鐘マリン",
       "count": 9
     },
     {
@@ -1416,11 +1421,6 @@
     {
       "title": "ヴィーナスとジーザス",
       "artist": "やくしまるえつこ",
-      "count": 8
-    },
-    {
-      "title": "丸の内サディスティック",
-      "artist": "椎名林檎",
       "count": 8
     },
     {
@@ -1789,6 +1789,11 @@
       "count": 7
     },
     {
+      "title": "美少女無罪♡パイレーツ",
+      "artist": "宝鐘マリン",
+      "count": 7
+    },
+    {
       "title": "誰にもなれない私だから",
       "artist": "トゲナシトゲアリ",
       "count": 7
@@ -1914,6 +1919,11 @@
       "count": 6
     },
     {
+      "title": "うまぴょい伝説",
+      "artist": "ウマ娘 プリティーダービー",
+      "count": 6
+    },
+    {
       "title": "お勉強しといてよ",
       "artist": "ずっと真夜中でいいのに。",
       "count": 6
@@ -1936,6 +1946,11 @@
     {
       "title": "ないない",
       "artist": "ReoNa",
+      "count": 6
+    },
+    {
+      "title": "もってけ!セーラーふく",
+      "artist": "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
       "count": 6
     },
     {
@@ -2011,6 +2026,11 @@
     {
       "title": "バグ",
       "artist": "かいりきベア",
+      "count": 6
+    },
+    {
+      "title": "バラライカ",
+      "artist": "月島きらり starring 久住小春",
       "count": 6
     },
     {
@@ -2096,6 +2116,11 @@
     {
       "title": "快晴",
       "artist": "Orangestar",
+      "count": 6
+    },
+    {
+      "title": "恋愛サーキュレーション",
+      "artist": "花澤香菜",
       "count": 6
     },
     {
@@ -2224,6 +2249,11 @@
       "count": 5
     },
     {
+      "title": "III",
+      "artist": "宝鐘マリン & Kobo Kanaeru",
+      "count": 5
+    },
+    {
       "title": "INTERNET OVERDOSE",
       "artist": "KOTOKO",
       "count": 5
@@ -2334,11 +2364,6 @@
       "count": 5
     },
     {
-      "title": "うまぴょい伝説",
-      "artist": "ウマ娘 プリティーダービー",
-      "count": 5
-    },
-    {
       "title": "くらべられっ子",
       "artist": "ツユ",
       "count": 5
@@ -2351,6 +2376,11 @@
     {
       "title": "やさしさで溢れるように",
       "artist": "JUJU",
+      "count": 5
+    },
+    {
+      "title": "アイのシナリオ",
+      "artist": "CHiCO with HoneyWorks",
       "count": 5
     },
     {
@@ -2421,11 +2451,6 @@
     {
       "title": "バニー",
       "artist": "すりぃ",
-      "count": 5
-    },
-    {
-      "title": "バラライカ",
-      "artist": "月島きらり starring 久住小春",
       "count": 5
     },
     {
@@ -2524,11 +2549,6 @@
       "count": 5
     },
     {
-      "title": "恋愛サーキュレーション",
-      "artist": "花澤香菜",
-      "count": 5
-    },
-    {
       "title": "恋風邪にのせて",
       "artist": "Vaundy",
       "count": 5
@@ -2614,11 +2634,6 @@
       "count": 5
     },
     {
-      "title": "美少女無罪♡パイレーツ",
-      "artist": "宝鐘マリン",
-      "count": 5
-    },
-    {
       "title": "芽ぐみの雨",
       "artist": "やなぎなぎ",
       "count": 5
@@ -2689,11 +2704,6 @@
       "count": 4
     },
     {
-      "title": "III",
-      "artist": "宝鐘マリン & Kobo Kanaeru",
-      "count": 4
-    },
-    {
       "title": "JINGO JUNGLE",
       "artist": "MYTH & ROID",
       "count": 4
@@ -2756,6 +2766,11 @@
     {
       "title": "Stairway Generation",
       "artist": "Base Ball Bear",
+      "count": 4
+    },
+    {
+      "title": "Sweets Parade",
+      "artist": "髏々宮カルタ (花澤香菜)",
       "count": 4
     },
     {
@@ -2856,16 +2871,6 @@
     {
       "title": "みむかゥわナイストライ",
       "artist": "ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ",
-      "count": 4
-    },
-    {
-      "title": "もってけ!セーラーふく",
-      "artist": "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
-      "count": 4
-    },
-    {
-      "title": "アイのシナリオ",
-      "artist": "CHiCO with HoneyWorks",
       "count": 4
     },
     {
@@ -3011,6 +3016,11 @@
     {
       "title": "バクチ・ダンサー",
       "artist": "DOES",
+      "count": 4
+    },
+    {
+      "title": "ヒカリヘ",
+      "artist": "miwa",
       "count": 4
     },
     {
@@ -3444,6 +3454,16 @@
       "count": 3
     },
     {
+      "title": "HEAVEN",
+      "artist": "HarryP (はりーP)",
+      "count": 3
+    },
+    {
+      "title": "I'm Your Treasure Box *あなたは マリンせんちょうを たからばこからみつけた。",
+      "artist": "宝鐘マリン",
+      "count": 3
+    },
+    {
       "title": "I'm a mess",
       "artist": "MY FIRST STORY",
       "count": 3
@@ -3564,6 +3584,11 @@
       "count": 3
     },
     {
+      "title": "Stay Alive",
+      "artist": "エミリア (高橋李依)",
+      "count": 3
+    },
+    {
       "title": "Super Driver",
       "artist": "平野綾",
       "count": 3
@@ -3571,11 +3596,6 @@
     {
       "title": "Survivor",
       "artist": "BLUE ENCOUNT",
-      "count": 3
-    },
-    {
-      "title": "Sweets Parade",
-      "artist": "髏々宮カルタ (花澤香菜)",
       "count": 3
     },
     {
@@ -3819,6 +3839,11 @@
       "count": 3
     },
     {
+      "title": "スイートマジック",
+      "artist": "Junky",
+      "count": 3
+    },
+    {
       "title": "スキスキDieスキ超Ayeシテル",
       "artist": "宝鐘マリン",
       "count": 3
@@ -3864,6 +3889,11 @@
       "count": 3
     },
     {
+      "title": "ノンブレス・オブリージュ",
+      "artist": "ピノキオピー",
+      "count": 3
+    },
+    {
       "title": "ノーポイッ!",
       "artist": "Petit Rabbit's",
       "count": 3
@@ -3894,11 +3924,6 @@
       "count": 3
     },
     {
-      "title": "ヒカリヘ",
-      "artist": "miwa",
-      "count": 3
-    },
-    {
       "title": "ヒトリゴト",
       "artist": "ClariS",
       "count": 3
@@ -3926,6 +3951,11 @@
     {
       "title": "ファタール",
       "artist": "GEMN",
+      "count": 3
+    },
+    {
+      "title": "フェイキング・オブ・コメディ",
+      "artist": "jon-YAKITORY",
       "count": 3
     },
     {
@@ -4011,11 +4041,6 @@
     {
       "title": "不革命前夜",
       "artist": "NEE",
-      "count": 3
-    },
-    {
-      "title": "丸ノ内サディスティック",
-      "artist": "椎名林檎",
       "count": 3
     },
     {
@@ -4509,11 +4534,6 @@
       "count": 2
     },
     {
-      "title": "HEAVEN",
-      "artist": "HarryP (はりーP)",
-      "count": 2
-    },
-    {
       "title": "HELLO ~Paradise Kiss~",
       "artist": "YUI",
       "count": 2
@@ -4536,11 +4556,6 @@
     {
       "title": "How哥宇宙",
       "artist": "七月半 SevenFat",
-      "count": 2
-    },
-    {
-      "title": "I’m Your Treasure Box *あなたは マリンせんちょうを たからばこからみつけた。",
-      "artist": "宝鐘マリン",
       "count": 2
     },
     {
@@ -4666,11 +4681,6 @@
     {
       "title": "Snow fairy",
       "artist": "FUNKIST",
-      "count": 2
-    },
-    {
-      "title": "Stay Alive",
-      "artist": "エミリア (高橋李依)",
       "count": 2
     },
     {
@@ -4879,11 +4889,6 @@
       "count": 2
     },
     {
-      "title": "もってけ!セーラーふく",
-      "artist": "泉こなた (平野綾)・柊かがみ (加藤英美里)・柊つかさ (福原香織)・高良みゆき (遠藤綾)",
-      "count": 2
-    },
-    {
       "title": "やっぱり雨は降るんだね",
       "artist": "ツユ",
       "count": 2
@@ -5044,6 +5049,11 @@
       "count": 2
     },
     {
+      "title": "ゴメンねメディスン",
+      "artist": "紫咲シオン",
+      "count": 2
+    },
+    {
       "title": "サイサキ",
       "artist": "Reol",
       "count": 2
@@ -5066,11 +5076,6 @@
     {
       "title": "ジャンキーナイトタウンオーケストラ",
       "artist": "すりぃ",
-      "count": 2
-    },
-    {
-      "title": "スイートマジック",
-      "artist": "Junky",
       "count": 2
     },
     {
@@ -5129,11 +5134,6 @@
       "count": 2
     },
     {
-      "title": "ノンブレス・オブリージュ",
-      "artist": "ピノキオピー",
-      "count": 2
-    },
-    {
       "title": "ハム太郎とっとこうた",
       "artist": "ハムちゃんず",
       "count": 2
@@ -5171,11 +5171,6 @@
     {
       "title": "ファンサ",
       "artist": "HoneyWorks",
-      "count": 2
-    },
-    {
-      "title": "フェイキング・オブ・コメディ",
-      "artist": "jon-YAKITORY",
       "count": 2
     },
     {
@@ -5679,11 +5674,6 @@
       "count": 2
     },
     {
-      "title": "美少女無罪パイレーツ",
-      "artist": "宝鐘マリン",
-      "count": 2
-    },
-    {
       "title": "聖少女領域",
       "artist": "ALI PROJECT",
       "count": 2
@@ -5786,11 +5776,6 @@
     {
       "title": "Absolute 5",
       "artist": "ワルキューレ",
-      "count": 1
-    },
-    {
-      "title": "Ahoy!! 我ら宝鐘海賊団☆",
-      "artist": "宝鐘マリン",
       "count": 1
     },
     {
@@ -6010,11 +5995,6 @@
     },
     {
       "title": "HEAVEN",
-      "artist": "はりーP",
-      "count": 1
-    },
-    {
-      "title": "HEAVEN",
       "artist": "伊東歌詞太郎",
       "count": 1
     },
@@ -6036,16 +6016,6 @@
     {
       "title": "Hi-Five",
       "artist": "ME:I",
-      "count": 1
-    },
-    {
-      "title": "I I I",
-      "artist": "宝鐘マリン & Kobo Kanaeru",
-      "count": 1
-    },
-    {
-      "title": "I'm Your Treasure Box *あなたは マリンせんちょうを たからばこからみつけた。",
-      "artist": "宝鐘マリン",
       "count": 1
     },
     {
@@ -6239,11 +6209,6 @@
       "count": 1
     },
     {
-      "title": "Stay Alive",
-      "artist": "高橋李依",
-      "count": 1
-    },
-    {
       "title": "Strawberry Trapper",
       "artist": "Guilty Kiss",
       "count": 1
@@ -6359,11 +6324,6 @@
       "count": 1
     },
     {
-      "title": "sweets parade",
-      "artist": "髏々宮カルタ (花澤香菜)",
-      "count": 1
-    },
-    {
       "title": "talking",
       "artist": "KANA-BOON",
       "count": 1
@@ -6421,11 +6381,6 @@
     {
       "title": "うい麦畑でつかまえて",
       "artist": "しぐれうい",
-      "count": 1
-    },
-    {
-      "title": "うまぴょい伝説",
-      "artist": "プリティーダービー",
       "count": 1
     },
     {
@@ -6579,11 +6534,6 @@
       "count": 1
     },
     {
-      "title": "アイのシナリオ",
-      "artist": "HoneyWorks",
-      "count": 1
-    },
-    {
       "title": "アイデア",
       "artist": "星野源",
       "count": 1
@@ -6734,16 +6684,6 @@
       "count": 1
     },
     {
-      "title": "ゴメンねメディスン",
-      "artist": "紫咲シオ",
-      "count": 1
-    },
-    {
-      "title": "ゴメンねメディスン",
-      "artist": "紫咲シオン",
-      "count": 1
-    },
-    {
       "title": "ゴーストルール",
       "artist": "DECO*27",
       "count": 1
@@ -6781,11 +6721,6 @@
     {
       "title": "ジレンマ",
       "artist": "ecosystem",
-      "count": 1
-    },
-    {
-      "title": "スイートマジック",
-      "artist": "ろん×Junky",
       "count": 1
     },
     {
@@ -6934,11 +6869,6 @@
       "count": 1
     },
     {
-      "title": "ノンブレスオブリージュ",
-      "artist": "ピノキオピー",
-      "count": 1
-    },
-    {
       "title": "ハイタッチ!",
       "artist": "サトシ (松本梨香)&ヒカリ (豊口めぐみ)",
       "count": 1
@@ -6994,11 +6924,6 @@
       "count": 1
     },
     {
-      "title": "バラライカ",
-      "artist": "月島きらり starring 久住小春 (モーニング娘。)",
-      "count": 1
-    },
-    {
       "title": "バレンタイン・キッス",
       "artist": "渡り廊下走り隊7",
       "count": 1
@@ -7006,11 +6931,6 @@
     {
       "title": "パイパイ仮面でどうかしらん?",
       "artist": "宝鐘マリン",
-      "count": 1
-    },
-    {
-      "title": "ヒカリへ",
-      "artist": "miwa",
       "count": 1
     },
     {
@@ -7056,11 +6976,6 @@
     {
       "title": "ファーストレディ",
       "artist": "奏音69",
-      "count": 1
-    },
-    {
-      "title": "フェイキング・オブ・コメディ",
-      "artist": "jon",
       "count": 1
     },
     {
@@ -7546,11 +7461,6 @@
     {
       "title": "恋ノ行方",
       "artist": "あかせあかり",
-      "count": 1
-    },
-    {
-      "title": "恋愛サーキュレーション",
-      "artist": "千石撫子 (花澤香菜)",
       "count": 1
     },
     {
@@ -8212,7 +8122,6 @@
     "iLiFE!",
     "iON!",
     "iroha",
-    "jon",
     "jon-YAKITORY",
     "kemu",
     "koyori (電ポルP)",
@@ -8304,7 +8213,6 @@
     "のぼる↑",
     "のりP",
     "はいのことん,えこ。",
-    "はりーP",
     "はるまきごはん",
     "ひらぎ",
     "ぼーかりおどP",
@@ -8326,7 +8234,6 @@
     "れるりり,もじゃ",
     "れるりり,ロンチーノ=ペペ,かごめP",
     "ろくろ",
-    "ろん×Junky",
     "アイオン",
     "アイナ・ジ・エンド",
     "アボガド6",
@@ -8399,7 +8306,6 @@
     "フィンガー5",
     "フランシュシュ",
     "ブレンド・A",
-    "プリティーダービー",
     "ポリスピカデリー",
     "ポルノグラフィティ",
     "マキシマム ザ ホルモン",
@@ -8448,7 +8354,6 @@
     "勇魚",
     "北出菜奈",
     "十時愛梨 (原田ひとみ)、日野茜 (赤崎千夏)、高森藍子 (金子有希)、星輝子 (松田颯水)、堀裕子 (鈴木絵理)",
-    "千石撫子 (花澤香菜)",
     "千綿偉功",
     "南ことり (内田彩)&小泉花陽 (久保ユリカ)",
     "卜學亮",
@@ -8567,7 +8472,6 @@
     "沙花叉クロヱ",
     "河野万里奈",
     "泉こなた (平野綾)、柊かがみ (加藤英美里)、柊つかさ (福原香織)、高良みゆき (遠藤綾)",
-    "泉こなた (平野綾)・柊かがみ (加藤英美里)・柊つかさ (福原香織)・高良みゆき (遠藤綾)",
     "流星P",
     "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
     "涼風しとら",
@@ -8603,7 +8507,6 @@
     "紅色リトマス",
     "紗倉ひびき (ファイルーズあい)&街雄鳴造 (石川界人)",
     "紫 今",
-    "紫咲シオ",
     "紫咲シオン",
     "結束バンド",
     "絢香",
@@ -8653,7 +8556,6 @@
     "髏々宮カルタ (花澤香菜)",
     "高坂穂乃果 (新田恵海)・南ことり (内田彩)・園田海未 (三森すずこ)",
     "高宮なすの (鳴海杏子)",
-    "高橋李依",
     "高橋洋子",
     "高橋瞳",
     "高橋秀幸",

@@ -168,12 +168,6 @@
     "durationSec": 307
   },
   {
-    "title": "Ahoy!! 我ら宝鐘海賊団☆",
-    "artist": "宝鐘マリン",
-    "tags": ["original", "j-pop"],
-    "durationSec": 307
-  },
-  {
     "title": "Alchemy",
     "artist": "Girls Dead Monster",
     "tags": ["anime", "j-pop"],
@@ -889,12 +883,6 @@
   },
   {
     "title": "HEAVEN",
-    "artist": "はりーP",
-    "tags": ["vocaloid", "ballad"],
-    "durationSec": 303
-  },
-  {
-    "title": "HEAVEN",
     "artist": "伊東歌詞太郎",
     "tags": ["j-pop", "ballad"],
     "durationSec": 276
@@ -1060,12 +1048,6 @@
     "artist": "YUI",
     "tags": ["j-pop"],
     "durationSec": 198
-  },
-  {
-    "title": "I’m Your Treasure Box *あなたは マリンせんちょうを たからばこからみつけた。",
-    "artist": "宝鐘マリン",
-    "tags": ["original", "j-pop"],
-    "durationSec": 260
   },
   {
     "title": "I♡",
@@ -1854,12 +1836,6 @@
     "durationSec": 268
   },
   {
-    "title": "Stay Alive",
-    "artist": "高橋李依",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 267
-  },
-  {
     "title": "Stellar Stellar",
     "artist": "星街すいせい",
     "tags": ["original", "j-pop"],
@@ -2418,12 +2394,6 @@
     "durationSec": 257
   },
   {
-    "title": "sweets parade",
-    "artist": "髏々宮カルタ (花澤香菜)",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 240
-  },
-  {
     "title": "talking",
     "artist": "KANA-BOON",
     "tags": ["j-pop"],
@@ -2714,12 +2684,6 @@
   {
     "title": "うまぴょい伝説",
     "artist": "ウマ娘 プリティーダービー",
-    "tags": ["game", "anime", "idol", "j-pop"],
-    "durationSec": 270
-  },
-  {
-    "title": "うまぴょい伝説",
-    "artist": "プリティーダービー",
     "tags": ["game", "anime", "idol", "j-pop"],
     "durationSec": 270
   },
@@ -3228,12 +3192,6 @@
     "durationSec": 258
   },
   {
-    "title": "もってけ!セーラーふく",
-    "artist": "泉こなた (平野綾)・柊かがみ (加藤英美里)・柊つかさ (福原香織)・高良みゆき (遠藤綾)",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 258
-  },
-  {
     "title": "もっと...",
     "artist": "西野カナ",
     "tags": ["j-pop", "ballad"],
@@ -3296,12 +3254,6 @@
   {
     "title": "アイのシナリオ",
     "artist": "CHiCO with HoneyWorks",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 259
-  },
-  {
-    "title": "アイのシナリオ",
-    "artist": "HoneyWorks",
     "tags": ["anime", "j-pop"],
     "durationSec": 259
   },
@@ -4063,7 +4015,7 @@
   },
   {
     "title": "ゴメンねメディスン",
-    "artist": "紫咲シオ",
+    "artist": "紫咲シオン",
     "tags": ["original", "j-pop"],
     "durationSec": 196
   },
@@ -4300,12 +4252,6 @@
     "artist": "Junky",
     "tags": ["vocaloid"],
     "durationSec": 215
-  },
-  {
-    "title": "スイートマジック",
-    "artist": "ろん×Junky",
-    "tags": ["vocaloid"],
-    "durationSec": 218
   },
   {
     "title": "スカー",
@@ -4782,12 +4728,6 @@
     "durationSec": 265
   },
   {
-    "title": "ノンブレスオブリージュ",
-    "artist": "ピノキオピー",
-    "tags": ["vocaloid"],
-    "durationSec": 209
-  },
-  {
     "title": "ノンブレス・オブリージュ",
     "artist": "ピノキオピー",
     "tags": ["vocaloid"],
@@ -5004,12 +4944,6 @@
     "durationSec": 219
   },
   {
-    "title": "バラライカ",
-    "artist": "月島きらり starring 久住小春 (モーニング娘。)",
-    "tags": ["anime", "idol", "j-pop"],
-    "durationSec": 219
-  },
-  {
     "title": "バレリーコ",
     "artist": "みきとP",
     "tags": ["vocaloid"],
@@ -5056,12 +4990,6 @@
     "artist": "ZOC",
     "tags": ["idol", "j-pop"],
     "durationSec": 216
-  },
-  {
-    "title": "ヒカリへ",
-    "artist": "miwa",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 305
   },
   {
     "title": "ヒカリヘ",
@@ -5230,12 +5158,6 @@
     "artist": "ぬゆり",
     "tags": ["vocaloid"],
     "durationSec": 247
-  },
-  {
-    "title": "フェイキング・オブ・コメディ",
-    "artist": "jon",
-    "tags": ["vocaloid"],
-    "durationSec": 190
   },
   {
     "title": "フェイキング・オブ・コメディ",
@@ -6283,12 +6205,6 @@
   },
   {
     "title": "丸の内サディスティック",
-    "artist": "椎名林檎",
-    "tags": ["j-pop"],
-    "durationSec": 236
-  },
-  {
-    "title": "丸ノ内サディスティック",
     "artist": "椎名林檎",
     "tags": ["j-pop"],
     "durationSec": 236
@@ -7468,12 +7384,6 @@
     "artist": "あかせあかり",
     "tags": ["anime", "j-pop"],
     "durationSec": 217
-  },
-  {
-    "title": "恋愛サーキュレーション",
-    "artist": "千石撫子 (花澤香菜)",
-    "tags": ["anime", "j-pop"],
-    "durationSec": 255
   },
   {
     "title": "恋愛サーキュレーション",
@@ -8767,12 +8677,6 @@
   },
   {
     "title": "美少女無罪♡パイレーツ",
-    "artist": "宝鐘マリン",
-    "tags": ["original", "j-pop"],
-    "durationSec": 219
-  },
-  {
-    "title": "美少女無罪パイレーツ",
     "artist": "宝鐘マリン",
     "tags": ["original", "j-pop"],
     "durationSec": 219
