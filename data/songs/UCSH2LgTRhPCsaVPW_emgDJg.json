@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-10-31T16:56:51.374862+00:00",
+  "lastFetched": "2026-11-01T17:44:34.975028+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -48134,6 +48134,24 @@
       ],
       "sourceCommentId": "",
       "type": "stream"
+    },
+    {
+      "videoId": "uS2SzyNsHcI",
+      "title": "革命道中 / アイナ・ジ・エンド 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-11-01T09:00:04Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "革命道中",
+          "titleRaw": "革命道中",
+          "artist": "アイナ・ジ・エンド",
+          "artistRaw": "アイナ・ジ・エンド",
+          "url": "https://youtu.be/uS2SzyNsHcI"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
