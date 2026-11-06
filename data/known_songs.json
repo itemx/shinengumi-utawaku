@@ -39,13 +39,18 @@
       "count": 29
     },
     {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 28
+    },
+    {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
       "count": 28
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
       "count": 27
     },
     {
@@ -56,11 +61,6 @@
     {
       "title": "ビビデバ",
       "artist": "星街すいせい",
-      "count": 26
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
       "count": 26
     },
     {
@@ -84,6 +84,11 @@
       "count": 25
     },
     {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
+      "count": 24
+    },
+    {
       "title": "少女S",
       "artist": "SCANDAL",
       "count": 24
@@ -92,11 +97,6 @@
       "title": "斜陽",
       "artist": "ヨルシカ",
       "count": 24
-    },
-    {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
-      "count": 23
     },
     {
       "title": "サリシノハラ",
@@ -149,6 +149,11 @@
       "count": 21
     },
     {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
+      "count": 21
+    },
+    {
       "title": "ウィアートル",
       "artist": "rionos",
       "count": 21
@@ -172,11 +177,6 @@
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
       "count": 21
-    },
-    {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
-      "count": 20
     },
     {
       "title": "トリノコシティ",
@@ -219,6 +219,11 @@
       "count": 19
     },
     {
+      "title": "ヒバナ",
+      "artist": "DECO*27",
+      "count": 19
+    },
+    {
       "title": "初めての恋が終わる時",
       "artist": "ryo (supercell)",
       "count": 19
@@ -254,8 +259,8 @@
       "count": 18
     },
     {
-      "title": "ヒバナ",
-      "artist": "DECO*27",
+      "title": "恋愛裁判",
+      "artist": "40mP",
       "count": 18
     },
     {
@@ -294,6 +299,11 @@
       "count": 17
     },
     {
+      "title": "吉原ラメント",
+      "artist": "亜沙",
+      "count": 17
+    },
+    {
       "title": "名前のない怪物",
       "artist": "EGOIST",
       "count": 17
@@ -306,11 +316,6 @@
     {
       "title": "怪物",
       "artist": "YOASOBI",
-      "count": 17
-    },
-    {
-      "title": "恋愛裁判",
-      "artist": "40mP",
       "count": 17
     },
     {
@@ -359,8 +364,8 @@
       "count": 16
     },
     {
-      "title": "吉原ラメント",
-      "artist": "亜沙",
+      "title": "帝国少女",
+      "artist": "R Sound Design",
       "count": 16
     },
     {
@@ -394,8 +399,8 @@
       "count": 15
     },
     {
-      "title": "帝国少女",
-      "artist": "R Sound Design",
+      "title": "ワールド・ランプシェード",
+      "artist": "buzzG",
       "count": 15
     },
     {
@@ -464,13 +469,13 @@
       "count": 14
     },
     {
-      "title": "ワールド・ランプシェード",
-      "artist": "buzzG",
+      "title": "一度だけの恋なら",
+      "artist": "ワルキューレ",
       "count": 14
     },
     {
-      "title": "一度だけの恋なら",
-      "artist": "ワルキューレ",
+      "title": "二息歩行",
+      "artist": "DECO*27",
       "count": 14
     },
     {
@@ -486,6 +491,11 @@
     {
       "title": "心という名の不可解",
       "artist": "Ado",
+      "count": 14
+    },
+    {
+      "title": "心拍数♯0822",
+      "artist": "蝶々P",
       "count": 14
     },
     {
@@ -584,11 +594,6 @@
       "count": 13
     },
     {
-      "title": "二息歩行",
-      "artist": "DECO*27",
-      "count": 13
-    },
-    {
       "title": "六兆年と一夜物語",
       "artist": "kemu",
       "count": 13
@@ -601,11 +606,6 @@
     {
       "title": "夜に駆ける",
       "artist": "YOASOBI",
-      "count": 13
-    },
-    {
-      "title": "心拍数♯0822",
-      "artist": "蝶々P",
       "count": 13
     },
     {
@@ -706,6 +706,11 @@
     {
       "title": "ピースサイン",
       "artist": "米津玄師",
+      "count": 12
+    },
+    {
+      "title": "ブラックロックシューター",
+      "artist": "ryo (supercell)",
       "count": 12
     },
     {
@@ -839,11 +844,6 @@
       "count": 11
     },
     {
-      "title": "ブラックロックシューター",
-      "artist": "ryo (supercell)",
-      "count": 11
-    },
-    {
       "title": "ブルーバード",
       "artist": "いきものがかり",
       "count": 11
@@ -911,6 +911,11 @@
     {
       "title": "晩餐歌",
       "artist": "tuki.",
+      "count": 11
+    },
+    {
+      "title": "曖昧劣情Lover",
+      "artist": "koyori (電ポルP)",
       "count": 11
     },
     {
@@ -1096,11 +1101,6 @@
     {
       "title": "怪獣の花唄",
       "artist": "Vaundy",
-      "count": 10
-    },
-    {
-      "title": "曖昧劣情Lover",
-      "artist": "koyori (電ポルP)",
       "count": 10
     },
     {
@@ -1469,6 +1469,11 @@
       "count": 8
     },
     {
+      "title": "妄想税",
+      "artist": "DECO*27",
+      "count": 8
+    },
+    {
       "title": "心做し",
       "artist": "蝶々P",
       "count": 8
@@ -1571,6 +1576,11 @@
     {
       "title": "GLAMOROUS SKY",
       "artist": "NANA starring MIKA NAKASHIMA",
+      "count": 7
+    },
+    {
+      "title": "HOME",
+      "artist": "古川本舗",
       "count": 7
     },
     {
@@ -1789,11 +1799,6 @@
       "count": 7
     },
     {
-      "title": "妄想税",
-      "artist": "DECO*27",
-      "count": 7
-    },
-    {
       "title": "月陽 - ツキアカリ -",
       "artist": "みきとP",
       "count": 7
@@ -1821,6 +1826,11 @@
     {
       "title": "粛聖!! ロリ神レクイエム",
       "artist": "しぐれうい",
+      "count": 7
+    },
+    {
+      "title": "紗痲",
+      "artist": "煮ル果実",
       "count": 7
     },
     {
@@ -1891,11 +1901,6 @@
     {
       "title": "GO!!!",
       "artist": "FLOW",
-      "count": 6
-    },
-    {
-      "title": "HOME",
-      "artist": "古川本舗",
       "count": 6
     },
     {
@@ -2209,11 +2214,6 @@
       "count": 6
     },
     {
-      "title": "紗痲",
-      "artist": "煮ル果実",
-      "count": 6
-    },
-    {
       "title": "花占い",
       "artist": "Vaundy",
       "count": 6
@@ -2436,6 +2436,11 @@
     {
       "title": "キスキツネ",
       "artist": "HIMEHINA",
+      "count": 5
+    },
+    {
+      "title": "キルマー",
+      "artist": "煮ル果実",
       "count": 5
     },
     {
@@ -2961,11 +2966,6 @@
     {
       "title": "キュートなカノジョ",
       "artist": "syudou",
-      "count": 4
-    },
-    {
-      "title": "キルマー",
-      "artist": "煮ル果実",
       "count": 4
     },
     {
@@ -3871,6 +3871,11 @@
     {
       "title": "キュンとクラフト",
       "artist": "iLiFE!",
+      "count": 3
+    },
+    {
+      "title": "グレゴリオ",
+      "artist": "古川本舗",
       "count": 3
     },
     {
@@ -5059,11 +5064,6 @@
       "count": 2
     },
     {
-      "title": "グレゴリオ",
-      "artist": "古川本舗",
-      "count": 2
-    },
-    {
       "title": "ケロッ!とマーチ",
       "artist": "角田信朗&いはたじゅり",
       "count": 2
@@ -5576,6 +5576,11 @@
     {
       "title": "撥条少女時計",
       "artist": "Drop & 葉月ゆら",
+      "count": 2
+    },
+    {
+      "title": "星を巡る",
+      "artist": "ロクデナシ",
       "count": 2
     },
     {
@@ -7511,11 +7516,6 @@
     {
       "title": "明星ギャラクティカ",
       "artist": "ナユタン星人",
-      "count": 1
-    },
-    {
-      "title": "星を巡る",
-      "artist": "ロクデナシ",
       "count": 1
     },
     {
