@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1579,
-  "uniqueTitles": 1554,
-  "uniqueArtists": 699,
+  "totalEntries": 1570,
+  "uniqueTitles": 1553,
+  "uniqueArtists": 693,
   "songs": [
     {
       "title": "All Alone With You",
@@ -24,13 +24,13 @@
       "count": 31
     },
     {
-      "title": "晴る",
-      "artist": "ヨルシカ",
-      "count": 30
-    },
-    {
       "title": "残響散歌",
       "artist": "Aimer",
+      "count": 31
+    },
+    {
+      "title": "晴る",
+      "artist": "ヨルシカ",
       "count": 30
     },
     {
@@ -654,6 +654,11 @@
       "count": 12
     },
     {
+      "title": "SOS",
+      "artist": "黛冬優子",
+      "count": 12
+    },
+    {
       "title": "Shout Baby",
       "artist": "緑黄色社会",
       "count": 12
@@ -729,6 +734,11 @@
       "count": 12
     },
     {
+      "title": "月が綺麗ねと言われたい!",
+      "artist": "柿崎ユウタ",
+      "count": 12
+    },
+    {
       "title": "櫂",
       "artist": "ヨルシカ",
       "count": 12
@@ -776,11 +786,6 @@
     {
       "title": "ROCK-mode'18",
       "artist": "LiSA",
-      "count": 11
-    },
-    {
-      "title": "SOS",
-      "artist": "黛冬優子",
       "count": 11
     },
     {
@@ -904,8 +909,8 @@
       "count": 11
     },
     {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "柿崎ユウタ",
+      "title": "晩餐歌",
+      "artist": "tuki.",
       "count": 11
     },
     {
@@ -1091,11 +1096,6 @@
     {
       "title": "怪獣の花唄",
       "artist": "Vaundy",
-      "count": 10
-    },
-    {
-      "title": "晩餐歌",
-      "artist": "tuki.",
       "count": 10
     },
     {
@@ -1469,6 +1469,11 @@
       "count": 8
     },
     {
+      "title": "心做し",
+      "artist": "蝶々P",
+      "count": 8
+    },
+    {
       "title": "愛包ダンスホール",
       "artist": "HIMEHINA",
       "count": 8
@@ -1786,11 +1791,6 @@
     {
       "title": "妄想税",
       "artist": "DECO*27",
-      "count": 7
-    },
-    {
-      "title": "心做し",
-      "artist": "majiko",
       "count": 7
     },
     {
@@ -2589,6 +2589,11 @@
       "count": 5
     },
     {
+      "title": "悪魔の踊り方",
+      "artist": "こんにちは谷田さん",
+      "count": 5
+    },
+    {
       "title": "想像フォレスト",
       "artist": "じん",
       "count": 5
@@ -2826,6 +2831,11 @@
     {
       "title": "Touch off",
       "artist": "UVERworld",
+      "count": 4
+    },
+    {
+      "title": "Tulip",
+      "artist": "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
       "count": 4
     },
     {
@@ -3279,11 +3289,6 @@
       "count": 4
     },
     {
-      "title": "悪魔の踊り方",
-      "artist": "こんにちは谷田さん",
-      "count": 4
-    },
-    {
       "title": "愛くださいませ",
       "artist": "≠ME",
       "count": 4
@@ -3651,11 +3656,6 @@
     {
       "title": "Super Driver",
       "artist": "平野綾",
-      "count": 3
-    },
-    {
-      "title": "Tulip",
-      "artist": "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
       "count": 3
     },
     {
@@ -5104,6 +5104,11 @@
       "count": 2
     },
     {
+      "title": "ススメ→トゥモロウ",
+      "artist": "高坂穂乃果 (新田恵海)・南ことり (内田彩)・園田海未 (三森すずこ)",
+      "count": 2
+    },
+    {
       "title": "ソングオブザデッド",
       "artist": "KANA-BOON",
       "count": 2
@@ -5561,6 +5566,11 @@
     {
       "title": "愛してるばんざーい!",
       "artist": "μ's",
+      "count": 2
+    },
+    {
+      "title": "愛・おぼえていますか",
+      "artist": "飯島真理",
       "count": 2
     },
     {
@@ -6189,11 +6199,6 @@
       "count": 1
     },
     {
-      "title": "SOS",
-      "artist": "黛冬優子 (幸村恵理)",
-      "count": 1
-    },
-    {
       "title": "START!! True dreams",
       "artist": "Liella!",
       "count": 1
@@ -6256,11 +6261,6 @@
     {
       "title": "That Is How I Roll!",
       "artist": "Afterglow",
-      "count": 1
-    },
-    {
-      "title": "Tulip",
-      "artist": "速水奏、塩見周子、城ヶ崎美嘉、宮本フレデリカ、一ノ瀬志希",
       "count": 1
     },
     {
@@ -6761,16 +6761,6 @@
     {
       "title": "スシ食いねェ!",
       "artist": "シブがき隊",
-      "count": 1
-    },
-    {
-      "title": "ススメ→トゥモロウ",
-      "artist": "μ's",
-      "count": 1
-    },
-    {
-      "title": "ススメ→トゥモロウ",
-      "artist": "高坂穂乃果 (新田恵海)・南ことり (内田彩)・園田海未 (三森すずこ)",
       "count": 1
     },
     {
@@ -7429,11 +7419,6 @@
       "count": 1
     },
     {
-      "title": "心做し",
-      "artist": "蝶々P",
-      "count": 1
-    },
-    {
       "title": "快晴",
       "artist": "orangester",
       "count": 1
@@ -7489,11 +7474,6 @@
       "count": 1
     },
     {
-      "title": "悪魔の踊り方",
-      "artist": "キタニタツヤ",
-      "count": 1
-    },
-    {
       "title": "悲しみの向こうへ",
       "artist": "いとうかなこ",
       "count": 1
@@ -7501,16 +7481,6 @@
     {
       "title": "愛は勝つ",
       "artist": "KAN",
-      "count": 1
-    },
-    {
-      "title": "愛・おぼえていますか",
-      "artist": "飯島真理",
-      "count": 1
-    },
-    {
-      "title": "愛・おぼえていますか",
-      "artist": "飯島真理, ワルキューレ",
       "count": 1
     },
     {
@@ -7549,11 +7519,6 @@
       "count": 1
     },
     {
-      "title": "晩餐歌",
-      "artist": "Tuki.",
-      "count": 1
-    },
-    {
       "title": "暗く黒く",
       "artist": "ずっと真夜中でいいのに。",
       "count": 1
@@ -7566,11 +7531,6 @@
     {
       "title": "最上級にかわいいの!",
       "artist": "超ときめき宣伝部",
-      "count": 1
-    },
-    {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "カササギ",
       "count": 1
     },
     {
@@ -7616,11 +7576,6 @@
     {
       "title": "残酷な夜に輝け",
       "artist": "LiSA",
-      "count": 1
-    },
-    {
-      "title": "残響賛歌",
-      "artist": "Aimer",
       "count": 1
     },
     {
@@ -8108,7 +8063,6 @@
     "TRUE",
     "Tommy heavenly6",
     "TrySail",
-    "Tuki.",
     "UNDEAD",
     "UNISON SQUARE GARDEN",
     "UVERworld",
@@ -8153,7 +8107,6 @@
     "koyori (電ポルP)",
     "kz",
     "kz (livetune)",
-    "majiko",
     "mao",
     "meiyo",
     "mihimaru GT",
@@ -8268,7 +8221,6 @@
     "エリオをかまってちゃん",
     "オワタP",
     "オーイシマサヨシ",
-    "カササギ",
     "カバネリ",
     "カラスヤサボウ",
     "カンザキイオリ",
@@ -8559,7 +8511,6 @@
     "超ときめき宣伝部",
     "超時空歌姫オーディション2025",
     "速水奏 (飯田友子)、塩見周子 (ルゥティン)、城ヶ崎美嘉 (佳村はるか)、宮本フレデリカ (高野麻美)、一ノ瀬志希 (藍原ことみ)",
-    "速水奏、塩見周子、城ヶ崎美嘉、宮本フレデリカ、一ノ瀬志希",
     "逢坂大河・櫛枝実乃梨・川嶋亜美",
     "那珂",
     "郷ひろみ",
@@ -8577,7 +8528,6 @@
     "音莉飴",
     "須田景凪",
     "飯島真理",
-    "飯島真理, ワルキューレ",
     "香椎モイミ",
     "駄菓子O型",
     "髏々宮カルタ (花澤香菜)",
@@ -8597,7 +8547,6 @@
     "黒うさぎ",
     "黒澤ルビィ (降幡愛) from Aqours",
     "黛冬優子",
-    "黛冬優子 (幸村恵理)",
     "龍宮城"
   ]
 }

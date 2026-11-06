@@ -204,10 +204,22 @@
     "durationSec": 296
   },
   {
+    "title": "Another Great Day!!",
+    "artist": "LiSA",
+    "tags": ["j-pop"],
+    "durationSec": 299
+  },
+  {
     "title": "Anything Goes!",
     "artist": "大黒摩季",
     "tags": ["tokusatsu", "j-pop"],
     "durationSec": 211
+  },
+  {
+    "title": "A・RA・SHI",
+    "artist": "嵐",
+    "tags": ["idol", "j-pop"],
+    "durationSec": 267
   },
   {
     "title": "BALALAIKA",
@@ -322,6 +334,12 @@
     "artist": "西沢さんP",
     "tags": ["vocaloid"],
     "durationSec": 173
+  },
+  {
+    "title": "Brave Freak Out",
+    "artist": "LiSA",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 256
   },
   {
     "title": "Brave Shine",
@@ -1144,6 +1162,12 @@
     "artist": "米津玄師",
     "tags": ["j-pop", "ballad"],
     "durationSec": 256
+  },
+  {
+    "title": "LiMiT STRiKER!",
+    "artist": "iLiFE!",
+    "tags": ["idol", "j-pop"],
+    "durationSec": 243
   },
   {
     "title": "Life",
@@ -2358,6 +2382,12 @@
     "durationSec": 229
   },
   {
+    "title": "play the world!",
+    "artist": "LiSA",
+    "tags": ["game", "j-pop"],
+    "durationSec": 259
+  },
+  {
     "title": "rain stops, good-bye",
     "artist": "におP",
     "tags": ["vocaloid", "ballad"],
@@ -2832,6 +2862,12 @@
     "durationSec": 260
   },
   {
+    "title": "こちら、幸福安心委員会です。",
+    "artist": "うたたP",
+    "tags": ["vocaloid"],
+    "durationSec": 272
+  },
+  {
     "title": "この世界で見つけたもの",
     "artist": "EGOIST",
     "tags": ["anime", "j-pop", "ballad"],
@@ -3298,6 +3334,12 @@
     "artist": "iLiFE!",
     "tags": ["idol", "j-pop"],
     "durationSec": 231
+  },
+  {
+    "title": "アイドルライフメガパック",
+    "artist": "iLiFE!",
+    "tags": ["idol", "j-pop"],
+    "durationSec": 216
   },
   {
     "title": "アイネクライネ",
@@ -4297,7 +4339,7 @@
   },
   {
     "title": "ススメ→トゥモロウ",
-    "artist": "μ's",
+    "artist": "高坂穂乃果 (新田恵海)・南ことり (内田彩)・園田海未 (三森すずこ)",
     "tags": ["anime", "idol", "j-pop"],
     "durationSec": 273
   },
@@ -4576,6 +4618,12 @@
     "artist": "DECO*27",
     "tags": ["vocaloid"],
     "durationSec": 138
+  },
+  {
+    "title": "デビットビット",
+    "artist": "アボガド6",
+    "tags": ["vocaloid"],
+    "durationSec": 145
   },
   {
     "title": "トゥントゥントゥンサフールに恋している",
@@ -6498,6 +6546,12 @@
     "durationSec": 134
   },
   {
+    "title": "厨病激発ボーイ",
+    "artist": "れるりり",
+    "tags": ["vocaloid"],
+    "durationSec": 207
+  },
+  {
     "title": "可愛いあの子が気にゐらない",
     "artist": "なるみや",
     "tags": ["j-pop", "ballad"],
@@ -7255,7 +7309,7 @@
   },
   {
     "title": "心做し",
-    "artist": "majiko",
+    "artist": "蝶々P",
     "tags": ["vocaloid", "ballad"],
     "durationSec": 274
   },
@@ -7282,6 +7336,12 @@
     "artist": "ヨルシカ",
     "tags": ["j-pop", "ballad"],
     "durationSec": 219
+  },
+  {
+    "title": "忘れてやらない",
+    "artist": "結束バンド",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 223
   },
   {
     "title": "快晴",
@@ -7513,7 +7573,7 @@
   },
   {
     "title": "愛・おぼえていますか",
-    "artist": "飯島真理, ワルキューレ",
+    "artist": "飯島真理",
     "tags": ["anime", "idol", "j-pop", "ballad"],
     "durationSec": 312
   },
@@ -8316,6 +8376,12 @@
     "durationSec": 202
   },
   {
+    "title": "猪突猛進ガール",
+    "artist": "れるりり",
+    "tags": ["vocaloid"],
+    "durationSec": 206
+  },
+  {
     "title": "現状ディストラクション",
     "artist": "SPYAIR",
     "tags": ["anime", "j-pop"],
@@ -8914,6 +8980,12 @@
     "artist": "ももいろクローバー",
     "tags": ["idol", "j-pop"],
     "durationSec": 226
+  },
+  {
+    "title": "表裏一体",
+    "artist": "ゆず",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 337
   },
   {
     "title": "被害妄想携帯女子(笑)",
