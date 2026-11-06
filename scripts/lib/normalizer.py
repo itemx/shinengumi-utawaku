@@ -102,6 +102,10 @@ def load_aliases(path: Path | str) -> dict[str, dict[str, str]]:
         for canonical, aliases in raw.get(category, {}).items():
             for alias in aliases:
                 result[category][alias.lower()] = canonical
+                # 照合は _clean_text 後の文字列で行うので、alias 側も同じ掃除をした形で引けるようにする。
+                # 例: 「黛冬優子(幸村恵理)」は掃除で「黛冬優子 (幸村恵理)」になり、書いたままの alias に当たらなかった
+                cleaned = _clean_text(alias, is_title=(category == "songs")).lower()
+                result[category].setdefault(cleaned, canonical)
     return result
 
 

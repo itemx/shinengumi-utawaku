@@ -14,8 +14,12 @@ alias は曲名だけ／歌手だけを見て一括置換する。そのため�
 from __future__ import annotations
 
 import json
+import sys
 from collections import defaultdict
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from scripts.lib.normalizer import _clean_text
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 
@@ -40,7 +44,9 @@ def test_artist_alias_does_not_hijack_live_artist():
         f"{variant!r} → {canonical!r} ({len(titles_by_artist[variant])} 曲がまだ "
         f"{variant!r} 名義: {sorted(titles_by_artist[variant])[:3]})"
         for canonical, variants in aliases.get("artists", {}).items()
-        for variant in variants
+        for raw in variants
+        # 正規化は掃除後の形でも alias に当てるので、その形も検査する
+        for variant in {raw, _clean_text(raw)}
         if variant != canonical and variant in titles_by_artist
     ]
     assert not offenders, "この alias は既存曲を巻き込む:\n  " + "\n  ".join(offenders)
@@ -52,7 +58,8 @@ def test_song_alias_does_not_hijack_live_title():
     offenders = [
         f"{variant!r} → {canonical!r} (歌手 {sorted(artists_by_title[variant])} で残存)"
         for canonical, variants in aliases.get("songs", {}).items()
-        for variant in variants
+        for raw in variants
+        for variant in {raw, _clean_text(raw, is_title=True)}
         if variant != canonical and variant in artists_by_title
     ]
     assert not offenders, "この alias は既存曲を巻き込む:\n  " + "\n  ".join(offenders)
