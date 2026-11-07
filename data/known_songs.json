@@ -89,6 +89,11 @@
       "count": 24
     },
     {
+      "title": "夜明けと蛍",
+      "artist": "n-buna",
+      "count": 24
+    },
+    {
       "title": "少女S",
       "artist": "SCANDAL",
       "count": 24
@@ -111,11 +116,6 @@
     {
       "title": "変わらないもの",
       "artist": "奥華子",
-      "count": 23
-    },
-    {
-      "title": "夜明けと蛍",
-      "artist": "n-buna",
       "count": 23
     },
     {
@@ -299,6 +299,11 @@
       "count": 17
     },
     {
+      "title": "プラチナ",
+      "artist": "坂本真綾",
+      "count": 17
+    },
+    {
       "title": "吉原ラメント",
       "artist": "亜沙",
       "count": 17
@@ -351,11 +356,6 @@
     {
       "title": "コネクト",
       "artist": "ClariS",
-      "count": 16
-    },
-    {
-      "title": "プラチナ",
-      "artist": "坂本真綾",
       "count": 16
     },
     {
@@ -564,6 +564,11 @@
       "count": 13
     },
     {
+      "title": "カワキヲアメク",
+      "artist": "美波",
+      "count": 13
+    },
+    {
       "title": "ネクロネイディア",
       "artist": "渉海よひら",
       "count": 13
@@ -689,11 +694,6 @@
       "count": 12
     },
     {
-      "title": "カワキヲアメク",
-      "artist": "美波",
-      "count": 12
-    },
-    {
       "title": "ソワレ",
       "artist": "星街すいせい",
       "count": 12
@@ -801,6 +801,11 @@
     {
       "title": "ambiguous",
       "artist": "GARNiDELiA",
+      "count": 11
+    },
+    {
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
       "count": 11
     },
     {
@@ -979,11 +984,6 @@
       "count": 10
     },
     {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
-      "count": 10
-    },
-    {
       "title": "いのちの名前",
       "artist": "木村弓",
       "count": 10
@@ -1036,6 +1036,11 @@
     {
       "title": "シルシ",
       "artist": "LiSA",
+      "count": 10
+    },
+    {
+      "title": "スパークル",
+      "artist": "RADWIMPS",
       "count": 10
     },
     {
@@ -1191,11 +1196,6 @@
     {
       "title": "カブトムシ",
       "artist": "aiko",
-      "count": 9
-    },
-    {
-      "title": "スパークル",
-      "artist": "RADWIMPS",
       "count": 9
     },
     {
@@ -1386,6 +1386,11 @@
     {
       "title": "クラクラ",
       "artist": "Ado",
+      "count": 8
+    },
+    {
+      "title": "グリズリーに襲われたら♡",
+      "artist": "神宿",
       "count": 8
     },
     {
@@ -1689,11 +1694,6 @@
       "count": 7
     },
     {
-      "title": "グリズリーに襲われたら♡",
-      "artist": "神宿",
-      "count": 7
-    },
-    {
       "title": "サイレント・マジョリティ",
       "artist": "Heavenz",
       "count": 7
@@ -1919,6 +1919,11 @@
       "count": 6
     },
     {
+      "title": "Os 宇宙人",
+      "artist": "エリオをかまってちゃん",
+      "count": 6
+    },
+    {
       "title": "Paradisus-Paradoxum",
       "artist": "MYTH & ROID",
       "count": 6
@@ -1976,6 +1981,11 @@
     {
       "title": "かくれんぼ",
       "artist": "AliA",
+      "count": 6
+    },
+    {
+      "title": "くりてぃかる♡ぷりちー",
+      "artist": "iLiFE!",
       "count": 6
     },
     {
@@ -2314,11 +2324,6 @@
       "count": 5
     },
     {
-      "title": "Os 宇宙人",
-      "artist": "エリオをかまってちゃん",
-      "count": 5
-    },
-    {
       "title": "Overfly",
       "artist": "春奈るな",
       "count": 5
@@ -2409,11 +2414,6 @@
       "count": 5
     },
     {
-      "title": "くりてぃかる♡ぷりちー",
-      "artist": "iLiFE!",
-      "count": 5
-    },
-    {
       "title": "やさしさで溢れるように",
       "artist": "JUJU",
       "count": 5
@@ -2481,6 +2481,11 @@
     {
       "title": "ダーリン",
       "artist": "須田景凪",
+      "count": 5
+    },
+    {
+      "title": "チュープリ",
+      "artist": "ZOC",
       "count": 5
     },
     {
@@ -3029,11 +3034,6 @@
       "count": 4
     },
     {
-      "title": "チュープリ",
-      "artist": "ZOC",
-      "count": 4
-    },
-    {
       "title": "テレキャスタービーボーイ",
       "artist": "すりぃ",
       "count": 4
@@ -3239,6 +3239,11 @@
       "count": 4
     },
     {
+      "title": "境界の彼方",
+      "artist": "茅原実里",
+      "count": 4
+    },
+    {
       "title": "夏祭り",
       "artist": "Whiteberry",
       "count": 4
@@ -3324,6 +3329,11 @@
       "count": 4
     },
     {
+      "title": "有心論",
+      "artist": "RADWIMPS",
+      "count": 4
+    },
+    {
       "title": "桃源郷エイリアン",
       "artist": "serial TV drama",
       "count": 4
@@ -3401,6 +3411,11 @@
     {
       "title": "花瓶に触れた",
       "artist": "バルーン",
+      "count": 4
+    },
+    {
+      "title": "螺旋",
+      "artist": "9Lana",
       "count": 4
     },
     {
@@ -3711,6 +3726,11 @@
     {
       "title": "「Q」",
       "artist": "Calliope Mori x Gawr Gura x DECO*27",
+      "count": 3
+    },
+    {
+      "title": "あちこちデートさん",
+      "artist": "駄菓子O型",
       "count": 3
     },
     {
@@ -4144,11 +4164,6 @@
       "count": 3
     },
     {
-      "title": "境界の彼方",
-      "artist": "茅原実里",
-      "count": 3
-    },
-    {
       "title": "夏に去りし君を想フ",
       "artist": "baker",
       "count": 3
@@ -4269,11 +4284,6 @@
       "count": 3
     },
     {
-      "title": "有心論",
-      "artist": "RADWIMPS",
-      "count": 3
-    },
-    {
       "title": "朝を呑む",
       "artist": "バルーン",
       "count": 3
@@ -4376,11 +4386,6 @@
     {
       "title": "蝶々結び",
       "artist": "Aimer",
-      "count": 3
-    },
-    {
-      "title": "螺旋",
-      "artist": "9Lana",
       "count": 3
     },
     {
@@ -4489,8 +4494,18 @@
       "count": 2
     },
     {
+      "title": "CLEAR",
+      "artist": "坂本真綾",
+      "count": 2
+    },
+    {
       "title": "CULT",
       "artist": "DUSTCELL",
+      "count": 2
+    },
+    {
+      "title": "Catch You Catch Me",
+      "artist": "日向めぐみ",
       "count": 2
     },
     {
@@ -4809,6 +4824,11 @@
       "count": 2
     },
     {
+      "title": "over and over",
+      "artist": "やなぎなぎ",
+      "count": 2
+    },
+    {
       "title": "truth",
       "artist": "嵐",
       "count": 2
@@ -4821,11 +4841,6 @@
     {
       "title": "あいつら全員同窓会",
       "artist": "ずっと真夜中でいいのに。",
-      "count": 2
-    },
-    {
-      "title": "あちこちデートさん",
-      "artist": "駄菓子O型",
       "count": 2
     },
     {
@@ -5894,11 +5909,6 @@
       "count": 1
     },
     {
-      "title": "CLEAR",
-      "artist": "坂本真綾",
-      "count": 1
-    },
-    {
       "title": "CUTTING EDGE",
       "artist": "ZOC",
       "count": 1
@@ -5906,11 +5916,6 @@
     {
       "title": "Cagayake!GIRLS",
       "artist": "放課後ティータイム",
-      "count": 1
-    },
-    {
-      "title": "Catch You Catch Me",
-      "artist": "日向めぐみ",
       "count": 1
     },
     {
@@ -6336,11 +6341,6 @@
     {
       "title": "mosi mosi?",
       "artist": "楽音",
-      "count": 1
-    },
-    {
-      "title": "over and over",
-      "artist": "やなぎなぎ",
       "count": 1
     },
     {
