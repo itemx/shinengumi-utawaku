@@ -23502,7 +23502,8 @@
         }
       ],
       "sourceCommentId": "issue#151",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "cjpx4zy0XJc",
@@ -23718,7 +23719,8 @@
         }
       ],
       "sourceCommentId": "issue#152",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-11-10T04:35:11.396992+00:00",
+  "lastFetched": "2026-11-10T19:25:33.711861+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -48692,6 +48692,24 @@
       ],
       "sourceCommentId": "issue#154",
       "type": "stream"
+    },
+    {
+      "videoId": "EEtApGzgag4",
+      "title": "Shouted Serenade / LiSA 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-11-10T09:00:23Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "Shouted Serenade",
+          "titleRaw": "Shouted Serenade",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/EEtApGzgag4"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
     }
   ]
 }
