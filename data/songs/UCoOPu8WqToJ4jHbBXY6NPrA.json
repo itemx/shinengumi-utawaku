@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-11-07T01:31:12.809556+00:00",
+  "lastFetched": "2026-11-10T02:22:48.706875+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -23277,6 +23277,231 @@
         }
       ],
       "sourceCommentId": "issue#150",
+      "type": "stream"
+    },
+    {
+      "videoId": "Y7ds4FN5eMk",
+      "title": "【歌枠】夢のような空間からもう帰れない🐙海の中から響く魅惑の歌声🫧1曲聴いていってください🌟 SINGING STREAM！【VTuber/配信中】",
+      "publishedAt": "2026-06-16T19:28:05Z",
+      "songs": [
+        {
+          "timestamp": "16:26",
+          "seconds": 986,
+          "title": "Planetes",
+          "titleRaw": "Planetes",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=986"
+        },
+        {
+          "timestamp": "22:40",
+          "seconds": 1360,
+          "title": "All Alone With You",
+          "titleRaw": "All Alone With You",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=1360"
+        },
+        {
+          "timestamp": "28:43",
+          "seconds": 1723,
+          "title": "Departures ~あなたにおくるアイの歌~",
+          "titleRaw": "Departures ~あなたにおくるアイの歌~",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=1723"
+        },
+        {
+          "timestamp": "54:07",
+          "seconds": 3247,
+          "title": "うたかた花火",
+          "titleRaw": "うたかた花火",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=3247"
+        },
+        {
+          "timestamp": "1:00:02",
+          "seconds": 3602,
+          "title": "アルジャーノン",
+          "titleRaw": "アルジャーノン",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=3602"
+        },
+        {
+          "timestamp": "1:04:24",
+          "seconds": 3864,
+          "title": "明日への手紙",
+          "titleRaw": "明日への手紙",
+          "artist": "手嶌葵",
+          "artistRaw": "手嶌葵",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=3864"
+        },
+        {
+          "timestamp": "1:09:37",
+          "seconds": 4177,
+          "title": "グリグリメガネと月光蟲",
+          "titleRaw": "グリグリメガネと月光蟲",
+          "artist": "古川本舗",
+          "artistRaw": "古川本舗",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=4177"
+        },
+        {
+          "timestamp": "1:14:36",
+          "seconds": 4476,
+          "title": "ロンリーユニバース",
+          "titleRaw": "ロンリーユニバース",
+          "artist": "Aqu3ra",
+          "artistRaw": "Aqu3ra",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=4476"
+        },
+        {
+          "timestamp": "1:18:24",
+          "seconds": 4704,
+          "title": "Burn My Universe",
+          "titleRaw": "Burn My Universe",
+          "artist": "麻枝准×やなぎなぎ",
+          "artistRaw": "麻枝准×やなぎなぎ",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=4704"
+        },
+        {
+          "timestamp": "1:23:20",
+          "seconds": 5000,
+          "title": "アクアテラリウム",
+          "titleRaw": "アクアテラリウム",
+          "artist": "やなぎなぎ",
+          "artistRaw": "やなぎなぎ",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=5000"
+        },
+        {
+          "timestamp": "1:28:19",
+          "seconds": 5299,
+          "title": "点描の唄",
+          "titleRaw": "点描の唄",
+          "artist": "Mrs. GREEN APPLE",
+          "artistRaw": "Mrs. GREEN APPLE",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=5299"
+        },
+        {
+          "timestamp": "1:49:38",
+          "seconds": 6578,
+          "title": "Unhappy Light",
+          "titleRaw": "Unhappy Light",
+          "artist": "月村手毬",
+          "artistRaw": "月村手毬",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=6578"
+        },
+        {
+          "timestamp": "1:54:00",
+          "seconds": 6840,
+          "title": "君の知らない物語",
+          "titleRaw": "君の知らない物語",
+          "artist": "ryo (supercell)",
+          "artistRaw": "ryo (supercell)",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=6840"
+        },
+        {
+          "timestamp": "2:00:32",
+          "seconds": 7232,
+          "title": "奏(かなで)",
+          "titleRaw": "奏(かなで)",
+          "artist": "スキマスイッチ",
+          "artistRaw": "スキマスイッチ",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=7232"
+        },
+        {
+          "timestamp": "2:05:07",
+          "seconds": 7507,
+          "title": "花に亡霊",
+          "titleRaw": "花に亡霊",
+          "artist": "ヨルシカ",
+          "artistRaw": "ヨルシカ",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=7507"
+        },
+        {
+          "timestamp": "2:09:15",
+          "seconds": 7755,
+          "title": "Hello, Worker",
+          "titleRaw": "Hello, Worker",
+          "artist": "KEI",
+          "artistRaw": "KEI",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=7755"
+        },
+        {
+          "timestamp": "2:13:59",
+          "seconds": 8039,
+          "title": "花の塔",
+          "titleRaw": "花の塔",
+          "artist": "さユり",
+          "artistRaw": "さユり",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=8039"
+        },
+        {
+          "timestamp": "2:18:53",
+          "seconds": 8333,
+          "title": "命に嫌われている",
+          "titleRaw": "命に嫌われている",
+          "artist": "カンザキイオリ",
+          "artistRaw": "カンザキイオリ",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=8333"
+        },
+        {
+          "timestamp": "2:24:08",
+          "seconds": 8648,
+          "title": "からくりピエロ",
+          "titleRaw": "からくりピエロ",
+          "artist": "40mP",
+          "artistRaw": "40mP",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=8648"
+        },
+        {
+          "timestamp": "2:28:56",
+          "seconds": 8936,
+          "title": "「ねぇ。」",
+          "titleRaw": "ねぇ。",
+          "artist": "ナノウ",
+          "artistRaw": "ナノウ",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=8936"
+        },
+        {
+          "timestamp": "2:55:26",
+          "seconds": 10526,
+          "title": "夏恋花火",
+          "titleRaw": "夏恋花火",
+          "artist": "40mP",
+          "artistRaw": "40mP",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=10526"
+        },
+        {
+          "timestamp": "3:00:05",
+          "seconds": 10805,
+          "title": "月光食堂",
+          "titleRaw": "月光食堂",
+          "artist": "ぬー (古川本舗)",
+          "artistRaw": "ぬー (古川本舗)",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=10805"
+        },
+        {
+          "timestamp": "3:05:04",
+          "seconds": 11104,
+          "title": "変わらないもの",
+          "titleRaw": "変わらないもの",
+          "artist": "奥華子",
+          "artistRaw": "奥華子",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=11104"
+        },
+        {
+          "timestamp": "3:11:25",
+          "seconds": 11485,
+          "title": "おやすみ泣き声、さよなら歌姫",
+          "titleRaw": "おやすみ泣き声、さよなら歌姫",
+          "artist": "クリープハイプ",
+          "artistRaw": "クリープハイプ",
+          "url": "https://youtu.be/Y7ds4FN5eMk?t=11485"
+        }
+      ],
+      "sourceCommentId": "issue#151",
       "type": "stream"
     }
   ]

@@ -6,12 +6,12 @@
     {
       "title": "All Alone With You",
       "artist": "EGOIST",
-      "count": 36
+      "count": 37
     },
     {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
-      "count": 36
+      "count": 37
     },
     {
       "title": "少女レイ",
@@ -21,7 +21,7 @@
     {
       "title": "君の知らない物語",
       "artist": "ryo (supercell)",
-      "count": 31
+      "count": 32
     },
     {
       "title": "残響散歌",
@@ -36,12 +36,12 @@
     {
       "title": "月光食堂",
       "artist": "ぬー (古川本舗)",
-      "count": 29
+      "count": 30
     },
     {
       "title": "グリグリメガネと月光蟲",
       "artist": "古川本舗",
-      "count": 28
+      "count": 29
     },
     {
       "title": "創聖のアクエリオン",
@@ -49,13 +49,18 @@
       "count": 28
     },
     {
+      "title": "Departures ~あなたにおくるアイの歌~",
+      "artist": "EGOIST",
+      "count": 27
+    },
+    {
       "title": "深海のリトルクライ",
       "artist": "sasakure.UK",
       "count": 27
     },
     {
-      "title": "Departures ~あなたにおくるアイの歌~",
-      "artist": "EGOIST",
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
       "count": 26
     },
     {
@@ -69,8 +74,8 @@
       "count": 25
     },
     {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
       "count": 25
     },
     {
@@ -84,8 +89,13 @@
       "count": 25
     },
     {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
+      "count": 24
+    },
+    {
+      "title": "変わらないもの",
+      "artist": "奥華子",
       "count": 24
     },
     {
@@ -106,16 +116,6 @@
     {
       "title": "サリシノハラ",
       "artist": "みきとP",
-      "count": 23
-    },
-    {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
-      "count": 23
-    },
-    {
-      "title": "変わらないもの",
-      "artist": "奥華子",
       "count": 23
     },
     {
@@ -219,6 +219,11 @@
       "count": 19
     },
     {
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
+      "count": 19
+    },
+    {
       "title": "ヒバナ",
       "artist": "DECO*27",
       "count": 19
@@ -231,11 +236,6 @@
     {
       "title": "Tell Your World",
       "artist": "kz (livetune)",
-      "count": 18
-    },
-    {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
       "count": 18
     },
     {
@@ -256,6 +256,11 @@
     {
       "title": "ハイドアンド・シーク",
       "artist": "19's Sound Factory",
+      "count": 18
+    },
+    {
+      "title": "命に嫌われている",
+      "artist": "カンザキイオリ",
       "count": 18
     },
     {
@@ -289,6 +294,11 @@
       "count": 17
     },
     {
+      "title": "からくりピエロ",
+      "artist": "40mP",
+      "count": 17
+    },
+    {
       "title": "スーパー・ノヴァ",
       "artist": "古川本舗",
       "count": 17
@@ -311,11 +321,6 @@
     {
       "title": "名前のない怪物",
       "artist": "EGOIST",
-      "count": 17
-    },
-    {
-      "title": "命に嫌われている",
-      "artist": "カンザキイオリ",
       "count": 17
     },
     {
@@ -349,11 +354,6 @@
       "count": 16
     },
     {
-      "title": "からくりピエロ",
-      "artist": "40mP",
-      "count": 16
-    },
-    {
       "title": "コネクト",
       "artist": "ClariS",
       "count": 16
@@ -376,6 +376,11 @@
     {
       "title": "春泥棒",
       "artist": "ヨルシカ",
+      "count": 16
+    },
+    {
+      "title": "花の塔",
+      "artist": "さユり",
       "count": 16
     },
     {
@@ -404,6 +409,11 @@
       "count": 15
     },
     {
+      "title": "夏恋花火",
+      "artist": "40mP",
+      "count": 15
+    },
+    {
       "title": "振り向いてGOD",
       "artist": "涼風しとら",
       "count": 15
@@ -419,11 +429,6 @@
       "count": 15
     },
     {
-      "title": "花の塔",
-      "artist": "さユり",
-      "count": 15
-    },
-    {
       "title": "風になる",
       "artist": "つじあやの",
       "count": 15
@@ -436,6 +441,11 @@
     {
       "title": "HARUKAZE",
       "artist": "SCANDAL",
+      "count": 14
+    },
+    {
+      "title": "Planetes",
+      "artist": "EGOIST",
       "count": 14
     },
     {
@@ -476,11 +486,6 @@
     {
       "title": "二息歩行",
       "artist": "DECO*27",
-      "count": 14
-    },
-    {
-      "title": "夏恋花火",
-      "artist": "40mP",
       "count": 14
     },
     {
@@ -539,11 +544,6 @@
       "count": 13
     },
     {
-      "title": "Planetes",
-      "artist": "EGOIST",
-      "count": 13
-    },
-    {
       "title": "Song of journey",
       "artist": "涼風しとら",
       "count": 13
@@ -556,6 +556,11 @@
     {
       "title": "アイネクライネ",
       "artist": "米津玄師",
+      "count": 13
+    },
+    {
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
       "count": 13
     },
     {
@@ -681,11 +686,6 @@
     {
       "title": "あぶく",
       "artist": "ヨルシカ",
-      "count": 12
-    },
-    {
-      "title": "アクアテラリウム",
-      "artist": "やなぎなぎ",
       "count": 12
     },
     {
@@ -889,6 +889,11 @@
       "count": 11
     },
     {
+      "title": "奏(かなで)",
+      "artist": "スキマスイッチ",
+      "count": 11
+    },
+    {
       "title": "少年よ我に帰れ",
       "artist": "やくしまるえつこ",
       "count": 11
@@ -966,6 +971,11 @@
     {
       "title": "Happiness Umbrella",
       "artist": "ロクデナシ",
+      "count": 10
+    },
+    {
+      "title": "Hello, Worker",
+      "artist": "KEI",
       "count": 10
     },
     {
@@ -1094,11 +1104,6 @@
       "count": 10
     },
     {
-      "title": "奏(かなで)",
-      "artist": "スキマスイッチ",
-      "count": 10
-    },
-    {
       "title": "小夜子",
       "artist": "みきとP",
       "count": 10
@@ -1141,11 +1146,6 @@
     {
       "title": "EX-otogibanashi",
       "artist": "ryo (supercell)",
-      "count": 9
-    },
-    {
-      "title": "Hello, Worker",
-      "artist": "KEI",
       "count": 9
     },
     {
@@ -1291,6 +1291,11 @@
     {
       "title": "AXIA ~ダイスキでダイキライ~",
       "artist": "ワルキューレ",
+      "count": 8
+    },
+    {
+      "title": "Burn My Universe",
+      "artist": "麻枝准×やなぎなぎ",
       "count": 8
     },
     {
@@ -1551,11 +1556,6 @@
     {
       "title": "BRAVE GROOVE",
       "artist": "iLiFE!",
-      "count": 7
-    },
-    {
-      "title": "Burn My Universe",
-      "artist": "麻枝准×やなぎなぎ",
       "count": 7
     },
     {
@@ -2184,6 +2184,11 @@
       "count": 6
     },
     {
+      "title": "明日への手紙",
+      "artist": "手嶌葵",
+      "count": 6
+    },
+    {
       "title": "曇天",
       "artist": "DOES",
       "count": 6
@@ -2399,6 +2404,11 @@
       "count": 5
     },
     {
+      "title": "「ねぇ。」",
+      "artist": "ナノウ",
+      "count": 5
+    },
+    {
       "title": "いえない",
       "artist": "ひらぎ",
       "count": 5
@@ -2611,11 +2621,6 @@
     {
       "title": "憂、燦々",
       "artist": "クリープハイプ",
-      "count": 5
-    },
-    {
-      "title": "明日への手紙",
-      "artist": "手嶌葵",
       "count": 5
     },
     {
@@ -2886,11 +2891,6 @@
     {
       "title": "unravel",
       "artist": "TK from 凛として時雨",
-      "count": 4
-    },
-    {
-      "title": "「ねぇ。」",
-      "artist": "ナノウ",
       "count": 4
     },
     {
@@ -3671,6 +3671,11 @@
     {
       "title": "Super Driver",
       "artist": "平野綾",
+      "count": 3
+    },
+    {
+      "title": "Unhappy Light",
+      "artist": "月村手毬",
       "count": 3
     },
     {
@@ -4769,11 +4774,6 @@
       "count": 2
     },
     {
-      "title": "Unhappy Light",
-      "artist": "月村手毬",
-      "count": 2
-    },
-    {
       "title": "U",
       "artist": "Belle",
       "count": 2
@@ -5686,6 +5686,11 @@
     {
       "title": "炉心融解",
       "artist": "iroha",
+      "count": 2
+    },
+    {
+      "title": "点描の唄",
+      "artist": "Mrs. GREEN APPLE",
       "count": 2
     },
     {
@@ -7606,11 +7611,6 @@
     {
       "title": "深淵のデカダンス",
       "artist": "岡田梨央",
-      "count": 1
-    },
-    {
-      "title": "点描の唄",
-      "artist": "Mrs. GREEN APPLE",
       "count": 1
     },
     {
