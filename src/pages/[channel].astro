@@ -166,6 +166,30 @@ const sortedCovers = [...covers].sort((a, b) => b.publishedAt.localeCompare(a.pu
         }).catch(function () { box.textContent = "⚠"; delete box.dataset.done; });
       }, true);
 
+      // PlayerBar：直播セトリ播到最後一首 → 接著播「直播」分頁裡下一個有セトリ的直播（列表順）。
+      // 有下一個就開始播並回傳 true；沒有就回傳 false 讓 PlayerBar 停下。
+      var J = null;
+      dataP.then(function (j) { J = j; });
+      window.__nextStream = function (videoId) {
+        if (!J) return false;
+        if (!byVideo) { byVideo = {}; J.v.forEach(function (v) { byVideo[v[0]] = v; }); }
+        var boxes = Array.prototype.slice.call(document.querySelectorAll("#tab-streams [data-setlist]"));
+        var idx = boxes.findIndex(function (b) { return b.dataset.setlist === videoId; });
+        if (idx < 0) return false;
+        for (var i = idx + 1; i < boxes.length; i++) {
+          var v = byVideo[boxes[i].dataset.setlist];
+          if (!v || !v[3].length) continue;
+          var d = boxes[i].closest("details");
+          if (d) d.open = true;   // 讓使用者看得到正在播哪一場
+          window.__playQueue(v[3].map(function (s) {
+            return { videoId: v[0], start: s[1], title: s[2], artist: s[3], date: v[2],
+                     dur: J.d[s[2] + "\t" + s[3]] || null };
+          }), 0, { setlist: true });
+          return true;
+        }
+        return false;
+      };
+
       document.getElementById("btn-shuffle").addEventListener("click", function () {
         dataP.then(function (j) {
           var tracks = [];

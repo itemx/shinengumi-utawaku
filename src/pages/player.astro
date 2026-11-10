@@ -463,6 +463,8 @@ const msgs = Object.fromEntries(
         if (repeatOn && current) { playAt(qi); return; }
         if (qi + 1 < queue.length) playAt(qi + 1);
         else if (shuffleOn && queue.length) { playAt(0); }
+        // 佇列最後一首：停在本首開頭，不讓影片繼續放到後面的雜談或別的歌
+        else if (player && current) { player.pauseVideo(); player.seekTo(current.start, true); }
       }
 
       function startTick() {

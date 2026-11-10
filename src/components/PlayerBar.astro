@@ -162,6 +162,7 @@ for (const ch of channels) {
   const MAX_SKIP_STREAK = 20;
   let queueIdx = -1;
   let autoAdvance = true;
+  let fromSetlist = false;         // 佇列來自直播セトリ → 播完可接下一個直播
 
   // --- DOM ---
   const bar = document.getElementById("player-bar");
@@ -266,7 +267,7 @@ for (const ch of channels) {
       isPlaying = false;
       updatePlayIcon();
       stopProgress();
-      if (autoAdvance && hasNext()) playNext();
+      finishTrack();
     }
   }
 
@@ -403,11 +404,7 @@ for (const ch of channels) {
         var segPos = Math.min(Math.max(current - segStart, 0), segLen);
         progressFill.style.width = (segPos / segLen) * 100 + "%";
         timeEl.textContent = formatTime(segPos) + " / " + formatTime(segLen);
-        // 到達結束點 → 自動跳下一首
-        if (autoAdvance && current >= segEnd - 0.5 && hasNext()) {
-          playNext();
-          return;
-        }
+        if (current >= segEnd - 0.5) { finishTrack(); return; }
       } else {
         progressFill.style.width = (current / duration) * 100 + "%";
         timeEl.textContent = formatTime(current) + " / " + formatTime(duration);
@@ -458,6 +455,22 @@ for (const ch of channels) {
         end: null,
       };
     });
+    computeEnds();
+    fromSetlist = !!clicked.closest("[data-setlist]");
+    queueIdx = links.indexOf(clicked);
+  }
+
+  /** 本曲播完（到結束點或影片結束）：
+   *  連播開著 → 下一首；佇列已到底且是從セトリ點的 → 頻道頁的下一個直播（window.__nextStream）。
+   *  其餘（關閉連播／沒有下一個）→ 停在本首開頭，不讓影片繼續放到後面的雜談或別的歌。 */
+  function finishTrack() {
+    if (autoAdvance && hasNext()) { playNext(); return; }
+    if (autoAdvance && fromSetlist && currentTrack && window.__nextStream
+        && window.__nextStream(currentTrack.videoId)) return;
+    if (player && currentTrack) { player.pauseVideo(); player.seekTo(currentTrack.start, true); }
+  }
+
+  function computeEnds() {
     for (var i = 0; i < queue.length; i++) {
       var cur = queue[i], nxt = queue[i + 1];
       // 以「歌曲長度」與「下一首開始」兩者較早者為結束點。
@@ -469,7 +482,6 @@ for (const ch of channels) {
         cur.end = cur.start + cur.dur;    // 跨影片/最後一首：用歌曲長度
       }
     }
-    queueIdx = links.indexOf(clicked);
   }
 
   function stopProgress() {
@@ -559,7 +571,7 @@ for (const ch of channels) {
 
   /** 程式化播放佇列 — 供隨機播放等功能使用（不依賴 DOM 的 [data-play]）。
    *  tracks: [{videoId, start, title, artist, date, dur}]  */
-  window.__playQueue = function(tracks, startIdx) {
+  window.__playQueue = function(tracks, startIdx, opts) {
     if (!tracks || !tracks.length) return;
     skipOnError = true;   // シャッフル等の連続再生
     skipStreak = 0;
@@ -568,9 +580,11 @@ for (const ch of channels) {
         videoId: t.videoId, start: t.start || 0,
         title: t.title || "", artist: t.artist || "", date: t.date || "",
         dur: t.dur || null,
-        end: t.dur ? (t.start || 0) + t.dur : null,
+        end: null,
       };
     });
+    computeEnds();
+    fromSetlist = !!(opts && opts.setlist);
     playAt(startIdx || 0);
   };
 </script>
