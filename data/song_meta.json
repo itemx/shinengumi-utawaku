@@ -3858,6 +3858,12 @@
     "durationSec": 308
   },
   {
+    "title": "キメラ",
+    "artist": "DECO*27",
+    "tags": ["vocaloid"],
+    "durationSec": 165
+  },
+  {
     "title": "キャットアイメイク",
     "artist": "奏音69",
     "tags": ["vocaloid"],
@@ -5914,6 +5920,12 @@
     "artist": "ClariS",
     "tags": ["anime", "j-pop"],
     "durationSec": 251
+  },
+  {
+    "title": "ルミナス",
+    "artist": "アイナ・ジ・エンド",
+    "tags": ["j-pop"],
+    "durationSec": 236
   },
   {
     "title": "ルンがピカッと光ったら",
