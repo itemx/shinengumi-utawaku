@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1570,
-  "uniqueTitles": 1553,
+  "totalEntries": 1572,
+  "uniqueTitles": 1554,
   "uniqueArtists": 693,
   "songs": [
     {
@@ -29,6 +29,11 @@
       "count": 31
     },
     {
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
+      "count": 30
+    },
+    {
       "title": "晴る",
       "artist": "ヨルシカ",
       "count": 30
@@ -37,11 +42,6 @@
       "title": "月光食堂",
       "artist": "ぬー (古川本舗)",
       "count": 30
-    },
-    {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 29
     },
     {
       "title": "創聖のアクエリオン",
@@ -59,24 +59,24 @@
       "count": 27
     },
     {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 26
+    },
+    {
       "title": "おやすみ泣き声、さよなら歌姫",
       "artist": "クリープハイプ",
+      "count": 26
+    },
+    {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
       "count": 26
     },
     {
       "title": "ビビデバ",
       "artist": "星街すいせい",
       "count": 26
-    },
-    {
-      "title": "Across the world !!",
-      "artist": "深淵組",
-      "count": 25
-    },
-    {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
-      "count": 25
     },
     {
       "title": "星降る海",
@@ -179,6 +179,11 @@
       "count": 21
     },
     {
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
+      "count": 20
+    },
+    {
       "title": "トリノコシティ",
       "artist": "40mP",
       "count": 20
@@ -219,8 +224,8 @@
       "count": 19
     },
     {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
+      "title": "カラフル",
+      "artist": "ClariS",
       "count": 19
     },
     {
@@ -241,11 +246,6 @@
     {
       "title": "ぶっ飛びな!しとら流炒飯☆",
       "artist": "涼風しとら",
-      "count": 18
-    },
-    {
-      "title": "カラフル",
-      "artist": "ClariS",
       "count": 18
     },
     {
@@ -299,6 +299,11 @@
       "count": 17
     },
     {
+      "title": "コネクト",
+      "artist": "ClariS",
+      "count": 17
+    },
+    {
       "title": "スーパー・ノヴァ",
       "artist": "古川本舗",
       "count": 17
@@ -339,6 +344,11 @@
       "count": 17
     },
     {
+      "title": "花の塔",
+      "artist": "さユり",
+      "count": 17
+    },
+    {
       "title": "逆光",
       "artist": "Ado",
       "count": 17
@@ -354,13 +364,13 @@
       "count": 16
     },
     {
-      "title": "コネクト",
-      "artist": "ClariS",
+      "title": "一番の宝物",
+      "artist": "Girls Dead Monster",
       "count": 16
     },
     {
-      "title": "一番の宝物",
-      "artist": "Girls Dead Monster",
+      "title": "夏恋花火",
+      "artist": "40mP",
       "count": 16
     },
     {
@@ -376,11 +386,6 @@
     {
       "title": "春泥棒",
       "artist": "ヨルシカ",
-      "count": 16
-    },
-    {
-      "title": "花の塔",
-      "artist": "さユり",
       "count": 16
     },
     {
@@ -406,11 +411,6 @@
     {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
-      "count": 15
-    },
-    {
-      "title": "夏恋花火",
-      "artist": "40mP",
       "count": 15
     },
     {
@@ -466,6 +466,11 @@
     {
       "title": "シンデレラ",
       "artist": "DECO*27",
+      "count": 14
+    },
+    {
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
       "count": 14
     },
     {
@@ -574,11 +579,6 @@
       "count": 13
     },
     {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
-      "count": 13
-    },
-    {
       "title": "パレード",
       "artist": "ヨルシカ",
       "count": 13
@@ -621,6 +621,11 @@
     {
       "title": "桃源恋歌",
       "artist": "GARNiDELiA",
+      "count": 13
+    },
+    {
+      "title": "死にゆく季節のきみへ",
+      "artist": "麻枝准×やなぎなぎ",
       "count": 13
     },
     {
@@ -719,6 +724,11 @@
       "count": 12
     },
     {
+      "title": "ルミナス",
+      "artist": "ClariS",
+      "count": 12
+    },
+    {
       "title": "夜のピエロ",
       "artist": "Ado",
       "count": 12
@@ -746,11 +756,6 @@
     {
       "title": "櫂",
       "artist": "ヨルシカ",
-      "count": 12
-    },
-    {
-      "title": "死にゆく季節のきみへ",
-      "artist": "麻枝准×やなぎなぎ",
       "count": 12
     },
     {
@@ -861,11 +866,6 @@
     {
       "title": "ミックスナッツ",
       "artist": "Official髭男dism",
-      "count": 11
-    },
-    {
-      "title": "ルミナス",
-      "artist": "ClariS",
       "count": 11
     },
     {
@@ -1019,6 +1019,11 @@
       "count": 10
     },
     {
+      "title": "アサガオの散る頃に",
+      "artist": "じっぷす",
+      "count": 10
+    },
+    {
       "title": "アンノウン・マザーグース",
       "artist": "wowaka",
       "count": 10
@@ -1139,6 +1144,11 @@
       "count": 10
     },
     {
+      "title": "Burn My Universe",
+      "artist": "麻枝准×やなぎなぎ",
+      "count": 9
+    },
+    {
       "title": "Don't say \"lazy\"",
       "artist": "放課後ティータイム",
       "count": 9
@@ -1186,11 +1196,6 @@
     {
       "title": "なんでもないや",
       "artist": "RADWIMPS",
-      "count": 9
-    },
-    {
-      "title": "アサガオの散る頃に",
-      "artist": "じっぷす",
       "count": 9
     },
     {
@@ -1294,11 +1299,6 @@
       "count": 8
     },
     {
-      "title": "Burn My Universe",
-      "artist": "麻枝准×やなぎなぎ",
-      "count": 8
-    },
-    {
       "title": "Crow Song",
       "artist": "Girls Dead Monster",
       "count": 8
@@ -1396,6 +1396,11 @@
     {
       "title": "グリズリーに襲われたら♡",
       "artist": "神宿",
+      "count": 8
+    },
+    {
+      "title": "サイレント・マジョリティ",
+      "artist": "Heavenz",
       "count": 8
     },
     {
@@ -1599,6 +1604,11 @@
       "count": 7
     },
     {
+      "title": "LOVE & ROLL",
+      "artist": "ryo (supercell)",
+      "count": 7
+    },
+    {
       "title": "My Song",
       "artist": "Girls Dead Monster",
       "count": 7
@@ -1691,11 +1701,6 @@
     {
       "title": "キャットラビング",
       "artist": "香椎モイミ",
-      "count": 7
-    },
-    {
-      "title": "サイレント・マジョリティ",
-      "artist": "Heavenz",
       "count": 7
     },
     {
@@ -1909,11 +1914,6 @@
       "count": 6
     },
     {
-      "title": "LOVE & ROLL",
-      "artist": "ryo (supercell)",
-      "count": 6
-    },
-    {
       "title": "Lemon",
       "artist": "米津玄師",
       "count": 6
@@ -1961,6 +1961,11 @@
     {
       "title": "say my nameの片想い",
       "artist": "LiSA",
+      "count": 6
+    },
+    {
+      "title": "「ねぇ。」",
+      "artist": "ナノウ",
       "count": 6
     },
     {
@@ -2071,6 +2076,11 @@
     {
       "title": "テレパシ",
       "artist": "DECO*27",
+      "count": 6
+    },
+    {
+      "title": "ドーナツホール 2024",
+      "artist": "米津玄師",
       "count": 6
     },
     {
@@ -2269,6 +2279,11 @@
       "count": 6
     },
     {
+      "title": "青空のラプソディ",
+      "artist": "fhána",
+      "count": 6
+    },
+    {
       "title": "高嶺の花子さん",
       "artist": "back number",
       "count": 6
@@ -2404,11 +2419,6 @@
       "count": 5
     },
     {
-      "title": "「ねぇ。」",
-      "artist": "ナノウ",
-      "count": 5
-    },
-    {
       "title": "いえない",
       "artist": "ひらぎ",
       "count": 5
@@ -2504,11 +2514,6 @@
       "count": 5
     },
     {
-      "title": "ドーナツホール 2024",
-      "artist": "米津玄師",
-      "count": 5
-    },
-    {
       "title": "バニー",
       "artist": "すりぃ",
       "count": 5
@@ -2541,6 +2546,11 @@
     {
       "title": "リードコントロール",
       "artist": "なるみや",
+      "count": 5
+    },
+    {
+      "title": "レイメイ",
+      "artist": "さユり×MY FIRST STORY",
       "count": 5
     },
     {
@@ -2711,11 +2721,6 @@
     {
       "title": "輝く未来",
       "artist": "畠中洋&小此木麻里",
-      "count": 5
-    },
-    {
-      "title": "青空のラプソディ",
-      "artist": "fhána",
       "count": 5
     },
     {
@@ -3161,11 +3166,6 @@
     {
       "title": "ルーマー",
       "artist": "ポリスピカデリー",
-      "count": 4
-    },
-    {
-      "title": "レイメイ",
-      "artist": "さユり×MY FIRST STORY",
       "count": 4
     },
     {
@@ -3711,6 +3711,11 @@
     {
       "title": "moreきゅん奴隷",
       "artist": "戦慄かなの",
+      "count": 3
+    },
+    {
+      "title": "over and over",
+      "artist": "やなぎなぎ",
       "count": 3
     },
     {
@@ -4489,6 +4494,11 @@
       "count": 2
     },
     {
+      "title": "Blast!",
+      "artist": "TRUE",
+      "count": 2
+    },
+    {
       "title": "Bunny Girl",
       "artist": "AKASAKI",
       "count": 2
@@ -4821,11 +4831,6 @@
     {
       "title": "ignited -イグナイテッド-",
       "artist": "T.M.Revolution",
-      "count": 2
-    },
-    {
-      "title": "over and over",
-      "artist": "やなぎなぎ",
       "count": 2
     },
     {
@@ -5894,11 +5899,6 @@
       "count": 1
     },
     {
-      "title": "Blast!",
-      "artist": "TRUE",
-      "count": 1
-    },
-    {
       "title": "Brave Freak Out",
       "artist": "LiSA",
       "count": 1
@@ -6669,6 +6669,11 @@
       "count": 1
     },
     {
+      "title": "キメラ",
+      "artist": "DECO*27",
+      "count": 1
+    },
+    {
       "title": "キューティーハニー",
       "artist": "倖田來未",
       "count": 1
@@ -7151,6 +7156,11 @@
     {
       "title": "リンク",
       "artist": "ポルノグラフィティ",
+      "count": 1
+    },
+    {
+      "title": "ルミナス",
+      "artist": "アイナ・ジ・エンド",
       "count": 1
     },
     {
