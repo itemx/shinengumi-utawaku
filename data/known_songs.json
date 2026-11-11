@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1574,
-  "uniqueTitles": 1556,
-  "uniqueArtists": 693,
+  "totalEntries": 1575,
+  "uniqueTitles": 1557,
+  "uniqueArtists": 694,
   "songs": [
     {
       "title": "All Alone With You",
@@ -24,14 +24,19 @@
       "count": 32
     },
     {
-      "title": "残響散歌",
-      "artist": "Aimer",
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
       "count": 31
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 30
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 31
+    },
+    {
+      "title": "残響散歌",
+      "artist": "Aimer",
+      "count": 31
     },
     {
       "title": "晴る",
@@ -39,13 +44,13 @@
       "count": 30
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 30
-    },
-    {
       "title": "創聖のアクエリオン",
       "artist": "AKINO",
+      "count": 28
+    },
+    {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
       "count": 28
     },
     {
@@ -59,28 +64,33 @@
       "count": 27
     },
     {
+      "title": "おやすみ泣き声、さよなら歌姫",
+      "artist": "クリープハイプ",
+      "count": 27
+    },
+    {
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
+      "count": 27
+    },
+    {
       "title": "ビビデバ",
       "artist": "星街すいせい",
       "count": 27
     },
     {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
-      "count": 27
-    },
-    {
-      "title": "おやすみ泣き声、さよなら歌姫",
-      "artist": "クリープハイプ",
-      "count": 26
-    },
-    {
-      "title": "アルジャーノン",
-      "artist": "ヨルシカ",
-      "count": 26
+      "title": "変わらないもの",
+      "artist": "奥華子",
+      "count": 25
     },
     {
       "title": "少女S",
       "artist": "SCANDAL",
+      "count": 25
+    },
+    {
+      "title": "斜陽",
+      "artist": "ヨルシカ",
       "count": 25
     },
     {
@@ -94,13 +104,13 @@
       "count": 25
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
+      "title": "サリシノハラ",
+      "artist": "みきとP",
       "count": 24
     },
     {
-      "title": "変わらないもの",
-      "artist": "奥華子",
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
       "count": 24
     },
     {
@@ -109,18 +119,13 @@
       "count": 24
     },
     {
-      "title": "斜陽",
-      "artist": "ヨルシカ",
-      "count": 24
-    },
-    {
-      "title": "サリシノハラ",
-      "artist": "みきとP",
-      "count": 23
-    },
-    {
       "title": "Stellar Stellar",
       "artist": "星街すいせい",
+      "count": 22
+    },
+    {
+      "title": "あいのけもの",
+      "artist": "古川本舗",
       "count": 22
     },
     {
@@ -146,11 +151,6 @@
     {
       "title": "Calc.",
       "artist": "ジミーサムP",
-      "count": 21
-    },
-    {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
       "count": 21
     },
     {
@@ -364,6 +364,11 @@
       "count": 16
     },
     {
+      "title": "ワールド・ランプシェード",
+      "artist": "buzzG",
+      "count": 16
+    },
+    {
       "title": "一番の宝物",
       "artist": "Girls Dead Monster",
       "count": 16
@@ -414,11 +419,6 @@
       "count": 15
     },
     {
-      "title": "ワールド・ランプシェード",
-      "artist": "buzzG",
-      "count": 15
-    },
-    {
       "title": "振り向いてGOD",
       "artist": "涼風しとら",
       "count": 15
@@ -456,6 +456,11 @@
     {
       "title": "この世界で見つけたもの",
       "artist": "EGOIST",
+      "count": 14
+    },
+    {
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
       "count": 14
     },
     {
@@ -566,11 +571,6 @@
     {
       "title": "アイネクライネ",
       "artist": "米津玄師",
-      "count": 13
-    },
-    {
-      "title": "アクアテラリウム",
-      "artist": "やなぎなぎ",
       "count": 13
     },
     {
@@ -699,6 +699,11 @@
       "count": 12
     },
     {
+      "title": "キミソラキセキ",
+      "artist": "EGOIST",
+      "count": 12
+    },
+    {
       "title": "ソワレ",
       "artist": "星街すいせい",
       "count": 12
@@ -729,6 +734,11 @@
       "count": 12
     },
     {
+      "title": "地球最後の告白を",
+      "artist": "kemu",
+      "count": 12
+    },
+    {
       "title": "夜のピエロ",
       "artist": "Ado",
       "count": 12
@@ -746,6 +756,11 @@
     {
       "title": "想いを巡らす100の事象",
       "artist": "EGOIST",
+      "count": 12
+    },
+    {
+      "title": "曖昧劣情Lover",
+      "artist": "koyori (電ポルP)",
       "count": 12
     },
     {
@@ -844,11 +859,6 @@
       "count": 11
     },
     {
-      "title": "キミソラキセキ",
-      "artist": "EGOIST",
-      "count": 11
-    },
-    {
       "title": "シュガーソングとビターステップ",
       "artist": "UNISON SQUARE GARDEN",
       "count": 11
@@ -894,11 +904,6 @@
       "count": 11
     },
     {
-      "title": "地球最後の告白を",
-      "artist": "kemu",
-      "count": 11
-    },
-    {
       "title": "奏(かなで)",
       "artist": "スキマスイッチ",
       "count": 11
@@ -931,11 +936,6 @@
     {
       "title": "晩餐歌",
       "artist": "tuki.",
-      "count": 11
-    },
-    {
-      "title": "曖昧劣情Lover",
-      "artist": "koyori (電ポルP)",
       "count": 11
     },
     {
@@ -1109,6 +1109,11 @@
       "count": 10
     },
     {
+      "title": "ヨンジュウナナ",
+      "artist": "みきとP",
+      "count": 10
+    },
+    {
       "title": "ヴァンパイア",
       "artist": "DECO*27",
       "count": 10
@@ -1121,6 +1126,11 @@
     {
       "title": "夕立のりぼん",
       "artist": "みきとP",
+      "count": 10
+    },
+    {
+      "title": "天ノ弱",
+      "artist": "164",
       "count": 10
     },
     {
@@ -1244,18 +1254,8 @@
       "count": 9
     },
     {
-      "title": "ヨンジュウナナ",
-      "artist": "みきとP",
-      "count": 9
-    },
-    {
       "title": "ライオン",
       "artist": "May'n & 中島愛",
-      "count": 9
-    },
-    {
-      "title": "天ノ弱",
-      "artist": "164",
       "count": 9
     },
     {
@@ -1324,6 +1324,11 @@
       "count": 8
     },
     {
+      "title": "HOME",
+      "artist": "古川本舗",
+      "count": 8
+    },
+    {
       "title": "Hysteric Bullet",
       "artist": "GARNiDELiA",
       "count": 8
@@ -1381,6 +1386,11 @@
     {
       "title": "だってアタシのヒーロー。",
       "artist": "LiSA",
+      "count": 8
+    },
+    {
+      "title": "へび",
+      "artist": "ヨルシカ",
       "count": 8
     },
     {
@@ -1589,11 +1599,6 @@
       "count": 7
     },
     {
-      "title": "HOME",
-      "artist": "古川本舗",
-      "count": 7
-    },
-    {
       "title": "INTERNET YAMERO",
       "artist": "KOTOKO",
       "count": 7
@@ -1679,13 +1684,13 @@
       "count": 7
     },
     {
-      "title": "へび",
-      "artist": "ヨルシカ",
+      "title": "アイディスマイル",
+      "artist": "とあ",
       "count": 7
     },
     {
-      "title": "アイディスマイル",
-      "artist": "とあ",
+      "title": "アカイト",
+      "artist": "みきとP",
       "count": 7
     },
     {
@@ -1751,6 +1756,11 @@
     {
       "title": "ユキトキ",
       "artist": "やなぎなぎ",
+      "count": 7
+    },
+    {
+      "title": "ローリンガール",
+      "artist": "wowaka",
       "count": 7
     },
     {
@@ -2039,11 +2049,6 @@
       "count": 6
     },
     {
-      "title": "アカイト",
-      "artist": "みきとP",
-      "count": 6
-    },
-    {
       "title": "アゲハ蝶",
       "artist": "ポルノグラフィティ",
       "count": 6
@@ -2109,6 +2114,11 @@
       "count": 6
     },
     {
+      "title": "ピエロ",
+      "artist": "KEI",
+      "count": 6
+    },
+    {
       "title": "フラレガイガール",
       "artist": "さユり",
       "count": 6
@@ -2136,11 +2146,6 @@
     {
       "title": "ルージュの伝言",
       "artist": "松任谷由実",
-      "count": 6
-    },
-    {
-      "title": "ローリンガール",
-      "artist": "wowaka",
       "count": 6
     },
     {
@@ -2536,11 +2541,6 @@
     {
       "title": "パラサイト",
       "artist": "DECO*27",
-      "count": 5
-    },
-    {
-      "title": "ピエロ",
-      "artist": "KEI",
       "count": 5
     },
     {
@@ -3011,6 +3011,11 @@
     {
       "title": "キュートなカノジョ",
       "artist": "syudou",
+      "count": 4
+    },
+    {
+      "title": "グレゴリオ",
+      "artist": "古川本舗",
       "count": 4
     },
     {
@@ -3926,11 +3931,6 @@
     {
       "title": "キュンとクラフト",
       "artist": "iLiFE!",
-      "count": 3
-    },
-    {
-      "title": "グレゴリオ",
-      "artist": "古川本舗",
       "count": 3
     },
     {
@@ -6629,6 +6629,11 @@
       "count": 1
     },
     {
+      "title": "イスカリオテの晩餐.log",
+      "artist": "春浅葱",
+      "count": 1
+    },
+    {
       "title": "イドラのサーカス",
       "artist": "Neru",
       "count": 1
@@ -8430,6 +8435,7 @@
     "星街すいせい",
     "星野源",
     "春奈るな",
+    "春浅葱",
     "月島きらり starring 久住小春",
     "月島きらり starring 久住小春 (モーニング娘。)",
     "月村手毬",
