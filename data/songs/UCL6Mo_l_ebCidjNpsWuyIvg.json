@@ -1,7 +1,7 @@
 {
   "channelId": "UCL6Mo_l_ebCidjNpsWuyIvg",
   "channelName": "Rairi ch. 小滝らいり",
-  "lastFetched": "2026-10-25T11:23:33.636323+00:00",
+  "lastFetched": "2026-11-11T02:15:26.540937+00:00",
   "videos": [
     {
       "videoId": "08U27OrwU-0",
@@ -1711,6 +1711,114 @@
         }
       ],
       "sourceCommentId": "issue#144",
+      "type": "stream"
+    },
+    {
+      "videoId": "Bt5YhnJ4vH0",
+      "title": "【#歌枠】事務所爆散後初個人枠🎤🎶歌声透明度◎✨#初見さん大歓迎 #雑談 #singing【小滝らいり】",
+      "publishedAt": "2026-11-10T18:23:04Z",
+      "songs": [
+        {
+          "timestamp": "22:05",
+          "seconds": 1325,
+          "title": "Across the world !!",
+          "titleRaw": "Across the world !!",
+          "artist": "深淵組",
+          "artistRaw": "深淵組",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=1325"
+        },
+        {
+          "timestamp": "36:38",
+          "seconds": 2198,
+          "title": "Go tight!",
+          "titleRaw": "Go tight!",
+          "artist": "AKINO",
+          "artistRaw": "AKINO",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=2198"
+        },
+        {
+          "timestamp": "47:55",
+          "seconds": 2875,
+          "title": "God knows...",
+          "titleRaw": "God knows...",
+          "artist": "平野綾",
+          "artistRaw": "平野綾",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=2875"
+        },
+        {
+          "timestamp": "1:05:48",
+          "seconds": 3948,
+          "title": "消せない罪",
+          "titleRaw": "消せない罪",
+          "artist": "北出菜奈",
+          "artistRaw": "北出菜奈",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=3948"
+        },
+        {
+          "timestamp": "1:18:26",
+          "seconds": 4706,
+          "title": "少女S",
+          "titleRaw": "少女S",
+          "artist": "SCANDAL",
+          "artistRaw": "SCANDAL",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=4706"
+        },
+        {
+          "timestamp": "1:31:29",
+          "seconds": 5489,
+          "title": "Stay Alive",
+          "titleRaw": "Stay Alive",
+          "artist": "エミリア (高橋李依)",
+          "artistRaw": "エミリア (高橋李依)",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=5489"
+        },
+        {
+          "timestamp": "1:43:42",
+          "seconds": 6222,
+          "title": "それは小さな光のような",
+          "titleRaw": "それは小さな光のような",
+          "artist": "さユり",
+          "artistRaw": "さユり",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=6222"
+        },
+        {
+          "timestamp": "1:53:06",
+          "seconds": 6786,
+          "title": "有點甜",
+          "titleRaw": "有點甜",
+          "artist": "汪蘇瀧",
+          "artistRaw": "汪蘇瀧",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=6786"
+        },
+        {
+          "timestamp": "2:06:59",
+          "seconds": 7619,
+          "title": "ビビデバ",
+          "titleRaw": "ビビデバ",
+          "artist": "星街すいせい",
+          "artistRaw": "星街すいせい",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=7619"
+        },
+        {
+          "timestamp": "2:19:19",
+          "seconds": 8359,
+          "title": "破滅の純情",
+          "titleRaw": "破滅の純情",
+          "artist": "ワルキューレ",
+          "artistRaw": "ワルキューレ",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=8359"
+        },
+        {
+          "timestamp": "2:30:31",
+          "seconds": 9031,
+          "title": "花ハ踊レヤいろはにほ",
+          "titleRaw": "花ハ踊レヤいろはにほ",
+          "artist": "チーム\"ハナヤマタ\"",
+          "artistRaw": "チーム\"ハナヤマタ\"",
+          "url": "https://youtu.be/Bt5YhnJ4vH0?t=9031"
+        }
+      ],
+      "sourceCommentId": "issue#156",
       "type": "stream"
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1572,
-  "uniqueTitles": 1554,
+  "totalEntries": 1574,
+  "uniqueTitles": 1556,
   "uniqueArtists": 693,
   "songs": [
     {
@@ -49,19 +49,24 @@
       "count": 28
     },
     {
+      "title": "Across the world !!",
+      "artist": "深淵組",
+      "count": 27
+    },
+    {
       "title": "Departures ~あなたにおくるアイの歌~",
       "artist": "EGOIST",
+      "count": 27
+    },
+    {
+      "title": "ビビデバ",
+      "artist": "星街すいせい",
       "count": 27
     },
     {
       "title": "深海のリトルクライ",
       "artist": "sasakure.UK",
       "count": 27
-    },
-    {
-      "title": "Across the world !!",
-      "artist": "深淵組",
-      "count": 26
     },
     {
       "title": "おやすみ泣き声、さよなら歌姫",
@@ -74,9 +79,9 @@
       "count": 26
     },
     {
-      "title": "ビビデバ",
-      "artist": "星街すいせい",
-      "count": 26
+      "title": "少女S",
+      "artist": "SCANDAL",
+      "count": 25
     },
     {
       "title": "星降る海",
@@ -101,11 +106,6 @@
     {
       "title": "夜明けと蛍",
       "artist": "n-buna",
-      "count": 24
-    },
-    {
-      "title": "少女S",
-      "artist": "SCANDAL",
       "count": 24
     },
     {
@@ -289,6 +289,11 @@
       "count": 17
     },
     {
+      "title": "God knows...",
+      "artist": "平野綾",
+      "count": 17
+    },
+    {
       "title": "IRIS OUT",
       "artist": "米津玄師",
       "count": 17
@@ -354,11 +359,6 @@
       "count": 17
     },
     {
-      "title": "God knows...",
-      "artist": "平野綾",
-      "count": 16
-    },
-    {
       "title": "I beg you",
       "artist": "Aimer",
       "count": 16
@@ -386,6 +386,11 @@
     {
       "title": "春泥棒",
       "artist": "ヨルシカ",
+      "count": 16
+    },
+    {
+      "title": "破滅の純情",
+      "artist": "ワルキューレ",
       "count": 16
     },
     {
@@ -421,11 +426,6 @@
     {
       "title": "極楽浄土",
       "artist": "GARNiDELiA",
-      "count": 15
-    },
-    {
-      "title": "破滅の純情",
-      "artist": "ワルキューレ",
       "count": 15
     },
     {
@@ -2219,6 +2219,11 @@
       "count": 6
     },
     {
+      "title": "有點甜",
+      "artist": "汪蘇瀧",
+      "count": 6
+    },
+    {
       "title": "気まぐれロマンティック",
       "artist": "いきものがかり",
       "count": 6
@@ -2659,11 +2664,6 @@
       "count": 5
     },
     {
-      "title": "有點甜",
-      "artist": "汪蘇瀧",
-      "count": 5
-    },
-    {
       "title": "東京テディベア",
       "artist": "Neru",
       "count": 5
@@ -2716,6 +2716,11 @@
     {
       "title": "罪人",
       "artist": "LiSA",
+      "count": 5
+    },
+    {
+      "title": "花ハ踊レヤいろはにほ",
+      "artist": "チーム\"ハナヤマタ\"",
       "count": 5
     },
     {
@@ -2851,6 +2856,11 @@
     {
       "title": "Stairway Generation",
       "artist": "Base Ball Bear",
+      "count": 4
+    },
+    {
+      "title": "Stay Alive",
+      "artist": "エミリア (高橋李依)",
       "count": 4
     },
     {
@@ -3374,6 +3384,11 @@
       "count": 4
     },
     {
+      "title": "消せない罪",
+      "artist": "北出菜奈",
+      "count": 4
+    },
+    {
       "title": "深愛",
       "artist": "水樹奈々",
       "count": 4
@@ -3416,11 +3431,6 @@
     {
       "title": "色彩",
       "artist": "坂本真綾",
-      "count": 4
-    },
-    {
-      "title": "花ハ踊レヤいろはにほ",
-      "artist": "チーム\"ハナヤマタ\"",
       "count": 4
     },
     {
@@ -3671,11 +3681,6 @@
     {
       "title": "Sincerely",
       "artist": "TRUE",
-      "count": 3
-    },
-    {
-      "title": "Stay Alive",
-      "artist": "エミリア (高橋李依)",
       "count": 3
     },
     {
@@ -4341,11 +4346,6 @@
     {
       "title": "正解はひとつ!じゃない!!",
       "artist": "ミルキィホームズ",
-      "count": 3
-    },
-    {
-      "title": "消せない罪",
-      "artist": "北出菜奈",
       "count": 3
     },
     {
@@ -6044,6 +6044,11 @@
       "count": 1
     },
     {
+      "title": "Go tight!",
+      "artist": "AKINO",
+      "count": 1
+    },
+    {
       "title": "Guilty Eyes Fever",
       "artist": "Guilty Kiss",
       "count": 1
@@ -6486,6 +6491,11 @@
     {
       "title": "すろぉもぉしょん",
       "artist": "ピノキオピー",
+      "count": 1
+    },
+    {
+      "title": "それは小さな光のような",
+      "artist": "さユり",
       "count": 1
     },
     {
