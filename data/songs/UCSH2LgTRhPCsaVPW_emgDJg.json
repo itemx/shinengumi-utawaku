@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-11-10T19:25:33.711861+00:00",
+  "lastFetched": "2026-11-13T19:19:37.267821+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -47476,7 +47476,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "N8Wmb5iTfdc",
@@ -48439,7 +48440,8 @@
         }
       ],
       "sourceCommentId": "",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "elQfPYqTJT4",
@@ -48691,7 +48693,8 @@
         }
       ],
       "sourceCommentId": "issue#154",
-      "type": "stream"
+      "type": "stream",
+      "videoStatus": "unlisted"
     },
     {
       "videoId": "EEtApGzgag4",
@@ -48706,6 +48709,60 @@
           "artist": "LiSA",
           "artistRaw": "LiSA",
           "url": "https://youtu.be/EEtApGzgag4"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "thtlsZrptjE",
+      "title": "The Everlasting Guilty Crown / EGOIST 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-11-13T09:00:01Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "The Everlasting Guilty Crown",
+          "titleRaw": "The Everlasting Guilty Crown",
+          "artist": "EGOIST",
+          "artistRaw": "EGOIST",
+          "url": "https://youtu.be/thtlsZrptjE"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "DJsj4f6emB0",
+      "title": "青春コンプレックス / 結束バンド 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-11-12T09:00:07Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "青春コンプレックス",
+          "titleRaw": "青春コンプレックス",
+          "artist": "結束バンド",
+          "artistRaw": "結束バンド",
+          "url": "https://youtu.be/DJsj4f6emB0"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "74yfnkzkAaU",
+      "title": "IGNITE / 藍井エイル 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-11-11T09:00:19Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "IGNITE",
+          "titleRaw": "IGNITE",
+          "artist": "藍井エイル",
+          "artistRaw": "藍井エイル",
+          "url": "https://youtu.be/74yfnkzkAaU"
         }
       ],
       "sourceCommentId": "",
