@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-11-13T19:19:37.267821+00:00",
+  "lastFetched": "2026-11-16T21:43:53.938374+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -48763,6 +48763,60 @@
           "artist": "藍井エイル",
           "artistRaw": "藍井エイル",
           "url": "https://youtu.be/74yfnkzkAaU"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "0LiHKqfPTzw",
+      "title": "光るなら / Goose house 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-11-16T09:00:20Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "光るなら",
+          "titleRaw": "光るなら",
+          "artist": "Goose house",
+          "artistRaw": "Goose house",
+          "url": "https://youtu.be/0LiHKqfPTzw"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "2eqYPCY-jq8",
+      "title": "コネクト / ClariS 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-11-15T09:00:39Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "コネクト",
+          "titleRaw": "コネクト",
+          "artist": "ClariS",
+          "artistRaw": "ClariS",
+          "url": "https://youtu.be/2eqYPCY-jq8"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "short"
+    },
+    {
+      "videoId": "SFankEDnzdA",
+      "title": "This game / 鈴木このみ 歌ってみた #vsinger #cover",
+      "publishedAt": "2026-11-14T09:00:27Z",
+      "songs": [
+        {
+          "timestamp": "0:00",
+          "seconds": 0,
+          "title": "This game",
+          "titleRaw": "This game",
+          "artist": "鈴木このみ",
+          "artistRaw": "鈴木このみ",
+          "url": "https://youtu.be/SFankEDnzdA"
         }
       ],
       "sourceCommentId": "",
