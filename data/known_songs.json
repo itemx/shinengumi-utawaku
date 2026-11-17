@@ -1,12 +1,12 @@
 {
-  "totalEntries": 1574,
-  "uniqueTitles": 1556,
-  "uniqueArtists": 694,
+  "totalEntries": 1575,
+  "uniqueTitles": 1557,
+  "uniqueArtists": 695,
   "songs": [
     {
       "title": "All Alone With You",
       "artist": "EGOIST",
-      "count": 37
+      "count": 38
     },
     {
       "title": "花に亡霊",
@@ -19,14 +19,14 @@
       "count": 35
     },
     {
-      "title": "君の知らない物語",
-      "artist": "ryo (supercell)",
+      "title": "グリグリメガネと月光蟲",
+      "artist": "古川本舗",
       "count": 32
     },
     {
-      "title": "グリグリメガネと月光蟲",
-      "artist": "古川本舗",
-      "count": 31
+      "title": "君の知らない物語",
+      "artist": "ryo (supercell)",
+      "count": 32
     },
     {
       "title": "月光食堂",
@@ -119,6 +119,16 @@
       "count": 24
     },
     {
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
+      "count": 23
+    },
+    {
+      "title": "Calc.",
+      "artist": "ジミーサムP",
+      "count": 22
+    },
+    {
       "title": "Stellar Stellar",
       "artist": "星街すいせい",
       "count": 22
@@ -134,11 +144,6 @@
       "count": 22
     },
     {
-      "title": "だから僕は音楽を辞めた",
-      "artist": "ヨルシカ",
-      "count": 22
-    },
-    {
       "title": "アポリア",
       "artist": "ヨルシカ",
       "count": 22
@@ -149,13 +154,13 @@
       "count": 22
     },
     {
-      "title": "ANIMA",
-      "artist": "ReoNa",
-      "count": 21
+      "title": "月のワルツ",
+      "artist": "諫山実生",
+      "count": 22
     },
     {
-      "title": "Calc.",
-      "artist": "ジミーサムP",
+      "title": "ANIMA",
+      "artist": "ReoNa",
       "count": 21
     },
     {
@@ -164,13 +169,13 @@
       "count": 21
     },
     {
-      "title": "星間飛行",
-      "artist": "ランカ・リー",
+      "title": "忘れじの言の葉",
+      "artist": "未来古代楽団",
       "count": 21
     },
     {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
+      "title": "星間飛行",
+      "artist": "ランカ・リー",
       "count": 21
     },
     {
@@ -209,8 +214,8 @@
       "count": 20
     },
     {
-      "title": "忘れじの言の葉",
-      "artist": "未来古代楽団",
+      "title": "初めての恋が終わる時",
+      "artist": "ryo (supercell)",
       "count": 20
     },
     {
@@ -239,11 +244,6 @@
       "count": 19
     },
     {
-      "title": "初めての恋が終わる時",
-      "artist": "ryo (supercell)",
-      "count": 19
-    },
-    {
       "title": "IRIS OUT",
       "artist": "米津玄師",
       "count": 18
@@ -251,6 +251,11 @@
     {
       "title": "Tell Your World",
       "artist": "kz (livetune)",
+      "count": 18
+    },
+    {
+      "title": "からくりピエロ",
+      "artist": "40mP",
       "count": 18
     },
     {
@@ -306,11 +311,6 @@
     {
       "title": "God knows...",
       "artist": "平野綾",
-      "count": 17
-    },
-    {
-      "title": "からくりピエロ",
-      "artist": "40mP",
       "count": 17
     },
     {
@@ -409,8 +409,18 @@
       "count": 16
     },
     {
+      "title": "Alice",
+      "artist": "古川本舗",
+      "count": 15
+    },
+    {
       "title": "Catch the Moment",
       "artist": "LiSA",
+      "count": 15
+    },
+    {
+      "title": "この世界で見つけたもの",
+      "artist": "EGOIST",
       "count": 15
     },
     {
@@ -454,14 +464,14 @@
       "count": 15
     },
     {
-      "title": "風になる",
-      "artist": "つじあやの",
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
       "count": 15
     },
     {
-      "title": "Alice",
-      "artist": "古川本舗",
-      "count": 14
+      "title": "風になる",
+      "artist": "つじあやの",
+      "count": 15
     },
     {
       "title": "HARUKAZE",
@@ -470,11 +480,6 @@
     },
     {
       "title": "Planetes",
-      "artist": "EGOIST",
-      "count": 14
-    },
-    {
-      "title": "この世界で見つけたもの",
       "artist": "EGOIST",
       "count": 14
     },
@@ -549,11 +554,6 @@
       "count": 14
     },
     {
-      "title": "花泡沫",
-      "artist": "ロクデナシ",
-      "count": 14
-    },
-    {
       "title": "革命道中",
       "artist": "アイナ・ジ・エンド",
       "count": 14
@@ -576,6 +576,11 @@
     {
       "title": "crossing field",
       "artist": "LiSA",
+      "count": 13
+    },
+    {
+      "title": "あぶく",
+      "artist": "ヨルシカ",
       "count": 13
     },
     {
@@ -644,6 +649,11 @@
       "count": 13
     },
     {
+      "title": "鏡面の波",
+      "artist": "YURiKA",
+      "count": 13
+    },
+    {
       "title": "Booo!",
       "artist": "西沢さんP",
       "count": 12
@@ -689,8 +699,8 @@
       "count": 12
     },
     {
-      "title": "あぶく",
-      "artist": "ヨルシカ",
+      "title": "さようなら、花泥棒さん",
+      "artist": "メル",
       "count": 12
     },
     {
@@ -794,11 +804,6 @@
       "count": 12
     },
     {
-      "title": "鏡面の波",
-      "artist": "YURiKA",
-      "count": 12
-    },
-    {
       "title": "青のすみか",
       "artist": "キタニタツヤ",
       "count": 12
@@ -811,6 +816,11 @@
     {
       "title": "CHAINSAW BLOOD",
       "artist": "Vaundy",
+      "count": 11
+    },
+    {
+      "title": "Happiness Umbrella",
+      "artist": "ロクデナシ",
       "count": 11
     },
     {
@@ -846,11 +856,6 @@
     {
       "title": "いのちの名前",
       "artist": "木村弓",
-      "count": 11
-    },
-    {
-      "title": "さようなら、花泥棒さん",
-      "artist": "メル",
       "count": 11
     },
     {
@@ -991,11 +996,6 @@
     {
       "title": "CHE.R.RY",
       "artist": "YUI",
-      "count": 10
-    },
-    {
-      "title": "Happiness Umbrella",
-      "artist": "ロクデナシ",
       "count": 10
     },
     {
@@ -1209,6 +1209,11 @@
       "count": 9
     },
     {
+      "title": "アルビレオ",
+      "artist": "ロクデナシ",
+      "count": 9
+    },
+    {
       "title": "オリオンをなぞる",
       "artist": "UNISON SQUARE GARDEN",
       "count": 9
@@ -1396,11 +1401,6 @@
     {
       "title": "へび",
       "artist": "ヨルシカ",
-      "count": 8
-    },
-    {
-      "title": "アルビレオ",
-      "artist": "ロクデナシ",
       "count": 8
     },
     {
@@ -1999,6 +1999,11 @@
       "count": 6
     },
     {
+      "title": "いえない",
+      "artist": "ひらぎ",
+      "count": 6
+    },
+    {
       "title": "いかないで",
       "artist": "想太",
       "count": 6
@@ -2454,11 +2459,6 @@
       "count": 5
     },
     {
-      "title": "いえない",
-      "artist": "ひらぎ",
-      "count": 5
-    },
-    {
       "title": "うっせぇわ",
       "artist": "Ado",
       "count": 5
@@ -2496,6 +2496,11 @@
     {
       "title": "ギミー!レボリューション",
       "artist": "内田真礼",
+      "count": 5
+    },
+    {
+      "title": "グレゴリオ",
+      "artist": "古川本舗",
       "count": 5
     },
     {
@@ -2736,6 +2741,11 @@
     {
       "title": "芽ぐみの雨",
       "artist": "やなぎなぎ",
+      "count": 5
+    },
+    {
+      "title": "螺旋",
+      "artist": "9Lana",
       "count": 5
     },
     {
@@ -3026,11 +3036,6 @@
     {
       "title": "キュートなカノジョ",
       "artist": "syudou",
-      "count": 4
-    },
-    {
-      "title": "グレゴリオ",
-      "artist": "古川本舗",
       "count": 4
     },
     {
@@ -3459,11 +3464,6 @@
       "count": 4
     },
     {
-      "title": "螺旋",
-      "artist": "9Lana",
-      "count": 4
-    },
-    {
       "title": "裏切りの夕焼け",
       "artist": "THEATRE BROOK",
       "count": 4
@@ -3666,6 +3666,11 @@
     {
       "title": "RADIANT FORCE",
       "artist": "立花響 (悠木碧)・風鳴翼 (水樹奈々)・雪音クリス (高垣彩陽)",
+      "count": 3
+    },
+    {
+      "title": "Rose",
+      "artist": "Kaco",
       "count": 3
     },
     {
@@ -4749,11 +4754,6 @@
       "count": 2
     },
     {
-      "title": "Rose",
-      "artist": "Kaco",
-      "count": 2
-    },
-    {
       "title": "SCANDAL BABY",
       "artist": "SCANDAL",
       "count": 2
@@ -5021,6 +5021,11 @@
     {
       "title": "アンヘル",
       "artist": "かいりきベア",
+      "count": 2
+    },
+    {
+      "title": "イスカリオテの晩餐.log",
+      "artist": "春浅葱",
       "count": 2
     },
     {
@@ -6629,11 +6634,6 @@
       "count": 1
     },
     {
-      "title": "イスカリオテの晩餐.log",
-      "artist": "春浅葱",
-      "count": 1
-    },
-    {
       "title": "イドラのサーカス",
       "artist": "Neru",
       "count": 1
@@ -7629,6 +7629,11 @@
       "count": 1
     },
     {
+      "title": "深海ディスタンス",
+      "artist": "西憂花",
+      "count": 1
+    },
+    {
       "title": "深淵のデカダンス",
       "artist": "岡田梨央",
       "count": 1
@@ -8524,6 +8529,7 @@
     "藤岡藤巻と大橋のぞみ",
     "虹ヶ咲学園スクールアイドル同好会",
     "蝶々P",
+    "西憂花",
     "西沢さんP",
     "西沢幸奏",
     "西野カナ",
