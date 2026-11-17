@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1575,
-  "uniqueTitles": 1557,
+  "totalEntries": 1574,
+  "uniqueTitles": 1556,
   "uniqueArtists": 694,
   "songs": [
     {
@@ -3554,6 +3554,11 @@
       "count": 3
     },
     {
+      "title": "Go Tight!",
+      "artist": "AKINO",
+      "count": 3
+    },
+    {
       "title": "HAPPY PARTY TRAIN",
       "artist": "Aqours",
       "count": 3
@@ -4616,11 +4621,6 @@
     {
       "title": "Girls",
       "artist": "Easy Pop",
-      "count": 2
-    },
-    {
-      "title": "Go Tight!",
-      "artist": "AKINO",
       "count": 2
     },
     {
@@ -6041,11 +6041,6 @@
     {
       "title": "Get Wild",
       "artist": "TM NETWORK",
-      "count": 1
-    },
-    {
-      "title": "Go tight!",
-      "artist": "AKINO",
       "count": 1
     },
     {

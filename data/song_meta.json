@@ -2976,6 +2976,12 @@
     "durationSec": 187
   },
   {
+    "title": "それは小さな光のような",
+    "artist": "さユり",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 273
+  },
+  {
     "title": "それを愛と呼ぶなら",
     "artist": "Uru",
     "tags": ["j-pop", "ballad"],
@@ -8254,6 +8260,12 @@
     "artist": "sasakure.UK",
     "tags": ["vocaloid", "ballad"],
     "durationSec": 255
+  },
+  {
+    "title": "深海ディスタンス",
+    "artist": "西憂花",
+    "tags": ["vocaloid"],
+    "durationSec": 156
   },
   {
     "title": "深海少女",
