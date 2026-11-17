@@ -79,18 +79,18 @@
       "count": 27
     },
     {
-      "title": "変わらないもの",
-      "artist": "奥華子",
-      "count": 25
-    },
-    {
       "title": "少女S",
       "artist": "SCANDAL",
-      "count": 25
+      "count": 26
     },
     {
       "title": "斜陽",
       "artist": "ヨルシカ",
+      "count": 26
+    },
+    {
+      "title": "変わらないもの",
+      "artist": "奥華子",
       "count": 25
     },
     {
@@ -144,6 +144,11 @@
       "count": 22
     },
     {
+      "title": "悪魔の子",
+      "artist": "ヒグチアイ",
+      "count": 22
+    },
+    {
       "title": "ANIMA",
       "artist": "ReoNa",
       "count": 21
@@ -156,11 +161,6 @@
     {
       "title": "ウィアートル",
       "artist": "rionos",
-      "count": 21
-    },
-    {
-      "title": "悪魔の子",
-      "artist": "ヒグチアイ",
       "count": 21
     },
     {
@@ -177,6 +177,11 @@
       "title": "眠れぬ月夜のランデブー",
       "artist": "涼風しとら",
       "count": 21
+    },
+    {
+      "title": "Butter-Fly",
+      "artist": "和田光司",
+      "count": 20
     },
     {
       "title": "うたかた花火",
@@ -214,11 +219,6 @@
       "count": 20
     },
     {
-      "title": "Butter-Fly",
-      "artist": "和田光司",
-      "count": 19
-    },
-    {
       "title": "oath sign",
       "artist": "LiSA",
       "count": 19
@@ -242,6 +242,11 @@
       "title": "初めての恋が終わる時",
       "artist": "ryo (supercell)",
       "count": 19
+    },
+    {
+      "title": "IRIS OUT",
+      "artist": "米津玄師",
+      "count": 18
     },
     {
       "title": "Tell Your World",
@@ -274,6 +279,11 @@
       "count": 18
     },
     {
+      "title": "花になって",
+      "artist": "緑黄色社会",
+      "count": 18
+    },
+    {
       "title": "雨とカプチーノ",
       "artist": "ヨルシカ",
       "count": 18
@@ -296,11 +306,6 @@
     {
       "title": "God knows...",
       "artist": "平野綾",
-      "count": 17
-    },
-    {
-      "title": "IRIS OUT",
-      "artist": "米津玄師",
       "count": 17
     },
     {
@@ -341,11 +346,6 @@
     {
       "title": "残酷な天使のテーゼ",
       "artist": "高橋洋子",
-      "count": 17
-    },
-    {
-      "title": "花になって",
-      "artist": "緑黄色社会",
       "count": 17
     },
     {
@@ -419,8 +419,23 @@
       "count": 15
     },
     {
+      "title": "ネクロネイディア",
+      "artist": "渉海よひら",
+      "count": 15
+    },
+    {
       "title": "ノーチラス",
       "artist": "ヨルシカ",
+      "count": 15
+    },
+    {
+      "title": "一度だけの恋なら",
+      "artist": "ワルキューレ",
+      "count": 15
+    },
+    {
+      "title": "往け",
+      "artist": "LiSA",
       "count": 15
     },
     {
@@ -431,6 +446,11 @@
     {
       "title": "極楽浄土",
       "artist": "GARNiDELiA",
+      "count": 15
+    },
+    {
+      "title": "私は最強",
+      "artist": "Ado",
       "count": 15
     },
     {
@@ -464,6 +484,11 @@
       "count": 14
     },
     {
+      "title": "カワキヲアメク",
+      "artist": "美波",
+      "count": 14
+    },
+    {
       "title": "サマータイムレコード",
       "artist": "じん",
       "count": 14
@@ -476,11 +501,6 @@
     {
       "title": "シンデレラ",
       "artist": "DECO*27",
-      "count": 14
-    },
-    {
-      "title": "ネクロネイディア",
-      "artist": "渉海よひら",
       "count": 14
     },
     {
@@ -499,18 +519,8 @@
       "count": 14
     },
     {
-      "title": "一度だけの恋なら",
-      "artist": "ワルキューレ",
-      "count": 14
-    },
-    {
       "title": "二息歩行",
       "artist": "DECO*27",
-      "count": 14
-    },
-    {
-      "title": "往け",
-      "artist": "LiSA",
       "count": 14
     },
     {
@@ -534,11 +544,6 @@
       "count": 14
     },
     {
-      "title": "私は最強",
-      "artist": "Ado",
-      "count": 14
-    },
-    {
       "title": "群青",
       "artist": "YOASOBI",
       "count": 14
@@ -546,6 +551,11 @@
     {
       "title": "花泡沫",
       "artist": "ロクデナシ",
+      "count": 14
+    },
+    {
+      "title": "革命道中",
+      "artist": "アイナ・ジ・エンド",
       "count": 14
     },
     {
@@ -576,11 +586,6 @@
     {
       "title": "アスノヨゾラ哨戒班",
       "artist": "Orangestar",
-      "count": 13
-    },
-    {
-      "title": "カワキヲアメク",
-      "artist": "美波",
       "count": 13
     },
     {
@@ -636,11 +641,6 @@
     {
       "title": "藍二乗",
       "artist": "ヨルシカ",
-      "count": 13
-    },
-    {
-      "title": "革命道中",
-      "artist": "アイナ・ジ・エンド",
       "count": 13
     },
     {
@@ -844,6 +844,11 @@
       "count": 11
     },
     {
+      "title": "いのちの名前",
+      "artist": "木村弓",
+      "count": 11
+    },
+    {
       "title": "さようなら、花泥棒さん",
       "artist": "メル",
       "count": 11
@@ -856,6 +861,11 @@
     {
       "title": "ただ声一つ",
       "artist": "ロクデナシ",
+      "count": 11
+    },
+    {
+      "title": "ウタカタララバイ",
+      "artist": "Ado",
       "count": 11
     },
     {
@@ -1014,11 +1024,6 @@
       "count": 10
     },
     {
-      "title": "いのちの名前",
-      "artist": "木村弓",
-      "count": 10
-    },
-    {
       "title": "そばかす",
       "artist": "JUDY AND MARY",
       "count": 10
@@ -1051,11 +1056,6 @@
     {
       "title": "インフェルノ",
       "artist": "Mrs. GREEN APPLE",
-      "count": 10
-    },
-    {
-      "title": "ウタカタララバイ",
-      "artist": "Ado",
       "count": 10
     },
     {
@@ -1206,6 +1206,11 @@
     {
       "title": "なんでもないや",
       "artist": "RADWIMPS",
+      "count": 9
+    },
+    {
+      "title": "オリオンをなぞる",
+      "artist": "UNISON SQUARE GARDEN",
       "count": 9
     },
     {
@@ -1399,8 +1404,8 @@
       "count": 8
     },
     {
-      "title": "オリオンをなぞる",
-      "artist": "UNISON SQUARE GARDEN",
+      "title": "カサブタ",
+      "artist": "千綿偉功",
       "count": 8
     },
     {
@@ -1444,6 +1449,11 @@
       "count": 8
     },
     {
+      "title": "ハッピーラッキーチャッピー",
+      "artist": "ano",
+      "count": 8
+    },
+    {
       "title": "ハレ晴レユカイ",
       "artist": "涼宮ハルヒ (平野綾)・長門有希 (茅原実里)・朝比奈みくる (後藤邑子)",
       "count": 8
@@ -1479,8 +1489,18 @@
       "count": 8
     },
     {
+      "title": "世界のつづき",
+      "artist": "Ado",
+      "count": 8
+    },
+    {
       "title": "会いたくて",
       "artist": "Ado",
+      "count": 8
+    },
+    {
+      "title": "僕らの戦場",
+      "artist": "ワルキューレ",
       "count": 8
     },
     {
@@ -1554,6 +1574,11 @@
       "count": 8
     },
     {
+      "title": "誰にもなれない私だから",
+      "artist": "トゲナシトゲアリ",
+      "count": 8
+    },
+    {
       "title": "踊り子",
       "artist": "Vaundy",
       "count": 8
@@ -1594,6 +1619,11 @@
       "count": 7
     },
     {
+      "title": "Fallen",
+      "artist": "EGOIST",
+      "count": 7
+    },
+    {
       "title": "GLAMOROUS SKY",
       "artist": "NANA starring MIKA NAKASHIMA",
       "count": 7
@@ -1621,6 +1651,11 @@
     {
       "title": "POP IN 2",
       "artist": "B小町",
+      "count": 7
+    },
+    {
+      "title": "RESISTER",
+      "artist": "ASCA",
       "count": 7
     },
     {
@@ -1684,6 +1719,11 @@
       "count": 7
     },
     {
+      "title": "ないない",
+      "artist": "ReoNa",
+      "count": 7
+    },
+    {
       "title": "アイディスマイル",
       "artist": "とあ",
       "count": 7
@@ -1696,11 +1736,6 @@
     {
       "title": "アメヲマツ、",
       "artist": "美波",
-      "count": 7
-    },
-    {
-      "title": "カサブタ",
-      "artist": "千綿偉功",
       "count": 7
     },
     {
@@ -1721,11 +1756,6 @@
     {
       "title": "トンデモワンダーズ",
       "artist": "sasakure.UK",
-      "count": 7
-    },
-    {
-      "title": "ハッピーラッキーチャッピー",
-      "artist": "ano",
       "count": 7
     },
     {
@@ -1764,11 +1794,6 @@
       "count": 7
     },
     {
-      "title": "世界のつづき",
-      "artist": "Ado",
-      "count": 7
-    },
-    {
       "title": "乙女解剖",
       "artist": "DECO*27",
       "count": 7
@@ -1779,13 +1804,13 @@
       "count": 7
     },
     {
-      "title": "僕らの戦場",
-      "artist": "ワルキューレ",
+      "title": "再会",
+      "artist": "LiSA×Uru",
       "count": 7
     },
     {
-      "title": "再会",
-      "artist": "LiSA×Uru",
+      "title": "君じゃなきゃダメみたい",
+      "artist": "オーイシマサヨシ",
       "count": 7
     },
     {
@@ -1859,11 +1884,6 @@
       "count": 7
     },
     {
-      "title": "誰にもなれない私だから",
-      "artist": "トゲナシトゲアリ",
-      "count": 7
-    },
-    {
       "title": "負け犬にアンコールはいらない",
       "artist": "ヨルシカ",
       "count": 7
@@ -1919,11 +1939,6 @@
       "count": 6
     },
     {
-      "title": "Fallen",
-      "artist": "EGOIST",
-      "count": 6
-    },
-    {
       "title": "GO!!!",
       "artist": "FLOW",
       "count": 6
@@ -1946,11 +1961,6 @@
     {
       "title": "Paradisus-Paradoxum",
       "artist": "MYTH & ROID",
-      "count": 6
-    },
-    {
-      "title": "RESISTER",
-      "artist": "ASCA",
       "count": 6
     },
     {
@@ -2021,11 +2031,6 @@
     {
       "title": "それを愛と呼ぶなら",
       "artist": "Uru",
-      "count": 6
-    },
-    {
-      "title": "ないない",
-      "artist": "ReoNa",
       "count": 6
     },
     {
@@ -2179,11 +2184,6 @@
       "count": 6
     },
     {
-      "title": "君じゃなきゃダメみたい",
-      "artist": "オーイシマサヨシ",
-      "count": 6
-    },
-    {
       "title": "嘘",
       "artist": "シド",
       "count": 6
@@ -2191,6 +2191,11 @@
     {
       "title": "失敗作少女",
       "artist": "かいりきベア",
+      "count": 6
+    },
+    {
+      "title": "嵐の中で輝いて",
+      "artist": "米倉千尋",
       "count": 6
     },
     {
@@ -2281,6 +2286,11 @@
     {
       "title": "英雄 運命の詩",
       "artist": "EGOIST",
+      "count": 6
+    },
+    {
+      "title": "許婚っきゅん",
+      "artist": "ano",
       "count": 6
     },
     {
@@ -2524,6 +2534,11 @@
       "count": 5
     },
     {
+      "title": "タイプ:ワイルド",
+      "artist": "松本梨香",
+      "count": 5
+    },
+    {
       "title": "ダーリン",
       "artist": "須田景凪",
       "count": 5
@@ -2616,11 +2631,6 @@
     {
       "title": "射手座午後九時Don't be late",
       "artist": "シェリル・ノーム starring May'n",
-      "count": 5
-    },
-    {
-      "title": "嵐の中で輝いて",
-      "artist": "米倉千尋",
       "count": 5
     },
     {
@@ -2726,11 +2736,6 @@
     {
       "title": "芽ぐみの雨",
       "artist": "やなぎなぎ",
-      "count": 5
-    },
-    {
-      "title": "許婚っきゅん",
-      "artist": "ano",
       "count": 5
     },
     {
@@ -2994,6 +2999,11 @@
       "count": 4
     },
     {
+      "title": "アヤノの幸福理論",
+      "artist": "じん",
+      "count": 4
+    },
+    {
       "title": "アンチビート",
       "artist": "DECO*27",
       "count": 4
@@ -3069,11 +3079,6 @@
       "count": 4
     },
     {
-      "title": "タイプ:ワイルド",
-      "artist": "松本梨香",
-      "count": 4
-    },
-    {
       "title": "タッチ",
       "artist": "岩崎良美",
       "count": 4
@@ -3126,6 +3131,11 @@
     {
       "title": "ヒバリ",
       "artist": "HIMEHINA",
+      "count": 4
+    },
+    {
+      "title": "ファタール",
+      "artist": "GEMN",
       "count": 4
     },
     {
@@ -3874,11 +3884,6 @@
       "count": 3
     },
     {
-      "title": "アヤノの幸福理論",
-      "artist": "じん",
-      "count": 3
-    },
-    {
       "title": "イエスタデイ",
       "artist": "Official髭男dism",
       "count": 3
@@ -4074,11 +4079,6 @@
       "count": 3
     },
     {
-      "title": "ファタール",
-      "artist": "GEMN",
-      "count": 3
-    },
-    {
       "title": "フェイキング・オブ・コメディ",
       "artist": "jon-YAKITORY",
       "count": 3
@@ -4164,6 +4164,11 @@
       "count": 3
     },
     {
+      "title": "僕は...",
+      "artist": "あたらよ",
+      "count": 3
+    },
+    {
       "title": "僕らのLIVE 君とのLIFE",
       "artist": "μ's",
       "count": 3
@@ -4221,6 +4226,11 @@
     {
       "title": "夢をみる島",
       "artist": "yuigot",
+      "count": 3
+    },
+    {
+      "title": "夢灯籠",
+      "artist": "RADWIMPS",
       "count": 3
     },
     {
@@ -5319,6 +5329,11 @@
       "count": 2
     },
     {
+      "title": "ユメセカイ",
+      "artist": "戸松遥",
+      "count": 2
+    },
+    {
       "title": "ユメノトビラ",
       "artist": "μ's",
       "count": 2
@@ -5424,11 +5439,6 @@
       "count": 2
     },
     {
-      "title": "僕は...",
-      "artist": "あたらよ",
-      "count": 2
-    },
-    {
       "title": "全力バタンキュー",
       "artist": "A応P",
       "count": 2
@@ -5511,11 +5521,6 @@
     {
       "title": "夢をかなえてドラえもん",
       "artist": "mao",
-      "count": 2
-    },
-    {
-      "title": "夢灯籠",
-      "artist": "RADWIMPS",
       "count": 2
     },
     {
@@ -7116,11 +7121,6 @@
     {
       "title": "ユメクライミング",
       "artist": "iLiFE!",
-      "count": 1
-    },
-    {
-      "title": "ユメセカイ",
-      "artist": "戸松遥",
       "count": 1
     },
     {
