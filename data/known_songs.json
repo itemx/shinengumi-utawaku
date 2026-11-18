@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1575,
-  "uniqueTitles": 1557,
-  "uniqueArtists": 695,
+  "totalEntries": 1578,
+  "uniqueTitles": 1560,
+  "uniqueArtists": 696,
   "songs": [
     {
       "title": "All Alone With You",
@@ -89,6 +89,11 @@
       "count": 26
     },
     {
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
+      "count": 25
+    },
+    {
       "title": "変わらないもの",
       "artist": "奥華子",
       "count": 25
@@ -109,11 +114,6 @@
       "count": 24
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
-      "count": 24
-    },
-    {
       "title": "夜明けと蛍",
       "artist": "n-buna",
       "count": 24
@@ -121,6 +121,11 @@
     {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
+      "count": 23
+    },
+    {
+      "title": "月のワルツ",
+      "artist": "諫山実生",
       "count": 23
     },
     {
@@ -149,13 +154,13 @@
       "count": 22
     },
     {
-      "title": "悪魔の子",
-      "artist": "ヒグチアイ",
+      "title": "ウィアートル",
+      "artist": "rionos",
       "count": 22
     },
     {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
+      "title": "悪魔の子",
+      "artist": "ヒグチアイ",
       "count": 22
     },
     {
@@ -164,8 +169,13 @@
       "count": 21
     },
     {
-      "title": "ウィアートル",
-      "artist": "rionos",
+      "title": "うたかた花火",
+      "artist": "ryo (supercell)",
+      "count": 21
+    },
+    {
+      "title": "初めての恋が終わる時",
+      "artist": "ryo (supercell)",
       "count": 21
     },
     {
@@ -189,11 +199,6 @@
       "count": 20
     },
     {
-      "title": "うたかた花火",
-      "artist": "ryo (supercell)",
-      "count": 20
-    },
-    {
       "title": "トリノコシティ",
       "artist": "40mP",
       "count": 20
@@ -211,11 +216,6 @@
     {
       "title": "モニタリング",
       "artist": "DECO*27",
-      "count": 20
-    },
-    {
-      "title": "初めての恋が終わる時",
-      "artist": "ryo (supercell)",
       "count": 20
     },
     {
@@ -269,6 +269,11 @@
       "count": 18
     },
     {
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
+      "count": 18
+    },
+    {
       "title": "ハイドアンド・シーク",
       "artist": "19's Sound Factory",
       "count": 18
@@ -314,11 +319,6 @@
       "count": 17
     },
     {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
-      "count": 17
-    },
-    {
       "title": "ハロ/ハワユ",
       "artist": "ナノウ",
       "count": 17
@@ -341,6 +341,11 @@
     {
       "title": "怪物",
       "artist": "YOASOBI",
+      "count": 17
+    },
+    {
+      "title": "愛が灯る",
+      "artist": "ロクデナシ",
       "count": 17
     },
     {
@@ -389,11 +394,6 @@
       "count": 16
     },
     {
-      "title": "愛が灯る",
-      "artist": "ロクデナシ",
-      "count": 16
-    },
-    {
       "title": "春泥棒",
       "artist": "ヨルシカ",
       "count": 16
@@ -401,6 +401,11 @@
     {
       "title": "破滅の純情",
       "artist": "ワルキューレ",
+      "count": 16
+    },
+    {
+      "title": "花泡沫",
+      "artist": "ロクデナシ",
       "count": 16
     },
     {
@@ -461,11 +466,6 @@
     {
       "title": "私は最強",
       "artist": "Ado",
-      "count": 15
-    },
-    {
-      "title": "花泡沫",
-      "artist": "ロクデナシ",
       "count": 15
     },
     {
@@ -629,6 +629,11 @@
       "count": 13
     },
     {
+      "title": "月が綺麗ねと言われたい!",
+      "artist": "柿崎ユウタ",
+      "count": 13
+    },
+    {
       "title": "桃源恋歌",
       "artist": "GARNiDELiA",
       "count": 13
@@ -656,6 +661,11 @@
     {
       "title": "Booo!",
       "artist": "西沢さんP",
+      "count": 12
+    },
+    {
+      "title": "Happiness Umbrella",
+      "artist": "ロクデナシ",
       "count": 12
     },
     {
@@ -701,6 +711,11 @@
     {
       "title": "さようなら、花泥棒さん",
       "artist": "メル",
+      "count": 12
+    },
+    {
+      "title": "ただ声一つ",
+      "artist": "ロクデナシ",
       "count": 12
     },
     {
@@ -774,11 +789,6 @@
       "count": 12
     },
     {
-      "title": "月が綺麗ねと言われたい!",
-      "artist": "柿崎ユウタ",
-      "count": 12
-    },
-    {
       "title": "櫂",
       "artist": "ヨルシカ",
       "count": 12
@@ -816,11 +826,6 @@
     {
       "title": "CHAINSAW BLOOD",
       "artist": "Vaundy",
-      "count": 11
-    },
-    {
-      "title": "Happiness Umbrella",
-      "artist": "ロクデナシ",
       "count": 11
     },
     {
@@ -864,13 +869,13 @@
       "count": 11
     },
     {
-      "title": "ただ声一つ",
-      "artist": "ロクデナシ",
+      "title": "ウタカタララバイ",
+      "artist": "Ado",
       "count": 11
     },
     {
-      "title": "ウタカタララバイ",
-      "artist": "Ado",
+      "title": "エウテルペ",
+      "artist": "EGOIST",
       "count": 11
     },
     {
@@ -1059,11 +1064,6 @@
       "count": 10
     },
     {
-      "title": "エウテルペ",
-      "artist": "EGOIST",
-      "count": 10
-    },
-    {
       "title": "ギターと孤独と蒼い惑星",
       "artist": "結束バンド",
       "count": 10
@@ -1179,6 +1179,11 @@
       "count": 9
     },
     {
+      "title": "HOME",
+      "artist": "古川本舗",
+      "count": 9
+    },
+    {
       "title": "Remember",
       "artist": "月見ヤチヨ",
       "count": 9
@@ -1221,6 +1226,11 @@
     {
       "title": "カブトムシ",
       "artist": "aiko",
+      "count": 9
+    },
+    {
+      "title": "スピカ",
+      "artist": "ロクデナシ",
       "count": 9
     },
     {
@@ -1334,11 +1344,6 @@
       "count": 8
     },
     {
-      "title": "HOME",
-      "artist": "古川本舗",
-      "count": 8
-    },
-    {
       "title": "Hysteric Bullet",
       "artist": "GARNiDELiA",
       "count": 8
@@ -1431,11 +1436,6 @@
     {
       "title": "シルエット",
       "artist": "KANA-BOON",
-      "count": 8
-    },
-    {
-      "title": "スピカ",
-      "artist": "ロクデナシ",
       "count": 8
     },
     {
@@ -1592,6 +1592,11 @@
       "title": "風のゆくえ",
       "artist": "Ado",
       "count": 8
+    },
+    {
+      "title": "8.32",
+      "artist": "*Luna",
+      "count": 7
     },
     {
       "title": "BRAVE GROOVE",
@@ -1899,6 +1904,11 @@
       "count": 7
     },
     {
+      "title": "雨景色",
+      "artist": "ロクデナシ",
+      "count": 7
+    },
+    {
       "title": "響喜乱舞",
       "artist": "GARNiDELiA",
       "count": 7
@@ -1911,11 +1921,6 @@
     {
       "title": "1/6 ー out of the gravity ー",
       "artist": "ぼーかりおどP",
-      "count": 6
-    },
-    {
-      "title": "8.32",
-      "artist": "*Luna",
       "count": 6
     },
     {
@@ -2306,11 +2311,6 @@
     {
       "title": "限りなく灰色へ",
       "artist": "すりぃ",
-      "count": 6
-    },
-    {
-      "title": "雨景色",
-      "artist": "ロクデナシ",
       "count": 6
     },
     {
@@ -2954,6 +2954,11 @@
       "count": 4
     },
     {
+      "title": "あちこちデートさん",
+      "artist": "駄菓子O型",
+      "count": 4
+    },
+    {
       "title": "あなたのことをおしえて",
       "artist": "キタニタツヤ",
       "count": 4
@@ -2966,6 +2971,11 @@
     {
       "title": "あの夏が飽和する。",
       "artist": "カンザキイオリ",
+      "count": 4
+    },
+    {
+      "title": "あやふや",
+      "artist": "ロクデナシ",
       "count": 4
     },
     {
@@ -3379,6 +3389,11 @@
       "count": 4
     },
     {
+      "title": "春を待つ",
+      "artist": "Islet",
+      "count": 4
+    },
+    {
       "title": "月光潤色ガール",
       "artist": "れるりり",
       "count": 4
@@ -3779,18 +3794,8 @@
       "count": 3
     },
     {
-      "title": "あちこちデートさん",
-      "artist": "駄菓子O型",
-      "count": 3
-    },
-    {
       "title": "あなたの夜が明けるまで",
       "artist": "傘村トータ",
-      "count": 3
-    },
-    {
-      "title": "あやふや",
-      "artist": "ロクデナシ",
       "count": 3
     },
     {
@@ -3896,6 +3901,11 @@
     {
       "title": "イガク",
       "artist": "原口沙輔",
+      "count": 3
+    },
+    {
+      "title": "イスカリオテの晩餐.log",
+      "artist": "春浅葱",
       "count": 3
     },
     {
@@ -4329,13 +4339,13 @@
       "count": 3
     },
     {
-      "title": "春はゆく",
-      "artist": "Aimer",
+      "title": "星を巡る",
+      "artist": "ロクデナシ",
       "count": 3
     },
     {
-      "title": "春を待つ",
-      "artist": "Islet",
+      "title": "春はゆく",
+      "artist": "Aimer",
       "count": 3
     },
     {
@@ -5024,11 +5034,6 @@
       "count": 2
     },
     {
-      "title": "イスカリオテの晩餐.log",
-      "artist": "春浅葱",
-      "count": 2
-    },
-    {
       "title": "イヤガール",
       "artist": "かいりきベア",
       "count": 2
@@ -5619,11 +5624,6 @@
       "count": 2
     },
     {
-      "title": "星を巡る",
-      "artist": "ロクデナシ",
-      "count": 2
-    },
-    {
       "title": "春一番",
       "artist": "キャンディーズ",
       "count": 2
@@ -5696,6 +5696,11 @@
     {
       "title": "涙そうそう",
       "artist": "夏川りみ",
+      "count": 2
+    },
+    {
+      "title": "深海ディスタンス",
+      "artist": "西憂花",
       "count": 2
     },
     {
@@ -6366,6 +6371,11 @@
     {
       "title": "mosi mosi?",
       "artist": "楽音",
+      "count": 1
+    },
+    {
+      "title": "numb numb",
+      "artist": "TAK",
       "count": 1
     },
     {
@@ -7244,6 +7254,11 @@
       "count": 1
     },
     {
+      "title": "三日月ステップ 2023",
+      "artist": "r-906",
+      "count": 1
+    },
+    {
       "title": "世界に一つだけの花",
       "artist": "SMAP",
       "count": 1
@@ -7356,6 +7371,11 @@
     {
       "title": "声をきかせて",
       "artist": "BIGBANG",
+      "count": 1
+    },
+    {
+      "title": "夏の半券",
+      "artist": "みきとP",
       "count": 1
     },
     {
@@ -7626,11 +7646,6 @@
     {
       "title": "涙目爆発音",
       "artist": "ワルキューレ",
-      "count": 1
-    },
-    {
-      "title": "深海ディスタンス",
-      "artist": "西憂花",
       "count": 1
     },
     {
@@ -8079,6 +8094,7 @@
     "Superfly",
     "T.M.Revolution",
     "T.M.Revolution×水樹奈々",
+    "TAK",
     "THE ORAL CIGARETTES",
     "THE ROOTLESS",
     "THEATRE BROOK",
