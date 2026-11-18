@@ -2346,6 +2346,12 @@
     "durationSec": 247
   },
   {
+    "title": "numb numb",
+    "artist": "TAK",
+    "tags": ["vocaloid"],
+    "durationSec": 167
+  },
+  {
     "title": "oath sign",
     "artist": "LiSA",
     "tags": ["anime", "j-pop"],
@@ -6210,6 +6216,12 @@
     "durationSec": 190
   },
   {
+    "title": "三日月ステップ 2023",
+    "artist": "r-906",
+    "tags": ["vocaloid", "ballad"],
+    "durationSec": 190
+  },
+  {
     "title": "上海ハニー",
     "artist": "ORANGE RANGE",
     "tags": ["j-pop"],
@@ -6838,6 +6850,12 @@
     "artist": "baker",
     "tags": ["vocaloid", "ballad"],
     "durationSec": 166
+  },
+  {
+    "title": "夏の半券",
+    "artist": "みきとP",
+    "tags": ["vocaloid"],
+    "durationSec": 333
   },
   {
     "title": "夏恋花火",
