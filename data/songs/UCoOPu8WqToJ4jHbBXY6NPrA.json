@@ -1,7 +1,7 @@
 {
   "channelId": "UCoOPu8WqToJ4jHbBXY6NPrA",
   "channelName": "Yohira ch. 渉海よひら",
-  "lastFetched": "2026-11-18T03:11:23.523667+00:00",
+  "lastFetched": "2026-11-19T20:05:36.261874+00:00",
   "videos": [
     {
       "videoId": "219A9mHxvkw",
@@ -24393,6 +24393,14 @@
         }
       ],
       "sourceCommentId": "issue#162",
+      "type": "stream"
+    },
+    {
+      "videoId": "qEjj6g0B_7A",
+      "title": "Fairytale, / buzzG #shorts #歌ってみた #cover",
+      "publishedAt": "2026-11-18T09:15:15Z",
+      "songs": [],
+      "sourceCommentId": "",
       "type": "stream"
     }
   ]

@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1578,
-  "uniqueTitles": 1560,
-  "uniqueArtists": 696,
+  "totalEntries": 1582,
+  "uniqueTitles": 1561,
+  "uniqueArtists": 698,
   "songs": [
     {
       "title": "All Alone With You",
@@ -11,7 +11,7 @@
     {
       "title": "花に亡霊",
       "artist": "ヨルシカ",
-      "count": 37
+      "count": 38
     },
     {
       "title": "少女レイ",
@@ -81,7 +81,7 @@
     {
       "title": "少女S",
       "artist": "SCANDAL",
-      "count": 26
+      "count": 27
     },
     {
       "title": "斜陽",
@@ -124,6 +124,11 @@
       "count": 23
     },
     {
+      "title": "アポリア",
+      "artist": "ヨルシカ",
+      "count": 23
+    },
+    {
       "title": "月のワルツ",
       "artist": "諫山実生",
       "count": 23
@@ -149,11 +154,6 @@
       "count": 22
     },
     {
-      "title": "アポリア",
-      "artist": "ヨルシカ",
-      "count": 22
-    },
-    {
       "title": "ウィアートル",
       "artist": "rionos",
       "count": 22
@@ -171,6 +171,11 @@
     {
       "title": "うたかた花火",
       "artist": "ryo (supercell)",
+      "count": 21
+    },
+    {
+      "title": "プロポーズ",
+      "artist": "なとり",
       "count": 21
     },
     {
@@ -206,11 +211,6 @@
     {
       "title": "フォニイ",
       "artist": "ツミキ",
-      "count": 20
-    },
-    {
-      "title": "プロポーズ",
-      "artist": "なとり",
       "count": 20
     },
     {
@@ -279,6 +279,16 @@
       "count": 18
     },
     {
+      "title": "プラチナ",
+      "artist": "坂本真綾",
+      "count": 18
+    },
+    {
+      "title": "名前のない怪物",
+      "artist": "EGOIST",
+      "count": 18
+    },
+    {
       "title": "命に嫌われている",
       "artist": "カンザキイオリ",
       "count": 18
@@ -324,18 +334,8 @@
       "count": 17
     },
     {
-      "title": "プラチナ",
-      "artist": "坂本真綾",
-      "count": 17
-    },
-    {
       "title": "吉原ラメント",
       "artist": "亜沙",
-      "count": 17
-    },
-    {
-      "title": "名前のない怪物",
-      "artist": "EGOIST",
       "count": 17
     },
     {
@@ -394,6 +394,11 @@
       "count": 16
     },
     {
+      "title": "振り向いてGOD",
+      "artist": "涼風しとら",
+      "count": 16
+    },
+    {
       "title": "春泥棒",
       "artist": "ヨルシカ",
       "count": 16
@@ -429,6 +434,11 @@
       "count": 15
     },
     {
+      "title": "カワキヲアメク",
+      "artist": "美波",
+      "count": 15
+    },
+    {
       "title": "スカー",
       "artist": "キタニタツヤ",
       "count": 15
@@ -451,11 +461,6 @@
     {
       "title": "往け",
       "artist": "LiSA",
-      "count": 15
-    },
-    {
-      "title": "振り向いてGOD",
-      "artist": "涼風しとら",
       "count": 15
     },
     {
@@ -486,11 +491,6 @@
     {
       "title": "アクアテラリウム",
       "artist": "やなぎなぎ",
-      "count": 14
-    },
-    {
-      "title": "カワキヲアメク",
-      "artist": "美波",
       "count": 14
     },
     {
@@ -709,8 +709,18 @@
       "count": 12
     },
     {
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
+      "count": 12
+    },
+    {
       "title": "さようなら、花泥棒さん",
       "artist": "メル",
+      "count": 12
+    },
+    {
+      "title": "それがあなたの幸せとしても",
+      "artist": "Heavenz",
       "count": 12
     },
     {
@@ -849,11 +859,6 @@
       "count": 11
     },
     {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
-      "count": 11
-    },
-    {
       "title": "träumerei",
       "artist": "LiSA",
       "count": 11
@@ -861,11 +866,6 @@
     {
       "title": "いのちの名前",
       "artist": "木村弓",
-      "count": 11
-    },
-    {
-      "title": "それがあなたの幸せとしても",
-      "artist": "Heavenz",
       "count": 11
     },
     {
@@ -1179,6 +1179,11 @@
       "count": 9
     },
     {
+      "title": "GIRAFFE BLUES",
+      "artist": "ワルキューレ",
+      "count": 9
+    },
+    {
       "title": "HOME",
       "artist": "古川本舗",
       "count": 9
@@ -1294,6 +1299,11 @@
       "count": 9
     },
     {
+      "title": "正しくなれない",
+      "artist": "ずっと真夜中でいいのに。",
+      "count": 9
+    },
+    {
       "title": "浴槽とネオンテトラ",
       "artist": "REISAI",
       "count": 9
@@ -1319,6 +1329,11 @@
       "count": 9
     },
     {
+      "title": "踊り子",
+      "artist": "Vaundy",
+      "count": 9
+    },
+    {
       "title": "AXIA ~ダイスキでダイキライ~",
       "artist": "ワルキューレ",
       "count": 8
@@ -1334,8 +1349,8 @@
       "count": 8
     },
     {
-      "title": "GIRAFFE BLUES",
-      "artist": "ワルキューレ",
+      "title": "GLAMOROUS SKY",
+      "artist": "NANA starring MIKA NAKASHIMA",
       "count": 8
     },
     {
@@ -1396,6 +1411,11 @@
     {
       "title": "いけないボーダーライン",
       "artist": "ワルキューレ",
+      "count": 8
+    },
+    {
+      "title": "たぶん",
+      "artist": "YOASOBI",
       "count": 8
     },
     {
@@ -1544,11 +1564,6 @@
       "count": 8
     },
     {
-      "title": "正しくなれない",
-      "artist": "ずっと真夜中でいいのに。",
-      "count": 8
-    },
-    {
       "title": "海色",
       "artist": "AKINO from bless4",
       "count": 8
@@ -1576,11 +1591,6 @@
     {
       "title": "誰にもなれない私だから",
       "artist": "トゲナシトゲアリ",
-      "count": 8
-    },
-    {
-      "title": "踊り子",
-      "artist": "Vaundy",
       "count": 8
     },
     {
@@ -1626,11 +1636,6 @@
     {
       "title": "Fallen",
       "artist": "EGOIST",
-      "count": 7
-    },
-    {
-      "title": "GLAMOROUS SKY",
-      "artist": "NANA starring MIKA NAKASHIMA",
       "count": 7
     },
     {
@@ -1719,11 +1724,6 @@
       "count": 7
     },
     {
-      "title": "たぶん",
-      "artist": "YOASOBI",
-      "count": 7
-    },
-    {
       "title": "ないない",
       "artist": "ReoNa",
       "count": 7
@@ -1794,6 +1794,11 @@
       "count": 7
     },
     {
+      "title": "ラプンツェル",
+      "artist": "n-buna",
+      "count": 7
+    },
+    {
       "title": "ローリンガール",
       "artist": "wowaka",
       "count": 7
@@ -1861,6 +1866,16 @@
     {
       "title": "永遠のあくる日",
       "artist": "Ado",
+      "count": 7
+    },
+    {
+      "title": "爆裂愛してる",
+      "artist": "M!LK",
+      "count": 7
+    },
+    {
+      "title": "現状ディストラクション",
+      "artist": "SPYAIR",
       "count": 7
     },
     {
@@ -2149,11 +2164,6 @@
       "count": 6
     },
     {
-      "title": "ラプンツェル",
-      "artist": "n-buna",
-      "count": 6
-    },
-    {
       "title": "リベリオン",
       "artist": "Ado",
       "count": 6
@@ -2261,16 +2271,6 @@
     {
       "title": "準透明少年",
       "artist": "ヨルシカ",
-      "count": 6
-    },
-    {
-      "title": "爆裂愛してる",
-      "artist": "M!LK",
-      "count": 6
-    },
-    {
-      "title": "現状ディストラクション",
-      "artist": "SPYAIR",
       "count": 6
     },
     {
@@ -2511,6 +2511,11 @@
     {
       "title": "サラバ、愛しき悲しみたちよ",
       "artist": "ももいろクローバーZ",
+      "count": 5
+    },
+    {
+      "title": "サラマンダー",
+      "artist": "DECO*27",
       "count": 5
     },
     {
@@ -2984,6 +2989,11 @@
       "count": 4
     },
     {
+      "title": "おねがいダーリン",
+      "artist": "ナナホシ管弦楽団",
+      "count": 4
+    },
+    {
       "title": "お返事まだカナ💦❓おじさん構文😁❗",
       "artist": "吉本おじさん",
       "count": 4
@@ -3076,11 +3086,6 @@
     {
       "title": "サムライハート",
       "artist": "SPYAIR",
-      "count": 4
-    },
-    {
-      "title": "サラマンダー",
-      "artist": "DECO*27",
       "count": 4
     },
     {
@@ -3196,6 +3201,11 @@
     {
       "title": "メニメニマニマニ",
       "artist": "高宮なすの (鳴海杏子)",
+      "count": 4
+    },
+    {
+      "title": "メリーゴーランド",
+      "artist": "優里",
       "count": 4
     },
     {
@@ -3469,6 +3479,11 @@
       "count": 4
     },
     {
+      "title": "聖者の行進",
+      "artist": "キタニタツヤ",
+      "count": 4
+    },
+    {
       "title": "色彩",
       "artist": "坂本真綾",
       "count": 4
@@ -3556,6 +3571,11 @@
     {
       "title": "DANZEN!ふたりはプリキュア",
       "artist": "五條真由美",
+      "count": 3
+    },
+    {
+      "title": "Dancing in the Moonlight",
+      "artist": "ワルキューレ",
       "count": 3
     },
     {
@@ -3824,11 +3844,6 @@
       "count": 3
     },
     {
-      "title": "おねがいダーリン",
-      "artist": "ナナホシ管弦楽団",
-      "count": 3
-    },
-    {
       "title": "お後がよろしくって...よ!",
       "artist": "極・落女会:防波亭手寅 (山本希望),蕪羅亭魔梨威 (佐倉綾音),空琉美遊亭丸京 (南條愛乃),波浪浮亭木胡桃 (小岩井ことり),暗落亭苦来 (後藤沙緒里)",
       "count": 3
@@ -3881,6 +3896,11 @@
     {
       "title": "めざせポケモンマスター",
       "artist": "松本梨香",
+      "count": 3
+    },
+    {
+      "title": "やっぱり雨は降るんだね",
+      "artist": "ツユ",
       "count": 3
     },
     {
@@ -4116,11 +4136,6 @@
     {
       "title": "マリーゴールド",
       "artist": "あいみょん",
-      "count": 3
-    },
-    {
-      "title": "メリーゴーランド",
-      "artist": "優里",
       "count": 3
     },
     {
@@ -4429,11 +4444,6 @@
       "count": 3
     },
     {
-      "title": "聖者の行進",
-      "artist": "キタニタツヤ",
-      "count": 3
-    },
-    {
       "title": "脳裏上のクラッカー",
       "artist": "ずっと真夜中でいいのに。",
       "count": 3
@@ -4586,11 +4596,6 @@
     {
       "title": "DESIRE -情熱-",
       "artist": "中森明菜",
-      "count": 2
-    },
-    {
-      "title": "Dancing in the Moonlight",
-      "artist": "ワルキューレ",
       "count": 2
     },
     {
@@ -4959,6 +4964,11 @@
       "count": 2
     },
     {
+      "title": "ふ・れ・ん・ど・し・た・い",
+      "artist": "学園生活部",
+      "count": 2
+    },
+    {
       "title": "もうどうなってもいいや",
       "artist": "星街すいせい",
       "count": 2
@@ -4966,11 +4976,6 @@
     {
       "title": "もぐもぐYUMMY!",
       "artist": "猫又おかゆ",
-      "count": 2
-    },
-    {
-      "title": "やっぱり雨は降るんだね",
-      "artist": "ツユ",
       "count": 2
     },
     {
@@ -5221,6 +5226,11 @@
     {
       "title": "ハートキャッチ☆パラダイス!",
       "artist": "工藤真由",
+      "count": 2
+    },
+    {
+      "title": "バイオレンス",
+      "artist": "女王蜂",
       "count": 2
     },
     {
@@ -6099,6 +6109,16 @@
       "count": 1
     },
     {
+      "title": "INTERNET OVERDOSE",
+      "artist": "Aiobahn",
+      "count": 1
+    },
+    {
+      "title": "INTERNET YAMERO",
+      "artist": "Aiobahn",
+      "count": 1
+    },
+    {
       "title": "Identity",
       "artist": "Kanaria",
       "count": 1
@@ -6549,11 +6569,6 @@
       "count": 1
     },
     {
-      "title": "ふ・れ・ん・ど・し・た・い",
-      "artist": "学園生活部",
-      "count": 1
-    },
-    {
       "title": "へたっぴウィンク",
       "artist": "渡り廊下走り隊7",
       "count": 1
@@ -6949,11 +6964,6 @@
       "count": 1
     },
     {
-      "title": "バイオレンス",
-      "artist": "女王蜂",
-      "count": 1
-    },
-    {
       "title": "バイオレンストリガー",
       "artist": "八王子P",
       "count": 1
@@ -7256,6 +7266,11 @@
     {
       "title": "三日月ステップ 2023",
       "artist": "r-906",
+      "count": 1
+    },
+    {
+      "title": "不確定性☆COSMIC MOVEMENT",
+      "artist": "ワルキューレ",
       "count": 1
     },
     {
@@ -7614,6 +7629,11 @@
       "count": 1
     },
     {
+      "title": "檄!帝国華撃団",
+      "artist": "真宮寺さくら (横山智佐)・帝国歌劇団",
+      "count": 1
+    },
+    {
       "title": "次回予告",
       "artist": "キタニタツヤ",
       "count": 1
@@ -7924,6 +7944,7 @@
     "AiNA THE END",
     "AiScReam",
     "Aimer",
+    "Aiobahn",
     "Aiobahn +81",
     "AliA",
     "Alstroemeria Records",
@@ -8511,6 +8532,7 @@
     "癒月",
     "白上フブキ",
     "相対性理論",
+    "真宮寺さくら (横山智佐)・帝国歌劇団",
     "石風呂",
     "砂粒",
     "神宿",
