@@ -2850,6 +2850,12 @@
     "durationSec": 224
   },
   {
+    "title": "くうになる",
+    "artist": "MIMI",
+    "tags": ["vocaloid"],
+    "durationSec": 155
+  },
+  {
     "title": "くらべられっ子",
     "artist": "ツユ",
     "tags": ["j-pop"],
@@ -8776,6 +8782,12 @@
     "artist": "星街すいせい",
     "tags": ["original", "j-pop", "ballad"],
     "durationSec": 226
+  },
+  {
+    "title": "緋色の風車",
+    "artist": "Sound Horizon",
+    "tags": ["doujin", "j-pop"],
+    "durationSec": 361
   },
   {
     "title": "繰り返し一粒",
