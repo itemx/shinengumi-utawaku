@@ -6,12 +6,6 @@
     "durationSec": 177
   },
   {
-    "title": "&ME (ME:I Ver.)",
-    "artist": "ME:I",
-    "tags": ["idol", "j-pop"],
-    "durationSec": 176
-  },
-  {
     "title": "*~アスタリスク~",
     "artist": "ORANGE RANGE",
     "tags": ["anime", "j-pop"],
@@ -606,7 +600,7 @@
     "durationSec": 133
   },
   {
-    "title": "Deep Resonance(一部)",
+    "title": "Deep Resonance",
     "artist": "Aqours",
     "tags": ["anime", "idol", "j-pop"],
     "durationSec": 314
@@ -5190,7 +5184,7 @@
     "durationSec": 265
   },
   {
-    "title": "ファイトソング(一番のみ)",
+    "title": "ファイトソング",
     "artist": "Eve",
     "tags": ["anime", "j-pop"],
     "durationSec": 209
@@ -6111,12 +6105,6 @@
     "title": "ワールドイズマイン CPK! Remix",
     "artist": "ryo (supercell)",
     "tags": ["vocaloid"],
-    "durationSec": 226
-  },
-  {
-    "title": "ワールドイズマイン(かぐや&月見ヤチヨ ver.)",
-    "artist": "ryo (supercell), かぐや (CV.夏吉ゆうこ) & 月見ヤチヨ (CV.早見沙織)",
-    "tags": ["vocaloid", "game"],
     "durationSec": 226
   },
   {
@@ -7062,12 +7050,6 @@
     "durationSec": 303
   },
   {
-    "title": "奏",
-    "artist": "スキマスイッチ",
-    "tags": ["j-pop", "ballad"],
-    "durationSec": 370
-  },
-  {
     "title": "奏(かなで)",
     "artist": "スキマスイッチ",
     "tags": ["j-pop", "ballad"],
@@ -7084,12 +7066,6 @@
     "artist": "SILENT SIREN",
     "tags": ["j-pop"],
     "durationSec": 257
-  },
-  {
-    "title": "女子校戦争(Girls’ School War)",
-    "artist": "SILENT SIREN",
-    "tags": ["j-pop"],
-    "durationSec": 255
   },
   {
     "title": "好き!雪!本気マジック",

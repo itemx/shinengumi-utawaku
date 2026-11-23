@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1590,
-  "uniqueTitles": 1569,
-  "uniqueArtists": 702,
+  "totalEntries": 1586,
+  "uniqueTitles": 1565,
+  "uniqueArtists": 701,
   "songs": [
     {
       "title": "All Alone With You",
@@ -459,6 +459,11 @@
       "count": 15
     },
     {
+      "title": "ワールドイズマイン",
+      "artist": "ryo (supercell)",
+      "count": 15
+    },
+    {
       "title": "一度だけの恋なら",
       "artist": "ワルキューレ",
       "count": 15
@@ -521,11 +526,6 @@
     {
       "title": "ヒステリックナイトガール",
       "artist": "PSYQUI",
-      "count": 14
-    },
-    {
-      "title": "ワールドイズマイン",
-      "artist": "ryo (supercell)",
       "count": 14
     },
     {
@@ -794,6 +794,11 @@
       "count": 12
     },
     {
+      "title": "奏(かなで)",
+      "artist": "スキマスイッチ",
+      "count": 12
+    },
+    {
       "title": "忘れてください",
       "artist": "ヨルシカ",
       "count": 12
@@ -936,11 +941,6 @@
     {
       "title": "千鳥",
       "artist": "ヨルシカ",
-      "count": 11
-    },
-    {
-      "title": "奏(かなで)",
-      "artist": "スキマスイッチ",
       "count": 11
     },
     {
@@ -3369,6 +3369,11 @@
       "count": 4
     },
     {
+      "title": "女子校戦争",
+      "artist": "SILENT SIREN",
+      "count": 4
+    },
+    {
       "title": "完全感覚Dreamer",
       "artist": "ONE OK ROCK",
       "count": 4
@@ -4324,11 +4329,6 @@
       "count": 3
     },
     {
-      "title": "女子校戦争",
-      "artist": "SILENT SIREN",
-      "count": 3
-    },
-    {
       "title": "好き!雪!本気マジック",
       "artist": "Mitchie M",
       "count": 3
@@ -4527,6 +4527,11 @@
       "title": "魔法少女とチョコレゐト",
       "artist": "ピノキオピー",
       "count": 3
+    },
+    {
+      "title": "&ME",
+      "artist": "ME:I",
+      "count": 2
     },
     {
       "title": "366日",
@@ -5874,16 +5879,6 @@
       "count": 2
     },
     {
-      "title": "&ME (ME:I Ver.)",
-      "artist": "ME:I",
-      "count": 1
-    },
-    {
-      "title": "&ME",
-      "artist": "ME:I",
-      "count": 1
-    },
-    {
       "title": "*~アスタリスク~",
       "artist": "ORANGE RANGE",
       "count": 1
@@ -6034,7 +6029,7 @@
       "count": 1
     },
     {
-      "title": "Deep Resonance(一部)",
+      "title": "Deep Resonance",
       "artist": "Aqours",
       "count": 1
     },
@@ -6609,7 +6604,7 @@
       "count": 1
     },
     {
-      "title": "ひとりごつ~バンドVer.~",
+      "title": "ひとりごつ",
       "artist": "ハチワレ",
       "count": 1
     },
@@ -7074,7 +7069,7 @@
       "count": 1
     },
     {
-      "title": "ファイトソング(一番のみ)",
+      "title": "ファイトソング",
       "artist": "Eve",
       "count": 1
     },
@@ -7279,11 +7274,6 @@
       "count": 1
     },
     {
-      "title": "ワールドイズマイン(かぐや&月見ヤチヨ ver.)",
-      "artist": "ryo (supercell), かぐや (CV.夏吉ゆうこ) & 月見ヤチヨ (CV.早見沙織)",
-      "count": 1
-    },
-    {
       "title": "一体いつから",
       "artist": "月村手毬",
       "count": 1
@@ -7449,18 +7439,8 @@
       "count": 1
     },
     {
-      "title": "奏",
-      "artist": "スキマスイッチ",
-      "count": 1
-    },
-    {
       "title": "女々しくて",
       "artist": "ゴールデンボンバー",
-      "count": 1
-    },
-    {
-      "title": "女子校戦争(Girls’ School War)",
-      "artist": "SILENT SIREN",
       "count": 1
     },
     {
@@ -8227,7 +8207,6 @@
     "rinri",
     "rionos",
     "ryo (supercell)",
-    "ryo (supercell), かぐや (CV.夏吉ゆうこ) & 月見ヤチヨ (CV.早見沙織)",
     "saiB",
     "samayuzame",
     "samfree",
