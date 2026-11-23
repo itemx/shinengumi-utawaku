@@ -26,6 +26,11 @@ _TAIL_ANNOTATION_RE = re.compile(
     r"full|フル|original\s*ver\.?|THE FIRST TAKE|[A-Z]+ [Vv]er\.?|"
     r"M@STER\s*VERSION|long\s*ver[:\.]?|[A-Z]{2,}\s+ver\.?|"
     r"アカペラ\??|a\s*cappella\??|"
+    # 一部だけ歌った注記: (一部) (一番のみ) (1番だけ) (サビのみ) (ワンコーラス)
+    r"一部|[一1１]番(?:のみ|だけ)|サビ(?:のみ|だけ)|ワンコーラス|"
+    # 任意の版名: (かぐや&月見ヤチヨ ver.) (ME:I Ver.) (2026ver.)
+    # ver の直前が英字なら版名ではない（Forever / Silver / Clover を消さない）
+    r"[^()（）]*(?<![A-Za-z])[Vv]er\.?|"
     r".+\s+[Cc]over)"
     r"[\)）]\s*$",
     re.IGNORECASE,
@@ -37,6 +42,10 @@ _DASH_VER_RE = re.compile(
     r"\s*[-–—~〜]\s*(?:[\w\s]*?\s+)?(?:Piano|Acoustic|弾き語り|ピアノ|original|final)\s*Ver\.?\s*[-–—~〜]?\s*$",
     re.IGNORECASE,
 )
+
+# 波線で挟んだ任意の版名: "ひとりごつ~バンドVer.~"。両側に波線があるときだけ
+# （片側だけだと "AXIA ~ダイスキでダイキライ~" のような副題と区別が付かない）
+_TILDE_VER_RE = re.compile(r"\s*[~〜][^~〜]*?(?<![A-Za-z])Ver\.?\s*[~〜]\s*$", re.IGNORECASE)
 
 # 方括號形式: "[original ver.]", "[Piano Ver.]"
 _BRACKET_VER_RE = re.compile(
@@ -62,7 +71,7 @@ _MEDIA_SOURCE_RE = re.compile(
 # 羅馬拼音/英文翻譯括號: 尾部 (Latin text)
 # 括號內容為純 Latin (含帶變音符的拉丁字母如 ā ō ū)，且標題中含有日文字時才移除
 _ROMANIZATION_PAREN_RE = re.compile(
-    r"\s*[\(（]([A-Za-z\u00C0-\u024F][A-Za-z\u00C0-\u024F\s,.\-'!?&]+)[\)）]\s*$",
+    r"\s*[\(（]([A-Za-z\u00C0-\u024F][A-Za-z\u00C0-\u024F\s,.\-'’!?&]+)[\)）]\s*$",
 )
 _HAS_JAPANESE_RE = re.compile(r"[\u3000-\u9FFF\u30A0-\u30FF\u3040-\u309F]")
 
@@ -132,6 +141,7 @@ def _clean_text(text: str, is_title: bool = False) -> str:
     # 移除尾部標註 (各種 ver 格式)
     text = _TAIL_ANNOTATION_RE.sub("", text)
     text = _DASH_VER_RE.sub("", text)
+    text = _TILDE_VER_RE.sub("", text)
     text = _BRACKET_VER_RE.sub("", text)
     text = _SPACE_VER_RE.sub("", text)
     if is_title:

@@ -132,3 +132,26 @@ def test_artist_paren_gets_a_space():
         normalize("我只在乎你(時の流れに身をまかせ)", "", aliases).title
         == "我只在乎你(時の流れに身をまかせ)"
     )
+
+
+def test_tail_notes_partial_and_any_version_are_stripped():
+    al = {"songs": {}, "artists": {}}
+    t = lambda x: normalize(x, "", al).title
+    assert t("Deep Resonance(一部)") == "Deep Resonance"
+    assert t("ファイトソング(一番のみ)") == "ファイトソング"
+    assert t("ワールドイズマイン(かぐや&月見ヤチヨ ver.)") == "ワールドイズマイン"
+    assert t("&ME (ME:I Ver.)") == "&ME"
+    assert t("会いにKiTE! (2026ver.)") == "会いにKiTE!"
+    assert t("ひとりごつ~バンドVer.~") == "ひとりごつ"
+    assert t("AXIA ~ダイスキでダイキライ~") == "AXIA ~ダイスキでダイキライ~"   # 副題は残す
+    # 全角アポストロフィの英訳も落とす
+    assert t("女子校戦争(Girls’ School War)") == "女子校戦争"
+
+
+def test_official_parentheses_are_kept():
+    al = {"songs": {}, "artists": {}}
+    t = lambda x: normalize(x, "", al).title
+    for keep in ["BEYOND THE TIME (メビウスの宇宙を越えて)", "Why? (Keep Your Head Down)",
+                 "娘々スペシャルサービスメドレー(特盛り)", "被害妄想携帯女子(笑)", "奏(かなで)",
+                 "Poison (日本語版)", "Love (Forever)", "Hi (Silver)"]:
+        assert t(keep) == keep, keep
