@@ -420,6 +420,12 @@
     "durationSec": 255
   },
   {
+    "title": "COLORS",
+    "artist": "FLOW",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 221
+  },
+  {
     "title": "CULT",
     "artist": "DUSTCELL",
     "tags": ["j-pop"],
@@ -922,6 +928,12 @@
     "artist": "T.M.Revolution",
     "tags": ["j-pop"],
     "durationSec": 222
+  },
+  {
+    "title": "Hacking to the Gate",
+    "artist": "いとうかなこ",
+    "tags": ["anime", "j-pop"],
+    "durationSec": 257
   },
   {
     "title": "Happiness",
@@ -2694,6 +2706,12 @@
     "durationSec": 224
   },
   {
+    "title": "うさぎラップ",
+    "artist": "うさぎ、モモンガ、人魚",
+    "tags": ["anime"],
+    "durationSec": 75
+  },
+  {
     "title": "うたかたよいかないで",
     "artist": "HIMEHINA",
     "tags": ["original", "j-pop", "ballad"],
@@ -3148,6 +3166,12 @@
     "artist": "夏色まつり",
     "tags": ["original", "j-pop"],
     "durationSec": 204
+  },
+  {
+    "title": "ひとりごつ",
+    "artist": "ハチワレ",
+    "tags": ["anime"],
+    "durationSec": 91
   },
   {
     "title": "ひまわりの約束",
@@ -6348,6 +6372,12 @@
     "durationSec": 241
   },
   {
+    "title": "信じる者は救われない",
+    "artist": "みきとP",
+    "tags": ["vocaloid"],
+    "durationSec": 278
+  },
+  {
     "title": "修羅",
     "artist": "DOES",
     "tags": ["anime", "j-pop"],
@@ -7222,6 +7252,12 @@
     "artist": "じん",
     "tags": ["anime", "vocaloid", "j-pop"],
     "durationSec": 274
+  },
+  {
+    "title": "島のうた",
+    "artist": "島民 (ちいかわ)",
+    "tags": ["anime"],
+    "durationSec": 80
   },
   {
     "title": "崖の上のポニョ",

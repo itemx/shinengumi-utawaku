@@ -1,7 +1,7 @@
 {
-  "totalEntries": 1586,
-  "uniqueTitles": 1565,
-  "uniqueArtists": 701,
+  "totalEntries": 1582,
+  "uniqueTitles": 1564,
+  "uniqueArtists": 699,
   "songs": [
     {
       "title": "All Alone With You",
@@ -1369,6 +1369,11 @@
       "count": 8
     },
     {
+      "title": "INTERNET YAMERO",
+      "artist": "KOTOKO",
+      "count": 8
+    },
+    {
       "title": "My Song",
       "artist": "Girls Dead Monster",
       "count": 8
@@ -1646,11 +1651,6 @@
     {
       "title": "Fallen",
       "artist": "EGOIST",
-      "count": 7
-    },
-    {
-      "title": "INTERNET YAMERO",
-      "artist": "KOTOKO",
       "count": 7
     },
     {
@@ -1991,6 +1991,11 @@
     {
       "title": "INNOCENCE",
       "artist": "藍井エイル",
+      "count": 6
+    },
+    {
+      "title": "INTERNET OVERDOSE",
+      "artist": "KOTOKO",
       "count": 6
     },
     {
@@ -2394,11 +2399,6 @@
       "count": 5
     },
     {
-      "title": "INTERNET OVERDOSE",
-      "artist": "KOTOKO",
-      "count": 5
-    },
-    {
       "title": "L.Miranic",
       "artist": "LiSA",
       "count": 5
@@ -2736,6 +2736,11 @@
     {
       "title": "桜日和",
       "artist": "星村麻衣",
+      "count": 5
+    },
+    {
+      "title": "檄!帝国華撃団",
+      "artist": "帝国歌劇団",
       "count": 5
     },
     {
@@ -3441,11 +3446,6 @@
     {
       "title": "桃源郷エイリアン",
       "artist": "serial TV drama",
-      "count": 4
-    },
-    {
-      "title": "檄!帝国華撃団",
-      "artist": "帝国歌劇団",
       "count": 4
     },
     {
@@ -4216,6 +4216,11 @@
     {
       "title": "不死鳥のフランメ",
       "artist": "マリア×風鳴翼",
+      "count": 3
+    },
+    {
+      "title": "不確定性COSMIC MOVEMENT",
+      "artist": "ワルキューレ",
       "count": 3
     },
     {
@@ -5479,11 +5484,6 @@
       "count": 2
     },
     {
-      "title": "不確定性COSMIC MOVEMENT",
-      "artist": "ワルキューレ",
-      "count": 2
-    },
-    {
       "title": "会いたくて 会いたくて",
       "artist": "西野カナ",
       "count": 2
@@ -6136,16 +6136,6 @@
     {
       "title": "IDOL SONG",
       "artist": "大森靖子",
-      "count": 1
-    },
-    {
-      "title": "INTERNET OVERDOSE",
-      "artist": "Aiobahn",
-      "count": 1
-    },
-    {
-      "title": "INTERNET YAMERO",
-      "artist": "Aiobahn",
       "count": 1
     },
     {
@@ -7294,11 +7284,6 @@
       "count": 1
     },
     {
-      "title": "不確定性☆COSMIC MOVEMENT",
-      "artist": "ワルキューレ",
-      "count": 1
-    },
-    {
       "title": "世界に一つだけの花",
       "artist": "SMAP",
       "count": 1
@@ -7649,11 +7634,6 @@
       "count": 1
     },
     {
-      "title": "檄!帝国華撃団",
-      "artist": "真宮寺さくら (横山智佐)・帝国歌劇団",
-      "count": 1
-    },
-    {
       "title": "次回予告",
       "artist": "キタニタツヤ",
       "count": 1
@@ -7964,7 +7944,6 @@
     "AiNA THE END",
     "AiScReam",
     "Aimer",
-    "Aiobahn",
     "Aiobahn +81",
     "AliA",
     "Alstroemeria Records",
@@ -8555,7 +8534,6 @@
     "癒月",
     "白上フブキ",
     "相対性理論",
-    "真宮寺さくら (横山智佐)・帝国歌劇団",
     "石風呂",
     "砂粒",
     "神宿",
