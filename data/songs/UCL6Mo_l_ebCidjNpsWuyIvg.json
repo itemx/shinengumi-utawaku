@@ -1,7 +1,7 @@
 {
   "channelId": "UCL6Mo_l_ebCidjNpsWuyIvg",
   "channelName": "Rairi ch. 小滝らいり",
-  "lastFetched": "2026-11-11T02:15:26.540937+00:00",
+  "lastFetched": "2026-11-23T03:35:26.135116+00:00",
   "videos": [
     {
       "videoId": "08U27OrwU-0",
@@ -1819,6 +1819,51 @@
         }
       ],
       "sourceCommentId": "issue#156",
+      "type": "stream"
+    },
+    {
+      "videoId": "PKHHsGgaI9A",
+      "title": "【#LightUpNotes】歌うま×おもしろ×ゲーマー×お姉さん?!💙歌声の透明度◎✨#歌枠リレー #singing #歌枠【小滝らいり】",
+      "publishedAt": "2026-11-21T10:25:20Z",
+      "songs": [
+        {
+          "timestamp": "5:33",
+          "seconds": 333,
+          "title": "God knows...",
+          "titleRaw": "God knows...",
+          "artist": "平野綾",
+          "artistRaw": "平野綾",
+          "url": "https://youtu.be/PKHHsGgaI9A?t=333"
+        },
+        {
+          "timestamp": "12:44",
+          "seconds": 764,
+          "title": "アイウエ",
+          "titleRaw": "アイウエ",
+          "artist": "MAISONdes",
+          "artistRaw": "MAISONdes",
+          "url": "https://youtu.be/PKHHsGgaI9A?t=764"
+        },
+        {
+          "timestamp": "16:30",
+          "seconds": 990,
+          "title": "少女S",
+          "titleRaw": "少女S",
+          "artist": "SCANDAL",
+          "artistRaw": "SCANDAL",
+          "url": "https://youtu.be/PKHHsGgaI9A?t=990"
+        },
+        {
+          "timestamp": "27:08",
+          "seconds": 1628,
+          "title": "Thunder Seeker",
+          "titleRaw": "Thunder Seeker",
+          "artist": "小滝らいり",
+          "artistRaw": "小滝らいり",
+          "url": "https://youtu.be/PKHHsGgaI9A?t=1628"
+        }
+      ],
+      "sourceCommentId": "issue#167",
       "type": "stream"
     }
   ]
