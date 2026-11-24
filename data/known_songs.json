@@ -104,6 +104,11 @@
       "count": 25
     },
     {
+      "title": "夜明けと蛍",
+      "artist": "n-buna",
+      "count": 25
+    },
+    {
       "title": "星降る海",
       "artist": "月見ヤチヨ",
       "count": 25
@@ -112,11 +117,6 @@
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 25
-    },
-    {
-      "title": "夜明けと蛍",
-      "artist": "n-buna",
-      "count": 24
     },
     {
       "title": "月のワルツ",
@@ -249,6 +249,11 @@
       "count": 19
     },
     {
+      "title": "ハイドアンド・シーク",
+      "artist": "19's Sound Factory",
+      "count": 19
+    },
+    {
       "title": "ヒバナ",
       "artist": "DECO*27",
       "count": 19
@@ -281,11 +286,6 @@
     {
       "title": "コネクト",
       "artist": "ClariS",
-      "count": 18
-    },
-    {
-      "title": "ハイドアンド・シーク",
-      "artist": "19's Sound Factory",
       "count": 18
     },
     {
@@ -379,6 +379,11 @@
       "count": 16
     },
     {
+      "title": "カワキヲアメク",
+      "artist": "美波",
+      "count": 16
+    },
+    {
       "title": "ワールド・ランプシェード",
       "artist": "buzzG",
       "count": 16
@@ -434,8 +439,8 @@
       "count": 15
     },
     {
-      "title": "カワキヲアメク",
-      "artist": "美波",
+      "title": "シリウスの心臓",
+      "artist": "ヰ世界情緒",
       "count": 15
     },
     {
@@ -514,11 +519,6 @@
       "count": 14
     },
     {
-      "title": "シリウスの心臓",
-      "artist": "ヰ世界情緒",
-      "count": 14
-    },
-    {
       "title": "シンデレラ",
       "artist": "DECO*27",
       "count": 14
@@ -589,6 +589,11 @@
       "count": 13
     },
     {
+      "title": "ray",
+      "artist": "BUMP OF CHICKEN",
+      "count": 13
+    },
+    {
       "title": "あぶく",
       "artist": "ヨルシカ",
       "count": 13
@@ -636,6 +641,11 @@
     {
       "title": "夜に駆ける",
       "artist": "YOASOBI",
+      "count": 13
+    },
+    {
+      "title": "奏(かなで)",
+      "artist": "スキマスイッチ",
       "count": 13
     },
     {
@@ -719,11 +729,6 @@
       "count": 12
     },
     {
-      "title": "ray",
-      "artist": "BUMP OF CHICKEN",
-      "count": 12
-    },
-    {
       "title": "さようなら、花泥棒さん",
       "artist": "メル",
       "count": 12
@@ -791,11 +796,6 @@
     {
       "title": "夜のピエロ",
       "artist": "Ado",
-      "count": 12
-    },
-    {
-      "title": "奏(かなで)",
-      "artist": "スキマスイッチ",
       "count": 12
     },
     {
@@ -901,6 +901,11 @@
     {
       "title": "シュガーソングとビターステップ",
       "artist": "UNISON SQUARE GARDEN",
+      "count": 11
+    },
+    {
+      "title": "スパークル",
+      "artist": "RADWIMPS",
       "count": 11
     },
     {
@@ -1084,11 +1089,6 @@
       "count": 10
     },
     {
-      "title": "スパークル",
-      "artist": "RADWIMPS",
-      "count": 10
-    },
-    {
       "title": "ダイアモンド クレバス",
       "artist": "シェリル・ノーム starring May'n",
       "count": 10
@@ -1154,6 +1154,11 @@
       "count": 10
     },
     {
+      "title": "星が瞬くこんな夜に",
+      "artist": "ryo (supercell)",
+      "count": 10
+    },
+    {
       "title": "浴槽とネオンテトラ",
       "artist": "REISAI",
       "count": 10
@@ -1177,6 +1182,11 @@
       "title": "靴の花火",
       "artist": "ヨルシカ",
       "count": 10
+    },
+    {
+      "title": "AXIA ~ダイスキでダイキライ~",
+      "artist": "ワルキューレ",
+      "count": 9
     },
     {
       "title": "Burn My Universe",
@@ -1221,6 +1231,11 @@
     {
       "title": "chAngE",
       "artist": "miwa",
+      "count": 9
+    },
+    {
+      "title": "flos",
+      "artist": "R Sound Design",
       "count": 9
     },
     {
@@ -1304,11 +1319,6 @@
       "count": 9
     },
     {
-      "title": "星が瞬くこんな夜に",
-      "artist": "ryo (supercell)",
-      "count": 9
-    },
-    {
       "title": "正しくなれない",
       "artist": "ずっと真夜中でいいのに。",
       "count": 9
@@ -1337,11 +1347,6 @@
       "title": "踊り子",
       "artist": "Vaundy",
       "count": 9
-    },
-    {
-      "title": "AXIA ~ダイスキでダイキライ~",
-      "artist": "ワルキューレ",
-      "count": 8
     },
     {
       "title": "Crow Song",
@@ -1374,6 +1379,11 @@
       "count": 8
     },
     {
+      "title": "LOVE & ROLL",
+      "artist": "ryo (supercell)",
+      "count": 8
+    },
+    {
       "title": "My Song",
       "artist": "Girls Dead Monster",
       "count": 8
@@ -1401,11 +1411,6 @@
     {
       "title": "Reply",
       "artist": "kz",
-      "count": 8
-    },
-    {
-      "title": "flos",
-      "artist": "R Sound Design",
       "count": 8
     },
     {
@@ -1446,6 +1451,11 @@
     {
       "title": "カサブタ",
       "artist": "千綿偉功",
+      "count": 8
+    },
+    {
+      "title": "キャットラビング",
+      "artist": "香椎モイミ",
       "count": 8
     },
     {
@@ -1614,6 +1624,11 @@
       "count": 8
     },
     {
+      "title": "雨景色",
+      "artist": "ロクデナシ",
+      "count": 8
+    },
+    {
       "title": "風のゆくえ",
       "artist": "Ado",
       "count": 8
@@ -1656,11 +1671,6 @@
     {
       "title": "KICK BACK",
       "artist": "米津玄師",
-      "count": 7
-    },
-    {
-      "title": "LOVE & ROLL",
-      "artist": "ryo (supercell)",
       "count": 7
     },
     {
@@ -1729,6 +1739,11 @@
       "count": 7
     },
     {
+      "title": "かくれんぼ",
+      "artist": "AliA",
+      "count": 7
+    },
+    {
       "title": "ずうっといっしょ!",
       "artist": "キタニタツヤ",
       "count": 7
@@ -1761,11 +1776,6 @@
     {
       "title": "カトレア",
       "artist": "ヨルシカ",
-      "count": 7
-    },
-    {
-      "title": "キャットラビング",
-      "artist": "香椎モイミ",
       "count": 7
     },
     {
@@ -1944,11 +1954,6 @@
       "count": 7
     },
     {
-      "title": "雨景色",
-      "artist": "ロクデナシ",
-      "count": 7
-    },
-    {
       "title": "雫",
       "artist": "スキマスイッチ",
       "count": 7
@@ -2066,11 +2071,6 @@
     {
       "title": "お勉強しといてよ",
       "artist": "ずっと真夜中でいいのに。",
-      "count": 6
-    },
-    {
-      "title": "かくれんぼ",
-      "artist": "AliA",
       "count": 6
     },
     {
@@ -2299,6 +2299,11 @@
       "count": 6
     },
     {
+      "title": "水流のロック",
+      "artist": "日食なつこ",
+      "count": 6
+    },
+    {
       "title": "準透明少年",
       "artist": "ヨルシカ",
       "count": 6
@@ -2331,6 +2336,11 @@
     {
       "title": "英雄 運命の詩",
       "artist": "EGOIST",
+      "count": 6
+    },
+    {
+      "title": "螺旋",
+      "artist": "9Lana",
       "count": 6
     },
     {
@@ -2679,6 +2689,11 @@
       "count": 5
     },
     {
+      "title": "境界の彼方",
+      "artist": "茅原実里",
+      "count": 5
+    },
+    {
       "title": "夢のまた夢",
       "artist": "まふまふ",
       "count": 5
@@ -2734,6 +2749,11 @@
       "count": 5
     },
     {
+      "title": "有心論",
+      "artist": "RADWIMPS",
+      "count": 5
+    },
+    {
       "title": "東京テディベア",
       "artist": "Neru",
       "count": 5
@@ -2751,11 +2771,6 @@
     {
       "title": "残機",
       "artist": "ずっと真夜中でいいのに。",
-      "count": 5
-    },
-    {
-      "title": "水流のロック",
-      "artist": "日食なつこ",
       "count": 5
     },
     {
@@ -2801,11 +2816,6 @@
     {
       "title": "芽ぐみの雨",
       "artist": "やなぎなぎ",
-      "count": 5
-    },
-    {
-      "title": "螺旋",
-      "artist": "9Lana",
       "count": 5
     },
     {
@@ -2981,6 +2991,11 @@
     {
       "title": "no face",
       "artist": "Embellir Gift",
+      "count": 4
+    },
+    {
+      "title": "over and over",
+      "artist": "やなぎなぎ",
       "count": 4
     },
     {
@@ -3339,11 +3354,6 @@
       "count": 4
     },
     {
-      "title": "境界の彼方",
-      "artist": "茅原実里",
-      "count": 4
-    },
-    {
       "title": "夏祭り",
       "artist": "Whiteberry",
       "count": 4
@@ -3439,13 +3449,13 @@
       "count": 4
     },
     {
-      "title": "有心論",
-      "artist": "RADWIMPS",
+      "title": "桃源郷エイリアン",
+      "artist": "serial TV drama",
       "count": 4
     },
     {
-      "title": "桃源郷エイリアン",
-      "artist": "serial TV drama",
+      "title": "正解はひとつ!じゃない!!",
+      "artist": "ミルキィホームズ",
       "count": 4
     },
     {
@@ -3481,6 +3491,11 @@
     {
       "title": "白金ディスコ",
       "artist": "阿良々木月火 (井口裕香)",
+      "count": 4
+    },
+    {
+      "title": "瞬間、シンフォニー。",
+      "artist": "40mP",
       "count": 4
     },
     {
@@ -3821,11 +3836,6 @@
     {
       "title": "moreきゅん奴隷",
       "artist": "戦慄かなの",
-      "count": 3
-    },
-    {
-      "title": "over and over",
-      "artist": "やなぎなぎ",
       "count": 3
     },
     {
@@ -4274,6 +4284,11 @@
       "count": 3
     },
     {
+      "title": "命のユースティティア",
+      "artist": "Neru",
+      "count": 3
+    },
+    {
       "title": "命ばっかり",
       "artist": "ぬゆり",
       "count": 3
@@ -4399,6 +4414,11 @@
       "count": 3
     },
     {
+      "title": "月に向かって撃て",
+      "artist": "星街すいせい",
+      "count": 3
+    },
+    {
       "title": "朝を呑む",
       "artist": "バルーン",
       "count": 3
@@ -4424,11 +4444,6 @@
       "count": 3
     },
     {
-      "title": "正解はひとつ!じゃない!!",
-      "artist": "ミルキィホームズ",
-      "count": 3
-    },
-    {
       "title": "深海ディスタンス",
       "artist": "西憂花",
       "count": 3
@@ -4451,11 +4466,6 @@
     {
       "title": "物語りのワルツ",
       "artist": "ヰ世界情緒",
-      "count": 3
-    },
-    {
-      "title": "瞬間、シンフォニー。",
-      "artist": "40mP",
       "count": 3
     },
     {
@@ -4764,6 +4774,11 @@
       "count": 2
     },
     {
+      "title": "One day",
+      "artist": "THE ROOTLESS",
+      "count": 2
+    },
+    {
       "title": "PLATONIC GIRL",
       "artist": "みきとP",
       "count": 2
@@ -4986,6 +5001,11 @@
     {
       "title": "ないものねだり",
       "artist": "KANA-BOON",
+      "count": 2
+    },
+    {
+      "title": "ねむるまち",
+      "artist": "くじら",
       "count": 2
     },
     {
@@ -5384,6 +5404,11 @@
       "count": 2
     },
     {
+      "title": "ユニバーサル・バニー",
+      "artist": "シェリル・ノーム starring May'n",
+      "count": 2
+    },
+    {
       "title": "ユメセカイ",
       "artist": "戸松遥",
       "count": 2
@@ -5549,11 +5574,6 @@
       "count": 2
     },
     {
-      "title": "命のユースティティア",
-      "artist": "Neru",
-      "count": 2
-    },
-    {
       "title": "咲いてJewel",
       "artist": "鷺沢文香 (M・A・O)、速水奏 (飯田友子)、橘ありす (佐藤亜美菜)、塩見周子 (ルゥティン)、二宮飛鳥 (青木志貴)",
       "count": 2
@@ -5684,11 +5704,6 @@
       "count": 2
     },
     {
-      "title": "月に向かって撃て",
-      "artist": "星街すいせい",
-      "count": 2
-    },
-    {
       "title": "月亮代表我的心",
       "artist": "鄧麗君 (テレサ・テン)",
       "count": 2
@@ -5801,6 +5816,11 @@
     {
       "title": "聖少女領域",
       "artist": "ALI PROJECT",
+      "count": 2
+    },
+    {
+      "title": "背景、夏に溺れる",
+      "artist": "n-buna",
       "count": 2
     },
     {
@@ -6219,11 +6239,6 @@
       "count": 1
     },
     {
-      "title": "One day",
-      "artist": "THE ROOTLESS",
-      "count": 1
-    },
-    {
       "title": "Petals",
       "artist": "orangester",
       "count": 1
@@ -6581,11 +6596,6 @@
     {
       "title": "にっこり^^調査隊のテーマ",
       "artist": "じーざすP",
-      "count": 1
-    },
-    {
-      "title": "ねむるまち",
-      "artist": "くじら",
       "count": 1
     },
     {
@@ -7156,11 +7166,6 @@
     {
       "title": "ヤラララ",
       "artist": "ABM",
-      "count": 1
-    },
-    {
-      "title": "ユニバーサル・バニー",
-      "artist": "シェリル・ノーム starring May'n",
       "count": 1
     },
     {
@@ -7771,11 +7776,6 @@
     {
       "title": "聖槍爆裂ボーイ",
       "artist": "れるりり,もじゃ",
-      "count": 1
-    },
-    {
-      "title": "背景、夏に溺れる",
-      "artist": "n-buna",
       "count": 1
     },
     {
