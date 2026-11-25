@@ -16,7 +16,12 @@
     {
       "title": "少女レイ",
       "artist": "みきとP",
-      "count": 35
+      "count": 36
+    },
+    {
+      "title": "月光食堂",
+      "artist": "ぬー (古川本舗)",
+      "count": 33
     },
     {
       "title": "グリグリメガネと月光蟲",
@@ -29,11 +34,6 @@
       "count": 32
     },
     {
-      "title": "月光食堂",
-      "artist": "ぬー (古川本舗)",
-      "count": 32
-    },
-    {
       "title": "残響散歌",
       "artist": "Aimer",
       "count": 31
@@ -42,6 +42,11 @@
       "title": "晴る",
       "artist": "ヨルシカ",
       "count": 30
+    },
+    {
+      "title": "深海のリトルクライ",
+      "artist": "sasakure.UK",
+      "count": 29
     },
     {
       "title": "Departures ~あなたにおくるアイの歌~",
@@ -56,11 +61,6 @@
     {
       "title": "少女S",
       "artist": "SCANDAL",
-      "count": 28
-    },
-    {
-      "title": "深海のリトルクライ",
-      "artist": "sasakure.UK",
       "count": 28
     },
     {
@@ -84,24 +84,24 @@
       "count": 27
     },
     {
+      "title": "ロンリーユニバース",
+      "artist": "Aqu3ra",
+      "count": 27
+    },
+    {
       "title": "斜陽",
       "artist": "ヨルシカ",
       "count": 27
     },
     {
-      "title": "ロンリーユニバース",
-      "artist": "Aqu3ra",
+      "title": "サリシノハラ",
+      "artist": "みきとP",
       "count": 26
     },
     {
       "title": "変わらないもの",
       "artist": "奥華子",
       "count": 26
-    },
-    {
-      "title": "サリシノハラ",
-      "artist": "みきとP",
-      "count": 25
     },
     {
       "title": "夜明けと蛍",
@@ -114,14 +114,19 @@
       "count": 25
     },
     {
+      "title": "月のワルツ",
+      "artist": "諫山実生",
+      "count": 25
+    },
+    {
       "title": "空色デイズ",
       "artist": "中川翔子",
       "count": 25
     },
     {
-      "title": "月のワルツ",
-      "artist": "諫山実生",
-      "count": 24
+      "title": "あいのけもの",
+      "artist": "古川本舗",
+      "count": 23
     },
     {
       "title": "だから僕は音楽を辞めた",
@@ -146,11 +151,6 @@
     {
       "title": "Stellar Stellar",
       "artist": "星街すいせい",
-      "count": 22
-    },
-    {
-      "title": "あいのけもの",
-      "artist": "古川本舗",
       "count": 22
     },
     {
@@ -204,6 +204,11 @@
       "count": 20
     },
     {
+      "title": "スーパー・ノヴァ",
+      "artist": "古川本舗",
+      "count": 20
+    },
+    {
       "title": "トリノコシティ",
       "artist": "40mP",
       "count": 20
@@ -244,11 +249,6 @@
       "count": 19
     },
     {
-      "title": "スーパー・ノヴァ",
-      "artist": "古川本舗",
-      "count": 19
-    },
-    {
       "title": "ハイドアンド・シーク",
       "artist": "19's Sound Factory",
       "count": 19
@@ -256,6 +256,11 @@
     {
       "title": "ヒバナ",
       "artist": "DECO*27",
+      "count": 19
+    },
+    {
+      "title": "恋愛裁判",
+      "artist": "40mP",
       "count": 19
     },
     {
@@ -289,6 +294,11 @@
       "count": 18
     },
     {
+      "title": "ハロ/ハワユ",
+      "artist": "ナノウ",
+      "count": 18
+    },
+    {
       "title": "プラチナ",
       "artist": "坂本真綾",
       "count": 18
@@ -309,8 +319,8 @@
       "count": 18
     },
     {
-      "title": "恋愛裁判",
-      "artist": "40mP",
+      "title": "帝国少女",
+      "artist": "R Sound Design",
       "count": 18
     },
     {
@@ -341,16 +351,6 @@
     {
       "title": "I beg you",
       "artist": "Aimer",
-      "count": 17
-    },
-    {
-      "title": "ハロ/ハワユ",
-      "artist": "ナノウ",
-      "count": 17
-    },
-    {
-      "title": "帝国少女",
-      "artist": "R Sound Design",
       "count": 17
     },
     {
@@ -439,6 +439,11 @@
       "count": 15
     },
     {
+      "title": "アクアテラリウム",
+      "artist": "やなぎなぎ",
+      "count": 15
+    },
+    {
       "title": "シリウスの心臓",
       "artist": "ヰ世界情緒",
       "count": 15
@@ -509,8 +514,8 @@
       "count": 14
     },
     {
-      "title": "アクアテラリウム",
-      "artist": "やなぎなぎ",
+      "title": "あぶく",
+      "artist": "ヨルシカ",
       "count": 14
     },
     {
@@ -594,8 +599,8 @@
       "count": 13
     },
     {
-      "title": "あぶく",
-      "artist": "ヨルシカ",
+      "title": "さようなら、花泥棒さん",
+      "artist": "メル",
       "count": 13
     },
     {
@@ -726,11 +731,6 @@
     {
       "title": "give it back",
       "artist": "Cö shu Nie",
-      "count": 12
-    },
-    {
-      "title": "さようなら、花泥棒さん",
-      "artist": "メル",
       "count": 12
     },
     {
@@ -1064,6 +1064,11 @@
       "count": 10
     },
     {
+      "title": "アルビレオ",
+      "artist": "ロクデナシ",
+      "count": 10
+    },
+    {
       "title": "アンノウン・マザーグース",
       "artist": "wowaka",
       "count": 10
@@ -1086,6 +1091,11 @@
     {
       "title": "シルシ",
       "artist": "LiSA",
+      "count": 10
+    },
+    {
+      "title": "スピカ",
+      "artist": "ロクデナシ",
       "count": 10
     },
     {
@@ -1254,18 +1264,8 @@
       "count": 9
     },
     {
-      "title": "アルビレオ",
-      "artist": "ロクデナシ",
-      "count": 9
-    },
-    {
       "title": "カブトムシ",
       "artist": "aiko",
-      "count": 9
-    },
-    {
-      "title": "スピカ",
-      "artist": "ロクデナシ",
       "count": 9
     },
     {
@@ -1424,6 +1424,11 @@
       "count": 8
     },
     {
+      "title": "いえない",
+      "artist": "ひらぎ",
+      "count": 8
+    },
+    {
       "title": "いけないボーダーライン",
       "artist": "ワルキューレ",
       "count": 8
@@ -1546,6 +1551,11 @@
     {
       "title": "僕らの戦場",
       "artist": "ワルキューレ",
+      "count": 8
+    },
+    {
+      "title": "可愛いあの子が気にゐらない",
+      "artist": "なるみや",
       "count": 8
     },
     {
@@ -1724,11 +1734,6 @@
       "count": 7
     },
     {
-      "title": "いえない",
-      "artist": "ひらぎ",
-      "count": 7
-    },
-    {
       "title": "いろは唄",
       "artist": "銀サク",
       "count": 7
@@ -1841,11 +1846,6 @@
     {
       "title": "再会",
       "artist": "LiSA×Uru",
-      "count": 7
-    },
-    {
-      "title": "可愛いあの子が気にゐらない",
-      "artist": "なるみや",
       "count": 7
     },
     {
@@ -2131,6 +2131,11 @@
     {
       "title": "キャットフード",
       "artist": "doriko",
+      "count": 6
+    },
+    {
+      "title": "グレゴリオ",
+      "artist": "古川本舗",
       "count": 6
     },
     {
@@ -2514,6 +2519,11 @@
       "count": 5
     },
     {
+      "title": "あやふや",
+      "artist": "ロクデナシ",
+      "count": 5
+    },
+    {
       "title": "うっせぇわ",
       "artist": "Ado",
       "count": 5
@@ -2546,11 +2556,6 @@
     {
       "title": "ギミー!レボリューション",
       "artist": "内田真礼",
-      "count": 5
-    },
-    {
-      "title": "グレゴリオ",
-      "artist": "古川本舗",
       "count": 5
     },
     {
@@ -2779,6 +2784,11 @@
       "count": 5
     },
     {
+      "title": "深海少女",
+      "artist": "ゆうゆ",
+      "count": 5
+    },
+    {
       "title": "片翼の鳥",
       "artist": "志方あきこ",
       "count": 5
@@ -2831,6 +2841,11 @@
     {
       "title": "食虫植物",
       "artist": "理芽",
+      "count": 5
+    },
+    {
+      "title": "鯨の落ちる街",
+      "artist": "ロクデナシ",
       "count": 5
     },
     {
@@ -3029,11 +3044,6 @@
       "count": 4
     },
     {
-      "title": "あやふや",
-      "artist": "ロクデナシ",
-      "count": 4
-    },
-    {
       "title": "おじゃま虫",
       "artist": "DECO*27",
       "count": 4
@@ -3091,6 +3101,11 @@
     {
       "title": "イエスタデイ",
       "artist": "Official髭男dism",
+      "count": 4
+    },
+    {
+      "title": "イスカリオテの晩餐.log",
+      "artist": "春浅葱",
       "count": 4
     },
     {
@@ -3439,6 +3454,11 @@
       "count": 4
     },
     {
+      "title": "星を巡る",
+      "artist": "ロクデナシ",
+      "count": 4
+    },
+    {
       "title": "春を待つ",
       "artist": "Islet",
       "count": 4
@@ -3474,8 +3494,8 @@
       "count": 4
     },
     {
-      "title": "深海少女",
-      "artist": "ゆうゆ",
+      "title": "深海ディスタンス",
+      "artist": "西憂花",
       "count": 4
     },
     {
@@ -3571,11 +3591,6 @@
     {
       "title": "鬼ノ宴",
       "artist": "友成空",
-      "count": 4
-    },
-    {
-      "title": "鯨の落ちる街",
-      "artist": "ロクデナシ",
       "count": 4
     },
     {
@@ -3934,6 +3949,11 @@
       "count": 3
     },
     {
+      "title": "ねむるまち",
+      "artist": "くじら",
+      "count": 3
+    },
+    {
       "title": "はなまるぴっぴはよいこだけ",
       "artist": "A応P",
       "count": 3
@@ -3961,11 +3981,6 @@
     {
       "title": "イガク",
       "artist": "原口沙輔",
-      "count": 3
-    },
-    {
-      "title": "イスカリオテの晩餐.log",
-      "artist": "春浅葱",
       "count": 3
     },
     {
@@ -4219,6 +4234,11 @@
       "count": 3
     },
     {
+      "title": "三日月ステップ 2023",
+      "artist": "r-906",
+      "count": 3
+    },
+    {
       "title": "不可解",
       "artist": "花譜",
       "count": 3
@@ -4301,6 +4321,11 @@
     {
       "title": "夏に去りし君を想フ",
       "artist": "baker",
+      "count": 3
+    },
+    {
+      "title": "夏の半券",
+      "artist": "みきとP",
       "count": 3
     },
     {
@@ -4404,11 +4429,6 @@
       "count": 3
     },
     {
-      "title": "星を巡る",
-      "artist": "ロクデナシ",
-      "count": 3
-    },
-    {
       "title": "春はゆく",
       "artist": "Aimer",
       "count": 3
@@ -4441,11 +4461,6 @@
     {
       "title": "欲望に満ちた青年団",
       "artist": "ONE OK ROCK",
-      "count": 3
-    },
-    {
-      "title": "深海ディスタンス",
-      "artist": "西憂花",
       "count": 3
     },
     {
@@ -4969,6 +4984,11 @@
       "count": 2
     },
     {
+      "title": "くうになる",
+      "artist": "MIMI",
+      "count": 2
+    },
+    {
       "title": "ころころガール",
       "artist": "iLiFE!",
       "count": 2
@@ -5001,11 +5021,6 @@
     {
       "title": "ないものねだり",
       "artist": "KANA-BOON",
-      "count": 2
-    },
-    {
-      "title": "ねむるまち",
-      "artist": "くじら",
       "count": 2
     },
     {
@@ -5494,11 +5509,6 @@
       "count": 2
     },
     {
-      "title": "三日月ステップ 2023",
-      "artist": "r-906",
-      "count": 2
-    },
-    {
       "title": "三日月ステップ",
       "artist": "r-906",
       "count": 2
@@ -5576,11 +5586,6 @@
     {
       "title": "咲いてJewel",
       "artist": "鷺沢文香 (M・A・O)、速水奏 (飯田友子)、橘ありす (佐藤亜美菜)、塩見周子 (ルゥティン)、二宮飛鳥 (青木志貴)",
-      "count": 2
-    },
-    {
-      "title": "夏の半券",
-      "artist": "みきとP",
       "count": 2
     },
     {
@@ -6531,11 +6536,6 @@
     {
       "title": "きゅんきゅんみこきゅんきゅん♡",
       "artist": "さくらみこ",
-      "count": 1
-    },
-    {
-      "title": "くうになる",
-      "artist": "MIMI",
       "count": 1
     },
     {
