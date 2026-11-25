@@ -1,6 +1,6 @@
 {
-  "totalEntries": 1582,
-  "uniqueTitles": 1564,
+  "totalEntries": 1584,
+  "uniqueTitles": 1565,
   "uniqueArtists": 699,
   "songs": [
     {
@@ -44,6 +44,11 @@
       "count": 30
     },
     {
+      "title": "創聖のアクエリオン",
+      "artist": "AKINO",
+      "count": 29
+    },
+    {
       "title": "深海のリトルクライ",
       "artist": "sasakure.UK",
       "count": 29
@@ -51,11 +56,6 @@
     {
       "title": "Departures ~あなたにおくるアイの歌~",
       "artist": "EGOIST",
-      "count": 28
-    },
-    {
-      "title": "創聖のアクエリオン",
-      "artist": "AKINO",
       "count": 28
     },
     {
@@ -264,6 +264,11 @@
       "count": 19
     },
     {
+      "title": "花になって",
+      "artist": "緑黄色社会",
+      "count": 19
+    },
+    {
       "title": "Cry Baby",
       "artist": "Official髭男dism",
       "count": 18
@@ -324,11 +329,6 @@
       "count": 18
     },
     {
-      "title": "花になって",
-      "artist": "緑黄色社会",
-      "count": 18
-    },
-    {
       "title": "花の塔",
       "artist": "さユり",
       "count": 18
@@ -381,6 +381,11 @@
     {
       "title": "カワキヲアメク",
       "artist": "美波",
+      "count": 16
+    },
+    {
+      "title": "スカー",
+      "artist": "キタニタツヤ",
       "count": 16
     },
     {
@@ -449,11 +454,6 @@
       "count": 15
     },
     {
-      "title": "スカー",
-      "artist": "キタニタツヤ",
-      "count": 15
-    },
-    {
       "title": "ネクロネイディア",
       "artist": "渉海よひら",
       "count": 15
@@ -506,6 +506,11 @@
     {
       "title": "Planetes",
       "artist": "EGOIST",
+      "count": 14
+    },
+    {
+      "title": "Shout Baby",
+      "artist": "緑黄色社会",
       "count": 14
     },
     {
@@ -584,13 +589,13 @@
       "count": 13
     },
     {
-      "title": "Shout Baby",
-      "artist": "緑黄色社会",
+      "title": "Song of journey",
+      "artist": "涼風しとら",
       "count": 13
     },
     {
-      "title": "Song of journey",
-      "artist": "涼風しとら",
+      "title": "again",
+      "artist": "YUI",
       "count": 13
     },
     {
@@ -616,6 +621,11 @@
     {
       "title": "パレード",
       "artist": "ヨルシカ",
+      "count": 13
+    },
+    {
+      "title": "ピースサイン",
+      "artist": "米津玄師",
       "count": 13
     },
     {
@@ -719,11 +729,6 @@
       "count": 12
     },
     {
-      "title": "again",
-      "artist": "YUI",
-      "count": 12
-    },
-    {
       "title": "ambiguous",
       "artist": "GARNiDELiA",
       "count": 12
@@ -761,11 +766,6 @@
     {
       "title": "バレリーコ",
       "artist": "みきとP",
-      "count": 12
-    },
-    {
-      "title": "ピースサイン",
-      "artist": "米津玄師",
       "count": 12
     },
     {
@@ -831,6 +831,11 @@
     {
       "title": "独りんぼエンヴィー",
       "artist": "koyori (電ポルP)",
+      "count": 12
+    },
+    {
+      "title": "白銀",
+      "artist": "LiSA",
       "count": 12
     },
     {
@@ -976,11 +981,6 @@
     {
       "title": "火星人",
       "artist": "ヨルシカ",
-      "count": 11
-    },
-    {
-      "title": "白銀",
-      "artist": "LiSA",
       "count": 11
     },
     {
@@ -1269,6 +1269,11 @@
       "count": 9
     },
     {
+      "title": "シリウス",
+      "artist": "藍井エイル",
+      "count": 9
+    },
+    {
       "title": "ダーリンダンス",
       "artist": "かいりきベア",
       "count": 9
@@ -1479,11 +1484,6 @@
       "count": 8
     },
     {
-      "title": "シリウス",
-      "artist": "藍井エイル",
-      "count": 8
-    },
-    {
       "title": "シルエット",
       "artist": "KANA-BOON",
       "count": 8
@@ -1614,6 +1614,11 @@
       "count": 8
     },
     {
+      "title": "現状ディストラクション",
+      "artist": "SPYAIR",
+      "count": 8
+    },
+    {
       "title": "絶頂讃歌",
       "artist": "和ぬか",
       "count": 8
@@ -1654,6 +1659,11 @@
       "count": 7
     },
     {
+      "title": "Beautiful World",
+      "artist": "宇多田ヒカル",
+      "count": 7
+    },
+    {
       "title": "Caramel Pain",
       "artist": "星街すいせい",
       "count": 7
@@ -1691,6 +1701,16 @@
     {
       "title": "RESISTER",
       "artist": "ASCA",
+      "count": 7
+    },
+    {
+      "title": "Rally Go Round",
+      "artist": "LiSA",
+      "count": 7
+    },
+    {
+      "title": "Shouted Serenade",
+      "artist": "LiSA",
       "count": 7
     },
     {
@@ -1909,11 +1929,6 @@
       "count": 7
     },
     {
-      "title": "現状ディストラクション",
-      "artist": "SPYAIR",
-      "count": 7
-    },
-    {
       "title": "真赤",
       "artist": "My Hair is Bad",
       "count": 7
@@ -1989,11 +2004,6 @@
       "count": 6
     },
     {
-      "title": "Beautiful World",
-      "artist": "宇多田ヒカル",
-      "count": 6
-    },
-    {
       "title": "GO!!!",
       "artist": "FLOW",
       "count": 6
@@ -2029,8 +2039,8 @@
       "count": 6
     },
     {
-      "title": "Rally Go Round",
-      "artist": "LiSA",
+      "title": "Redo",
+      "artist": "鈴木このみ",
       "count": 6
     },
     {
@@ -2041,11 +2051,6 @@
     {
       "title": "SAKURAグッバイ",
       "artist": "SCANDAL",
-      "count": 6
-    },
-    {
-      "title": "Shouted Serenade",
-      "artist": "LiSA",
       "count": 6
     },
     {
@@ -2389,6 +2394,16 @@
       "count": 5
     },
     {
+      "title": "Angelic Angel",
+      "artist": "μ's",
+      "count": 5
+    },
+    {
+      "title": "Bのリベンジ",
+      "artist": "B小町",
+      "count": 5
+    },
+    {
       "title": "DOLL",
       "artist": "SCANDAL",
       "count": 5
@@ -2455,11 +2470,6 @@
     },
     {
       "title": "Realize",
-      "artist": "鈴木このみ",
-      "count": 5
-    },
-    {
-      "title": "Redo",
       "artist": "鈴木このみ",
       "count": 5
     },
@@ -2789,6 +2799,11 @@
       "count": 5
     },
     {
+      "title": "火種",
+      "artist": "キタニタツヤ",
+      "count": 5
+    },
+    {
       "title": "片翼の鳥",
       "artist": "志方あきこ",
       "count": 5
@@ -2849,8 +2864,8 @@
       "count": 5
     },
     {
-      "title": "Angelic Angel",
-      "artist": "μ's",
+      "title": "01",
+      "artist": "女王蜂",
       "count": 4
     },
     {
@@ -2871,11 +2886,6 @@
     {
       "title": "Bravely You",
       "artist": "Lia",
-      "count": 4
-    },
-    {
-      "title": "Bのリベンジ",
-      "artist": "B小町",
       "count": 4
     },
     {
@@ -3214,6 +3224,11 @@
       "count": 4
     },
     {
+      "title": "ヒトリゴト",
+      "artist": "ClariS",
+      "count": 4
+    },
+    {
       "title": "ヒバリ",
       "artist": "HIMEHINA",
       "count": 4
@@ -3311,6 +3326,11 @@
     {
       "title": "ワルキューレがとまらない",
       "artist": "ワルキューレ",
+      "count": 4
+    },
+    {
+      "title": "ワンダーランド",
+      "artist": "FLiP",
       "count": 4
     },
     {
@@ -3499,11 +3519,6 @@
       "count": 4
     },
     {
-      "title": "火種",
-      "artist": "キタニタツヤ",
-      "count": 4
-    },
-    {
       "title": "異星にいこうね",
       "artist": "いよわ",
       "count": 4
@@ -3594,11 +3609,6 @@
       "count": 4
     },
     {
-      "title": "01",
-      "artist": "女王蜂",
-      "count": 3
-    },
-    {
       "title": "1,000,000 TIMES",
       "artist": "MY FIRST STORY",
       "count": 3
@@ -3651,6 +3661,11 @@
     {
       "title": "Dec.",
       "artist": "Kanaria",
+      "count": 3
+    },
+    {
+      "title": "Drawing days",
+      "artist": "SPLAY",
       "count": 3
     },
     {
@@ -4144,11 +4159,6 @@
       "count": 3
     },
     {
-      "title": "ヒトリゴト",
-      "artist": "ClariS",
-      "count": 3
-    },
-    {
       "title": "ヒャダインのじょーじょーゆーじょー",
       "artist": "ヒャダイン",
       "count": 3
@@ -4216,11 +4226,6 @@
     {
       "title": "ロックな君とはお別れだ",
       "artist": "ツユ",
-      "count": 3
-    },
-    {
-      "title": "ワンダーランド",
-      "artist": "FLiP",
       "count": 3
     },
     {
@@ -4669,11 +4674,6 @@
       "count": 2
     },
     {
-      "title": "Drawing days",
-      "artist": "SPLAY",
-      "count": 2
-    },
-    {
       "title": "FACT",
       "artist": "常闇トワ",
       "count": 2
@@ -4711,6 +4711,11 @@
     {
       "title": "Girls",
       "artist": "Easy Pop",
+      "count": 2
+    },
+    {
+      "title": "Guilty Eyes Fever",
+      "artist": "Guilty Kiss",
       "count": 2
     },
     {
@@ -4946,6 +4951,11 @@
     {
       "title": "あいつら全員同窓会",
       "artist": "ずっと真夜中でいいのに。",
+      "count": 2
+    },
+    {
+      "title": "あのバンド",
+      "artist": "結束バンド",
       "count": 2
     },
     {
@@ -6119,7 +6129,7 @@
       "count": 1
     },
     {
-      "title": "Guilty Eyes Fever",
+      "title": "Guilty Night, Guilty Kiss!",
       "artist": "Guilty Kiss",
       "count": 1
     },
@@ -6461,11 +6471,6 @@
     {
       "title": "あったかいんだからぁ",
       "artist": "クマムシ",
-      "count": 1
-    },
-    {
-      "title": "あのバンド",
-      "artist": "結束バンド",
       "count": 1
     },
     {
@@ -7506,6 +7511,11 @@
     {
       "title": "思春期少年少女",
       "artist": "砂粒",
+      "count": 1
+    },
+    {
+      "title": "恋☆カナ",
+      "artist": "月島きらり starring 久住小春 (モーニング娘。)",
       "count": 1
     },
     {

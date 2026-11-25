@@ -1,7 +1,7 @@
 {
   "channelId": "UCSH2LgTRhPCsaVPW_emgDJg",
   "channelName": "Shitora ch. 涼風しとら",
-  "lastFetched": "2026-11-22T19:09:50.029717+00:00",
+  "lastFetched": "2026-11-25T21:32:57.410549+00:00",
   "videos": [
     {
       "videoId": "MmeGQ3eGh5w",
@@ -49825,6 +49825,231 @@
           "artist": "涼風しとら",
           "artistRaw": "涼風しとら",
           "url": "https://youtu.be/Dnq3-2x_b_Q?t=16488"
+        }
+      ],
+      "sourceCommentId": "",
+      "type": "stream"
+    },
+    {
+      "videoId": "cnaQclzSnqI",
+      "title": "【歌枠】アニソンを浴びれる月曜日にしませんか？あなたの魂を揺らすVsinger―【VTuber/配信中】",
+      "publishedAt": "2026-11-23T23:23:06Z",
+      "songs": [
+        {
+          "timestamp": "00:00:39",
+          "seconds": 39,
+          "title": "ヒトリゴト",
+          "titleRaw": "ヒトリゴト",
+          "artist": "ClariS",
+          "artistRaw": "ClariS",
+          "url": "https://youtu.be/cnaQclzSnqI?t=39"
+        },
+        {
+          "timestamp": "00:17:38",
+          "seconds": 1058,
+          "title": "Rally Go Round",
+          "titleRaw": "Rally Go Round",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/cnaQclzSnqI?t=1058"
+        },
+        {
+          "timestamp": "00:22:15",
+          "seconds": 1335,
+          "title": "Guilty Eyes Fever",
+          "titleRaw": "Guilty Eyes Fever",
+          "artist": "Guilty Kiss",
+          "artistRaw": "Guilty Kiss",
+          "url": "https://youtu.be/cnaQclzSnqI?t=1335"
+        },
+        {
+          "timestamp": "00:26:31",
+          "seconds": 1591,
+          "title": "恋☆カナ",
+          "titleRaw": "恋☆カナ",
+          "artist": "月島きらり starring 久住小春 (モーニング娘。)",
+          "artistRaw": "月島きらり starring 久住小春(モーニング娘。)",
+          "url": "https://youtu.be/cnaQclzSnqI?t=1591"
+        },
+        {
+          "timestamp": "00:40:18",
+          "seconds": 2418,
+          "title": "Guilty Night, Guilty Kiss!",
+          "titleRaw": "Guilty Night, Guilty Kiss!",
+          "artist": "Guilty Kiss",
+          "artistRaw": "Guilty Kiss",
+          "url": "https://youtu.be/cnaQclzSnqI?t=2418"
+        },
+        {
+          "timestamp": "00:44:23",
+          "seconds": 2663,
+          "title": "現状ディストラクション",
+          "titleRaw": "現状ディストラクション",
+          "artist": "SPYAIR",
+          "artistRaw": "SPYAIR",
+          "url": "https://youtu.be/cnaQclzSnqI?t=2663"
+        },
+        {
+          "timestamp": "00:47:59",
+          "seconds": 2879,
+          "title": "創聖のアクエリオン",
+          "titleRaw": "創聖のアクエリオン",
+          "artist": "AKINO",
+          "artistRaw": "AKINO",
+          "url": "https://youtu.be/cnaQclzSnqI?t=2879"
+        },
+        {
+          "timestamp": "01:00:44",
+          "seconds": 3644,
+          "title": "Shouted Serenade",
+          "titleRaw": "Shouted Serenade",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/cnaQclzSnqI?t=3644"
+        },
+        {
+          "timestamp": "01:05:26",
+          "seconds": 3926,
+          "title": "Redo",
+          "titleRaw": "Redo",
+          "artist": "鈴木このみ",
+          "artistRaw": "鈴木このみ",
+          "url": "https://youtu.be/cnaQclzSnqI?t=3926"
+        },
+        {
+          "timestamp": "01:09:42",
+          "seconds": 4182,
+          "title": "スカー",
+          "titleRaw": "スカー",
+          "artist": "キタニタツヤ",
+          "artistRaw": "キタニタツヤ",
+          "url": "https://youtu.be/cnaQclzSnqI?t=4182"
+        },
+        {
+          "timestamp": "01:25:41",
+          "seconds": 5141,
+          "title": "火種",
+          "titleRaw": "火種",
+          "artist": "キタニタツヤ",
+          "artistRaw": "キタニタツヤ",
+          "url": "https://youtu.be/cnaQclzSnqI?t=5141"
+        },
+        {
+          "timestamp": "01:29:05",
+          "seconds": 5345,
+          "title": "花になって",
+          "titleRaw": "花になって",
+          "artist": "緑黄色社会",
+          "artistRaw": "緑黄色社会",
+          "url": "https://youtu.be/cnaQclzSnqI?t=5345"
+        },
+        {
+          "timestamp": "01:43:33",
+          "seconds": 6213,
+          "title": "ワンダーランド",
+          "titleRaw": "ワンダーランド",
+          "artist": "FLiP",
+          "artistRaw": "FLiP",
+          "url": "https://youtu.be/cnaQclzSnqI?t=6213"
+        },
+        {
+          "timestamp": "01:47:19",
+          "seconds": 6439,
+          "title": "Shout Baby",
+          "titleRaw": "Shout Baby",
+          "artist": "緑黄色社会",
+          "artistRaw": "緑黄色社会",
+          "url": "https://youtu.be/cnaQclzSnqI?t=6439"
+        },
+        {
+          "timestamp": "01:51:47",
+          "seconds": 6707,
+          "title": "again",
+          "titleRaw": "again",
+          "artist": "YUI",
+          "artistRaw": "YUI",
+          "url": "https://youtu.be/cnaQclzSnqI?t=6707"
+        },
+        {
+          "timestamp": "02:01:18",
+          "seconds": 7278,
+          "title": "シリウス",
+          "titleRaw": "シリウス",
+          "artist": "藍井エイル",
+          "artistRaw": "藍井エイル",
+          "url": "https://youtu.be/cnaQclzSnqI?t=7278"
+        },
+        {
+          "timestamp": "02:05:35",
+          "seconds": 7535,
+          "title": "Drawing days",
+          "titleRaw": "Drawing days",
+          "artist": "SPLAY",
+          "artistRaw": "SPLAY",
+          "url": "https://youtu.be/cnaQclzSnqI?t=7535"
+        },
+        {
+          "timestamp": "02:10:05",
+          "seconds": 7805,
+          "title": "Angelic Angel",
+          "titleRaw": "Angelic Angel",
+          "artist": "μ's",
+          "artistRaw": "μ's",
+          "url": "https://youtu.be/cnaQclzSnqI?t=7805"
+        },
+        {
+          "timestamp": "02:19:57",
+          "seconds": 8397,
+          "title": "Beautiful World",
+          "titleRaw": "Beautiful World",
+          "artist": "宇多田ヒカル",
+          "artistRaw": "宇多田ヒカル",
+          "url": "https://youtu.be/cnaQclzSnqI?t=8397"
+        },
+        {
+          "timestamp": "02:24:56",
+          "seconds": 8696,
+          "title": "白銀",
+          "titleRaw": "白銀",
+          "artist": "LiSA",
+          "artistRaw": "LiSA",
+          "url": "https://youtu.be/cnaQclzSnqI?t=8696"
+        },
+        {
+          "timestamp": "02:29:22",
+          "seconds": 8962,
+          "title": "Bのリベンジ",
+          "titleRaw": "Bのリベンジ",
+          "artist": "B小町",
+          "artistRaw": "B小町",
+          "url": "https://youtu.be/cnaQclzSnqI?t=8962"
+        },
+        {
+          "timestamp": "02:38:18",
+          "seconds": 9498,
+          "title": "あのバンド",
+          "titleRaw": "あのバンド",
+          "artist": "結束バンド",
+          "artistRaw": "結束バンド",
+          "url": "https://youtu.be/cnaQclzSnqI?t=9498"
+        },
+        {
+          "timestamp": "02:41:48",
+          "seconds": 9708,
+          "title": "01",
+          "titleRaw": "01",
+          "artist": "女王蜂",
+          "artistRaw": "女王蜂",
+          "url": "https://youtu.be/cnaQclzSnqI?t=9708"
+        },
+        {
+          "timestamp": "02:45:02",
+          "seconds": 9902,
+          "title": "ピースサイン",
+          "titleRaw": "ピースサイン",
+          "artist": "米津玄師",
+          "artistRaw": "米津玄師",
+          "url": "https://youtu.be/cnaQclzSnqI?t=9902"
         }
       ],
       "sourceCommentId": "",
