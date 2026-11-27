@@ -129,6 +129,11 @@
       "count": 23
     },
     {
+      "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
+      "count": 23
+    },
+    {
       "title": "だから僕は音楽を辞めた",
       "artist": "ヨルシカ",
       "count": 23
@@ -151,11 +156,6 @@
     {
       "title": "Stellar Stellar",
       "artist": "星街すいせい",
-      "count": 22
-    },
-    {
-      "title": "ただ君に晴れ",
-      "artist": "ヨルシカ",
       "count": 22
     },
     {
@@ -239,6 +239,11 @@
       "count": 19
     },
     {
+      "title": "ぶっ飛びな!しとら流炒飯☆",
+      "artist": "涼風しとら",
+      "count": 19
+    },
+    {
       "title": "カラフル",
       "artist": "ClariS",
       "count": 19
@@ -286,11 +291,6 @@
     {
       "title": "からくりピエロ",
       "artist": "40mP",
-      "count": 18
-    },
-    {
-      "title": "ぶっ飛びな!しとら流炒飯☆",
-      "artist": "涼風しとら",
       "count": 18
     },
     {
@@ -439,6 +439,11 @@
       "count": 15
     },
     {
+      "title": "HARUKAZE",
+      "artist": "SCANDAL",
+      "count": 15
+    },
+    {
       "title": "この世界で見つけたもの",
       "artist": "EGOIST",
       "count": 15
@@ -489,6 +494,11 @@
       "count": 15
     },
     {
+      "title": "祝福",
+      "artist": "YOASOBI",
+      "count": 15
+    },
+    {
       "title": "私は最強",
       "artist": "Ado",
       "count": 15
@@ -497,11 +507,6 @@
       "title": "風になる",
       "artist": "つじあやの",
       "count": 15
-    },
-    {
-      "title": "HARUKAZE",
-      "artist": "SCANDAL",
-      "count": 14
     },
     {
       "title": "Planetes",
@@ -521,6 +526,11 @@
     {
       "title": "あぶく",
       "artist": "ヨルシカ",
+      "count": 14
+    },
+    {
+      "title": "さようなら、花泥棒さん",
+      "artist": "メル",
       "count": 14
     },
     {
@@ -556,11 +566,6 @@
     {
       "title": "星座になれたら",
       "artist": "結束バンド",
-      "count": 14
-    },
-    {
-      "title": "祝福",
-      "artist": "YOASOBI",
       "count": 14
     },
     {
@@ -604,11 +609,6 @@
       "count": 13
     },
     {
-      "title": "さようなら、花泥棒さん",
-      "artist": "メル",
-      "count": 13
-    },
-    {
       "title": "アイネクライネ",
       "artist": "米津玄師",
       "count": 13
@@ -616,6 +616,11 @@
     {
       "title": "アスノヨゾラ哨戒班",
       "artist": "Orangestar",
+      "count": 13
+    },
+    {
+      "title": "ソワレ",
+      "artist": "星街すいせい",
       "count": 13
     },
     {
@@ -756,11 +761,6 @@
     {
       "title": "キミソラキセキ",
       "artist": "EGOIST",
-      "count": 12
-    },
-    {
-      "title": "ソワレ",
-      "artist": "星街すいせい",
       "count": 12
     },
     {
@@ -936,6 +936,11 @@
     {
       "title": "メリッサ",
       "artist": "ポルノグラフィティ",
+      "count": 11
+    },
+    {
+      "title": "ヨンジュウナナ",
+      "artist": "みきとP",
       "count": 11
     },
     {
@@ -1129,11 +1134,6 @@
       "count": 10
     },
     {
-      "title": "ヨンジュウナナ",
-      "artist": "みきとP",
-      "count": 10
-    },
-    {
       "title": "ヴァンパイア",
       "artist": "DECO*27",
       "count": 10
@@ -1314,8 +1314,18 @@
       "count": 9
     },
     {
+      "title": "会いたくて",
+      "artist": "Ado",
+      "count": 9
+    },
+    {
       "title": "愛を伝えたいだとか",
       "artist": "あいみょん",
+      "count": 9
+    },
+    {
+      "title": "愛言葉IV",
+      "artist": "DECO*27",
       "count": 9
     },
     {
@@ -1544,11 +1554,6 @@
       "count": 8
     },
     {
-      "title": "会いたくて",
-      "artist": "Ado",
-      "count": 8
-    },
-    {
       "title": "僕らの戦場",
       "artist": "ワルキューレ",
       "count": 8
@@ -1561,6 +1566,11 @@
     {
       "title": "君と夏フェス",
       "artist": "SHISHAMO",
+      "count": 8
+    },
+    {
+      "title": "咲かせや咲かせ",
+      "artist": "EGOIST",
       "count": 8
     },
     {
@@ -1586,11 +1596,6 @@
     {
       "title": "愛包ダンスホール",
       "artist": "HIMEHINA",
-      "count": 8
-    },
-    {
-      "title": "愛言葉IV",
-      "artist": "DECO*27",
       "count": 8
     },
     {
@@ -1874,11 +1879,6 @@
       "count": 7
     },
     {
-      "title": "咲かせや咲かせ",
-      "artist": "EGOIST",
-      "count": 7
-    },
-    {
       "title": "回る空うさぎ",
       "artist": "Orangestar",
       "count": 7
@@ -2004,8 +2004,18 @@
       "count": 6
     },
     {
+      "title": "DOLL",
+      "artist": "SCANDAL",
+      "count": 6
+    },
+    {
       "title": "GO!!!",
       "artist": "FLOW",
+      "count": 6
+    },
+    {
+      "title": "Gimme×Gimme",
+      "artist": "八王子P,Giga",
       "count": 6
     },
     {
@@ -2289,8 +2299,18 @@
       "count": 6
     },
     {
+      "title": "春を告げる",
+      "artist": "yama",
+      "count": 6
+    },
+    {
       "title": "曇天",
       "artist": "DOES",
+      "count": 6
+    },
+    {
+      "title": "月光花",
+      "artist": "Janne Da Arc",
       "count": 6
     },
     {
@@ -2404,18 +2424,8 @@
       "count": 5
     },
     {
-      "title": "DOLL",
-      "artist": "SCANDAL",
-      "count": 5
-    },
-    {
       "title": "Deep in Abyss",
       "artist": "リコ (富田美憂),レグ (伊瀬茉莉也)",
-      "count": 5
-    },
-    {
-      "title": "Gimme×Gimme",
-      "artist": "八王子P,Giga",
       "count": 5
     },
     {
@@ -2754,13 +2764,8 @@
       "count": 5
     },
     {
-      "title": "春を告げる",
-      "artist": "yama",
-      "count": 5
-    },
-    {
-      "title": "月光花",
-      "artist": "Janne Da Arc",
+      "title": "敗北の少年",
+      "artist": "kemu",
       "count": 5
     },
     {
@@ -2894,6 +2899,11 @@
       "count": 4
     },
     {
+      "title": "Girls",
+      "artist": "GARNiDELiA",
+      "count": 4
+    },
+    {
       "title": "Good-bye days",
       "artist": "YUI for 雨音薫",
       "count": 4
@@ -2906,6 +2916,11 @@
     {
       "title": "JINGO JUNGLE",
       "artist": "MYTH & ROID",
+      "count": 4
+    },
+    {
+      "title": "Just Be Friends",
+      "artist": "Dixie Flatline",
       "count": 4
     },
     {
@@ -3039,6 +3054,11 @@
       "count": 4
     },
     {
+      "title": "vivi",
+      "artist": "米津玄師",
+      "count": 4
+    },
+    {
       "title": "あなたのことをおしえて",
       "artist": "キタニタツヤ",
       "count": 4
@@ -3076,6 +3096,11 @@
     {
       "title": "だいしきゅーだいしゅき",
       "artist": "femme fatale",
+      "count": 4
+    },
+    {
+      "title": "ねむるまち",
+      "artist": "くじら",
       "count": 4
     },
     {
@@ -3231,6 +3256,11 @@
     {
       "title": "ヒバリ",
       "artist": "HIMEHINA",
+      "count": 4
+    },
+    {
+      "title": "ビターチョコデコレーション",
+      "artist": "syudou",
       "count": 4
     },
     {
@@ -3454,13 +3484,13 @@
       "count": 4
     },
     {
-      "title": "抜錨",
-      "artist": "ナナホシ管弦楽団",
+      "title": "愛錠",
+      "artist": "LiSA",
       "count": 4
     },
     {
-      "title": "敗北の少年",
-      "artist": "kemu",
+      "title": "抜錨",
+      "artist": "ナナホシ管弦楽団",
       "count": 4
     },
     {
@@ -3644,6 +3674,11 @@
       "count": 3
     },
     {
+      "title": "DESIRE -情熱-",
+      "artist": "中森明菜",
+      "count": 3
+    },
+    {
       "title": "Dancing in the Moonlight",
       "artist": "ワルキューレ",
       "count": 3
@@ -3671,11 +3706,6 @@
     {
       "title": "Flamingo",
       "artist": "米津玄師",
-      "count": 3
-    },
-    {
-      "title": "Girls",
-      "artist": "GARNiDELiA",
       "count": 3
     },
     {
@@ -3711,11 +3741,6 @@
     {
       "title": "JANE DOE",
       "artist": "米津玄師, 宇多田ヒカル",
-      "count": 3
-    },
-    {
-      "title": "Just Be Friends",
-      "artist": "Dixie Flatline",
       "count": 3
     },
     {
@@ -3869,11 +3894,6 @@
       "count": 3
     },
     {
-      "title": "vivi",
-      "artist": "米津玄師",
-      "count": 3
-    },
-    {
       "title": "you",
       "artist": "癒月",
       "count": 3
@@ -3964,11 +3984,6 @@
       "count": 3
     },
     {
-      "title": "ねむるまち",
-      "artist": "くじら",
-      "count": 3
-    },
-    {
       "title": "はなまるぴっぴはよいこだけ",
       "artist": "A応P",
       "count": 3
@@ -4049,6 +4064,11 @@
       "count": 3
     },
     {
+      "title": "サイサキ",
+      "artist": "Reol",
+      "count": 3
+    },
+    {
       "title": "サインはB",
       "artist": "B小町",
       "count": 3
@@ -4071,6 +4091,11 @@
     {
       "title": "ジェヘナ",
       "artist": "wotaku",
+      "count": 3
+    },
+    {
+      "title": "ジャンキーナイトタウンオーケストラ",
+      "artist": "すりぃ",
       "count": 3
     },
     {
@@ -4149,6 +4174,11 @@
       "count": 3
     },
     {
+      "title": "ハングリーニコル",
+      "artist": "煮ル果実",
+      "count": 3
+    },
+    {
       "title": "ハングリーモンスター",
       "artist": "西沢さんP",
       "count": 3
@@ -4174,13 +4204,13 @@
       "count": 3
     },
     {
-      "title": "ビターチョコデコレーション",
-      "artist": "syudou",
+      "title": "フェイキング・オブ・コメディ",
+      "artist": "jon-YAKITORY",
       "count": 3
     },
     {
-      "title": "フェイキング・オブ・コメディ",
-      "artist": "jon-YAKITORY",
+      "title": "フロントメモリー",
+      "artist": "神聖かまってちゃん",
       "count": 3
     },
     {
@@ -4309,6 +4339,11 @@
       "count": 3
     },
     {
+      "title": "名もなき何もかも",
+      "artist": "トゲナシトゲアリ",
+      "count": 3
+    },
+    {
       "title": "命のユースティティア",
       "artist": "Neru",
       "count": 3
@@ -4416,11 +4451,6 @@
     {
       "title": "愛をこめて花束を",
       "artist": "Superfly",
-      "count": 3
-    },
-    {
-      "title": "愛錠",
-      "artist": "LiSA",
       "count": 3
     },
     {
@@ -4661,11 +4691,6 @@
     {
       "title": "DANZEN!ふたりはプリキュア Ver.MaxHeart",
       "artist": "五條真由美",
-      "count": 2
-    },
-    {
-      "title": "DESIRE -情熱-",
-      "artist": "中森明菜",
       "count": 2
     },
     {
@@ -5204,11 +5229,6 @@
       "count": 2
     },
     {
-      "title": "サイサキ",
-      "artist": "Reol",
-      "count": 2
-    },
-    {
       "title": "サイレントマジョリティー",
       "artist": "欅坂46",
       "count": 2
@@ -5221,11 +5241,6 @@
     {
       "title": "ジャンキーダウン",
       "artist": "Fushi",
-      "count": 2
-    },
-    {
-      "title": "ジャンキーナイトタウンオーケストラ",
-      "artist": "すりぃ",
       "count": 2
     },
     {
@@ -5299,11 +5314,6 @@
       "count": 2
     },
     {
-      "title": "ハングリーニコル",
-      "artist": "煮ル果実",
-      "count": 2
-    },
-    {
       "title": "ハートキャッチ☆パラダイス!",
       "artist": "工藤真由",
       "count": 2
@@ -5350,17 +5360,17 @@
     },
     {
       "title": "フロントメモリー",
-      "artist": "神聖かまってちゃん",
-      "count": 2
-    },
-    {
-      "title": "フロントメモリー",
       "artist": "鈴木瑛美子×亀田誠治",
       "count": 2
     },
     {
       "title": "ブリキノダンス",
       "artist": "日向電工",
+      "count": 2
+    },
+    {
+      "title": "プレイバック Part2",
+      "artist": "山口百恵",
       "count": 2
     },
     {
@@ -5559,11 +5569,6 @@
       "count": 2
     },
     {
-      "title": "名もなき何もかも",
-      "artist": "トゲナシトゲアリ",
-      "count": 2
-    },
-    {
       "title": "君って",
       "artist": "西野カナ",
       "count": 2
@@ -5756,6 +5761,11 @@
     {
       "title": "桜の木になろう",
       "artist": "AKB48",
+      "count": 2
+    },
+    {
+      "title": "毒占欲",
+      "artist": "DECO*27",
       "count": 2
     },
     {
@@ -7109,11 +7119,6 @@
       "count": 1
     },
     {
-      "title": "プレイバック Part2",
-      "artist": "山口百恵",
-      "count": 1
-    },
-    {
       "title": "プロトディスコ",
       "artist": "ぬゆり",
       "count": 1
@@ -7656,11 +7661,6 @@
     {
       "title": "残酷な夜に輝け",
       "artist": "LiSA",
-      "count": 1
-    },
-    {
-      "title": "毒占欲",
-      "artist": "DECO*27",
       "count": 1
     },
     {
